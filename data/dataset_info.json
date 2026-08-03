@@ -1,0 +1,39 @@
+{
+  "split": "test",
+  "directed": false,
+  "algorithms": [
+    "er",
+    "ba",
+    "sbm",
+    "sfn",
+    "complete",
+    "star",
+    "path"
+  ],
+  "layouts": [
+    "spring",
+    "kamada_kawai",
+    "circular",
+    "planar"
+  ],
+  "text_encoders": [
+    "adjacency"
+  ],
+  "random_seed": 1234,
+  "number_of_graphs": 350,
+  "files": {
+    "edge_existence_adjacency_test.jsonl": 350,
+    "node_degree_adjacency_test.jsonl": 350,
+    "node_count_adjacency_test.jsonl": 350,
+    "edge_count_adjacency_test.jsonl": 350,
+    "connected_nodes_adjacency_test.jsonl": 350,
+    "cycle_check_adjacency_test.jsonl": 350,
+    "disconnected_nodes_adjacency_test.jsonl": 350,
+    "reachability_adjacency_test.jsonl": 350,
+    "shortest_path_adjacency_test.jsonl": 350,
+    "maximum_flow_adjacency_test.jsonl": 350,
+    "node_classification_adjacency_test.jsonl": 350,
+    "triangle_counting_adjacency_test.jsonl": 350
+  },
+  "number_of_images": 3556
+}
