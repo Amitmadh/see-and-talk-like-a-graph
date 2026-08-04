@@ -9,6 +9,7 @@ from experiments.utils import log
 
 def run_experiment(
     samples,
+    config=None,
     model=None,
     mode="image_and_text",
     image_type=None,
@@ -122,7 +123,10 @@ import argparse
 import os
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
+
     parser.add_argument("--config", default="experiments/configs/baseline.yaml")
+    log("Loading configuration from: " + parser.parse_args().config)
+
     args = parser.parse_args()
 
 
@@ -139,7 +143,7 @@ if __name__ == "__main__":
         for task in tasks:
             for image_type in image_types:
         
-                print(f"Running experiment for task: {task}, modality: {modality}, image_type: {image_type}")
+                log(f"Running experiment for task: {task}, modality: {modality}, image_type: {image_type}")
 
                 dataset_dir = (
                     root / 
