@@ -135,30 +135,32 @@ if __name__ == "__main__":
     model = config.get("model")
     text_encoding = config.get("text_encoding")
 
-    for modality, task, image_type in zip(modalities, tasks, image_types):
+    for modality in modalities:
+        for task in tasks:
+            for image_type in image_types:
         
-        print(f"Running experiment for task: {task}, modality: {modality}, image_type: {image_type}")
+                print(f"Running experiment for task: {task}, modality: {modality}, image_type: {image_type}")
 
-        dataset_dir = (
-            root / 
-            config["data_dir"] /
-            f"{task}_{text_encoding}_test.jsonl"
-        )
-        dataset = load_graphqa_dataset(
-            dataset_dir=dataset_dir
-        )
+                dataset_dir = (
+                    root / 
+                    config["data_dir"] /
+                    f"{task}_{text_encoding}_test.jsonl"
+                )
+                dataset = load_graphqa_dataset(
+                    dataset_dir=dataset_dir
+                )
 
-        results = run_experiment(
-            dataset,
-            #model,
-            config
-        )
+                results = run_experiment(
+                    dataset,
+                    #model,
+                    config
+                )
 
-        output_dir = config["output_dir"] + f"{modality}/" + f"{task}/" + f"{image_type}" + f".jsonl"
-        if model:
-            output_dir = config["output_dir"] + f"{modality}/" + f"{task}/" + f"{image_type}" + f"{model.name}" + f".jsonl"
+                output_dir = config["output_dir"] + f"{modality}/" + f"{task}/" + f"{image_type}" + f".jsonl"
+                if model:
+                    output_dir = config["output_dir"] + f"{modality}/" + f"{task}/" + f"{image_type}" + f"{model.name}" + f".jsonl"
 
-        save_results(
-            results,
-            output_dir
-        )
+                save_results(
+                    results,
+                    output_dir
+                )
