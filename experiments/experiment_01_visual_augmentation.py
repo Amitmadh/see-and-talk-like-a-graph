@@ -73,7 +73,7 @@ def run_experiment(
 
         else: 
             outputs = []
-        #else:
+        # TODO: once the model is implemented, uncomment the following line
         #    outputs = model.generate_batch(inputs)
 
 
