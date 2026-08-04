@@ -24,9 +24,11 @@ The three evaluation settings of the paper map onto the record fields as:
                    + record["question"]
     text+image  -> record["prompt_text"] + record["images"][layout]
 
-`extra_context` is empty for every task except `node_classification`, where the
+`extra_context` carries prompt content that is not the graph encoding itself.
+It is empty for most tasks. Two exceptions: `node_classification`, where the
 already-known node labels are part of the prompt and cannot be read off the
-image.
+image; and `maximum_flow`, where the edge capacities are appended because no
+text encoder emits them while the image draws them (see `capacity_context`).
 
 By default only the 7 tasks of the published GraphQA benchmark are built, so
 the results stay comparable to Table 1 of "Talk like a Graph". The released
@@ -40,7 +42,8 @@ import hashlib
 import json
 import os
 import random
-from typing import Any, Iterator, Sequence
+import re
+from typing import Any, Iterator, Mapping, Sequence
 
 import networkx as nx
 import numpy as np
@@ -195,18 +198,44 @@ def build_graphs(
 
 
 def serialize_graph(graph: nx.Graph) -> dict[str, Any]:
-  """Turns a graph into a JSON-serialisable dict."""
+  """Turns a graph into a JSON-serialisable dict.
+
+  Node attributes are included when present, so the record stays
+  self-contained. This matters for `node_classification`, whose gold answer is
+  a function of the SBM `block` attribute: without it the label cannot be
+  checked against the graph and has to be taken on trust.
+
+  The key is omitted entirely for attribute-free graphs, so their serialisation
+  -- and therefore their `graph_digest` and image file names -- is unchanged.
+  """
   edges = []
   for source, target, data in graph.edges(data=True):
     edge: dict[str, Any] = {'source': source, 'target': target}
     if 'weight' in data:
       edge['weight'] = int(data['weight'])
     edges.append(edge)
-  return {
+  serialized: dict[str, Any] = {
       'directed': graph.is_directed(),
       'nodes': sorted(graph.nodes()),
       'edges': edges,
   }
+  attributes = {
+      str(node): {k: _jsonable(v) for k, v in graph.nodes[node].items()}
+      for node in sorted(graph.nodes())
+      if graph.nodes[node]
+  }
+  if attributes:
+    serialized['node_attributes'] = attributes
+  return serialized
+
+
+def _jsonable(value: Any) -> Any:
+  """Numpy scalars leak in from the SBM generator; JSON cannot encode them."""
+  if isinstance(value, (np.integer,)):
+    return int(value)
+  if isinstance(value, (np.floating,)):
+    return float(value)
+  return value
 
 
 def graph_digest(graph: nx.Graph, labels: dict[Any, str]) -> str:
@@ -256,6 +285,83 @@ def _strip_question(question: str, task_description: str) -> str:
   return question[: len(question) - len(task_description)]
 
 
+def capacity_context(graph: nx.Graph, name_dict: Mapping[Any, str]) -> str:
+  """A sentence listing edge capacities, for graphs that carry weights.
+
+  None of the encoders in `graph_text_encoders` emit edge weights, but
+  `MaximumFlow` assigns them and its answer depends on them entirely. Without
+  this the textual prompt is not a sufficient statistic for the label: two
+  graphs with the same topology and different capacities produce byte-identical
+  prompts and different answers. The rendered image, by contrast, *does* show
+  the capacities, so the text and image settings would not be comparable.
+
+  Adding the capacities here restores that comparability. It is a deliberate
+  departure from the released benchmark, which has no weighted encoder.
+
+  Args:
+    graph: the graph, possibly weighted.
+    name_dict: node -> label mapping, so the sentence names nodes the same way
+      the rest of the prompt and the image do.
+
+  Returns:
+    The sentence, or an empty string when the graph has no weights.
+  """
+  if not graph.edges():
+    return ''
+  parts = []
+  for source, target, data in graph.edges(data=True):
+    if 'weight' not in data:
+      return ''
+    parts.append(
+        '(%s, %s): %s' % (name_dict[source], name_dict[target], data['weight'])
+    )
+  return 'The capacity of each edge in G is: ' + ', '.join(parts) + '.\n'
+
+
+def node_classification_diagnostics(
+    graph: nx.Graph,
+    node_ids: Sequence[int],
+    extra_context: str,
+    name_dict: Mapping[Any, str],
+) -> dict[str, Any]:
+  """Measures whether a node classification instance is actually answerable.
+
+  The task labels roughly half the nodes in the prompt and asks for the class
+  of one more. The gold answer is that node's true SBM community, but the model
+  can only infer it from labelled *neighbours*. When the queried node has none,
+  the instance is a coin flip: the prompt does not determine the label.
+
+  This does not change the sampling -- that would deviate from the benchmark.
+  It records the condition so the analysis can report accuracy with and without
+  the ill-posed instances.
+
+  Args:
+    graph: the graph, carrying `block` attributes.
+    node_ids: the task's node ids; the queried node is the first.
+    extra_context: the prompt lines naming the already-known classes.
+    name_dict: node -> label mapping, used to map those lines back to nodes.
+
+  Returns:
+    Fields to merge into the record.
+  """
+  if not node_ids:
+    return {}
+  queried = node_ids[0]
+  label_to_node = {str(v): k for k, v in name_dict.items()}
+  labelled = set()
+  for line in extra_context.splitlines():
+    match = re.match(r'Node (.+?) likes (.+?)\.$', line.strip())
+    if match and match.group(1) in label_to_node:
+      labelled.add(label_to_node[match.group(1)])
+  neighbours = set(graph.neighbors(queried)) & labelled
+  return {
+      'labelled_neighbours': len(neighbours),
+      # False -> the prompt does not determine the answer; exclude from any
+      # accuracy that is meant to measure reasoning.
+      'answer_inferable': bool(neighbours),
+  }
+
+
 def build_records(
     task_name: str,
     graphs: Sequence[nx.Graph],
@@ -267,6 +373,7 @@ def build_records(
     layouts: Sequence[str] = graph_image_encoders.LAYOUTS,
     random_seed: int = 1234,
     render_images: bool = True,
+    include_capacities: bool = True,
 ) -> Iterator[dict[str, Any]]:
   """Yields one dataset record per graph for a single task and text encoder.
 
@@ -283,6 +390,10 @@ def build_records(
     layouts: which image layouts to render.
     random_seed: seed for example construction and layouts.
     render_images: set to False to emit the textual half only.
+    include_capacities: append edge capacities to `extra_context` for weighted
+      graphs, so the text setting has the same information as the image. Set to
+      False to reproduce the released benchmark's prompt, where the maximum
+      flow task is unanswerable from text alone.
 
   Yields:
     Dataset records as plain dicts.
@@ -325,6 +436,11 @@ def build_records(
     labels = {node: str(name_dict[node]) for node in graph.nodes()}
     digest = graph_digest(graph, labels)
 
+    # The image draws edge capacities; without this the text would not have
+    # them, and the maximum flow task would be unanswerable from text alone.
+    if include_capacities:
+      extra_context += capacity_context(graph, name_dict)
+
     images = {}
     for layout in layouts:
       file_name = '%s_%s.png' % (digest, layout)
@@ -342,7 +458,14 @@ def build_records(
           os.sep, '/'
       )
 
+    diagnostics: dict[str, Any] = {}
+    if task_name == 'node_classification':
+      diagnostics = node_classification_diagnostics(
+          graph, value['node_ids'], extra_context, name_dict
+      )
+
     yield {
+        **diagnostics,
         'sample_id': '%s/%s/%s/%d'
         % (task_name, encoding_method, split, index),
         'index': index,
@@ -356,7 +479,9 @@ def build_records(
         'text_encoding': graph_encoding,
         'extra_context': extra_context,
         'question': value['task_description'],
-        'prompt_text': value['question'],
+        # Rebuilt rather than reusing the task's glued string, since
+        # `extra_context` may now carry capacities the task did not emit.
+        'prompt_text': graph_encoding + extra_context + value['task_description'],
         'answer': value['answer'],
         'images': images,
         'graph': serialize_graph(graph),
@@ -395,6 +520,7 @@ def build_dataset(
     graphs_dir: str | None = None,
     random_seed: int = 1234,
     render_images: bool = True,
+    include_capacities: bool = True,
 ) -> dict[str, Any]:
   """Builds the full dataset on disk.
 
@@ -418,6 +544,8 @@ def build_dataset(
     graphs_dir: read graphs from disk instead of generating them.
     random_seed: seed for example construction and layouts.
     render_images: set to False for a text-only dry run.
+    include_capacities: append edge capacities to `extra_context` for weighted
+      graphs, so the text setting matches what the image shows.
 
   Returns:
     The dataset manifest, also written to `dataset_info.json`.
@@ -450,6 +578,7 @@ def build_dataset(
       'layouts': list(layouts),
       'text_encoders': list(text_encoders),
       'random_seed': random_seed,
+      'include_capacities': include_capacities,
       'number_of_graphs': len(graphs),
       'files': {},
   }
@@ -472,6 +601,7 @@ def build_dataset(
               layouts=layouts,
               random_seed=random_seed,
               render_images=render_images,
+              include_capacities=include_capacities,
           ),
           os.path.join(output_dir, file_name),
       )

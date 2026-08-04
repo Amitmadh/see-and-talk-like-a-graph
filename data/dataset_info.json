@@ -20,6 +20,7 @@
     "adjacency"
   ],
   "random_seed": 1234,
+  "include_capacities": true,
   "number_of_graphs": 350,
   "files": {
     "edge_existence_adjacency_test.jsonl": 350,

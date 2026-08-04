@@ -89,6 +89,13 @@ _DIRECTED = flags.DEFINE_bool(
 _RANDOM_SEED = flags.DEFINE_integer(
     'random_seed', 1234, 'The random seed to use.'
 )
+_INCLUDE_CAPACITIES = flags.DEFINE_bool(
+    'include_capacities',
+    True,
+    'Append edge capacities to the text for weighted graphs (maximum_flow). '
+    'The released encoders omit them, which makes that task unanswerable from '
+    'text while the image shows them. Set false to reproduce that behaviour.',
+)
 _RENDER_IMAGES = flags.DEFINE_bool(
     'render_images', True, 'Set to false for a text-only dry run.'
 )
@@ -125,6 +132,7 @@ def main(argv: Sequence[str]) -> None:
       graphs_dir=_GRAPHS_DIR.value,
       random_seed=_RANDOM_SEED.value,
       render_images=_RENDER_IMAGES.value,
+      include_capacities=_INCLUDE_CAPACITIES.value,
   )
   print(
       'Done. %d examples across %d files, %d images.'
