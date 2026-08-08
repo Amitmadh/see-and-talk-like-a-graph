@@ -1,0 +1,23 @@
+# Dependencies for the model service (models/).
+#
+# Laptop / stub path needs NONE of these except pyyaml (already used by the
+# experiment utils). Install the rest ONLY on the GPU cluster, inside your env,
+# before running the real Qwen model.
+
+# --- always ---
+pyyaml
+
+# --- GPU cluster only (real VLM inference) ---
+# Torch: install the build matching the cluster's CUDA version. See
+# https://pytorch.org/get-started/locally/ — e.g. the default CUDA wheel:
+torch
+torchvision
+
+# Qwen2.5-VL: the official model card recommends installing transformers from
+# source to avoid `KeyError: 'qwen2_5_vl'` on older releases. If a released
+# wheel >=4.49 works on the cluster you can pin that instead.
+#   pip install git+https://github.com/huggingface/transformers
+transformers>=4.49
+accelerate                       # device_map="auto" sharding
+qwen-vl-utils[decord]==0.0.8     # official helper: process_vision_info(messages)
+pillow                           # image handling

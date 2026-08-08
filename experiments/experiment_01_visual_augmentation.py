@@ -51,6 +51,9 @@ def run_experiment(
                 ),
 
                 "sample_id": sample.sample_id,
+
+                # the model needs the actual question to answer it
+                "question": sample.question,
             }
 
             inputs.append(input_data)
@@ -71,10 +74,8 @@ def run_experiment(
                 for _ in inputs
             ]
 
-        else: 
-            outputs = []
-        # TODO: once the model is implemented, uncomment the following line
-        #    outputs = model.generate_batch(inputs)
+        else:
+            outputs = model.generate_batch(inputs)
 
 
         for sample, output in zip(batch, outputs):
