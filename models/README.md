@@ -1,4 +1,4 @@
-# Model service (Task 2 — Model)
+# Model service (Task 2)
 
 Turns one dataset sample into a VLM answer, for three input settings
 (`text_only`, `image_only`, `image_and_text`). Plugs into the experiment loop
