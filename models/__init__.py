@@ -38,6 +38,13 @@ def get_model(name: str, **kwargs) -> VLMModel:
         kwargs.setdefault("model_id", "Qwen/Qwen2.5-VL-3B-Instruct")
         return QwenVLModel(**kwargs)
 
+    # --- Different-family model: LLaVA-NeXT. Stronger cross-model evidence. ---
+    if name in ("llava", "llava-next", "llava-1.6", "llava-v1.6"):
+        from .llava_model import LlavaModel  # lazy: keeps stub path dep-free
+
+        kwargs.setdefault("model_id", "llava-hf/llava-v1.6-mistral-7b-hf")
+        return LlavaModel(**kwargs)
+
     raise ValueError(f"Unknown model {name!r}")
 
 
