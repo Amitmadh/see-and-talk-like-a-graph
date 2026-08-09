@@ -27,6 +27,8 @@ export HF_HOME=/home/yandex/MLWG2026/itamarberger/huggingface
 export HF_HUB_CACHE=$HF_HOME/hub
 export TRITON_CACHE_DIR=/home/yandex/MLWG2026/itamarberger/triton_cache
 export HF_TOKEN="$HF_TOKEN"
+export XDG_CACHE_HOME=/home/yandex/MLWG2026/$USER/cache
+mkdir -p "$XDG_CACHE_HOME"
 
 unset TRANSFORMERS_CACHE
 
