@@ -67,7 +67,7 @@ def load_graphqa_dataset(dataset_dir: str) -> GraphQADataset:
             question=row["question"],
             answer=row["answer"],
 
-            text_encoding=row["text_encoding"],
+            text_encoding=row["text_encoding"] + + row.get("extra_context", ""),
 
             images=row.get("images", {}),
 
