@@ -107,6 +107,8 @@ def run_experiment(
                     "has_image": inputs[batch.index(sample)]["image"] is not None,
                 }
             })
+        # full scale experiment shou remove this line 
+        break
 
 
     log(
