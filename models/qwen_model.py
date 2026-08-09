@@ -27,6 +27,16 @@ from pathlib import Path
 from .base import VLMModel
 from . import prompts
 
+import os
+import time
+import psutil
+import torch
+
+from transformers import (
+    AutoProcessor,
+    Qwen2_5_VLForConditionalGeneration,
+)
+
 
 class QwenVLModel(VLMModel):
     def __init__(
@@ -38,31 +48,101 @@ class QwenVLModel(VLMModel):
         image_root: str | Path | None = None,
         use_flash_attention: bool = False,
     ):
-        # Heavy imports are done here (lazily), not at module top-level.
-        import torch
-        from transformers import (
-            AutoProcessor,
-            Qwen2_5_VLForConditionalGeneration,
-        )
+
+
+        def log(msg):
+            print(
+                f"[QWEN DEBUG {time.strftime('%H:%M:%S')}] {msg}",
+                flush=True,
+            )
+
+        process = psutil.Process(os.getpid())
+
+        def ram():
+            return process.memory_info().rss / 1024**3
+
+        log("=" * 60)
+        log("Starting Qwen2.5-VL initialization")
+        log(f"PID: {os.getpid()}")
+        log(f"Model: {model_id}")
+        log(f"Device map: {device_map}")
+        log(f"dtype: {dtype}")
+        log(f"Initial RAM: {ram():.2f} GB")
+        log(f"CUDA available: {torch.cuda.is_available()}")
+
+        if torch.cuda.is_available():
+            log(f"GPU: {torch.cuda.get_device_name(0)}")
+            log(
+                f"GPU memory allocated: "
+                f"{torch.cuda.memory_allocated() / 1024**3:.2f} GB"
+            )
+            log(
+                f"GPU memory reserved: "
+                f"{torch.cuda.memory_reserved() / 1024**3:.2f} GB"
+            )
+
+        log(f"HF_HOME: {os.environ.get('HF_HOME')}")
+        log(f"HF_HUB_CACHE: {os.environ.get('HF_HUB_CACHE')}")
+        log(f"TRANSFORMERS_CACHE: {os.environ.get('TRANSFORMERS_CACHE')}")
 
         self.name = model_id.split("/")[-1]
         self.model_id = model_id
         self.max_new_tokens = max_new_tokens
-        # Images in the dataset are stored as relative paths (e.g. "images/xxx.png");
-        # image_root is prepended so we can build absolute file:// URIs.
         self.image_root = Path(image_root) if image_root else None
 
-        load_kwargs = {"torch_dtype": dtype, "device_map": device_map}
+        load_kwargs = {
+            "torch_dtype": dtype,
+            "device_map": device_map,
+        }
+
         if use_flash_attention:
-            # Official recommendation for multi-image/video throughput.
             load_kwargs["torch_dtype"] = torch.bfloat16
             load_kwargs["attn_implementation"] = "flash_attention_2"
 
+        # ---------------------------------------------------------
+        # MODEL
+        # ---------------------------------------------------------
+
+        log("Starting Qwen2_5_VLForConditionalGeneration.from_pretrained()")
+        t0 = time.time()
+
         self.model = Qwen2_5_VLForConditionalGeneration.from_pretrained(
-            model_id, **load_kwargs
+            model_id,
+            **load_kwargs,
         )
+
+        log(
+            f"MODEL LOADED in {time.time() - t0:.1f} seconds "
+            f"({(time.time() - t0) / 60:.1f} minutes)"
+        )
+        log(f"RAM after model: {ram():.2f} GB")
+
+        if torch.cuda.is_available():
+            log(
+                f"GPU memory after model: "
+                f"{torch.cuda.memory_allocated() / 1024**3:.2f} GB allocated"
+            )
+            log(
+                f"GPU memory reserved after model: "
+                f"{torch.cuda.memory_reserved() / 1024**3:.2f} GB"
+            )
+
+        # ---------------------------------------------------------
+        # PROCESSOR
+        # ---------------------------------------------------------
+
+        log("Starting AutoProcessor.from_pretrained()")
+        t0 = time.time()
+
         self.processor = AutoProcessor.from_pretrained(model_id)
 
+        log(
+            f"PROCESSOR LOADED in {time.time() - t0:.1f} seconds"
+        )
+        log(f"RAM after processor: {ram():.2f} GB")
+
+        log("Qwen initialization complete")
+        log("=" * 60)
     # ----------------------------------------------------------------- helpers
     def _image_uri(self, image_path: str) -> str:
         """Turn a dataset image path into the 'file:///abs/path' Qwen expects."""
