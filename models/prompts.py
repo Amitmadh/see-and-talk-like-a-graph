@@ -21,6 +21,18 @@ TEXT_AND_IMAGE = "image_and_text"
 
 SETTINGS = {TEXT_ONLY, IMAGE_ONLY, TEXT_AND_IMAGE}
 
+FORMAT_RESTRICTION_PROMPT = """
+Answer with exactly one value and nothing else.
+
+For yes/no questions, output exactly:
+True
+or
+False
+
+For numeric questions, output only the number.
+"""
+
+
 
 _INSTRUCTIONS = {
     TEXT_ONLY: (
@@ -58,7 +70,7 @@ def build_prompt(setting: str, text: str | None, question: str) -> str:
     instruction = _INSTRUCTIONS[setting]
 
     if setting == IMAGE_ONLY:
-        return f"{instruction}\n\n{question}"
+        return f"{instruction}\n\n{FORMAT_RESTRICTION_PROMPT.strip()}\n\n{question}"
 
     # text_only and image_and_text both include the text encoding.
-    return f"{instruction}\n\n{text}\n{question}"
+    return f"{instruction}\n\n{text}\n\n{FORMAT_RESTRICTION_PROMPT.strip()}\n\n{question}"

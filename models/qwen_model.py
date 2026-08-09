@@ -176,6 +176,12 @@ class QwenVLModel(VLMModel):
         import torch
         from qwen_vl_utils import process_vision_info
 
+        def log(msg):
+            print(
+                f"[QWEN DEBUG {time.strftime('%H:%M:%S')}] {msg}",
+                flush=True,
+            )
+
         settings = [self._infer_setting(item) for item in inputs]
         batch_messages = [self._build_messages(item) for item in inputs]
 
@@ -187,6 +193,12 @@ class QwenVLModel(VLMModel):
             for m in batch_messages
         ]
 
+        for idx, (messages, text) in enumerate(zip(batch_messages, texts), start=1):
+            prompt_text = messages[0]["content"][-1].get("text", "")
+            log(f"Batch sample {idx} raw prompt: {prompt_text}")
+            log(f"Batch sample {idx} rendered model input:\n{text}")
+            break
+
         # 2) extract vision inputs across the whole batch (official helper).
         image_inputs, video_inputs = process_vision_info(batch_messages)
 
@@ -197,7 +209,7 @@ class QwenVLModel(VLMModel):
             videos=video_inputs,
             padding=True,
             return_tensors="pt",
-        ).to(self.model.device)
+        ).to(self.model.device)        
 
         # 4) generate (scores requested so we can compute a confidence proxy).
         with torch.no_grad():
