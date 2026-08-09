@@ -13,21 +13,26 @@
 #SBATCH --mail-user=itamarberger@mail.tau.ac.il
 #SBATCH --mail-type=FAIL,END
 
-# Set working directory according to the user currently running the job
 cd /home/yandex/MLWG2026/$USER/see-and-talk-like-a-graph
 
-# Make sure that files that are created by this script are accessible by everyone
 umask 0002
 
-# activate conda environment
-source /home/yandex/MLWG2026/itamarberger/miniconda3/etc/profile.d/conda.csh
-
+# Initialize Conda for BASH
+source /home/yandex/MLWG2026/itamarberger/miniconda3/etc/profile.d/conda.sh
 conda activate see-talk
+
+# Hugging Face cache on large filesystem
+export HF_HOME=/home/yandex/MLWG2026/itamarberger/huggingface
 
 echo "Running experiment 01 of visual augmentation"
 
-SCRIPT_CMD="python experiments/experiment_01_visual_augmentation.py"
+echo "Python:"
+which python
+python --version
 
-echo "Running command : $SCRIPT_CMD"
+echo "Conda environment:"
+echo $CONDA_PREFIX
 
-bash $SCRIPT_CMD
+echo "Running command: python experiments/experiment_01_visual_augmentation.py"
+
+python -m experiments.experiment_01_visual_augmentation

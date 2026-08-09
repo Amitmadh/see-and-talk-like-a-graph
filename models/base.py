@@ -29,7 +29,6 @@ Each output dict should contain at least:
 from __future__ import annotations
 from abc import ABC, abstractmethod
 
-from .qwen_model import *
 
 class VLMModel(ABC):
     """Abstract base for all model wrappers (stub, Qwen, LLaVA, ...)."""
