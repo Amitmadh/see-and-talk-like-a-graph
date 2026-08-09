@@ -135,7 +135,7 @@ class QwenVLModel(VLMModel):
         t0 = time.time()
 
         self.processor = AutoProcessor.from_pretrained(model_id)
-
+        self.processor.tokenizer.padding_side = "left"
         log(
             f"PROCESSOR LOADED in {time.time() - t0:.1f} seconds"
         )

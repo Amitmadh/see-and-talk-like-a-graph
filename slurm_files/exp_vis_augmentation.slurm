@@ -10,6 +10,7 @@
 #SBATCH --ntasks=1
 #SBATCH --mem=50000
 #SBATCH --cpus-per-task=4
+#SBATCH --gpus=1 # GPUs in total
 #SBATCH --mail-user=itamarberger@mail.tau.ac.il
 #SBATCH --mail-type=FAIL,END
 
@@ -23,6 +24,13 @@ conda activate see-talk
 
 # Hugging Face cache on large filesystem
 export HF_HOME=/home/yandex/MLWG2026/itamarberger/huggingface
+export HF_HUB_CACHE=$HF_HOME/hub
+export TRITON_CACHE_DIR=/home/yandex/MLWG2026/itamarberger/triton_cache
+export HF_TOKEN="$HF_TOKEN"
+
+unset TRANSFORMERS_CACHE
+
+mkdir -p "$TRITON_CACHE_DIR"
 
 echo "Running experiment 01 of visual augmentation"
 
@@ -34,5 +42,10 @@ echo "Conda environment:"
 echo $CONDA_PREFIX
 
 echo "Running command: python experiments/experiment_01_visual_augmentation.py"
-
+echo "Environment: $CONDA_DEFAULT_ENV"
+echo "HF_HOME: $HF_HOME"
+echo "HF_HUB_CACHE: $HF_HUB_CACHE"
+echo "TRITON_CACHE_DIR: $TRITON_CACHE_DIR"
+echo "TRANSFORMERS_CACHE: ${TRANSFORMERS_CACHE:-unset}"
+echo "HF_HUB_OFFLINE: ${HF_HUB_OFFLINE:-0}"
 python -m experiments.experiment_01_visual_augmentation
