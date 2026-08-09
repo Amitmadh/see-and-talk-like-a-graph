@@ -1,0 +1,146 @@
+[
+  {
+    "sample_id": "connected_nodes/adjacency/test/0",
+    "question": "Q: List all the nodes connected to 14 in alphabetical order.\nA: ",
+    "expected_answer": "2, 5.",
+    "model_answer": "2",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2",
+      "confidence": 0.06896551698446274,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/1",
+    "question": "Q: List all the nodes connected to 1 in alphabetical order.\nA: ",
+    "expected_answer": "3, 6, 7.",
+    "model_answer": "3, 7",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3, 7",
+      "confidence": 0.17241379618644714,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/2",
+    "question": "Q: List all the nodes connected to 0 in alphabetical order.\nA: ",
+    "expected_answer": " No nodes.",
+    "model_answer": "1",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": 0.06896551698446274,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/3",
+    "question": "Q: List all the nodes connected to 2 in alphabetical order.\nA: ",
+    "expected_answer": "3.",
+    "model_answer": "3",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3",
+      "confidence": 0.06896551698446274,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/4",
+    "question": "Q: List all the nodes connected to 1 in alphabetical order.\nA: ",
+    "expected_answer": "2, 6, 9, 15.",
+    "model_answer": "2, 6, 7",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2, 6, 7",
+      "confidence": 0.27586206793785095,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/5",
+    "question": "Q: List all the nodes connected to 10 in alphabetical order.\nA: ",
+    "expected_answer": "1, 2, 3, 4, 5, 7, 8, 9, 12.",
+    "model_answer": "1, 4, 6, 7, 8, 9, 10, 11, 12",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1, 4, 6, 7, 8, 9, 10, 11, 12",
+      "confidence": 0.982758641242981,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/6",
+    "question": "Q: List all the nodes connected to 2 in alphabetical order.\nA: ",
+    "expected_answer": "3, 14.",
+    "model_answer": "3",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3",
+      "confidence": 0.06896551698446274,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/7",
+    "question": "Q: List all the nodes connected to 1 in alphabetical order.\nA: ",
+    "expected_answer": "0, 2, 3, 4, 5, 6.",
+    "model_answer": "0, 2, 3, 4, 5",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0, 2, 3, 4, 5",
+      "confidence": 0.48275861144065857,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  }
+]

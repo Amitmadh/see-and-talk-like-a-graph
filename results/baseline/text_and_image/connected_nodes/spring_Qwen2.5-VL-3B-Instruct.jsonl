@@ -1,0 +1,146 @@
+[
+  {
+    "sample_id": "connected_nodes/adjacency/test/0",
+    "question": "Q: List all the nodes connected to 14 in alphabetical order.\nA: ",
+    "expected_answer": "2, 5.",
+    "model_answer": "2, 12, 14",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2, 12, 14",
+      "confidence": 0.3999999761581421,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/1",
+    "question": "Q: List all the nodes connected to 1 in alphabetical order.\nA: ",
+    "expected_answer": "3, 6, 7.",
+    "model_answer": "1",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": 0.07999999821186066,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/2",
+    "question": "Q: List all the nodes connected to 0 in alphabetical order.\nA: ",
+    "expected_answer": " No nodes.",
+    "model_answer": "0",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": 0.07999999821186066,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/3",
+    "question": "Q: List all the nodes connected to 2 in alphabetical order.\nA: ",
+    "expected_answer": "3.",
+    "model_answer": "2",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2",
+      "confidence": 0.07999999821186066,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/4",
+    "question": "Q: List all the nodes connected to 1 in alphabetical order.\nA: ",
+    "expected_answer": "2, 6, 9, 15.",
+    "model_answer": "2, 6, 9, 15",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2, 6, 9, 15",
+      "confidence": 0.47999998927116394,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/5",
+    "question": "Q: List all the nodes connected to 10 in alphabetical order.\nA: ",
+    "expected_answer": "1, 2, 3, 4, 5, 7, 8, 9, 12.",
+    "model_answer": "1, 4, 6, 7, 8, 9, 11, 12",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1, 4, 6, 7, 8, 9, 11, 12",
+      "confidence": 1.0,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/6",
+    "question": "Q: List all the nodes connected to 2 in alphabetical order.\nA: ",
+    "expected_answer": "3, 14.",
+    "model_answer": "3, 14",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3, 14",
+      "confidence": 0.23999999463558197,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/7",
+    "question": "Q: List all the nodes connected to 1 in alphabetical order.\nA: ",
+    "expected_answer": "0, 2, 3, 4, 5, 6.",
+    "model_answer": "0, 2, 3, 4, 5, 6, 7",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0, 2, 3, 4, 5, 6, 7",
+      "confidence": 0.7733333706855774,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  }
+]

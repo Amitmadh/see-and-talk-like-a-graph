@@ -1,0 +1,146 @@
+[
+  {
+    "sample_id": "shortest_path/adjacency/test/0",
+    "question": "Q: What is the length of the shortest path from node 14 to node 3?\nA: ",
+    "expected_answer": "2.",
+    "model_answer": "2",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2",
+      "confidence": 0.5,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/1",
+    "question": "Q: What is the length of the shortest path from node 0 to node 1?\nA: ",
+    "expected_answer": "2.",
+    "model_answer": "3",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3",
+      "confidence": 0.6666666865348816,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/2",
+    "question": "Q: What is the length of the shortest path from node 4 to node 0?\nA: ",
+    "expected_answer": "There is no path from node 4 to node 0.",
+    "model_answer": "3",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3",
+      "confidence": 0.6666666865348816,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/3",
+    "question": "Q: What is the length of the shortest path from node 2 to node 1?\nA: ",
+    "expected_answer": "2.",
+    "model_answer": "3",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3",
+      "confidence": 0.6666666865348816,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/4",
+    "question": "Q: What is the length of the shortest path from node 11 to node 3?\nA: ",
+    "expected_answer": "2.",
+    "model_answer": "5",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "5",
+      "confidence": 0.6666666865348816,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/5",
+    "question": "Q: What is the length of the shortest path from node 0 to node 12?\nA: ",
+    "expected_answer": "1.",
+    "model_answer": "12",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "12",
+      "confidence": 1.0,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/6",
+    "question": "Q: What is the length of the shortest path from node 0 to node 11?\nA: ",
+    "expected_answer": "There is no path from node 0 to node 11.",
+    "model_answer": "5",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "5",
+      "confidence": 0.6666666865348816,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/7",
+    "question": "Q: What is the length of the shortest path from node 7 to node 4?\nA: ",
+    "expected_answer": "2.",
+    "model_answer": "4",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "4",
+      "confidence": 0.5,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  }
+]

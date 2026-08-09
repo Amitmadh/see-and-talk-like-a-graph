@@ -1,0 +1,146 @@
+[
+  {
+    "sample_id": "node_count/adjacency/test/0",
+    "question": "Q: How many nodes are in this graph?\nA: ",
+    "expected_answer": " 17.",
+    "model_answer": "16",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "16",
+      "confidence": 1.0,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "node_count/adjacency/test/1",
+    "question": "Q: How many nodes are in this graph?\nA: ",
+    "expected_answer": " 13.",
+    "model_answer": "12",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "12",
+      "confidence": 1.0,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "node_count/adjacency/test/2",
+    "question": "Q: How many nodes are in this graph?\nA: ",
+    "expected_answer": " 5.",
+    "model_answer": "4",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "4",
+      "confidence": 0.6666666865348816,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "node_count/adjacency/test/3",
+    "question": "Q: How many nodes are in this graph?\nA: ",
+    "expected_answer": " 16.",
+    "model_answer": "16",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "16",
+      "confidence": 1.0,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "node_count/adjacency/test/4",
+    "question": "Q: How many nodes are in this graph?\nA: ",
+    "expected_answer": " 16.",
+    "model_answer": "15",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "15",
+      "confidence": 1.0,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "node_count/adjacency/test/5",
+    "question": "Q: How many nodes are in this graph?\nA: ",
+    "expected_answer": " 13.",
+    "model_answer": "13",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "13",
+      "confidence": 1.0,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "node_count/adjacency/test/6",
+    "question": "Q: How many nodes are in this graph?\nA: ",
+    "expected_answer": " 18.",
+    "model_answer": "17",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "17",
+      "confidence": 1.0,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "node_count/adjacency/test/7",
+    "question": "Q: How many nodes are in this graph?\nA: ",
+    "expected_answer": " 8.",
+    "model_answer": "8",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "8",
+      "confidence": 0.6666666865348816,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  }
+]

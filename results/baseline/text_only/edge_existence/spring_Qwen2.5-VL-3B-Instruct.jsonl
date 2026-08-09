@@ -1,0 +1,146 @@
+[
+  {
+    "sample_id": "edge_existence/adjacency/test/0",
+    "question": "Q: Is node 14 connected to node 3?\nA: ",
+    "expected_answer": "No.",
+    "model_answer": "True",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 1.0,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_existence/adjacency/test/1",
+    "question": "Q: Is node 0 connected to node 1?\nA: ",
+    "expected_answer": "No.",
+    "model_answer": "False",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "False",
+      "confidence": 1.0,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_existence/adjacency/test/2",
+    "question": "Q: Is node 4 connected to node 0?\nA: ",
+    "expected_answer": "No.",
+    "model_answer": "False",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "False",
+      "confidence": 1.0,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_existence/adjacency/test/3",
+    "question": "Q: Is node 2 connected to node 1?\nA: ",
+    "expected_answer": "No.",
+    "model_answer": "True",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 1.0,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_existence/adjacency/test/4",
+    "question": "Q: Is node 11 connected to node 3?\nA: ",
+    "expected_answer": "No.",
+    "model_answer": "True",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 1.0,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_existence/adjacency/test/5",
+    "question": "Q: Is node 0 connected to node 12?\nA: ",
+    "expected_answer": "Yes.",
+    "model_answer": "True",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 1.0,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_existence/adjacency/test/6",
+    "question": "Q: Is node 0 connected to node 11?\nA: ",
+    "expected_answer": "No.",
+    "model_answer": "False",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "False",
+      "confidence": 1.0,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_existence/adjacency/test/7",
+    "question": "Q: Is node 7 connected to node 4?\nA: ",
+    "expected_answer": "No.",
+    "model_answer": "False",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "False",
+      "confidence": 1.0,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  }
+]
