@@ -10,7 +10,7 @@ tasks:
   - node_count
   - edge_existence
 
-model: null
+model: qwen-3b
    #Qwen2.5-VL
 
 
