@@ -193,11 +193,6 @@ class QwenVLModel(VLMModel):
             for m in batch_messages
         ]
 
-        for idx, (messages, text) in enumerate(zip(batch_messages, texts), start=1):
-            prompt_text = messages[0]["content"][-1].get("text", "")
-            log(f"Batch sample {idx} raw prompt: {prompt_text}")
-            log(f"Batch sample {idx} rendered model input:\n{text}")
-            break
 
         # 2) extract vision inputs across the whole batch (official helper).
         image_inputs, video_inputs = process_vision_info(batch_messages)
