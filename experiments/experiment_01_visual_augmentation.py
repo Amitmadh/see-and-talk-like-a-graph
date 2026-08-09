@@ -16,7 +16,7 @@ def run_experiment(
     model=None,
     mode="image_and_text",
     image_type=None,
-    batch_size=1,
+    batch_size=16,
 ):
 
     results = []
