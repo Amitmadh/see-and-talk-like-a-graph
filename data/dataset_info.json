@@ -21,6 +21,7 @@
   ],
   "random_seed": 1234,
   "include_capacities": true,
+  "annotate_known_labels": true,
   "number_of_graphs": 350,
   "files": {
     "edge_existence_adjacency_test.jsonl": 350,
@@ -36,5 +37,5 @@
     "node_classification_adjacency_test.jsonl": 350,
     "triangle_counting_adjacency_test.jsonl": 350
   },
-  "number_of_images": 3556
+  "number_of_images": 3672
 }
