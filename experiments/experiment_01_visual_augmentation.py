@@ -8,7 +8,7 @@ EXP_MODES = {
 
 from experiments.utils import log
 from models import get_model
-
+from models.qwen_model import *
 
 def run_experiment(
     samples,
@@ -118,6 +118,34 @@ def run_experiment(
 
     return results
 
+
+def sanity_check_model(model, sample, mode, image_type):
+    """Run a single sample through the model and log the first answer."""
+    input_data = {
+        "text": sample.text_encoding if mode != "image_only" else None,
+        "image": sample.images.get(image_type) if mode != "text_only" else None,
+        "sample_id": sample.sample_id,
+        "question": sample.question,
+    }
+
+    try:
+        output = model.generate_batch([input_data])[0]
+    except Exception as exc:
+        log(f"Sanity check failed for sample {sample.sample_id}: {exc}")
+        return
+
+    answer = output.get("answer")
+    status = output.get("status", "unknown")
+    log(
+        f"Sanity check sample={sample.sample_id} "
+        f"mode={mode} image_type={image_type} "
+        f"status={status} answer={answer!r}"
+    )
+
+    if status != "ok" or not answer:
+        log("Sanity check warning: model returned an invalid or empty response.")
+
+
 from experiments.utils import load_config, save_results
 from datasets.graph_qa_dataset import load_graphqa_dataset
 
@@ -166,6 +194,14 @@ if __name__ == "__main__":
                 dataset = load_graphqa_dataset(
                     dataset_dir=dataset_dir
                 )
+
+                if model is not None and len(dataset) > 0:
+                    sanity_check_model(
+                        model=model,
+                        sample=dataset[0],
+                        mode=modality,
+                        image_type=image_type,
+                    )
 
                 results = run_experiment(
                     dataset,
