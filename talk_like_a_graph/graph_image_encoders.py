@@ -59,6 +59,7 @@ _MIN_FONT_SIZE = 7
 _EDGE_FONT_SIZE = 9
 # Rough width of one character as a fraction of the font size.
 _CHAR_WIDTH_RATIO = 0.62
+_ANNOTATION_COLOR = '#8a3b1e'
 _NODE_COLOR = '#cfe2f3'
 _NODE_EDGE_COLOR = '#31537a'
 _EDGE_COLOR = '#4a4a4a'
@@ -147,6 +148,7 @@ def draw_graph(
     layout: str = 'kamada_kawai',
     random_seed: int = 1234,
     name_dict: Mapping[Any, str] | None = None,
+    node_annotations: Mapping[Any, str] | None = None,
 ) -> str:
   """Renders a graph to a PNG file.
 
@@ -158,6 +160,9 @@ def draw_graph(
     layout: one of `LAYOUTS`.
     random_seed: seed for the layout.
     name_dict: explicit node -> label mapping, overriding `encoding_method`.
+    node_annotations: extra text drawn beside particular nodes, e.g. the
+      already-known classes in node classification. Only pass information the
+      prompt already reveals -- anything else leaks the answer.
 
   Returns:
     The path the image was written to.
@@ -218,6 +223,24 @@ def draw_graph(
       font_color='black',
   )
 
+  if node_annotations:
+    # Placed just outside the node marker so it never covers the node label.
+    radius_points = math.sqrt(node_size / math.pi)
+    for node, text in node_annotations.items():
+      if node not in positions:
+        continue
+      axes.annotate(
+          text,
+          xy=positions[node],
+          xytext=(0, -(radius_points + 2)),
+          textcoords='offset points',
+          ha='center',
+          va='top',
+          fontsize=max(_MIN_FONT_SIZE, font_size - 1),
+          color=_ANNOTATION_COLOR,
+          bbox=dict(boxstyle='round,pad=0.15', fc='white', ec='none', alpha=0.9),
+      )
+
   weights = _edge_weights(graph)
   if weights is not None:
     nx.draw_networkx_edge_labels(
@@ -252,6 +275,7 @@ def draw_graph_variants(
     layouts: Sequence[str] = LAYOUTS,
     random_seed: int = 1234,
     name_dict: Mapping[Any, str] | None = None,
+    node_annotations: Mapping[Any, str] | None = None,
 ) -> dict[str, str]:
   """Renders one image per layout for the same graph.
 
@@ -280,5 +304,6 @@ def draw_graph_variants(
         layout=layout,
         random_seed=random_seed,
         name_dict=name_dict,
+        node_annotations=node_annotations,
     )
   return paths

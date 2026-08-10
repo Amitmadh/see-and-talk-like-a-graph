@@ -96,6 +96,13 @@ _INCLUDE_CAPACITIES = flags.DEFINE_bool(
     'The released encoders omit them, which makes that task unanswerable from '
     'text while the image shows them. Set false to reproduce that behaviour.',
 )
+_ANNOTATE_KNOWN_LABELS = flags.DEFINE_bool(
+    'annotate_known_labels',
+    True,
+    "Draw node classification's already-known classes on the image, so its "
+    'image-only setting does not silently receive them as text. Only the '
+    'revealed labels are drawn, never the queried node.',
+)
 _RENDER_IMAGES = flags.DEFINE_bool(
     'render_images', True, 'Set to false for a text-only dry run.'
 )
@@ -133,6 +140,7 @@ def main(argv: Sequence[str]) -> None:
       random_seed=_RANDOM_SEED.value,
       render_images=_RENDER_IMAGES.value,
       include_capacities=_INCLUDE_CAPACITIES.value,
+      annotate_known_labels=_ANNOTATE_KNOWN_LABELS.value,
   )
   print(
       'Done. %d examples across %d files, %d images.'

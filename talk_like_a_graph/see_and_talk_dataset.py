@@ -318,11 +318,31 @@ def capacity_context(graph: nx.Graph, name_dict: Mapping[Any, str]) -> str:
   return 'The capacity of each edge in G is: ' + ', '.join(parts) + '.\n'
 
 
+def known_class_labels(
+    extra_context: str, name_dict: Mapping[Any, str]
+) -> dict[Any, str]:
+  """Parses the `Node X likes Y.` lines the node classification prompt reveals.
+
+  Args:
+    extra_context: the prompt lines naming the already-known classes.
+    name_dict: node -> label mapping, used to map the lines back to node ids.
+
+  Returns:
+    A node -> class mapping for the nodes whose class the prompt gives away.
+  """
+  label_to_node = {str(v): k for k, v in name_dict.items()}
+  known = {}
+  for line in extra_context.splitlines():
+    match = re.match(r'Node (.+?) likes (.+?)\.$', line.strip())
+    if match and match.group(1) in label_to_node:
+      known[label_to_node[match.group(1)]] = match.group(2)
+  return known
+
+
 def node_classification_diagnostics(
     graph: nx.Graph,
     node_ids: Sequence[int],
-    extra_context: str,
-    name_dict: Mapping[Any, str],
+    known: Mapping[Any, str],
 ) -> dict[str, Any]:
   """Measures whether a node classification instance is actually answerable.
 
@@ -338,8 +358,7 @@ def node_classification_diagnostics(
   Args:
     graph: the graph, carrying `block` attributes.
     node_ids: the task's node ids; the queried node is the first.
-    extra_context: the prompt lines naming the already-known classes.
-    name_dict: node -> label mapping, used to map those lines back to nodes.
+    known: node -> class for the nodes whose class the prompt reveals.
 
   Returns:
     Fields to merge into the record.
@@ -347,13 +366,7 @@ def node_classification_diagnostics(
   if not node_ids:
     return {}
   queried = node_ids[0]
-  label_to_node = {str(v): k for k, v in name_dict.items()}
-  labelled = set()
-  for line in extra_context.splitlines():
-    match = re.match(r'Node (.+?) likes (.+?)\.$', line.strip())
-    if match and match.group(1) in label_to_node:
-      labelled.add(label_to_node[match.group(1)])
-  neighbours = set(graph.neighbors(queried)) & labelled
+  neighbours = set(graph.neighbors(queried)) & set(known)
   return {
       'labelled_neighbours': len(neighbours),
       # False -> the prompt does not determine the answer; exclude from any
@@ -374,6 +387,7 @@ def build_records(
     random_seed: int = 1234,
     render_images: bool = True,
     include_capacities: bool = True,
+    annotate_known_labels: bool = True,
 ) -> Iterator[dict[str, Any]]:
   """Yields one dataset record per graph for a single task and text encoder.
 
@@ -394,6 +408,10 @@ def build_records(
       graphs, so the text setting has the same information as the image. Set to
       False to reproduce the released benchmark's prompt, where the maximum
       flow task is unanswerable from text alone.
+    annotate_known_labels: for node classification, draw the already-known
+      classes on the image and keep them in `text_encoding` rather than
+      `extra_context`. This makes the image-only setting self-contained instead
+      of silently receiving the labels as text.
 
   Yields:
     Dataset records as plain dicts.
@@ -434,12 +452,34 @@ def build_records(
         graph, encoding_method
     )
     labels = {node: str(name_dict[node]) for node in graph.nodes()}
-    digest = graph_digest(graph, labels)
 
-    # The image draws edge capacities; without this the text would not have
-    # them, and the maximum flow task would be unanswerable from text alone.
+    # Capacities go in the *graph encoding*, not in extra_context. They are
+    # part of the graph description, and the capacity list enumerates every
+    # edge -- putting it in extra_context would hand the full topology as text
+    # to the image-only setting, which drops the encoding but keeps the extra
+    # context. The image already draws the capacities.
     if include_capacities:
-      extra_context += capacity_context(graph, name_dict)
+      graph_encoding += capacity_context(graph, name_dict)
+
+    # For node classification the prompt reveals some nodes' classes. Those
+    # are not graph structure, so the image cannot show them unless we draw
+    # them. Annotating the image lets the labels live in `text_encoding`
+    # (dropped by image-only) instead of `extra_context` (kept by every
+    # setting), which is what makes image-only genuinely self-contained.
+    known_labels: dict[Any, str] = {}
+    annotations: dict[Any, str] | None = None
+    if task_name == 'node_classification' and extra_context:
+      known_labels = known_class_labels(extra_context, name_dict)
+      if annotate_known_labels:
+        annotations = {node: cls for node, cls in known_labels.items()}
+        graph_encoding += extra_context
+        extra_context = ''
+
+    # Annotations change the picture, so they must change its identity too.
+    digest = graph_digest(
+        graph, labels if annotations is None else {**labels, **{
+            k: '%s=%s' % (labels[k], v) for k, v in annotations.items()}}
+    )
 
     images = {}
     for layout in layouts:
@@ -453,6 +493,7 @@ def build_records(
               layout=layout,
               random_seed=random_seed,
               name_dict=name_dict,
+              node_annotations=annotations,
           )
       images[layout] = os.path.join(images_rel_dir, file_name).replace(
           os.sep, '/'
@@ -461,7 +502,7 @@ def build_records(
     diagnostics: dict[str, Any] = {}
     if task_name == 'node_classification':
       diagnostics = node_classification_diagnostics(
-          graph, value['node_ids'], extra_context, name_dict
+          graph, value['node_ids'], known_labels
       )
 
     yield {
@@ -521,6 +562,7 @@ def build_dataset(
     random_seed: int = 1234,
     render_images: bool = True,
     include_capacities: bool = True,
+    annotate_known_labels: bool = True,
 ) -> dict[str, Any]:
   """Builds the full dataset on disk.
 
@@ -544,8 +586,10 @@ def build_dataset(
     graphs_dir: read graphs from disk instead of generating them.
     random_seed: seed for example construction and layouts.
     render_images: set to False for a text-only dry run.
-    include_capacities: append edge capacities to `extra_context` for weighted
-      graphs, so the text setting matches what the image shows.
+    include_capacities: append edge capacities to the graph encoding for
+      weighted graphs, so the text setting matches what the image shows.
+    annotate_known_labels: draw node classification's already-known classes on
+      the image, so its image-only setting is self-contained.
 
   Returns:
     The dataset manifest, also written to `dataset_info.json`.
@@ -579,6 +623,7 @@ def build_dataset(
       'text_encoders': list(text_encoders),
       'random_seed': random_seed,
       'include_capacities': include_capacities,
+      'annotate_known_labels': annotate_known_labels,
       'number_of_graphs': len(graphs),
       'files': {},
   }
@@ -602,6 +647,7 @@ def build_dataset(
               random_seed=random_seed,
               render_images=render_images,
               include_capacities=include_capacities,
+              annotate_known_labels=annotate_known_labels,
           ),
           os.path.join(output_dir, file_name),
       )
