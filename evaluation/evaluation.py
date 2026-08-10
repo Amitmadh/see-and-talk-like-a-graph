@@ -2,9 +2,9 @@ import argparse
 import csv
 import json
 import re
-from collections import defaultdict
+from collections import Counter, defaultdict
 from dataclasses import dataclass
-from datetime import datetime
+from datetime import datetime, timezone
 from pathlib import Path
 from statistics import mean, pstdev
 
@@ -15,231 +15,387 @@ TASK_TYPES = {
     "edge_existence": "boolean",
     "node_count": "number",
     "node_degree": "number",
-    "shortest_path": "number_or_no_path",
+    "shortest_path": "number",
 }
-
-BOOLEAN_TRUE_PATTERNS = [
-    r"\btrue\b",
-    r"\byes\b",
-]
-
-BOOLEAN_FALSE_PATTERNS = [
-    r"\bfalse\b",
-    r"\bno\b",
-]
-
-NO_PATH_PATTERNS = [
-    r"\bno path\b",
-    r"\bfalse\b",
-    r"\bno\b",
-    r"\bthere is no path\b",
-    r"\bnot connected\b",
-    r"\bnot reachable\b",
-
-]
 
 
 @dataclass
 class ParsedAnswer:
-    raw: str | None
-    type: str | None
     value: object | None
+    valid: bool
+    raw: str | None
 
 
-def normalize_text(answer: str | None) -> str | None:
+# ---------------------------------------------------------------------------
+# Parsing
+# ---------------------------------------------------------------------------
+
+def clean(answer):
     if answer is None:
         return None
+
     answer = str(answer).strip()
-    if not answer:
-        return None
-    return answer
+    return answer or None
 
 
-def normalize_string(answer: str | None) -> str | None:
-    answer = normalize_text(answer)
+def parse_expected(task, answer):
+    """
+    Ground-truth answers may be natural language.
+    We therefore allow some flexibility here.
+    """
+
+    answer = clean(answer)
+
     if answer is None:
-        return None
+        return ParsedAnswer(None, False, None)
+
+    task_type = TASK_TYPES[task]
     text = answer.lower()
-    text = re.sub(r"[\r\n]+", " ", text)
-    text = re.sub(r"[^0-9a-z]+", " ", text)
-    text = re.sub(r"\s+", " ", text).strip()
-    return text
 
-
-def parse_boolean(answer: str | None) -> ParsedAnswer:
-    answer = normalize_text(answer)
-    if answer is None:
-        return ParsedAnswer(raw=answer, type=None, value=None)
-
-    text = answer.lower()
-    for pattern in BOOLEAN_TRUE_PATTERNS:
-        if re.search(pattern, text):
-            return ParsedAnswer(raw=answer, type="boolean", value=True)
-    for pattern in BOOLEAN_FALSE_PATTERNS:
-        if re.search(pattern, text):
-            return ParsedAnswer(raw=answer, type="boolean", value=False)
-
-    # Fallback on exact tokens
-    if text in {"true", "false", "yes", "no"}:
-        return ParsedAnswer(raw=answer, type="boolean", value=text in {"true", "yes"})
-
-    return ParsedAnswer(raw=answer, type=None, value=None)
-
-
-def parse_number(answer: str | None) -> ParsedAnswer:
-    answer = normalize_text(answer)
-    if answer is None:
-        return ParsedAnswer(raw=answer, type=None, value=None)
-
-    text = answer.lower()
-    for pattern in NO_PATH_PATTERNS:
-        if re.search(pattern, text):
-            return ParsedAnswer(raw=answer, type="no_path", value=None)
-
-    match = re.search(r"-?\d+", text)
-    if match:
-        return ParsedAnswer(raw=answer, type="number", value=int(match.group()))
-
-    return ParsedAnswer(raw=answer, type=None, value=None)
-
-
-def parse_list(answer: str | None) -> ParsedAnswer:
-    answer = normalize_text(answer)
-    if answer is None:
-        return ParsedAnswer(raw=answer, type=None, value=None)
-
-    text = answer.strip().lower()
-    text = re.sub(r"\b(and|or)\b", ",", text)
-    text = re.sub(r"[^0-9a-z,]+", " ", text)
-    text = re.sub(r"\s+", " ", text).strip()
-
-    tokens = []
-    for piece in re.split(r"[,;]+", text):
-        piece = piece.strip()
-        if not piece:
-            continue
-        if piece.isdigit():
-            tokens.append(int(piece))
-        else:
-            tokens.append(piece)
-
-    if tokens:
-        return ParsedAnswer(raw=answer, type="list", value=tokens)
-
-    return ParsedAnswer(raw=answer, type=None, value=None)
-
-
-def parse_answer(task: str, answer: str | None) -> ParsedAnswer:
-    answer = normalize_text(answer)
-    if answer is None:
-        return ParsedAnswer(raw=None, type=None, value=None)
-
-    task_type = TASK_TYPES.get(task)
     if task_type == "boolean":
-        parsed = parse_boolean(answer)
-        if parsed.type is not None:
-            return parsed
-    if task_type == "number_or_no_path":
-        parsed = parse_number(answer)
-        if parsed.type is not None:
-            return parsed
+        if re.search(r"\b(true|yes)\b", text):
+            return ParsedAnswer(True, True, answer)
+
+        if re.search(r"\b(false|no)\b", text):
+            return ParsedAnswer(False, True, answer)
+
+    elif task_type == "number":
+        match = re.search(r"-?\d+", text)
+
+        if match:
+            return ParsedAnswer(
+                int(match.group()),
+                True,
+                answer,
+            )
+
+    elif task_type == "list":
+        # Extract all integer values from the expected answer.
+        numbers = re.findall(r"-?\d+", text)
+
+        if numbers:
+            return ParsedAnswer(
+                [int(x) for x in numbers],
+                True,
+                answer,
+            )
+
+        # Allow an explicit empty answer.
+        if re.search(
+            r"\b(none|no nodes|no other nodes)\b",
+            text,
+        ):
+            return ParsedAnswer([], True, answer)
+
+    return ParsedAnswer(None, False, answer)
+
+
+def parse_model_answer(task, answer):
+    """
+    STRICT parser for model outputs.
+
+    Accepted:
+
+      boolean -> exactly True / False
+      number  -> exactly one integer
+      list    -> comma-separated integers, optionally in []
+
+    Everything else is considered wrong format.
+    """
+
+    answer = clean(answer)
+
+    if answer is None:
+        return ParsedAnswer(None, False, None)
+
+    task_type = TASK_TYPES[task]
+
+    # -----------------------------------------------------------------------
+    # Boolean
+    # -----------------------------------------------------------------------
+
+    if task_type == "boolean":
+        if answer.lower() == "true":
+            return ParsedAnswer(True, True, answer)
+
+        if answer.lower() == "false":
+            return ParsedAnswer(False, True, answer)
+
+        return ParsedAnswer(None, False, answer)
+
+    # -----------------------------------------------------------------------
+    # Number
+    # -----------------------------------------------------------------------
+
     if task_type == "number":
-        parsed = parse_number(answer)
-        if parsed.type is not None:
-            return parsed
+        if re.fullmatch(r"-?\d+", answer):
+            return ParsedAnswer(
+                int(answer),
+                True,
+                answer,
+            )
+
+        return ParsedAnswer(None, False, answer)
+
+    # -----------------------------------------------------------------------
+    # List
+    # -----------------------------------------------------------------------
+
     if task_type == "list":
-        parsed = parse_list(answer)
-        if parsed.type is not None:
-            return parsed
+        original_answer = answer
 
-    # Generic fallback pipeline.
-    parsed = parse_number(answer)
-    if parsed.type is not None:
-        return parsed
-    parsed = parse_boolean(answer)
-    if parsed.type is not None:
-        return parsed
-    parsed = parse_list(answer)
-    if parsed.type is not None:
-        return parsed
+        # Accept:
+        #
+        #   [1, 2, 3]
+        #   1, 2, 3
+        #
+        # but NOT:
+        #
+        #   The nodes are 1, 2, 3
+        #
+        if answer.startswith("[") and answer.endswith("]"):
+            answer = answer[1:-1].strip()
 
-    return ParsedAnswer(raw=answer, type="text", value=normalize_string(answer))
+        if not answer:
+            return ParsedAnswer(
+                [],
+                True,
+                original_answer,
+            )
 
+        parts = [
+            x.strip()
+            for x in answer.split(",")
+        ]
 
-def compare_values(expected: ParsedAnswer, predicted: ParsedAnswer) -> bool:
-    if expected.type == predicted.type and expected.type is not None:
-        if expected.type == "list":
-            return compare_lists(expected.value, predicted.value)
-        return expected.value == predicted.value
+        if all(
+            re.fullmatch(r"-?\d+", x)
+            for x in parts
+        ):
+            return ParsedAnswer(
+                [int(x) for x in parts],
+                True,
+                original_answer,
+            )
 
-    if expected.type == "list" and predicted.type is not None:
-        return compare_lists(expected.value, predicted.value)
-    if predicted.type == "list" and expected.type is not None:
-        return compare_lists(expected.value, predicted.value)
+        return ParsedAnswer(
+            None,
+            False,
+            original_answer,
+        )
 
-    if expected.type in {"boolean", "number", "no_path"} and predicted.type is not None:
-        return expected.value == predicted.value
-    if predicted.type in {"boolean", "number", "no_path"} and expected.type is not None:
-        return expected.value == predicted.value
-
-    if expected.raw is not None and predicted.raw is not None:
-        return normalize_string(expected.raw) == normalize_string(predicted.raw)
-
-    return False
-
-
-def compare_lists(expected: list, predicted: list) -> bool:
-    if expected is None or predicted is None:
-        return False
-
-    expected_norm = {normalize_string(str(v)) for v in expected if normalize_string(str(v))}
-    predicted_norm = {normalize_string(str(v)) for v in predicted if normalize_string(str(v))}
-    return expected_norm == predicted_norm
+    return ParsedAnswer(None, False, answer)
 
 
-def load_results_file(path: Path) -> list[dict]:
-    raw_text = path.read_text(encoding="utf-8").strip()
-    if not raw_text:
+# ---------------------------------------------------------------------------
+# Comparison
+# ---------------------------------------------------------------------------
+
+def compare(task, expected_raw, predicted_raw):
+    expected = parse_expected(
+        task,
+        expected_raw,
+    )
+
+    predicted = parse_model_answer(
+        task,
+        predicted_raw,
+    )
+
+    if not predicted.valid:
+        return (
+            False,
+            "wrong_format",
+            predicted.raw,
+        )
+
+    if not expected.valid:
+        return (
+            False,
+            "bad_expected",
+            expected.raw,
+        )
+
+    if task == "connected_nodes":
+        # Connected nodes form a set.
+        # Order should therefore not matter.
+        correct = (
+            set(expected.value)
+            == set(predicted.value)
+        )
+    else:
+        correct = (
+            expected.value
+            == predicted.value
+        )
+
+    return (
+        correct,
+        "correct" if correct else "incorrect",
+        predicted.raw,
+    )
+
+
+# ---------------------------------------------------------------------------
+# Loading
+# ---------------------------------------------------------------------------
+
+def load_results_file(path):
+    text = path.read_text(
+        encoding="utf-8"
+    ).strip()
+
+    if not text:
         return []
-    if raw_text.startswith("["):
-        return json.loads(raw_text)
-    return [json.loads(line) for line in raw_text.splitlines() if line.strip()]
+
+    # JSON array
+    if text.startswith("["):
+        return json.loads(text)
+
+    # JSONL
+    return [
+        json.loads(line)
+        for line in text.splitlines()
+        if line.strip()
+    ]
 
 
-def get_file_metadata(result_path: Path, root_dir: Path) -> dict:
-    relative = result_path.relative_to(root_dir)
-    parts = list(relative.parts)
+def get_file_metadata(path, root):
+    parts = path.relative_to(root).parts
+
     if len(parts) < 3:
-        raise ValueError(f"Unexpected results path structure: {result_path}")
+        raise ValueError(
+            f"Unexpected results path: {path}"
+        )
 
     return {
         "setting": parts[0],
         "task": parts[1],
-        "file_name": result_path.name,
+        "file_name": path.name,
     }
 
 
-def score_result_row(row: dict) -> bool:
-    expected = parse_answer(row["task"], row.get("expected_answer"))
-    predicted = parse_answer(row["task"], row.get("model_answer"))
-    return compare_values(expected, predicted)
+# ---------------------------------------------------------------------------
+# Evaluation
+# ---------------------------------------------------------------------------
 
+def evaluate_file(path, root):
+    metadata = get_file_metadata(
+        path,
+        root,
+    )
 
-def summarize_scores(scores: list[float]) -> dict:
-    if not scores:
-        return {"count": 0, "mean_accuracy": 0.0, "std_accuracy": 0.0}
+    data = load_results_file(path)
+
+    correct = 0
+    total = 0
+    wrong_format = 0
+    bad_expected = 0
+
+    wrong_format_answers = []
+
+    image_type = "unknown"
+    model = "unknown"
+
+    for row in data:
+        image_type = row.get(
+            "image_type",
+            image_type,
+        )
+
+        model = row.get(
+            "model",
+            model,
+        )
+
+        if row.get("model_answer") is None:
+            continue
+
+        total += 1
+
+        is_correct, status, raw = compare(
+            metadata["task"],
+            row.get("expected_answer"),
+            row.get("model_answer"),
+        )
+
+        if is_correct:
+            correct += 1
+
+        elif status == "wrong_format":
+            wrong_format += 1
+
+            wrong_format_answers.append({
+                "sample_id": row.get("sample_id"),
+                "answer": raw,
+            })
+
+            print(
+                f"[WRONG FORMAT] "
+                f"{metadata['task']} "
+                f"{row.get('sample_id')}: "
+                f"{raw!r}"
+            )
+
+        elif status == "bad_expected":
+            bad_expected += 1
+
+    accuracy = (
+        correct / total
+        if total
+        else 0.0
+    )
+
     return {
-        "count": len(scores),
-        "mean_accuracy": round(mean(scores), 6),
-        "std_accuracy": round(pstdev(scores), 6),
+        **metadata,
+        "image_type": image_type,
+        "model": model,
+        "total": total,
+        "correct": correct,
+        "incorrect": (
+            total
+            - correct
+            - wrong_format
+        ),
+        "wrong_format": wrong_format,
+        "bad_expected": bad_expected,
+        "accuracy": round(
+            accuracy,
+            6,
+        ),
+        "path": str(path),
+        "wrong_format_answers": (
+            wrong_format_answers
+        ),
     }
 
 
-def add_summary_entry(summary: dict, group_key: str, accuracy: float) -> None:
-    summary.setdefault(group_key, []).append(accuracy)
+# ---------------------------------------------------------------------------
+# Summary
+# ---------------------------------------------------------------------------
+
+def summarize(values):
+    if not values:
+        return {
+            "count": 0,
+            "mean_accuracy": 0.0,
+            "std_accuracy": 0.0,
+        }
+
+    return {
+        "count": len(values),
+        "mean_accuracy": round(
+            mean(values),
+            6,
+        ),
+        "std_accuracy": round(
+            pstdev(values),
+            6,
+        ),
+    }
 
 
-def build_nested_summary(metric_rows: list[dict]) -> dict:
+def build_summary(rows):
     summary = {
         "by_setting": {},
         "by_task": {},
@@ -247,129 +403,660 @@ def build_nested_summary(metric_rows: list[dict]) -> dict:
         "by_model": {},
     }
 
-    def update_group(group_dict, group_key, metric_key, accuracy):
-        group_dict.setdefault(group_key, {}).setdefault(metric_key, []).append(accuracy)
-        group_dict.setdefault(group_key, {}).setdefault("all", []).append(accuracy)
+    def add(group, key, metric, accuracy):
+        group.setdefault(
+            key,
+            {},
+        ).setdefault(
+            metric,
+            [],
+        ).append(accuracy)
 
-    for row in metric_rows:
-        setting = row["setting"]
-        task = row["task"]
-        image_type = row.get("image_type") or "unknown"
-        model_name = row.get("model") or "unknown"
+    for row in rows:
         accuracy = row["accuracy"]
 
-        update_group(summary["by_setting"], setting, task, accuracy)
-        update_group(summary["by_setting"], setting, image_type, accuracy)
-        update_group(summary["by_setting"], setting, "all", accuracy)
+        add(
+            summary["by_setting"],
+            row["setting"],
+            row["task"],
+            accuracy,
+        )
 
-        update_group(summary["by_task"], task, setting, accuracy)
-        update_group(summary["by_task"], task, "all", accuracy)
+        add(
+            summary["by_setting"],
+            row["setting"],
+            "all",
+            accuracy,
+        )
 
-        update_group(summary["by_image_type"], image_type, setting, accuracy)
-        update_group(summary["by_image_type"], image_type, "all", accuracy)
+        add(
+            summary["by_task"],
+            row["task"],
+            row["setting"],
+            accuracy,
+        )
 
-        update_group(summary["by_model"], model_name, setting, accuracy)
-        update_group(summary["by_model"], model_name, "all", accuracy)
+        add(
+            summary["by_task"],
+            row["task"],
+            "all",
+            accuracy,
+        )
 
-    for outer in summary.values():
-        for key, metrics in outer.items():
-            for metric_key, values in list(metrics.items()):
-                metrics[metric_key] = summarize_scores(values)
+        add(
+            summary["by_image_type"],
+            row["image_type"],
+            row["setting"],
+            accuracy,
+        )
+
+        add(
+            summary["by_model"],
+            row["model"],
+            row["setting"],
+            accuracy,
+        )
+
+    for group in summary.values():
+        for key, metrics in group.items():
+            for metric, values in metrics.items():
+                metrics[metric] = summarize(values)
 
     return summary
 
 
-def build_setting_task_table(metric_rows: list[dict], image_type_filter: str | None = "spring") -> tuple[list[str], list[str], list[dict]]:
-    rows = [row for row in metric_rows if image_type_filter is None or row.get("image_type") == image_type_filter]
-    settings = sorted({row["setting"] for row in rows})
-    tasks = list(TASK_TYPES.keys())
+# ---------------------------------------------------------------------------
+# Accuracy table
+# ---------------------------------------------------------------------------
+
+def build_setting_table(rows, image_type="spring"):
+    rows = [
+        r
+        for r in rows
+        if (
+            image_type is None
+            or r["image_type"] == image_type
+        )
+    ]
+
+    tasks = list(TASK_TYPES)
+    settings = sorted(
+        {
+            r["setting"]
+            for r in rows
+        }
+    )
 
     table = []
+
     for setting in settings:
-        row = {"setting": setting}
+        row = {
+            "setting": setting
+        }
+
         for task in tasks:
-            row[task] = ""
+            matches = [
+                r
+                for r in rows
+                if (
+                    r["setting"] == setting
+                    and r["task"] == task
+                )
+            ]
+
+            if matches:
+                average_accuracy = mean(
+                    r["accuracy"]
+                    for r in matches
+                )
+                row[task] = f"{average_accuracy:.3f}"
+            else:
+                row[task] = ""
+
         table.append(row)
 
-    for row in rows:
-        for table_row in table:
-            if table_row["setting"] == row["setting"]:
-                table_row[row["task"]] = f"{row['accuracy']:.3f}"
-                break
-
-    return settings, tasks, table
+    return table, tasks
 
 
-def print_setting_task_table(metric_rows: list[dict], image_type_filter: str | None = "spring") -> None:
-    settings, tasks, table = build_setting_task_table(metric_rows, image_type_filter)
+def write_setting_table_csv(rows, output_path, image_type="spring"):
+    table, tasks = build_setting_table(
+        rows,
+        image_type=image_type,
+    )
+
+    output_path = Path(output_path)
+    output_path.parent.mkdir(
+        parents=True,
+        exist_ok=True,
+    )
+
+    with open(
+        output_path,
+        "w",
+        encoding="utf-8",
+        newline="",
+    ) as f:
+        writer = csv.DictWriter(
+            f,
+            fieldnames=["setting"] + tasks,
+        )
+        writer.writeheader()
+        writer.writerows(table)
+
+    print(f"Saved setting table CSV to {output_path}")
+
+
+def print_table(
+    rows,
+    image_type="spring",
+):
+    table, tasks = build_setting_table(
+        rows,
+        image_type=image_type,
+    )
+
     if not table:
-        print(f"No rows found for image_type={image_type_filter}")
+        print(
+            f"No rows found for "
+            f"image_type={image_type}"
+        )
         return
 
-    headers = ["setting"] + tasks
-    widths = [max(len(h), *(len(str(row.get(h, ""))) for row in table)) for h in headers]
-    fmt = " | ".join(f"{{:{w}}}" for w in widths)
-    separator = "-+-".join("-" * w for w in widths)
+    headers = [
+        "setting"
+    ] + tasks
 
-    print(fmt.format(*headers))
+    widths = [
+        max(
+            len(h),
+            *[
+                len(str(r.get(h, "")))
+                for r in table
+            ],
+        )
+        for h in headers
+    ]
+
+    fmt = " | ".join(
+        f"{{:{w}}}"
+        for w in widths
+    )
+
+    separator = "-+-".join(
+        "-" * w
+        for w in widths
+    )
+
+    print(
+        fmt.format(*headers)
+    )
+
     print(separator)
+
     for row in table:
-        print(fmt.format(*(row.get(h, "") for h in headers)))
+        print(
+            fmt.format(
+                *[
+                    row.get(h, "")
+                    for h in headers
+                ]
+            )
+        )
 
 
-def gather_metrics(root_dir: Path) -> tuple[list[dict], dict]:
-    metric_rows: list[dict] = []
-    for result_path in sorted(root_dir.rglob("*.jsonl")):
-        if result_path.is_dir():
+# ---------------------------------------------------------------------------
+# Answer distributions
+# ---------------------------------------------------------------------------
+
+def print_answer_distributions(
+    rows,
+    image_type="spring",
+):
+    """
+    Print the distribution of expected and predicted
+    answers for every setting/task combination.
+
+    This is particularly useful for detecting biases such as:
+
+        expected:
+            True  = 170
+            False = 180
+
+        model:
+            True  = 350
+            False = 0
+
+    which would indicate that the model simply answers
+    True for every example.
+    """
+
+    print()
+    print("=" * 90)
+    print("ANSWER DISTRIBUTIONS")
+    print("=" * 90)
+
+    # -----------------------------------------------------------------------
+    # Iterate through individual result files.
+    # -----------------------------------------------------------------------
+
+    for metric_row in rows:
+
+        if (
+            image_type is not None
+            and metric_row["image_type"]
+            != image_type
+        ):
             continue
-        if result_path.name.startswith("."):
+
+        path = Path(
+            metric_row["path"]
+        )
+
+        try:
+            data = load_results_file(path)
+
+        except Exception as e:
+            print(
+                f"[ERROR] Could not load "
+                f"{path}: {e}"
+            )
             continue
 
-        metadata = get_file_metadata(result_path, root_dir)
-        data = load_results_file(result_path)
-        total = 0
+        task = metric_row["task"]
+        setting = metric_row["setting"]
+
+        expected_counter = Counter()
+        predicted_counter = Counter()
+
         correct = 0
-        file_image_type = "unknown"
-        file_model = "unknown"
+        incorrect = 0
+        wrong_format = 0
+        bad_expected = 0
 
-        for row in data:
-            if row.get("image_type"):
-                file_image_type = row["image_type"]
-            if row.get("model"):
-                file_model = row["model"]
-            if row.get("model_answer") is None:
+        for sample in data:
+
+            if sample.get(
+                "model_answer"
+            ) is None:
                 continue
-            total += 1
-            if score_result_row({**row, **metadata}):
+
+            expected = parse_expected(
+                task,
+                sample.get(
+                    "expected_answer"
+                ),
+            )
+
+            predicted = parse_model_answer(
+                task,
+                sample.get(
+                    "model_answer"
+                ),
+            )
+
+            # ---------------------------------------------------------------
+            # Expected distribution
+            # ---------------------------------------------------------------
+
+            if expected.valid:
+                expected_key = format_distribution_value(
+                    expected.value
+                )
+            else:
+                expected_key = "<BAD_EXPECTED>"
+
+            expected_counter[
+                expected_key
+            ] += 1
+
+            # ---------------------------------------------------------------
+            # Predicted distribution
+            # ---------------------------------------------------------------
+
+            if predicted.valid:
+                predicted_key = format_distribution_value(
+                    predicted.value
+                )
+            else:
+                predicted_key = "<WRONG_FORMAT>"
+
+            predicted_counter[
+                predicted_key
+            ] += 1
+
+            # ---------------------------------------------------------------
+            # Evaluation status
+            # ---------------------------------------------------------------
+
+            is_correct, status, _ = compare(
+                task,
+                sample.get(
+                    "expected_answer"
+                ),
+                sample.get(
+                    "model_answer"
+                ),
+            )
+
+            if is_correct:
                 correct += 1
 
-        accuracy = 0.0 if total == 0 else correct / total
-        metric_rows.append({
-            "setting": metadata["setting"],
-            "task": metadata["task"],
-            "image_type": file_image_type,
-            "model": file_model,
-            "file_name": metadata["file_name"],
-            "path": str(result_path),
-            "total": total,
-            "correct": correct,
-            "accuracy": round(accuracy, 6),
-        })
+            elif status == "wrong_format":
+                wrong_format += 1
 
-    return metric_rows, build_nested_summary(metric_rows)
+            elif status == "bad_expected":
+                bad_expected += 1
+
+            else:
+                incorrect += 1
+
+        total = (
+            correct
+            + incorrect
+            + wrong_format
+        )
+
+        accuracy = (
+            correct / total
+            if total
+            else 0.0
+        )
+
+        # ---------------------------------------------------------------
+        # Print
+        # ---------------------------------------------------------------
+
+        print()
+        print(
+            f"Setting: {setting}"
+        )
+        print(
+            f"Task:    {task}"
+        )
+        print(
+            f"Type:    {TASK_TYPES[task]}"
+        )
+        print(
+            f"Image:   {metric_row['image_type']}"
+        )
+        print(
+            f"Model:   {metric_row['model']}"
+        )
+        print(
+            f"Samples: {total}"
+        )
+
+        print()
+        print("  Expected distribution:")
+
+        for value, count in (
+            expected_counter.most_common()
+        ):
+            percentage = (
+                100 * count / total
+                if total
+                else 0
+            )
+
+            print(
+                f"    {value}: "
+                f"{count} "
+                f"({percentage:.1f}%)"
+            )
+
+        print()
+        print("  Model prediction distribution:")
+
+        for value, count in (
+            predicted_counter.most_common()
+        ):
+            percentage = (
+                100 * count / total
+                if total
+                else 0
+            )
+
+            print(
+                f"    {value}: "
+                f"{count} "
+                f"({percentage:.1f}%)"
+            )
+
+        print()
+        print("  Evaluation:")
+
+        print(
+            f"    Correct:       {correct}"
+        )
+
+        print(
+            f"    Incorrect:     {incorrect}"
+        )
+
+        print(
+            f"    Wrong format:  {wrong_format}"
+        )
+
+        print(
+            f"    Bad expected:  {bad_expected}"
+        )
+
+        print(
+            f"    Accuracy:      {accuracy:.3f}"
+        )
+
+        # ---------------------------------------------------------------
+        # Special diagnostic for binary tasks
+        # ---------------------------------------------------------------
+
+        if TASK_TYPES[task] == "boolean":
+
+            true_predictions = predicted_counter.get(
+                "True",
+                0,
+            )
+
+            false_predictions = predicted_counter.get(
+                "False",
+                0,
+            )
+
+            if true_predictions == total:
+                print()
+                print(
+                    "    *** WARNING: MODEL ANSWERED "
+                    "TRUE FOR EVERY SAMPLE ***"
+                )
+
+            elif false_predictions == total:
+                print()
+                print(
+                    "    *** WARNING: MODEL ANSWERED "
+                    "FALSE FOR EVERY SAMPLE ***"
+                )
 
 
-def save_json_report(report: dict, output_file: Path) -> None:
-    output_file.parent.mkdir(parents=True, exist_ok=True)
-    with open(output_file, "w", encoding="utf-8") as f:
-        json.dump(report, f, indent=2)
+def format_distribution_value(value):
+    """
+    Convert parsed values to stable human-readable
+    distribution keys.
+    """
+
+    if isinstance(value, list):
+        return "[" + ", ".join(
+            str(x)
+            for x in sorted(set(value))
+        ) + "]"
+
+    if isinstance(value, bool):
+        return (
+            "True"
+            if value
+            else "False"
+        )
+
+    return str(value)
 
 
-def save_csv_report(rows: list[dict], output_file: Path) -> None:
-    output_file.parent.mkdir(parents=True, exist_ok=True)
-    if not rows:
-        return
-    keys = [
+# ---------------------------------------------------------------------------
+# Main aggregation
+# ---------------------------------------------------------------------------
+
+def main():
+
+    parser = argparse.ArgumentParser(
+        description=(
+            "Evaluate model answers "
+            "from JSONL result files."
+        )
+    )
+
+    parser.add_argument(
+        "--results-root",
+        default="results/baseline",
+    )
+
+    parser.add_argument(
+        "--output-json",
+        default=(
+            "evaluation/"
+            "aggregate_results.json"
+        ),
+    )
+
+    parser.add_argument(
+        "--output-csv",
+        default=(
+            "evaluation/"
+            "aggregate_results.csv"
+        ),
+    )
+
+    parser.add_argument(
+        "--output-setting-csv",
+        default=(
+            "evaluation/"
+            "aggregate_results_by_setting.csv"
+        ),
+    )
+
+    parser.add_argument(
+        "--image-type",
+        default="spring",
+        help=(
+            "Image type to show in "
+            "the accuracy table and "
+            "distributions. Use 'all' "
+            "to include everything."
+        ),
+    )
+
+    args = parser.parse_args()
+
+    root = Path(
+        args.results_root
+    )
+
+    if not root.exists():
+        raise FileNotFoundError(
+            f"Results root does not exist: "
+            f"{root}"
+        )
+
+    rows = []
+
+    for path in sorted(
+        root.rglob("*.jsonl")
+    ):
+
+        if path.name.startswith("."):
+            continue
+
+        rows.append(
+            evaluate_file(
+                path,
+                root,
+            )
+        )
+
+    summary = build_summary(
+        rows
+    )
+
+    # -----------------------------------------------------------------------
+    # Collect wrong-format answers
+    # -----------------------------------------------------------------------
+
+    wrong_format_answers = [
+        {
+            "setting": row["setting"],
+            "task": row["task"],
+            "image_type": row[
+                "image_type"
+            ],
+            "model": row["model"],
+            "file_name": row[
+                "file_name"
+            ],
+            "sample_id": item[
+                "sample_id"
+            ],
+            "answer": item[
+                "answer"
+            ],
+        }
+        for row in rows
+        for item in row[
+            "wrong_format_answers"
+        ]
+    ]
+
+    # -----------------------------------------------------------------------
+    # JSON report
+    # -----------------------------------------------------------------------
+
+    report = {
+        "generated_at": (
+            datetime.now(
+                timezone.utc
+            ).isoformat()
+        ),
+        "results_root": str(root),
+        "files": rows,
+        "summary": summary,
+        "wrong_format_answers": (
+            wrong_format_answers
+        ),
+        "wrong_format_count": (
+            len(wrong_format_answers)
+        ),
+    }
+
+    output_json = Path(
+        args.output_json
+    )
+
+    output_json.parent.mkdir(
+        parents=True,
+        exist_ok=True,
+    )
+
+    with open(
+        output_json,
+        "w",
+        encoding="utf-8",
+    ) as f:
+        json.dump(
+            report,
+            f,
+            indent=2,
+        )
+
+    # -----------------------------------------------------------------------
+    # CSV report
+    # -----------------------------------------------------------------------
+
+    csv_fields = [
         "setting",
         "task",
         "image_type",
@@ -378,57 +1065,106 @@ def save_csv_report(rows: list[dict], output_file: Path) -> None:
         "path",
         "total",
         "correct",
+        "incorrect",
+        "wrong_format",
+        "bad_expected",
         "accuracy",
     ]
-    with open(output_file, "w", encoding="utf-8", newline="") as f:
-        writer = csv.DictWriter(f, fieldnames=keys)
+
+    output_csv = Path(
+        args.output_csv
+    )
+
+    output_csv.parent.mkdir(
+        parents=True,
+        exist_ok=True,
+    )
+
+    with open(
+        output_csv,
+        "w",
+        encoding="utf-8",
+        newline="",
+    ) as f:
+
+        writer = csv.DictWriter(
+            f,
+            fieldnames=csv_fields,
+        )
+
         writer.writeheader()
+
         for row in rows:
-            writer.writerow(row)
+            writer.writerow({
+                key: row[key]
+                for key in csv_fields
+            })
 
+    # -----------------------------------------------------------------------
+    # Pivoted CSV by setting/task
+    # -----------------------------------------------------------------------
 
-def main() -> None:
-    parser = argparse.ArgumentParser(
-        description="Aggregate accuracy metrics from results JSON files."
+    output_setting_csv = Path(
+        args.output_setting_csv
     )
-    parser.add_argument(
-        "--results-root",
-        default="results/baseline",
-        help="Root path for result files to aggregate.",
+
+    write_setting_table_csv(
+        rows,
+        output_setting_csv,
+        image_type=(
+            None
+            if args.image_type == "all"
+            else args.image_type
+        ),
     )
-    parser.add_argument(
-        "--output-json",
-        default="evaluation/aggregate_results.json",
-        help="JSON summary output path.",
+
+    # -----------------------------------------------------------------------
+    # Console output
+    # -----------------------------------------------------------------------
+
+    print(
+        f"Saved JSON report to "
+        f"{output_json}"
     )
-    parser.add_argument(
-        "--output-csv",
-        default="evaluation/aggregate_results.csv",
-        help="CSV file with file-level accuracy rows.",
+
+    print(
+        f"Saved CSV report to "
+        f"{output_csv}"
     )
-    args = parser.parse_args()
 
-    root_dir = Path(args.results_root)
-    output_json_path = Path(args.output_json)
-    output_csv_path = Path(args.output_csv)
+    print(
+        f"Wrong-format answers: "
+        f"{len(wrong_format_answers)}"
+    )
 
-    if not root_dir.exists():
-        raise FileNotFoundError(f"Results root does not exist: {root_dir}")
+    print()
 
-    metric_rows, summary = gather_metrics(root_dir)
-    report = {
-        "generated_at": datetime.utcnow().isoformat() + "Z",
-        "results_root": str(root_dir),
-        "files": metric_rows,
-        "summary": summary,
-    }
+    print(
+        f"Accuracy table "
+        f"({args.image_type}):"
+    )
 
-    save_json_report(report, output_json_path)
-    save_csv_report(metric_rows, output_csv_path)
-    print(f"Saved JSON report to {output_json_path}")
-    print(f"Saved CSV report to {output_csv_path}")
-    print("\nAccuracy table by setting and task (spring image type):")
-    print_setting_task_table(metric_rows, image_type_filter="spring")
+    print_table(
+        rows,
+        image_type=(
+            None
+            if args.image_type == "all"
+            else args.image_type
+        ),
+    )
+
+    # -----------------------------------------------------------------------
+    # NEW: answer distributions
+    # -----------------------------------------------------------------------
+
+    # print_answer_distributions(
+    #     rows,
+    #     image_type=(
+    #         None
+    #         if args.image_type == "all"
+    #         else args.image_type
+    #     ),
+    # )
 
 
 if __name__ == "__main__":
