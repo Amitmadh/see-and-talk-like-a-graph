@@ -161,7 +161,7 @@ class QwenVLModel(VLMModel):
         text_prompt = prompts.build_prompt(
             setting=setting,
             text=item.get("text"),
-            question=item.get("question", ""),
+            question=item.get("question"),
         )
 
         content = []
@@ -184,6 +184,18 @@ class QwenVLModel(VLMModel):
 
         settings = [self._infer_setting(item) for item in inputs]
         batch_messages = [self._build_messages(item) for item in inputs]
+
+        m = batch_messages[0]
+
+        log(f"SETTING: {settings[0]}")
+        log(f"HAS IMAGE: {any(c['type'] == 'image' for c in m[0]['content'])}")
+
+        for c in m[0]["content"]:
+            if c["type"] == "text":
+                log("TEXT PROMPT:")
+                log(c["text"])
+            elif c["type"] == "image":
+                log(f"IMAGE: {c['image']}")
 
         # 1) chat template per message (batch may mix image / text-only prompts).
         texts = [

@@ -21,31 +21,21 @@ TASK_TYPES = {
 BOOLEAN_TRUE_PATTERNS = [
     r"\btrue\b",
     r"\byes\b",
-    r"\byep\b",
-    r"\baffirmative\b",
-    r"\bthere is a cycle\b",
-    r"\bcycle exists\b",
-    r"\bconnected\b",
 ]
 
 BOOLEAN_FALSE_PATTERNS = [
     r"\bfalse\b",
     r"\bno\b",
-    r"\bnope\b",
-    r"\bnot\b",
-    r"\bthere is no cycle\b",
-    r"\bno cycle\b",
-    r"\bnot connected\b",
-    r"\bdisconnected\b",
-    r"\bnone\b",
 ]
 
 NO_PATH_PATTERNS = [
     r"\bno path\b",
+    r"\bfalse\b",
+    r"\bno\b",
     r"\bthere is no path\b",
     r"\bnot connected\b",
     r"\bnot reachable\b",
-    r"\bno route\b",
+
 ]
 
 
@@ -90,8 +80,8 @@ def parse_boolean(answer: str | None) -> ParsedAnswer:
             return ParsedAnswer(raw=answer, type="boolean", value=False)
 
     # Fallback on exact tokens
-    if text in {"true", "false", "yes", "no", "y", "n"}:
-        return ParsedAnswer(raw=answer, type="boolean", value=text in {"true", "yes", "y"})
+    if text in {"true", "false", "yes", "no"}:
+        return ParsedAnswer(raw=answer, type="boolean", value=text in {"true", "yes"})
 
     return ParsedAnswer(raw=answer, type=None, value=None)
 
