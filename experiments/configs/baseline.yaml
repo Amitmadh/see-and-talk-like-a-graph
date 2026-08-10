@@ -15,15 +15,13 @@ model: qwen-3b
 
 
 modalities:
-  text_only: true
-  image_only: true
-  text_and_image: true
+  - text_and_image
 
 text_encoding: "adjacency"
 
 image_types:
   - spring
 
-batch_size: 8
+batch_size: 1
 
 output_dir: results/baseline/
