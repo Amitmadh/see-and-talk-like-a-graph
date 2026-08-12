@@ -1,472 +1,374 @@
 import argparse
 import csv
 import json
-from collections import Counter
 from datetime import datetime, timezone
 from pathlib import Path
 
 # ---------------------------------------------------------------------------
 # IMPORTANT:
+#
 # Reuse the exact evaluation logic from evaluation.py.
 # Do NOT duplicate parsing/comparison logic here.
 # ---------------------------------------------------------------------------
 
-from evaluation.evaluation import (
-    TASK_TYPES,
-    clean,
-    parse_expected,
-    parse_model_answer,
-    compare,
-)
+from evaluation.evaluation import TASK_TYPES
 
 
 # ===========================================================================
 # Loading
 # ===========================================================================
 
-def load_results_file(path):
+def load_enriched_results(path):
     """
-    Load either a JSON array or JSONL result file.
+    Load the already-enriched mixed-signals JSON report.
+
+    The enrichment step has already added graph metadata to every sample,
+    including:
+
+        sample["graph"]["nodes"]
+        sample["graph"]["edges"]
+
+    Therefore this evaluator does NOT need to access the original dataset.
     """
-    text = path.read_text(encoding="utf-8").strip()
 
-    if not text:
-        return []
+    path = Path(path)
 
-    if text.startswith("["):
-        return json.loads(text)
-
-    return [
-        json.loads(line)
-        for line in text.splitlines()
-        if line.strip()
-    ]
-
-
-def get_file_metadata(path, root):
-    """
-    Expected structure:
-
-        results_root/
-            setting/
-                task/
-                    result.jsonl
-    """
-    parts = path.relative_to(root).parts
-
-    if len(parts) < 3:
-        raise ValueError(
-            f"Unexpected results path: {path}"
+    if not path.exists():
+        raise FileNotFoundError(
+            f"Enriched JSON does not exist: {path}"
         )
 
-    return {
-        "setting": parts[0],
-        "task": parts[1],
-        "file_name": path.name,
-    }
+    with open(
+        path,
+        "r",
+        encoding="utf-8",
+    ) as f:
+        report = json.load(f)
+
+    rows = report.get("files", [])
+
+    if not rows:
+        raise ValueError(
+            f"No 'files' found in enriched JSON: {path}"
+        )
+
+    return report, rows
 
 
 # ===========================================================================
-# Mixed-signals comparison
+# Graph-size / edge-bin analysis
 # ===========================================================================
 
-def parse_reference_answer(task, answer):
+def get_edge_count(sample):
     """
-    Parse an original/corrupted answer using the same parsing conventions
-    as evaluation.py.
+    Get the number of edges from the graph metadata already embedded
+    in the enriched sample.
 
-    We use parse_expected because these answers originate from the
-    dataset rather than directly from the model.
+    Returns None if graph metadata is unavailable.
     """
-    return parse_expected(task, answer)
+
+    graph = sample.get("graph")
+
+    if not isinstance(graph, dict):
+        return None
+
+    edges = graph.get("edges")
+
+    if not isinstance(edges, list):
+        return None
+
+    return len(edges)
 
 
-def classify_modality_winner(task, model_answer, original_answer, corrupted_answer):
+def get_edge_bin(n_edges, bin_size=4):
     """
-    Determine which source the model followed.
+    Assign an edge count to intervals:
 
-    IMPORTANT:
-    All answer interpretation uses the parsing functions from evaluation.py.
+        0-4
+        5-8
+        9-12
+        13-16
+        ...
 
-    Returns one of:
+    Intervals are inclusive.
+    """
+
+    if n_edges is None:
+        return None
+
+    if n_edges <= bin_size:
+        return "0-4"
+
+    lower = (
+        ((n_edges - 1) // bin_size) * bin_size
+    ) + 1
+
+    upper = lower + bin_size - 1
+
+    return f"{lower}-{upper}"
+
+
+def build_edge_distribution(samples):
+    """
+    Compute modality preference as a function of graph edge count.
+
+    Only valid three-way modality classifications are included:
 
         image
         text
         neither
-        both
-        invalid_model_answer
-        invalid_original_answer
-        invalid_corrupted_answer
 
-    'both' is possible when original_answer == corrupted_answer.
-    In a genuine corruption experiment this should normally be rare/impossible,
-    but we keep it explicit rather than silently assigning a winner.
+    'both' and invalid classifications are excluded from these
+    percentages because the analysis is specifically about the
+    relative preference between image/text/neither.
     """
 
-    model = parse_model_answer(task, model_answer)
+    bins = {}
 
-    if not model.valid:
-        return {
-            "winner": "invalid_model_answer",
-            "model_valid": False,
-            "original_valid": None,
-            "corrupted_valid": None,
-            "matches_original": False,
-            "matches_corrupted": False,
-        }
+    missing_graph = 0
 
-    original = parse_reference_answer(
-        task,
-        original_answer,
-    )
+    for sample in samples:
 
-    if not original.valid:
-        return {
-            "winner": "invalid_original_answer",
-            "model_valid": True,
-            "original_valid": False,
-            "corrupted_valid": None,
-            "matches_original": False,
-            "matches_corrupted": False,
-        }
-
-    corrupted = parse_reference_answer(
-        task,
-        corrupted_answer,
-    )
-
-    if not corrupted.valid:
-        return {
-            "winner": "invalid_corrupted_answer",
-            "model_valid": True,
-            "original_valid": True,
-            "corrupted_valid": False,
-            "matches_original": False,
-            "matches_corrupted": False,
-        }
-
-    # ---------------------------------------------------------------
-    # Use the SAME semantic comparison used by evaluation.py.
-    #
-    # We compare parsed values rather than raw strings so that:
-    #
-    #   connected_nodes:
-    #       "1, 2, 3" == "3, 1, 2"
-    #
-    # and booleans/numbers are interpreted consistently.
-    # ---------------------------------------------------------------
-
-    if task == "connected_nodes":
-        matches_original = (
-            set(model.value)
-            == set(original.value)
+        winner = sample.get(
+            "modality_winner"
         )
 
-        matches_corrupted = (
-            set(model.value)
-            == set(corrupted.value)
-        )
-
-    else:
-        matches_original = (
-            model.value
-            == original.value
-        )
-
-        matches_corrupted = (
-            model.value
-            == corrupted.value
-        )
-
-    # ---------------------------------------------------------------
-    # Classify
-    # ---------------------------------------------------------------
-
-    if matches_original and matches_corrupted:
-        winner = "both"
-
-    elif matches_original:
-        winner = "image"
-
-    elif matches_corrupted:
-        winner = "text"
-
-    else:
-        winner = "neither"
-
-    return {
-        "winner": winner,
-        "model_valid": True,
-        "original_valid": True,
-        "corrupted_valid": True,
-        "matches_original": matches_original,
-        "matches_corrupted": matches_corrupted,
-    }
-
-
-# ===========================================================================
-# Evaluate one result file
-# ===========================================================================
-
-def evaluate_file(path, root):
-    metadata = get_file_metadata(
-        path,
-        root,
-    )
-
-    task = metadata["task"]
-
-    if task not in TASK_TYPES:
-        raise ValueError(
-            f"Unknown task '{task}' in {path}"
-        )
-
-    data = load_results_file(path)
-
-    total = 0
-
-    correct = 0
-    incorrect = 0
-    wrong_format = 0
-    bad_expected = 0
-
-    image_wins = 0
-    text_wins = 0
-    neither_wins = 0
-    both_wins = 0
-
-    invalid_original = 0
-    invalid_corrupted = 0
-
-    # Detailed per-sample records are extremely useful for later analysis.
-    sample_analysis = []
-
-    image_type = "unknown"
-    model = "unknown"
-
-    for row in data:
-
-        image_type = row.get(
-            "image_type",
-            image_type,
-        )
-
-        model = row.get(
-            "model",
-            model,
-        )
-
-        model_answer = row.get(
-            "model_answer"
-        )
-
-        # Same convention as evaluation.py:
-        # samples without a model answer are not evaluated.
-        if model_answer is None:
+        if winner not in {
+            "image",
+            "text",
+            "neither",
+        }:
             continue
 
-        total += 1
-
-        original_answer = row.get(
-            "original_answer"
+        n_edges = get_edge_count(
+            sample
         )
 
-        corrupted_answer = row.get(
-            "corrupted_answer"
+        if n_edges is None:
+            missing_graph += 1
+            continue
+
+        edge_bin = get_edge_bin(
+            n_edges
         )
 
-        # ---------------------------------------------------------------
-        # Ground-truth correctness
-        #
-        # STRICTLY delegated to evaluation.py's compare().
-        # ---------------------------------------------------------------
+        if edge_bin not in bins:
 
-        is_correct, correctness_status, _ = compare(
-            task,
-            row.get("expected_answer"),
-            model_answer,
-        )
+            bins[edge_bin] = {
+                "edge_range": edge_bin,
 
-        if is_correct:
-            correct += 1
+                "total": 0,
 
-        elif correctness_status == "wrong_format":
-            wrong_format += 1
+                "image": 0,
+                "text": 0,
+                "neither": 0,
 
-        elif correctness_status == "bad_expected":
-            bad_expected += 1
+                "image_pct": 0.0,
+                "text_pct": 0.0,
+                "neither_pct": 0.0,
+            }
 
-        else:
-            incorrect += 1
+        entry = bins[edge_bin]
 
-        # ---------------------------------------------------------------
-        # Mixed-signals modality attribution
-        # ---------------------------------------------------------------
-
-        modality = classify_modality_winner(
-            task=task,
-            model_answer=model_answer,
-            original_answer=original_answer,
-            corrupted_answer=corrupted_answer,
-        )
-
-        winner = modality["winner"]
-
-        if winner == "image":
-            image_wins += 1
-
-        elif winner == "text":
-            text_wins += 1
-
-        elif winner == "neither":
-            neither_wins += 1
-
-        elif winner == "both":
-            both_wins += 1
-
-        elif winner == "invalid_original_answer":
-            invalid_original += 1
-
-        elif winner == "invalid_corrupted_answer":
-            invalid_corrupted += 1
-
-        # ---------------------------------------------------------------
-        # Keep complete per-sample information.
-        # ---------------------------------------------------------------
-
-        sample_analysis.append({
-            "sample_id": row.get("sample_id"),
-
-            "expected_answer": row.get(
-                "expected_answer"
-            ),
-
-            "original_answer": original_answer,
-
-            "corrupted_answer": corrupted_answer,
-
-            "model_answer": model_answer,
-
-            "corruption": row.get(
-                "corruption"
-            ),
-
-            "correct": is_correct,
-
-            "correctness_status": correctness_status,
-
-            "modality_winner": winner,
-
-            "matches_original": modality[
-                "matches_original"
-            ],
-
-            "matches_corrupted": modality[
-                "matches_corrupted"
-            ],
-        })
+        entry["total"] += 1
+        entry[winner] += 1
 
     # ---------------------------------------------------------------
-    # Sanity checks
+    # Calculate percentages within each edge bin.
     # ---------------------------------------------------------------
 
-    classified = (
-        image_wins
-        + text_wins
-        + neither_wins
-        + both_wins
-        + invalid_original
-        + invalid_corrupted
-    )
+    for entry in bins.values():
 
-    if classified != total:
-        raise RuntimeError(
-            f"Classification accounting error in {path}: "
-            f"{classified} classified != {total} evaluated"
+        n = entry["total"]
+
+        if n == 0:
+            continue
+
+        entry["image_pct"] = round(
+            100.0 * entry["image"] / n,
+            2,
         )
 
-    accuracy = (
-        correct / total
-        if total
-        else 0.0
-    )
+        entry["text_pct"] = round(
+            100.0 * entry["text"] / n,
+            2,
+        )
 
-    # Usually we care about the three-way distribution among valid
-    # mixed-signal comparisons.
-    valid_modality_total = (
-        image_wins
-        + text_wins
-        + neither_wins
-        + both_wins
+        entry["neither_pct"] = round(
+            100.0 * entry["neither"] / n,
+            2,
+        )
+
+    # ---------------------------------------------------------------
+    # Sort bins numerically.
+    # ---------------------------------------------------------------
+
+    sorted_bins = sorted(
+        bins.values(),
+        key=lambda x: int(
+            x["edge_range"].split("-")[0]
+        ),
     )
 
     return {
-        **metadata,
-
-        "image_type": image_type,
-        "model": model,
-
-        # Basic evaluation
-        "total": total,
-        "correct": correct,
-        "incorrect": incorrect,
-        "wrong_format": wrong_format,
-        "bad_expected": bad_expected,
-        "accuracy": round(
-            accuracy,
-            6,
-        ),
-
-        # Mixed-signals analysis
-        "image_wins": image_wins,
-        "text_wins": text_wins,
-        "neither_wins": neither_wins,
-        "both_wins": both_wins,
-
-        # Invalid reference answers
-        "invalid_original": invalid_original,
-        "invalid_corrupted": invalid_corrupted,
-
-        # Useful percentages
-        "image_win_rate": round(
-            image_wins / valid_modality_total,
-            6,
-        ) if valid_modality_total else 0.0,
-
-        "text_win_rate": round(
-            text_wins / valid_modality_total,
-            6,
-        ) if valid_modality_total else 0.0,
-
-        "neither_rate": round(
-            neither_wins / valid_modality_total,
-            6,
-        ) if valid_modality_total else 0.0,
-
-        "both_rate": round(
-            both_wins / valid_modality_total,
-            6,
-        ) if valid_modality_total else 0.0,
-
-        "valid_modality_total": valid_modality_total,
-
-        "path": str(path),
-
-        # Full sample-level diagnostic data.
-        "samples": sample_analysis,
+        "bins": sorted_bins,
+        "missing_graph": missing_graph,
     }
 
 
+def aggregate_edge_distributions(rows):
+    """
+    Pool samples across result files belonging to the same task.
+
+    Returns:
+
+        {
+            task: [
+                {
+                    edge_range,
+                    total,
+                    image,
+                    text,
+                    neither,
+                    image_pct,
+                    text_pct,
+                    neither_pct
+                },
+                ...
+            ]
+        }
+
+    This is the main analysis used to distinguish:
+
+        graph-size effect
+
+    from:
+
+        task-specific modality preference.
+    """
+
+    task_bins = {}
+
+    for row in rows:
+
+        task = row.get(
+            "task"
+        )
+
+        if task is None:
+            continue
+
+        task_bins.setdefault(
+            task,
+            {}
+        )
+
+        for sample in row.get(
+            "samples",
+            []
+        ):
+
+            winner = sample.get(
+                "modality_winner"
+            )
+
+            # Only the three-way comparison.
+            if winner not in {
+                "image",
+                "text",
+                "neither",
+            }:
+                continue
+
+            n_edges = get_edge_count(
+                sample
+            )
+
+            if n_edges is None:
+                continue
+
+            edge_bin = get_edge_bin(
+                n_edges
+            )
+
+            if edge_bin not in task_bins[task]:
+
+                task_bins[task][edge_bin] = {
+                    "edge_range": edge_bin,
+
+                    "total": 0,
+
+                    "image": 0,
+                    "text": 0,
+                    "neither": 0,
+
+                    "image_pct": 0.0,
+                    "text_pct": 0.0,
+                    "neither_pct": 0.0,
+                }
+
+            entry = task_bins[
+                task
+            ][edge_bin]
+
+            entry["total"] += 1
+            entry[winner] += 1
+
+    # ---------------------------------------------------------------
+    # Calculate percentages.
+    # ---------------------------------------------------------------
+
+    for task, bins in task_bins.items():
+
+        for entry in bins.values():
+
+            n = entry["total"]
+
+            if n == 0:
+                continue
+
+            entry["image_pct"] = round(
+                100.0 * entry["image"] / n,
+                2,
+            )
+
+            entry["text_pct"] = round(
+                100.0 * entry["text"] / n,
+                2,
+            )
+
+            entry["neither_pct"] = round(
+                100.0 * entry["neither"] / n,
+                2,
+            )
+
+    # ---------------------------------------------------------------
+    # Sort each task's bins numerically.
+    # ---------------------------------------------------------------
+
+    result = {}
+
+    for task, bins in task_bins.items():
+
+        result[task] = sorted(
+            bins.values(),
+            key=lambda x: int(
+                x["edge_range"].split("-")[0]
+            ),
+        )
+
+    return result
+
+
 # ===========================================================================
-# Summary
+# Aggregate existing result statistics
 # ===========================================================================
 
 def aggregate_counts(rows):
     """
-    Aggregate counts across files.
+    Aggregate counts across result files.
 
-    Counts are pooled rather than averaging percentages, which is generally
-    the right thing when all files contain the same number of samples.
+    Counts are pooled rather than averaging percentages.
     """
 
     fields = [
@@ -489,7 +391,7 @@ def aggregate_counts(rows):
 
     result = {
         field: sum(
-            row[field]
+            row.get(field, 0)
             for row in rows
         )
         for field in fields
@@ -534,6 +436,9 @@ def aggregate_counts(rows):
 def build_summary(rows):
     """
     Build summaries by task, image type, and model.
+
+    Since the enriched JSON already contains all evaluation results,
+    this function simply aggregates those results.
     """
 
     summary = {
@@ -546,10 +451,23 @@ def build_summary(rows):
     for row in rows:
 
         for group_name, key in [
-            ("by_task", row["task"]),
-            ("by_image_type", row["image_type"]),
-            ("by_model", row["model"]),
+            (
+                "by_task",
+                row.get("task"),
+            ),
+            (
+                "by_image_type",
+                row.get("image_type"),
+            ),
+            (
+                "by_model",
+                row.get("model"),
+            ),
         ]:
+
+            if key is None:
+                continue
+
             summary[group_name].setdefault(
                 key,
                 [],
@@ -560,12 +478,15 @@ def build_summary(rows):
         "by_image_type",
         "by_model",
     ]:
+
         for key, group_rows in summary[
             group_name
         ].items():
 
             summary[group_name][key] = (
-                aggregate_counts(group_rows)
+                aggregate_counts(
+                    group_rows
+                )
             )
 
     return summary
@@ -577,20 +498,21 @@ def build_summary(rows):
 
 def print_summary(summary):
     """
-    Print the mixed-signals modality-preference report.
+    Print the overall mixed-signals modality-preference report.
 
-    Percentages are calculated relative to the number of evaluated
-    samples for each task.
-
-    The accuracy column is intentionally omitted because this report
-    is about modality preference, not correctness.
+    Percentages here are relative to all evaluated samples, matching
+    the existing report.
     """
 
-    task_summary = summary["by_task"]
+    task_summary = summary[
+        "by_task"
+    ]
 
     print()
     print("=" * 105)
-    print("MIXED-SIGNALS MODALITY PREFERENCE")
+    print(
+        "MIXED-SIGNALS MODALITY PREFERENCE"
+    )
     print("=" * 105)
     print()
 
@@ -621,7 +543,10 @@ def print_summary(summary):
                 else 0.0
             )
 
-            return f"{count} ({percentage:.1f}%)"
+            return (
+                f"{count} "
+                f"({percentage:.1f}%)"
+            )
 
         print(
             f"{task:<25}"
@@ -633,10 +558,6 @@ def print_summary(summary):
         )
 
     print()
-
-    # ---------------------------------------------------------------
-    # Overall
-    # ---------------------------------------------------------------
 
     overall = summary["overall"]
     n = overall["total"]
@@ -650,7 +571,10 @@ def print_summary(summary):
             else 0.0
         )
 
-        return f"{count} ({percentage:.1f}%)"
+        return (
+            f"{count} "
+            f"({percentage:.1f}%)"
+        )
 
     print(
         f"{'OVERALL':<25}"
@@ -663,12 +587,88 @@ def print_summary(summary):
 
     print()
 
+
+def print_edge_distributions(
+    edge_distribution_by_task
+):
+    """
+    Print modality preference for each task stratified by edge count.
+
+    Percentages are calculated within each edge-count bin among
+    image/text/neither classifications.
+    """
+
+    print()
+    print("=" * 95)
+    print(
+        "MODALITY PREFERENCE BY GRAPH SIZE"
+    )
+    print("=" * 95)
+
+    print()
+
+    print(
+        "Percentages below are among valid "
+        "image/text/neither comparisons in each bin."
+    )
+
+    for task in TASK_TYPES:
+
+        if task not in edge_distribution_by_task:
+            continue
+
+        print()
+        print(
+            f"## TASK: {task}"
+        )
+
+        print()
+
+        print(
+            f"{'Edges':<12}"
+            f"{'N':>8}"
+            f"{'Image':>20}"
+            f"{'Text':>20}"
+            f"{'Neither':>20}"
+        )
+
+        print("-" * 80)
+
+        for entry in (
+            edge_distribution_by_task[
+                task
+            ]
+        ):
+
+            print(
+                f"{entry['edge_range']:<12}"
+                f"{entry['total']:>8}"
+                f"{entry['image']:>7}"
+                f" ({entry['image_pct']:>5.1f}%)"
+                f"{entry['text']:>7}"
+                f" ({entry['text_pct']:>5.1f}%)"
+                f"{entry['neither']:>7}"
+                f" ({entry['neither_pct']:>5.1f}%)"
+            )
+
+    print()
+
+
+# ===========================================================================
+# CSV
+# ===========================================================================
+
 def write_csv(rows, output_path):
     """
     Write one row per result file.
+
+    The edge-bin analysis is stored in the JSON report rather than
+    flattened into this file.
     """
 
-    output_path = Path(output_path)
+    output_path = Path(
+        output_path
+    )
 
     output_path.parent.mkdir(
         parents=True,
@@ -721,8 +721,12 @@ def write_csv(rows, output_path):
         writer.writeheader()
 
         for row in rows:
+
             writer.writerow({
-                field: row[field]
+                field: row.get(
+                    field,
+                    "",
+                )
                 for field in fields
             })
 
@@ -739,22 +743,31 @@ def main():
 
     parser = argparse.ArgumentParser(
         description=(
-            "Evaluate mixed-signals experiments. "
-            "Correctness and answer parsing are "
-            "delegated to evaluation.py."
+            "Analyze an already-enriched mixed-signals "
+            "evaluation report, including modality preference "
+            "stratified by graph edge count."
         )
     )
 
     parser.add_argument(
-        "--results-root",
-        default="results/mixed_baseline",
+        "--enriched-json",
+        default=(
+            "evaluation/"
+            "enrich_mixed_signals_results.json"
+        ),
+        help=(
+            "Path to the already-enriched JSON report."
+        ),
     )
 
     parser.add_argument(
         "--output-json",
         default=(
             "evaluation/"
-            "mixed_signals_results.json"
+            "mixed_signals_analysis.json"
+        ),
+        help=(
+            "Output JSON report."
         ),
     )
 
@@ -763,6 +776,9 @@ def main():
         default=(
             "evaluation/"
             "mixed_signals_results.csv"
+        ),
+        help=(
+            "Output CSV report."
         ),
     )
 
@@ -777,58 +793,49 @@ def main():
 
     args = parser.parse_args()
 
-    root = Path(
-        args.results_root
+    # ---------------------------------------------------------------
+    # Load enriched report
+    # ---------------------------------------------------------------
+
+    enriched_report, rows = (
+        load_enriched_results(
+            args.enriched_json
+        )
     )
 
-    if not root.exists():
-        raise FileNotFoundError(
-            f"Results root does not exist: {root}"
-        )
-
     # ---------------------------------------------------------------
-    # Evaluate every JSONL file.
+    # Filter by image type
     # ---------------------------------------------------------------
 
-    rows = []
+    if args.image_type != "all":
 
-    for path in sorted(
-        root.rglob("*.jsonl")
-    ):
-
-        if path.name.startswith("."):
-            continue
-
-        metadata = get_file_metadata(
-            path,
-            root,
-        )
-
-        # Filter by image type if requested.
-        # We do this after loading because image_type lives in the
-        # result records rather than necessarily in the directory.
-        result = evaluate_file(
-            path,
-            root,
-        )
-
-        if (
-            args.image_type != "all"
-            and result["image_type"]
-            != args.image_type
-        ):
-            continue
-
-        rows.append(result)
+        rows = [
+            row
+            for row in rows
+            if row.get("image_type")
+            == args.image_type
+        ]
 
     if not rows:
+
         print(
             "No matching result files found."
         )
+
         return
 
     # ---------------------------------------------------------------
-    # Aggregate.
+    # Calculate edge distributions
+    # ---------------------------------------------------------------
+
+    edge_distribution_by_task = (
+        aggregate_edge_distributions(
+            rows
+        )
+    )
+
+    # ---------------------------------------------------------------
+    # Aggregate existing evaluation statistics
     # ---------------------------------------------------------------
 
     summary = build_summary(
@@ -836,13 +843,7 @@ def main():
     )
 
     # ---------------------------------------------------------------
-    # JSON report.
-    #
-    # This contains:
-    #   - file-level statistics
-    #   - task-level statistics
-    #   - overall statistics
-    #   - every individual sample classification
+    # Build output report
     # ---------------------------------------------------------------
 
     report = {
@@ -852,7 +853,15 @@ def main():
             ).isoformat()
         ),
 
-        "results_root": str(root),
+        "source_enriched_json": str(
+            args.enriched_json
+        ),
+
+        "results_root": (
+            enriched_report.get(
+                "results_root"
+            )
+        ),
 
         "image_type_filter": (
             args.image_type
@@ -861,7 +870,21 @@ def main():
         "files": rows,
 
         "summary": summary,
+
+        # -----------------------------------------------------------
+        # NEW:
+        #
+        # Modality preference stratified by graph size, separately
+        # for every graph reasoning task.
+        # -----------------------------------------------------------
+
+        "edge_distribution_by_task":
+            edge_distribution_by_task,
     }
+
+    # ---------------------------------------------------------------
+    # Save JSON
+    # ---------------------------------------------------------------
 
     output_json = Path(
         args.output_json
@@ -889,7 +912,7 @@ def main():
     )
 
     # ---------------------------------------------------------------
-    # CSV.
+    # Save CSV
     # ---------------------------------------------------------------
 
     write_csv(
@@ -898,11 +921,15 @@ def main():
     )
 
     # ---------------------------------------------------------------
-    # Console.
+    # Console reports
     # ---------------------------------------------------------------
 
     print_summary(
         summary
+    )
+
+    print_edge_distributions(
+        edge_distribution_by_task
     )
 
 
