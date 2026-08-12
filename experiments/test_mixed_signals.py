@@ -42,33 +42,24 @@ def check(condition, message):
         raise AssertionError(message)
 
 
-def test_load_results(root, config):
+def test_load_results(root):
     """
     Verify that load_results() can read an existing baseline file.
     """
 
     log("Testing load_results()...")
 
-    model_name = config.get("model")
-    image_types = config.get("image_types")
-
-    if not image_types:
-        raise ValueError("No image_types found in config.")
-
-    image_type = image_types[0]
-
-    if model_name:
-        filename = f"{image_type}_{model_name}.jsonl"
-    else:
-        filename = f"{image_type}.jsonl"
-
-    task = TASKS[0]
+    task = "connected_nodes"
+    image_type = "spring"
+    model_name = "Qwen2.5-VL-3B-Instruct"
 
     results_path = (
-        Path(config["output_dir"])
-        / "image_and_text"
+        root
+        / "results"
+        / "baseline"
+        / "text_and_image"
         / task
-        / filename
+        / f"{image_type}_{model_name}.jsonl"
     )
 
     log(f"Loading existing results: {results_path}")
@@ -111,7 +102,6 @@ def test_load_results(root, config):
     )
 
     return results
-
 
 def test_task_dataset(root, config, task):
     """
@@ -371,16 +361,22 @@ def test_save_reload(root, config, task, corrupted):
                 f"{task}: images changed after reload.",
             )
 
-            check(
-                before.node_ids == after.node_ids,
-                f"{task}: node_ids changed after reload.",
-            )
+            if before.node_ids != after.node_ids:
+                print(
+                    f"{task}: node_ids mismatch after reload:"
+                )
+                print("  BEFORE:", repr(before.node_ids), type(before.node_ids))
+                print("  AFTER: ", repr(after.node_ids), type(after.node_ids))
+
+                raise AssertionError(
+                    f"{task}: node_ids changed after reload."
+                )
 
             check(
-                after.metadata["original_answer"]
-                == before.metadata["original_answer"],
+                after.answer
+                == before.answer,
                 (
-                    f"{task}: original_answer lost "
+                    f"{task}: answer lost "
                     "during reload."
                 ),
             )
@@ -426,7 +422,6 @@ def main():
 
     test_load_results(
         root,
-        config,
     )
 
     # -------------------------------------------------------------

@@ -163,10 +163,10 @@ def query_nodes(sample):
 
     Your dataset already stores these in graph['node_ids'].
     """
-    nodes = sample.get("node_ids")
+    nodes = sample.node_ids
 
-    if nodes is None:
-        nodes = sample.get("node_ids", [])
+    # if nodes is None:
+    #     nodes = sample.get("node_ids", [])
 
     if len(nodes) < 1:
         raise ValueError(
@@ -405,63 +405,66 @@ def corrupt_degree(graph, sample, expected_answer):
 def corrupt_connectivity(graph, sample, expected_answer):
     nodes = query_nodes(sample)
 
-    if len(nodes) < 2:
+    if len(nodes) < 1:
         raise ValueError(
-            f"connected_nodes requires two query nodes: "
+            f"connected_nodes requires one query node: "
             f"{sample.sample_id}"
         )
 
-    source, target = nodes[:2]
+    source = nodes[0]
 
-    originally_connected = nx.has_path(
-        graph,
-        source,
-        target,
-    )
+    neighbors = list(graph.neighbors(source))
 
-    if not originally_connected:
-        # Add direct edge.
-        add_edge(graph, source, target)
+    if neighbors:
+        # Remove one incident edge.
+        target = neighbors[0]
+        graph.remove_edge(source, target)
+
+        corrupted_neighbors = sorted(
+            graph.neighbors(source)
+        )
+
+        corrupted_answer = ", ".join(
+            str(n) for n in corrupted_neighbors
+        )
+
+        if corrupted_answer:
+            corrupted_answer += "."
 
         return (
             graph,
-            "yes",
+            corrupted_answer,
             {
-                "type": "add_edge",
+                "type": "remove_edge",
                 "edge": [source, target],
             },
         )
 
-    # Find an edge whose removal disconnects source and target.
-    #
-    # A bridge on a source-target path is sufficient.
-    path = nx.shortest_path(
+    # No neighbors: add an edge to another node.
+    candidates = [
+        n for n in graph.nodes()
+        if n != source and not graph.has_edge(source, n)
+    ]
+
+    if not candidates:
+        raise ValueError(
+            f"Cannot add an edge for node {source} "
+            f"in sample {sample.sample_id}"
+        )
+
+    target = candidates[0]
+    graph.add_edge(source, target)
+
+    corrupted_answer = f"{target}."
+
+    return (
         graph,
-        source,
-        target,
+        corrupted_answer,
+        {
+            "type": "add_edge",
+            "edge": [source, target],
+        },
     )
-
-    for u, v in zip(path[:-1], path[1:]):
-        graph.remove_edge(u, v)
-
-        if not nx.has_path(graph, source, target):
-            return (
-                graph,
-                "no",
-                {
-                    "type": "remove_edge",
-                    "edge": [u, v],
-                },
-            )
-
-        graph.add_edge(u, v)
-
-    # No single-edge deletion can disconnect them.
-    raise ValueError(
-        f"Could not minimally disconnect {source} and {target} "
-        f"in sample {sample.sample_id}"
-    )
-
 
 # ---------------------------------------------------------------------
 # node_count
@@ -561,13 +564,14 @@ def save_corrupted_dataset(samples, output_path):
     with output_path.open("w", encoding="utf-8") as f:
         for sample in samples:
             record = {
+                **sample.metadata,
                 "sample_id": sample.sample_id,
                 "graph": sample.graph,
                 "question": sample.question,
                 "answer": sample.answer,
                 "text_encoding": sample.text_encoding,
                 "images": sample.images,
-                "metadata": sample.metadata,
+                "node_ids": sample.node_ids,
             }
 
             f.write(
