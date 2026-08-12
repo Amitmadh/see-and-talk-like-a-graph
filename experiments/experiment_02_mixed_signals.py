@@ -107,8 +107,8 @@ if __name__ == "__main__":
                     r["model_answer"] == s.answer
                 )
 
-            output_path = Path(config["output_dir"]) / "image_and_text" / task / f"{image_type}_corrupt-text.jsonl"
+            output_path = Path(config["output_dir"]) / "text_and_image" / task / f"{image_type}_corrupt-text.jsonl"
             if model:
-                output_path = Path(config["output_dir"]) / "image_and_text" / task / f"{image_type}_corrupt-text_{model.name}.jsonl"
+                output_path = Path(config["output_dir"]) / "text_and_image" / task / f"{image_type}_corrupt-text_{model.name}.jsonl"
 
             save_results(results, output_path)
