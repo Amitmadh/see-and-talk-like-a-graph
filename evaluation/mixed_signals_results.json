@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-12T13:01:51.217513+00:00",
+  "generated_at": "2026-08-12T13:12:04.932296+00:00",
   "results_root": "results\\mixed_baseline",
   "image_type_filter": "spring",
   "files": [
@@ -11,21 +11,21 @@
       "model": "Qwen2.5-VL-3B-Instruct",
       "total": 118,
       "correct": 20,
-      "incorrect": 67,
+      "incorrect": 98,
       "wrong_format": 0,
-      "bad_expected": 31,
+      "bad_expected": 0,
       "accuracy": 0.169492,
-      "image_wins": 37,
+      "image_wins": 58,
       "text_wins": 20,
-      "neither_wins": 30,
+      "neither_wins": 40,
       "both_wins": 0,
       "invalid_original": 0,
-      "invalid_corrupted": 31,
-      "image_win_rate": 0.425287,
-      "text_win_rate": 0.229885,
-      "neither_rate": 0.344828,
+      "invalid_corrupted": 0,
+      "image_win_rate": 0.491525,
+      "text_win_rate": 0.169492,
+      "neither_rate": 0.338983,
       "both_rate": 0.0,
-      "valid_modality_total": 87,
+      "valid_modality_total": 118,
       "path": "results\\mixed_baseline\\text_and_image\\connected_nodes\\spring_corrupt-text_Qwen2.5-VL-3B-Instruct.jsonl",
       "samples": [
         {
@@ -156,9 +156,9 @@
             ]
           },
           "correct": false,
-          "correctness_status": "bad_expected",
-          "modality_winner": "invalid_corrupted_answer",
-          "matches_original": false,
+          "correctness_status": "incorrect",
+          "modality_winner": "image",
+          "matches_original": true,
           "matches_corrupted": false
         },
         {
@@ -213,9 +213,9 @@
             ]
           },
           "correct": false,
-          "correctness_status": "bad_expected",
-          "modality_winner": "invalid_corrupted_answer",
-          "matches_original": false,
+          "correctness_status": "incorrect",
+          "modality_winner": "image",
+          "matches_original": true,
           "matches_corrupted": false
         },
         {
@@ -365,9 +365,9 @@
             ]
           },
           "correct": false,
-          "correctness_status": "bad_expected",
-          "modality_winner": "invalid_corrupted_answer",
-          "matches_original": false,
+          "correctness_status": "incorrect",
+          "modality_winner": "image",
+          "matches_original": true,
           "matches_corrupted": false
         },
         {
@@ -422,9 +422,9 @@
             ]
           },
           "correct": false,
-          "correctness_status": "bad_expected",
-          "modality_winner": "invalid_corrupted_answer",
-          "matches_original": false,
+          "correctness_status": "incorrect",
+          "modality_winner": "image",
+          "matches_original": true,
           "matches_corrupted": false
         },
         {
@@ -460,8 +460,8 @@
             ]
           },
           "correct": false,
-          "correctness_status": "bad_expected",
-          "modality_winner": "invalid_corrupted_answer",
+          "correctness_status": "incorrect",
+          "modality_winner": "neither",
           "matches_original": false,
           "matches_corrupted": false
         },
@@ -479,9 +479,9 @@
             ]
           },
           "correct": false,
-          "correctness_status": "bad_expected",
-          "modality_winner": "invalid_corrupted_answer",
-          "matches_original": false,
+          "correctness_status": "incorrect",
+          "modality_winner": "image",
+          "matches_original": true,
           "matches_corrupted": false
         },
         {
@@ -498,9 +498,9 @@
             ]
           },
           "correct": false,
-          "correctness_status": "bad_expected",
-          "modality_winner": "invalid_corrupted_answer",
-          "matches_original": false,
+          "correctness_status": "incorrect",
+          "modality_winner": "image",
+          "matches_original": true,
           "matches_corrupted": false
         },
         {
@@ -536,9 +536,9 @@
             ]
           },
           "correct": false,
-          "correctness_status": "bad_expected",
-          "modality_winner": "invalid_corrupted_answer",
-          "matches_original": false,
+          "correctness_status": "incorrect",
+          "modality_winner": "image",
+          "matches_original": true,
           "matches_corrupted": false
         },
         {
@@ -612,9 +612,9 @@
             ]
           },
           "correct": false,
-          "correctness_status": "bad_expected",
-          "modality_winner": "invalid_corrupted_answer",
-          "matches_original": false,
+          "correctness_status": "incorrect",
+          "modality_winner": "image",
+          "matches_original": true,
           "matches_corrupted": false
         },
         {
@@ -650,8 +650,8 @@
             ]
           },
           "correct": false,
-          "correctness_status": "bad_expected",
-          "modality_winner": "invalid_corrupted_answer",
+          "correctness_status": "incorrect",
+          "modality_winner": "neither",
           "matches_original": false,
           "matches_corrupted": false
         },
@@ -669,9 +669,9 @@
             ]
           },
           "correct": false,
-          "correctness_status": "bad_expected",
-          "modality_winner": "invalid_corrupted_answer",
-          "matches_original": false,
+          "correctness_status": "incorrect",
+          "modality_winner": "image",
+          "matches_original": true,
           "matches_corrupted": false
         },
         {
@@ -688,8 +688,8 @@
             ]
           },
           "correct": false,
-          "correctness_status": "bad_expected",
-          "modality_winner": "invalid_corrupted_answer",
+          "correctness_status": "incorrect",
+          "modality_winner": "neither",
           "matches_original": false,
           "matches_corrupted": false
         },
@@ -707,9 +707,9 @@
             ]
           },
           "correct": false,
-          "correctness_status": "bad_expected",
-          "modality_winner": "invalid_corrupted_answer",
-          "matches_original": false,
+          "correctness_status": "incorrect",
+          "modality_winner": "image",
+          "matches_original": true,
           "matches_corrupted": false
         },
         {
@@ -726,8 +726,8 @@
             ]
           },
           "correct": false,
-          "correctness_status": "bad_expected",
-          "modality_winner": "invalid_corrupted_answer",
+          "correctness_status": "incorrect",
+          "modality_winner": "neither",
           "matches_original": false,
           "matches_corrupted": false
         },
@@ -745,9 +745,9 @@
             ]
           },
           "correct": false,
-          "correctness_status": "bad_expected",
-          "modality_winner": "invalid_corrupted_answer",
-          "matches_original": false,
+          "correctness_status": "incorrect",
+          "modality_winner": "image",
+          "matches_original": true,
           "matches_corrupted": false
         },
         {
@@ -764,8 +764,8 @@
             ]
           },
           "correct": false,
-          "correctness_status": "bad_expected",
-          "modality_winner": "invalid_corrupted_answer",
+          "correctness_status": "incorrect",
+          "modality_winner": "neither",
           "matches_original": false,
           "matches_corrupted": false
         },
@@ -783,9 +783,9 @@
             ]
           },
           "correct": false,
-          "correctness_status": "bad_expected",
-          "modality_winner": "invalid_corrupted_answer",
-          "matches_original": false,
+          "correctness_status": "incorrect",
+          "modality_winner": "image",
+          "matches_original": true,
           "matches_corrupted": false
         },
         {
@@ -802,9 +802,9 @@
             ]
           },
           "correct": false,
-          "correctness_status": "bad_expected",
-          "modality_winner": "invalid_corrupted_answer",
-          "matches_original": false,
+          "correctness_status": "incorrect",
+          "modality_winner": "image",
+          "matches_original": true,
           "matches_corrupted": false
         },
         {
@@ -821,8 +821,8 @@
             ]
           },
           "correct": false,
-          "correctness_status": "bad_expected",
-          "modality_winner": "invalid_corrupted_answer",
+          "correctness_status": "incorrect",
+          "modality_winner": "neither",
           "matches_original": false,
           "matches_corrupted": false
         },
@@ -840,9 +840,9 @@
             ]
           },
           "correct": false,
-          "correctness_status": "bad_expected",
-          "modality_winner": "invalid_corrupted_answer",
-          "matches_original": false,
+          "correctness_status": "incorrect",
+          "modality_winner": "image",
+          "matches_original": true,
           "matches_corrupted": false
         },
         {
@@ -916,9 +916,9 @@
             ]
           },
           "correct": false,
-          "correctness_status": "bad_expected",
-          "modality_winner": "invalid_corrupted_answer",
-          "matches_original": false,
+          "correctness_status": "incorrect",
+          "modality_winner": "image",
+          "matches_original": true,
           "matches_corrupted": false
         },
         {
@@ -935,9 +935,9 @@
             ]
           },
           "correct": false,
-          "correctness_status": "bad_expected",
-          "modality_winner": "invalid_corrupted_answer",
-          "matches_original": false,
+          "correctness_status": "incorrect",
+          "modality_winner": "image",
+          "matches_original": true,
           "matches_corrupted": false
         },
         {
@@ -954,9 +954,9 @@
             ]
           },
           "correct": false,
-          "correctness_status": "bad_expected",
-          "modality_winner": "invalid_corrupted_answer",
-          "matches_original": false,
+          "correctness_status": "incorrect",
+          "modality_winner": "image",
+          "matches_original": true,
           "matches_corrupted": false
         },
         {
@@ -992,9 +992,9 @@
             ]
           },
           "correct": false,
-          "correctness_status": "bad_expected",
-          "modality_winner": "invalid_corrupted_answer",
-          "matches_original": false,
+          "correctness_status": "incorrect",
+          "modality_winner": "image",
+          "matches_original": true,
           "matches_corrupted": false
         },
         {
@@ -1771,8 +1771,8 @@
             ]
           },
           "correct": false,
-          "correctness_status": "bad_expected",
-          "modality_winner": "invalid_corrupted_answer",
+          "correctness_status": "incorrect",
+          "modality_winner": "neither",
           "matches_original": false,
           "matches_corrupted": false
         },
@@ -1790,8 +1790,8 @@
             ]
           },
           "correct": false,
-          "correctness_status": "bad_expected",
-          "modality_winner": "invalid_corrupted_answer",
+          "correctness_status": "incorrect",
+          "modality_winner": "neither",
           "matches_original": false,
           "matches_corrupted": false
         },
@@ -1866,8 +1866,8 @@
             ]
           },
           "correct": false,
-          "correctness_status": "bad_expected",
-          "modality_winner": "invalid_corrupted_answer",
+          "correctness_status": "incorrect",
+          "modality_winner": "neither",
           "matches_original": false,
           "matches_corrupted": false
         },
@@ -1923,9 +1923,9 @@
             ]
           },
           "correct": false,
-          "correctness_status": "bad_expected",
-          "modality_winner": "invalid_corrupted_answer",
-          "matches_original": false,
+          "correctness_status": "incorrect",
+          "modality_winner": "image",
+          "matches_original": true,
           "matches_corrupted": false
         },
         {
@@ -1961,9 +1961,9 @@
             ]
           },
           "correct": false,
-          "correctness_status": "bad_expected",
-          "modality_winner": "invalid_corrupted_answer",
-          "matches_original": false,
+          "correctness_status": "incorrect",
+          "modality_winner": "image",
+          "matches_original": true,
           "matches_corrupted": false
         },
         {
@@ -2094,8 +2094,8 @@
             ]
           },
           "correct": false,
-          "correctness_status": "bad_expected",
-          "modality_winner": "invalid_corrupted_answer",
+          "correctness_status": "incorrect",
+          "modality_winner": "neither",
           "matches_original": false,
           "matches_corrupted": false
         },
@@ -2246,9 +2246,9 @@
             ]
           },
           "correct": false,
-          "correctness_status": "bad_expected",
-          "modality_winner": "invalid_corrupted_answer",
-          "matches_original": false,
+          "correctness_status": "incorrect",
+          "modality_winner": "image",
+          "matches_original": true,
           "matches_corrupted": false
         },
         {
@@ -16070,40 +16070,40 @@
     "overall": {
       "total": 877,
       "correct": 212,
-      "incorrect": 634,
+      "incorrect": 665,
       "wrong_format": 0,
-      "bad_expected": 31,
-      "image_wins": 586,
+      "bad_expected": 0,
+      "image_wins": 607,
       "text_wins": 212,
-      "neither_wins": 48,
+      "neither_wins": 58,
       "both_wins": 0,
       "invalid_original": 0,
-      "invalid_corrupted": 31,
-      "valid_modality_total": 846,
+      "invalid_corrupted": 0,
+      "valid_modality_total": 877,
       "accuracy": 0.24173318129988597,
-      "image_win_rate": 0.6926713947990544,
-      "text_win_rate": 0.25059101654846333,
-      "neither_rate": 0.05673758865248227,
+      "image_win_rate": 0.6921322690992018,
+      "text_win_rate": 0.24173318129988597,
+      "neither_rate": 0.0661345496009122,
       "both_rate": 0.0
     },
     "by_task": {
       "connected_nodes": {
         "total": 118,
         "correct": 20,
-        "incorrect": 67,
+        "incorrect": 98,
         "wrong_format": 0,
-        "bad_expected": 31,
-        "image_wins": 37,
+        "bad_expected": 0,
+        "image_wins": 58,
         "text_wins": 20,
-        "neither_wins": 30,
+        "neither_wins": 40,
         "both_wins": 0,
         "invalid_original": 0,
-        "invalid_corrupted": 31,
-        "valid_modality_total": 87,
+        "invalid_corrupted": 0,
+        "valid_modality_total": 118,
         "accuracy": 0.1694915254237288,
-        "image_win_rate": 0.42528735632183906,
-        "text_win_rate": 0.22988505747126436,
-        "neither_rate": 0.3448275862068966,
+        "image_win_rate": 0.4915254237288136,
+        "text_win_rate": 0.1694915254237288,
+        "neither_rate": 0.3389830508474576,
         "both_rate": 0.0
       },
       "edge_existence": {
@@ -16187,20 +16187,20 @@
       "spring": {
         "total": 877,
         "correct": 212,
-        "incorrect": 634,
+        "incorrect": 665,
         "wrong_format": 0,
-        "bad_expected": 31,
-        "image_wins": 586,
+        "bad_expected": 0,
+        "image_wins": 607,
         "text_wins": 212,
-        "neither_wins": 48,
+        "neither_wins": 58,
         "both_wins": 0,
         "invalid_original": 0,
-        "invalid_corrupted": 31,
-        "valid_modality_total": 846,
+        "invalid_corrupted": 0,
+        "valid_modality_total": 877,
         "accuracy": 0.24173318129988597,
-        "image_win_rate": 0.6926713947990544,
-        "text_win_rate": 0.25059101654846333,
-        "neither_rate": 0.05673758865248227,
+        "image_win_rate": 0.6921322690992018,
+        "text_win_rate": 0.24173318129988597,
+        "neither_rate": 0.0661345496009122,
         "both_rate": 0.0
       }
     },
@@ -16208,20 +16208,20 @@
       "Qwen2.5-VL-3B-Instruct": {
         "total": 877,
         "correct": 212,
-        "incorrect": 634,
+        "incorrect": 665,
         "wrong_format": 0,
-        "bad_expected": 31,
-        "image_wins": 586,
+        "bad_expected": 0,
+        "image_wins": 607,
         "text_wins": 212,
-        "neither_wins": 48,
+        "neither_wins": 58,
         "both_wins": 0,
         "invalid_original": 0,
-        "invalid_corrupted": 31,
-        "valid_modality_total": 846,
+        "invalid_corrupted": 0,
+        "valid_modality_total": 877,
         "accuracy": 0.24173318129988597,
-        "image_win_rate": 0.6926713947990544,
-        "text_win_rate": 0.25059101654846333,
-        "neither_rate": 0.05673758865248227,
+        "image_win_rate": 0.6921322690992018,
+        "text_win_rate": 0.24173318129988597,
+        "neither_rate": 0.0661345496009122,
         "both_rate": 0.0
       }
     }

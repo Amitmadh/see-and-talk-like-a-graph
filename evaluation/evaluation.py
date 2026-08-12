@@ -46,7 +46,13 @@ def parse_expected(task, answer):
 
     answer = clean(answer)
 
+    task_type = TASK_TYPES[task]
+
+    # An empty answer is a valid empty list for list-valued tasks.
     if answer is None:
+        if task_type == "list":
+            return ParsedAnswer([], True, "")
+        
         return ParsedAnswer(None, False, None)
 
     task_type = TASK_TYPES[task]
