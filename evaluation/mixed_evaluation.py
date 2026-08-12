@@ -577,93 +577,91 @@ def build_summary(rows):
 
 def print_summary(summary):
     """
-    Print a compact but informative mixed-signals report.
+    Print the mixed-signals modality-preference report.
+
+    Percentages are calculated relative to the number of evaluated
+    samples for each task.
+
+    The accuracy column is intentionally omitted because this report
+    is about modality preference, not correctness.
     """
 
-    print()
-    print("=" * 100)
-    print("MIXED-SIGNALS EVALUATION")
-    print("=" * 100)
-
-    overall = summary["overall"]
+    task_summary = summary["by_task"]
 
     print()
-    print("OVERALL")
-    print("-" * 100)
-
-    print(
-        f"Evaluated samples : {overall['total']}"
-    )
-
-    print(
-        f"Correct           : {overall['correct']} "
-        f"({overall['accuracy']:.3f})"
-    )
-
-    print(
-        f"Incorrect         : {overall['incorrect']}"
-    )
-
-    print(
-        f"Wrong format      : {overall['wrong_format']}"
-    )
-
+    print("=" * 105)
+    print("MIXED-SIGNALS MODALITY PREFERENCE")
+    print("=" * 105)
     print()
 
     print(
-        f"Image wins        : {overall['image_wins']} "
-        f"({overall['image_win_rate']:.3f})"
-    )
-
-    print(
-        f"Text wins         : {overall['text_wins']} "
-        f"({overall['text_win_rate']:.3f})"
-    )
-
-    print(
-        f"Neither           : {overall['neither_wins']} "
-        f"({overall['neither_rate']:.3f})"
-    )
-
-    print(
-        f"Both              : {overall['both_wins']} "
-        f"({overall['both_rate']:.3f})"
-    )
-
-    print()
-    print("BY TASK")
-    print("-" * 100)
-
-    header = (
-        f"{'Task':<20}"
+        f"{'Task':<25}"
         f"{'N':>7}"
-        f"{'Acc':>9}"
-        f"{'Image':>9}"
-        f"{'Text':>9}"
-        f"{'Neither':>10}"
-        f"{'Both':>8}"
+        f"{'Image':>20}"
+        f"{'Text':>20}"
+        f"{'Neither':>20}"
+        f"{'Both':>16}"
     )
 
-    print(header)
-    print("-" * len(header))
+    print("-" * 105)
 
     for task in TASK_TYPES:
 
-        if task not in summary["by_task"]:
+        if task not in task_summary:
             continue
 
-        row = summary["by_task"][task]
+        row = task_summary[task]
+
+        n = row["total"]
+
+        def fmt_count_pct(count):
+            percentage = (
+                100.0 * count / n
+                if n
+                else 0.0
+            )
+
+            return f"{count} ({percentage:.1f}%)"
 
         print(
-            f"{task:<20}"
-            f"{row['total']:>7}"
-            f"{row['accuracy']:>9.3f}"
-            f"{row['image_wins']:>9}"
-            f"{row['text_wins']:>9}"
-            f"{row['neither_wins']:>10}"
-            f"{row['both_wins']:>8}"
+            f"{task:<25}"
+            f"{n:>7}"
+            f"{fmt_count_pct(row['image_wins']):>20}"
+            f"{fmt_count_pct(row['text_wins']):>20}"
+            f"{fmt_count_pct(row['neither_wins']):>20}"
+            f"{fmt_count_pct(row['both_wins']):>16}"
         )
 
+    print()
+
+    # ---------------------------------------------------------------
+    # Overall
+    # ---------------------------------------------------------------
+
+    overall = summary["overall"]
+    n = overall["total"]
+
+    print("-" * 105)
+
+    def fmt_overall(count):
+        percentage = (
+            100.0 * count / n
+            if n
+            else 0.0
+        )
+
+        return f"{count} ({percentage:.1f}%)"
+
+    print(
+        f"{'OVERALL':<25}"
+        f"{n:>7}"
+        f"{fmt_overall(overall['image_wins']):>20}"
+        f"{fmt_overall(overall['text_wins']):>20}"
+        f"{fmt_overall(overall['neither_wins']):>20}"
+        f"{fmt_overall(overall['both_wins']):>16}"
+    )
+
+    print()
 
 def write_csv(rows, output_path):
     """
