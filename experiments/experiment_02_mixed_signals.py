@@ -8,20 +8,43 @@ from models import get_model
 from experiments.experiment_01_visual_augmentation import run_experiment, sanity_check_model
 from experiments.corruption import *
 
+from evaluation.evaluation import *
 
 
 
-def filter_clean_correct(dataset, baseline_results_path):
-    """Keep only samples the model answered correctly in the clean
-    image_and_text baseline run.
+
+def filter_clean_correct(dataset, baseline_results_path, task):
+    """
+    Keep only samples that the evaluation.py definition considers
+    correct in the clean image+text baseline.
     """
     baseline = load_results(baseline_results_path)
-    correct_ids = {
-        r["sample_id"] for r in baseline
-        if r["model_answer"] == r["expected_answer"]
-    }
-    filtered = [s for s in dataset if s.sample_id in correct_ids]
-    log(f"Filtered to clean-correct samples: {len(filtered)}/{len(dataset)} kept")
+
+    correct_ids = set()
+
+    for r in baseline:
+        model_answer = r.get("model_answer")
+        expected_answer = r.get("expected_answer")
+
+        is_correct, status, _ = compare(
+            task,
+            expected_answer,
+            model_answer,
+        )
+
+        if is_correct:
+            correct_ids.add(r["sample_id"])
+
+    filtered = [
+        s for s in dataset
+        if s.sample_id in correct_ids
+    ]
+
+    log(
+        f"Filtered to clean-correct samples: "
+        f"{len(filtered)}/{len(dataset)} kept"
+    )
+
     return filtered
 
 
@@ -110,7 +133,11 @@ if __name__ == "__main__":
                 Path("results/baseline") / "text_and_image" / task /
                 (f"{image_type}_{model.name}.jsonl" if model else f"{image_type}.jsonl")
             )
-            dataset = filter_clean_correct(dataset, baseline_path)
+            dataset = filter_clean_correct(
+            dataset,
+            baseline_path,
+            task,
+            )
             corrupted_dataset = corrupt_dataset(
             dataset,
             task=task,
@@ -151,13 +178,7 @@ if __name__ == "__main__":
                 r["corrupted_answer"] = s.answer
                 r["corruption"] = s.metadata["corruption"]
 
-                r["correct_wrt_original"] = (
-                    r["model_answer"] == s.metadata["original_answer"]
-                )
 
-                r["correct_wrt_corrupted"] = (
-                    r["model_answer"] == s.answer
-                )
 
             output_path = Path(config["output_dir"]) / "text_and_image" / task / f"{image_type}_corrupt-text.jsonl"
             if model:
