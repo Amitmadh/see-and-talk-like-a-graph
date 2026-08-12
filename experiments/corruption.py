@@ -149,6 +149,12 @@ def corrupt_by_task(graph, task, expected_answer, sample):
             sample,
             expected_answer,
         )
+    if task == "edge_existence":
+        return corrupt_edge_existence(
+            graph,
+            sample,
+            expected_answer
+        )
 
     raise ValueError(f"No corruption implemented for task: {task}")
 
@@ -539,6 +545,41 @@ def corrupt_edge_count(graph, sample, expected_answer):
         },
     )
 
+
+def corrupt_edge_existence(graph, sample, expected_answer):
+    nodes = query_nodes(sample)
+
+    if len(nodes) < 2:
+        raise ValueError(
+            f"edge_existence requires two query nodes: "
+            f"{sample.sample_id}"
+        )
+
+    u, v = nodes[:2]
+
+    if graph.has_edge(u, v):
+        graph.remove_edge(u, v)
+
+        return (
+            graph,
+            "false",
+            {
+                "type": "remove_edge",
+                "edge": [u, v],
+            },
+        )
+
+    else:
+        graph.add_edge(u, v)
+
+        return (
+            graph,
+            "true",
+            {
+                "type": "add_edge",
+                "edge": [u, v],
+            },
+        )
 import json
 from pathlib import Path
 

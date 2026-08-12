@@ -118,6 +118,7 @@ if __name__ == "__main__":
 
     first_it = True
 # modality is simply text+image
+    tasks = ["edge_existence"]
     for task in tasks:
         for image_type in image_types:
 
