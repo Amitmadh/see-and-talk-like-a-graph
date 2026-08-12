@@ -129,7 +129,7 @@ if __name__ == "__main__":
 
             baseline_path = (
                 Path("results/baseline") / "text_and_image" / task /
-                (f"{image_type}_{model.name}.jsonl" if model else f"{image_type}.jsonl")
+                (f"{image_type}_{model_name_in_results}.jsonl" if model else f"{image_type}.jsonl")
             )
             dataset = filter_clean_correct(
             dataset,
@@ -146,7 +146,7 @@ if __name__ == "__main__":
             root
             / config["data_dir"]
             / "mixed_signals"
-            / f"{task}_{text_encoding}_{model_name}_test.jsonl"
+            / f"{task}_{text_encoding}_{model_name_in_results}_test.jsonl"
             )
 
             save_corrupted_dataset(
