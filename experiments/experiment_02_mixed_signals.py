@@ -129,7 +129,7 @@ if __name__ == "__main__":
 
             baseline_path = (
                 Path("results/baseline") / "text_and_image" / task /
-                (f"{image_type}_{model_name_in_results}.jsonl" if model else f"{image_type}.jsonl")
+                (f"{image_type}_{model_name_in_results}.jsonl")
             )
             dataset = filter_clean_correct(
             dataset,
