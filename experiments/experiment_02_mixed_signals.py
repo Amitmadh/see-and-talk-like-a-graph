@@ -39,6 +39,58 @@ if __name__ == "__main__":
     model_kwargs = config.get("model_kwargs", {}) or {}
     text_encoding = config.get("text_encoding")
 
+
+    model_name_in_results = "Qwen2.5-VL-3B-Instruct"
+
+    # ============================================================
+    # Validate required paths BEFORE loading the model
+    # ============================================================
+
+    if not tasks:
+        raise ValueError("No tasks specified in config.")
+
+    if not image_types:
+        raise ValueError("No image_types specified in config.")
+
+    if not model_name:
+        raise ValueError("No model specified in config.")
+
+    data_dir = root / config["data_dir"]
+    output_dir = root / Path("results/baseline")
+
+    # Check original datasets
+    for task in tasks:
+        dataset_path = data_dir / f"{task}_{text_encoding}_test.jsonl"
+
+        if not dataset_path.is_file():
+            raise FileNotFoundError(
+                f"Dataset for task '{task}' does not exist:\n"
+                f"  {dataset_path}"
+            )
+
+    # Check baseline results for every task/image combination
+    for task in tasks:
+        for image_type in image_types:
+            baseline_path = (
+                output_dir
+                / "text_and_image"
+                / task
+                / f"{image_type}_{model_name_in_results}.jsonl"
+            )
+
+            if not baseline_path.is_file():
+                raise FileNotFoundError(
+                    f"Baseline results not found for "
+                    f"task='{task}', image_type='{image_type}':\n"
+                    f"  {baseline_path}"
+                )
+
+    log("All required datasets and baseline result files exist.")
+    log(f"Data directory: {data_dir}")
+    log(f"Baseline directory: {output_dir / 'text_and_image'}")
+
+
+
     model = None
     if model_name:
         model_kwargs.setdefault("image_root", root / config["data_dir"])
@@ -55,7 +107,7 @@ if __name__ == "__main__":
             dataset = load_graphqa_dataset(dataset_dir=dataset_dir)
 
             baseline_path = (
-                Path(config["output_dir"]) / "image_and_text" / task /
+                Path("results/baseline") / "text_and_image" / task /
                 (f"{image_type}_{model.name}.jsonl" if model else f"{image_type}.jsonl")
             )
             dataset = filter_clean_correct(dataset, baseline_path)
