@@ -115,14 +115,12 @@ if __name__ == "__main__":
 
 
     model = None
-    if model_name:
-        model_kwargs.setdefault("image_root", root / config["data_dir"])
-        model = get_model(model_name, **model_kwargs)
-        log(f"Loaded model: {model.name} ({model_name})")
 
+    first_it = True
 # modality is simply text+image
     for task in tasks:
         for image_type in image_types:
+
 
             log(f"Running mixed-signals experiment for task: {task}, image_type: {image_type}")
 
@@ -155,6 +153,15 @@ if __name__ == "__main__":
                 corrupted_dataset,
                 corrupted_dataset_path,
             )
+
+            if first_it:
+                if model_name:
+                    model_kwargs.setdefault("image_root", root / config["data_dir"])
+                    model = get_model(model_name, **model_kwargs)
+                    log(f"Loaded model: {model.name} ({model_name})")
+                first_it = False
+
+
 
             if model is not None and len(corrupted_dataset) > 0:
                 sanity_check_model(
