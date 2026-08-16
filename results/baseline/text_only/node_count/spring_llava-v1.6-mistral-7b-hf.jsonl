@@ -1,0 +1,6302 @@
+[
+  {
+    "sample_id": "node_count/adjacency/test/0",
+    "question": "Q: How many nodes are in this graph?\nA: ",
+    "expected_answer": " 17.",
+    "model_answer": "16",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "16",
+      "confidence": 0.9344640970230103,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_count/adjacency/test/1",
+    "question": "Q: How many nodes are in this graph?\nA: ",
+    "expected_answer": " 13.",
+    "model_answer": "13",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "13",
+      "confidence": 0.9768974184989929,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_count/adjacency/test/2",
+    "question": "Q: How many nodes are in this graph?\nA: ",
+    "expected_answer": " 5.",
+    "model_answer": "5",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "5",
+      "confidence": 0.9952645301818848,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_count/adjacency/test/3",
+    "question": "Q: How many nodes are in this graph?\nA: ",
+    "expected_answer": " 16.",
+    "model_answer": "16",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "16",
+      "confidence": 0.9788252115249634,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_count/adjacency/test/4",
+    "question": "Q: How many nodes are in this graph?\nA: ",
+    "expected_answer": " 16.",
+    "model_answer": "16",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "16",
+      "confidence": 0.9760279059410095,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_count/adjacency/test/5",
+    "question": "Q: How many nodes are in this graph?\nA: ",
+    "expected_answer": " 13.",
+    "model_answer": "13",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "13",
+      "confidence": 0.9489030241966248,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_count/adjacency/test/6",
+    "question": "Q: How many nodes are in this graph?\nA: ",
+    "expected_answer": " 18.",
+    "model_answer": "18",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "18",
+      "confidence": 0.9507929086685181,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_count/adjacency/test/7",
+    "question": "Q: How many nodes are in this graph?\nA: ",
+    "expected_answer": " 8.",
+    "model_answer": "8",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "8",
+      "confidence": 0.9019436240196228,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_count/adjacency/test/8",
+    "question": "Q: How many nodes are in this graph?\nA: ",
+    "expected_answer": " 18.",
+    "model_answer": "18",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "18",
+      "confidence": 0.9762496948242188,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_count/adjacency/test/9",
+    "question": "Q: How many nodes are in this graph?\nA: ",
+    "expected_answer": " 8.",
+    "model_answer": "8",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "8",
+      "confidence": 0.9381269216537476,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_count/adjacency/test/10",
+    "question": "Q: How many nodes are in this graph?\nA: ",
+    "expected_answer": " 9.",
+    "model_answer": "9",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "9",
+      "confidence": 0.9667984247207642,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_count/adjacency/test/11",
+    "question": "Q: How many nodes are in this graph?\nA: ",
+    "expected_answer": " 18.",
+    "model_answer": "18",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "18",
+      "confidence": 0.9700435996055603,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_count/adjacency/test/12",
+    "question": "Q: How many nodes are in this graph?\nA: ",
+    "expected_answer": " 14.",
+    "model_answer": "14",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "14",
+      "confidence": 0.9793074727058411,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_count/adjacency/test/13",
+    "question": "Q: How many nodes are in this graph?\nA: ",
+    "expected_answer": " 12.",
+    "model_answer": "12",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "12",
+      "confidence": 0.9924774169921875,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_count/adjacency/test/14",
+    "question": "Q: How many nodes are in this graph?\nA: ",
+    "expected_answer": " 11.",
+    "model_answer": "11",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "11",
+      "confidence": 0.9848567843437195,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_count/adjacency/test/15",
+    "question": "Q: How many nodes are in this graph?\nA: ",
+    "expected_answer": " 5.",
+    "model_answer": "5",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "5",
+      "confidence": 0.9966039657592773,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_count/adjacency/test/16",
+    "question": "Q: How many nodes are in this graph?\nA: ",
+    "expected_answer": " 5.",
+    "model_answer": "5",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "5",
+      "confidence": 0.9960209131240845,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_count/adjacency/test/17",
+    "question": "Q: How many nodes are in this graph?\nA: ",
+    "expected_answer": " 8.",
+    "model_answer": "8",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "8",
+      "confidence": 0.8889585733413696,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_count/adjacency/test/18",
+    "question": "Q: How many nodes are in this graph?\nA: ",
+    "expected_answer": " 7.",
+    "model_answer": "7",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "7",
+      "confidence": 0.9721094965934753,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_count/adjacency/test/19",
+    "question": "Q: How many nodes are in this graph?\nA: ",
+    "expected_answer": " 12.",
+    "model_answer": "12",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "12",
+      "confidence": 0.9941511154174805,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_count/adjacency/test/20",
+    "question": "Q: How many nodes are in this graph?\nA: ",
+    "expected_answer": " 16.",
+    "model_answer": "16",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "16",
+      "confidence": 0.9766578674316406,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_count/adjacency/test/21",
+    "question": "Q: How many nodes are in this graph?\nA: ",
+    "expected_answer": " 7.",
+    "model_answer": "7",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "7",
+      "confidence": 0.9616682529449463,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_count/adjacency/test/22",
+    "question": "Q: How many nodes are in this graph?\nA: ",
+    "expected_answer": " 12.",
+    "model_answer": "12",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "12",
+      "confidence": 0.9933926463127136,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_count/adjacency/test/23",
+    "question": "Q: How many nodes are in this graph?\nA: ",
+    "expected_answer": " 13.",
+    "model_answer": "13",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "13",
+      "confidence": 0.9449217915534973,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_count/adjacency/test/24",
+    "question": "Q: How many nodes are in this graph?\nA: ",
+    "expected_answer": " 10.",
+    "model_answer": "10",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "10",
+      "confidence": 0.9614230990409851,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_count/adjacency/test/25",
+    "question": "Q: How many nodes are in this graph?\nA: ",
+    "expected_answer": " 5.",
+    "model_answer": "5",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "5",
+      "confidence": 0.9967087507247925,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_count/adjacency/test/26",
+    "question": "Q: How many nodes are in this graph?\nA: ",
+    "expected_answer": " 10.",
+    "model_answer": "10",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "10",
+      "confidence": 0.9771230816841125,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_count/adjacency/test/27",
+    "question": "Q: How many nodes are in this graph?\nA: ",
+    "expected_answer": " 5.",
+    "model_answer": "5",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "5",
+      "confidence": 0.9963512420654297,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_count/adjacency/test/28",
+    "question": "Q: How many nodes are in this graph?\nA: ",
+    "expected_answer": " 12.",
+    "model_answer": "12",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "12",
+      "confidence": 0.9944796562194824,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_count/adjacency/test/29",
+    "question": "Q: How many nodes are in this graph?\nA: ",
+    "expected_answer": " 13.",
+    "model_answer": "13",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "13",
+      "confidence": 0.9647321701049805,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_count/adjacency/test/30",
+    "question": "Q: How many nodes are in this graph?\nA: ",
+    "expected_answer": " 12.",
+    "model_answer": "12",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "12",
+      "confidence": 0.9931484460830688,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_count/adjacency/test/31",
+    "question": "Q: How many nodes are in this graph?\nA: ",
+    "expected_answer": " 13.",
+    "model_answer": "13",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "13",
+      "confidence": 0.9727444648742676,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_count/adjacency/test/32",
+    "question": "Q: How many nodes are in this graph?\nA: ",
+    "expected_answer": " 5.",
+    "model_answer": "5",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "5",
+      "confidence": 0.995781660079956,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_count/adjacency/test/33",
+    "question": "Q: How many nodes are in this graph?\nA: ",
+    "expected_answer": " 18.",
+    "model_answer": "18",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "18",
+      "confidence": 0.9635832905769348,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_count/adjacency/test/34",
+    "question": "Q: How many nodes are in this graph?\nA: ",
+    "expected_answer": " 12.",
+    "model_answer": "12",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "12",
+      "confidence": 0.9943758249282837,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_count/adjacency/test/35",
+    "question": "Q: How many nodes are in this graph?\nA: ",
+    "expected_answer": " 11.",
+    "model_answer": "11",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "11",
+      "confidence": 0.9895920157432556,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_count/adjacency/test/36",
+    "question": "Q: How many nodes are in this graph?\nA: ",
+    "expected_answer": " 8.",
+    "model_answer": "8",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "8",
+      "confidence": 0.8975883722305298,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_count/adjacency/test/37",
+    "question": "Q: How many nodes are in this graph?\nA: ",
+    "expected_answer": " 14.",
+    "model_answer": "14",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "14",
+      "confidence": 0.9487560391426086,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_count/adjacency/test/38",
+    "question": "Q: How many nodes are in this graph?\nA: ",
+    "expected_answer": " 5.",
+    "model_answer": "5",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "5",
+      "confidence": 0.9962658286094666,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_count/adjacency/test/39",
+    "question": "Q: How many nodes are in this graph?\nA: ",
+    "expected_answer": " 9.",
+    "model_answer": "9",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "9",
+      "confidence": 0.9519962072372437,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_count/adjacency/test/40",
+    "question": "Q: How many nodes are in this graph?\nA: ",
+    "expected_answer": " 14.",
+    "model_answer": "14",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "14",
+      "confidence": 0.9520670175552368,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_count/adjacency/test/41",
+    "question": "Q: How many nodes are in this graph?\nA: ",
+    "expected_answer": " 11.",
+    "model_answer": "11",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "11",
+      "confidence": 0.9881908297538757,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_count/adjacency/test/42",
+    "question": "Q: How many nodes are in this graph?\nA: ",
+    "expected_answer": " 9.",
+    "model_answer": "9",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "9",
+      "confidence": 0.8914544582366943,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_count/adjacency/test/43",
+    "question": "Q: How many nodes are in this graph?\nA: ",
+    "expected_answer": " 11.",
+    "model_answer": "11",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "11",
+      "confidence": 0.985291600227356,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_count/adjacency/test/44",
+    "question": "Q: How many nodes are in this graph?\nA: ",
+    "expected_answer": " 5.",
+    "model_answer": "5",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "5",
+      "confidence": 0.9960209131240845,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_count/adjacency/test/45",
+    "question": "Q: How many nodes are in this graph?\nA: ",
+    "expected_answer": " 11.",
+    "model_answer": "11",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "11",
+      "confidence": 0.985468327999115,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_count/adjacency/test/46",
+    "question": "Q: How many nodes are in this graph?\nA: ",
+    "expected_answer": " 5.",
+    "model_answer": "5",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "5",
+      "confidence": 0.9962658286094666,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_count/adjacency/test/47",
+    "question": "Q: How many nodes are in this graph?\nA: ",
+    "expected_answer": " 16.",
+    "model_answer": "16",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "16",
+      "confidence": 0.9882736206054688,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_count/adjacency/test/48",
+    "question": "Q: How many nodes are in this graph?\nA: ",
+    "expected_answer": " 15.",
+    "model_answer": "15",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "15",
+      "confidence": 0.9833568930625916,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_count/adjacency/test/49",
+    "question": "Q: How many nodes are in this graph?\nA: ",
+    "expected_answer": " 17.",
+    "model_answer": "16",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "16",
+      "confidence": 0.930306613445282,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_count/adjacency/test/50",
+    "question": "Q: How many nodes are in this graph?\nA: ",
+    "expected_answer": " 16.",
+    "model_answer": "16",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "16",
+      "confidence": 0.9845709204673767,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_count/adjacency/test/51",
+    "question": "Q: How many nodes are in this graph?\nA: ",
+    "expected_answer": " 12.",
+    "model_answer": "12",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "12",
+      "confidence": 0.9940009117126465,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_count/adjacency/test/52",
+    "question": "Q: How many nodes are in this graph?\nA: ",
+    "expected_answer": " 5.",
+    "model_answer": "5",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "5",
+      "confidence": 0.9949070811271667,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_count/adjacency/test/53",
+    "question": "Q: How many nodes are in this graph?\nA: ",
+    "expected_answer": " 17.",
+    "model_answer": "16",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "16",
+      "confidence": 0.9378706216812134,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_count/adjacency/test/54",
+    "question": "Q: How many nodes are in this graph?\nA: ",
+    "expected_answer": " 16.",
+    "model_answer": "16",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "16",
+      "confidence": 0.9793388247489929,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_count/adjacency/test/55",
+    "question": "Q: How many nodes are in this graph?\nA: ",
+    "expected_answer": " 11.",
+    "model_answer": "11",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "11",
+      "confidence": 0.9894272089004517,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_count/adjacency/test/56",
+    "question": "Q: How many nodes are in this graph?\nA: ",
+    "expected_answer": " 16.",
+    "model_answer": "16",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "16",
+      "confidence": 0.98333340883255,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_count/adjacency/test/57",
+    "question": "Q: How many nodes are in this graph?\nA: ",
+    "expected_answer": " 8.",
+    "model_answer": "8",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "8",
+      "confidence": 0.9551851153373718,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_count/adjacency/test/58",
+    "question": "Q: How many nodes are in this graph?\nA: ",
+    "expected_answer": " 19.",
+    "model_answer": "19",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "19",
+      "confidence": 0.9895923733711243,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_count/adjacency/test/59",
+    "question": "Q: How many nodes are in this graph?\nA: ",
+    "expected_answer": " 7.",
+    "model_answer": "7",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "7",
+      "confidence": 0.933565080165863,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_count/adjacency/test/60",
+    "question": "Q: How many nodes are in this graph?\nA: ",
+    "expected_answer": " 7.",
+    "model_answer": "7",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "7",
+      "confidence": 0.95438551902771,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_count/adjacency/test/61",
+    "question": "Q: How many nodes are in this graph?\nA: ",
+    "expected_answer": " 18.",
+    "model_answer": "18",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "18",
+      "confidence": 0.954842746257782,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_count/adjacency/test/62",
+    "question": "Q: How many nodes are in this graph?\nA: ",
+    "expected_answer": " 10.",
+    "model_answer": "10",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "10",
+      "confidence": 0.9781274199485779,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_count/adjacency/test/63",
+    "question": "Q: How many nodes are in this graph?\nA: ",
+    "expected_answer": " 14.",
+    "model_answer": "14",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "14",
+      "confidence": 0.95794677734375,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_count/adjacency/test/64",
+    "question": "Q: How many nodes are in this graph?\nA: ",
+    "expected_answer": " 13.",
+    "model_answer": "13",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "13",
+      "confidence": 0.9370636343955994,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_count/adjacency/test/65",
+    "question": "Q: How many nodes are in this graph?\nA: ",
+    "expected_answer": " 9.",
+    "model_answer": "9",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "9",
+      "confidence": 0.940253734588623,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_count/adjacency/test/66",
+    "question": "Q: How many nodes are in this graph?\nA: ",
+    "expected_answer": " 7.",
+    "model_answer": "7",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "7",
+      "confidence": 0.9379091262817383,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_count/adjacency/test/67",
+    "question": "Q: How many nodes are in this graph?\nA: ",
+    "expected_answer": " 5.",
+    "model_answer": "5",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "5",
+      "confidence": 0.9968321323394775,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_count/adjacency/test/68",
+    "question": "Q: How many nodes are in this graph?\nA: ",
+    "expected_answer": " 8.",
+    "model_answer": "8",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "8",
+      "confidence": 0.9007331728935242,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_count/adjacency/test/69",
+    "question": "Q: How many nodes are in this graph?\nA: ",
+    "expected_answer": " 10.",
+    "model_answer": "10",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "10",
+      "confidence": 0.9817377328872681,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_count/adjacency/test/70",
+    "question": "Q: How many nodes are in this graph?\nA: ",
+    "expected_answer": " 15.",
+    "model_answer": "15",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "15",
+      "confidence": 0.9789882898330688,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_count/adjacency/test/71",
+    "question": "Q: How many nodes are in this graph?\nA: ",
+    "expected_answer": " 8.",
+    "model_answer": "7",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "7",
+      "confidence": 0.9031714797019958,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_count/adjacency/test/72",
+    "question": "Q: How many nodes are in this graph?\nA: ",
+    "expected_answer": " 12.",
+    "model_answer": "12",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "12",
+      "confidence": 0.993412971496582,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_count/adjacency/test/73",
+    "question": "Q: How many nodes are in this graph?\nA: ",
+    "expected_answer": " 11.",
+    "model_answer": "11",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "11",
+      "confidence": 0.9900541305541992,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_count/adjacency/test/74",
+    "question": "Q: How many nodes are in this graph?\nA: ",
+    "expected_answer": " 10.",
+    "model_answer": "10",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "10",
+      "confidence": 0.9697413444519043,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_count/adjacency/test/75",
+    "question": "Q: How many nodes are in this graph?\nA: ",
+    "expected_answer": " 9.",
+    "model_answer": "9",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "9",
+      "confidence": 0.9170888662338257,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_count/adjacency/test/76",
+    "question": "Q: How many nodes are in this graph?\nA: ",
+    "expected_answer": " 11.",
+    "model_answer": "11",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "11",
+      "confidence": 0.9872360229492188,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_count/adjacency/test/77",
+    "question": "Q: How many nodes are in this graph?\nA: ",
+    "expected_answer": " 8.",
+    "model_answer": "8",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "8",
+      "confidence": 0.9150311946868896,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_count/adjacency/test/78",
+    "question": "Q: How many nodes are in this graph?\nA: ",
+    "expected_answer": " 10.",
+    "model_answer": "10",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "10",
+      "confidence": 0.9705131649971008,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_count/adjacency/test/79",
+    "question": "Q: How many nodes are in this graph?\nA: ",
+    "expected_answer": " 13.",
+    "model_answer": "13",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "13",
+      "confidence": 0.9540674090385437,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_count/adjacency/test/80",
+    "question": "Q: How many nodes are in this graph?\nA: ",
+    "expected_answer": " 10.",
+    "model_answer": "10",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "10",
+      "confidence": 0.9740025401115417,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_count/adjacency/test/81",
+    "question": "Q: How many nodes are in this graph?\nA: ",
+    "expected_answer": " 10.",
+    "model_answer": "10",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "10",
+      "confidence": 0.9697381854057312,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_count/adjacency/test/82",
+    "question": "Q: How many nodes are in this graph?\nA: ",
+    "expected_answer": " 9.",
+    "model_answer": "9",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "9",
+      "confidence": 0.9137449264526367,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_count/adjacency/test/83",
+    "question": "Q: How many nodes are in this graph?\nA: ",
+    "expected_answer": " 17.",
+    "model_answer": "17",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "17",
+      "confidence": 0.9483060836791992,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_count/adjacency/test/84",
+    "question": "Q: How many nodes are in this graph?\nA: ",
+    "expected_answer": " 13.",
+    "model_answer": "13",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "13",
+      "confidence": 0.9587709307670593,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_count/adjacency/test/85",
+    "question": "Q: How many nodes are in this graph?\nA: ",
+    "expected_answer": " 14.",
+    "model_answer": "14",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "14",
+      "confidence": 0.9518952369689941,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_count/adjacency/test/86",
+    "question": "Q: How many nodes are in this graph?\nA: ",
+    "expected_answer": " 5.",
+    "model_answer": "5",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "5",
+      "confidence": 0.9949070811271667,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_count/adjacency/test/87",
+    "question": "Q: How many nodes are in this graph?\nA: ",
+    "expected_answer": " 11.",
+    "model_answer": "11",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "11",
+      "confidence": 0.9898735880851746,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_count/adjacency/test/88",
+    "question": "Q: How many nodes are in this graph?\nA: ",
+    "expected_answer": " 8.",
+    "model_answer": "8",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "8",
+      "confidence": 0.9328513145446777,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_count/adjacency/test/89",
+    "question": "Q: How many nodes are in this graph?\nA: ",
+    "expected_answer": " 8.",
+    "model_answer": "8",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "8",
+      "confidence": 0.8931928873062134,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_count/adjacency/test/90",
+    "question": "Q: How many nodes are in this graph?\nA: ",
+    "expected_answer": " 11.",
+    "model_answer": "11",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "11",
+      "confidence": 0.9908216595649719,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_count/adjacency/test/91",
+    "question": "Q: How many nodes are in this graph?\nA: ",
+    "expected_answer": " 11.",
+    "model_answer": "11",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "11",
+      "confidence": 0.987952709197998,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_count/adjacency/test/92",
+    "question": "Q: How many nodes are in this graph?\nA: ",
+    "expected_answer": " 8.",
+    "model_answer": "8",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "8",
+      "confidence": 0.902529239654541,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_count/adjacency/test/93",
+    "question": "Q: How many nodes are in this graph?\nA: ",
+    "expected_answer": " 14.",
+    "model_answer": "14",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "14",
+      "confidence": 0.9430072903633118,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_count/adjacency/test/94",
+    "question": "Q: How many nodes are in this graph?\nA: ",
+    "expected_answer": " 7.",
+    "model_answer": "7",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "7",
+      "confidence": 0.975794792175293,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_count/adjacency/test/95",
+    "question": "Q: How many nodes are in this graph?\nA: ",
+    "expected_answer": " 12.",
+    "model_answer": "12",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "12",
+      "confidence": 0.9932617545127869,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_count/adjacency/test/96",
+    "question": "Q: How many nodes are in this graph?\nA: ",
+    "expected_answer": " 6.",
+    "model_answer": "6",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "6",
+      "confidence": 0.9961344003677368,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_count/adjacency/test/97",
+    "question": "Q: How many nodes are in this graph?\nA: ",
+    "expected_answer": " 19.",
+    "model_answer": "19",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "19",
+      "confidence": 0.9854297041893005,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_count/adjacency/test/98",
+    "question": "Q: How many nodes are in this graph?\nA: ",
+    "expected_answer": " 17.",
+    "model_answer": "16",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "16",
+      "confidence": 0.9588646292686462,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_count/adjacency/test/99",
+    "question": "Q: How many nodes are in this graph?\nA: ",
+    "expected_answer": " 16.",
+    "model_answer": "16",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "16",
+      "confidence": 0.9826696515083313,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_count/adjacency/test/100",
+    "question": "Q: How many nodes are in this graph?\nA: ",
+    "expected_answer": " 16.",
+    "model_answer": "16",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "16",
+      "confidence": 0.9886810183525085,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_count/adjacency/test/101",
+    "question": "Q: How many nodes are in this graph?\nA: ",
+    "expected_answer": " 11.",
+    "model_answer": "11",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "11",
+      "confidence": 0.9883347749710083,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_count/adjacency/test/102",
+    "question": "Q: How many nodes are in this graph?\nA: ",
+    "expected_answer": " 7.",
+    "model_answer": "7",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "7",
+      "confidence": 0.9451891183853149,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_count/adjacency/test/103",
+    "question": "Q: How many nodes are in this graph?\nA: ",
+    "expected_answer": " 18.",
+    "model_answer": "18",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "18",
+      "confidence": 0.978125274181366,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_count/adjacency/test/104",
+    "question": "Q: How many nodes are in this graph?\nA: ",
+    "expected_answer": " 15.",
+    "model_answer": "15",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "15",
+      "confidence": 0.970112144947052,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_count/adjacency/test/105",
+    "question": "Q: How many nodes are in this graph?\nA: ",
+    "expected_answer": " 10.",
+    "model_answer": "10",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "10",
+      "confidence": 0.974696934223175,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_count/adjacency/test/106",
+    "question": "Q: How many nodes are in this graph?\nA: ",
+    "expected_answer": " 16.",
+    "model_answer": "16",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "16",
+      "confidence": 0.9880634546279907,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_count/adjacency/test/107",
+    "question": "Q: How many nodes are in this graph?\nA: ",
+    "expected_answer": " 5.",
+    "model_answer": "5",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "5",
+      "confidence": 0.9971758723258972,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_count/adjacency/test/108",
+    "question": "Q: How many nodes are in this graph?\nA: ",
+    "expected_answer": " 15.",
+    "model_answer": "15",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "15",
+      "confidence": 0.9751640558242798,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_count/adjacency/test/109",
+    "question": "Q: How many nodes are in this graph?\nA: ",
+    "expected_answer": " 5.",
+    "model_answer": "5",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "5",
+      "confidence": 0.9965003728866577,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_count/adjacency/test/110",
+    "question": "Q: How many nodes are in this graph?\nA: ",
+    "expected_answer": " 7.",
+    "model_answer": "7",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "7",
+      "confidence": 0.9143247604370117,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_count/adjacency/test/111",
+    "question": "Q: How many nodes are in this graph?\nA: ",
+    "expected_answer": " 18.",
+    "model_answer": "18",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "18",
+      "confidence": 0.9668272137641907,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_count/adjacency/test/112",
+    "question": "Q: How many nodes are in this graph?\nA: ",
+    "expected_answer": " 12.",
+    "model_answer": "12",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "12",
+      "confidence": 0.9935622215270996,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_count/adjacency/test/113",
+    "question": "Q: How many nodes are in this graph?\nA: ",
+    "expected_answer": " 14.",
+    "model_answer": "14",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "14",
+      "confidence": 0.9768377542495728,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_count/adjacency/test/114",
+    "question": "Q: How many nodes are in this graph?\nA: ",
+    "expected_answer": " 12.",
+    "model_answer": "12",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "12",
+      "confidence": 0.9951521158218384,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_count/adjacency/test/115",
+    "question": "Q: How many nodes are in this graph?\nA: ",
+    "expected_answer": " 6.",
+    "model_answer": "6",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "6",
+      "confidence": 0.996161699295044,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_count/adjacency/test/116",
+    "question": "Q: How many nodes are in this graph?\nA: ",
+    "expected_answer": " 7.",
+    "model_answer": "7",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "7",
+      "confidence": 0.9553772211074829,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_count/adjacency/test/117",
+    "question": "Q: How many nodes are in this graph?\nA: ",
+    "expected_answer": " 7.",
+    "model_answer": "7",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "7",
+      "confidence": 0.9712090492248535,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_count/adjacency/test/118",
+    "question": "Q: How many nodes are in this graph?\nA: ",
+    "expected_answer": " 6.",
+    "model_answer": "6",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "6",
+      "confidence": 0.9957776665687561,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_count/adjacency/test/119",
+    "question": "Q: How many nodes are in this graph?\nA: ",
+    "expected_answer": " 13.",
+    "model_answer": "13",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "13",
+      "confidence": 0.9652808308601379,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_count/adjacency/test/120",
+    "question": "Q: How many nodes are in this graph?\nA: ",
+    "expected_answer": " 19.",
+    "model_answer": "19",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "19",
+      "confidence": 0.98370361328125,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_count/adjacency/test/121",
+    "question": "Q: How many nodes are in this graph?\nA: ",
+    "expected_answer": " 5.",
+    "model_answer": "5",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "5",
+      "confidence": 0.9954925775527954,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_count/adjacency/test/122",
+    "question": "Q: How many nodes are in this graph?\nA: ",
+    "expected_answer": " 13.",
+    "model_answer": "13",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "13",
+      "confidence": 0.9751375317573547,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_count/adjacency/test/123",
+    "question": "Q: How many nodes are in this graph?\nA: ",
+    "expected_answer": " 14.",
+    "model_answer": "14",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "14",
+      "confidence": 0.9617012143135071,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_count/adjacency/test/124",
+    "question": "Q: How many nodes are in this graph?\nA: ",
+    "expected_answer": " 14.",
+    "model_answer": "14",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "14",
+      "confidence": 0.9594845175743103,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_count/adjacency/test/125",
+    "question": "Q: How many nodes are in this graph?\nA: ",
+    "expected_answer": " 8.",
+    "model_answer": "8",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "8",
+      "confidence": 0.9323923587799072,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_count/adjacency/test/126",
+    "question": "Q: How many nodes are in this graph?\nA: ",
+    "expected_answer": " 14.",
+    "model_answer": "14",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "14",
+      "confidence": 0.9578379988670349,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_count/adjacency/test/127",
+    "question": "Q: How many nodes are in this graph?\nA: ",
+    "expected_answer": " 9.",
+    "model_answer": "9",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "9",
+      "confidence": 0.9465121030807495,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_count/adjacency/test/128",
+    "question": "Q: How many nodes are in this graph?\nA: ",
+    "expected_answer": " 14.",
+    "model_answer": "14",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "14",
+      "confidence": 0.9496429562568665,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_count/adjacency/test/129",
+    "question": "Q: How many nodes are in this graph?\nA: ",
+    "expected_answer": " 10.",
+    "model_answer": "10",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "10",
+      "confidence": 0.9522995352745056,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_count/adjacency/test/130",
+    "question": "Q: How many nodes are in this graph?\nA: ",
+    "expected_answer": " 10.",
+    "model_answer": "10",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "10",
+      "confidence": 0.9648473858833313,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_count/adjacency/test/131",
+    "question": "Q: How many nodes are in this graph?\nA: ",
+    "expected_answer": " 14.",
+    "model_answer": "14",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "14",
+      "confidence": 0.9711929559707642,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_count/adjacency/test/132",
+    "question": "Q: How many nodes are in this graph?\nA: ",
+    "expected_answer": " 8.",
+    "model_answer": "8",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "8",
+      "confidence": 0.9219181537628174,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_count/adjacency/test/133",
+    "question": "Q: How many nodes are in this graph?\nA: ",
+    "expected_answer": " 15.",
+    "model_answer": "15",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "15",
+      "confidence": 0.9799795150756836,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_count/adjacency/test/134",
+    "question": "Q: How many nodes are in this graph?\nA: ",
+    "expected_answer": " 11.",
+    "model_answer": "11",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "11",
+      "confidence": 0.9876373410224915,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_count/adjacency/test/135",
+    "question": "Q: How many nodes are in this graph?\nA: ",
+    "expected_answer": " 10.",
+    "model_answer": "10",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "10",
+      "confidence": 0.9671642184257507,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_count/adjacency/test/136",
+    "question": "Q: How many nodes are in this graph?\nA: ",
+    "expected_answer": " 5.",
+    "model_answer": "5",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "5",
+      "confidence": 0.9966239929199219,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_count/adjacency/test/137",
+    "question": "Q: How many nodes are in this graph?\nA: ",
+    "expected_answer": " 14.",
+    "model_answer": "14",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "14",
+      "confidence": 0.9561435580253601,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_count/adjacency/test/138",
+    "question": "Q: How many nodes are in this graph?\nA: ",
+    "expected_answer": " 8.",
+    "model_answer": "8",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "8",
+      "confidence": 0.9522295594215393,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_count/adjacency/test/139",
+    "question": "Q: How many nodes are in this graph?\nA: ",
+    "expected_answer": " 6.",
+    "model_answer": "6",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "6",
+      "confidence": 0.9937866926193237,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_count/adjacency/test/140",
+    "question": "Q: How many nodes are in this graph?\nA: ",
+    "expected_answer": " 13.",
+    "model_answer": "13",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "13",
+      "confidence": 0.9802036285400391,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_count/adjacency/test/141",
+    "question": "Q: How many nodes are in this graph?\nA: ",
+    "expected_answer": " 11.",
+    "model_answer": "11",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "11",
+      "confidence": 0.9861268997192383,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_count/adjacency/test/142",
+    "question": "Q: How many nodes are in this graph?\nA: ",
+    "expected_answer": " 9.",
+    "model_answer": "9",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "9",
+      "confidence": 0.9692860841751099,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_count/adjacency/test/143",
+    "question": "Q: How many nodes are in this graph?\nA: ",
+    "expected_answer": " 13.",
+    "model_answer": "13",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "13",
+      "confidence": 0.9510097503662109,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_count/adjacency/test/144",
+    "question": "Q: How many nodes are in this graph?\nA: ",
+    "expected_answer": " 9.",
+    "model_answer": "9",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "9",
+      "confidence": 0.9246730804443359,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_count/adjacency/test/145",
+    "question": "Q: How many nodes are in this graph?\nA: ",
+    "expected_answer": " 11.",
+    "model_answer": "11",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "11",
+      "confidence": 0.988912045955658,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_count/adjacency/test/146",
+    "question": "Q: How many nodes are in this graph?\nA: ",
+    "expected_answer": " 7.",
+    "model_answer": "7",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "7",
+      "confidence": 0.9514122605323792,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_count/adjacency/test/147",
+    "question": "Q: How many nodes are in this graph?\nA: ",
+    "expected_answer": " 16.",
+    "model_answer": "16",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "16",
+      "confidence": 0.9749124646186829,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_count/adjacency/test/148",
+    "question": "Q: How many nodes are in this graph?\nA: ",
+    "expected_answer": " 16.",
+    "model_answer": "16",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "16",
+      "confidence": 0.9784626960754395,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_count/adjacency/test/149",
+    "question": "Q: How many nodes are in this graph?\nA: ",
+    "expected_answer": " 19.",
+    "model_answer": "19",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "19",
+      "confidence": 0.9835655093193054,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_count/adjacency/test/150",
+    "question": "Q: How many nodes are in this graph?\nA: ",
+    "expected_answer": " 16.",
+    "model_answer": "16",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "16",
+      "confidence": 0.9801248908042908,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_count/adjacency/test/151",
+    "question": "Q: How many nodes are in this graph?\nA: ",
+    "expected_answer": " 12.",
+    "model_answer": "12",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "12",
+      "confidence": 0.9941555857658386,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_count/adjacency/test/152",
+    "question": "Q: How many nodes are in this graph?\nA: ",
+    "expected_answer": " 8.",
+    "model_answer": "8",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "8",
+      "confidence": 0.8989266157150269,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_count/adjacency/test/153",
+    "question": "Q: How many nodes are in this graph?\nA: ",
+    "expected_answer": " 15.",
+    "model_answer": "15",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "15",
+      "confidence": 0.9785178303718567,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_count/adjacency/test/154",
+    "question": "Q: How many nodes are in this graph?\nA: ",
+    "expected_answer": " 18.",
+    "model_answer": "18",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "18",
+      "confidence": 0.959860622882843,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_count/adjacency/test/155",
+    "question": "Q: How many nodes are in this graph?\nA: ",
+    "expected_answer": " 12.",
+    "model_answer": "12",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "12",
+      "confidence": 0.9948747754096985,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_count/adjacency/test/156",
+    "question": "Q: How many nodes are in this graph?\nA: ",
+    "expected_answer": " 15.",
+    "model_answer": "15",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "15",
+      "confidence": 0.9734967350959778,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_count/adjacency/test/157",
+    "question": "Q: How many nodes are in this graph?\nA: ",
+    "expected_answer": " 6.",
+    "model_answer": "6",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "6",
+      "confidence": 0.9953974485397339,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_count/adjacency/test/158",
+    "question": "Q: How many nodes are in this graph?\nA: ",
+    "expected_answer": " 17.",
+    "model_answer": "16",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "16",
+      "confidence": 0.9387128949165344,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_count/adjacency/test/159",
+    "question": "Q: How many nodes are in this graph?\nA: ",
+    "expected_answer": " 6.",
+    "model_answer": "6",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "6",
+      "confidence": 0.9950870275497437,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_count/adjacency/test/160",
+    "question": "Q: How many nodes are in this graph?\nA: ",
+    "expected_answer": " 7.",
+    "model_answer": "7",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "7",
+      "confidence": 0.9536516070365906,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_count/adjacency/test/161",
+    "question": "Q: How many nodes are in this graph?\nA: ",
+    "expected_answer": " 16.",
+    "model_answer": "16",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "16",
+      "confidence": 0.9761063456535339,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_count/adjacency/test/162",
+    "question": "Q: How many nodes are in this graph?\nA: ",
+    "expected_answer": " 13.",
+    "model_answer": "13",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "13",
+      "confidence": 0.9548978805541992,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_count/adjacency/test/163",
+    "question": "Q: How many nodes are in this graph?\nA: ",
+    "expected_answer": " 10.",
+    "model_answer": "10",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "10",
+      "confidence": 0.9786453247070312,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_count/adjacency/test/164",
+    "question": "Q: How many nodes are in this graph?\nA: ",
+    "expected_answer": " 14.",
+    "model_answer": "14",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "14",
+      "confidence": 0.9560384750366211,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_count/adjacency/test/165",
+    "question": "Q: How many nodes are in this graph?\nA: ",
+    "expected_answer": " 8.",
+    "model_answer": "8",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "8",
+      "confidence": 0.9272648692131042,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_count/adjacency/test/166",
+    "question": "Q: How many nodes are in this graph?\nA: ",
+    "expected_answer": " 7.",
+    "model_answer": "7",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "7",
+      "confidence": 0.9610046148300171,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_count/adjacency/test/167",
+    "question": "Q: How many nodes are in this graph?\nA: ",
+    "expected_answer": " 8.",
+    "model_answer": "8",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "8",
+      "confidence": 0.9340962171554565,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_count/adjacency/test/168",
+    "question": "Q: How many nodes are in this graph?\nA: ",
+    "expected_answer": " 7.",
+    "model_answer": "7",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "7",
+      "confidence": 0.9740678668022156,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_count/adjacency/test/169",
+    "question": "Q: How many nodes are in this graph?\nA: ",
+    "expected_answer": " 14.",
+    "model_answer": "14",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "14",
+      "confidence": 0.9448001980781555,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_count/adjacency/test/170",
+    "question": "Q: How many nodes are in this graph?\nA: ",
+    "expected_answer": " 18.",
+    "model_answer": "18",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "18",
+      "confidence": 0.9471235275268555,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_count/adjacency/test/171",
+    "question": "Q: How many nodes are in this graph?\nA: ",
+    "expected_answer": " 8.",
+    "model_answer": "8",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "8",
+      "confidence": 0.9268089532852173,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_count/adjacency/test/172",
+    "question": "Q: How many nodes are in this graph?\nA: ",
+    "expected_answer": " 10.",
+    "model_answer": "10",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "10",
+      "confidence": 0.9637709856033325,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_count/adjacency/test/173",
+    "question": "Q: How many nodes are in this graph?\nA: ",
+    "expected_answer": " 13.",
+    "model_answer": "13",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "13",
+      "confidence": 0.9672926068305969,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_count/adjacency/test/174",
+    "question": "Q: How many nodes are in this graph?\nA: ",
+    "expected_answer": " 14.",
+    "model_answer": "14",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "14",
+      "confidence": 0.937111496925354,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_count/adjacency/test/175",
+    "question": "Q: How many nodes are in this graph?\nA: ",
+    "expected_answer": " 6.",
+    "model_answer": "6",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "6",
+      "confidence": 0.9957636594772339,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_count/adjacency/test/176",
+    "question": "Q: How many nodes are in this graph?\nA: ",
+    "expected_answer": " 13.",
+    "model_answer": "13",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "13",
+      "confidence": 0.9595155715942383,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_count/adjacency/test/177",
+    "question": "Q: How many nodes are in this graph?\nA: ",
+    "expected_answer": " 9.",
+    "model_answer": "9",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "9",
+      "confidence": 0.9212703704833984,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_count/adjacency/test/178",
+    "question": "Q: How many nodes are in this graph?\nA: ",
+    "expected_answer": " 13.",
+    "model_answer": "13",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "13",
+      "confidence": 0.9372133612632751,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_count/adjacency/test/179",
+    "question": "Q: How many nodes are in this graph?\nA: ",
+    "expected_answer": " 12.",
+    "model_answer": "12",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "12",
+      "confidence": 0.9939028024673462,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_count/adjacency/test/180",
+    "question": "Q: How many nodes are in this graph?\nA: ",
+    "expected_answer": " 12.",
+    "model_answer": "12",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "12",
+      "confidence": 0.9939824938774109,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_count/adjacency/test/181",
+    "question": "Q: How many nodes are in this graph?\nA: ",
+    "expected_answer": " 10.",
+    "model_answer": "10",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "10",
+      "confidence": 0.9690423011779785,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_count/adjacency/test/182",
+    "question": "Q: How many nodes are in this graph?\nA: ",
+    "expected_answer": " 6.",
+    "model_answer": "6",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "6",
+      "confidence": 0.9960839748382568,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_count/adjacency/test/183",
+    "question": "Q: How many nodes are in this graph?\nA: ",
+    "expected_answer": " 18.",
+    "model_answer": "18",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "18",
+      "confidence": 0.9601671099662781,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_count/adjacency/test/184",
+    "question": "Q: How many nodes are in this graph?\nA: ",
+    "expected_answer": " 13.",
+    "model_answer": "13",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "13",
+      "confidence": 0.959044873714447,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_count/adjacency/test/185",
+    "question": "Q: How many nodes are in this graph?\nA: ",
+    "expected_answer": " 10.",
+    "model_answer": "10",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "10",
+      "confidence": 0.9730505347251892,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_count/adjacency/test/186",
+    "question": "Q: How many nodes are in this graph?\nA: ",
+    "expected_answer": " 9.",
+    "model_answer": "9",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "9",
+      "confidence": 0.946367084980011,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_count/adjacency/test/187",
+    "question": "Q: How many nodes are in this graph?\nA: ",
+    "expected_answer": " 10.",
+    "model_answer": "10",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "10",
+      "confidence": 0.9750873446464539,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_count/adjacency/test/188",
+    "question": "Q: How many nodes are in this graph?\nA: ",
+    "expected_answer": " 8.",
+    "model_answer": "8",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "8",
+      "confidence": 0.9289558529853821,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_count/adjacency/test/189",
+    "question": "Q: How many nodes are in this graph?\nA: ",
+    "expected_answer": " 8.",
+    "model_answer": "8",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "8",
+      "confidence": 0.9445597529411316,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_count/adjacency/test/190",
+    "question": "Q: How many nodes are in this graph?\nA: ",
+    "expected_answer": " 12.",
+    "model_answer": "12",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "12",
+      "confidence": 0.9937652945518494,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_count/adjacency/test/191",
+    "question": "Q: How many nodes are in this graph?\nA: ",
+    "expected_answer": " 11.",
+    "model_answer": "11",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "11",
+      "confidence": 0.9832965731620789,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_count/adjacency/test/192",
+    "question": "Q: How many nodes are in this graph?\nA: ",
+    "expected_answer": " 7.",
+    "model_answer": "7",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "7",
+      "confidence": 0.9801476001739502,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_count/adjacency/test/193",
+    "question": "Q: How many nodes are in this graph?\nA: ",
+    "expected_answer": " 10.",
+    "model_answer": "10",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "10",
+      "confidence": 0.9771307110786438,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_count/adjacency/test/194",
+    "question": "Q: How many nodes are in this graph?\nA: ",
+    "expected_answer": " 6.",
+    "model_answer": "6",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "6",
+      "confidence": 0.9956671595573425,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_count/adjacency/test/195",
+    "question": "Q: How many nodes are in this graph?\nA: ",
+    "expected_answer": " 14.",
+    "model_answer": "14",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "14",
+      "confidence": 0.9446021914482117,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_count/adjacency/test/196",
+    "question": "Q: How many nodes are in this graph?\nA: ",
+    "expected_answer": " 7.",
+    "model_answer": "7",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "7",
+      "confidence": 0.9385038614273071,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_count/adjacency/test/197",
+    "question": "Q: How many nodes are in this graph?\nA: ",
+    "expected_answer": " 16.",
+    "model_answer": "16",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "16",
+      "confidence": 0.9783787131309509,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_count/adjacency/test/198",
+    "question": "Q: How many nodes are in this graph?\nA: ",
+    "expected_answer": " 17.",
+    "model_answer": "16",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "16",
+      "confidence": 0.9572917222976685,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_count/adjacency/test/199",
+    "question": "Q: How many nodes are in this graph?\nA: ",
+    "expected_answer": " 18.",
+    "model_answer": "18",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "18",
+      "confidence": 0.9575372934341431,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_count/adjacency/test/200",
+    "question": "Q: How many nodes are in this graph?\nA: ",
+    "expected_answer": " 16.",
+    "model_answer": "16",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "16",
+      "confidence": 0.9838460087776184,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_count/adjacency/test/201",
+    "question": "Q: How many nodes are in this graph?\nA: ",
+    "expected_answer": " 12.",
+    "model_answer": "12",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "12",
+      "confidence": 0.9925158619880676,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_count/adjacency/test/202",
+    "question": "Q: How many nodes are in this graph?\nA: ",
+    "expected_answer": " 8.",
+    "model_answer": "8",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "8",
+      "confidence": 0.9294441342353821,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_count/adjacency/test/203",
+    "question": "Q: How many nodes are in this graph?\nA: ",
+    "expected_answer": " 15.",
+    "model_answer": "15",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "15",
+      "confidence": 0.9844350814819336,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_count/adjacency/test/204",
+    "question": "Q: How many nodes are in this graph?\nA: ",
+    "expected_answer": " 18.",
+    "model_answer": "18",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "18",
+      "confidence": 0.9418641924858093,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_count/adjacency/test/205",
+    "question": "Q: How many nodes are in this graph?\nA: ",
+    "expected_answer": " 12.",
+    "model_answer": "12",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "12",
+      "confidence": 0.9925158619880676,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_count/adjacency/test/206",
+    "question": "Q: How many nodes are in this graph?\nA: ",
+    "expected_answer": " 15.",
+    "model_answer": "15",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "15",
+      "confidence": 0.9844350814819336,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_count/adjacency/test/207",
+    "question": "Q: How many nodes are in this graph?\nA: ",
+    "expected_answer": " 6.",
+    "model_answer": "6",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "6",
+      "confidence": 0.9948223829269409,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_count/adjacency/test/208",
+    "question": "Q: How many nodes are in this graph?\nA: ",
+    "expected_answer": " 17.",
+    "model_answer": "16",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "16",
+      "confidence": 0.9025965929031372,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_count/adjacency/test/209",
+    "question": "Q: How many nodes are in this graph?\nA: ",
+    "expected_answer": " 6.",
+    "model_answer": "6",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "6",
+      "confidence": 0.9948223829269409,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_count/adjacency/test/210",
+    "question": "Q: How many nodes are in this graph?\nA: ",
+    "expected_answer": " 7.",
+    "model_answer": "7",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "7",
+      "confidence": 0.934761643409729,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_count/adjacency/test/211",
+    "question": "Q: How many nodes are in this graph?\nA: ",
+    "expected_answer": " 16.",
+    "model_answer": "16",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "16",
+      "confidence": 0.9838460087776184,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_count/adjacency/test/212",
+    "question": "Q: How many nodes are in this graph?\nA: ",
+    "expected_answer": " 13.",
+    "model_answer": "13",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "13",
+      "confidence": 0.9721450805664062,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_count/adjacency/test/213",
+    "question": "Q: How many nodes are in this graph?\nA: ",
+    "expected_answer": " 10.",
+    "model_answer": "10",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "10",
+      "confidence": 0.9760910272598267,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_count/adjacency/test/214",
+    "question": "Q: How many nodes are in this graph?\nA: ",
+    "expected_answer": " 14.",
+    "model_answer": "14",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "14",
+      "confidence": 0.9535383582115173,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_count/adjacency/test/215",
+    "question": "Q: How many nodes are in this graph?\nA: ",
+    "expected_answer": " 8.",
+    "model_answer": "8",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "8",
+      "confidence": 0.9294441342353821,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_count/adjacency/test/216",
+    "question": "Q: How many nodes are in this graph?\nA: ",
+    "expected_answer": " 7.",
+    "model_answer": "7",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "7",
+      "confidence": 0.934761643409729,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_count/adjacency/test/217",
+    "question": "Q: How many nodes are in this graph?\nA: ",
+    "expected_answer": " 8.",
+    "model_answer": "8",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "8",
+      "confidence": 0.9294441342353821,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_count/adjacency/test/218",
+    "question": "Q: How many nodes are in this graph?\nA: ",
+    "expected_answer": " 7.",
+    "model_answer": "7",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "7",
+      "confidence": 0.934761643409729,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_count/adjacency/test/219",
+    "question": "Q: How many nodes are in this graph?\nA: ",
+    "expected_answer": " 14.",
+    "model_answer": "14",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "14",
+      "confidence": 0.9535383582115173,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_count/adjacency/test/220",
+    "question": "Q: How many nodes are in this graph?\nA: ",
+    "expected_answer": " 18.",
+    "model_answer": "18",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "18",
+      "confidence": 0.9418641924858093,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_count/adjacency/test/221",
+    "question": "Q: How many nodes are in this graph?\nA: ",
+    "expected_answer": " 8.",
+    "model_answer": "8",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "8",
+      "confidence": 0.9294441342353821,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_count/adjacency/test/222",
+    "question": "Q: How many nodes are in this graph?\nA: ",
+    "expected_answer": " 10.",
+    "model_answer": "10",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "10",
+      "confidence": 0.9760910272598267,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_count/adjacency/test/223",
+    "question": "Q: How many nodes are in this graph?\nA: ",
+    "expected_answer": " 13.",
+    "model_answer": "13",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "13",
+      "confidence": 0.9721450805664062,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_count/adjacency/test/224",
+    "question": "Q: How many nodes are in this graph?\nA: ",
+    "expected_answer": " 14.",
+    "model_answer": "14",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "14",
+      "confidence": 0.9535383582115173,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_count/adjacency/test/225",
+    "question": "Q: How many nodes are in this graph?\nA: ",
+    "expected_answer": " 6.",
+    "model_answer": "6",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "6",
+      "confidence": 0.9948223829269409,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_count/adjacency/test/226",
+    "question": "Q: How many nodes are in this graph?\nA: ",
+    "expected_answer": " 13.",
+    "model_answer": "13",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "13",
+      "confidence": 0.9721450805664062,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_count/adjacency/test/227",
+    "question": "Q: How many nodes are in this graph?\nA: ",
+    "expected_answer": " 9.",
+    "model_answer": "9",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "9",
+      "confidence": 0.9610416293144226,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_count/adjacency/test/228",
+    "question": "Q: How many nodes are in this graph?\nA: ",
+    "expected_answer": " 13.",
+    "model_answer": "13",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "13",
+      "confidence": 0.9721450805664062,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_count/adjacency/test/229",
+    "question": "Q: How many nodes are in this graph?\nA: ",
+    "expected_answer": " 12.",
+    "model_answer": "12",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "12",
+      "confidence": 0.9925158619880676,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_count/adjacency/test/230",
+    "question": "Q: How many nodes are in this graph?\nA: ",
+    "expected_answer": " 12.",
+    "model_answer": "12",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "12",
+      "confidence": 0.9925158619880676,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_count/adjacency/test/231",
+    "question": "Q: How many nodes are in this graph?\nA: ",
+    "expected_answer": " 10.",
+    "model_answer": "10",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "10",
+      "confidence": 0.9760910272598267,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_count/adjacency/test/232",
+    "question": "Q: How many nodes are in this graph?\nA: ",
+    "expected_answer": " 6.",
+    "model_answer": "6",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "6",
+      "confidence": 0.9948223829269409,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_count/adjacency/test/233",
+    "question": "Q: How many nodes are in this graph?\nA: ",
+    "expected_answer": " 18.",
+    "model_answer": "18",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "18",
+      "confidence": 0.9418641924858093,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_count/adjacency/test/234",
+    "question": "Q: How many nodes are in this graph?\nA: ",
+    "expected_answer": " 13.",
+    "model_answer": "13",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "13",
+      "confidence": 0.9721450805664062,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_count/adjacency/test/235",
+    "question": "Q: How many nodes are in this graph?\nA: ",
+    "expected_answer": " 10.",
+    "model_answer": "10",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "10",
+      "confidence": 0.9760910272598267,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_count/adjacency/test/236",
+    "question": "Q: How many nodes are in this graph?\nA: ",
+    "expected_answer": " 9.",
+    "model_answer": "9",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "9",
+      "confidence": 0.9610416293144226,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_count/adjacency/test/237",
+    "question": "Q: How many nodes are in this graph?\nA: ",
+    "expected_answer": " 10.",
+    "model_answer": "10",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "10",
+      "confidence": 0.9760910272598267,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_count/adjacency/test/238",
+    "question": "Q: How many nodes are in this graph?\nA: ",
+    "expected_answer": " 8.",
+    "model_answer": "8",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "8",
+      "confidence": 0.9294441342353821,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_count/adjacency/test/239",
+    "question": "Q: How many nodes are in this graph?\nA: ",
+    "expected_answer": " 8.",
+    "model_answer": "8",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "8",
+      "confidence": 0.9294441342353821,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_count/adjacency/test/240",
+    "question": "Q: How many nodes are in this graph?\nA: ",
+    "expected_answer": " 12.",
+    "model_answer": "12",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "12",
+      "confidence": 0.9925158619880676,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_count/adjacency/test/241",
+    "question": "Q: How many nodes are in this graph?\nA: ",
+    "expected_answer": " 11.",
+    "model_answer": "11",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "11",
+      "confidence": 0.9915186166763306,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_count/adjacency/test/242",
+    "question": "Q: How many nodes are in this graph?\nA: ",
+    "expected_answer": " 7.",
+    "model_answer": "7",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "7",
+      "confidence": 0.934761643409729,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_count/adjacency/test/243",
+    "question": "Q: How many nodes are in this graph?\nA: ",
+    "expected_answer": " 10.",
+    "model_answer": "10",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "10",
+      "confidence": 0.9760910272598267,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_count/adjacency/test/244",
+    "question": "Q: How many nodes are in this graph?\nA: ",
+    "expected_answer": " 6.",
+    "model_answer": "6",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "6",
+      "confidence": 0.9948223829269409,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_count/adjacency/test/245",
+    "question": "Q: How many nodes are in this graph?\nA: ",
+    "expected_answer": " 14.",
+    "model_answer": "14",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "14",
+      "confidence": 0.9535383582115173,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_count/adjacency/test/246",
+    "question": "Q: How many nodes are in this graph?\nA: ",
+    "expected_answer": " 7.",
+    "model_answer": "7",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "7",
+      "confidence": 0.934761643409729,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_count/adjacency/test/247",
+    "question": "Q: How many nodes are in this graph?\nA: ",
+    "expected_answer": " 16.",
+    "model_answer": "16",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "16",
+      "confidence": 0.9838460087776184,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_count/adjacency/test/248",
+    "question": "Q: How many nodes are in this graph?\nA: ",
+    "expected_answer": " 17.",
+    "model_answer": "16",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "16",
+      "confidence": 0.9025965929031372,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_count/adjacency/test/249",
+    "question": "Q: How many nodes are in this graph?\nA: ",
+    "expected_answer": " 18.",
+    "model_answer": "18",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "18",
+      "confidence": 0.9418641924858093,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_count/adjacency/test/250",
+    "question": "Q: How many nodes are in this graph?\nA: ",
+    "expected_answer": " 16.",
+    "model_answer": "16",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "16",
+      "confidence": 0.985556423664093,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_count/adjacency/test/251",
+    "question": "Q: How many nodes are in this graph?\nA: ",
+    "expected_answer": " 12.",
+    "model_answer": "12",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "12",
+      "confidence": 0.993412971496582,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_count/adjacency/test/252",
+    "question": "Q: How many nodes are in this graph?\nA: ",
+    "expected_answer": " 8.",
+    "model_answer": "8",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "8",
+      "confidence": 0.9452536702156067,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_count/adjacency/test/253",
+    "question": "Q: How many nodes are in this graph?\nA: ",
+    "expected_answer": " 15.",
+    "model_answer": "15",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "15",
+      "confidence": 0.9789882898330688,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_count/adjacency/test/254",
+    "question": "Q: How many nodes are in this graph?\nA: ",
+    "expected_answer": " 18.",
+    "model_answer": "18",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "18",
+      "confidence": 0.9693078994750977,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_count/adjacency/test/255",
+    "question": "Q: How many nodes are in this graph?\nA: ",
+    "expected_answer": " 12.",
+    "model_answer": "12",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "12",
+      "confidence": 0.993412971496582,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_count/adjacency/test/256",
+    "question": "Q: How many nodes are in this graph?\nA: ",
+    "expected_answer": " 15.",
+    "model_answer": "15",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "15",
+      "confidence": 0.9789882898330688,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_count/adjacency/test/257",
+    "question": "Q: How many nodes are in this graph?\nA: ",
+    "expected_answer": " 6.",
+    "model_answer": "6",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "6",
+      "confidence": 0.9938903450965881,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_count/adjacency/test/258",
+    "question": "Q: How many nodes are in this graph?\nA: ",
+    "expected_answer": " 17.",
+    "model_answer": "16",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "16",
+      "confidence": 0.9329352378845215,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_count/adjacency/test/259",
+    "question": "Q: How many nodes are in this graph?\nA: ",
+    "expected_answer": " 6.",
+    "model_answer": "6",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "6",
+      "confidence": 0.9938903450965881,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_count/adjacency/test/260",
+    "question": "Q: How many nodes are in this graph?\nA: ",
+    "expected_answer": " 7.",
+    "model_answer": "7",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "7",
+      "confidence": 0.9434956908226013,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_count/adjacency/test/261",
+    "question": "Q: How many nodes are in this graph?\nA: ",
+    "expected_answer": " 16.",
+    "model_answer": "16",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "16",
+      "confidence": 0.985556423664093,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_count/adjacency/test/262",
+    "question": "Q: How many nodes are in this graph?\nA: ",
+    "expected_answer": " 13.",
+    "model_answer": "13",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "13",
+      "confidence": 0.9370636343955994,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_count/adjacency/test/263",
+    "question": "Q: How many nodes are in this graph?\nA: ",
+    "expected_answer": " 10.",
+    "model_answer": "10",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "10",
+      "confidence": 0.9817377328872681,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_count/adjacency/test/264",
+    "question": "Q: How many nodes are in this graph?\nA: ",
+    "expected_answer": " 14.",
+    "model_answer": "14",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "14",
+      "confidence": 0.9395012855529785,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_count/adjacency/test/265",
+    "question": "Q: How many nodes are in this graph?\nA: ",
+    "expected_answer": " 8.",
+    "model_answer": "8",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "8",
+      "confidence": 0.9452536702156067,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_count/adjacency/test/266",
+    "question": "Q: How many nodes are in this graph?\nA: ",
+    "expected_answer": " 7.",
+    "model_answer": "7",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "7",
+      "confidence": 0.9434956908226013,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_count/adjacency/test/267",
+    "question": "Q: How many nodes are in this graph?\nA: ",
+    "expected_answer": " 8.",
+    "model_answer": "8",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "8",
+      "confidence": 0.9452536702156067,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_count/adjacency/test/268",
+    "question": "Q: How many nodes are in this graph?\nA: ",
+    "expected_answer": " 7.",
+    "model_answer": "7",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "7",
+      "confidence": 0.9434956908226013,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_count/adjacency/test/269",
+    "question": "Q: How many nodes are in this graph?\nA: ",
+    "expected_answer": " 14.",
+    "model_answer": "14",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "14",
+      "confidence": 0.9395012855529785,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_count/adjacency/test/270",
+    "question": "Q: How many nodes are in this graph?\nA: ",
+    "expected_answer": " 18.",
+    "model_answer": "18",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "18",
+      "confidence": 0.9693078994750977,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_count/adjacency/test/271",
+    "question": "Q: How many nodes are in this graph?\nA: ",
+    "expected_answer": " 8.",
+    "model_answer": "8",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "8",
+      "confidence": 0.9452536702156067,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_count/adjacency/test/272",
+    "question": "Q: How many nodes are in this graph?\nA: ",
+    "expected_answer": " 10.",
+    "model_answer": "10",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "10",
+      "confidence": 0.9817377328872681,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_count/adjacency/test/273",
+    "question": "Q: How many nodes are in this graph?\nA: ",
+    "expected_answer": " 13.",
+    "model_answer": "13",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "13",
+      "confidence": 0.9370636343955994,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_count/adjacency/test/274",
+    "question": "Q: How many nodes are in this graph?\nA: ",
+    "expected_answer": " 14.",
+    "model_answer": "14",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "14",
+      "confidence": 0.9395012855529785,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_count/adjacency/test/275",
+    "question": "Q: How many nodes are in this graph?\nA: ",
+    "expected_answer": " 6.",
+    "model_answer": "6",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "6",
+      "confidence": 0.9938903450965881,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_count/adjacency/test/276",
+    "question": "Q: How many nodes are in this graph?\nA: ",
+    "expected_answer": " 13.",
+    "model_answer": "13",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "13",
+      "confidence": 0.9370636343955994,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_count/adjacency/test/277",
+    "question": "Q: How many nodes are in this graph?\nA: ",
+    "expected_answer": " 9.",
+    "model_answer": "9",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "9",
+      "confidence": 0.940253734588623,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_count/adjacency/test/278",
+    "question": "Q: How many nodes are in this graph?\nA: ",
+    "expected_answer": " 13.",
+    "model_answer": "13",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "13",
+      "confidence": 0.9370636343955994,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_count/adjacency/test/279",
+    "question": "Q: How many nodes are in this graph?\nA: ",
+    "expected_answer": " 12.",
+    "model_answer": "12",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "12",
+      "confidence": 0.993412971496582,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_count/adjacency/test/280",
+    "question": "Q: How many nodes are in this graph?\nA: ",
+    "expected_answer": " 12.",
+    "model_answer": "12",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "12",
+      "confidence": 0.993412971496582,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_count/adjacency/test/281",
+    "question": "Q: How many nodes are in this graph?\nA: ",
+    "expected_answer": " 10.",
+    "model_answer": "10",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "10",
+      "confidence": 0.9817377328872681,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_count/adjacency/test/282",
+    "question": "Q: How many nodes are in this graph?\nA: ",
+    "expected_answer": " 6.",
+    "model_answer": "6",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "6",
+      "confidence": 0.9938903450965881,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_count/adjacency/test/283",
+    "question": "Q: How many nodes are in this graph?\nA: ",
+    "expected_answer": " 18.",
+    "model_answer": "18",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "18",
+      "confidence": 0.9693078994750977,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_count/adjacency/test/284",
+    "question": "Q: How many nodes are in this graph?\nA: ",
+    "expected_answer": " 13.",
+    "model_answer": "13",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "13",
+      "confidence": 0.9370636343955994,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_count/adjacency/test/285",
+    "question": "Q: How many nodes are in this graph?\nA: ",
+    "expected_answer": " 10.",
+    "model_answer": "10",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "10",
+      "confidence": 0.9817377328872681,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_count/adjacency/test/286",
+    "question": "Q: How many nodes are in this graph?\nA: ",
+    "expected_answer": " 9.",
+    "model_answer": "9",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "9",
+      "confidence": 0.940253734588623,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_count/adjacency/test/287",
+    "question": "Q: How many nodes are in this graph?\nA: ",
+    "expected_answer": " 10.",
+    "model_answer": "10",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "10",
+      "confidence": 0.9817377328872681,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_count/adjacency/test/288",
+    "question": "Q: How many nodes are in this graph?\nA: ",
+    "expected_answer": " 8.",
+    "model_answer": "8",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "8",
+      "confidence": 0.9452536702156067,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_count/adjacency/test/289",
+    "question": "Q: How many nodes are in this graph?\nA: ",
+    "expected_answer": " 8.",
+    "model_answer": "8",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "8",
+      "confidence": 0.9452536702156067,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_count/adjacency/test/290",
+    "question": "Q: How many nodes are in this graph?\nA: ",
+    "expected_answer": " 12.",
+    "model_answer": "12",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "12",
+      "confidence": 0.993412971496582,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_count/adjacency/test/291",
+    "question": "Q: How many nodes are in this graph?\nA: ",
+    "expected_answer": " 11.",
+    "model_answer": "11",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "11",
+      "confidence": 0.9886994361877441,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_count/adjacency/test/292",
+    "question": "Q: How many nodes are in this graph?\nA: ",
+    "expected_answer": " 7.",
+    "model_answer": "7",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "7",
+      "confidence": 0.9434956908226013,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_count/adjacency/test/293",
+    "question": "Q: How many nodes are in this graph?\nA: ",
+    "expected_answer": " 10.",
+    "model_answer": "10",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "10",
+      "confidence": 0.9817377328872681,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_count/adjacency/test/294",
+    "question": "Q: How many nodes are in this graph?\nA: ",
+    "expected_answer": " 6.",
+    "model_answer": "6",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "6",
+      "confidence": 0.9938903450965881,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_count/adjacency/test/295",
+    "question": "Q: How many nodes are in this graph?\nA: ",
+    "expected_answer": " 14.",
+    "model_answer": "14",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "14",
+      "confidence": 0.9395012855529785,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_count/adjacency/test/296",
+    "question": "Q: How many nodes are in this graph?\nA: ",
+    "expected_answer": " 7.",
+    "model_answer": "7",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "7",
+      "confidence": 0.9434956908226013,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_count/adjacency/test/297",
+    "question": "Q: How many nodes are in this graph?\nA: ",
+    "expected_answer": " 16.",
+    "model_answer": "16",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "16",
+      "confidence": 0.985556423664093,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_count/adjacency/test/298",
+    "question": "Q: How many nodes are in this graph?\nA: ",
+    "expected_answer": " 17.",
+    "model_answer": "16",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "16",
+      "confidence": 0.9329352378845215,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_count/adjacency/test/299",
+    "question": "Q: How many nodes are in this graph?\nA: ",
+    "expected_answer": " 18.",
+    "model_answer": "18",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "18",
+      "confidence": 0.9693078994750977,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_count/adjacency/test/300",
+    "question": "Q: How many nodes are in this graph?\nA: ",
+    "expected_answer": " 16.",
+    "model_answer": "16",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "16",
+      "confidence": 0.9749411940574646,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_count/adjacency/test/301",
+    "question": "Q: How many nodes are in this graph?\nA: ",
+    "expected_answer": " 12.",
+    "model_answer": "12",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "12",
+      "confidence": 0.9929672479629517,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_count/adjacency/test/302",
+    "question": "Q: How many nodes are in this graph?\nA: ",
+    "expected_answer": " 8.",
+    "model_answer": "8",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "8",
+      "confidence": 0.9329711198806763,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_count/adjacency/test/303",
+    "question": "Q: How many nodes are in this graph?\nA: ",
+    "expected_answer": " 15.",
+    "model_answer": "15",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "15",
+      "confidence": 0.9199846386909485,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_count/adjacency/test/304",
+    "question": "Q: How many nodes are in this graph?\nA: ",
+    "expected_answer": " 18.",
+    "model_answer": "18",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "18",
+      "confidence": 0.9415823221206665,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_count/adjacency/test/305",
+    "question": "Q: How many nodes are in this graph?\nA: ",
+    "expected_answer": " 12.",
+    "model_answer": "12",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "12",
+      "confidence": 0.9929672479629517,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_count/adjacency/test/306",
+    "question": "Q: How many nodes are in this graph?\nA: ",
+    "expected_answer": " 15.",
+    "model_answer": "15",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "15",
+      "confidence": 0.9199846386909485,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_count/adjacency/test/307",
+    "question": "Q: How many nodes are in this graph?\nA: ",
+    "expected_answer": " 6.",
+    "model_answer": "6",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "6",
+      "confidence": 0.994856595993042,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_count/adjacency/test/308",
+    "question": "Q: How many nodes are in this graph?\nA: ",
+    "expected_answer": " 17.",
+    "model_answer": "16",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "16",
+      "confidence": 0.9810131192207336,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_count/adjacency/test/309",
+    "question": "Q: How many nodes are in this graph?\nA: ",
+    "expected_answer": " 6.",
+    "model_answer": "6",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "6",
+      "confidence": 0.994856595993042,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_count/adjacency/test/310",
+    "question": "Q: How many nodes are in this graph?\nA: ",
+    "expected_answer": " 7.",
+    "model_answer": "7",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "7",
+      "confidence": 0.9613471627235413,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_count/adjacency/test/311",
+    "question": "Q: How many nodes are in this graph?\nA: ",
+    "expected_answer": " 16.",
+    "model_answer": "16",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "16",
+      "confidence": 0.9749411940574646,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_count/adjacency/test/312",
+    "question": "Q: How many nodes are in this graph?\nA: ",
+    "expected_answer": " 13.",
+    "model_answer": "12",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "12",
+      "confidence": 0.8997411727905273,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_count/adjacency/test/313",
+    "question": "Q: How many nodes are in this graph?\nA: ",
+    "expected_answer": " 10.",
+    "model_answer": "10",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "10",
+      "confidence": 0.9659929275512695,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_count/adjacency/test/314",
+    "question": "Q: How many nodes are in this graph?\nA: ",
+    "expected_answer": " 14.",
+    "model_answer": "14",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "14",
+      "confidence": 0.9046387076377869,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_count/adjacency/test/315",
+    "question": "Q: How many nodes are in this graph?\nA: ",
+    "expected_answer": " 8.",
+    "model_answer": "8",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "8",
+      "confidence": 0.9329711198806763,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_count/adjacency/test/316",
+    "question": "Q: How many nodes are in this graph?\nA: ",
+    "expected_answer": " 7.",
+    "model_answer": "7",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "7",
+      "confidence": 0.9613471627235413,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_count/adjacency/test/317",
+    "question": "Q: How many nodes are in this graph?\nA: ",
+    "expected_answer": " 8.",
+    "model_answer": "8",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "8",
+      "confidence": 0.9329711198806763,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_count/adjacency/test/318",
+    "question": "Q: How many nodes are in this graph?\nA: ",
+    "expected_answer": " 7.",
+    "model_answer": "7",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "7",
+      "confidence": 0.9613471627235413,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_count/adjacency/test/319",
+    "question": "Q: How many nodes are in this graph?\nA: ",
+    "expected_answer": " 14.",
+    "model_answer": "14",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "14",
+      "confidence": 0.9046387076377869,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_count/adjacency/test/320",
+    "question": "Q: How many nodes are in this graph?\nA: ",
+    "expected_answer": " 18.",
+    "model_answer": "18",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "18",
+      "confidence": 0.9415823221206665,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_count/adjacency/test/321",
+    "question": "Q: How many nodes are in this graph?\nA: ",
+    "expected_answer": " 8.",
+    "model_answer": "8",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "8",
+      "confidence": 0.9329711198806763,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_count/adjacency/test/322",
+    "question": "Q: How many nodes are in this graph?\nA: ",
+    "expected_answer": " 10.",
+    "model_answer": "10",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "10",
+      "confidence": 0.9659929275512695,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_count/adjacency/test/323",
+    "question": "Q: How many nodes are in this graph?\nA: ",
+    "expected_answer": " 13.",
+    "model_answer": "12",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "12",
+      "confidence": 0.8997411727905273,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_count/adjacency/test/324",
+    "question": "Q: How many nodes are in this graph?\nA: ",
+    "expected_answer": " 14.",
+    "model_answer": "14",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "14",
+      "confidence": 0.9046387076377869,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_count/adjacency/test/325",
+    "question": "Q: How many nodes are in this graph?\nA: ",
+    "expected_answer": " 6.",
+    "model_answer": "6",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "6",
+      "confidence": 0.994856595993042,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_count/adjacency/test/326",
+    "question": "Q: How many nodes are in this graph?\nA: ",
+    "expected_answer": " 13.",
+    "model_answer": "12",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "12",
+      "confidence": 0.8997411727905273,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_count/adjacency/test/327",
+    "question": "Q: How many nodes are in this graph?\nA: ",
+    "expected_answer": " 9.",
+    "model_answer": "9",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "9",
+      "confidence": 0.9325516223907471,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_count/adjacency/test/328",
+    "question": "Q: How many nodes are in this graph?\nA: ",
+    "expected_answer": " 13.",
+    "model_answer": "12",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "12",
+      "confidence": 0.8997411727905273,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_count/adjacency/test/329",
+    "question": "Q: How many nodes are in this graph?\nA: ",
+    "expected_answer": " 12.",
+    "model_answer": "12",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "12",
+      "confidence": 0.9929672479629517,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_count/adjacency/test/330",
+    "question": "Q: How many nodes are in this graph?\nA: ",
+    "expected_answer": " 12.",
+    "model_answer": "12",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "12",
+      "confidence": 0.9929672479629517,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_count/adjacency/test/331",
+    "question": "Q: How many nodes are in this graph?\nA: ",
+    "expected_answer": " 10.",
+    "model_answer": "10",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "10",
+      "confidence": 0.9659929275512695,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_count/adjacency/test/332",
+    "question": "Q: How many nodes are in this graph?\nA: ",
+    "expected_answer": " 6.",
+    "model_answer": "6",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "6",
+      "confidence": 0.994856595993042,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_count/adjacency/test/333",
+    "question": "Q: How many nodes are in this graph?\nA: ",
+    "expected_answer": " 18.",
+    "model_answer": "18",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "18",
+      "confidence": 0.9415823221206665,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_count/adjacency/test/334",
+    "question": "Q: How many nodes are in this graph?\nA: ",
+    "expected_answer": " 13.",
+    "model_answer": "12",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "12",
+      "confidence": 0.8997411727905273,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_count/adjacency/test/335",
+    "question": "Q: How many nodes are in this graph?\nA: ",
+    "expected_answer": " 10.",
+    "model_answer": "10",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "10",
+      "confidence": 0.9659929275512695,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_count/adjacency/test/336",
+    "question": "Q: How many nodes are in this graph?\nA: ",
+    "expected_answer": " 9.",
+    "model_answer": "9",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "9",
+      "confidence": 0.9325516223907471,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_count/adjacency/test/337",
+    "question": "Q: How many nodes are in this graph?\nA: ",
+    "expected_answer": " 10.",
+    "model_answer": "10",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "10",
+      "confidence": 0.9659929275512695,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_count/adjacency/test/338",
+    "question": "Q: How many nodes are in this graph?\nA: ",
+    "expected_answer": " 8.",
+    "model_answer": "8",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "8",
+      "confidence": 0.9329711198806763,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_count/adjacency/test/339",
+    "question": "Q: How many nodes are in this graph?\nA: ",
+    "expected_answer": " 8.",
+    "model_answer": "8",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "8",
+      "confidence": 0.9329711198806763,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_count/adjacency/test/340",
+    "question": "Q: How many nodes are in this graph?\nA: ",
+    "expected_answer": " 12.",
+    "model_answer": "12",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "12",
+      "confidence": 0.9929672479629517,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_count/adjacency/test/341",
+    "question": "Q: How many nodes are in this graph?\nA: ",
+    "expected_answer": " 11.",
+    "model_answer": "11",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "11",
+      "confidence": 0.9850848317146301,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_count/adjacency/test/342",
+    "question": "Q: How many nodes are in this graph?\nA: ",
+    "expected_answer": " 7.",
+    "model_answer": "7",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "7",
+      "confidence": 0.9613471627235413,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_count/adjacency/test/343",
+    "question": "Q: How many nodes are in this graph?\nA: ",
+    "expected_answer": " 10.",
+    "model_answer": "10",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "10",
+      "confidence": 0.9659929275512695,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_count/adjacency/test/344",
+    "question": "Q: How many nodes are in this graph?\nA: ",
+    "expected_answer": " 6.",
+    "model_answer": "6",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "6",
+      "confidence": 0.994856595993042,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_count/adjacency/test/345",
+    "question": "Q: How many nodes are in this graph?\nA: ",
+    "expected_answer": " 14.",
+    "model_answer": "14",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "14",
+      "confidence": 0.9046387076377869,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_count/adjacency/test/346",
+    "question": "Q: How many nodes are in this graph?\nA: ",
+    "expected_answer": " 7.",
+    "model_answer": "7",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "7",
+      "confidence": 0.9613471627235413,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_count/adjacency/test/347",
+    "question": "Q: How many nodes are in this graph?\nA: ",
+    "expected_answer": " 16.",
+    "model_answer": "16",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "16",
+      "confidence": 0.9749411940574646,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_count/adjacency/test/348",
+    "question": "Q: How many nodes are in this graph?\nA: ",
+    "expected_answer": " 17.",
+    "model_answer": "16",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "16",
+      "confidence": 0.9810131192207336,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_count/adjacency/test/349",
+    "question": "Q: How many nodes are in this graph?\nA: ",
+    "expected_answer": " 18.",
+    "model_answer": "18",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "18",
+      "confidence": 0.9415823221206665,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  }
+]

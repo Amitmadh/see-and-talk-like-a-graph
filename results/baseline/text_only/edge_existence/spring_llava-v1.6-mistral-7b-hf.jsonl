@@ -1,0 +1,6302 @@
+[
+  {
+    "sample_id": "edge_existence/adjacency/test/0",
+    "question": "Q: Is node 14 connected to node 3?\nA: ",
+    "expected_answer": "No.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.9042423963546753,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_existence/adjacency/test/1",
+    "question": "Q: Is node 0 connected to node 1?\nA: ",
+    "expected_answer": "No.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.8988460898399353,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_existence/adjacency/test/2",
+    "question": "Q: Is node 4 connected to node 0?\nA: ",
+    "expected_answer": "No.",
+    "model_answer": "False",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "False",
+      "confidence": 0.966913640499115,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_existence/adjacency/test/3",
+    "question": "Q: Is node 2 connected to node 1?\nA: ",
+    "expected_answer": "No.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.9232462644577026,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_existence/adjacency/test/4",
+    "question": "Q: Is node 11 connected to node 3?\nA: ",
+    "expected_answer": "No.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.8923043012619019,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_existence/adjacency/test/5",
+    "question": "Q: Is node 0 connected to node 12?\nA: ",
+    "expected_answer": "Yes.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.9423315525054932,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_existence/adjacency/test/6",
+    "question": "Q: Is node 0 connected to node 11?\nA: ",
+    "expected_answer": "No.",
+    "model_answer": "False",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "False",
+      "confidence": 0.8995856046676636,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_existence/adjacency/test/7",
+    "question": "Q: Is node 7 connected to node 4?\nA: ",
+    "expected_answer": "No.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.8298733234405518,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_existence/adjacency/test/8",
+    "question": "Q: Is node 14 connected to node 4?\nA: ",
+    "expected_answer": "Yes.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.9154272079467773,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_existence/adjacency/test/9",
+    "question": "Q: Is node 1 connected to node 7?\nA: ",
+    "expected_answer": "Yes.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.9213231801986694,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_existence/adjacency/test/10",
+    "question": "Q: Is node 1 connected to node 0?\nA: ",
+    "expected_answer": "Yes.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.9739710688591003,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_existence/adjacency/test/11",
+    "question": "Q: Is node 16 connected to node 15?\nA: ",
+    "expected_answer": "Yes.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.957846999168396,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_existence/adjacency/test/12",
+    "question": "Q: Is node 3 connected to node 1?\nA: ",
+    "expected_answer": "Yes.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.959722638130188,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_existence/adjacency/test/13",
+    "question": "Q: Is node 10 connected to node 8?\nA: ",
+    "expected_answer": "Yes.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.912703275680542,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_existence/adjacency/test/14",
+    "question": "Q: Is node 7 connected to node 1?\nA: ",
+    "expected_answer": "No.",
+    "model_answer": "False",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "False",
+      "confidence": 0.8431083559989929,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_existence/adjacency/test/15",
+    "question": "Q: Is node 4 connected to node 0?\nA: ",
+    "expected_answer": "Yes.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.9500563144683838,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_existence/adjacency/test/16",
+    "question": "Q: Is node 4 connected to node 0?\nA: ",
+    "expected_answer": "Yes.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.9489949941635132,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_existence/adjacency/test/17",
+    "question": "Q: Is node 4 connected to node 6?\nA: ",
+    "expected_answer": "No.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.9258539080619812,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_existence/adjacency/test/18",
+    "question": "Q: Is node 4 connected to node 0?\nA: ",
+    "expected_answer": "Yes.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.9398607611656189,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_existence/adjacency/test/19",
+    "question": "Q: Is node 10 connected to node 4?\nA: ",
+    "expected_answer": "No.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.8584752082824707,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_existence/adjacency/test/20",
+    "question": "Q: Is node 15 connected to node 13?\nA: ",
+    "expected_answer": "No.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.8908280730247498,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_existence/adjacency/test/21",
+    "question": "Q: Is node 2 connected to node 6?\nA: ",
+    "expected_answer": "No.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.8939719200134277,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_existence/adjacency/test/22",
+    "question": "Q: Is node 3 connected to node 10?\nA: ",
+    "expected_answer": "Yes.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.9488222002983093,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_existence/adjacency/test/23",
+    "question": "Q: Is node 3 connected to node 7?\nA: ",
+    "expected_answer": "Yes.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.9745230078697205,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_existence/adjacency/test/24",
+    "question": "Q: Is node 8 connected to node 0?\nA: ",
+    "expected_answer": "No.",
+    "model_answer": "False",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "False",
+      "confidence": 0.803330659866333,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_existence/adjacency/test/25",
+    "question": "Q: Is node 4 connected to node 0?\nA: ",
+    "expected_answer": "Yes.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.959696888923645,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_existence/adjacency/test/26",
+    "question": "Q: Is node 0 connected to node 5?\nA: ",
+    "expected_answer": "Yes.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.9593143463134766,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_existence/adjacency/test/27",
+    "question": "Q: Is node 1 connected to node 3?\nA: ",
+    "expected_answer": "No.",
+    "model_answer": "False",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "False",
+      "confidence": 0.8216230273246765,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_existence/adjacency/test/28",
+    "question": "Q: Is node 10 connected to node 6?\nA: ",
+    "expected_answer": "Yes.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.9048583507537842,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_existence/adjacency/test/29",
+    "question": "Q: Is node 2 connected to node 0?\nA: ",
+    "expected_answer": "No.",
+    "model_answer": "False",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "False",
+      "confidence": 0.8542299270629883,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_existence/adjacency/test/30",
+    "question": "Q: Is node 1 connected to node 9?\nA: ",
+    "expected_answer": "No.",
+    "model_answer": "False",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "False",
+      "confidence": 0.9005135893821716,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_existence/adjacency/test/31",
+    "question": "Q: Is node 7 connected to node 2?\nA: ",
+    "expected_answer": "Yes.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.9324992895126343,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_existence/adjacency/test/32",
+    "question": "Q: Is node 0 connected to node 1?\nA: ",
+    "expected_answer": "Yes.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.9792963266372681,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_existence/adjacency/test/33",
+    "question": "Q: Is node 4 connected to node 0?\nA: ",
+    "expected_answer": "No.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.9293955564498901,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_existence/adjacency/test/34",
+    "question": "Q: Is node 5 connected to node 1?\nA: ",
+    "expected_answer": "No.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.8652485609054565,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_existence/adjacency/test/35",
+    "question": "Q: Is node 8 connected to node 2?\nA: ",
+    "expected_answer": "Yes.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.9162477254867554,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_existence/adjacency/test/36",
+    "question": "Q: Is node 4 connected to node 3?\nA: ",
+    "expected_answer": "No.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.8684002757072449,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_existence/adjacency/test/37",
+    "question": "Q: Is node 0 connected to node 6?\nA: ",
+    "expected_answer": "Yes.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.9025187492370605,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_existence/adjacency/test/38",
+    "question": "Q: Is node 2 connected to node 0?\nA: ",
+    "expected_answer": "No.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.8922984004020691,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_existence/adjacency/test/39",
+    "question": "Q: Is node 2 connected to node 4?\nA: ",
+    "expected_answer": "Yes.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.9519366025924683,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_existence/adjacency/test/40",
+    "question": "Q: Is node 2 connected to node 4?\nA: ",
+    "expected_answer": "No.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.9010993242263794,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_existence/adjacency/test/41",
+    "question": "Q: Is node 2 connected to node 7?\nA: ",
+    "expected_answer": "No.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.9184167385101318,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_existence/adjacency/test/42",
+    "question": "Q: Is node 0 connected to node 6?\nA: ",
+    "expected_answer": "Yes.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.9056565165519714,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_existence/adjacency/test/43",
+    "question": "Q: Is node 5 connected to node 7?\nA: ",
+    "expected_answer": "Yes.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.9810886383056641,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_existence/adjacency/test/44",
+    "question": "Q: Is node 2 connected to node 3?\nA: ",
+    "expected_answer": "Yes.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.9735959768295288,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_existence/adjacency/test/45",
+    "question": "Q: Is node 7 connected to node 0?\nA: ",
+    "expected_answer": "Yes.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.8997684717178345,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_existence/adjacency/test/46",
+    "question": "Q: Is node 3 connected to node 1?\nA: ",
+    "expected_answer": "No.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.912213921546936,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_existence/adjacency/test/47",
+    "question": "Q: Is node 14 connected to node 11?\nA: ",
+    "expected_answer": "No.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.9226927757263184,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_existence/adjacency/test/48",
+    "question": "Q: Is node 12 connected to node 8?\nA: ",
+    "expected_answer": "No.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.9135028123855591,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_existence/adjacency/test/49",
+    "question": "Q: Is node 14 connected to node 9?\nA: ",
+    "expected_answer": "No.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.9085409045219421,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_existence/adjacency/test/50",
+    "question": "Q: Is node 8 connected to node 1?\nA: ",
+    "expected_answer": "No.",
+    "model_answer": "False",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "False",
+      "confidence": 0.8598076105117798,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_existence/adjacency/test/51",
+    "question": "Q: Is node 2 connected to node 6?\nA: ",
+    "expected_answer": "No.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.8722677230834961,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_existence/adjacency/test/52",
+    "question": "Q: Is node 3 connected to node 0?\nA: ",
+    "expected_answer": "Yes.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.9808253645896912,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_existence/adjacency/test/53",
+    "question": "Q: Is node 16 connected to node 3?\nA: ",
+    "expected_answer": "No.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.8604966402053833,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_existence/adjacency/test/54",
+    "question": "Q: Is node 15 connected to node 6?\nA: ",
+    "expected_answer": "Yes.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.9341803789138794,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_existence/adjacency/test/55",
+    "question": "Q: Is node 10 connected to node 4?\nA: ",
+    "expected_answer": "No.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.8345598578453064,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_existence/adjacency/test/56",
+    "question": "Q: Is node 6 connected to node 5?\nA: ",
+    "expected_answer": "No.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.9050140380859375,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_existence/adjacency/test/57",
+    "question": "Q: Is node 1 connected to node 5?\nA: ",
+    "expected_answer": "No.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.8676280379295349,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_existence/adjacency/test/58",
+    "question": "Q: Is node 5 connected to node 8?\nA: ",
+    "expected_answer": "No.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.9037741422653198,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_existence/adjacency/test/59",
+    "question": "Q: Is node 1 connected to node 5?\nA: ",
+    "expected_answer": "Yes.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.9628639221191406,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_existence/adjacency/test/60",
+    "question": "Q: Is node 2 connected to node 3?\nA: ",
+    "expected_answer": "No.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.9110329151153564,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_existence/adjacency/test/61",
+    "question": "Q: Is node 2 connected to node 17?\nA: ",
+    "expected_answer": "Yes.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.9359860420227051,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_existence/adjacency/test/62",
+    "question": "Q: Is node 6 connected to node 3?\nA: ",
+    "expected_answer": "No.",
+    "model_answer": "False",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "False",
+      "confidence": 0.8258317708969116,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_existence/adjacency/test/63",
+    "question": "Q: Is node 0 connected to node 4?\nA: ",
+    "expected_answer": "Yes.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.9369978904724121,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_existence/adjacency/test/64",
+    "question": "Q: Is node 12 connected to node 0?\nA: ",
+    "expected_answer": "Yes.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.9736851453781128,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_existence/adjacency/test/65",
+    "question": "Q: Is node 3 connected to node 1?\nA: ",
+    "expected_answer": "No.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.9576727151870728,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_existence/adjacency/test/66",
+    "question": "Q: Is node 6 connected to node 5?\nA: ",
+    "expected_answer": "Yes.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.9337932467460632,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_existence/adjacency/test/67",
+    "question": "Q: Is node 2 connected to node 4?\nA: ",
+    "expected_answer": "No.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.9292017221450806,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_existence/adjacency/test/68",
+    "question": "Q: Is node 7 connected to node 0?\nA: ",
+    "expected_answer": "Yes.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.9281152486801147,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_existence/adjacency/test/69",
+    "question": "Q: Is node 9 connected to node 4?\nA: ",
+    "expected_answer": "No.",
+    "model_answer": "False",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "False",
+      "confidence": 0.8307010531425476,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_existence/adjacency/test/70",
+    "question": "Q: Is node 13 connected to node 1?\nA: ",
+    "expected_answer": "No.",
+    "model_answer": "False",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "False",
+      "confidence": 0.8283855319023132,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_existence/adjacency/test/71",
+    "question": "Q: Is node 6 connected to node 1?\nA: ",
+    "expected_answer": "Yes.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.8589639663696289,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_existence/adjacency/test/72",
+    "question": "Q: Is node 1 connected to node 6?\nA: ",
+    "expected_answer": "No.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.9174429774284363,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_existence/adjacency/test/73",
+    "question": "Q: Is node 3 connected to node 7?\nA: ",
+    "expected_answer": "No.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.9394611120223999,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_existence/adjacency/test/74",
+    "question": "Q: Is node 8 connected to node 3?\nA: ",
+    "expected_answer": "Yes.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.9006530046463013,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_existence/adjacency/test/75",
+    "question": "Q: Is node 5 connected to node 3?\nA: ",
+    "expected_answer": "No.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.8669389486312866,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_existence/adjacency/test/76",
+    "question": "Q: Is node 8 connected to node 6?\nA: ",
+    "expected_answer": "Yes.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.9206053614616394,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_existence/adjacency/test/77",
+    "question": "Q: Is node 2 connected to node 4?\nA: ",
+    "expected_answer": "No.",
+    "model_answer": "False",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "False",
+      "confidence": 0.83115553855896,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_existence/adjacency/test/78",
+    "question": "Q: Is node 3 connected to node 4?\nA: ",
+    "expected_answer": "No.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.9287175536155701,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_existence/adjacency/test/79",
+    "question": "Q: Is node 0 connected to node 5?\nA: ",
+    "expected_answer": "Yes.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.9603482484817505,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_existence/adjacency/test/80",
+    "question": "Q: Is node 8 connected to node 2?\nA: ",
+    "expected_answer": "No.",
+    "model_answer": "False",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "False",
+      "confidence": 0.820462703704834,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_existence/adjacency/test/81",
+    "question": "Q: Is node 7 connected to node 8?\nA: ",
+    "expected_answer": "Yes.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.948472261428833,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_existence/adjacency/test/82",
+    "question": "Q: Is node 7 connected to node 5?\nA: ",
+    "expected_answer": "No.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.8702651262283325,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_existence/adjacency/test/83",
+    "question": "Q: Is node 4 connected to node 16?\nA: ",
+    "expected_answer": "No.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.937792956829071,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_existence/adjacency/test/84",
+    "question": "Q: Is node 0 connected to node 9?\nA: ",
+    "expected_answer": "No.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.8338949084281921,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_existence/adjacency/test/85",
+    "question": "Q: Is node 2 connected to node 13?\nA: ",
+    "expected_answer": "No.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.8911372423171997,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_existence/adjacency/test/86",
+    "question": "Q: Is node 4 connected to node 0?\nA: ",
+    "expected_answer": "Yes.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.9638416171073914,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_existence/adjacency/test/87",
+    "question": "Q: Is node 5 connected to node 2?\nA: ",
+    "expected_answer": "Yes.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.9255358576774597,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_existence/adjacency/test/88",
+    "question": "Q: Is node 0 connected to node 5?\nA: ",
+    "expected_answer": "No.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.9062795639038086,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_existence/adjacency/test/89",
+    "question": "Q: Is node 0 connected to node 5?\nA: ",
+    "expected_answer": "Yes.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.9333444833755493,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_existence/adjacency/test/90",
+    "question": "Q: Is node 1 connected to node 2?\nA: ",
+    "expected_answer": "No.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.9308185577392578,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_existence/adjacency/test/91",
+    "question": "Q: Is node 3 connected to node 0?\nA: ",
+    "expected_answer": "Yes.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.9592153429985046,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_existence/adjacency/test/92",
+    "question": "Q: Is node 6 connected to node 3?\nA: ",
+    "expected_answer": "No.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.8697986602783203,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_existence/adjacency/test/93",
+    "question": "Q: Is node 11 connected to node 5?\nA: ",
+    "expected_answer": "No.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.8995304107666016,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_existence/adjacency/test/94",
+    "question": "Q: Is node 1 connected to node 5?\nA: ",
+    "expected_answer": "No.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.9263750910758972,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_existence/adjacency/test/95",
+    "question": "Q: Is node 6 connected to node 4?\nA: ",
+    "expected_answer": "No.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.8684550523757935,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_existence/adjacency/test/96",
+    "question": "Q: Is node 4 connected to node 2?\nA: ",
+    "expected_answer": "No.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.8456177115440369,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_existence/adjacency/test/97",
+    "question": "Q: Is node 13 connected to node 10?\nA: ",
+    "expected_answer": "No.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.8891579508781433,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_existence/adjacency/test/98",
+    "question": "Q: Is node 4 connected to node 2?\nA: ",
+    "expected_answer": "No.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.8526023626327515,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_existence/adjacency/test/99",
+    "question": "Q: Is node 8 connected to node 4?\nA: ",
+    "expected_answer": "Yes.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.9301607012748718,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_existence/adjacency/test/100",
+    "question": "Q: Is node 13 connected to node 6?\nA: ",
+    "expected_answer": "Yes.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.9447619318962097,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_existence/adjacency/test/101",
+    "question": "Q: Is node 9 connected to node 4?\nA: ",
+    "expected_answer": "No.",
+    "model_answer": "False",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "False",
+      "confidence": 0.8289163112640381,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_existence/adjacency/test/102",
+    "question": "Q: Is node 4 connected to node 0?\nA: ",
+    "expected_answer": "Yes.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.9003399610519409,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_existence/adjacency/test/103",
+    "question": "Q: Is node 12 connected to node 8?\nA: ",
+    "expected_answer": "Yes.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.9150763750076294,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_existence/adjacency/test/104",
+    "question": "Q: Is node 3 connected to node 4?\nA: ",
+    "expected_answer": "Yes.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.97072833776474,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_existence/adjacency/test/105",
+    "question": "Q: Is node 9 connected to node 6?\nA: ",
+    "expected_answer": "No.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.8994497060775757,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_existence/adjacency/test/106",
+    "question": "Q: Is node 1 connected to node 5?\nA: ",
+    "expected_answer": "Yes.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.9475938677787781,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_existence/adjacency/test/107",
+    "question": "Q: Is node 3 connected to node 1?\nA: ",
+    "expected_answer": "Yes.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.9759777784347534,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_existence/adjacency/test/108",
+    "question": "Q: Is node 12 connected to node 6?\nA: ",
+    "expected_answer": "No.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.9181486964225769,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_existence/adjacency/test/109",
+    "question": "Q: Is node 1 connected to node 3?\nA: ",
+    "expected_answer": "Yes.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.9331231117248535,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_existence/adjacency/test/110",
+    "question": "Q: Is node 2 connected to node 0?\nA: ",
+    "expected_answer": "No.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.8668736815452576,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_existence/adjacency/test/111",
+    "question": "Q: Is node 2 connected to node 17?\nA: ",
+    "expected_answer": "No.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.9356322288513184,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_existence/adjacency/test/112",
+    "question": "Q: Is node 6 connected to node 4?\nA: ",
+    "expected_answer": "Yes.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.9364575743675232,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_existence/adjacency/test/113",
+    "question": "Q: Is node 6 connected to node 10?\nA: ",
+    "expected_answer": "No.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.856996476650238,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_existence/adjacency/test/114",
+    "question": "Q: Is node 7 connected to node 2?\nA: ",
+    "expected_answer": "Yes.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.9310439825057983,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_existence/adjacency/test/115",
+    "question": "Q: Is node 3 connected to node 5?\nA: ",
+    "expected_answer": "Yes.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.9640196561813354,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_existence/adjacency/test/116",
+    "question": "Q: Is node 1 connected to node 2?\nA: ",
+    "expected_answer": "No.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.927000880241394,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_existence/adjacency/test/117",
+    "question": "Q: Is node 4 connected to node 2?\nA: ",
+    "expected_answer": "No.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.8261858820915222,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_existence/adjacency/test/118",
+    "question": "Q: Is node 5 connected to node 4?\nA: ",
+    "expected_answer": "Yes.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.9547612071037292,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_existence/adjacency/test/119",
+    "question": "Q: Is node 5 connected to node 3?\nA: ",
+    "expected_answer": "Yes.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.9291571378707886,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_existence/adjacency/test/120",
+    "question": "Q: Is node 5 connected to node 17?\nA: ",
+    "expected_answer": "Yes.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.9413625597953796,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_existence/adjacency/test/121",
+    "question": "Q: Is node 4 connected to node 3?\nA: ",
+    "expected_answer": "Yes.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.9383798837661743,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_existence/adjacency/test/122",
+    "question": "Q: Is node 12 connected to node 7?\nA: ",
+    "expected_answer": "Yes.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.898481547832489,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_existence/adjacency/test/123",
+    "question": "Q: Is node 7 connected to node 10?\nA: ",
+    "expected_answer": "Yes.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.9335984587669373,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_existence/adjacency/test/124",
+    "question": "Q: Is node 0 connected to node 12?\nA: ",
+    "expected_answer": "No.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.9202937483787537,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_existence/adjacency/test/125",
+    "question": "Q: Is node 7 connected to node 5?\nA: ",
+    "expected_answer": "No.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.8791872262954712,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_existence/adjacency/test/126",
+    "question": "Q: Is node 12 connected to node 1?\nA: ",
+    "expected_answer": "No.",
+    "model_answer": "False",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "False",
+      "confidence": 0.8555670976638794,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_existence/adjacency/test/127",
+    "question": "Q: Is node 0 connected to node 5?\nA: ",
+    "expected_answer": "No.",
+    "model_answer": "False",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "False",
+      "confidence": 0.8645073771476746,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_existence/adjacency/test/128",
+    "question": "Q: Is node 12 connected to node 7?\nA: ",
+    "expected_answer": "Yes.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.9196323156356812,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_existence/adjacency/test/129",
+    "question": "Q: Is node 1 connected to node 2?\nA: ",
+    "expected_answer": "Yes.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.9823574423789978,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_existence/adjacency/test/130",
+    "question": "Q: Is node 9 connected to node 5?\nA: ",
+    "expected_answer": "No.",
+    "model_answer": "False",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "False",
+      "confidence": 0.8849829435348511,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_existence/adjacency/test/131",
+    "question": "Q: Is node 5 connected to node 12?\nA: ",
+    "expected_answer": "Yes.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.9459962844848633,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_existence/adjacency/test/132",
+    "question": "Q: Is node 4 connected to node 2?\nA: ",
+    "expected_answer": "No.",
+    "model_answer": "False",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "False",
+      "confidence": 0.9271636009216309,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_existence/adjacency/test/133",
+    "question": "Q: Is node 10 connected to node 14?\nA: ",
+    "expected_answer": "No.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.9099664688110352,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_existence/adjacency/test/134",
+    "question": "Q: Is node 9 connected to node 5?\nA: ",
+    "expected_answer": "Yes.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.9241721034049988,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_existence/adjacency/test/135",
+    "question": "Q: Is node 9 connected to node 4?\nA: ",
+    "expected_answer": "Yes.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.8992385864257812,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_existence/adjacency/test/136",
+    "question": "Q: Is node 4 connected to node 1?\nA: ",
+    "expected_answer": "Yes.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.9407345056533813,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_existence/adjacency/test/137",
+    "question": "Q: Is node 8 connected to node 11?\nA: ",
+    "expected_answer": "Yes.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.9429613947868347,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_existence/adjacency/test/138",
+    "question": "Q: Is node 4 connected to node 0?\nA: ",
+    "expected_answer": "No.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.8689504861831665,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_existence/adjacency/test/139",
+    "question": "Q: Is node 4 connected to node 5?\nA: ",
+    "expected_answer": "No.",
+    "model_answer": "False",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "False",
+      "confidence": 0.9293080568313599,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_existence/adjacency/test/140",
+    "question": "Q: Is node 3 connected to node 5?\nA: ",
+    "expected_answer": "No.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.9134575724601746,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_existence/adjacency/test/141",
+    "question": "Q: Is node 8 connected to node 5?\nA: ",
+    "expected_answer": "Yes.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.9133738875389099,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_existence/adjacency/test/142",
+    "question": "Q: Is node 5 connected to node 6?\nA: ",
+    "expected_answer": "No.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.9110614061355591,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_existence/adjacency/test/143",
+    "question": "Q: Is node 4 connected to node 1?\nA: ",
+    "expected_answer": "Yes.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.935914933681488,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_existence/adjacency/test/144",
+    "question": "Q: Is node 7 connected to node 1?\nA: ",
+    "expected_answer": "Yes.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.8971747159957886,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_existence/adjacency/test/145",
+    "question": "Q: Is node 3 connected to node 4?\nA: ",
+    "expected_answer": "Yes.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.9583740234375,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_existence/adjacency/test/146",
+    "question": "Q: Is node 2 connected to node 1?\nA: ",
+    "expected_answer": "Yes.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.9451096057891846,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_existence/adjacency/test/147",
+    "question": "Q: Is node 0 connected to node 6?\nA: ",
+    "expected_answer": "No.",
+    "model_answer": "False",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "False",
+      "confidence": 0.905940055847168,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_existence/adjacency/test/148",
+    "question": "Q: Is node 1 connected to node 10?\nA: ",
+    "expected_answer": "Yes.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.9501314163208008,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_existence/adjacency/test/149",
+    "question": "Q: Is node 1 connected to node 6?\nA: ",
+    "expected_answer": "Yes.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.9439772963523865,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_existence/adjacency/test/150",
+    "question": "Q: Is node 4 connected to node 5?\nA: ",
+    "expected_answer": "No.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.8523247241973877,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_existence/adjacency/test/151",
+    "question": "Q: Is node 8 connected to node 5?\nA: ",
+    "expected_answer": "No.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.8134984970092773,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_existence/adjacency/test/152",
+    "question": "Q: Is node 6 connected to node 4?\nA: ",
+    "expected_answer": "No.",
+    "model_answer": "False",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "False",
+      "confidence": 0.8454336524009705,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_existence/adjacency/test/153",
+    "question": "Q: Is node 14 connected to node 1?\nA: ",
+    "expected_answer": "No.",
+    "model_answer": "False",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "False",
+      "confidence": 0.840634286403656,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_existence/adjacency/test/154",
+    "question": "Q: Is node 9 connected to node 8?\nA: ",
+    "expected_answer": "No.",
+    "model_answer": "False",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "False",
+      "confidence": 0.838758111000061,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_existence/adjacency/test/155",
+    "question": "Q: Is node 11 connected to node 7?\nA: ",
+    "expected_answer": "No.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.9076980352401733,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_existence/adjacency/test/156",
+    "question": "Q: Is node 14 connected to node 9?\nA: ",
+    "expected_answer": "Yes.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.9379854202270508,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_existence/adjacency/test/157",
+    "question": "Q: Is node 1 connected to node 2?\nA: ",
+    "expected_answer": "Yes.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.9572464823722839,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_existence/adjacency/test/158",
+    "question": "Q: Is node 16 connected to node 2?\nA: ",
+    "expected_answer": "No.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.8672208189964294,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_existence/adjacency/test/159",
+    "question": "Q: Is node 5 connected to node 0?\nA: ",
+    "expected_answer": "Yes.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.8882915377616882,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_existence/adjacency/test/160",
+    "question": "Q: Is node 5 connected to node 4?\nA: ",
+    "expected_answer": "No.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.8278855681419373,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_existence/adjacency/test/161",
+    "question": "Q: Is node 10 connected to node 13?\nA: ",
+    "expected_answer": "Yes.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.9154145121574402,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_existence/adjacency/test/162",
+    "question": "Q: Is node 9 connected to node 3?\nA: ",
+    "expected_answer": "No.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.8159210085868835,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_existence/adjacency/test/163",
+    "question": "Q: Is node 2 connected to node 7?\nA: ",
+    "expected_answer": "No.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.9018889665603638,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_existence/adjacency/test/164",
+    "question": "Q: Is node 7 connected to node 10?\nA: ",
+    "expected_answer": "No.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.8626881837844849,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_existence/adjacency/test/165",
+    "question": "Q: Is node 2 connected to node 4?\nA: ",
+    "expected_answer": "No.",
+    "model_answer": "False",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "False",
+      "confidence": 0.8373533487319946,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_existence/adjacency/test/166",
+    "question": "Q: Is node 4 connected to node 6?\nA: ",
+    "expected_answer": "No.",
+    "model_answer": "False",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "False",
+      "confidence": 0.8250046968460083,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_existence/adjacency/test/167",
+    "question": "Q: Is node 1 connected to node 7?\nA: ",
+    "expected_answer": "No.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.8499749898910522,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_existence/adjacency/test/168",
+    "question": "Q: Is node 4 connected to node 1?\nA: ",
+    "expected_answer": "No.",
+    "model_answer": "False",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "False",
+      "confidence": 0.8283578753471375,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_existence/adjacency/test/169",
+    "question": "Q: Is node 11 connected to node 2?\nA: ",
+    "expected_answer": "No.",
+    "model_answer": "False",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "False",
+      "confidence": 0.8974382877349854,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_existence/adjacency/test/170",
+    "question": "Q: Is node 16 connected to node 17?\nA: ",
+    "expected_answer": "No.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.82988041639328,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_existence/adjacency/test/171",
+    "question": "Q: Is node 6 connected to node 7?\nA: ",
+    "expected_answer": "No.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.8836081027984619,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_existence/adjacency/test/172",
+    "question": "Q: Is node 5 connected to node 2?\nA: ",
+    "expected_answer": "No.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.8789598345756531,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_existence/adjacency/test/173",
+    "question": "Q: Is node 11 connected to node 8?\nA: ",
+    "expected_answer": "No.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.842513918876648,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_existence/adjacency/test/174",
+    "question": "Q: Is node 9 connected to node 8?\nA: ",
+    "expected_answer": "No.",
+    "model_answer": "False",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "False",
+      "confidence": 0.8394500017166138,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_existence/adjacency/test/175",
+    "question": "Q: Is node 4 connected to node 5?\nA: ",
+    "expected_answer": "No.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.8504501581192017,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_existence/adjacency/test/176",
+    "question": "Q: Is node 7 connected to node 0?\nA: ",
+    "expected_answer": "Yes.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.9092552661895752,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_existence/adjacency/test/177",
+    "question": "Q: Is node 5 connected to node 1?\nA: ",
+    "expected_answer": "No.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.8314306139945984,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_existence/adjacency/test/178",
+    "question": "Q: Is node 5 connected to node 10?\nA: ",
+    "expected_answer": "No.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.8594620227813721,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_existence/adjacency/test/179",
+    "question": "Q: Is node 6 connected to node 0?\nA: ",
+    "expected_answer": "No.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.9080313444137573,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_existence/adjacency/test/180",
+    "question": "Q: Is node 9 connected to node 11?\nA: ",
+    "expected_answer": "No.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.8241877555847168,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_existence/adjacency/test/181",
+    "question": "Q: Is node 1 connected to node 5?\nA: ",
+    "expected_answer": "No.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.9039855003356934,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_existence/adjacency/test/182",
+    "question": "Q: Is node 1 connected to node 4?\nA: ",
+    "expected_answer": "No.",
+    "model_answer": "False",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "False",
+      "confidence": 0.8990127444267273,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_existence/adjacency/test/183",
+    "question": "Q: Is node 6 connected to node 11?\nA: ",
+    "expected_answer": "No.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.8843531012535095,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_existence/adjacency/test/184",
+    "question": "Q: Is node 8 connected to node 11?\nA: ",
+    "expected_answer": "No.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.8641541004180908,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_existence/adjacency/test/185",
+    "question": "Q: Is node 6 connected to node 7?\nA: ",
+    "expected_answer": "No.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.8604032397270203,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_existence/adjacency/test/186",
+    "question": "Q: Is node 0 connected to node 8?\nA: ",
+    "expected_answer": "No.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.8519357442855835,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_existence/adjacency/test/187",
+    "question": "Q: Is node 7 connected to node 1?\nA: ",
+    "expected_answer": "No.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.9035906195640564,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_existence/adjacency/test/188",
+    "question": "Q: Is node 4 connected to node 3?\nA: ",
+    "expected_answer": "No.",
+    "model_answer": "False",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "False",
+      "confidence": 0.8332542181015015,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_existence/adjacency/test/189",
+    "question": "Q: Is node 5 connected to node 1?\nA: ",
+    "expected_answer": "No.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.8607829809188843,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_existence/adjacency/test/190",
+    "question": "Q: Is node 7 connected to node 10?\nA: ",
+    "expected_answer": "No.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.8524256944656372,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_existence/adjacency/test/191",
+    "question": "Q: Is node 10 connected to node 3?\nA: ",
+    "expected_answer": "No.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.8593093752861023,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_existence/adjacency/test/192",
+    "question": "Q: Is node 5 connected to node 0?\nA: ",
+    "expected_answer": "No.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.8292524218559265,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_existence/adjacency/test/193",
+    "question": "Q: Is node 5 connected to node 9?\nA: ",
+    "expected_answer": "No.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.8524830341339111,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_existence/adjacency/test/194",
+    "question": "Q: Is node 3 connected to node 1?\nA: ",
+    "expected_answer": "No.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.9442731142044067,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_existence/adjacency/test/195",
+    "question": "Q: Is node 1 connected to node 10?\nA: ",
+    "expected_answer": "Yes.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.8946368098258972,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_existence/adjacency/test/196",
+    "question": "Q: Is node 0 connected to node 1?\nA: ",
+    "expected_answer": "Yes.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.9755227565765381,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_existence/adjacency/test/197",
+    "question": "Q: Is node 6 connected to node 13?\nA: ",
+    "expected_answer": "No.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.829699695110321,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_existence/adjacency/test/198",
+    "question": "Q: Is node 4 connected to node 16?\nA: ",
+    "expected_answer": "No.",
+    "model_answer": "False",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "False",
+      "confidence": 0.8808196783065796,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_existence/adjacency/test/199",
+    "question": "Q: Is node 8 connected to node 1?\nA: ",
+    "expected_answer": "Yes.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.814633846282959,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_existence/adjacency/test/200",
+    "question": "Q: Is node 14 connected to node 5?\nA: ",
+    "expected_answer": "Yes.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.9505736231803894,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_existence/adjacency/test/201",
+    "question": "Q: Is node 9 connected to node 5?\nA: ",
+    "expected_answer": "Yes.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.9017676115036011,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_existence/adjacency/test/202",
+    "question": "Q: Is node 4 connected to node 3?\nA: ",
+    "expected_answer": "Yes.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.9472967386245728,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_existence/adjacency/test/203",
+    "question": "Q: Is node 6 connected to node 12?\nA: ",
+    "expected_answer": "Yes.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.971083402633667,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_existence/adjacency/test/204",
+    "question": "Q: Is node 11 connected to node 7?\nA: ",
+    "expected_answer": "Yes.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.9668917655944824,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_existence/adjacency/test/205",
+    "question": "Q: Is node 4 connected to node 0?\nA: ",
+    "expected_answer": "Yes.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.9634289741516113,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_existence/adjacency/test/206",
+    "question": "Q: Is node 14 connected to node 5?\nA: ",
+    "expected_answer": "Yes.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.9536646604537964,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_existence/adjacency/test/207",
+    "question": "Q: Is node 4 connected to node 2?\nA: ",
+    "expected_answer": "Yes.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.9370099306106567,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_existence/adjacency/test/208",
+    "question": "Q: Is node 3 connected to node 1?\nA: ",
+    "expected_answer": "Yes.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.9655550718307495,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_existence/adjacency/test/209",
+    "question": "Q: Is node 1 connected to node 4?\nA: ",
+    "expected_answer": "Yes.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.9708763957023621,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_existence/adjacency/test/210",
+    "question": "Q: Is node 4 connected to node 6?\nA: ",
+    "expected_answer": "Yes.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.9446730017662048,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_existence/adjacency/test/211",
+    "question": "Q: Is node 11 connected to node 8?\nA: ",
+    "expected_answer": "Yes.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.9403923749923706,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_existence/adjacency/test/212",
+    "question": "Q: Is node 2 connected to node 5?\nA: ",
+    "expected_answer": "Yes.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.9757782220840454,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_existence/adjacency/test/213",
+    "question": "Q: Is node 4 connected to node 5?\nA: ",
+    "expected_answer": "Yes.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.9723421931266785,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_existence/adjacency/test/214",
+    "question": "Q: Is node 13 connected to node 4?\nA: ",
+    "expected_answer": "Yes.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.942027747631073,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_existence/adjacency/test/215",
+    "question": "Q: Is node 2 connected to node 3?\nA: ",
+    "expected_answer": "Yes.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.978999137878418,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_existence/adjacency/test/216",
+    "question": "Q: Is node 1 connected to node 0?\nA: ",
+    "expected_answer": "Yes.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.9728630781173706,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_existence/adjacency/test/217",
+    "question": "Q: Is node 6 connected to node 1?\nA: ",
+    "expected_answer": "Yes.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.9170098304748535,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_existence/adjacency/test/218",
+    "question": "Q: Is node 1 connected to node 3?\nA: ",
+    "expected_answer": "Yes.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.9717981219291687,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_existence/adjacency/test/219",
+    "question": "Q: Is node 4 connected to node 11?\nA: ",
+    "expected_answer": "Yes.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.9612357020378113,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_existence/adjacency/test/220",
+    "question": "Q: Is node 5 connected to node 11?\nA: ",
+    "expected_answer": "Yes.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.9712632894515991,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_existence/adjacency/test/221",
+    "question": "Q: Is node 6 connected to node 4?\nA: ",
+    "expected_answer": "Yes.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.9005695581436157,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_existence/adjacency/test/222",
+    "question": "Q: Is node 7 connected to node 9?\nA: ",
+    "expected_answer": "Yes.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.9379439353942871,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_existence/adjacency/test/223",
+    "question": "Q: Is node 7 connected to node 8?\nA: ",
+    "expected_answer": "Yes.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.9551076292991638,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_existence/adjacency/test/224",
+    "question": "Q: Is node 7 connected to node 11?\nA: ",
+    "expected_answer": "Yes.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.9568798542022705,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_existence/adjacency/test/225",
+    "question": "Q: Is node 5 connected to node 2?\nA: ",
+    "expected_answer": "Yes.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.9437148571014404,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_existence/adjacency/test/226",
+    "question": "Q: Is node 9 connected to node 1?\nA: ",
+    "expected_answer": "Yes.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.8853871822357178,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_existence/adjacency/test/227",
+    "question": "Q: Is node 8 connected to node 6?\nA: ",
+    "expected_answer": "Yes.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.9200031757354736,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_existence/adjacency/test/228",
+    "question": "Q: Is node 9 connected to node 2?\nA: ",
+    "expected_answer": "Yes.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.9148900508880615,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_existence/adjacency/test/229",
+    "question": "Q: Is node 1 connected to node 7?\nA: ",
+    "expected_answer": "Yes.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.9722446203231812,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_existence/adjacency/test/230",
+    "question": "Q: Is node 7 connected to node 1?\nA: ",
+    "expected_answer": "Yes.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.9314273595809937,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_existence/adjacency/test/231",
+    "question": "Q: Is node 8 connected to node 9?\nA: ",
+    "expected_answer": "Yes.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.9326860308647156,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_existence/adjacency/test/232",
+    "question": "Q: Is node 1 connected to node 2?\nA: ",
+    "expected_answer": "Yes.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.9818304777145386,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_existence/adjacency/test/233",
+    "question": "Q: Is node 7 connected to node 2?\nA: ",
+    "expected_answer": "Yes.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.9619537591934204,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_existence/adjacency/test/234",
+    "question": "Q: Is node 5 connected to node 6?\nA: ",
+    "expected_answer": "Yes.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.976292073726654,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_existence/adjacency/test/235",
+    "question": "Q: Is node 4 connected to node 8?\nA: ",
+    "expected_answer": "Yes.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.9365516901016235,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_existence/adjacency/test/236",
+    "question": "Q: Is node 5 connected to node 6?\nA: ",
+    "expected_answer": "Yes.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.9723799228668213,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_existence/adjacency/test/237",
+    "question": "Q: Is node 8 connected to node 3?\nA: ",
+    "expected_answer": "Yes.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.9116114974021912,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_existence/adjacency/test/238",
+    "question": "Q: Is node 7 connected to node 5?\nA: ",
+    "expected_answer": "Yes.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.9389075636863708,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_existence/adjacency/test/239",
+    "question": "Q: Is node 7 connected to node 2?\nA: ",
+    "expected_answer": "Yes.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.930730938911438,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_existence/adjacency/test/240",
+    "question": "Q: Is node 7 connected to node 8?\nA: ",
+    "expected_answer": "Yes.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.9589639902114868,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_existence/adjacency/test/241",
+    "question": "Q: Is node 1 connected to node 8?\nA: ",
+    "expected_answer": "Yes.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.9510826468467712,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_existence/adjacency/test/242",
+    "question": "Q: Is node 6 connected to node 3?\nA: ",
+    "expected_answer": "Yes.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.9274225234985352,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_existence/adjacency/test/243",
+    "question": "Q: Is node 1 connected to node 9?\nA: ",
+    "expected_answer": "Yes.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.9581303596496582,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_existence/adjacency/test/244",
+    "question": "Q: Is node 1 connected to node 5?\nA: ",
+    "expected_answer": "Yes.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.9684063792228699,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_existence/adjacency/test/245",
+    "question": "Q: Is node 9 connected to node 5?\nA: ",
+    "expected_answer": "Yes.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.9047597646713257,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_existence/adjacency/test/246",
+    "question": "Q: Is node 1 connected to node 3?\nA: ",
+    "expected_answer": "Yes.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.9717981219291687,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_existence/adjacency/test/247",
+    "question": "Q: Is node 8 connected to node 11?\nA: ",
+    "expected_answer": "Yes.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.9555857181549072,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_existence/adjacency/test/248",
+    "question": "Q: Is node 6 connected to node 8?\nA: ",
+    "expected_answer": "Yes.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.9439101219177246,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_existence/adjacency/test/249",
+    "question": "Q: Is node 0 connected to node 5?\nA: ",
+    "expected_answer": "Yes.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.9774248600006104,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_existence/adjacency/test/250",
+    "question": "Q: Is node 10 connected to node 9?\nA: ",
+    "expected_answer": "No.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.9230586886405945,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_existence/adjacency/test/251",
+    "question": "Q: Is node 1 connected to node 0?\nA: ",
+    "expected_answer": "Yes.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.9856244325637817,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_existence/adjacency/test/252",
+    "question": "Q: Is node 0 connected to node 6?\nA: ",
+    "expected_answer": "Yes.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.937819242477417,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_existence/adjacency/test/253",
+    "question": "Q: Is node 10 connected to node 4?\nA: ",
+    "expected_answer": "No.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.9054033160209656,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_existence/adjacency/test/254",
+    "question": "Q: Is node 13 connected to node 10?\nA: ",
+    "expected_answer": "No.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.9080969095230103,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_existence/adjacency/test/255",
+    "question": "Q: Is node 5 connected to node 4?\nA: ",
+    "expected_answer": "No.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.8814655542373657,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_existence/adjacency/test/256",
+    "question": "Q: Is node 9 connected to node 6?\nA: ",
+    "expected_answer": "No.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.864489734172821,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_existence/adjacency/test/257",
+    "question": "Q: Is node 5 connected to node 4?\nA: ",
+    "expected_answer": "No.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.8632084727287292,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_existence/adjacency/test/258",
+    "question": "Q: Is node 5 connected to node 12?\nA: ",
+    "expected_answer": "No.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.9208803176879883,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_existence/adjacency/test/259",
+    "question": "Q: Is node 3 connected to node 0?\nA: ",
+    "expected_answer": "Yes.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.9846295714378357,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_existence/adjacency/test/260",
+    "question": "Q: Is node 2 connected to node 4?\nA: ",
+    "expected_answer": "No.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.9161846041679382,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_existence/adjacency/test/261",
+    "question": "Q: Is node 9 connected to node 14?\nA: ",
+    "expected_answer": "No.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.9054655432701111,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_existence/adjacency/test/262",
+    "question": "Q: Is node 11 connected to node 5?\nA: ",
+    "expected_answer": "No.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.9056640863418579,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_existence/adjacency/test/263",
+    "question": "Q: Is node 9 connected to node 3?\nA: ",
+    "expected_answer": "No.",
+    "model_answer": "False",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "False",
+      "confidence": 0.8314857482910156,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_existence/adjacency/test/264",
+    "question": "Q: Is node 2 connected to node 3?\nA: ",
+    "expected_answer": "No.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.9674262404441833,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_existence/adjacency/test/265",
+    "question": "Q: Is node 7 connected to node 4?\nA: ",
+    "expected_answer": "No.",
+    "model_answer": "False",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "False",
+      "confidence": 0.8207269906997681,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_existence/adjacency/test/266",
+    "question": "Q: Is node 3 connected to node 6?\nA: ",
+    "expected_answer": "No.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.9001513719558716,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_existence/adjacency/test/267",
+    "question": "Q: Is node 5 connected to node 4?\nA: ",
+    "expected_answer": "No.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.8661025762557983,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_existence/adjacency/test/268",
+    "question": "Q: Is node 2 connected to node 3?\nA: ",
+    "expected_answer": "No.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.9578059911727905,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_existence/adjacency/test/269",
+    "question": "Q: Is node 6 connected to node 4?\nA: ",
+    "expected_answer": "No.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.8840770125389099,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_existence/adjacency/test/270",
+    "question": "Q: Is node 15 connected to node 10?\nA: ",
+    "expected_answer": "No.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.9004616737365723,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_existence/adjacency/test/271",
+    "question": "Q: Is node 3 connected to node 6?\nA: ",
+    "expected_answer": "No.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.9120099544525146,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_existence/adjacency/test/272",
+    "question": "Q: Is node 4 connected to node 2?\nA: ",
+    "expected_answer": "No.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.9266242384910583,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_existence/adjacency/test/273",
+    "question": "Q: Is node 2 connected to node 6?\nA: ",
+    "expected_answer": "No.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.9300605654716492,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_existence/adjacency/test/274",
+    "question": "Q: Is node 2 connected to node 0?\nA: ",
+    "expected_answer": "Yes.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.9880244731903076,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_existence/adjacency/test/275",
+    "question": "Q: Is node 1 connected to node 4?\nA: ",
+    "expected_answer": "No.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.8847781419754028,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_existence/adjacency/test/276",
+    "question": "Q: Is node 8 connected to node 5?\nA: ",
+    "expected_answer": "No.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.8349064588546753,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_existence/adjacency/test/277",
+    "question": "Q: Is node 8 connected to node 3?\nA: ",
+    "expected_answer": "No.",
+    "model_answer": "False",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "False",
+      "confidence": 0.8060472011566162,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_existence/adjacency/test/278",
+    "question": "Q: Is node 6 connected to node 7?\nA: ",
+    "expected_answer": "No.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.9156028628349304,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_existence/adjacency/test/279",
+    "question": "Q: Is node 0 connected to node 8?\nA: ",
+    "expected_answer": "Yes.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.9341952204704285,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_existence/adjacency/test/280",
+    "question": "Q: Is node 6 connected to node 1?\nA: ",
+    "expected_answer": "No.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.8746012449264526,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_existence/adjacency/test/281",
+    "question": "Q: Is node 1 connected to node 9?\nA: ",
+    "expected_answer": "No.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.8877897262573242,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_existence/adjacency/test/282",
+    "question": "Q: Is node 1 connected to node 3?\nA: ",
+    "expected_answer": "No.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.9422079920768738,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_existence/adjacency/test/283",
+    "question": "Q: Is node 15 connected to node 12?\nA: ",
+    "expected_answer": "No.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.924646258354187,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_existence/adjacency/test/284",
+    "question": "Q: Is node 12 connected to node 3?\nA: ",
+    "expected_answer": "No.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.8736912608146667,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_existence/adjacency/test/285",
+    "question": "Q: Is node 4 connected to node 8?\nA: ",
+    "expected_answer": "No.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.8591813445091248,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_existence/adjacency/test/286",
+    "question": "Q: Is node 5 connected to node 7?\nA: ",
+    "expected_answer": "No.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.8748709559440613,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_existence/adjacency/test/287",
+    "question": "Q: Is node 1 connected to node 4?\nA: ",
+    "expected_answer": "No.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.8958128690719604,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_existence/adjacency/test/288",
+    "question": "Q: Is node 0 connected to node 6?\nA: ",
+    "expected_answer": "Yes.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.937819242477417,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_existence/adjacency/test/289",
+    "question": "Q: Is node 2 connected to node 1?\nA: ",
+    "expected_answer": "No.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.9618220329284668,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_existence/adjacency/test/290",
+    "question": "Q: Is node 2 connected to node 6?\nA: ",
+    "expected_answer": "No.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.9236658811569214,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_existence/adjacency/test/291",
+    "question": "Q: Is node 6 connected to node 2?\nA: ",
+    "expected_answer": "No.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.8985369205474854,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_existence/adjacency/test/292",
+    "question": "Q: Is node 4 connected to node 1?\nA: ",
+    "expected_answer": "No.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.9126262068748474,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_existence/adjacency/test/293",
+    "question": "Q: Is node 4 connected to node 1?\nA: ",
+    "expected_answer": "No.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.9360003471374512,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_existence/adjacency/test/294",
+    "question": "Q: Is node 3 connected to node 4?\nA: ",
+    "expected_answer": "No.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.9307979941368103,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_existence/adjacency/test/295",
+    "question": "Q: Is node 12 connected to node 5?\nA: ",
+    "expected_answer": "No.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.896994948387146,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_existence/adjacency/test/296",
+    "question": "Q: Is node 4 connected to node 1?\nA: ",
+    "expected_answer": "No.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.9126262068748474,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_existence/adjacency/test/297",
+    "question": "Q: Is node 8 connected to node 13?\nA: ",
+    "expected_answer": "No.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.9009199142456055,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_existence/adjacency/test/298",
+    "question": "Q: Is node 13 connected to node 15?\nA: ",
+    "expected_answer": "No.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.9259251952171326,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_existence/adjacency/test/299",
+    "question": "Q: Is node 8 connected to node 10?\nA: ",
+    "expected_answer": "No.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.9335326552391052,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_existence/adjacency/test/300",
+    "question": "Q: Is node 5 connected to node 1?\nA: ",
+    "expected_answer": "No.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.9127394556999207,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_existence/adjacency/test/301",
+    "question": "Q: Is node 7 connected to node 3?\nA: ",
+    "expected_answer": "No.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.9250456690788269,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_existence/adjacency/test/302",
+    "question": "Q: Is node 7 connected to node 1?\nA: ",
+    "expected_answer": "No.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.8265678286552429,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_existence/adjacency/test/303",
+    "question": "Q: Is node 12 connected to node 1?\nA: ",
+    "expected_answer": "No.",
+    "model_answer": "False",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "False",
+      "confidence": 0.8393866419792175,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_existence/adjacency/test/304",
+    "question": "Q: Is node 8 connected to node 4?\nA: ",
+    "expected_answer": "No.",
+    "model_answer": "False",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "False",
+      "confidence": 0.865498960018158,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_existence/adjacency/test/305",
+    "question": "Q: Is node 10 connected to node 8?\nA: ",
+    "expected_answer": "No.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.9295217394828796,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_existence/adjacency/test/306",
+    "question": "Q: Is node 4 connected to node 2?\nA: ",
+    "expected_answer": "No.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.9580857753753662,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_existence/adjacency/test/307",
+    "question": "Q: Is node 3 connected to node 1?\nA: ",
+    "expected_answer": "No.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.9671127200126648,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_existence/adjacency/test/308",
+    "question": "Q: Is node 6 connected to node 4?\nA: ",
+    "expected_answer": "No.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.9147974848747253,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_existence/adjacency/test/309",
+    "question": "Q: Is node 1 connected to node 2?\nA: ",
+    "expected_answer": "Yes.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.9901942014694214,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_existence/adjacency/test/310",
+    "question": "Q: Is node 5 connected to node 6?\nA: ",
+    "expected_answer": "Yes.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.9704468250274658,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_existence/adjacency/test/311",
+    "question": "Q: Is node 13 connected to node 10?\nA: ",
+    "expected_answer": "No.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.9022976756095886,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_existence/adjacency/test/312",
+    "question": "Q: Is node 0 connected to node 8?\nA: ",
+    "expected_answer": "No.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.8422393798828125,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_existence/adjacency/test/313",
+    "question": "Q: Is node 5 connected to node 3?\nA: ",
+    "expected_answer": "No.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.9429398775100708,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_existence/adjacency/test/314",
+    "question": "Q: Is node 10 connected to node 3?\nA: ",
+    "expected_answer": "No.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.8468003273010254,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_existence/adjacency/test/315",
+    "question": "Q: Is node 0 connected to node 7?\nA: ",
+    "expected_answer": "No.",
+    "model_answer": "False",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "False",
+      "confidence": 0.8473184108734131,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_existence/adjacency/test/316",
+    "question": "Q: Is node 2 connected to node 3?\nA: ",
+    "expected_answer": "Yes.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.9883456230163574,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_existence/adjacency/test/317",
+    "question": "Q: Is node 3 connected to node 5?\nA: ",
+    "expected_answer": "No.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.9461472034454346,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_existence/adjacency/test/318",
+    "question": "Q: Is node 6 connected to node 0?\nA: ",
+    "expected_answer": "No.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.8105417490005493,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_existence/adjacency/test/319",
+    "question": "Q: Is node 6 connected to node 13?\nA: ",
+    "expected_answer": "No.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.9416772127151489,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_existence/adjacency/test/320",
+    "question": "Q: Is node 15 connected to node 13?\nA: ",
+    "expected_answer": "No.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.9638012647628784,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_existence/adjacency/test/321",
+    "question": "Q: Is node 5 connected to node 7?\nA: ",
+    "expected_answer": "No.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.930759608745575,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_existence/adjacency/test/322",
+    "question": "Q: Is node 9 connected to node 8?\nA: ",
+    "expected_answer": "Yes.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.9382292628288269,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_existence/adjacency/test/323",
+    "question": "Q: Is node 3 connected to node 9?\nA: ",
+    "expected_answer": "No.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.838607668876648,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_existence/adjacency/test/324",
+    "question": "Q: Is node 12 connected to node 9?\nA: ",
+    "expected_answer": "No.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.9140467643737793,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_existence/adjacency/test/325",
+    "question": "Q: Is node 5 connected to node 4?\nA: ",
+    "expected_answer": "Yes.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.9494878053665161,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_existence/adjacency/test/326",
+    "question": "Q: Is node 7 connected to node 4?\nA: ",
+    "expected_answer": "No.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.841758668422699,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_existence/adjacency/test/327",
+    "question": "Q: Is node 7 connected to node 0?\nA: ",
+    "expected_answer": "No.",
+    "model_answer": "False",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "False",
+      "confidence": 0.8734369277954102,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_existence/adjacency/test/328",
+    "question": "Q: Is node 0 connected to node 4?\nA: ",
+    "expected_answer": "No.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.8704409003257751,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_existence/adjacency/test/329",
+    "question": "Q: Is node 11 connected to node 9?\nA: ",
+    "expected_answer": "No.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.9072235822677612,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_existence/adjacency/test/330",
+    "question": "Q: Is node 1 connected to node 7?\nA: ",
+    "expected_answer": "No.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.9159538745880127,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_existence/adjacency/test/331",
+    "question": "Q: Is node 9 connected to node 3?\nA: ",
+    "expected_answer": "No.",
+    "model_answer": "False",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "False",
+      "confidence": 0.905937671661377,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_existence/adjacency/test/332",
+    "question": "Q: Is node 3 connected to node 5?\nA: ",
+    "expected_answer": "No.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.9340742826461792,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_existence/adjacency/test/333",
+    "question": "Q: Is node 6 connected to node 1?\nA: ",
+    "expected_answer": "No.",
+    "model_answer": "False",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "False",
+      "confidence": 0.8318511247634888,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_existence/adjacency/test/334",
+    "question": "Q: Is node 6 connected to node 12?\nA: ",
+    "expected_answer": "No.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.9390358328819275,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_existence/adjacency/test/335",
+    "question": "Q: Is node 1 connected to node 6?\nA: ",
+    "expected_answer": "No.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.9085418581962585,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_existence/adjacency/test/336",
+    "question": "Q: Is node 2 connected to node 8?\nA: ",
+    "expected_answer": "No.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.8506816625595093,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_existence/adjacency/test/337",
+    "question": "Q: Is node 9 connected to node 1?\nA: ",
+    "expected_answer": "No.",
+    "model_answer": "False",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "False",
+      "confidence": 0.881712794303894,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_existence/adjacency/test/338",
+    "question": "Q: Is node 5 connected to node 6?\nA: ",
+    "expected_answer": "Yes.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.9776289463043213,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_existence/adjacency/test/339",
+    "question": "Q: Is node 2 connected to node 5?\nA: ",
+    "expected_answer": "No.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.9045299887657166,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_existence/adjacency/test/340",
+    "question": "Q: Is node 3 connected to node 1?\nA: ",
+    "expected_answer": "No.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.9648057818412781,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_existence/adjacency/test/341",
+    "question": "Q: Is node 8 connected to node 6?\nA: ",
+    "expected_answer": "No.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.9264386892318726,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_existence/adjacency/test/342",
+    "question": "Q: Is node 0 connected to node 1?\nA: ",
+    "expected_answer": "Yes.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.9871239066123962,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_existence/adjacency/test/343",
+    "question": "Q: Is node 4 connected to node 8?\nA: ",
+    "expected_answer": "No.",
+    "model_answer": "False",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "False",
+      "confidence": 0.8315733671188354,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_existence/adjacency/test/344",
+    "question": "Q: Is node 0 connected to node 2?\nA: ",
+    "expected_answer": "No.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.9171017408370972,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_existence/adjacency/test/345",
+    "question": "Q: Is node 8 connected to node 0?\nA: ",
+    "expected_answer": "No.",
+    "model_answer": "False",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "False",
+      "confidence": 0.8275532722473145,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_existence/adjacency/test/346",
+    "question": "Q: Is node 6 connected to node 2?\nA: ",
+    "expected_answer": "No.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.8781582713127136,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_existence/adjacency/test/347",
+    "question": "Q: Is node 0 connected to node 14?\nA: ",
+    "expected_answer": "No.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.8659543991088867,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_existence/adjacency/test/348",
+    "question": "Q: Is node 1 connected to node 13?\nA: ",
+    "expected_answer": "No.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.9225870966911316,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_existence/adjacency/test/349",
+    "question": "Q: Is node 15 connected to node 0?\nA: ",
+    "expected_answer": "No.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.831375777721405,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  }
+]

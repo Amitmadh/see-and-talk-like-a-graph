@@ -1,0 +1,6302 @@
+[
+  {
+    "sample_id": "node_degree/adjacency/test/0",
+    "question": "Q: What is the degree of node 14?\nA: ",
+    "expected_answer": "2.",
+    "model_answer": "3",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3",
+      "confidence": 0.893378496170044,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/1",
+    "question": "Q: What is the degree of node 1?\nA: ",
+    "expected_answer": "3.",
+    "model_answer": "4",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "4",
+      "confidence": 0.8821648955345154,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/2",
+    "question": "Q: What is the degree of node 0?\nA: ",
+    "expected_answer": "0.",
+    "model_answer": "0",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": 0.9534162282943726,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/3",
+    "question": "Q: What is the degree of node 2?\nA: ",
+    "expected_answer": "1.",
+    "model_answer": "3",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3",
+      "confidence": 0.8674432039260864,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/4",
+    "question": "Q: What is the degree of node 1?\nA: ",
+    "expected_answer": "4.",
+    "model_answer": "5",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "5",
+      "confidence": 0.859565258026123,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/5",
+    "question": "Q: What is the degree of node 10?\nA: ",
+    "expected_answer": "9.",
+    "model_answer": "7",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "7",
+      "confidence": 0.7930014729499817,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/6",
+    "question": "Q: What is the degree of node 2?\nA: ",
+    "expected_answer": "2.",
+    "model_answer": "3",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3",
+      "confidence": 0.8680922985076904,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/7",
+    "question": "Q: What is the degree of node 1?\nA: ",
+    "expected_answer": "6.",
+    "model_answer": "6",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "6",
+      "confidence": 0.9598287343978882,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/8",
+    "question": "Q: What is the degree of node 11?\nA: ",
+    "expected_answer": "4.",
+    "model_answer": "4",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "4",
+      "confidence": 0.8586165904998779,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/9",
+    "question": "Q: What is the degree of node 3?\nA: ",
+    "expected_answer": "2.",
+    "model_answer": "3",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3",
+      "confidence": 0.8703495860099792,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/10",
+    "question": "Q: What is the degree of node 0?\nA: ",
+    "expected_answer": "7.",
+    "model_answer": "8",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "8",
+      "confidence": 0.9159183502197266,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/11",
+    "question": "Q: What is the degree of node 0?\nA: ",
+    "expected_answer": "12.",
+    "model_answer": "17",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "17",
+      "confidence": 0.8664354681968689,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/12",
+    "question": "Q: What is the degree of node 12?\nA: ",
+    "expected_answer": "11.",
+    "model_answer": "10",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "10",
+      "confidence": 0.7135810256004333,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/13",
+    "question": "Q: What is the degree of node 0?\nA: ",
+    "expected_answer": "9.",
+    "model_answer": "11",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "11",
+      "confidence": 0.7982303500175476,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/14",
+    "question": "Q: What is the degree of node 5?\nA: ",
+    "expected_answer": "3.",
+    "model_answer": "3",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3",
+      "confidence": 0.9015250205993652,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/15",
+    "question": "Q: What is the degree of node 4?\nA: ",
+    "expected_answer": "4.",
+    "model_answer": "4",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "4",
+      "confidence": 0.9078371524810791,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/16",
+    "question": "Q: What is the degree of node 3?\nA: ",
+    "expected_answer": "4.",
+    "model_answer": "3",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3",
+      "confidence": 0.9704315662384033,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/17",
+    "question": "Q: What is the degree of node 7?\nA: ",
+    "expected_answer": "7.",
+    "model_answer": "7",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "7",
+      "confidence": 0.8618781566619873,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/18",
+    "question": "Q: What is the degree of node 1?\nA: ",
+    "expected_answer": "1.",
+    "model_answer": "2",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2",
+      "confidence": 0.9365400671958923,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/19",
+    "question": "Q: What is the degree of node 1?\nA: ",
+    "expected_answer": "8.",
+    "model_answer": "8",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "8",
+      "confidence": 0.8356401920318604,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/20",
+    "question": "Q: What is the degree of node 5?\nA: ",
+    "expected_answer": "2.",
+    "model_answer": "3",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3",
+      "confidence": 0.9792636036872864,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/21",
+    "question": "Q: What is the degree of node 5?\nA: ",
+    "expected_answer": "3.",
+    "model_answer": "3",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3",
+      "confidence": 0.8991698026657104,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/22",
+    "question": "Q: What is the degree of node 1?\nA: ",
+    "expected_answer": "10.",
+    "model_answer": "11",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "11",
+      "confidence": 0.8307145237922668,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/23",
+    "question": "Q: What is the degree of node 0?\nA: ",
+    "expected_answer": "9.",
+    "model_answer": "12",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "12",
+      "confidence": 0.8256250619888306,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/24",
+    "question": "Q: What is the degree of node 8?\nA: ",
+    "expected_answer": "5.",
+    "model_answer": "3",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3",
+      "confidence": 0.8839248418807983,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/25",
+    "question": "Q: What is the degree of node 3?\nA: ",
+    "expected_answer": "3.",
+    "model_answer": "2",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2",
+      "confidence": 0.9382469654083252,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/26",
+    "question": "Q: What is the degree of node 3?\nA: ",
+    "expected_answer": "9.",
+    "model_answer": "9",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "9",
+      "confidence": 0.8711658716201782,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/27",
+    "question": "Q: What is the degree of node 0?\nA: ",
+    "expected_answer": "1.",
+    "model_answer": "2",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2",
+      "confidence": 0.9016640186309814,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/28",
+    "question": "Q: What is the degree of node 10?\nA: ",
+    "expected_answer": "8.",
+    "model_answer": "6",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "6",
+      "confidence": 0.8087544441223145,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/29",
+    "question": "Q: What is the degree of node 8?\nA: ",
+    "expected_answer": "4.",
+    "model_answer": "3",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3",
+      "confidence": 0.9191296100616455,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/30",
+    "question": "Q: What is the degree of node 7?\nA: ",
+    "expected_answer": "0.",
+    "model_answer": "2",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2",
+      "confidence": 0.8106280565261841,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/31",
+    "question": "Q: What is the degree of node 1?\nA: ",
+    "expected_answer": "11.",
+    "model_answer": "12",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "12",
+      "confidence": 0.8551920056343079,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/32",
+    "question": "Q: What is the degree of node 4?\nA: ",
+    "expected_answer": "4.",
+    "model_answer": "3",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3",
+      "confidence": 0.8809362649917603,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/33",
+    "question": "Q: What is the degree of node 2?\nA: ",
+    "expected_answer": "5.",
+    "model_answer": "7",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "7",
+      "confidence": 0.8556616306304932,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/34",
+    "question": "Q: What is the degree of node 8?\nA: ",
+    "expected_answer": "6.",
+    "model_answer": "3",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3",
+      "confidence": 0.9060870409011841,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/35",
+    "question": "Q: What is the degree of node 9?\nA: ",
+    "expected_answer": "10.",
+    "model_answer": "5",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "5",
+      "confidence": 0.8156137466430664,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/36",
+    "question": "Q: What is the degree of node 0?\nA: ",
+    "expected_answer": "4.",
+    "model_answer": "4",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "4",
+      "confidence": 0.8780521154403687,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/37",
+    "question": "Q: What is the degree of node 4?\nA: ",
+    "expected_answer": "3.",
+    "model_answer": "3",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3",
+      "confidence": 0.9624972939491272,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/38",
+    "question": "Q: What is the degree of node 4?\nA: ",
+    "expected_answer": "0.",
+    "model_answer": "2",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2",
+      "confidence": 0.864733874797821,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/39",
+    "question": "Q: What is the degree of node 1?\nA: ",
+    "expected_answer": "8.",
+    "model_answer": "8",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "8",
+      "confidence": 0.8808095455169678,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/40",
+    "question": "Q: What is the degree of node 10?\nA: ",
+    "expected_answer": "3.",
+    "model_answer": "3",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3",
+      "confidence": 0.9036504626274109,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/41",
+    "question": "Q: What is the degree of node 4?\nA: ",
+    "expected_answer": "4.",
+    "model_answer": "3",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3",
+      "confidence": 0.9066970348358154,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/42",
+    "question": "Q: What is the degree of node 7?\nA: ",
+    "expected_answer": "0.",
+    "model_answer": "0",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": 0.8027064800262451,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/43",
+    "question": "Q: What is the degree of node 5?\nA: ",
+    "expected_answer": "3.",
+    "model_answer": "3",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3",
+      "confidence": 0.9701277017593384,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/44",
+    "question": "Q: What is the degree of node 2?\nA: ",
+    "expected_answer": "4.",
+    "model_answer": "3",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3",
+      "confidence": 0.9603402018547058,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/45",
+    "question": "Q: What is the degree of node 3?\nA: ",
+    "expected_answer": "8.",
+    "model_answer": "6",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "6",
+      "confidence": 0.8124755024909973,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/46",
+    "question": "Q: What is the degree of node 1?\nA: ",
+    "expected_answer": "0.",
+    "model_answer": "2",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2",
+      "confidence": 0.8760335445404053,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/47",
+    "question": "Q: What is the degree of node 14?\nA: ",
+    "expected_answer": "11.",
+    "model_answer": "6",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "6",
+      "confidence": 0.7994948029518127,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/48",
+    "question": "Q: What is the degree of node 14?\nA: ",
+    "expected_answer": "14.",
+    "model_answer": "14",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "14",
+      "confidence": 0.8627652525901794,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/49",
+    "question": "Q: What is the degree of node 16?\nA: ",
+    "expected_answer": "8.",
+    "model_answer": "6",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "6",
+      "confidence": 0.8181687593460083,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/50",
+    "question": "Q: What is the degree of node 0?\nA: ",
+    "expected_answer": "15.",
+    "model_answer": "16",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "16",
+      "confidence": 0.9019168019294739,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/51",
+    "question": "Q: What is the degree of node 8?\nA: ",
+    "expected_answer": "4.",
+    "model_answer": "3",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3",
+      "confidence": 0.8892441987991333,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/52",
+    "question": "Q: What is the degree of node 0?\nA: ",
+    "expected_answer": "4.",
+    "model_answer": "4",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "4",
+      "confidence": 0.9935119152069092,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/53",
+    "question": "Q: What is the degree of node 0?\nA: ",
+    "expected_answer": "8.",
+    "model_answer": "7",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "7",
+      "confidence": 0.8407350182533264,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/54",
+    "question": "Q: What is the degree of node 10?\nA: ",
+    "expected_answer": "7.",
+    "model_answer": "10",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "10",
+      "confidence": 0.7009248733520508,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/55",
+    "question": "Q: What is the degree of node 2?\nA: ",
+    "expected_answer": "1.",
+    "model_answer": "4",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "4",
+      "confidence": 0.8434644937515259,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/56",
+    "question": "Q: What is the degree of node 15?\nA: ",
+    "expected_answer": "13.",
+    "model_answer": "10",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "10",
+      "confidence": 0.7438249588012695,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/57",
+    "question": "Q: What is the degree of node 6?\nA: ",
+    "expected_answer": "1.",
+    "model_answer": "2",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2",
+      "confidence": 0.8944144248962402,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/58",
+    "question": "Q: What is the degree of node 5?\nA: ",
+    "expected_answer": "4.",
+    "model_answer": "4",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "4",
+      "confidence": 0.822709858417511,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/59",
+    "question": "Q: What is the degree of node 0?\nA: ",
+    "expected_answer": "6.",
+    "model_answer": "6",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "6",
+      "confidence": 0.9861438870429993,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/60",
+    "question": "Q: What is the degree of node 0?\nA: ",
+    "expected_answer": "6.",
+    "model_answer": "6",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "6",
+      "confidence": 0.9769294857978821,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/61",
+    "question": "Q: What is the degree of node 15?\nA: ",
+    "expected_answer": "2.",
+    "model_answer": "17",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "17",
+      "confidence": 0.813352108001709,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/62",
+    "question": "Q: What is the degree of node 2?\nA: ",
+    "expected_answer": "2.",
+    "model_answer": "1",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": 0.8047681450843811,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/63",
+    "question": "Q: What is the degree of node 1?\nA: ",
+    "expected_answer": "1.",
+    "model_answer": "4",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "4",
+      "confidence": 0.8560899496078491,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/64",
+    "question": "Q: What is the degree of node 8?\nA: ",
+    "expected_answer": "1.",
+    "model_answer": "1",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": 0.8199000358581543,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/65",
+    "question": "Q: What is the degree of node 3?\nA: ",
+    "expected_answer": "1.",
+    "model_answer": "4",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "4",
+      "confidence": 0.7970895767211914,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/66",
+    "question": "Q: What is the degree of node 1?\nA: ",
+    "expected_answer": "4.",
+    "model_answer": "4",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "4",
+      "confidence": 0.8642136454582214,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/67",
+    "question": "Q: What is the degree of node 0?\nA: ",
+    "expected_answer": "4.",
+    "model_answer": "4",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "4",
+      "confidence": 0.9876042604446411,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/68",
+    "question": "Q: What is the degree of node 5?\nA: ",
+    "expected_answer": "5.",
+    "model_answer": "3",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3",
+      "confidence": 0.919440746307373,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/69",
+    "question": "Q: What is the degree of node 1?\nA: ",
+    "expected_answer": "1.",
+    "model_answer": "4",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "4",
+      "confidence": 0.8165504336357117,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/70",
+    "question": "Q: What is the degree of node 8?\nA: ",
+    "expected_answer": "1.",
+    "model_answer": "1",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": 0.7984675765037537,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/71",
+    "question": "Q: What is the degree of node 2?\nA: ",
+    "expected_answer": "4.",
+    "model_answer": "3",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3",
+      "confidence": 0.8803255558013916,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/72",
+    "question": "Q: What is the degree of node 10?\nA: ",
+    "expected_answer": "1.",
+    "model_answer": "1",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": 0.7704956531524658,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/73",
+    "question": "Q: What is the degree of node 4?\nA: ",
+    "expected_answer": "4.",
+    "model_answer": "3",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3",
+      "confidence": 0.8944703340530396,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/74",
+    "question": "Q: What is the degree of node 7?\nA: ",
+    "expected_answer": "4.",
+    "model_answer": "3",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3",
+      "confidence": 0.8664709329605103,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/75",
+    "question": "Q: What is the degree of node 0?\nA: ",
+    "expected_answer": "8.",
+    "model_answer": "8",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "8",
+      "confidence": 0.9826478362083435,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/76",
+    "question": "Q: What is the degree of node 6?\nA: ",
+    "expected_answer": "5.",
+    "model_answer": "4",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "4",
+      "confidence": 0.8469511866569519,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/77",
+    "question": "Q: What is the degree of node 4?\nA: ",
+    "expected_answer": "2.",
+    "model_answer": "1",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": 0.869975209236145,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/78",
+    "question": "Q: What is the degree of node 0?\nA: ",
+    "expected_answer": "4.",
+    "model_answer": "5",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "5",
+      "confidence": 0.9012046456336975,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/79",
+    "question": "Q: What is the degree of node 2?\nA: ",
+    "expected_answer": "4.",
+    "model_answer": "4",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "4",
+      "confidence": 0.857878565788269,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/80",
+    "question": "Q: What is the degree of node 4?\nA: ",
+    "expected_answer": "2.",
+    "model_answer": "3",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3",
+      "confidence": 0.8823407888412476,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/81",
+    "question": "Q: What is the degree of node 2?\nA: ",
+    "expected_answer": "2.",
+    "model_answer": "3",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3",
+      "confidence": 0.8691964149475098,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/82",
+    "question": "Q: What is the degree of node 4?\nA: ",
+    "expected_answer": "4.",
+    "model_answer": "2",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2",
+      "confidence": 0.8649575710296631,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/83",
+    "question": "Q: What is the degree of node 4?\nA: ",
+    "expected_answer": "5.",
+    "model_answer": "6",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "6",
+      "confidence": 0.8520528078079224,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/84",
+    "question": "Q: What is the degree of node 12?\nA: ",
+    "expected_answer": "2.",
+    "model_answer": "4",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "4",
+      "confidence": 0.8331916928291321,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/85",
+    "question": "Q: What is the degree of node 13?\nA: ",
+    "expected_answer": "5.",
+    "model_answer": "7",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "7",
+      "confidence": 0.8063257932662964,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/86",
+    "question": "Q: What is the degree of node 3?\nA: ",
+    "expected_answer": "1.",
+    "model_answer": "4",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "4",
+      "confidence": 0.8602960109710693,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/87",
+    "question": "Q: What is the degree of node 0?\nA: ",
+    "expected_answer": "5.",
+    "model_answer": "5",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "5",
+      "confidence": 0.8739347457885742,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/88",
+    "question": "Q: What is the degree of node 6?\nA: ",
+    "expected_answer": "2.",
+    "model_answer": "3",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3",
+      "confidence": 0.8916822075843811,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/89",
+    "question": "Q: What is the degree of node 5?\nA: ",
+    "expected_answer": "3.",
+    "model_answer": "2",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2",
+      "confidence": 0.8659151196479797,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/90",
+    "question": "Q: What is the degree of node 7?\nA: ",
+    "expected_answer": "9.",
+    "model_answer": "6",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "6",
+      "confidence": 0.8216836452484131,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/91",
+    "question": "Q: What is the degree of node 5?\nA: ",
+    "expected_answer": "2.",
+    "model_answer": "1",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": 0.8399246335029602,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/92",
+    "question": "Q: What is the degree of node 7?\nA: ",
+    "expected_answer": "2.",
+    "model_answer": "3",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3",
+      "confidence": 0.9170965552330017,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/93",
+    "question": "Q: What is the degree of node 7?\nA: ",
+    "expected_answer": "6.",
+    "model_answer": "4",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "4",
+      "confidence": 0.8236532807350159,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/94",
+    "question": "Q: What is the degree of node 0?\nA: ",
+    "expected_answer": "1.",
+    "model_answer": "1",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": 0.8923364877700806,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/95",
+    "question": "Q: What is the degree of node 7?\nA: ",
+    "expected_answer": "2.",
+    "model_answer": "2",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2",
+      "confidence": 0.8321735858917236,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/96",
+    "question": "Q: What is the degree of node 4?\nA: ",
+    "expected_answer": "1.",
+    "model_answer": "3",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3",
+      "confidence": 0.8021814823150635,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/97",
+    "question": "Q: What is the degree of node 5?\nA: ",
+    "expected_answer": "3.",
+    "model_answer": "2",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2",
+      "confidence": 0.8285096883773804,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/98",
+    "question": "Q: What is the degree of node 14?\nA: ",
+    "expected_answer": "5.",
+    "model_answer": "6",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "6",
+      "confidence": 0.7991074323654175,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/99",
+    "question": "Q: What is the degree of node 14?\nA: ",
+    "expected_answer": "1.",
+    "model_answer": "2",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2",
+      "confidence": 0.9456066489219666,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/100",
+    "question": "Q: What is the degree of node 9?\nA: ",
+    "expected_answer": "10.",
+    "model_answer": "5",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "5",
+      "confidence": 0.8257350921630859,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/101",
+    "question": "Q: What is the degree of node 4?\nA: ",
+    "expected_answer": "1.",
+    "model_answer": "3",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3",
+      "confidence": 0.9187729358673096,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/102",
+    "question": "Q: What is the degree of node 0?\nA: ",
+    "expected_answer": "4.",
+    "model_answer": "6",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "6",
+      "confidence": 0.9813637733459473,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/103",
+    "question": "Q: What is the degree of node 5?\nA: ",
+    "expected_answer": "5.",
+    "model_answer": "4",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "4",
+      "confidence": 0.8286112546920776,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/104",
+    "question": "Q: What is the degree of node 6?\nA: ",
+    "expected_answer": "4.",
+    "model_answer": "3",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3",
+      "confidence": 0.8549706935882568,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/105",
+    "question": "Q: What is the degree of node 6?\nA: ",
+    "expected_answer": "6.",
+    "model_answer": "3",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3",
+      "confidence": 0.8777976036071777,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/106",
+    "question": "Q: What is the degree of node 3?\nA: ",
+    "expected_answer": "6.",
+    "model_answer": "6",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "6",
+      "confidence": 0.8103991746902466,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/107",
+    "question": "Q: What is the degree of node 4?\nA: ",
+    "expected_answer": "2.",
+    "model_answer": "2",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2",
+      "confidence": 0.9436230659484863,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/108",
+    "question": "Q: What is the degree of node 1?\nA: ",
+    "expected_answer": "7.",
+    "model_answer": "7",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "7",
+      "confidence": 0.8697165250778198,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/109",
+    "question": "Q: What is the degree of node 3?\nA: ",
+    "expected_answer": "1.",
+    "model_answer": "1",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": 0.8818312883377075,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/110",
+    "question": "Q: What is the degree of node 3?\nA: ",
+    "expected_answer": "2.",
+    "model_answer": "2",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2",
+      "confidence": 0.8720471858978271,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/111",
+    "question": "Q: What is the degree of node 8?\nA: ",
+    "expected_answer": "12.",
+    "model_answer": "6",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "6",
+      "confidence": 0.8091669082641602,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/112",
+    "question": "Q: What is the degree of node 10?\nA: ",
+    "expected_answer": "10.",
+    "model_answer": "6",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "6",
+      "confidence": 0.8209235668182373,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/113",
+    "question": "Q: What is the degree of node 3?\nA: ",
+    "expected_answer": "4.",
+    "model_answer": "6",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "6",
+      "confidence": 0.8483885526657104,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/114",
+    "question": "Q: What is the degree of node 5?\nA: ",
+    "expected_answer": "5.",
+    "model_answer": "4",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "4",
+      "confidence": 0.8377920389175415,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/115",
+    "question": "Q: What is the degree of node 0?\nA: ",
+    "expected_answer": "5.",
+    "model_answer": "5",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "5",
+      "confidence": 0.9232231378555298,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/116",
+    "question": "Q: What is the degree of node 5?\nA: ",
+    "expected_answer": "1.",
+    "model_answer": "1",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": 0.8858252763748169,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/117",
+    "question": "Q: What is the degree of node 5?\nA: ",
+    "expected_answer": "2.",
+    "model_answer": "2",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2",
+      "confidence": 0.9396860003471375,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/118",
+    "question": "Q: What is the degree of node 1?\nA: ",
+    "expected_answer": "0.",
+    "model_answer": "2",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2",
+      "confidence": 0.9533024430274963,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/119",
+    "question": "Q: What is the degree of node 9?\nA: ",
+    "expected_answer": "6.",
+    "model_answer": "4",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "4",
+      "confidence": 0.8421370387077332,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/120",
+    "question": "Q: What is the degree of node 9?\nA: ",
+    "expected_answer": "6.",
+    "model_answer": "4",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "4",
+      "confidence": 0.8567471504211426,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/121",
+    "question": "Q: What is the degree of node 1?\nA: ",
+    "expected_answer": "3.",
+    "model_answer": "3",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3",
+      "confidence": 0.9619094133377075,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/122",
+    "question": "Q: What is the degree of node 11?\nA: ",
+    "expected_answer": "10.",
+    "model_answer": "6",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "6",
+      "confidence": 0.8285285830497742,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/123",
+    "question": "Q: What is the degree of node 5?\nA: ",
+    "expected_answer": "5.",
+    "model_answer": "4",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "4",
+      "confidence": 0.8380292057991028,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/124",
+    "question": "Q: What is the degree of node 12?\nA: ",
+    "expected_answer": "9.",
+    "model_answer": "7",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "7",
+      "confidence": 0.8028137683868408,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/125",
+    "question": "Q: What is the degree of node 7?\nA: ",
+    "expected_answer": "2.",
+    "model_answer": "3",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3",
+      "confidence": 0.9478251934051514,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/126",
+    "question": "Q: What is the degree of node 11?\nA: ",
+    "expected_answer": "2.",
+    "model_answer": "4",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "4",
+      "confidence": 0.8504513502120972,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/127",
+    "question": "Q: What is the degree of node 1?\nA: ",
+    "expected_answer": "2.",
+    "model_answer": "3",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3",
+      "confidence": 0.9346874356269836,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/128",
+    "question": "Q: What is the degree of node 1?\nA: ",
+    "expected_answer": "8.",
+    "model_answer": "7",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "7",
+      "confidence": 0.8251720666885376,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/129",
+    "question": "Q: What is the degree of node 6?\nA: ",
+    "expected_answer": "4.",
+    "model_answer": "4",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "4",
+      "confidence": 0.8311957120895386,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/130",
+    "question": "Q: What is the degree of node 3?\nA: ",
+    "expected_answer": "7.",
+    "model_answer": "8",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "8",
+      "confidence": 0.8128796219825745,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/131",
+    "question": "Q: What is the degree of node 0?\nA: ",
+    "expected_answer": "12.",
+    "model_answer": "13",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "13",
+      "confidence": 0.9186898469924927,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/132",
+    "question": "Q: What is the degree of node 4?\nA: ",
+    "expected_answer": "3.",
+    "model_answer": "3",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3",
+      "confidence": 0.938369631767273,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/133",
+    "question": "Q: What is the degree of node 12?\nA: ",
+    "expected_answer": "6.",
+    "model_answer": "4",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "4",
+      "confidence": 0.813098669052124,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/134",
+    "question": "Q: What is the degree of node 0?\nA: ",
+    "expected_answer": "7.",
+    "model_answer": "7",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "7",
+      "confidence": 0.8243679404258728,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/135",
+    "question": "Q: What is the degree of node 3?\nA: ",
+    "expected_answer": "2.",
+    "model_answer": "3",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3",
+      "confidence": 0.8703227043151855,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/136",
+    "question": "Q: What is the degree of node 4?\nA: ",
+    "expected_answer": "3.",
+    "model_answer": "3",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3",
+      "confidence": 0.9170117378234863,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/137",
+    "question": "Q: What is the degree of node 13?\nA: ",
+    "expected_answer": "4.",
+    "model_answer": "7",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "7",
+      "confidence": 0.8032992482185364,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/138",
+    "question": "Q: What is the degree of node 1?\nA: ",
+    "expected_answer": "2.",
+    "model_answer": "3",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3",
+      "confidence": 0.9494540691375732,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/139",
+    "question": "Q: What is the degree of node 5?\nA: ",
+    "expected_answer": "0.",
+    "model_answer": "0",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": 0.8558631539344788,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/140",
+    "question": "Q: What is the degree of node 5?\nA: ",
+    "expected_answer": "2.",
+    "model_answer": "7",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "7",
+      "confidence": 0.8266626596450806,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/141",
+    "question": "Q: What is the degree of node 4?\nA: ",
+    "expected_answer": "1.",
+    "model_answer": "2",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2",
+      "confidence": 0.8946197032928467,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/142",
+    "question": "Q: What is the degree of node 6?\nA: ",
+    "expected_answer": "6.",
+    "model_answer": "3",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3",
+      "confidence": 0.8966920375823975,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/143",
+    "question": "Q: What is the degree of node 1?\nA: ",
+    "expected_answer": "4.",
+    "model_answer": "4",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "4",
+      "confidence": 0.8957092761993408,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/144",
+    "question": "Q: What is the degree of node 4?\nA: ",
+    "expected_answer": "6.",
+    "model_answer": "3",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3",
+      "confidence": 0.8882240056991577,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/145",
+    "question": "Q: What is the degree of node 1?\nA: ",
+    "expected_answer": "9.",
+    "model_answer": "9",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "9",
+      "confidence": 0.9371306896209717,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/146",
+    "question": "Q: What is the degree of node 5?\nA: ",
+    "expected_answer": "1.",
+    "model_answer": "3",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3",
+      "confidence": 0.8265964984893799,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/147",
+    "question": "Q: What is the degree of node 13?\nA: ",
+    "expected_answer": "3.",
+    "model_answer": "4",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "4",
+      "confidence": 0.8631953001022339,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/148",
+    "question": "Q: What is the degree of node 6?\nA: ",
+    "expected_answer": "8.",
+    "model_answer": "5",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "5",
+      "confidence": 0.8141471743583679,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/149",
+    "question": "Q: What is the degree of node 3?\nA: ",
+    "expected_answer": "11.",
+    "model_answer": "8",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "8",
+      "confidence": 0.8333921432495117,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/150",
+    "question": "Q: What is the degree of node 12?\nA: ",
+    "expected_answer": "1.",
+    "model_answer": "1",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": 0.74132239818573,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/151",
+    "question": "Q: What is the degree of node 3?\nA: ",
+    "expected_answer": "4.",
+    "model_answer": "3",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3",
+      "confidence": 0.9410553574562073,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/152",
+    "question": "Q: What is the degree of node 7?\nA: ",
+    "expected_answer": "1.",
+    "model_answer": "2",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2",
+      "confidence": 0.8434089422225952,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/153",
+    "question": "Q: What is the degree of node 8?\nA: ",
+    "expected_answer": "1.",
+    "model_answer": "1",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": 0.8382611870765686,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/154",
+    "question": "Q: What is the degree of node 7?\nA: ",
+    "expected_answer": "1.",
+    "model_answer": "3",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3",
+      "confidence": 0.8273121118545532,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/155",
+    "question": "Q: What is the degree of node 5?\nA: ",
+    "expected_answer": "1.",
+    "model_answer": "3",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3",
+      "confidence": 0.9069969654083252,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/156",
+    "question": "Q: What is the degree of node 14?\nA: ",
+    "expected_answer": "1.",
+    "model_answer": "1",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": 0.8759861588478088,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/157",
+    "question": "Q: What is the degree of node 1?\nA: ",
+    "expected_answer": "5.",
+    "model_answer": "3",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3",
+      "confidence": 0.9086577296257019,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/158",
+    "question": "Q: What is the degree of node 16?\nA: ",
+    "expected_answer": "1.",
+    "model_answer": "3",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3",
+      "confidence": 0.7854095697402954,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/159",
+    "question": "Q: What is the degree of node 5?\nA: ",
+    "expected_answer": "1.",
+    "model_answer": "2",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2",
+      "confidence": 0.8255553841590881,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/160",
+    "question": "Q: What is the degree of node 3?\nA: ",
+    "expected_answer": "2.",
+    "model_answer": "3",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3",
+      "confidence": 0.887262225151062,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/161",
+    "question": "Q: What is the degree of node 5?\nA: ",
+    "expected_answer": "6.",
+    "model_answer": "3",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3",
+      "confidence": 0.8467328548431396,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/162",
+    "question": "Q: What is the degree of node 9?\nA: ",
+    "expected_answer": "1.",
+    "model_answer": "2",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2",
+      "confidence": 0.8343109488487244,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/163",
+    "question": "Q: What is the degree of node 3?\nA: ",
+    "expected_answer": "1.",
+    "model_answer": "3",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3",
+      "confidence": 0.8656139373779297,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/164",
+    "question": "Q: What is the degree of node 4?\nA: ",
+    "expected_answer": "1.",
+    "model_answer": "3",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3",
+      "confidence": 0.814473032951355,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/165",
+    "question": "Q: What is the degree of node 0?\nA: ",
+    "expected_answer": "3.",
+    "model_answer": "3",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3",
+      "confidence": 0.9581682682037354,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/166",
+    "question": "Q: What is the degree of node 6?\nA: ",
+    "expected_answer": "1.",
+    "model_answer": "3",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3",
+      "confidence": 0.8955504894256592,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/167",
+    "question": "Q: What is the degree of node 5?\nA: ",
+    "expected_answer": "1.",
+    "model_answer": "3",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3",
+      "confidence": 0.825255274772644,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/168",
+    "question": "Q: What is the degree of node 4?\nA: ",
+    "expected_answer": "1.",
+    "model_answer": "2",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2",
+      "confidence": 0.932487964630127,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/169",
+    "question": "Q: What is the degree of node 2?\nA: ",
+    "expected_answer": "4.",
+    "model_answer": "3",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3",
+      "confidence": 0.8720104098320007,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/170",
+    "question": "Q: What is the degree of node 15?\nA: ",
+    "expected_answer": "1.",
+    "model_answer": "1",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": 0.7762022018432617,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/171",
+    "question": "Q: What is the degree of node 7?\nA: ",
+    "expected_answer": "1.",
+    "model_answer": "2",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2",
+      "confidence": 0.8921974301338196,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/172",
+    "question": "Q: What is the degree of node 5?\nA: ",
+    "expected_answer": "1.",
+    "model_answer": "2",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2",
+      "confidence": 0.9068315029144287,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/173",
+    "question": "Q: What is the degree of node 2?\nA: ",
+    "expected_answer": "7.",
+    "model_answer": "6",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "6",
+      "confidence": 0.8530498743057251,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/174",
+    "question": "Q: What is the degree of node 2?\nA: ",
+    "expected_answer": "12.",
+    "model_answer": "13",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "13",
+      "confidence": 0.8712294697761536,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/175",
+    "question": "Q: What is the degree of node 0?\nA: ",
+    "expected_answer": "5.",
+    "model_answer": "5",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "5",
+      "confidence": 0.9037699103355408,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/176",
+    "question": "Q: What is the degree of node 9?\nA: ",
+    "expected_answer": "1.",
+    "model_answer": "1",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": 0.799869179725647,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/177",
+    "question": "Q: What is the degree of node 2?\nA: ",
+    "expected_answer": "3.",
+    "model_answer": "3",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3",
+      "confidence": 0.9160924553871155,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/178",
+    "question": "Q: What is the degree of node 2?\nA: ",
+    "expected_answer": "7.",
+    "model_answer": "5",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "5",
+      "confidence": 0.8710938692092896,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/179",
+    "question": "Q: What is the degree of node 8?\nA: ",
+    "expected_answer": "2.",
+    "model_answer": "2",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2",
+      "confidence": 0.8513153791427612,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/180",
+    "question": "Q: What is the degree of node 1?\nA: ",
+    "expected_answer": "10.",
+    "model_answer": "8",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "8",
+      "confidence": 0.8594350814819336,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/181",
+    "question": "Q: What is the degree of node 5?\nA: ",
+    "expected_answer": "1.",
+    "model_answer": "3",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3",
+      "confidence": 0.8441464900970459,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/182",
+    "question": "Q: What is the degree of node 1?\nA: ",
+    "expected_answer": "2.",
+    "model_answer": "2",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2",
+      "confidence": 0.9779725074768066,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/183",
+    "question": "Q: What is the degree of node 0?\nA: ",
+    "expected_answer": "5.",
+    "model_answer": "5",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "5",
+      "confidence": 0.849322497844696,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/184",
+    "question": "Q: What is the degree of node 10?\nA: ",
+    "expected_answer": "1.",
+    "model_answer": "2",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2",
+      "confidence": 0.8154495358467102,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/185",
+    "question": "Q: What is the degree of node 0?\nA: ",
+    "expected_answer": "7.",
+    "model_answer": "5",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "5",
+      "confidence": 0.8685716390609741,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/186",
+    "question": "Q: What is the degree of node 1?\nA: ",
+    "expected_answer": "3.",
+    "model_answer": "3",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3",
+      "confidence": 0.958139181137085,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/187",
+    "question": "Q: What is the degree of node 2?\nA: ",
+    "expected_answer": "2.",
+    "model_answer": "4",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "4",
+      "confidence": 0.8240980505943298,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/188",
+    "question": "Q: What is the degree of node 3?\nA: ",
+    "expected_answer": "1.",
+    "model_answer": "3",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3",
+      "confidence": 0.9041014909744263,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/189",
+    "question": "Q: What is the degree of node 0?\nA: ",
+    "expected_answer": "4.",
+    "model_answer": "4",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "4",
+      "confidence": 0.9495866894721985,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/190",
+    "question": "Q: What is the degree of node 6?\nA: ",
+    "expected_answer": "1.",
+    "model_answer": "4",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "4",
+      "confidence": 0.8218185305595398,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/191",
+    "question": "Q: What is the degree of node 6?\nA: ",
+    "expected_answer": "1.",
+    "model_answer": "3",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3",
+      "confidence": 0.8133121728897095,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/192",
+    "question": "Q: What is the degree of node 5?\nA: ",
+    "expected_answer": "1.",
+    "model_answer": "2",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2",
+      "confidence": 0.9102189540863037,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/193",
+    "question": "Q: What is the degree of node 5?\nA: ",
+    "expected_answer": "3.",
+    "model_answer": "3",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3",
+      "confidence": 0.8512967228889465,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/194",
+    "question": "Q: What is the degree of node 1?\nA: ",
+    "expected_answer": "2.",
+    "model_answer": "3",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3",
+      "confidence": 0.9610185027122498,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/195",
+    "question": "Q: What is the degree of node 13?\nA: ",
+    "expected_answer": "1.",
+    "model_answer": "1",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": 0.7731938362121582,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/196",
+    "question": "Q: What is the degree of node 5?\nA: ",
+    "expected_answer": "1.",
+    "model_answer": "2",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2",
+      "confidence": 0.8490663766860962,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/197",
+    "question": "Q: What is the degree of node 12?\nA: ",
+    "expected_answer": "1.",
+    "model_answer": "4",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "4",
+      "confidence": 0.7937068939208984,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/198",
+    "question": "Q: What is the degree of node 8?\nA: ",
+    "expected_answer": "1.",
+    "model_answer": "3",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3",
+      "confidence": 0.8041374683380127,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/199",
+    "question": "Q: What is the degree of node 17?\nA: ",
+    "expected_answer": "1.",
+    "model_answer": "1",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": 0.9530029892921448,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/200",
+    "question": "Q: What is the degree of node 9?\nA: ",
+    "expected_answer": "15.",
+    "model_answer": "6",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "6",
+      "confidence": 0.7929278612136841,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/201",
+    "question": "Q: What is the degree of node 6?\nA: ",
+    "expected_answer": "11.",
+    "model_answer": "9",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "9",
+      "confidence": 0.8044595718383789,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/202",
+    "question": "Q: What is the degree of node 5?\nA: ",
+    "expected_answer": "7.",
+    "model_answer": "6",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "6",
+      "confidence": 0.8436827063560486,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/203",
+    "question": "Q: What is the degree of node 10?\nA: ",
+    "expected_answer": "14.",
+    "model_answer": "14",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "14",
+      "confidence": 0.8701910376548767,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/204",
+    "question": "Q: What is the degree of node 4?\nA: ",
+    "expected_answer": "17.",
+    "model_answer": "17",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "17",
+      "confidence": 0.7643733024597168,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/205",
+    "question": "Q: What is the degree of node 8?\nA: ",
+    "expected_answer": "11.",
+    "model_answer": "4",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "4",
+      "confidence": 0.8110264539718628,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/206",
+    "question": "Q: What is the degree of node 1?\nA: ",
+    "expected_answer": "14.",
+    "model_answer": "14",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "14",
+      "confidence": 0.8948564529418945,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/207",
+    "question": "Q: What is the degree of node 2?\nA: ",
+    "expected_answer": "5.",
+    "model_answer": "3",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3",
+      "confidence": 0.8724293112754822,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/208",
+    "question": "Q: What is the degree of node 8?\nA: ",
+    "expected_answer": "16.",
+    "model_answer": "10",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "10",
+      "confidence": 0.7049898505210876,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/209",
+    "question": "Q: What is the degree of node 3?\nA: ",
+    "expected_answer": "5.",
+    "model_answer": "3",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3",
+      "confidence": 0.934708833694458,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/210",
+    "question": "Q: What is the degree of node 3?\nA: ",
+    "expected_answer": "6.",
+    "model_answer": "6",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "6",
+      "confidence": 0.8694313764572144,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/211",
+    "question": "Q: What is the degree of node 8?\nA: ",
+    "expected_answer": "15.",
+    "model_answer": "9",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "9",
+      "confidence": 0.7934862375259399,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/212",
+    "question": "Q: What is the degree of node 8?\nA: ",
+    "expected_answer": "12.",
+    "model_answer": "4",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "4",
+      "confidence": 0.7997616529464722,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/213",
+    "question": "Q: What is the degree of node 1?\nA: ",
+    "expected_answer": "9.",
+    "model_answer": "9",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "9",
+      "confidence": 0.9621189832687378,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/214",
+    "question": "Q: What is the degree of node 11?\nA: ",
+    "expected_answer": "13.",
+    "model_answer": "13",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "13",
+      "confidence": 0.7898368239402771,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/215",
+    "question": "Q: What is the degree of node 6?\nA: ",
+    "expected_answer": "7.",
+    "model_answer": "6",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "6",
+      "confidence": 0.8357329368591309,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/216",
+    "question": "Q: What is the degree of node 2?\nA: ",
+    "expected_answer": "6.",
+    "model_answer": "6",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "6",
+      "confidence": 0.9396069645881653,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/217",
+    "question": "Q: What is the degree of node 3?\nA: ",
+    "expected_answer": "7.",
+    "model_answer": "6",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "6",
+      "confidence": 0.9124183654785156,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/218",
+    "question": "Q: What is the degree of node 2?\nA: ",
+    "expected_answer": "6.",
+    "model_answer": "6",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "6",
+      "confidence": 0.9396069645881653,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/219",
+    "question": "Q: What is the degree of node 11?\nA: ",
+    "expected_answer": "13.",
+    "model_answer": "13",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "13",
+      "confidence": 0.7898368239402771,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/220",
+    "question": "Q: What is the degree of node 12?\nA: ",
+    "expected_answer": "17.",
+    "model_answer": "17",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "17",
+      "confidence": 0.8172006607055664,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/221",
+    "question": "Q: What is the degree of node 0?\nA: ",
+    "expected_answer": "7.",
+    "model_answer": "7",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "7",
+      "confidence": 0.9916770458221436,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/222",
+    "question": "Q: What is the degree of node 5?\nA: ",
+    "expected_answer": "9.",
+    "model_answer": "6",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "6",
+      "confidence": 0.81121826171875,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/223",
+    "question": "Q: What is the degree of node 7?\nA: ",
+    "expected_answer": "12.",
+    "model_answer": "9",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "9",
+      "confidence": 0.8053535223007202,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/224",
+    "question": "Q: What is the degree of node 3?\nA: ",
+    "expected_answer": "13.",
+    "model_answer": "13",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "13",
+      "confidence": 0.8099442720413208,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/225",
+    "question": "Q: What is the degree of node 3?\nA: ",
+    "expected_answer": "5.",
+    "model_answer": "3",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3",
+      "confidence": 0.934708833694458,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/226",
+    "question": "Q: What is the degree of node 2?\nA: ",
+    "expected_answer": "12.",
+    "model_answer": "12",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "12",
+      "confidence": 0.8644184470176697,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/227",
+    "question": "Q: What is the degree of node 6?\nA: ",
+    "expected_answer": "8.",
+    "model_answer": "7",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "7",
+      "confidence": 0.8146117925643921,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/228",
+    "question": "Q: What is the degree of node 4?\nA: ",
+    "expected_answer": "12.",
+    "model_answer": "12",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "12",
+      "confidence": 0.7530861496925354,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/229",
+    "question": "Q: What is the degree of node 0?\nA: ",
+    "expected_answer": "11.",
+    "model_answer": "12",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "12",
+      "confidence": 0.9473903775215149,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/230",
+    "question": "Q: What is the degree of node 1?\nA: ",
+    "expected_answer": "11.",
+    "model_answer": "11",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "11",
+      "confidence": 0.8734135031700134,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/231",
+    "question": "Q: What is the degree of node 7?\nA: ",
+    "expected_answer": "9.",
+    "model_answer": "9",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "9",
+      "confidence": 0.8499199748039246,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/232",
+    "question": "Q: What is the degree of node 3?\nA: ",
+    "expected_answer": "5.",
+    "model_answer": "3",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3",
+      "confidence": 0.934708833694458,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/233",
+    "question": "Q: What is the degree of node 9?\nA: ",
+    "expected_answer": "17.",
+    "model_answer": "10",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "10",
+      "confidence": 0.7182362675666809,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/234",
+    "question": "Q: What is the degree of node 6?\nA: ",
+    "expected_answer": "12.",
+    "model_answer": "7",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "7",
+      "confidence": 0.805282473564148,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/235",
+    "question": "Q: What is the degree of node 7?\nA: ",
+    "expected_answer": "9.",
+    "model_answer": "9",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "9",
+      "confidence": 0.8499199748039246,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/236",
+    "question": "Q: What is the degree of node 2?\nA: ",
+    "expected_answer": "8.",
+    "model_answer": "8",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "8",
+      "confidence": 0.9343572854995728,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/237",
+    "question": "Q: What is the degree of node 6?\nA: ",
+    "expected_answer": "9.",
+    "model_answer": "9",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "9",
+      "confidence": 0.8290865421295166,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/238",
+    "question": "Q: What is the degree of node 7?\nA: ",
+    "expected_answer": "7.",
+    "model_answer": "7",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "7",
+      "confidence": 0.8854522705078125,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/239",
+    "question": "Q: What is the degree of node 2?\nA: ",
+    "expected_answer": "7.",
+    "model_answer": "6",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "6",
+      "confidence": 0.8762179613113403,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/240",
+    "question": "Q: What is the degree of node 4?\nA: ",
+    "expected_answer": "11.",
+    "model_answer": "9",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "9",
+      "confidence": 0.8308789730072021,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/241",
+    "question": "Q: What is the degree of node 9?\nA: ",
+    "expected_answer": "10.",
+    "model_answer": "9",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "9",
+      "confidence": 0.7960011959075928,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/242",
+    "question": "Q: What is the degree of node 2?\nA: ",
+    "expected_answer": "6.",
+    "model_answer": "6",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "6",
+      "confidence": 0.9396069645881653,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/243",
+    "question": "Q: What is the degree of node 9?\nA: ",
+    "expected_answer": "9.",
+    "model_answer": "9",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "9",
+      "confidence": 0.8836930394172668,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/244",
+    "question": "Q: What is the degree of node 2?\nA: ",
+    "expected_answer": "5.",
+    "model_answer": "3",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3",
+      "confidence": 0.8724293112754822,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/245",
+    "question": "Q: What is the degree of node 3?\nA: ",
+    "expected_answer": "13.",
+    "model_answer": "13",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "13",
+      "confidence": 0.8099442720413208,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/246",
+    "question": "Q: What is the degree of node 1?\nA: ",
+    "expected_answer": "6.",
+    "model_answer": "6",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "6",
+      "confidence": 0.9895724058151245,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/247",
+    "question": "Q: What is the degree of node 14?\nA: ",
+    "expected_answer": "15.",
+    "model_answer": "14",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "14",
+      "confidence": 0.7176336646080017,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/248",
+    "question": "Q: What is the degree of node 15?\nA: ",
+    "expected_answer": "16.",
+    "model_answer": "16",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "16",
+      "confidence": 0.8477492332458496,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/249",
+    "question": "Q: What is the degree of node 0?\nA: ",
+    "expected_answer": "17.",
+    "model_answer": "17",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "17",
+      "confidence": 0.9457144737243652,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/250",
+    "question": "Q: What is the degree of node 14?\nA: ",
+    "expected_answer": "1.",
+    "model_answer": "1",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": 0.7319130897521973,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/251",
+    "question": "Q: What is the degree of node 10?\nA: ",
+    "expected_answer": "1.",
+    "model_answer": "1",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": 0.7704956531524658,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/252",
+    "question": "Q: What is the degree of node 1?\nA: ",
+    "expected_answer": "1.",
+    "model_answer": "4",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "4",
+      "confidence": 0.8319298624992371,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/253",
+    "question": "Q: What is the degree of node 0?\nA: ",
+    "expected_answer": "14.",
+    "model_answer": "14",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "14",
+      "confidence": 0.9149635434150696,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/254",
+    "question": "Q: What is the degree of node 11?\nA: ",
+    "expected_answer": "1.",
+    "model_answer": "1",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": 0.7009722590446472,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/255",
+    "question": "Q: What is the degree of node 7?\nA: ",
+    "expected_answer": "1.",
+    "model_answer": "1",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": 0.8098887801170349,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/256",
+    "question": "Q: What is the degree of node 1?\nA: ",
+    "expected_answer": "1.",
+    "model_answer": "6",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "6",
+      "confidence": 0.8156304359436035,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/257",
+    "question": "Q: What is the degree of node 1?\nA: ",
+    "expected_answer": "1.",
+    "model_answer": "4",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "4",
+      "confidence": 0.8935216665267944,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/258",
+    "question": "Q: What is the degree of node 10?\nA: ",
+    "expected_answer": "1.",
+    "model_answer": "16",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "16",
+      "confidence": 0.764780580997467,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/259",
+    "question": "Q: What is the degree of node 2?\nA: ",
+    "expected_answer": "1.",
+    "model_answer": "4",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "4",
+      "confidence": 0.9088202714920044,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/260",
+    "question": "Q: What is the degree of node 6?\nA: ",
+    "expected_answer": "1.",
+    "model_answer": "6",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "6",
+      "confidence": 0.7984132766723633,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/261",
+    "question": "Q: What is the degree of node 9?\nA: ",
+    "expected_answer": "1.",
+    "model_answer": "1",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": 0.7936689853668213,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/262",
+    "question": "Q: What is the degree of node 4?\nA: ",
+    "expected_answer": "1.",
+    "model_answer": "1",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": 0.8004803657531738,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/263",
+    "question": "Q: What is the degree of node 9?\nA: ",
+    "expected_answer": "1.",
+    "model_answer": "0",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": 0.8169995546340942,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/264",
+    "question": "Q: What is the degree of node 5?\nA: ",
+    "expected_answer": "1.",
+    "model_answer": "1",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": 0.7378895282745361,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/265",
+    "question": "Q: What is the degree of node 4?\nA: ",
+    "expected_answer": "1.",
+    "model_answer": "6",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "6",
+      "confidence": 0.8315574526786804,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/266",
+    "question": "Q: What is the degree of node 4?\nA: ",
+    "expected_answer": "1.",
+    "model_answer": "5",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "5",
+      "confidence": 0.7973230481147766,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/267",
+    "question": "Q: What is the degree of node 3?\nA: ",
+    "expected_answer": "1.",
+    "model_answer": "4",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "4",
+      "confidence": 0.8045231103897095,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/268",
+    "question": "Q: What is the degree of node 4?\nA: ",
+    "expected_answer": "1.",
+    "model_answer": "5",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "5",
+      "confidence": 0.7973230481147766,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/269",
+    "question": "Q: What is the degree of node 13?\nA: ",
+    "expected_answer": "1.",
+    "model_answer": "13",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "13",
+      "confidence": 0.7794302105903625,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/270",
+    "question": "Q: What is the degree of node 8?\nA: ",
+    "expected_answer": "1.",
+    "model_answer": "1",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": 0.8015455007553101,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/271",
+    "question": "Q: What is the degree of node 1?\nA: ",
+    "expected_answer": "1.",
+    "model_answer": "4",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "4",
+      "confidence": 0.8319298624992371,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/272",
+    "question": "Q: What is the degree of node 8?\nA: ",
+    "expected_answer": "1.",
+    "model_answer": "1",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": 0.8348830342292786,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/273",
+    "question": "Q: What is the degree of node 11?\nA: ",
+    "expected_answer": "1.",
+    "model_answer": "1",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": 0.7048872709274292,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/274",
+    "question": "Q: What is the degree of node 9?\nA: ",
+    "expected_answer": "1.",
+    "model_answer": "1",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": 0.8003913164138794,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/275",
+    "question": "Q: What is the degree of node 1?\nA: ",
+    "expected_answer": "1.",
+    "model_answer": "4",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "4",
+      "confidence": 0.8935216665267944,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/276",
+    "question": "Q: What is the degree of node 5?\nA: ",
+    "expected_answer": "1.",
+    "model_answer": "1",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": 0.7420734167098999,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/277",
+    "question": "Q: What is the degree of node 8?\nA: ",
+    "expected_answer": "1.",
+    "model_answer": "0",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": 0.8172686100006104,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/278",
+    "question": "Q: What is the degree of node 5?\nA: ",
+    "expected_answer": "1.",
+    "model_answer": "1",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": 0.7420734167098999,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/279",
+    "question": "Q: What is the degree of node 5?\nA: ",
+    "expected_answer": "1.",
+    "model_answer": "1",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": 0.7784799337387085,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/280",
+    "question": "Q: What is the degree of node 7?\nA: ",
+    "expected_answer": "1.",
+    "model_answer": "1",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": 0.8098887801170349,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/281",
+    "question": "Q: What is the degree of node 4?\nA: ",
+    "expected_answer": "1.",
+    "model_answer": "1",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": 0.8164241909980774,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/282",
+    "question": "Q: What is the degree of node 0?\nA: ",
+    "expected_answer": "5.",
+    "model_answer": "5",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "5",
+      "confidence": 0.9470571875572205,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/283",
+    "question": "Q: What is the degree of node 16?\nA: ",
+    "expected_answer": "1.",
+    "model_answer": "1",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": 0.672920286655426,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/284",
+    "question": "Q: What is the degree of node 9?\nA: ",
+    "expected_answer": "1.",
+    "model_answer": "1",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": 0.8120938539505005,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/285",
+    "question": "Q: What is the degree of node 9?\nA: ",
+    "expected_answer": "1.",
+    "model_answer": "0",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": 0.8169995546340942,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/286",
+    "question": "Q: What is the degree of node 8?\nA: ",
+    "expected_answer": "1.",
+    "model_answer": "0",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": 0.8172686100006104,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/287",
+    "question": "Q: What is the degree of node 1?\nA: ",
+    "expected_answer": "1.",
+    "model_answer": "4",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "4",
+      "confidence": 0.8165504336357117,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/288",
+    "question": "Q: What is the degree of node 3?\nA: ",
+    "expected_answer": "1.",
+    "model_answer": "4",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "4",
+      "confidence": 0.8045231103897095,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/289",
+    "question": "Q: What is the degree of node 4?\nA: ",
+    "expected_answer": "1.",
+    "model_answer": "6",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "6",
+      "confidence": 0.8315574526786804,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/290",
+    "question": "Q: What is the degree of node 5?\nA: ",
+    "expected_answer": "1.",
+    "model_answer": "1",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": 0.7784799337387085,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/291",
+    "question": "Q: What is the degree of node 2?\nA: ",
+    "expected_answer": "1.",
+    "model_answer": "6",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "6",
+      "confidence": 0.8342326879501343,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/292",
+    "question": "Q: What is the degree of node 6?\nA: ",
+    "expected_answer": "1.",
+    "model_answer": "6",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "6",
+      "confidence": 0.7984132766723633,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/293",
+    "question": "Q: What is the degree of node 0?\nA: ",
+    "expected_answer": "9.",
+    "model_answer": "9",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "9",
+      "confidence": 0.9839853048324585,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/294",
+    "question": "Q: What is the degree of node 3?\nA: ",
+    "expected_answer": "1.",
+    "model_answer": "4",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "4",
+      "confidence": 0.8458070755004883,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/295",
+    "question": "Q: What is the degree of node 0?\nA: ",
+    "expected_answer": "13.",
+    "model_answer": "13",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "13",
+      "confidence": 0.9582859873771667,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/296",
+    "question": "Q: What is the degree of node 5?\nA: ",
+    "expected_answer": "1.",
+    "model_answer": "1",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": 0.792963445186615,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/297",
+    "question": "Q: What is the degree of node 1?\nA: ",
+    "expected_answer": "1.",
+    "model_answer": "6",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "6",
+      "confidence": 0.8200467824935913,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/298",
+    "question": "Q: What is the degree of node 6?\nA: ",
+    "expected_answer": "1.",
+    "model_answer": "1",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": 0.7052626609802246,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/299",
+    "question": "Q: What is the degree of node 4?\nA: ",
+    "expected_answer": "1.",
+    "model_answer": "1",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": 0.7230699062347412,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/300",
+    "question": "Q: What is the degree of node 10?\nA: ",
+    "expected_answer": "2.",
+    "model_answer": "3",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3",
+      "confidence": 0.8823479413986206,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/301",
+    "question": "Q: What is the degree of node 8?\nA: ",
+    "expected_answer": "2.",
+    "model_answer": "2",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2",
+      "confidence": 0.8737020492553711,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/302",
+    "question": "Q: What is the degree of node 5?\nA: ",
+    "expected_answer": "2.",
+    "model_answer": "2",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2",
+      "confidence": 0.8904497623443604,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/303",
+    "question": "Q: What is the degree of node 6?\nA: ",
+    "expected_answer": "2.",
+    "model_answer": "3",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3",
+      "confidence": 0.879836916923523,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/304",
+    "question": "Q: What is the degree of node 16?\nA: ",
+    "expected_answer": "2.",
+    "model_answer": "3",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3",
+      "confidence": 0.8336092233657837,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/305",
+    "question": "Q: What is the degree of node 1?\nA: ",
+    "expected_answer": "2.",
+    "model_answer": "2",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2",
+      "confidence": 0.9186455011367798,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/306",
+    "question": "Q: What is the degree of node 13?\nA: ",
+    "expected_answer": "2.",
+    "model_answer": "3",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3",
+      "confidence": 0.8669978976249695,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/307",
+    "question": "Q: What is the degree of node 2?\nA: ",
+    "expected_answer": "2.",
+    "model_answer": "2",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2",
+      "confidence": 0.9045728445053101,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/308",
+    "question": "Q: What is the degree of node 8?\nA: ",
+    "expected_answer": "2.",
+    "model_answer": "3",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3",
+      "confidence": 0.8596712350845337,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/309",
+    "question": "Q: What is the degree of node 5?\nA: ",
+    "expected_answer": "1.",
+    "model_answer": "2",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2",
+      "confidence": 0.8840034008026123,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/310",
+    "question": "Q: What is the degree of node 3?\nA: ",
+    "expected_answer": "2.",
+    "model_answer": "3",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3",
+      "confidence": 0.9115588068962097,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/311",
+    "question": "Q: What is the degree of node 7?\nA: ",
+    "expected_answer": "2.",
+    "model_answer": "3",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3",
+      "confidence": 0.8667991757392883,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/312",
+    "question": "Q: What is the degree of node 5?\nA: ",
+    "expected_answer": "2.",
+    "model_answer": "3",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3",
+      "confidence": 0.8812557458877563,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/313",
+    "question": "Q: What is the degree of node 8?\nA: ",
+    "expected_answer": "2.",
+    "model_answer": "2",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2",
+      "confidence": 0.8657729625701904,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/314",
+    "question": "Q: What is the degree of node 1?\nA: ",
+    "expected_answer": "2.",
+    "model_answer": "2",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2",
+      "confidence": 0.8800040483474731,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/315",
+    "question": "Q: What is the degree of node 0?\nA: ",
+    "expected_answer": "1.",
+    "model_answer": "1",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": 0.8988527655601501,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/316",
+    "question": "Q: What is the degree of node 5?\nA: ",
+    "expected_answer": "2.",
+    "model_answer": "2",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2",
+      "confidence": 0.9189949035644531,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/317",
+    "question": "Q: What is the degree of node 5?\nA: ",
+    "expected_answer": "2.",
+    "model_answer": "2",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2",
+      "confidence": 0.8904497623443604,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/318",
+    "question": "Q: What is the degree of node 6?\nA: ",
+    "expected_answer": "1.",
+    "model_answer": "2",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2",
+      "confidence": 0.8665226697921753,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/319",
+    "question": "Q: What is the degree of node 9?\nA: ",
+    "expected_answer": "2.",
+    "model_answer": "2",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2",
+      "confidence": 0.877526044845581,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/320",
+    "question": "Q: What is the degree of node 7?\nA: ",
+    "expected_answer": "2.",
+    "model_answer": "3",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3",
+      "confidence": 0.874411404132843,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/321",
+    "question": "Q: What is the degree of node 2?\nA: ",
+    "expected_answer": "2.",
+    "model_answer": "3",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3",
+      "confidence": 0.8911606073379517,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/322",
+    "question": "Q: What is the degree of node 7?\nA: ",
+    "expected_answer": "2.",
+    "model_answer": "2",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2",
+      "confidence": 0.8650644421577454,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/323",
+    "question": "Q: What is the degree of node 7?\nA: ",
+    "expected_answer": "2.",
+    "model_answer": "2",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2",
+      "confidence": 0.8532538414001465,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/324",
+    "question": "Q: What is the degree of node 10?\nA: ",
+    "expected_answer": "2.",
+    "model_answer": "3",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3",
+      "confidence": 0.864884614944458,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/325",
+    "question": "Q: What is the degree of node 5?\nA: ",
+    "expected_answer": "1.",
+    "model_answer": "2",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2",
+      "confidence": 0.8840034008026123,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/326",
+    "question": "Q: What is the degree of node 2?\nA: ",
+    "expected_answer": "2.",
+    "model_answer": "3",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3",
+      "confidence": 0.9178940057754517,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/327",
+    "question": "Q: What is the degree of node 8?\nA: ",
+    "expected_answer": "1.",
+    "model_answer": "1",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": 0.8667541742324829,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/328",
+    "question": "Q: What is the degree of node 9?\nA: ",
+    "expected_answer": "2.",
+    "model_answer": "2",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2",
+      "confidence": 0.8766220808029175,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/329",
+    "question": "Q: What is the degree of node 9?\nA: ",
+    "expected_answer": "2.",
+    "model_answer": "2",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2",
+      "confidence": 0.873764157295227,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/330",
+    "question": "Q: What is the degree of node 1?\nA: ",
+    "expected_answer": "2.",
+    "model_answer": "2",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2",
+      "confidence": 0.9186455011367798,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/331",
+    "question": "Q: What is the degree of node 2?\nA: ",
+    "expected_answer": "2.",
+    "model_answer": "3",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3",
+      "confidence": 0.9098165035247803,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/332",
+    "question": "Q: What is the degree of node 4?\nA: ",
+    "expected_answer": "2.",
+    "model_answer": "2",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2",
+      "confidence": 0.938758373260498,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/333",
+    "question": "Q: What is the degree of node 7?\nA: ",
+    "expected_answer": "2.",
+    "model_answer": "3",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3",
+      "confidence": 0.874411404132843,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/334",
+    "question": "Q: What is the degree of node 11?\nA: ",
+    "expected_answer": "2.",
+    "model_answer": "2",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2",
+      "confidence": 0.8560684323310852,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/335",
+    "question": "Q: What is the degree of node 2?\nA: ",
+    "expected_answer": "2.",
+    "model_answer": "3",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3",
+      "confidence": 0.9098165035247803,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/336",
+    "question": "Q: What is the degree of node 8?\nA: ",
+    "expected_answer": "1.",
+    "model_answer": "1",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": 0.8667541742324829,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/337",
+    "question": "Q: What is the degree of node 8?\nA: ",
+    "expected_answer": "2.",
+    "model_answer": "2",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2",
+      "confidence": 0.8657729625701904,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/338",
+    "question": "Q: What is the degree of node 6?\nA: ",
+    "expected_answer": "2.",
+    "model_answer": "2",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2",
+      "confidence": 0.8701754808425903,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/339",
+    "question": "Q: What is the degree of node 5?\nA: ",
+    "expected_answer": "2.",
+    "model_answer": "2",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2",
+      "confidence": 0.8904497623443604,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/340",
+    "question": "Q: What is the degree of node 2?\nA: ",
+    "expected_answer": "2.",
+    "model_answer": "3",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3",
+      "confidence": 0.9255250096321106,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/341",
+    "question": "Q: What is the degree of node 8?\nA: ",
+    "expected_answer": "2.",
+    "model_answer": "2",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2",
+      "confidence": 0.8749852180480957,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/342",
+    "question": "Q: What is the degree of node 4?\nA: ",
+    "expected_answer": "2.",
+    "model_answer": "2",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2",
+      "confidence": 0.9006460905075073,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/343",
+    "question": "Q: What is the degree of node 8?\nA: ",
+    "expected_answer": "2.",
+    "model_answer": "2",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2",
+      "confidence": 0.8657729625701904,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/344",
+    "question": "Q: What is the degree of node 4?\nA: ",
+    "expected_answer": "2.",
+    "model_answer": "2",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2",
+      "confidence": 0.938758373260498,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/345",
+    "question": "Q: What is the degree of node 9?\nA: ",
+    "expected_answer": "2.",
+    "model_answer": "2",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2",
+      "confidence": 0.877526044845581,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/346",
+    "question": "Q: What is the degree of node 6?\nA: ",
+    "expected_answer": "1.",
+    "model_answer": "2",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2",
+      "confidence": 0.8665226697921753,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/347",
+    "question": "Q: What is the degree of node 14?\nA: ",
+    "expected_answer": "2.",
+    "model_answer": "3",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3",
+      "confidence": 0.8530274629592896,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/348",
+    "question": "Q: What is the degree of node 1?\nA: ",
+    "expected_answer": "2.",
+    "model_answer": "3",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3",
+      "confidence": 0.8874803185462952,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/349",
+    "question": "Q: What is the degree of node 11?\nA: ",
+    "expected_answer": "2.",
+    "model_answer": "3",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3",
+      "confidence": 0.8987929821014404,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  }
+]

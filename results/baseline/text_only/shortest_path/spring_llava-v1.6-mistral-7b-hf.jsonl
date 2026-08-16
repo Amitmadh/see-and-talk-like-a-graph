@@ -1,0 +1,6302 @@
+[
+  {
+    "sample_id": "shortest_path/adjacency/test/0",
+    "question": "Q: What is the length of the shortest path from node 14 to node 3?\nA: ",
+    "expected_answer": "2.",
+    "model_answer": "3",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3",
+      "confidence": 0.8175661563873291,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/1",
+    "question": "Q: What is the length of the shortest path from node 0 to node 1?\nA: ",
+    "expected_answer": "2.",
+    "model_answer": "2",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2",
+      "confidence": 0.7861775755882263,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/2",
+    "question": "Q: What is the length of the shortest path from node 4 to node 0?\nA: ",
+    "expected_answer": "There is no path from node 4 to node 0.",
+    "model_answer": "2",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2",
+      "confidence": 0.7350609302520752,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/3",
+    "question": "Q: What is the length of the shortest path from node 2 to node 1?\nA: ",
+    "expected_answer": "2.",
+    "model_answer": "2",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2",
+      "confidence": 0.768057107925415,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/4",
+    "question": "Q: What is the length of the shortest path from node 11 to node 3?\nA: ",
+    "expected_answer": "2.",
+    "model_answer": "2",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2",
+      "confidence": 0.8070157170295715,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/5",
+    "question": "Q: What is the length of the shortest path from node 0 to node 12?\nA: ",
+    "expected_answer": "1.",
+    "model_answer": "12",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "12",
+      "confidence": 0.7461873888969421,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/6",
+    "question": "Q: What is the length of the shortest path from node 0 to node 11?\nA: ",
+    "expected_answer": "There is no path from node 0 to node 11.",
+    "model_answer": "3",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3",
+      "confidence": 0.6970694065093994,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/7",
+    "question": "Q: What is the length of the shortest path from node 7 to node 4?\nA: ",
+    "expected_answer": "2.",
+    "model_answer": "3",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3",
+      "confidence": 0.7526477575302124,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/8",
+    "question": "Q: What is the length of the shortest path from node 14 to node 4?\nA: ",
+    "expected_answer": "1.",
+    "model_answer": "3",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3",
+      "confidence": 0.7967194318771362,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/9",
+    "question": "Q: What is the length of the shortest path from node 1 to node 7?\nA: ",
+    "expected_answer": "1.",
+    "model_answer": "3",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3",
+      "confidence": 0.8234312534332275,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/10",
+    "question": "Q: What is the length of the shortest path from node 1 to node 0?\nA: ",
+    "expected_answer": "1.",
+    "model_answer": "0",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": 0.748759925365448,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/11",
+    "question": "Q: What is the length of the shortest path from node 16 to node 15?\nA: ",
+    "expected_answer": "1.",
+    "model_answer": "1",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": 0.829843282699585,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/12",
+    "question": "Q: What is the length of the shortest path from node 3 to node 1?\nA: ",
+    "expected_answer": "1.",
+    "model_answer": "1",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": 0.7206053733825684,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/13",
+    "question": "Q: What is the length of the shortest path from node 10 to node 8?\nA: ",
+    "expected_answer": "1.",
+    "model_answer": "1",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": 0.7544367909431458,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/14",
+    "question": "Q: What is the length of the shortest path from node 7 to node 1?\nA: ",
+    "expected_answer": "2.",
+    "model_answer": "3",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3",
+      "confidence": 0.7657411694526672,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/15",
+    "question": "Q: What is the length of the shortest path from node 4 to node 0?\nA: ",
+    "expected_answer": "1.",
+    "model_answer": "3",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3",
+      "confidence": 0.7889523506164551,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/16",
+    "question": "Q: What is the length of the shortest path from node 4 to node 0?\nA: ",
+    "expected_answer": "1.",
+    "model_answer": "2",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2",
+      "confidence": 0.7746150493621826,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/17",
+    "question": "Q: What is the length of the shortest path from node 4 to node 6?\nA: ",
+    "expected_answer": "2.",
+    "model_answer": "2",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2",
+      "confidence": 0.7785620093345642,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/18",
+    "question": "Q: What is the length of the shortest path from node 4 to node 0?\nA: ",
+    "expected_answer": "1.",
+    "model_answer": "2",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2",
+      "confidence": 0.8012003898620605,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/19",
+    "question": "Q: What is the length of the shortest path from node 10 to node 4?\nA: ",
+    "expected_answer": "2.",
+    "model_answer": "3",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3",
+      "confidence": 0.779219388961792,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/20",
+    "question": "Q: What is the length of the shortest path from node 15 to node 13?\nA: ",
+    "expected_answer": "4.",
+    "model_answer": "2",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2",
+      "confidence": 0.7741849422454834,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/21",
+    "question": "Q: What is the length of the shortest path from node 2 to node 6?\nA: ",
+    "expected_answer": "3.",
+    "model_answer": "3",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3",
+      "confidence": 0.8270319700241089,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/22",
+    "question": "Q: What is the length of the shortest path from node 3 to node 10?\nA: ",
+    "expected_answer": "1.",
+    "model_answer": "4",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "4",
+      "confidence": 0.7516894340515137,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/23",
+    "question": "Q: What is the length of the shortest path from node 3 to node 7?\nA: ",
+    "expected_answer": "1.",
+    "model_answer": "3",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3",
+      "confidence": 0.7991538047790527,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/24",
+    "question": "Q: What is the length of the shortest path from node 8 to node 0?\nA: ",
+    "expected_answer": "2.",
+    "model_answer": "3",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3",
+      "confidence": 0.7543525099754333,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/25",
+    "question": "Q: What is the length of the shortest path from node 4 to node 0?\nA: ",
+    "expected_answer": "1.",
+    "model_answer": "2",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2",
+      "confidence": 0.7848066091537476,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/26",
+    "question": "Q: What is the length of the shortest path from node 0 to node 5?\nA: ",
+    "expected_answer": "1.",
+    "model_answer": "2",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2",
+      "confidence": 0.7838499546051025,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/27",
+    "question": "Q: What is the length of the shortest path from node 1 to node 3?\nA: ",
+    "expected_answer": "2.",
+    "model_answer": "2",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2",
+      "confidence": 0.8188258409500122,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/28",
+    "question": "Q: What is the length of the shortest path from node 10 to node 6?\nA: ",
+    "expected_answer": "1.",
+    "model_answer": "3",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3",
+      "confidence": 0.79488205909729,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/29",
+    "question": "Q: What is the length of the shortest path from node 2 to node 0?\nA: ",
+    "expected_answer": "There is no path from node 2 to node 0.",
+    "model_answer": "2",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2",
+      "confidence": 0.7991667985916138,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/30",
+    "question": "Q: What is the length of the shortest path from node 1 to node 9?\nA: ",
+    "expected_answer": "There is no path from node 1 to node 9.",
+    "model_answer": "3",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3",
+      "confidence": 0.7670577168464661,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/31",
+    "question": "Q: What is the length of the shortest path from node 7 to node 2?\nA: ",
+    "expected_answer": "1.",
+    "model_answer": "2",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2",
+      "confidence": 0.7821649312973022,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/32",
+    "question": "Q: What is the length of the shortest path from node 0 to node 1?\nA: ",
+    "expected_answer": "1.",
+    "model_answer": "1",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": 0.929642915725708,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/33",
+    "question": "Q: What is the length of the shortest path from node 4 to node 0?\nA: ",
+    "expected_answer": "2.",
+    "model_answer": "3",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3",
+      "confidence": 0.7735375761985779,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/34",
+    "question": "Q: What is the length of the shortest path from node 5 to node 1?\nA: ",
+    "expected_answer": "2.",
+    "model_answer": "2",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2",
+      "confidence": 0.7534433007240295,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/35",
+    "question": "Q: What is the length of the shortest path from node 8 to node 2?\nA: ",
+    "expected_answer": "1.",
+    "model_answer": "3",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3",
+      "confidence": 0.7842764258384705,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/36",
+    "question": "Q: What is the length of the shortest path from node 4 to node 3?\nA: ",
+    "expected_answer": "2.",
+    "model_answer": "2",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2",
+      "confidence": 0.7748538851737976,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/37",
+    "question": "Q: What is the length of the shortest path from node 0 to node 6?\nA: ",
+    "expected_answer": "1.",
+    "model_answer": "3",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3",
+      "confidence": 0.8073201179504395,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/38",
+    "question": "Q: What is the length of the shortest path from node 2 to node 0?\nA: ",
+    "expected_answer": "There is no path from node 2 to node 0.",
+    "model_answer": "2",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2",
+      "confidence": 0.8085961937904358,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/39",
+    "question": "Q: What is the length of the shortest path from node 2 to node 4?\nA: ",
+    "expected_answer": "1.",
+    "model_answer": "2",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2",
+      "confidence": 0.8078709840774536,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/40",
+    "question": "Q: What is the length of the shortest path from node 2 to node 4?\nA: ",
+    "expected_answer": "2.",
+    "model_answer": "2",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2",
+      "confidence": 0.8077216148376465,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/41",
+    "question": "Q: What is the length of the shortest path from node 2 to node 7?\nA: ",
+    "expected_answer": "2.",
+    "model_answer": "3",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3",
+      "confidence": 0.8179658651351929,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/42",
+    "question": "Q: What is the length of the shortest path from node 0 to node 6?\nA: ",
+    "expected_answer": "1.",
+    "model_answer": "2",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2",
+      "confidence": 0.8302212953567505,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/43",
+    "question": "Q: What is the length of the shortest path from node 5 to node 7?\nA: ",
+    "expected_answer": "1.",
+    "model_answer": "2",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2",
+      "confidence": 0.8306207656860352,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/44",
+    "question": "Q: What is the length of the shortest path from node 2 to node 3?\nA: ",
+    "expected_answer": "1.",
+    "model_answer": "1",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": 0.8267696499824524,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/45",
+    "question": "Q: What is the length of the shortest path from node 7 to node 0?\nA: ",
+    "expected_answer": "1.",
+    "model_answer": "3",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3",
+      "confidence": 0.7932949662208557,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/46",
+    "question": "Q: What is the length of the shortest path from node 3 to node 1?\nA: ",
+    "expected_answer": "There is no path from node 3 to node 1.",
+    "model_answer": "2",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2",
+      "confidence": 0.813950777053833,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/47",
+    "question": "Q: What is the length of the shortest path from node 14 to node 11?\nA: ",
+    "expected_answer": "2.",
+    "model_answer": "2",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2",
+      "confidence": 0.7733855247497559,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/48",
+    "question": "Q: What is the length of the shortest path from node 12 to node 8?\nA: ",
+    "expected_answer": "2.",
+    "model_answer": "1",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": 0.6396647095680237,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/49",
+    "question": "Q: What is the length of the shortest path from node 14 to node 9?\nA: ",
+    "expected_answer": "2.",
+    "model_answer": "2",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2",
+      "confidence": 0.7578049302101135,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/50",
+    "question": "Q: What is the length of the shortest path from node 8 to node 1?\nA: ",
+    "expected_answer": "2.",
+    "model_answer": "3",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3",
+      "confidence": 0.7199596166610718,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/51",
+    "question": "Q: What is the length of the shortest path from node 2 to node 6?\nA: ",
+    "expected_answer": "2.",
+    "model_answer": "3",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3",
+      "confidence": 0.7469643354415894,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/52",
+    "question": "Q: What is the length of the shortest path from node 3 to node 0?\nA: ",
+    "expected_answer": "1.",
+    "model_answer": "1",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": 0.8132497072219849,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/53",
+    "question": "Q: What is the length of the shortest path from node 16 to node 3?\nA: ",
+    "expected_answer": "2.",
+    "model_answer": "4",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "4",
+      "confidence": 0.77025306224823,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/54",
+    "question": "Q: What is the length of the shortest path from node 15 to node 6?\nA: ",
+    "expected_answer": "1.",
+    "model_answer": "4",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "4",
+      "confidence": 0.7655676603317261,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/55",
+    "question": "Q: What is the length of the shortest path from node 10 to node 4?\nA: ",
+    "expected_answer": "2.",
+    "model_answer": "3",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3",
+      "confidence": 0.7622061967849731,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/56",
+    "question": "Q: What is the length of the shortest path from node 6 to node 5?\nA: ",
+    "expected_answer": "2.",
+    "model_answer": "1",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": 0.7840768098831177,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/57",
+    "question": "Q: What is the length of the shortest path from node 1 to node 5?\nA: ",
+    "expected_answer": "3.",
+    "model_answer": "3",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3",
+      "confidence": 0.8305830359458923,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/58",
+    "question": "Q: What is the length of the shortest path from node 5 to node 8?\nA: ",
+    "expected_answer": "2.",
+    "model_answer": "3",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3",
+      "confidence": 0.7506613731384277,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/59",
+    "question": "Q: What is the length of the shortest path from node 1 to node 5?\nA: ",
+    "expected_answer": "1.",
+    "model_answer": "2",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2",
+      "confidence": 0.8094462156295776,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/60",
+    "question": "Q: What is the length of the shortest path from node 2 to node 3?\nA: ",
+    "expected_answer": "2.",
+    "model_answer": "1",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": 0.8300467729568481,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/61",
+    "question": "Q: What is the length of the shortest path from node 2 to node 17?\nA: ",
+    "expected_answer": "1.",
+    "model_answer": "17",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "17",
+      "confidence": 0.7671064734458923,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/62",
+    "question": "Q: What is the length of the shortest path from node 6 to node 3?\nA: ",
+    "expected_answer": "2.",
+    "model_answer": "1",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": 0.7409185171127319,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/63",
+    "question": "Q: What is the length of the shortest path from node 0 to node 4?\nA: ",
+    "expected_answer": "1.",
+    "model_answer": "1",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": 0.7847799062728882,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/64",
+    "question": "Q: What is the length of the shortest path from node 12 to node 0?\nA: ",
+    "expected_answer": "1.",
+    "model_answer": "12",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "12",
+      "confidence": 0.842032253742218,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/65",
+    "question": "Q: What is the length of the shortest path from node 3 to node 1?\nA: ",
+    "expected_answer": "2.",
+    "model_answer": "1",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": 0.7886949777603149,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/66",
+    "question": "Q: What is the length of the shortest path from node 6 to node 5?\nA: ",
+    "expected_answer": "1.",
+    "model_answer": "2",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2",
+      "confidence": 0.8086252212524414,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/67",
+    "question": "Q: What is the length of the shortest path from node 2 to node 4?\nA: ",
+    "expected_answer": "2.",
+    "model_answer": "2",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2",
+      "confidence": 0.8503354787826538,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/68",
+    "question": "Q: What is the length of the shortest path from node 7 to node 0?\nA: ",
+    "expected_answer": "1.",
+    "model_answer": "3",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3",
+      "confidence": 0.7615739107131958,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/69",
+    "question": "Q: What is the length of the shortest path from node 9 to node 4?\nA: ",
+    "expected_answer": "2.",
+    "model_answer": "1",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": 0.6667116284370422,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/70",
+    "question": "Q: What is the length of the shortest path from node 13 to node 1?\nA: ",
+    "expected_answer": "2.",
+    "model_answer": "1",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": 0.5579400658607483,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/71",
+    "question": "Q: What is the length of the shortest path from node 6 to node 1?\nA: ",
+    "expected_answer": "1.",
+    "model_answer": "2",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2",
+      "confidence": 0.7733509540557861,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/72",
+    "question": "Q: What is the length of the shortest path from node 1 to node 6?\nA: ",
+    "expected_answer": "2.",
+    "model_answer": "1",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": 0.7583284974098206,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/73",
+    "question": "Q: What is the length of the shortest path from node 3 to node 7?\nA: ",
+    "expected_answer": "2.",
+    "model_answer": "3",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3",
+      "confidence": 0.7943881750106812,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/74",
+    "question": "Q: What is the length of the shortest path from node 8 to node 3?\nA: ",
+    "expected_answer": "1.",
+    "model_answer": "2",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2",
+      "confidence": 0.7883639931678772,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/75",
+    "question": "Q: What is the length of the shortest path from node 5 to node 3?\nA: ",
+    "expected_answer": "2.",
+    "model_answer": "2",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2",
+      "confidence": 0.7602506875991821,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/76",
+    "question": "Q: What is the length of the shortest path from node 8 to node 6?\nA: ",
+    "expected_answer": "1.",
+    "model_answer": "2",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2",
+      "confidence": 0.7987228631973267,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/77",
+    "question": "Q: What is the length of the shortest path from node 2 to node 4?\nA: ",
+    "expected_answer": "2.",
+    "model_answer": "2",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2",
+      "confidence": 0.7405142784118652,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/78",
+    "question": "Q: What is the length of the shortest path from node 3 to node 4?\nA: ",
+    "expected_answer": "2.",
+    "model_answer": "2",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2",
+      "confidence": 0.8500338196754456,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/79",
+    "question": "Q: What is the length of the shortest path from node 0 to node 5?\nA: ",
+    "expected_answer": "1.",
+    "model_answer": "1",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": 0.8004270195960999,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/80",
+    "question": "Q: What is the length of the shortest path from node 8 to node 2?\nA: ",
+    "expected_answer": "2.",
+    "model_answer": "2",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2",
+      "confidence": 0.7659997344017029,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/81",
+    "question": "Q: What is the length of the shortest path from node 7 to node 8?\nA: ",
+    "expected_answer": "1.",
+    "model_answer": "1",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": 0.8438941836357117,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/82",
+    "question": "Q: What is the length of the shortest path from node 7 to node 5?\nA: ",
+    "expected_answer": "3.",
+    "model_answer": "2",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2",
+      "confidence": 0.780098557472229,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/83",
+    "question": "Q: What is the length of the shortest path from node 4 to node 16?\nA: ",
+    "expected_answer": "2.",
+    "model_answer": "6",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "6",
+      "confidence": 0.7412280440330505,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/84",
+    "question": "Q: What is the length of the shortest path from node 0 to node 9?\nA: ",
+    "expected_answer": "2.",
+    "model_answer": "4",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "4",
+      "confidence": 0.7418041229248047,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/85",
+    "question": "Q: What is the length of the shortest path from node 2 to node 13?\nA: ",
+    "expected_answer": "2.",
+    "model_answer": "7",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "7",
+      "confidence": 0.742975115776062,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/86",
+    "question": "Q: What is the length of the shortest path from node 4 to node 0?\nA: ",
+    "expected_answer": "1.",
+    "model_answer": "4",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "4",
+      "confidence": 0.8026084899902344,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/87",
+    "question": "Q: What is the length of the shortest path from node 5 to node 2?\nA: ",
+    "expected_answer": "1.",
+    "model_answer": "2",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2",
+      "confidence": 0.8026042580604553,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/88",
+    "question": "Q: What is the length of the shortest path from node 0 to node 5?\nA: ",
+    "expected_answer": "2.",
+    "model_answer": "3",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3",
+      "confidence": 0.8148886561393738,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/89",
+    "question": "Q: What is the length of the shortest path from node 0 to node 5?\nA: ",
+    "expected_answer": "1.",
+    "model_answer": "3",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3",
+      "confidence": 0.7638648748397827,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/90",
+    "question": "Q: What is the length of the shortest path from node 1 to node 2?\nA: ",
+    "expected_answer": "2.",
+    "model_answer": "1",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": 0.8724977374076843,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/91",
+    "question": "Q: What is the length of the shortest path from node 3 to node 0?\nA: ",
+    "expected_answer": "1.",
+    "model_answer": "3",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3",
+      "confidence": 0.756483793258667,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/92",
+    "question": "Q: What is the length of the shortest path from node 6 to node 3?\nA: ",
+    "expected_answer": "2.",
+    "model_answer": "2",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2",
+      "confidence": 0.8008877635002136,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/93",
+    "question": "Q: What is the length of the shortest path from node 11 to node 5?\nA: ",
+    "expected_answer": "2.",
+    "model_answer": "3",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3",
+      "confidence": 0.7715743184089661,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/94",
+    "question": "Q: What is the length of the shortest path from node 1 to node 5?\nA: ",
+    "expected_answer": "2.",
+    "model_answer": "2",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2",
+      "confidence": 0.822338342666626,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/95",
+    "question": "Q: What is the length of the shortest path from node 6 to node 4?\nA: ",
+    "expected_answer": "2.",
+    "model_answer": "2",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2",
+      "confidence": 0.7672399282455444,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/96",
+    "question": "Q: What is the length of the shortest path from node 4 to node 2?\nA: ",
+    "expected_answer": "2.",
+    "model_answer": "2",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2",
+      "confidence": 0.7825579643249512,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/97",
+    "question": "Q: What is the length of the shortest path from node 13 to node 10?\nA: ",
+    "expected_answer": "2.",
+    "model_answer": "1",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": 0.6332305669784546,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/98",
+    "question": "Q: What is the length of the shortest path from node 4 to node 2?\nA: ",
+    "expected_answer": "2.",
+    "model_answer": "1",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": 0.77219557762146,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/99",
+    "question": "Q: What is the length of the shortest path from node 8 to node 4?\nA: ",
+    "expected_answer": "1.",
+    "model_answer": "2",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2",
+      "confidence": 0.8141566514968872,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/100",
+    "question": "Q: What is the length of the shortest path from node 13 to node 6?\nA: ",
+    "expected_answer": "1.",
+    "model_answer": "3",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3",
+      "confidence": 0.7785055041313171,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/101",
+    "question": "Q: What is the length of the shortest path from node 9 to node 4?\nA: ",
+    "expected_answer": "2.",
+    "model_answer": "2",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2",
+      "confidence": 0.772573709487915,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/102",
+    "question": "Q: What is the length of the shortest path from node 4 to node 0?\nA: ",
+    "expected_answer": "1.",
+    "model_answer": "2",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2",
+      "confidence": 0.7718451619148254,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/103",
+    "question": "Q: What is the length of the shortest path from node 12 to node 8?\nA: ",
+    "expected_answer": "1.",
+    "model_answer": "2",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2",
+      "confidence": 0.7610882520675659,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/104",
+    "question": "Q: What is the length of the shortest path from node 3 to node 4?\nA: ",
+    "expected_answer": "1.",
+    "model_answer": "1",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": 0.838995099067688,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/105",
+    "question": "Q: What is the length of the shortest path from node 9 to node 6?\nA: ",
+    "expected_answer": "2.",
+    "model_answer": "3",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3",
+      "confidence": 0.7768676280975342,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/106",
+    "question": "Q: What is the length of the shortest path from node 1 to node 5?\nA: ",
+    "expected_answer": "1.",
+    "model_answer": "3",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3",
+      "confidence": 0.7687609195709229,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/107",
+    "question": "Q: What is the length of the shortest path from node 3 to node 1?\nA: ",
+    "expected_answer": "1.",
+    "model_answer": "2",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2",
+      "confidence": 0.8484380841255188,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/108",
+    "question": "Q: What is the length of the shortest path from node 12 to node 6?\nA: ",
+    "expected_answer": "2.",
+    "model_answer": "3",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3",
+      "confidence": 0.789108395576477,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/109",
+    "question": "Q: What is the length of the shortest path from node 1 to node 3?\nA: ",
+    "expected_answer": "1.",
+    "model_answer": "2",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2",
+      "confidence": 0.8053485751152039,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/110",
+    "question": "Q: What is the length of the shortest path from node 2 to node 0?\nA: ",
+    "expected_answer": "2.",
+    "model_answer": "3",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3",
+      "confidence": 0.7959643602371216,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/111",
+    "question": "Q: What is the length of the shortest path from node 2 to node 17?\nA: ",
+    "expected_answer": "2.",
+    "model_answer": "7",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "7",
+      "confidence": 0.7264747619628906,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/112",
+    "question": "Q: What is the length of the shortest path from node 6 to node 4?\nA: ",
+    "expected_answer": "1.",
+    "model_answer": "2",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2",
+      "confidence": 0.7852055430412292,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/113",
+    "question": "Q: What is the length of the shortest path from node 6 to node 10?\nA: ",
+    "expected_answer": "2.",
+    "model_answer": "3",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3",
+      "confidence": 0.76510089635849,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/114",
+    "question": "Q: What is the length of the shortest path from node 7 to node 2?\nA: ",
+    "expected_answer": "1.",
+    "model_answer": "2",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2",
+      "confidence": 0.7849421501159668,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/115",
+    "question": "Q: What is the length of the shortest path from node 3 to node 5?\nA: ",
+    "expected_answer": "1.",
+    "model_answer": "2",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2",
+      "confidence": 0.8475644588470459,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/116",
+    "question": "Q: What is the length of the shortest path from node 1 to node 2?\nA: ",
+    "expected_answer": "2.",
+    "model_answer": "2",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2",
+      "confidence": 0.7939049601554871,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/117",
+    "question": "Q: What is the length of the shortest path from node 4 to node 2?\nA: ",
+    "expected_answer": "2.",
+    "model_answer": "2",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2",
+      "confidence": 0.7974337935447693,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/118",
+    "question": "Q: What is the length of the shortest path from node 5 to node 4?\nA: ",
+    "expected_answer": "1.",
+    "model_answer": "2",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2",
+      "confidence": 0.8301212787628174,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/119",
+    "question": "Q: What is the length of the shortest path from node 5 to node 3?\nA: ",
+    "expected_answer": "1.",
+    "model_answer": "2",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2",
+      "confidence": 0.8125162124633789,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/120",
+    "question": "Q: What is the length of the shortest path from node 5 to node 17?\nA: ",
+    "expected_answer": "1.",
+    "model_answer": "3",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3",
+      "confidence": 0.7372332215309143,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/121",
+    "question": "Q: What is the length of the shortest path from node 4 to node 3?\nA: ",
+    "expected_answer": "1.",
+    "model_answer": "2",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2",
+      "confidence": 0.8135350346565247,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/122",
+    "question": "Q: What is the length of the shortest path from node 12 to node 7?\nA: ",
+    "expected_answer": "1.",
+    "model_answer": "3",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3",
+      "confidence": 0.7679378986358643,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/123",
+    "question": "Q: What is the length of the shortest path from node 7 to node 10?\nA: ",
+    "expected_answer": "1.",
+    "model_answer": "2",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2",
+      "confidence": 0.7826042175292969,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/124",
+    "question": "Q: What is the length of the shortest path from node 0 to node 12?\nA: ",
+    "expected_answer": "2.",
+    "model_answer": "6",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "6",
+      "confidence": 0.7521150708198547,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/125",
+    "question": "Q: What is the length of the shortest path from node 7 to node 5?\nA: ",
+    "expected_answer": "3.",
+    "model_answer": "3",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3",
+      "confidence": 0.7847024202346802,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/126",
+    "question": "Q: What is the length of the shortest path from node 12 to node 1?\nA: ",
+    "expected_answer": "3.",
+    "model_answer": "3",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3",
+      "confidence": 0.7209327220916748,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/127",
+    "question": "Q: What is the length of the shortest path from node 0 to node 5?\nA: ",
+    "expected_answer": "2.",
+    "model_answer": "3",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3",
+      "confidence": 0.8073990941047668,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/128",
+    "question": "Q: What is the length of the shortest path from node 12 to node 7?\nA: ",
+    "expected_answer": "1.",
+    "model_answer": "3",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3",
+      "confidence": 0.7860325574874878,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/129",
+    "question": "Q: What is the length of the shortest path from node 1 to node 2?\nA: ",
+    "expected_answer": "1.",
+    "model_answer": "1",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": 0.874173641204834,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/130",
+    "question": "Q: What is the length of the shortest path from node 9 to node 5?\nA: ",
+    "expected_answer": "2.",
+    "model_answer": "3",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3",
+      "confidence": 0.7532820701599121,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/131",
+    "question": "Q: What is the length of the shortest path from node 5 to node 12?\nA: ",
+    "expected_answer": "1.",
+    "model_answer": "4",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "4",
+      "confidence": 0.7446820139884949,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/132",
+    "question": "Q: What is the length of the shortest path from node 4 to node 2?\nA: ",
+    "expected_answer": "There is no path from node 4 to node 2.",
+    "model_answer": "2",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2",
+      "confidence": 0.7713665962219238,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/133",
+    "question": "Q: What is the length of the shortest path from node 10 to node 14?\nA: ",
+    "expected_answer": "2.",
+    "model_answer": "1",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": 0.7148855924606323,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/134",
+    "question": "Q: What is the length of the shortest path from node 9 to node 5?\nA: ",
+    "expected_answer": "1.",
+    "model_answer": "2",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2",
+      "confidence": 0.7682344317436218,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/135",
+    "question": "Q: What is the length of the shortest path from node 9 to node 4?\nA: ",
+    "expected_answer": "1.",
+    "model_answer": "2",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2",
+      "confidence": 0.7690244913101196,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/136",
+    "question": "Q: What is the length of the shortest path from node 4 to node 1?\nA: ",
+    "expected_answer": "1.",
+    "model_answer": "2",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2",
+      "confidence": 0.8014233112335205,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/137",
+    "question": "Q: What is the length of the shortest path from node 8 to node 11?\nA: ",
+    "expected_answer": "1.",
+    "model_answer": "2",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2",
+      "confidence": 0.7837571501731873,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/138",
+    "question": "Q: What is the length of the shortest path from node 4 to node 0?\nA: ",
+    "expected_answer": "2.",
+    "model_answer": "2",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2",
+      "confidence": 0.815407931804657,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/139",
+    "question": "Q: What is the length of the shortest path from node 4 to node 5?\nA: ",
+    "expected_answer": "There is no path from node 4 to node 5.",
+    "model_answer": "2",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2",
+      "confidence": 0.7784565091133118,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/140",
+    "question": "Q: What is the length of the shortest path from node 3 to node 5?\nA: ",
+    "expected_answer": "2.",
+    "model_answer": "2",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2",
+      "confidence": 0.7845556139945984,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/141",
+    "question": "Q: What is the length of the shortest path from node 8 to node 5?\nA: ",
+    "expected_answer": "1.",
+    "model_answer": "2",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2",
+      "confidence": 0.7898586988449097,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/142",
+    "question": "Q: What is the length of the shortest path from node 5 to node 6?\nA: ",
+    "expected_answer": "2.",
+    "model_answer": "1",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": 0.785098671913147,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/143",
+    "question": "Q: What is the length of the shortest path from node 4 to node 1?\nA: ",
+    "expected_answer": "1.",
+    "model_answer": "3",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3",
+      "confidence": 0.7792052030563354,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/144",
+    "question": "Q: What is the length of the shortest path from node 7 to node 1?\nA: ",
+    "expected_answer": "1.",
+    "model_answer": "3",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3",
+      "confidence": 0.7817217111587524,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/145",
+    "question": "Q: What is the length of the shortest path from node 3 to node 4?\nA: ",
+    "expected_answer": "1.",
+    "model_answer": "1",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": 0.8706820011138916,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/146",
+    "question": "Q: What is the length of the shortest path from node 2 to node 1?\nA: ",
+    "expected_answer": "1.",
+    "model_answer": "1",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": 0.7592623829841614,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/147",
+    "question": "Q: What is the length of the shortest path from node 0 to node 6?\nA: ",
+    "expected_answer": "There is no path from node 0 to node 6.",
+    "model_answer": "2",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2",
+      "confidence": 0.7537853121757507,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/148",
+    "question": "Q: What is the length of the shortest path from node 1 to node 10?\nA: ",
+    "expected_answer": "1.",
+    "model_answer": "4",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "4",
+      "confidence": 0.743582010269165,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/149",
+    "question": "Q: What is the length of the shortest path from node 1 to node 6?\nA: ",
+    "expected_answer": "1.",
+    "model_answer": "3",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3",
+      "confidence": 0.7696774005889893,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/150",
+    "question": "Q: What is the length of the shortest path from node 4 to node 5?\nA: ",
+    "expected_answer": "2.",
+    "model_answer": "1",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": 0.7927223443984985,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/151",
+    "question": "Q: What is the length of the shortest path from node 8 to node 5?\nA: ",
+    "expected_answer": "2.",
+    "model_answer": "2",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2",
+      "confidence": 0.7644422054290771,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/152",
+    "question": "Q: What is the length of the shortest path from node 6 to node 4?\nA: ",
+    "expected_answer": "2.",
+    "model_answer": "2",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2",
+      "confidence": 0.7659553289413452,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/153",
+    "question": "Q: What is the length of the shortest path from node 14 to node 1?\nA: ",
+    "expected_answer": "2.",
+    "model_answer": "1",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": 0.5984863042831421,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/154",
+    "question": "Q: What is the length of the shortest path from node 9 to node 8?\nA: ",
+    "expected_answer": "3.",
+    "model_answer": "1",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": 0.7618530988693237,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/155",
+    "question": "Q: What is the length of the shortest path from node 11 to node 7?\nA: ",
+    "expected_answer": "2.",
+    "model_answer": "3",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3",
+      "confidence": 0.7508977651596069,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/156",
+    "question": "Q: What is the length of the shortest path from node 14 to node 9?\nA: ",
+    "expected_answer": "1.",
+    "model_answer": "2",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2",
+      "confidence": 0.7691879272460938,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/157",
+    "question": "Q: What is the length of the shortest path from node 1 to node 2?\nA: ",
+    "expected_answer": "1.",
+    "model_answer": "1",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": 0.8504082560539246,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/158",
+    "question": "Q: What is the length of the shortest path from node 16 to node 2?\nA: ",
+    "expected_answer": "2.",
+    "model_answer": "3",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3",
+      "confidence": 0.7679358720779419,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/159",
+    "question": "Q: What is the length of the shortest path from node 5 to node 0?\nA: ",
+    "expected_answer": "1.",
+    "model_answer": "2",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2",
+      "confidence": 0.7942568063735962,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/160",
+    "question": "Q: What is the length of the shortest path from node 5 to node 4?\nA: ",
+    "expected_answer": "2.",
+    "model_answer": "2",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2",
+      "confidence": 0.8026227951049805,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/161",
+    "question": "Q: What is the length of the shortest path from node 10 to node 13?\nA: ",
+    "expected_answer": "1.",
+    "model_answer": "2",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2",
+      "confidence": 0.7952292561531067,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/162",
+    "question": "Q: What is the length of the shortest path from node 9 to node 3?\nA: ",
+    "expected_answer": "2.",
+    "model_answer": "2",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2",
+      "confidence": 0.7706221342086792,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/163",
+    "question": "Q: What is the length of the shortest path from node 2 to node 7?\nA: ",
+    "expected_answer": "2.",
+    "model_answer": "2",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2",
+      "confidence": 0.7820301651954651,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/164",
+    "question": "Q: What is the length of the shortest path from node 7 to node 10?\nA: ",
+    "expected_answer": "3.",
+    "model_answer": "2",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2",
+      "confidence": 0.7469300627708435,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/165",
+    "question": "Q: What is the length of the shortest path from node 2 to node 4?\nA: ",
+    "expected_answer": "3.",
+    "model_answer": "2",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2",
+      "confidence": 0.8169968724250793,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/166",
+    "question": "Q: What is the length of the shortest path from node 4 to node 6?\nA: ",
+    "expected_answer": "2.",
+    "model_answer": "2",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2",
+      "confidence": 0.7918636202812195,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/167",
+    "question": "Q: What is the length of the shortest path from node 1 to node 7?\nA: ",
+    "expected_answer": "2.",
+    "model_answer": "3",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3",
+      "confidence": 0.8026993274688721,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/168",
+    "question": "Q: What is the length of the shortest path from node 4 to node 1?\nA: ",
+    "expected_answer": "2.",
+    "model_answer": "2",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2",
+      "confidence": 0.7969115972518921,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/169",
+    "question": "Q: What is the length of the shortest path from node 11 to node 2?\nA: ",
+    "expected_answer": "2.",
+    "model_answer": "3",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3",
+      "confidence": 0.7770941257476807,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/170",
+    "question": "Q: What is the length of the shortest path from node 16 to node 17?\nA: ",
+    "expected_answer": "4.",
+    "model_answer": "1",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": 0.7441107034683228,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/171",
+    "question": "Q: What is the length of the shortest path from node 6 to node 7?\nA: ",
+    "expected_answer": "3.",
+    "model_answer": "2",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2",
+      "confidence": 0.8094465732574463,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/172",
+    "question": "Q: What is the length of the shortest path from node 5 to node 2?\nA: ",
+    "expected_answer": "2.",
+    "model_answer": "2",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2",
+      "confidence": 0.7772341966629028,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/173",
+    "question": "Q: What is the length of the shortest path from node 11 to node 8?\nA: ",
+    "expected_answer": "3.",
+    "model_answer": "2",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2",
+      "confidence": 0.7362780570983887,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/174",
+    "question": "Q: What is the length of the shortest path from node 9 to node 8?\nA: ",
+    "expected_answer": "2.",
+    "model_answer": "1",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": 0.7728123664855957,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/175",
+    "question": "Q: What is the length of the shortest path from node 4 to node 5?\nA: ",
+    "expected_answer": "2.",
+    "model_answer": "1",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": 0.7954683303833008,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/176",
+    "question": "Q: What is the length of the shortest path from node 7 to node 0?\nA: ",
+    "expected_answer": "1.",
+    "model_answer": "2",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2",
+      "confidence": 0.7772436141967773,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/177",
+    "question": "Q: What is the length of the shortest path from node 5 to node 1?\nA: ",
+    "expected_answer": "2.",
+    "model_answer": "2",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2",
+      "confidence": 0.7528366446495056,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/178",
+    "question": "Q: What is the length of the shortest path from node 5 to node 10?\nA: ",
+    "expected_answer": "2.",
+    "model_answer": "2",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2",
+      "confidence": 0.7397873401641846,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/179",
+    "question": "Q: What is the length of the shortest path from node 6 to node 0?\nA: ",
+    "expected_answer": "2.",
+    "model_answer": "2",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2",
+      "confidence": 0.763180136680603,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/180",
+    "question": "Q: What is the length of the shortest path from node 9 to node 11?\nA: ",
+    "expected_answer": "4.",
+    "model_answer": "1",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": 0.7526025176048279,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/181",
+    "question": "Q: What is the length of the shortest path from node 1 to node 5?\nA: ",
+    "expected_answer": "2.",
+    "model_answer": "2",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2",
+      "confidence": 0.7845298051834106,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/182",
+    "question": "Q: What is the length of the shortest path from node 1 to node 4?\nA: ",
+    "expected_answer": "There is no path from node 1 to node 4.",
+    "model_answer": "2",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2",
+      "confidence": 0.8081041574478149,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/183",
+    "question": "Q: What is the length of the shortest path from node 6 to node 11?\nA: ",
+    "expected_answer": "2.",
+    "model_answer": "3",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3",
+      "confidence": 0.7558137774467468,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/184",
+    "question": "Q: What is the length of the shortest path from node 8 to node 11?\nA: ",
+    "expected_answer": "2.",
+    "model_answer": "2",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2",
+      "confidence": 0.7322883605957031,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/185",
+    "question": "Q: What is the length of the shortest path from node 6 to node 7?\nA: ",
+    "expected_answer": "3.",
+    "model_answer": "1",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": 0.8108928203582764,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/186",
+    "question": "Q: What is the length of the shortest path from node 0 to node 8?\nA: ",
+    "expected_answer": "2.",
+    "model_answer": "4",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "4",
+      "confidence": 0.7956637740135193,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/187",
+    "question": "Q: What is the length of the shortest path from node 7 to node 1?\nA: ",
+    "expected_answer": "2.",
+    "model_answer": "2",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2",
+      "confidence": 0.7717381715774536,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/188",
+    "question": "Q: What is the length of the shortest path from node 4 to node 3?\nA: ",
+    "expected_answer": "3.",
+    "model_answer": "2",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2",
+      "confidence": 0.800932765007019,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/189",
+    "question": "Q: What is the length of the shortest path from node 5 to node 1?\nA: ",
+    "expected_answer": "2.",
+    "model_answer": "2",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2",
+      "confidence": 0.7752601504325867,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/190",
+    "question": "Q: What is the length of the shortest path from node 7 to node 10?\nA: ",
+    "expected_answer": "3.",
+    "model_answer": "3",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3",
+      "confidence": 0.7529233694076538,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/191",
+    "question": "Q: What is the length of the shortest path from node 10 to node 3?\nA: ",
+    "expected_answer": "2.",
+    "model_answer": "3",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3",
+      "confidence": 0.7972621917724609,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/192",
+    "question": "Q: What is the length of the shortest path from node 5 to node 0?\nA: ",
+    "expected_answer": "2.",
+    "model_answer": "2",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2",
+      "confidence": 0.7912606596946716,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/193",
+    "question": "Q: What is the length of the shortest path from node 5 to node 9?\nA: ",
+    "expected_answer": "2.",
+    "model_answer": "2",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2",
+      "confidence": 0.7561492919921875,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/194",
+    "question": "Q: What is the length of the shortest path from node 3 to node 1?\nA: ",
+    "expected_answer": "2.",
+    "model_answer": "2",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2",
+      "confidence": 0.8055626153945923,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/195",
+    "question": "Q: What is the length of the shortest path from node 1 to node 10?\nA: ",
+    "expected_answer": "1.",
+    "model_answer": "3",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3",
+      "confidence": 0.7448850870132446,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/196",
+    "question": "Q: What is the length of the shortest path from node 0 to node 1?\nA: ",
+    "expected_answer": "1.",
+    "model_answer": "1",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": 0.940955400466919,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/197",
+    "question": "Q: What is the length of the shortest path from node 6 to node 13?\nA: ",
+    "expected_answer": "3.",
+    "model_answer": "2",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2",
+      "confidence": 0.7291687726974487,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/198",
+    "question": "Q: What is the length of the shortest path from node 4 to node 16?\nA: ",
+    "expected_answer": "4.",
+    "model_answer": "4",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "4",
+      "confidence": 0.7196931838989258,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/199",
+    "question": "Q: What is the length of the shortest path from node 8 to node 1?\nA: ",
+    "expected_answer": "1.",
+    "model_answer": "3",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3",
+      "confidence": 0.7265828847885132,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/200",
+    "question": "Q: What is the length of the shortest path from node 14 to node 5?\nA: ",
+    "expected_answer": "1.",
+    "model_answer": "3",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3",
+      "confidence": 0.7623347043991089,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/201",
+    "question": "Q: What is the length of the shortest path from node 9 to node 5?\nA: ",
+    "expected_answer": "1.",
+    "model_answer": "2",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2",
+      "confidence": 0.7645766139030457,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/202",
+    "question": "Q: What is the length of the shortest path from node 4 to node 3?\nA: ",
+    "expected_answer": "1.",
+    "model_answer": "1",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": 0.7889201641082764,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/203",
+    "question": "Q: What is the length of the shortest path from node 6 to node 12?\nA: ",
+    "expected_answer": "1.",
+    "model_answer": "1",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": 0.6363663673400879,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/204",
+    "question": "Q: What is the length of the shortest path from node 11 to node 7?\nA: ",
+    "expected_answer": "1.",
+    "model_answer": "1",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": 0.6236501932144165,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/205",
+    "question": "Q: What is the length of the shortest path from node 4 to node 0?\nA: ",
+    "expected_answer": "1.",
+    "model_answer": "0",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": 0.8412413597106934,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/206",
+    "question": "Q: What is the length of the shortest path from node 14 to node 5?\nA: ",
+    "expected_answer": "1.",
+    "model_answer": "1",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": 0.5855355858802795,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/207",
+    "question": "Q: What is the length of the shortest path from node 4 to node 2?\nA: ",
+    "expected_answer": "1.",
+    "model_answer": "2",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2",
+      "confidence": 0.7890890836715698,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/208",
+    "question": "Q: What is the length of the shortest path from node 3 to node 1?\nA: ",
+    "expected_answer": "1.",
+    "model_answer": "1",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": 0.744422197341919,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/209",
+    "question": "Q: What is the length of the shortest path from node 1 to node 4?\nA: ",
+    "expected_answer": "1.",
+    "model_answer": "2",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2",
+      "confidence": 0.8073185682296753,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/210",
+    "question": "Q: What is the length of the shortest path from node 4 to node 6?\nA: ",
+    "expected_answer": "1.",
+    "model_answer": "2",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2",
+      "confidence": 0.796903133392334,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/211",
+    "question": "Q: What is the length of the shortest path from node 11 to node 8?\nA: ",
+    "expected_answer": "1.",
+    "model_answer": "1",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": 0.6085444688796997,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/212",
+    "question": "Q: What is the length of the shortest path from node 2 to node 5?\nA: ",
+    "expected_answer": "1.",
+    "model_answer": "3",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3",
+      "confidence": 0.7927176356315613,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/213",
+    "question": "Q: What is the length of the shortest path from node 4 to node 5?\nA: ",
+    "expected_answer": "1.",
+    "model_answer": "1",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": 0.8922223448753357,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/214",
+    "question": "Q: What is the length of the shortest path from node 13 to node 4?\nA: ",
+    "expected_answer": "1.",
+    "model_answer": "1",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": 0.5896398425102234,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/215",
+    "question": "Q: What is the length of the shortest path from node 2 to node 3?\nA: ",
+    "expected_answer": "1.",
+    "model_answer": "1",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": 0.8657280206680298,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/216",
+    "question": "Q: What is the length of the shortest path from node 1 to node 0?\nA: ",
+    "expected_answer": "1.",
+    "model_answer": "1",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": 0.7139740586280823,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/217",
+    "question": "Q: What is the length of the shortest path from node 6 to node 1?\nA: ",
+    "expected_answer": "1.",
+    "model_answer": "2",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2",
+      "confidence": 0.7624192833900452,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/218",
+    "question": "Q: What is the length of the shortest path from node 1 to node 3?\nA: ",
+    "expected_answer": "1.",
+    "model_answer": "2",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2",
+      "confidence": 0.8072941303253174,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/219",
+    "question": "Q: What is the length of the shortest path from node 4 to node 11?\nA: ",
+    "expected_answer": "1.",
+    "model_answer": "4",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "4",
+      "confidence": 0.7283487319946289,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/220",
+    "question": "Q: What is the length of the shortest path from node 5 to node 11?\nA: ",
+    "expected_answer": "1.",
+    "model_answer": "1",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": 0.5759098529815674,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/221",
+    "question": "Q: What is the length of the shortest path from node 6 to node 4?\nA: ",
+    "expected_answer": "1.",
+    "model_answer": "2",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2",
+      "confidence": 0.7675741910934448,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/222",
+    "question": "Q: What is the length of the shortest path from node 7 to node 9?\nA: ",
+    "expected_answer": "1.",
+    "model_answer": "2",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2",
+      "confidence": 0.7758053541183472,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/223",
+    "question": "Q: What is the length of the shortest path from node 7 to node 8?\nA: ",
+    "expected_answer": "1.",
+    "model_answer": "1",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": 0.8541594743728638,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/224",
+    "question": "Q: What is the length of the shortest path from node 7 to node 11?\nA: ",
+    "expected_answer": "1.",
+    "model_answer": "2",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2",
+      "confidence": 0.7371220588684082,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/225",
+    "question": "Q: What is the length of the shortest path from node 5 to node 2?\nA: ",
+    "expected_answer": "1.",
+    "model_answer": "2",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2",
+      "confidence": 0.780497133731842,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/226",
+    "question": "Q: What is the length of the shortest path from node 9 to node 1?\nA: ",
+    "expected_answer": "1.",
+    "model_answer": "1",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": 0.5882090330123901,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/227",
+    "question": "Q: What is the length of the shortest path from node 8 to node 6?\nA: ",
+    "expected_answer": "1.",
+    "model_answer": "2",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2",
+      "confidence": 0.7684348821640015,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/228",
+    "question": "Q: What is the length of the shortest path from node 9 to node 2?\nA: ",
+    "expected_answer": "1.",
+    "model_answer": "1",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": 0.6836397647857666,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/229",
+    "question": "Q: What is the length of the shortest path from node 1 to node 7?\nA: ",
+    "expected_answer": "1.",
+    "model_answer": "1",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": 0.7341263294219971,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/230",
+    "question": "Q: What is the length of the shortest path from node 7 to node 1?\nA: ",
+    "expected_answer": "1.",
+    "model_answer": "1",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": 0.6800181269645691,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/231",
+    "question": "Q: What is the length of the shortest path from node 8 to node 9?\nA: ",
+    "expected_answer": "1.",
+    "model_answer": "1",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": 0.8215956687927246,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/232",
+    "question": "Q: What is the length of the shortest path from node 1 to node 2?\nA: ",
+    "expected_answer": "1.",
+    "model_answer": "1",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": 0.8929210901260376,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/233",
+    "question": "Q: What is the length of the shortest path from node 7 to node 2?\nA: ",
+    "expected_answer": "1.",
+    "model_answer": "1",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": 0.6694197654724121,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/234",
+    "question": "Q: What is the length of the shortest path from node 5 to node 6?\nA: ",
+    "expected_answer": "1.",
+    "model_answer": "1",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": 0.8668416142463684,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/235",
+    "question": "Q: What is the length of the shortest path from node 4 to node 8?\nA: ",
+    "expected_answer": "1.",
+    "model_answer": "3",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3",
+      "confidence": 0.7699469327926636,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/236",
+    "question": "Q: What is the length of the shortest path from node 5 to node 6?\nA: ",
+    "expected_answer": "1.",
+    "model_answer": "1",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": 0.8485451340675354,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/237",
+    "question": "Q: What is the length of the shortest path from node 8 to node 3?\nA: ",
+    "expected_answer": "1.",
+    "model_answer": "2",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2",
+      "confidence": 0.7803963422775269,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/238",
+    "question": "Q: What is the length of the shortest path from node 7 to node 5?\nA: ",
+    "expected_answer": "1.",
+    "model_answer": "2",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2",
+      "confidence": 0.7621558308601379,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/239",
+    "question": "Q: What is the length of the shortest path from node 7 to node 2?\nA: ",
+    "expected_answer": "1.",
+    "model_answer": "3",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3",
+      "confidence": 0.7696759700775146,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/240",
+    "question": "Q: What is the length of the shortest path from node 7 to node 8?\nA: ",
+    "expected_answer": "1.",
+    "model_answer": "1",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": 0.8597946166992188,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/241",
+    "question": "Q: What is the length of the shortest path from node 1 to node 8?\nA: ",
+    "expected_answer": "1.",
+    "model_answer": "3",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3",
+      "confidence": 0.7384020090103149,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/242",
+    "question": "Q: What is the length of the shortest path from node 6 to node 3?\nA: ",
+    "expected_answer": "1.",
+    "model_answer": "2",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2",
+      "confidence": 0.7685800194740295,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/243",
+    "question": "Q: What is the length of the shortest path from node 1 to node 9?\nA: ",
+    "expected_answer": "1.",
+    "model_answer": "9",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "9",
+      "confidence": 0.793559193611145,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/244",
+    "question": "Q: What is the length of the shortest path from node 1 to node 5?\nA: ",
+    "expected_answer": "1.",
+    "model_answer": "3",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3",
+      "confidence": 0.7994823455810547,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/245",
+    "question": "Q: What is the length of the shortest path from node 9 to node 5?\nA: ",
+    "expected_answer": "1.",
+    "model_answer": "2",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2",
+      "confidence": 0.7650609612464905,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/246",
+    "question": "Q: What is the length of the shortest path from node 1 to node 3?\nA: ",
+    "expected_answer": "1.",
+    "model_answer": "2",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2",
+      "confidence": 0.8072941303253174,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/247",
+    "question": "Q: What is the length of the shortest path from node 8 to node 11?\nA: ",
+    "expected_answer": "1.",
+    "model_answer": "1",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": 0.6944988965988159,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/248",
+    "question": "Q: What is the length of the shortest path from node 6 to node 8?\nA: ",
+    "expected_answer": "1.",
+    "model_answer": "1",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": 0.7655982971191406,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/249",
+    "question": "Q: What is the length of the shortest path from node 0 to node 5?\nA: ",
+    "expected_answer": "1.",
+    "model_answer": "1",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": 0.7498372793197632,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/250",
+    "question": "Q: What is the length of the shortest path from node 10 to node 9?\nA: ",
+    "expected_answer": "2.",
+    "model_answer": "1",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": 0.7375783920288086,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/251",
+    "question": "Q: What is the length of the shortest path from node 1 to node 0?\nA: ",
+    "expected_answer": "1.",
+    "model_answer": "0",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": 0.8108413219451904,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/252",
+    "question": "Q: What is the length of the shortest path from node 0 to node 6?\nA: ",
+    "expected_answer": "1.",
+    "model_answer": "1",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": 0.773064136505127,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/253",
+    "question": "Q: What is the length of the shortest path from node 10 to node 4?\nA: ",
+    "expected_answer": "2.",
+    "model_answer": "1",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": 0.6725255250930786,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/254",
+    "question": "Q: What is the length of the shortest path from node 13 to node 10?\nA: ",
+    "expected_answer": "2.",
+    "model_answer": "1",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": 0.6550794839859009,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/255",
+    "question": "Q: What is the length of the shortest path from node 5 to node 4?\nA: ",
+    "expected_answer": "2.",
+    "model_answer": "1",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": 0.79557204246521,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/256",
+    "question": "Q: What is the length of the shortest path from node 9 to node 6?\nA: ",
+    "expected_answer": "2.",
+    "model_answer": "1",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": 0.6873761415481567,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/257",
+    "question": "Q: What is the length of the shortest path from node 5 to node 4?\nA: ",
+    "expected_answer": "2.",
+    "model_answer": "1",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": 0.7846900224685669,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/258",
+    "question": "Q: What is the length of the shortest path from node 5 to node 12?\nA: ",
+    "expected_answer": "2.",
+    "model_answer": "7",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "7",
+      "confidence": 0.7225302457809448,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/259",
+    "question": "Q: What is the length of the shortest path from node 3 to node 0?\nA: ",
+    "expected_answer": "1.",
+    "model_answer": "2",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2",
+      "confidence": 0.7984026074409485,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/260",
+    "question": "Q: What is the length of the shortest path from node 2 to node 4?\nA: ",
+    "expected_answer": "2.",
+    "model_answer": "2",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2",
+      "confidence": 0.7906600832939148,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/261",
+    "question": "Q: What is the length of the shortest path from node 9 to node 14?\nA: ",
+    "expected_answer": "2.",
+    "model_answer": "1",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": 0.6355568170547485,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/262",
+    "question": "Q: What is the length of the shortest path from node 11 to node 5?\nA: ",
+    "expected_answer": "2.",
+    "model_answer": "1",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": 0.6440510749816895,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/263",
+    "question": "Q: What is the length of the shortest path from node 9 to node 3?\nA: ",
+    "expected_answer": "2.",
+    "model_answer": "3",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3",
+      "confidence": 0.7141958475112915,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/264",
+    "question": "Q: What is the length of the shortest path from node 2 to node 3?\nA: ",
+    "expected_answer": "2.",
+    "model_answer": "1",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": 0.8841705322265625,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/265",
+    "question": "Q: What is the length of the shortest path from node 7 to node 4?\nA: ",
+    "expected_answer": "2.",
+    "model_answer": "2",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2",
+      "confidence": 0.7525922060012817,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/266",
+    "question": "Q: What is the length of the shortest path from node 3 to node 6?\nA: ",
+    "expected_answer": "2.",
+    "model_answer": "2",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2",
+      "confidence": 0.7919063568115234,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/267",
+    "question": "Q: What is the length of the shortest path from node 5 to node 4?\nA: ",
+    "expected_answer": "2.",
+    "model_answer": "1",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": 0.8100016713142395,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/268",
+    "question": "Q: What is the length of the shortest path from node 2 to node 3?\nA: ",
+    "expected_answer": "2.",
+    "model_answer": "1",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": 0.8806123733520508,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/269",
+    "question": "Q: What is the length of the shortest path from node 6 to node 4?\nA: ",
+    "expected_answer": "2.",
+    "model_answer": "1",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": 0.7476862668991089,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/270",
+    "question": "Q: What is the length of the shortest path from node 15 to node 10?\nA: ",
+    "expected_answer": "2.",
+    "model_answer": "1",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": 0.6067252159118652,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/271",
+    "question": "Q: What is the length of the shortest path from node 3 to node 6?\nA: ",
+    "expected_answer": "2.",
+    "model_answer": "2",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2",
+      "confidence": 0.7811182737350464,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/272",
+    "question": "Q: What is the length of the shortest path from node 4 to node 2?\nA: ",
+    "expected_answer": "2.",
+    "model_answer": "1",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": 0.7761150002479553,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/273",
+    "question": "Q: What is the length of the shortest path from node 2 to node 6?\nA: ",
+    "expected_answer": "2.",
+    "model_answer": "2",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2",
+      "confidence": 0.7372030019760132,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/274",
+    "question": "Q: What is the length of the shortest path from node 2 to node 0?\nA: ",
+    "expected_answer": "1.",
+    "model_answer": "0",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": 0.767351508140564,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/275",
+    "question": "Q: What is the length of the shortest path from node 1 to node 4?\nA: ",
+    "expected_answer": "2.",
+    "model_answer": "2",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2",
+      "confidence": 0.8100458383560181,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/276",
+    "question": "Q: What is the length of the shortest path from node 8 to node 5?\nA: ",
+    "expected_answer": "2.",
+    "model_answer": "2",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2",
+      "confidence": 0.7143011093139648,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/277",
+    "question": "Q: What is the length of the shortest path from node 8 to node 3?\nA: ",
+    "expected_answer": "2.",
+    "model_answer": "2",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2",
+      "confidence": 0.7310934066772461,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/278",
+    "question": "Q: What is the length of the shortest path from node 6 to node 7?\nA: ",
+    "expected_answer": "2.",
+    "model_answer": "1",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": 0.8519960641860962,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/279",
+    "question": "Q: What is the length of the shortest path from node 0 to node 8?\nA: ",
+    "expected_answer": "1.",
+    "model_answer": "1",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": 0.7145208120346069,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/280",
+    "question": "Q: What is the length of the shortest path from node 6 to node 1?\nA: ",
+    "expected_answer": "2.",
+    "model_answer": "1",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": 0.7282058000564575,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/281",
+    "question": "Q: What is the length of the shortest path from node 1 to node 9?\nA: ",
+    "expected_answer": "2.",
+    "model_answer": "9",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "9",
+      "confidence": 0.7377550601959229,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/282",
+    "question": "Q: What is the length of the shortest path from node 1 to node 3?\nA: ",
+    "expected_answer": "2.",
+    "model_answer": "1",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": 0.8185052871704102,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/283",
+    "question": "Q: What is the length of the shortest path from node 15 to node 12?\nA: ",
+    "expected_answer": "2.",
+    "model_answer": "1",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": 0.6514486074447632,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/284",
+    "question": "Q: What is the length of the shortest path from node 12 to node 3?\nA: ",
+    "expected_answer": "2.",
+    "model_answer": "1",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": 0.639860987663269,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/285",
+    "question": "Q: What is the length of the shortest path from node 4 to node 8?\nA: ",
+    "expected_answer": "2.",
+    "model_answer": "3",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3",
+      "confidence": 0.7141596078872681,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/286",
+    "question": "Q: What is the length of the shortest path from node 5 to node 7?\nA: ",
+    "expected_answer": "2.",
+    "model_answer": "2",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2",
+      "confidence": 0.7609838843345642,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/287",
+    "question": "Q: What is the length of the shortest path from node 1 to node 4?\nA: ",
+    "expected_answer": "2.",
+    "model_answer": "2",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2",
+      "confidence": 0.780105710029602,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/288",
+    "question": "Q: What is the length of the shortest path from node 0 to node 6?\nA: ",
+    "expected_answer": "1.",
+    "model_answer": "1",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": 0.773064136505127,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/289",
+    "question": "Q: What is the length of the shortest path from node 2 to node 1?\nA: ",
+    "expected_answer": "2.",
+    "model_answer": "1",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": 0.8623325228691101,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/290",
+    "question": "Q: What is the length of the shortest path from node 2 to node 6?\nA: ",
+    "expected_answer": "2.",
+    "model_answer": "2",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2",
+      "confidence": 0.7516130208969116,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/291",
+    "question": "Q: What is the length of the shortest path from node 6 to node 2?\nA: ",
+    "expected_answer": "2.",
+    "model_answer": "1",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": 0.7703428268432617,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/292",
+    "question": "Q: What is the length of the shortest path from node 4 to node 1?\nA: ",
+    "expected_answer": "2.",
+    "model_answer": "1",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": 0.760761022567749,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/293",
+    "question": "Q: What is the length of the shortest path from node 4 to node 1?\nA: ",
+    "expected_answer": "2.",
+    "model_answer": "1",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": 0.749966025352478,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/294",
+    "question": "Q: What is the length of the shortest path from node 3 to node 4?\nA: ",
+    "expected_answer": "2.",
+    "model_answer": "1",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": 0.8220840692520142,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/295",
+    "question": "Q: What is the length of the shortest path from node 12 to node 5?\nA: ",
+    "expected_answer": "2.",
+    "model_answer": "1",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": 0.607886552810669,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/296",
+    "question": "Q: What is the length of the shortest path from node 4 to node 1?\nA: ",
+    "expected_answer": "2.",
+    "model_answer": "1",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": 0.760761022567749,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/297",
+    "question": "Q: What is the length of the shortest path from node 8 to node 13?\nA: ",
+    "expected_answer": "2.",
+    "model_answer": "1",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": 0.6105502843856812,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/298",
+    "question": "Q: What is the length of the shortest path from node 13 to node 15?\nA: ",
+    "expected_answer": "2.",
+    "model_answer": "1",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": 0.7177441120147705,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/299",
+    "question": "Q: What is the length of the shortest path from node 8 to node 10?\nA: ",
+    "expected_answer": "2.",
+    "model_answer": "1",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": 0.7657793164253235,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/300",
+    "question": "Q: What is the length of the shortest path from node 5 to node 1?\nA: ",
+    "expected_answer": "4.",
+    "model_answer": "4",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "4",
+      "confidence": 0.7451313734054565,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/301",
+    "question": "Q: What is the length of the shortest path from node 7 to node 3?\nA: ",
+    "expected_answer": "4.",
+    "model_answer": "3",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3",
+      "confidence": 0.816609799861908,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/302",
+    "question": "Q: What is the length of the shortest path from node 7 to node 1?\nA: ",
+    "expected_answer": "6.",
+    "model_answer": "3",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3",
+      "confidence": 0.7970978021621704,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/303",
+    "question": "Q: What is the length of the shortest path from node 12 to node 1?\nA: ",
+    "expected_answer": "11.",
+    "model_answer": "4",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "4",
+      "confidence": 0.7489349842071533,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/304",
+    "question": "Q: What is the length of the shortest path from node 8 to node 4?\nA: ",
+    "expected_answer": "4.",
+    "model_answer": "3",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3",
+      "confidence": 0.813849925994873,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/305",
+    "question": "Q: What is the length of the shortest path from node 10 to node 8?\nA: ",
+    "expected_answer": "2.",
+    "model_answer": "2",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2",
+      "confidence": 0.8108413219451904,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/306",
+    "question": "Q: What is the length of the shortest path from node 4 to node 2?\nA: ",
+    "expected_answer": "2.",
+    "model_answer": "2",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2",
+      "confidence": 0.8249403238296509,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/307",
+    "question": "Q: What is the length of the shortest path from node 3 to node 1?\nA: ",
+    "expected_answer": "2.",
+    "model_answer": "2",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2",
+      "confidence": 0.8469011187553406,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/308",
+    "question": "Q: What is the length of the shortest path from node 6 to node 4?\nA: ",
+    "expected_answer": "2.",
+    "model_answer": "3",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3",
+      "confidence": 0.8503731489181519,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/309",
+    "question": "Q: What is the length of the shortest path from node 1 to node 2?\nA: ",
+    "expected_answer": "1.",
+    "model_answer": "1",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": 0.9180349111557007,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/310",
+    "question": "Q: What is the length of the shortest path from node 5 to node 6?\nA: ",
+    "expected_answer": "1.",
+    "model_answer": "2",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2",
+      "confidence": 0.835407555103302,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/311",
+    "question": "Q: What is the length of the shortest path from node 13 to node 10?\nA: ",
+    "expected_answer": "3.",
+    "model_answer": "3",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3",
+      "confidence": 0.7804086208343506,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/312",
+    "question": "Q: What is the length of the shortest path from node 0 to node 8?\nA: ",
+    "expected_answer": "8.",
+    "model_answer": "4",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "4",
+      "confidence": 0.8128585815429688,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/313",
+    "question": "Q: What is the length of the shortest path from node 5 to node 3?\nA: ",
+    "expected_answer": "2.",
+    "model_answer": "2",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2",
+      "confidence": 0.8310877084732056,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/314",
+    "question": "Q: What is the length of the shortest path from node 10 to node 3?\nA: ",
+    "expected_answer": "7.",
+    "model_answer": "3",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3",
+      "confidence": 0.7923405170440674,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/315",
+    "question": "Q: What is the length of the shortest path from node 0 to node 7?\nA: ",
+    "expected_answer": "7.",
+    "model_answer": "4",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "4",
+      "confidence": 0.8169915080070496,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/316",
+    "question": "Q: What is the length of the shortest path from node 2 to node 3?\nA: ",
+    "expected_answer": "1.",
+    "model_answer": "1",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": 0.8502340316772461,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/317",
+    "question": "Q: What is the length of the shortest path from node 3 to node 5?\nA: ",
+    "expected_answer": "2.",
+    "model_answer": "2",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2",
+      "confidence": 0.847264289855957,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/318",
+    "question": "Q: What is the length of the shortest path from node 6 to node 0?\nA: ",
+    "expected_answer": "6.",
+    "model_answer": "3",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3",
+      "confidence": 0.8137894868850708,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/319",
+    "question": "Q: What is the length of the shortest path from node 6 to node 13?\nA: ",
+    "expected_answer": "7.",
+    "model_answer": "6",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "6",
+      "confidence": 0.7679866552352905,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/320",
+    "question": "Q: What is the length of the shortest path from node 15 to node 13?\nA: ",
+    "expected_answer": "2.",
+    "model_answer": "2",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2",
+      "confidence": 0.8163992166519165,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/321",
+    "question": "Q: What is the length of the shortest path from node 5 to node 7?\nA: ",
+    "expected_answer": "2.",
+    "model_answer": "2",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2",
+      "confidence": 0.8549627065658569,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/322",
+    "question": "Q: What is the length of the shortest path from node 9 to node 8?\nA: ",
+    "expected_answer": "1.",
+    "model_answer": "1",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": 0.8451704382896423,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/323",
+    "question": "Q: What is the length of the shortest path from node 3 to node 9?\nA: ",
+    "expected_answer": "6.",
+    "model_answer": "3",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3",
+      "confidence": 0.8082845211029053,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/324",
+    "question": "Q: What is the length of the shortest path from node 12 to node 9?\nA: ",
+    "expected_answer": "3.",
+    "model_answer": "3",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3",
+      "confidence": 0.7644315958023071,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/325",
+    "question": "Q: What is the length of the shortest path from node 5 to node 4?\nA: ",
+    "expected_answer": "1.",
+    "model_answer": "2",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2",
+      "confidence": 0.8536144495010376,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/326",
+    "question": "Q: What is the length of the shortest path from node 7 to node 4?\nA: ",
+    "expected_answer": "3.",
+    "model_answer": "3",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3",
+      "confidence": 0.8115575313568115,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/327",
+    "question": "Q: What is the length of the shortest path from node 7 to node 0?\nA: ",
+    "expected_answer": "7.",
+    "model_answer": "3",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3",
+      "confidence": 0.8067457675933838,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/328",
+    "question": "Q: What is the length of the shortest path from node 0 to node 4?\nA: ",
+    "expected_answer": "4.",
+    "model_answer": "3",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3",
+      "confidence": 0.8409774303436279,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/329",
+    "question": "Q: What is the length of the shortest path from node 11 to node 9?\nA: ",
+    "expected_answer": "2.",
+    "model_answer": "3",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3",
+      "confidence": 0.7700306177139282,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/330",
+    "question": "Q: What is the length of the shortest path from node 1 to node 7?\nA: ",
+    "expected_answer": "6.",
+    "model_answer": "3",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3",
+      "confidence": 0.8153173923492432,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/331",
+    "question": "Q: What is the length of the shortest path from node 9 to node 3?\nA: ",
+    "expected_answer": "6.",
+    "model_answer": "4",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "4",
+      "confidence": 0.7568389773368835,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/332",
+    "question": "Q: What is the length of the shortest path from node 3 to node 5?\nA: ",
+    "expected_answer": "2.",
+    "model_answer": "2",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2",
+      "confidence": 0.8631298542022705,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/333",
+    "question": "Q: What is the length of the shortest path from node 6 to node 1?\nA: ",
+    "expected_answer": "5.",
+    "model_answer": "4",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "4",
+      "confidence": 0.7554440498352051,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/334",
+    "question": "Q: What is the length of the shortest path from node 6 to node 12?\nA: ",
+    "expected_answer": "6.",
+    "model_answer": "4",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "4",
+      "confidence": 0.775437593460083,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/335",
+    "question": "Q: What is the length of the shortest path from node 1 to node 6?\nA: ",
+    "expected_answer": "5.",
+    "model_answer": "3",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3",
+      "confidence": 0.8248084783554077,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/336",
+    "question": "Q: What is the length of the shortest path from node 2 to node 8?\nA: ",
+    "expected_answer": "6.",
+    "model_answer": "4",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "4",
+      "confidence": 0.8276962637901306,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/337",
+    "question": "Q: What is the length of the shortest path from node 9 to node 1?\nA: ",
+    "expected_answer": "8.",
+    "model_answer": "3",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3",
+      "confidence": 0.7574291825294495,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/338",
+    "question": "Q: What is the length of the shortest path from node 5 to node 6?\nA: ",
+    "expected_answer": "1.",
+    "model_answer": "1",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": 0.8434048295021057,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/339",
+    "question": "Q: What is the length of the shortest path from node 2 to node 5?\nA: ",
+    "expected_answer": "3.",
+    "model_answer": "3",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3",
+      "confidence": 0.8708655834197998,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/340",
+    "question": "Q: What is the length of the shortest path from node 3 to node 1?\nA: ",
+    "expected_answer": "2.",
+    "model_answer": "2",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2",
+      "confidence": 0.8147950768470764,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/341",
+    "question": "Q: What is the length of the shortest path from node 8 to node 6?\nA: ",
+    "expected_answer": "2.",
+    "model_answer": "2",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2",
+      "confidence": 0.8110798597335815,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/342",
+    "question": "Q: What is the length of the shortest path from node 0 to node 1?\nA: ",
+    "expected_answer": "1.",
+    "model_answer": "1",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": 0.9385131001472473,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/343",
+    "question": "Q: What is the length of the shortest path from node 4 to node 8?\nA: ",
+    "expected_answer": "4.",
+    "model_answer": "3",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3",
+      "confidence": 0.7904598116874695,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/344",
+    "question": "Q: What is the length of the shortest path from node 0 to node 2?\nA: ",
+    "expected_answer": "2.",
+    "model_answer": "2",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2",
+      "confidence": 0.8671939373016357,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/345",
+    "question": "Q: What is the length of the shortest path from node 8 to node 0?\nA: ",
+    "expected_answer": "8.",
+    "model_answer": "4",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "4",
+      "confidence": 0.7745152711868286,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/346",
+    "question": "Q: What is the length of the shortest path from node 6 to node 2?\nA: ",
+    "expected_answer": "4.",
+    "model_answer": "3",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3",
+      "confidence": 0.7896504402160645,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/347",
+    "question": "Q: What is the length of the shortest path from node 0 to node 14?\nA: ",
+    "expected_answer": "14.",
+    "model_answer": "7",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "7",
+      "confidence": 0.7988146543502808,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/348",
+    "question": "Q: What is the length of the shortest path from node 1 to node 13?\nA: ",
+    "expected_answer": "12.",
+    "model_answer": "6",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "6",
+      "confidence": 0.7713472247123718,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/349",
+    "question": "Q: What is the length of the shortest path from node 15 to node 0?\nA: ",
+    "expected_answer": "15.",
+    "model_answer": "6",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "6",
+      "confidence": 0.7789188623428345,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  }
+]

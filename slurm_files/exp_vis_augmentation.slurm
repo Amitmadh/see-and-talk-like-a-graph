@@ -1,9 +1,10 @@
 #!/bin/bash
 
+#SBATCH -A gpu-research
 #SBATCH --job-name=visual_augmentation_experiment01
 #SBATCH --output=/home/yandex/MLWG2026/%u/slurm_logs/%x_%j.out
 #SBATCH --error=/home/yandex/MLWG2026/%u/slurm_logs/%x_%j.err
-#SBATCH --partition=studentkillable
+#SBATCH --partition=killable
 #SBATCH --time=24:00:00
 #SBATCH --signal=USR1@120
 #SBATCH --nodes=1
