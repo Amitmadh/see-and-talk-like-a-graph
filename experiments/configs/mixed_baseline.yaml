@@ -9,8 +9,6 @@ tasks:
   # - node_degree
   # - node_count
   # - edge_existence
-  - disconnected_components
-  - edge_count
   - triangle_counting
 
 model: qwen-3b
