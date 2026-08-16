@@ -1,0 +1,6302 @@
+[
+  {
+    "sample_id": "disconnected_nodes/adjacency/test/0",
+    "question": "Q: List all the nodes that are not connected to 14 in alphabetical order.\nA: ",
+    "expected_answer": "0, 1, 10, 11, 12, 13, 15, 16, 3, 4, 6, 7, 8, 9.",
+    "model_answer": "0, 6, 7, 11",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0, 6, 7, 11",
+      "confidence": 0.25531914830207825,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "disconnected_nodes/adjacency/test/1",
+    "question": "Q: List all the nodes that are not connected to 1 in alphabetical order.\nA: ",
+    "expected_answer": "0, 10, 11, 12, 2, 4, 5, 8, 9.",
+    "model_answer": "2, 4, 7",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2, 4, 7",
+      "confidence": 0.1702127605676651,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "disconnected_nodes/adjacency/test/2",
+    "question": "Q: List all the nodes that are not connected to 0 in alphabetical order.\nA: ",
+    "expected_answer": "1, 2, 3, 4.",
+    "model_answer": "1, 3, 4",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1, 3, 4",
+      "confidence": 0.1702127605676651,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "disconnected_nodes/adjacency/test/3",
+    "question": "Q: List all the nodes that are not connected to 2 in alphabetical order.\nA: ",
+    "expected_answer": "0, 1, 10, 11, 12, 13, 14, 15, 4, 5, 6, 7, 8, 9.",
+    "model_answer": "10, 11, 12, 13, 14, 15",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "10, 11, 12, 13, 14, 15",
+      "confidence": 0.4893616735935211,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "disconnected_nodes/adjacency/test/4",
+    "question": "Q: List all the nodes that are not connected to 1 in alphabetical order.\nA: ",
+    "expected_answer": "0, 10, 11, 12, 13, 14, 3, 4, 5, 7, 8.",
+    "model_answer": "0, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15",
+      "confidence": 0.9893616437911987,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "disconnected_nodes/adjacency/test/5",
+    "question": "Q: List all the nodes that are not connected to 10 in alphabetical order.\nA: ",
+    "expected_answer": "0, 11, 6.",
+    "model_answer": "3, 4, 5, 6, 7, 8, 9, 11",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3, 4, 5, 6, 7, 8, 9, 11",
+      "confidence": 0.4999999701976776,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "disconnected_nodes/adjacency/test/6",
+    "question": "Q: List all the nodes that are not connected to 2 in alphabetical order.\nA: ",
+    "expected_answer": "0, 1, 10, 11, 12, 13, 15, 16, 17, 4, 5, 6, 7, 8, 9.",
+    "model_answer": "10",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "10",
+      "confidence": 0.06382978707551956,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "disconnected_nodes/adjacency/test/7",
+    "question": "Q: List all the nodes that are not connected to 1 in alphabetical order.\nA: ",
+    "expected_answer": "7.",
+    "model_answer": "2, 3, 4, 5, 6, 7",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2, 3, 4, 5, 6, 7",
+      "confidence": 0.3617021143436432,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "disconnected_nodes/adjacency/test/8",
+    "question": "Q: List all the nodes that are not connected to 11 in alphabetical order.\nA: ",
+    "expected_answer": "0, 10, 13, 14, 15, 16, 2, 3, 4, 5, 6, 7, 9.",
+    "model_answer": "0, 2, 6, 8, 9, 13",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0, 2, 6, 8, 9, 13",
+      "confidence": 0.529411792755127,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "disconnected_nodes/adjacency/test/9",
+    "question": "Q: List all the nodes that are not connected to 3 in alphabetical order.\nA: ",
+    "expected_answer": "0, 2, 4, 6, 7.",
+    "model_answer": "2, 4",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2, 4",
+      "confidence": 0.14705882966518402,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "disconnected_nodes/adjacency/test/10",
+    "question": "Q: List all the nodes that are not connected to 0 in alphabetical order.\nA: ",
+    "expected_answer": "4.",
+    "model_answer": "3, 4, 5, 6, 7, 8",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3, 4, 5, 6, 7, 8",
+      "confidence": 0.5,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "disconnected_nodes/adjacency/test/11",
+    "question": "Q: List all the nodes that are not connected to 0 in alphabetical order.\nA: ",
+    "expected_answer": "11, 16, 5, 7, 8.",
+    "model_answer": "14",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "14",
+      "confidence": 0.0882352963089943,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "disconnected_nodes/adjacency/test/12",
+    "question": "Q: List all the nodes that are not connected to 12 in alphabetical order.\nA: ",
+    "expected_answer": "10, 8.",
+    "model_answer": "0, 3, 5, 6, 7, 8, 9, 10, 11, 13",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0, 3, 5, 6, 7, 8, 9, 10, 11, 13",
+      "confidence": 0.9411764740943909,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "disconnected_nodes/adjacency/test/13",
+    "question": "Q: List all the nodes that are not connected to 0 in alphabetical order.\nA: ",
+    "expected_answer": "5, 9.",
+    "model_answer": "1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11",
+      "confidence": 1.0,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "disconnected_nodes/adjacency/test/14",
+    "question": "Q: List all the nodes that are not connected to 5 in alphabetical order.\nA: ",
+    "expected_answer": "0, 1, 10, 2, 3, 8, 9.",
+    "model_answer": "0, 1, 2, 3, 4, 6, 7, 8, 9, 10",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0, 1, 2, 3, 4, 6, 7, 8, 9, 10",
+      "confidence": 0.8823529481887817,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "disconnected_nodes/adjacency/test/15",
+    "question": "Q: List all the nodes that are not connected to 4 in alphabetical order.\nA: ",
+    "expected_answer": "No nodes.",
+    "model_answer": "0, 2",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0, 2",
+      "confidence": 0.14705882966518402,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "disconnected_nodes/adjacency/test/16",
+    "question": "Q: List all the nodes that are not connected to 3 in alphabetical order.\nA: ",
+    "expected_answer": "No nodes.",
+    "model_answer": "0, 2",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0, 2",
+      "confidence": 0.1315789520740509,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "disconnected_nodes/adjacency/test/17",
+    "question": "Q: List all the nodes that are not connected to 7 in alphabetical order.\nA: ",
+    "expected_answer": "No nodes.",
+    "model_answer": "0, 2, 3, 4, 5, 6",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0, 2, 3, 4, 5, 6",
+      "confidence": 0.44736841320991516,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "disconnected_nodes/adjacency/test/18",
+    "question": "Q: List all the nodes that are not connected to 1 in alphabetical order.\nA: ",
+    "expected_answer": "0, 3, 4, 5, 6.",
+    "model_answer": "5",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "5",
+      "confidence": 0.03947368264198303,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "disconnected_nodes/adjacency/test/19",
+    "question": "Q: List all the nodes that are not connected to 1 in alphabetical order.\nA: ",
+    "expected_answer": "0, 4, 8.",
+    "model_answer": "0, 3, 5, 6, 7, 8, 9, 10, 11",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0, 3, 5, 6, 7, 8, 9, 10, 11",
+      "confidence": 0.7368420958518982,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "disconnected_nodes/adjacency/test/20",
+    "question": "Q: List all the nodes that are not connected to 5 in alphabetical order.\nA: ",
+    "expected_answer": "0, 1, 11, 12, 13, 14, 15, 2, 3, 6, 7, 8, 9.",
+    "model_answer": "10",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "10",
+      "confidence": 0.07894736528396606,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "disconnected_nodes/adjacency/test/21",
+    "question": "Q: List all the nodes that are not connected to 5 in alphabetical order.\nA: ",
+    "expected_answer": "1, 2, 3.",
+    "model_answer": "0, 1, 2, 3, 4",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0, 1, 2, 3, 4",
+      "confidence": 0.3684210479259491,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "disconnected_nodes/adjacency/test/22",
+    "question": "Q: List all the nodes that are not connected to 1 in alphabetical order.\nA: ",
+    "expected_answer": "5.",
+    "model_answer": "0, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11",
+      "confidence": 0.8947368264198303,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "disconnected_nodes/adjacency/test/23",
+    "question": "Q: List all the nodes that are not connected to 0 in alphabetical order.\nA: ",
+    "expected_answer": "10, 11, 3.",
+    "model_answer": "1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12",
+      "confidence": 1.0,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "disconnected_nodes/adjacency/test/24",
+    "question": "Q: List all the nodes that are not connected to 8 in alphabetical order.\nA: ",
+    "expected_answer": "0, 1, 3, 6.",
+    "model_answer": "0, 1, 2, 3, 4, 5, 6, 7, 9",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0, 1, 2, 3, 4, 5, 6, 7, 9",
+      "confidence": 0.6842105388641357,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "disconnected_nodes/adjacency/test/25",
+    "question": "Q: List all the nodes that are not connected to 3 in alphabetical order.\nA: ",
+    "expected_answer": "1.",
+    "model_answer": "0, 1, 4",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0, 1, 4",
+      "confidence": 0.21052631735801697,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "disconnected_nodes/adjacency/test/26",
+    "question": "Q: List all the nodes that are not connected to 3 in alphabetical order.\nA: ",
+    "expected_answer": "No nodes.",
+    "model_answer": "0, 2, 4, 5, 6, 7, 8",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0, 2, 4, 5, 6, 7, 8",
+      "confidence": 0.5263158082962036,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "disconnected_nodes/adjacency/test/27",
+    "question": "Q: List all the nodes that are not connected to 0 in alphabetical order.\nA: ",
+    "expected_answer": "1, 2, 4.",
+    "model_answer": "1, 2, 3",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1, 2, 3",
+      "confidence": 0.21052631735801697,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "disconnected_nodes/adjacency/test/28",
+    "question": "Q: List all the nodes that are not connected to 10 in alphabetical order.\nA: ",
+    "expected_answer": "0, 2, 8.",
+    "model_answer": "3, 4, 5, 6, 7, 8, 9, 10",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3, 4, 5, 6, 7, 8, 9, 10",
+      "confidence": 0.6315789222717285,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "disconnected_nodes/adjacency/test/29",
+    "question": "Q: List all the nodes that are not connected to 8 in alphabetical order.\nA: ",
+    "expected_answer": "1, 12, 2, 3, 4, 5, 7, 9.",
+    "model_answer": "0, 11",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0, 11",
+      "confidence": 0.15789473056793213,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "disconnected_nodes/adjacency/test/30",
+    "question": "Q: List all the nodes that are not connected to 7 in alphabetical order.\nA: ",
+    "expected_answer": "0, 1, 10, 11, 2, 3, 4, 5, 6, 8, 9.",
+    "model_answer": "0, 3",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0, 3",
+      "confidence": 0.1184210553765297,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "disconnected_nodes/adjacency/test/31",
+    "question": "Q: List all the nodes that are not connected to 1 in alphabetical order.\nA: ",
+    "expected_answer": "3.",
+    "model_answer": "0, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12",
+      "confidence": 1.0,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "disconnected_nodes/adjacency/test/32",
+    "question": "Q: List all the nodes that are not connected to 4 in alphabetical order.\nA: ",
+    "expected_answer": "No nodes.",
+    "model_answer": "0, 1, 2",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0, 1, 2",
+      "confidence": 0.25806450843811035,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "disconnected_nodes/adjacency/test/33",
+    "question": "Q: List all the nodes that are not connected to 2 in alphabetical order.\nA: ",
+    "expected_answer": "0, 1, 11, 12, 13, 14, 16, 3, 4, 5, 6, 7.",
+    "model_answer": "10, 13, 15",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "10, 13, 15",
+      "confidence": 0.35483869910240173,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "disconnected_nodes/adjacency/test/34",
+    "question": "Q: List all the nodes that are not connected to 8 in alphabetical order.\nA: ",
+    "expected_answer": "2, 4, 5, 6, 7.",
+    "model_answer": "0, 2, 3, 4, 5, 6, 7, 9, 10, 11",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0, 2, 3, 4, 5, 6, 7, 9, 10, 11",
+      "confidence": 0.9516128897666931,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "disconnected_nodes/adjacency/test/35",
+    "question": "Q: List all the nodes that are not connected to 9 in alphabetical order.\nA: ",
+    "expected_answer": "No nodes.",
+    "model_answer": "0, 2, 3, 4, 5, 6, 7, 8, 10",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0, 2, 3, 4, 5, 6, 7, 8, 10",
+      "confidence": 0.8709677457809448,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "disconnected_nodes/adjacency/test/36",
+    "question": "Q: List all the nodes that are not connected to 0 in alphabetical order.\nA: ",
+    "expected_answer": "4, 5, 6.",
+    "model_answer": "2, 3, 4, 5, 6, 7",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2, 3, 4, 5, 6, 7",
+      "confidence": 0.5483870506286621,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "disconnected_nodes/adjacency/test/37",
+    "question": "Q: List all the nodes that are not connected to 4 in alphabetical order.\nA: ",
+    "expected_answer": "0, 1, 10, 11, 13, 2, 3, 6, 7, 8.",
+    "model_answer": "10",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "10",
+      "confidence": 0.08064515888690948,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "disconnected_nodes/adjacency/test/38",
+    "question": "Q: List all the nodes that are not connected to 4 in alphabetical order.\nA: ",
+    "expected_answer": "0, 1, 2, 3.",
+    "model_answer": "0",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": 0.06451612710952759,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "disconnected_nodes/adjacency/test/39",
+    "question": "Q: List all the nodes that are not connected to 1 in alphabetical order.\nA: ",
+    "expected_answer": "No nodes.",
+    "model_answer": "0, 2, 3, 4, 5, 6, 7, 8",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0, 2, 3, 4, 5, 6, 7, 8",
+      "confidence": 0.7419354915618896,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "disconnected_nodes/adjacency/test/40",
+    "question": "Q: List all the nodes that are not connected to 10 in alphabetical order.\nA: ",
+    "expected_answer": "0, 1, 12, 2, 3, 4, 5, 6, 7, 9.",
+    "model_answer": "3, 6, 7",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3, 6, 7",
+      "confidence": 0.1744185984134674,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "disconnected_nodes/adjacency/test/41",
+    "question": "Q: List all the nodes that are not connected to 4 in alphabetical order.\nA: ",
+    "expected_answer": "0, 1, 2, 5, 6, 7.",
+    "model_answer": "0, 1, 3, 7",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0, 1, 3, 7",
+      "confidence": 0.25581395626068115,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "disconnected_nodes/adjacency/test/42",
+    "question": "Q: List all the nodes that are not connected to 7 in alphabetical order.\nA: ",
+    "expected_answer": "0, 1, 2, 3, 4, 5, 6, 8.",
+    "model_answer": "1, 3, 4, 6, 8",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1, 3, 4, 6, 8",
+      "confidence": 0.3255814015865326,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "disconnected_nodes/adjacency/test/43",
+    "question": "Q: List all the nodes that are not connected to 5 in alphabetical order.\nA: ",
+    "expected_answer": "0, 1, 2, 3, 4, 6, 8.",
+    "model_answer": "8",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "8",
+      "confidence": 0.04651162773370743,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "disconnected_nodes/adjacency/test/44",
+    "question": "Q: List all the nodes that are not connected to 2 in alphabetical order.\nA: ",
+    "expected_answer": "No nodes.",
+    "model_answer": "0, 3",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0, 3",
+      "confidence": 0.11627906560897827,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "disconnected_nodes/adjacency/test/45",
+    "question": "Q: List all the nodes that are not connected to 3 in alphabetical order.\nA: ",
+    "expected_answer": "10, 7.",
+    "model_answer": "0, 1, 2, 4, 5, 6, 7, 8, 9",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0, 1, 2, 4, 5, 6, 7, 8, 9",
+      "confidence": 0.604651153087616,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "disconnected_nodes/adjacency/test/46",
+    "question": "Q: List all the nodes that are not connected to 1 in alphabetical order.\nA: ",
+    "expected_answer": "0, 2, 3, 4.",
+    "model_answer": "0, 2",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0, 2",
+      "confidence": 0.11627906560897827,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "disconnected_nodes/adjacency/test/47",
+    "question": "Q: List all the nodes that are not connected to 14 in alphabetical order.\nA: ",
+    "expected_answer": "0, 11, 4, 6.",
+    "model_answer": "0, 2, 3, 5, 6, 7, 8, 9, 10, 11, 12, 13, 15",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0, 2, 3, 5, 6, 7, 8, 9, 10, 11, 12, 13, 15",
+      "confidence": 1.0,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "disconnected_nodes/adjacency/test/48",
+    "question": "Q: List all the nodes that are not connected to 14 in alphabetical order.\nA: ",
+    "expected_answer": "No nodes.",
+    "model_answer": "0, 2, 3, 5, 6, 7, 8, 9, 10, 11, 12, 13",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0, 2, 3, 5, 6, 7, 8, 9, 10, 11, 12, 13",
+      "confidence": 0.7799999713897705,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "disconnected_nodes/adjacency/test/49",
+    "question": "Q: List all the nodes that are not connected to 16 in alphabetical order.\nA: ",
+    "expected_answer": "0, 10, 12, 14, 3, 4, 5, 6.",
+    "model_answer": "0, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15",
+      "confidence": 1.0,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "disconnected_nodes/adjacency/test/50",
+    "question": "Q: List all the nodes that are not connected to 0 in alphabetical order.\nA: ",
+    "expected_answer": "No nodes.",
+    "model_answer": "3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15",
+      "confidence": 0.8799999952316284,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "disconnected_nodes/adjacency/test/51",
+    "question": "Q: List all the nodes that are not connected to 8 in alphabetical order.\nA: ",
+    "expected_answer": "1, 2, 3, 4, 5, 6, 7.",
+    "model_answer": "1, 2, 3, 4, 5, 6, 7, 9, 10, 11",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1, 2, 3, 4, 5, 6, 7, 9, 10, 11",
+      "confidence": 0.6200000047683716,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "disconnected_nodes/adjacency/test/52",
+    "question": "Q: List all the nodes that are not connected to 0 in alphabetical order.\nA: ",
+    "expected_answer": "No nodes.",
+    "model_answer": "3, 4",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3, 4",
+      "confidence": 0.09999999403953552,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "disconnected_nodes/adjacency/test/53",
+    "question": "Q: List all the nodes that are not connected to 0 in alphabetical order.\nA: ",
+    "expected_answer": "10, 11, 12, 14, 15, 6, 7, 8.",
+    "model_answer": "12",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "12",
+      "confidence": 0.04999999701976776,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "disconnected_nodes/adjacency/test/54",
+    "question": "Q: List all the nodes that are not connected to 10 in alphabetical order.\nA: ",
+    "expected_answer": "1, 11, 12, 15, 2, 3, 6, 8.",
+    "model_answer": "4, 6, 7, 8, 9, 12, 13, 15",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "4, 6, 7, 8, 9, 12, 13, 15",
+      "confidence": 0.5,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "disconnected_nodes/adjacency/test/55",
+    "question": "Q: List all the nodes that are not connected to 2 in alphabetical order.\nA: ",
+    "expected_answer": "1, 10, 3, 4, 5, 6, 7, 8, 9.",
+    "model_answer": "3, 4, 5, 6, 7, 8, 9, 10",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3, 4, 5, 6, 7, 8, 9, 10",
+      "confidence": 0.47999998927116394,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "disconnected_nodes/adjacency/test/56",
+    "question": "Q: List all the nodes that are not connected to 15 in alphabetical order.\nA: ",
+    "expected_answer": "2, 6.",
+    "model_answer": "3, 4, 6, 7, 8, 9, 10, 11, 12, 13",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3, 4, 6, 7, 8, 9, 10, 11, 12, 13",
+      "confidence": 0.8461538553237915,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "disconnected_nodes/adjacency/test/57",
+    "question": "Q: List all the nodes that are not connected to 6 in alphabetical order.\nA: ",
+    "expected_answer": "1, 2, 3, 4, 5, 7.",
+    "model_answer": "1, 2, 3, 4, 5",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1, 2, 3, 4, 5",
+      "confidence": 0.3589743673801422,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "disconnected_nodes/adjacency/test/58",
+    "question": "Q: List all the nodes that are not connected to 5 in alphabetical order.\nA: ",
+    "expected_answer": "1, 10, 11, 12, 13, 15, 18, 2, 3, 4, 6, 7, 8, 9.",
+    "model_answer": "10, 12, 13, 14, 15, 16, 17",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "10, 12, 13, 14, 15, 16, 17",
+      "confidence": 0.6794871687889099,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "disconnected_nodes/adjacency/test/59",
+    "question": "Q: List all the nodes that are not connected to 0 in alphabetical order.\nA: ",
+    "expected_answer": "No nodes.",
+    "model_answer": "1, 2, 3, 4, 5",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1, 2, 3, 4, 5",
+      "confidence": 0.3461538553237915,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "disconnected_nodes/adjacency/test/60",
+    "question": "Q: List all the nodes that are not connected to 0 in alphabetical order.\nA: ",
+    "expected_answer": "No nodes.",
+    "model_answer": "3, 4, 5",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3, 4, 5",
+      "confidence": 0.20512820780277252,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "disconnected_nodes/adjacency/test/61",
+    "question": "Q: List all the nodes that are not connected to 15 in alphabetical order.\nA: ",
+    "expected_answer": "1, 10, 11, 12, 13, 14, 16, 2, 3, 4, 5, 6, 7, 8, 9.",
+    "model_answer": "3, 4, 6, 7, 8, 9, 10, 11, 12, 13, 14",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3, 4, 6, 7, 8, 9, 10, 11, 12, 13, 14",
+      "confidence": 0.9487179517745972,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "disconnected_nodes/adjacency/test/62",
+    "question": "Q: List all the nodes that are not connected to 2 in alphabetical order.\nA: ",
+    "expected_answer": "1, 3, 4, 5, 6, 7, 8.",
+    "model_answer": "3, 7",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3, 7",
+      "confidence": 0.12820513546466827,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "disconnected_nodes/adjacency/test/63",
+    "question": "Q: List all the nodes that are not connected to 1 in alphabetical order.\nA: ",
+    "expected_answer": "10, 11, 12, 13, 2, 3, 4, 5, 6, 7, 8, 9.",
+    "model_answer": "2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13",
+      "confidence": 0.9871795177459717,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "disconnected_nodes/adjacency/test/64",
+    "question": "Q: List all the nodes that are not connected to 8 in alphabetical order.\nA: ",
+    "expected_answer": "1, 10, 11, 12, 2, 3, 4, 5, 6, 7, 9.",
+    "model_answer": "10",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "10",
+      "confidence": 0.1764705926179886,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "disconnected_nodes/adjacency/test/65",
+    "question": "Q: List all the nodes that are not connected to 3 in alphabetical order.\nA: ",
+    "expected_answer": "1, 2, 4, 5, 6, 7, 8.",
+    "model_answer": "4, 6, 7",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "4, 6, 7",
+      "confidence": 0.47058823704719543,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "disconnected_nodes/adjacency/test/66",
+    "question": "Q: List all the nodes that are not connected to 1 in alphabetical order.\nA: ",
+    "expected_answer": "2, 3.",
+    "model_answer": "2, 3, 4, 5",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2, 3, 4, 5",
+      "confidence": 0.6470588445663452,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "disconnected_nodes/adjacency/test/67",
+    "question": "Q: List all the nodes that are not connected to 0 in alphabetical order.\nA: ",
+    "expected_answer": "No nodes.",
+    "model_answer": "2, 3, 4",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2, 3, 4",
+      "confidence": 0.47058823704719543,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "disconnected_nodes/adjacency/test/68",
+    "question": "Q: List all the nodes that are not connected to 5 in alphabetical order.\nA: ",
+    "expected_answer": "3, 7.",
+    "model_answer": "1, 2, 3, 4, 6, 7",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1, 2, 3, 4, 6, 7",
+      "confidence": 1.0,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "disconnected_nodes/adjacency/test/69",
+    "question": "Q: List all the nodes that are not connected to 1 in alphabetical order.\nA: ",
+    "expected_answer": "2, 3, 4, 5, 6, 7, 8, 9.",
+    "model_answer": "4, 6, 7, 8, 9",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "4, 6, 7, 8, 9",
+      "confidence": 0.8235294222831726,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "disconnected_nodes/adjacency/test/70",
+    "question": "Q: List all the nodes that are not connected to 8 in alphabetical order.\nA: ",
+    "expected_answer": "1, 10, 11, 12, 13, 14, 2, 3, 4, 5, 6, 7, 9.",
+    "model_answer": "10, 13",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "10, 13",
+      "confidence": 0.4117647111415863,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "disconnected_nodes/adjacency/test/71",
+    "question": "Q: List all the nodes that are not connected to 2 in alphabetical order.\nA: ",
+    "expected_answer": "1, 3, 4.",
+    "model_answer": "3, 4, 5, 6, 7",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3, 4, 5, 6, 7",
+      "confidence": 0.8235294222831726,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "disconnected_nodes/adjacency/test/72",
+    "question": "Q: List all the nodes that are not connected to 10 in alphabetical order.\nA: ",
+    "expected_answer": "1, 11, 2, 3, 4, 5, 6, 7, 8, 9.",
+    "model_answer": "3, 4, 5, 6, 7, 8, 9",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3, 4, 5, 6, 7, 8, 9",
+      "confidence": 0.5263158082962036,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "disconnected_nodes/adjacency/test/73",
+    "question": "Q: List all the nodes that are not connected to 4 in alphabetical order.\nA: ",
+    "expected_answer": "1, 10, 2, 3, 5, 6.",
+    "model_answer": "3, 5, 6, 7, 8, 9",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3, 5, 6, 7, 8, 9",
+      "confidence": 0.44736841320991516,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "disconnected_nodes/adjacency/test/74",
+    "question": "Q: List all the nodes that are not connected to 7 in alphabetical order.\nA: ",
+    "expected_answer": "1, 3, 4, 6, 8.",
+    "model_answer": "1, 2, 4, 6, 8, 9",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1, 2, 4, 6, 8, 9",
+      "confidence": 0.44736841320991516,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "disconnected_nodes/adjacency/test/75",
+    "question": "Q: List all the nodes that are not connected to 0 in alphabetical order.\nA: ",
+    "expected_answer": "No nodes.",
+    "model_answer": "3, 5, 7",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3, 5, 7",
+      "confidence": 0.21052631735801697,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "disconnected_nodes/adjacency/test/76",
+    "question": "Q: List all the nodes that are not connected to 6 in alphabetical order.\nA: ",
+    "expected_answer": "1, 2, 3, 4, 5.",
+    "model_answer": "1, 2, 3, 4, 5, 7, 8, 9, 10",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1, 2, 3, 4, 5, 7, 8, 9, 10",
+      "confidence": 0.7105263471603394,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "disconnected_nodes/adjacency/test/77",
+    "question": "Q: List all the nodes that are not connected to 4 in alphabetical order.\nA: ",
+    "expected_answer": "1, 2, 3, 5, 6.",
+    "model_answer": "3",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3",
+      "confidence": 0.03947368264198303,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "disconnected_nodes/adjacency/test/78",
+    "question": "Q: List all the nodes that are not connected to 0 in alphabetical order.\nA: ",
+    "expected_answer": "5, 6, 7, 8, 9.",
+    "model_answer": "6, 7, 8, 9",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "6, 7, 8, 9",
+      "confidence": 0.2763157784938812,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "disconnected_nodes/adjacency/test/79",
+    "question": "Q: List all the nodes that are not connected to 2 in alphabetical order.\nA: ",
+    "expected_answer": "1, 10, 11, 12, 3, 4, 7, 9.",
+    "model_answer": "0, 1, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0, 1, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12",
+      "confidence": 1.0,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "disconnected_nodes/adjacency/test/80",
+    "question": "Q: List all the nodes that are not connected to 4 in alphabetical order.\nA: ",
+    "expected_answer": "1, 2, 3, 5, 7, 8, 9.",
+    "model_answer": "1, 3, 6, 7, 8",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1, 3, 6, 7, 8",
+      "confidence": 0.4000000059604645,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "disconnected_nodes/adjacency/test/81",
+    "question": "Q: List all the nodes that are not connected to 2 in alphabetical order.\nA: ",
+    "expected_answer": "1, 3, 4, 5, 6, 8, 9.",
+    "model_answer": "3, 5, 6, 7, 8, 9",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3, 5, 6, 7, 8, 9",
+      "confidence": 0.48571428656578064,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "disconnected_nodes/adjacency/test/82",
+    "question": "Q: List all the nodes that are not connected to 4 in alphabetical order.\nA: ",
+    "expected_answer": "2, 3, 5, 6.",
+    "model_answer": "5, 6, 7",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "5, 6, 7",
+      "confidence": 0.22857142984867096,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "disconnected_nodes/adjacency/test/83",
+    "question": "Q: List all the nodes that are not connected to 4 in alphabetical order.\nA: ",
+    "expected_answer": "1, 10, 15, 16, 2, 3, 5, 6, 7, 8, 9.",
+    "model_answer": "10",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "10",
+      "confidence": 0.08571428805589676,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "disconnected_nodes/adjacency/test/84",
+    "question": "Q: List all the nodes that are not connected to 12 in alphabetical order.\nA: ",
+    "expected_answer": "0, 10, 11, 2, 3, 4, 6, 7, 8, 9.",
+    "model_answer": "0, 3, 4, 6, 7, 9, 10",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0, 3, 4, 6, 7, 9, 10",
+      "confidence": 0.6000000238418579,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "disconnected_nodes/adjacency/test/85",
+    "question": "Q: List all the nodes that are not connected to 13 in alphabetical order.\nA: ",
+    "expected_answer": "1, 10, 11, 12, 2, 3, 5, 9.",
+    "model_answer": "0, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12",
+      "confidence": 1.0,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "disconnected_nodes/adjacency/test/86",
+    "question": "Q: List all the nodes that are not connected to 3 in alphabetical order.\nA: ",
+    "expected_answer": "1, 2, 4.",
+    "model_answer": "1, 4",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1, 4",
+      "confidence": 0.1428571492433548,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "disconnected_nodes/adjacency/test/87",
+    "question": "Q: List all the nodes that are not connected to 0 in alphabetical order.\nA: ",
+    "expected_answer": "4, 5, 7, 8, 9.",
+    "model_answer": "1, 6, 7, 8, 9, 10",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1, 6, 7, 8, 9, 10",
+      "confidence": 0.5142857432365417,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "disconnected_nodes/adjacency/test/88",
+    "question": "Q: List all the nodes that are not connected to 6 in alphabetical order.\nA: ",
+    "expected_answer": "2, 3, 4, 5, 7.",
+    "model_answer": "1, 3",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1, 3",
+      "confidence": 0.1190476194024086,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "disconnected_nodes/adjacency/test/89",
+    "question": "Q: List all the nodes that are not connected to 5 in alphabetical order.\nA: ",
+    "expected_answer": "1, 2, 3, 4.",
+    "model_answer": "1, 3, 4, 6, 7",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1, 3, 4, 6, 7",
+      "confidence": 0.3214285671710968,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "disconnected_nodes/adjacency/test/90",
+    "question": "Q: List all the nodes that are not connected to 7 in alphabetical order.\nA: ",
+    "expected_answer": "3.",
+    "model_answer": "1, 2, 3, 4, 5, 6, 8, 9, 10",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1, 2, 3, 4, 5, 6, 8, 9, 10",
+      "confidence": 0.6428571343421936,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "disconnected_nodes/adjacency/test/91",
+    "question": "Q: List all the nodes that are not connected to 5 in alphabetical order.\nA: ",
+    "expected_answer": "1, 2, 3, 4, 6, 7, 8, 9.",
+    "model_answer": "1, 2, 3, 4, 6, 7, 8, 9",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1, 2, 3, 4, 6, 7, 8, 9",
+      "confidence": 0.5476190447807312,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "disconnected_nodes/adjacency/test/92",
+    "question": "Q: List all the nodes that are not connected to 7 in alphabetical order.\nA: ",
+    "expected_answer": "0, 1, 3, 5, 6.",
+    "model_answer": "1, 3, 4, 6",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1, 3, 4, 6",
+      "confidence": 0.261904776096344,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "disconnected_nodes/adjacency/test/93",
+    "question": "Q: List all the nodes that are not connected to 7 in alphabetical order.\nA: ",
+    "expected_answer": "0, 1, 11, 12, 3, 8, 9.",
+    "model_answer": "0, 1, 2, 3, 4, 5, 6, 8, 9, 10, 11, 12, 13",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0, 1, 2, 3, 4, 5, 6, 8, 9, 10, 11, 12, 13",
+      "confidence": 1.0,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "disconnected_nodes/adjacency/test/94",
+    "question": "Q: List all the nodes that are not connected to 0 in alphabetical order.\nA: ",
+    "expected_answer": "2, 3, 4, 5, 6.",
+    "model_answer": "2, 3, 5",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2, 3, 5",
+      "confidence": 0.1785714328289032,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "disconnected_nodes/adjacency/test/95",
+    "question": "Q: List all the nodes that are not connected to 7 in alphabetical order.\nA: ",
+    "expected_answer": "1, 11, 2, 3, 4, 5, 6, 8, 9.",
+    "model_answer": "10",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "10",
+      "confidence": 0.0714285746216774,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "disconnected_nodes/adjacency/test/96",
+    "question": "Q: List all the nodes that are not connected to 4 in alphabetical order.\nA: ",
+    "expected_answer": "1, 2, 3, 5.",
+    "model_answer": "1, 3, 5",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1, 3, 5",
+      "confidence": 0.1702127605676651,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "disconnected_nodes/adjacency/test/97",
+    "question": "Q: List all the nodes that are not connected to 5 in alphabetical order.\nA: ",
+    "expected_answer": "1, 10, 11, 12, 13, 14, 15, 16, 2, 3, 4, 6, 7, 8, 9.",
+    "model_answer": "10, 13",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "10, 13",
+      "confidence": 0.1489361673593521,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "disconnected_nodes/adjacency/test/98",
+    "question": "Q: List all the nodes that are not connected to 14 in alphabetical order.\nA: ",
+    "expected_answer": "0, 1, 15, 16, 2, 3, 4, 5, 6, 7, 9.",
+    "model_answer": "0, 2, 3, 5, 6, 7, 8, 9, 10, 11, 12, 13, 15, 16",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0, 2, 3, 5, 6, 7, 8, 9, 10, 11, 12, 13, 15, 16",
+      "confidence": 0.9893616437911987,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "disconnected_nodes/adjacency/test/99",
+    "question": "Q: List all the nodes that are not connected to 14 in alphabetical order.\nA: ",
+    "expected_answer": "0, 1, 10, 11, 12, 13, 15, 3, 4, 5, 6, 7, 8, 9.",
+    "model_answer": "5, 6, 7, 8, 9, 10, 12, 13",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "5, 6, 7, 8, 9, 10, 12, 13",
+      "confidence": 0.5531914830207825,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "disconnected_nodes/adjacency/test/100",
+    "question": "Q: List all the nodes that are not connected to 9 in alphabetical order.\nA: ",
+    "expected_answer": "10, 2, 3, 4, 7.",
+    "model_answer": "0, 1, 2, 3, 4, 5, 6, 7, 8, 10, 11, 12, 13, 14",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0, 1, 2, 3, 4, 5, 6, 7, 8, 10, 11, 12, 13, 14",
+      "confidence": 0.9787233471870422,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "disconnected_nodes/adjacency/test/101",
+    "question": "Q: List all the nodes that are not connected to 4 in alphabetical order.\nA: ",
+    "expected_answer": "0, 1, 10, 2, 5, 6, 7, 8, 9.",
+    "model_answer": "0",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": 0.042553190141916275,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "disconnected_nodes/adjacency/test/102",
+    "question": "Q: List all the nodes that are not connected to 0 in alphabetical order.\nA: ",
+    "expected_answer": "1, 2.",
+    "model_answer": "1, 2, 3, 4, 5",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1, 2, 3, 4, 5",
+      "confidence": 0.2978723347187042,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "disconnected_nodes/adjacency/test/103",
+    "question": "Q: List all the nodes that are not connected to 5 in alphabetical order.\nA: ",
+    "expected_answer": "1, 10, 11, 12, 13, 14, 15, 17, 4, 6, 7, 9.",
+    "model_answer": "10, 12, 14, 17",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "10, 12, 14, 17",
+      "confidence": 0.3085106313228607,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "disconnected_nodes/adjacency/test/104",
+    "question": "Q: List all the nodes that are not connected to 6 in alphabetical order.\nA: ",
+    "expected_answer": "10, 11, 12, 13, 14, 2, 3, 7, 8, 9.",
+    "model_answer": "13",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "13",
+      "confidence": 0.15000000596046448,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "disconnected_nodes/adjacency/test/105",
+    "question": "Q: List all the nodes that are not connected to 6 in alphabetical order.\nA: ",
+    "expected_answer": "2, 8, 9.",
+    "model_answer": "2, 3, 4, 5, 7, 8, 9",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2, 3, 4, 5, 7, 8, 9",
+      "confidence": 0.9750000238418579,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "disconnected_nodes/adjacency/test/106",
+    "question": "Q: List all the nodes that are not connected to 3 in alphabetical order.\nA: ",
+    "expected_answer": "10, 13, 15, 4, 5, 6, 7, 8, 9.",
+    "model_answer": "10",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "10",
+      "confidence": 0.125,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "disconnected_nodes/adjacency/test/107",
+    "question": "Q: List all the nodes that are not connected to 4 in alphabetical order.\nA: ",
+    "expected_answer": "0, 1.",
+    "model_answer": "0, 1",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0, 1",
+      "confidence": 0.25,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "disconnected_nodes/adjacency/test/108",
+    "question": "Q: List all the nodes that are not connected to 1 in alphabetical order.\nA: ",
+    "expected_answer": "10, 11, 13, 14, 2, 5, 8.",
+    "model_answer": "0, 2, 4, 6, 8",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0, 2, 4, 6, 8",
+      "confidence": 0.675000011920929,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "disconnected_nodes/adjacency/test/109",
+    "question": "Q: List all the nodes that are not connected to 3 in alphabetical order.\nA: ",
+    "expected_answer": "0, 2, 4.",
+    "model_answer": "1",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": 0.07500000298023224,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "disconnected_nodes/adjacency/test/110",
+    "question": "Q: List all the nodes that are not connected to 3 in alphabetical order.\nA: ",
+    "expected_answer": "0, 1, 2, 4.",
+    "model_answer": "4",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "4",
+      "confidence": 0.10000000149011612,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "disconnected_nodes/adjacency/test/111",
+    "question": "Q: List all the nodes that are not connected to 8 in alphabetical order.\nA: ",
+    "expected_answer": "11, 15, 4, 7, 9.",
+    "model_answer": "10, 11, 12, 14",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "10, 11, 12, 14",
+      "confidence": 0.75,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "disconnected_nodes/adjacency/test/112",
+    "question": "Q: List all the nodes that are not connected to 10 in alphabetical order.\nA: ",
+    "expected_answer": "1.",
+    "model_answer": "3, 4, 6, 7, 8, 9, 11",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3, 4, 6, 7, 8, 9, 11",
+      "confidence": 0.5526315569877625,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "disconnected_nodes/adjacency/test/113",
+    "question": "Q: List all the nodes that are not connected to 3 in alphabetical order.\nA: ",
+    "expected_answer": "0, 1, 10, 2, 4, 5, 6, 8, 9.",
+    "model_answer": "10",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "10",
+      "confidence": 0.07894736528396606,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "disconnected_nodes/adjacency/test/114",
+    "question": "Q: List all the nodes that are not connected to 5 in alphabetical order.\nA: ",
+    "expected_answer": "1, 10, 3, 6, 8, 9.",
+    "model_answer": "0, 1, 2, 3, 4, 6, 7, 8, 9, 10, 11",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0, 1, 2, 3, 4, 6, 7, 8, 9, 10, 11",
+      "confidence": 0.8947368264198303,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "disconnected_nodes/adjacency/test/115",
+    "question": "Q: List all the nodes that are not connected to 0 in alphabetical order.\nA: ",
+    "expected_answer": "No nodes.",
+    "model_answer": "1, 2, 3, 4, 5",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1, 2, 3, 4, 5",
+      "confidence": 0.3684210479259491,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "disconnected_nodes/adjacency/test/116",
+    "question": "Q: List all the nodes that are not connected to 5 in alphabetical order.\nA: ",
+    "expected_answer": "0, 1, 2, 3, 4.",
+    "model_answer": "0, 3, 4",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0, 3, 4",
+      "confidence": 0.21052631735801697,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "disconnected_nodes/adjacency/test/117",
+    "question": "Q: List all the nodes that are not connected to 5 in alphabetical order.\nA: ",
+    "expected_answer": "0, 1, 3, 6.",
+    "model_answer": "0, 1, 3",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0, 1, 3",
+      "confidence": 0.21052631735801697,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "disconnected_nodes/adjacency/test/118",
+    "question": "Q: List all the nodes that are not connected to 1 in alphabetical order.\nA: ",
+    "expected_answer": "0, 2, 3, 4, 5.",
+    "model_answer": "0, 2, 3, 4, 5",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0, 2, 3, 4, 5",
+      "confidence": 0.3684210479259491,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "disconnected_nodes/adjacency/test/119",
+    "question": "Q: List all the nodes that are not connected to 9 in alphabetical order.\nA: ",
+    "expected_answer": "0, 1, 12, 5, 6, 7.",
+    "model_answer": "0, 1, 2, 3, 4, 5, 6, 7, 8, 10, 11, 12",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0, 1, 2, 3, 4, 5, 6, 7, 8, 10, 11, 12",
+      "confidence": 1.0,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "disconnected_nodes/adjacency/test/120",
+    "question": "Q: List all the nodes that are not connected to 9 in alphabetical order.\nA: ",
+    "expected_answer": "0, 1, 11, 12, 16, 17, 18, 2, 3, 5, 6, 8.",
+    "model_answer": "10, 12, 13, 14, 15, 16, 17, 18",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "10, 12, 13, 14, 15, 16, 17, 18",
+      "confidence": 0.738095223903656,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "disconnected_nodes/adjacency/test/121",
+    "question": "Q: List all the nodes that are not connected to 1 in alphabetical order.\nA: ",
+    "expected_answer": "2.",
+    "model_answer": "0, 2, 3",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0, 2, 3",
+      "confidence": 0.190476194024086,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "disconnected_nodes/adjacency/test/122",
+    "question": "Q: List all the nodes that are not connected to 11 in alphabetical order.\nA: ",
+    "expected_answer": "12, 5.",
+    "model_answer": "0, 2, 3, 4, 5, 6, 7, 8, 9, 10, 12",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0, 2, 3, 4, 5, 6, 7, 8, 9, 10, 12",
+      "confidence": 0.8095238208770752,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "disconnected_nodes/adjacency/test/123",
+    "question": "Q: List all the nodes that are not connected to 5 in alphabetical order.\nA: ",
+    "expected_answer": "12, 13, 2, 4, 6, 7, 8, 9.",
+    "model_answer": "0, 1, 2, 3, 4, 6, 7, 8, 9, 10, 11, 12, 13",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0, 1, 2, 3, 4, 6, 7, 8, 9, 10, 11, 12, 13",
+      "confidence": 1.0,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "disconnected_nodes/adjacency/test/124",
+    "question": "Q: List all the nodes that are not connected to 12 in alphabetical order.\nA: ",
+    "expected_answer": "0, 11, 13, 8.",
+    "model_answer": "0, 5, 6, 7, 8, 9, 10, 11, 13",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0, 5, 6, 7, 8, 9, 10, 11, 13",
+      "confidence": 0.6904761791229248,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "disconnected_nodes/adjacency/test/125",
+    "question": "Q: List all the nodes that are not connected to 7 in alphabetical order.\nA: ",
+    "expected_answer": "0, 1, 2, 4, 5.",
+    "model_answer": "0, 1",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0, 1",
+      "confidence": 0.1190476194024086,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "disconnected_nodes/adjacency/test/126",
+    "question": "Q: List all the nodes that are not connected to 11 in alphabetical order.\nA: ",
+    "expected_answer": "0, 10, 12, 13, 3, 4, 5, 6, 7, 8, 9.",
+    "model_answer": "0, 3, 4, 5",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0, 3, 4, 5",
+      "confidence": 0.261904776096344,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "disconnected_nodes/adjacency/test/127",
+    "question": "Q: List all the nodes that are not connected to 1 in alphabetical order.\nA: ",
+    "expected_answer": "2, 3, 4, 5, 7, 8.",
+    "model_answer": "0, 2, 3, 4, 5, 7",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0, 2, 3, 4, 5, 7",
+      "confidence": 0.4047619104385376,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "disconnected_nodes/adjacency/test/128",
+    "question": "Q: List all the nodes that are not connected to 1 in alphabetical order.\nA: ",
+    "expected_answer": "13, 2, 3, 4, 6.",
+    "model_answer": "0, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13",
+      "confidence": 0.9333333373069763,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "disconnected_nodes/adjacency/test/129",
+    "question": "Q: List all the nodes that are not connected to 6 in alphabetical order.\nA: ",
+    "expected_answer": "1, 5, 7, 8, 9.",
+    "model_answer": "5, 7, 8",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "5, 7, 8",
+      "confidence": 0.1666666716337204,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "disconnected_nodes/adjacency/test/130",
+    "question": "Q: List all the nodes that are not connected to 3 in alphabetical order.\nA: ",
+    "expected_answer": "0, 4.",
+    "model_answer": "0, 1, 6",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0, 1, 6",
+      "confidence": 0.17777778208255768,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "disconnected_nodes/adjacency/test/131",
+    "question": "Q: List all the nodes that are not connected to 0 in alphabetical order.\nA: ",
+    "expected_answer": "7.",
+    "model_answer": "12",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "12",
+      "confidence": 0.06666667014360428,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "disconnected_nodes/adjacency/test/132",
+    "question": "Q: List all the nodes that are not connected to 4 in alphabetical order.\nA: ",
+    "expected_answer": "0, 1, 2, 5.",
+    "model_answer": "0, 1, 5",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0, 1, 5",
+      "confidence": 0.17777778208255768,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "disconnected_nodes/adjacency/test/133",
+    "question": "Q: List all the nodes that are not connected to 12 in alphabetical order.\nA: ",
+    "expected_answer": "0, 1, 10, 11, 13, 14, 2, 6.",
+    "model_answer": "0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 13, 14",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 13, 14",
+      "confidence": 1.0,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "disconnected_nodes/adjacency/test/134",
+    "question": "Q: List all the nodes that are not connected to 0 in alphabetical order.\nA: ",
+    "expected_answer": "2, 4, 6.",
+    "model_answer": "1, 2, 3, 4, 5, 6, 7, 8, 9, 10",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1, 2, 3, 4, 5, 6, 7, 8, 9, 10",
+      "confidence": 0.6666666865348816,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "disconnected_nodes/adjacency/test/135",
+    "question": "Q: List all the nodes that are not connected to 3 in alphabetical order.\nA: ",
+    "expected_answer": "0, 2, 4, 5, 6, 7, 8.",
+    "model_answer": "0, 7, 8",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0, 7, 8",
+      "confidence": 0.15555556118488312,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "disconnected_nodes/adjacency/test/136",
+    "question": "Q: List all the nodes that are not connected to 4 in alphabetical order.\nA: ",
+    "expected_answer": "2.",
+    "model_answer": "0",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": 0.04285714402794838,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "disconnected_nodes/adjacency/test/137",
+    "question": "Q: List all the nodes that are not connected to 13 in alphabetical order.\nA: ",
+    "expected_answer": "0, 1, 10, 12, 3, 4, 5, 6, 8.",
+    "model_answer": "0, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12",
+      "confidence": 1.0,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "disconnected_nodes/adjacency/test/138",
+    "question": "Q: List all the nodes that are not connected to 1 in alphabetical order.\nA: ",
+    "expected_answer": "2, 3, 4, 5, 7.",
+    "model_answer": "0, 5",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0, 5",
+      "confidence": 0.1428571492433548,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "disconnected_nodes/adjacency/test/139",
+    "question": "Q: List all the nodes that are not connected to 5 in alphabetical order.\nA: ",
+    "expected_answer": "0, 1, 2, 3, 4.",
+    "model_answer": "0",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": 0.05714285746216774,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "disconnected_nodes/adjacency/test/140",
+    "question": "Q: List all the nodes that are not connected to 5 in alphabetical order.\nA: ",
+    "expected_answer": "10, 11, 12, 2, 3, 4, 6, 7, 8, 9.",
+    "model_answer": "2, 3, 4, 6, 7, 8, 9, 10, 11, 12",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2, 3, 4, 6, 7, 8, 9, 10, 11, 12",
+      "confidence": 0.9142857193946838,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "disconnected_nodes/adjacency/test/141",
+    "question": "Q: List all the nodes that are not connected to 4 in alphabetical order.\nA: ",
+    "expected_answer": "0, 1, 10, 2, 3, 6, 7, 8, 9.",
+    "model_answer": "0, 3",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0, 3",
+      "confidence": 0.12857143580913544,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "disconnected_nodes/adjacency/test/142",
+    "question": "Q: List all the nodes that are not connected to 6 in alphabetical order.\nA: ",
+    "expected_answer": "4, 5.",
+    "model_answer": "0, 1, 2, 3, 4, 5, 7",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0, 1, 2, 3, 4, 5, 7",
+      "confidence": 0.5714285969734192,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "disconnected_nodes/adjacency/test/143",
+    "question": "Q: List all the nodes that are not connected to 1 in alphabetical order.\nA: ",
+    "expected_answer": "0, 11, 12, 2, 3, 5, 8, 9.",
+    "model_answer": "0, 7",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0, 7",
+      "confidence": 0.1428571492433548,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "disconnected_nodes/adjacency/test/144",
+    "question": "Q: List all the nodes that are not connected to 4 in alphabetical order.\nA: ",
+    "expected_answer": "0, 6.",
+    "model_answer": "1, 2, 3, 5, 6, 7",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1, 2, 3, 5, 6, 7",
+      "confidence": 0.32999998331069946,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "disconnected_nodes/adjacency/test/145",
+    "question": "Q: List all the nodes that are not connected to 1 in alphabetical order.\nA: ",
+    "expected_answer": "2.",
+    "model_answer": "0, 2, 6, 8",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0, 2, 6, 8",
+      "confidence": 0.2199999988079071,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "disconnected_nodes/adjacency/test/146",
+    "question": "Q: List all the nodes that are not connected to 5 in alphabetical order.\nA: ",
+    "expected_answer": "0, 2, 3, 4, 6.",
+    "model_answer": "0, 1, 2, 3, 4, 6",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0, 1, 2, 3, 4, 6",
+      "confidence": 0.3400000035762787,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "disconnected_nodes/adjacency/test/147",
+    "question": "Q: List all the nodes that are not connected to 13 in alphabetical order.\nA: ",
+    "expected_answer": "0, 1, 10, 11, 12, 14, 15, 2, 5, 6, 7, 9.",
+    "model_answer": "0, 2, 5, 6, 7, 9, 10, 11, 12, 14",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0, 2, 5, 6, 7, 9, 10, 11, 12, 14",
+      "confidence": 0.6499999761581421,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "disconnected_nodes/adjacency/test/148",
+    "question": "Q: List all the nodes that are not connected to 6 in alphabetical order.\nA: ",
+    "expected_answer": "10, 11, 13, 14, 15, 2, 3.",
+    "model_answer": "0, 1, 2, 3, 4, 5, 7, 8, 9, 10, 11, 12, 13, 14, 15",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0, 1, 2, 3, 4, 5, 7, 8, 9, 10, 11, 12, 13, 14, 15",
+      "confidence": 1.0,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "disconnected_nodes/adjacency/test/149",
+    "question": "Q: List all the nodes that are not connected to 3 in alphabetical order.\nA: ",
+    "expected_answer": "1, 12, 13, 14, 15, 17, 5.",
+    "model_answer": "10, 11, 12, 13, 14, 15, 16, 17, 18",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "10, 11, 12, 13, 14, 15, 16, 17, 18",
+      "confidence": 0.699999988079071,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "disconnected_nodes/adjacency/test/150",
+    "question": "Q: List all the nodes that are not connected to 12 in alphabetical order.\nA: ",
+    "expected_answer": "1, 10, 11, 13, 14, 15, 2, 3, 4, 5, 6, 7, 8, 9.",
+    "model_answer": "6, 3",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "6, 3",
+      "confidence": 0.09999999403953552,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "disconnected_nodes/adjacency/test/151",
+    "question": "Q: List all the nodes that are not connected to 3 in alphabetical order.\nA: ",
+    "expected_answer": "10, 11, 2, 5, 7, 8, 9.",
+    "model_answer": "10",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "10",
+      "confidence": 0.05999999865889549,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "disconnected_nodes/adjacency/test/152",
+    "question": "Q: List all the nodes that are not connected to 7 in alphabetical order.\nA: ",
+    "expected_answer": "0, 1, 3, 4, 5, 6.",
+    "model_answer": "3, 4, 5",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3, 4, 5",
+      "confidence": 0.1744185984134674,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "disconnected_nodes/adjacency/test/153",
+    "question": "Q: List all the nodes that are not connected to 8 in alphabetical order.\nA: ",
+    "expected_answer": "1, 10, 11, 12, 13, 14, 2, 3, 4, 5, 6, 7, 9.",
+    "model_answer": "10",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "10",
+      "confidence": 0.06976744532585144,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "disconnected_nodes/adjacency/test/154",
+    "question": "Q: List all the nodes that are not connected to 7 in alphabetical order.\nA: ",
+    "expected_answer": "0, 10, 11, 12, 13, 14, 15, 16, 17, 2, 3, 4, 5, 6, 8, 9.",
+    "model_answer": "10, 13",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "10, 13",
+      "confidence": 0.151162788271904,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "disconnected_nodes/adjacency/test/155",
+    "question": "Q: List all the nodes that are not connected to 5 in alphabetical order.\nA: ",
+    "expected_answer": "0, 1, 10, 11, 2, 4, 6, 7, 8, 9.",
+    "model_answer": "6, 7, 9, 10",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "6, 7, 9, 10",
+      "confidence": 0.27906978130340576,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "disconnected_nodes/adjacency/test/156",
+    "question": "Q: List all the nodes that are not connected to 14 in alphabetical order.\nA: ",
+    "expected_answer": "0, 1, 10, 11, 12, 13, 2, 3, 4, 5, 6, 7, 8.",
+    "model_answer": "6",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "6",
+      "confidence": 0.03488372266292572,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "disconnected_nodes/adjacency/test/157",
+    "question": "Q: List all the nodes that are not connected to 1 in alphabetical order.\nA: ",
+    "expected_answer": "3, 4.",
+    "model_answer": "2, 3, 4",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2, 3, 4",
+      "confidence": 0.1860465109348297,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "disconnected_nodes/adjacency/test/158",
+    "question": "Q: List all the nodes that are not connected to 16 in alphabetical order.\nA: ",
+    "expected_answer": "0, 1, 10, 11, 12, 13, 14, 15, 2, 3, 4, 5, 7, 8, 9.",
+    "model_answer": "0, 2, 3, 4, 5, 7, 8, 9, 10, 11, 12, 13, 14",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0, 2, 3, 4, 5, 7, 8, 9, 10, 11, 12, 13, 14",
+      "confidence": 0.9767441749572754,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "disconnected_nodes/adjacency/test/159",
+    "question": "Q: List all the nodes that are not connected to 5 in alphabetical order.\nA: ",
+    "expected_answer": "1, 2, 3, 4.",
+    "model_answer": "2, 3, 4",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2, 3, 4",
+      "confidence": 0.1744185984134674,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "disconnected_nodes/adjacency/test/160",
+    "question": "Q: List all the nodes that are not connected to 3 in alphabetical order.\nA: ",
+    "expected_answer": "2, 4, 5, 6.",
+    "model_answer": "2",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2",
+      "confidence": 0.11764705926179886,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "disconnected_nodes/adjacency/test/161",
+    "question": "Q: List all the nodes that are not connected to 5 in alphabetical order.\nA: ",
+    "expected_answer": "0, 10, 11, 12, 13, 14, 15, 3, 6, 7, 8.",
+    "model_answer": "0, 12",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0, 12",
+      "confidence": 0.3529411852359772,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "disconnected_nodes/adjacency/test/162",
+    "question": "Q: List all the nodes that are not connected to 9 in alphabetical order.\nA: ",
+    "expected_answer": "0, 1, 10, 11, 12, 3, 4, 5, 6, 7, 8.",
+    "model_answer": "6, 7, 10, 11, 12",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "6, 7, 10, 11, 12",
+      "confidence": 1.0,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "disconnected_nodes/adjacency/test/163",
+    "question": "Q: List all the nodes that are not connected to 3 in alphabetical order.\nA: ",
+    "expected_answer": "1, 2, 4, 5, 6, 7, 8, 9.",
+    "model_answer": "2, 4, 6, 7, 8, 9",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2, 4, 6, 7, 8, 9",
+      "confidence": 1.0,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "disconnected_nodes/adjacency/test/164",
+    "question": "Q: List all the nodes that are not connected to 4 in alphabetical order.\nA: ",
+    "expected_answer": "0, 1, 10, 11, 12, 13, 3, 5, 6, 7, 8, 9.",
+    "model_answer": "10",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "10",
+      "confidence": 0.14705882966518402,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "disconnected_nodes/adjacency/test/165",
+    "question": "Q: List all the nodes that are not connected to 0 in alphabetical order.\nA: ",
+    "expected_answer": "3, 4, 5, 7.",
+    "model_answer": "5",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "5",
+      "confidence": 0.11764705926179886,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "disconnected_nodes/adjacency/test/166",
+    "question": "Q: List all the nodes that are not connected to 6 in alphabetical order.\nA: ",
+    "expected_answer": "0, 1, 3, 4, 5.",
+    "model_answer": "0, 1, 2",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0, 1, 2",
+      "confidence": 0.47058823704719543,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "disconnected_nodes/adjacency/test/167",
+    "question": "Q: List all the nodes that are not connected to 5 in alphabetical order.\nA: ",
+    "expected_answer": "1, 2, 3, 4, 6, 7.",
+    "model_answer": "1, 2, 4",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1, 2, 4",
+      "confidence": 0.44117647409439087,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "disconnected_nodes/adjacency/test/168",
+    "question": "Q: List all the nodes that are not connected to 4 in alphabetical order.\nA: ",
+    "expected_answer": "0, 1, 3, 5, 6.",
+    "model_answer": "0, 1",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0, 1",
+      "confidence": 0.25,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "disconnected_nodes/adjacency/test/169",
+    "question": "Q: List all the nodes that are not connected to 2 in alphabetical order.\nA: ",
+    "expected_answer": "10, 11, 12, 13, 5, 6, 7, 8, 9.",
+    "model_answer": "0",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": 0.10000000149011612,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "disconnected_nodes/adjacency/test/170",
+    "question": "Q: List all the nodes that are not connected to 15 in alphabetical order.\nA: ",
+    "expected_answer": "0, 10, 11, 12, 13, 14, 16, 17, 2, 3, 4, 5, 6, 7, 8, 9.",
+    "model_answer": "0, 2, 7",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0, 2, 7",
+      "confidence": 0.4000000059604645,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "disconnected_nodes/adjacency/test/171",
+    "question": "Q: List all the nodes that are not connected to 7 in alphabetical order.\nA: ",
+    "expected_answer": "0, 1, 3, 4, 5, 6.",
+    "model_answer": "0, 1, 2, 3, 4, 5, 6",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0, 1, 2, 3, 4, 5, 6",
+      "confidence": 1.0,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "disconnected_nodes/adjacency/test/172",
+    "question": "Q: List all the nodes that are not connected to 5 in alphabetical order.\nA: ",
+    "expected_answer": "0, 1, 2, 4, 6, 7, 8, 9.",
+    "model_answer": "0, 2, 3",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0, 2, 3",
+      "confidence": 0.375,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "disconnected_nodes/adjacency/test/173",
+    "question": "Q: List all the nodes that are not connected to 2 in alphabetical order.\nA: ",
+    "expected_answer": "10, 11, 3, 6, 7.",
+    "model_answer": "0, 8, 11",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0, 8, 11",
+      "confidence": 0.42500001192092896,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "disconnected_nodes/adjacency/test/174",
+    "question": "Q: List all the nodes that are not connected to 2 in alphabetical order.\nA: ",
+    "expected_answer": "10.",
+    "model_answer": "10",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "10",
+      "confidence": 0.125,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "disconnected_nodes/adjacency/test/175",
+    "question": "Q: List all the nodes that are not connected to 0 in alphabetical order.\nA: ",
+    "expected_answer": "No nodes.",
+    "model_answer": "3,4,5",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3,4,5",
+      "confidence": 0.30000001192092896,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "disconnected_nodes/adjacency/test/176",
+    "question": "Q: List all the nodes that are not connected to 9 in alphabetical order.\nA: ",
+    "expected_answer": "0, 10, 11, 12, 2, 3, 4, 5, 6, 7, 8.",
+    "model_answer": "3, 4, 6, 10",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3, 4, 6, 10",
+      "confidence": 0.359375,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "disconnected_nodes/adjacency/test/177",
+    "question": "Q: List all the nodes that are not connected to 2 in alphabetical order.\nA: ",
+    "expected_answer": "4, 5, 6, 7, 8.",
+    "model_answer": "4, 7",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "4, 7",
+      "confidence": 0.15625,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "disconnected_nodes/adjacency/test/178",
+    "question": "Q: List all the nodes that are not connected to 2 in alphabetical order.\nA: ",
+    "expected_answer": "10, 11, 5, 6, 7, 8, 9.",
+    "model_answer": "5, 6, 7, 8, 9, 10, 11, 12",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "5, 6, 7, 8, 9, 10, 11, 12",
+      "confidence": 0.8125,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "disconnected_nodes/adjacency/test/179",
+    "question": "Q: List all the nodes that are not connected to 8 in alphabetical order.\nA: ",
+    "expected_answer": "1, 10, 11, 2, 3, 5, 6, 7, 9.",
+    "model_answer": "3, 9, 11",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3, 9, 11",
+      "confidence": 0.265625,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "disconnected_nodes/adjacency/test/180",
+    "question": "Q: List all the nodes that are not connected to 1 in alphabetical order.\nA: ",
+    "expected_answer": "10, 11, 9.",
+    "model_answer": "2, 3, 4, 5, 6, 7, 8, 9, 10, 11",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2, 3, 4, 5, 6, 7, 8, 9, 10, 11",
+      "confidence": 0.96875,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "disconnected_nodes/adjacency/test/181",
+    "question": "Q: List all the nodes that are not connected to 5 in alphabetical order.\nA: ",
+    "expected_answer": "1, 2, 3, 4, 6, 7, 8, 9.",
+    "model_answer": "0, 1, 2, 4, 6, 7, 8, 9",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0, 1, 2, 4, 6, 7, 8, 9",
+      "confidence": 0.71875,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "disconnected_nodes/adjacency/test/182",
+    "question": "Q: List all the nodes that are not connected to 1 in alphabetical order.\nA: ",
+    "expected_answer": "3, 4, 5.",
+    "model_answer": "0",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": 0.046875,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "disconnected_nodes/adjacency/test/183",
+    "question": "Q: List all the nodes that are not connected to 0 in alphabetical order.\nA: ",
+    "expected_answer": "10, 11, 12, 13, 14, 16, 17, 3, 4, 5, 6, 7, 8, 9.",
+    "model_answer": "14, 3, 5, 9, 11, 12, 13, 16, 17",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "14, 3, 5, 9, 11, 12, 13, 16, 17",
+      "confidence": 0.984375,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "disconnected_nodes/adjacency/test/184",
+    "question": "Q: List all the nodes that are not connected to 10 in alphabetical order.\nA: ",
+    "expected_answer": "0, 1, 11, 12, 3, 4, 5, 6, 7, 8, 9.",
+    "model_answer": "3, 5",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3, 5",
+      "confidence": 0.3214285969734192,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "disconnected_nodes/adjacency/test/185",
+    "question": "Q: List all the nodes that are not connected to 0 in alphabetical order.\nA: ",
+    "expected_answer": "6, 7, 8, 9.",
+    "model_answer": "5",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "5",
+      "confidence": 0.1428571492433548,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "disconnected_nodes/adjacency/test/186",
+    "question": "Q: List all the nodes that are not connected to 1 in alphabetical order.\nA: ",
+    "expected_answer": "3, 4, 6, 7, 8.",
+    "model_answer": "6, 7",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "6, 7",
+      "confidence": 0.3571428656578064,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "disconnected_nodes/adjacency/test/187",
+    "question": "Q: List all the nodes that are not connected to 2 in alphabetical order.\nA: ",
+    "expected_answer": "3, 4, 5, 6, 7, 8, 9.",
+    "model_answer": "3, 4, 6, 7",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3, 4, 6, 7",
+      "confidence": 0.785714328289032,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "disconnected_nodes/adjacency/test/188",
+    "question": "Q: List all the nodes that are not connected to 3 in alphabetical order.\nA: ",
+    "expected_answer": "0, 1, 4, 5, 6, 7.",
+    "model_answer": "0, 1, 2, 5",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0, 1, 2, 5",
+      "confidence": 0.785714328289032,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "disconnected_nodes/adjacency/test/189",
+    "question": "Q: List all the nodes that are not connected to 0 in alphabetical order.\nA: ",
+    "expected_answer": "3, 4, 6.",
+    "model_answer": "1, 3, 4, 6, 7",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1, 3, 4, 6, 7",
+      "confidence": 1.0,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "disconnected_nodes/adjacency/test/190",
+    "question": "Q: List all the nodes that are not connected to 6 in alphabetical order.\nA: ",
+    "expected_answer": "0, 1, 10, 11, 3, 4, 5, 7, 8, 9.",
+    "model_answer": "10",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "10",
+      "confidence": 0.1785714328289032,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "disconnected_nodes/adjacency/test/191",
+    "question": "Q: List all the nodes that are not connected to 6 in alphabetical order.\nA: ",
+    "expected_answer": "1, 10, 2, 3, 4, 5, 7, 8, 9.",
+    "model_answer": "3",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3",
+      "confidence": 0.1428571492433548,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "disconnected_nodes/adjacency/test/192",
+    "question": "Q: List all the nodes that are not connected to 5 in alphabetical order.\nA: ",
+    "expected_answer": "0, 1, 3, 4, 6.",
+    "model_answer": "0, 1, 2",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0, 1, 2",
+      "confidence": 0.14814814925193787,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "disconnected_nodes/adjacency/test/193",
+    "question": "Q: List all the nodes that are not connected to 5 in alphabetical order.\nA: ",
+    "expected_answer": "1, 3, 6, 7, 8, 9.",
+    "model_answer": "3, 7",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3, 7",
+      "confidence": 0.09259259700775146,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "disconnected_nodes/adjacency/test/194",
+    "question": "Q: List all the nodes that are not connected to 1 in alphabetical order.\nA: ",
+    "expected_answer": "3, 4, 5.",
+    "model_answer": "3, 2",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3, 2",
+      "confidence": 0.07407407462596893,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "disconnected_nodes/adjacency/test/195",
+    "question": "Q: List all the nodes that are not connected to 13 in alphabetical order.\nA: ",
+    "expected_answer": "0, 1, 10, 11, 12, 3, 4, 5, 6, 7, 8, 9.",
+    "model_answer": "6, 7, 8, 9",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "6, 7, 8, 9",
+      "confidence": 0.1944444477558136,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "disconnected_nodes/adjacency/test/196",
+    "question": "Q: List all the nodes that are not connected to 5 in alphabetical order.\nA: ",
+    "expected_answer": "0, 1, 3, 4, 6.",
+    "model_answer": "0, 1, 2, 3, 4, 6",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0, 1, 2, 3, 4, 6",
+      "confidence": 0.31481480598449707,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "disconnected_nodes/adjacency/test/197",
+    "question": "Q: List all the nodes that are not connected to 12 in alphabetical order.\nA: ",
+    "expected_answer": "0, 10, 11, 13, 14, 15, 2, 3, 4, 5, 6, 7, 8, 9.",
+    "model_answer": "7, 9, 10",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "7, 9, 10",
+      "confidence": 0.1666666716337204,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "disconnected_nodes/adjacency/test/198",
+    "question": "Q: List all the nodes that are not connected to 8 in alphabetical order.\nA: ",
+    "expected_answer": "0, 10, 11, 12, 13, 14, 15, 16, 2, 3, 4, 5, 6, 7, 9.",
+    "model_answer": "13, 11",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "13, 11",
+      "confidence": 0.12037037312984467,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "disconnected_nodes/adjacency/test/199",
+    "question": "Q: List all the nodes that are not connected to 17 in alphabetical order.\nA: ",
+    "expected_answer": "0, 1, 10, 11, 12, 13, 14, 15, 16, 2, 3, 4, 5, 6, 8, 9.",
+    "model_answer": "0, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16",
+      "confidence": 1.0,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "disconnected_nodes/adjacency/test/200",
+    "question": "Q: List all the nodes that are not connected to 9 in alphabetical order.\nA: ",
+    "expected_answer": "No nodes.",
+    "model_answer": "0, 1, 2, 3, 4, 5, 6, 7, 8, 10, 11, 12, 13, 14, 15",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0, 1, 2, 3, 4, 5, 6, 7, 8, 10, 11, 12, 13, 14, 15",
+      "confidence": 0.8620689511299133,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "disconnected_nodes/adjacency/test/201",
+    "question": "Q: List all the nodes that are not connected to 6 in alphabetical order.\nA: ",
+    "expected_answer": "No nodes.",
+    "model_answer": "0, 1, 2, 3, 4, 5, 7, 8, 9, 10, 11",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0, 1, 2, 3, 4, 5, 7, 8, 9, 10, 11",
+      "confidence": 0.5862069129943848,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "disconnected_nodes/adjacency/test/202",
+    "question": "Q: List all the nodes that are not connected to 5 in alphabetical order.\nA: ",
+    "expected_answer": "No nodes.",
+    "model_answer": "0, 1, 2, 3, 4, 6, 7",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0, 1, 2, 3, 4, 6, 7",
+      "confidence": 0.3448275923728943,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "disconnected_nodes/adjacency/test/203",
+    "question": "Q: List all the nodes that are not connected to 10 in alphabetical order.\nA: ",
+    "expected_answer": "No nodes.",
+    "model_answer": "2, 3, 4, 5, 6, 7, 8, 9, 11, 12, 13, 14",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2, 3, 4, 5, 6, 7, 8, 9, 11, 12, 13, 14",
+      "confidence": 0.6724137663841248,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "disconnected_nodes/adjacency/test/204",
+    "question": "Q: List all the nodes that are not connected to 4 in alphabetical order.\nA: ",
+    "expected_answer": "No nodes.",
+    "model_answer": "0, 1, 2, 3, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0, 1, 2, 3, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17",
+      "confidence": 1.0,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "disconnected_nodes/adjacency/test/205",
+    "question": "Q: List all the nodes that are not connected to 8 in alphabetical order.\nA: ",
+    "expected_answer": "No nodes.",
+    "model_answer": "0, 1, 2, 3, 4, 5, 6, 7, 9, 10, 11",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0, 1, 2, 3, 4, 5, 6, 7, 9, 10, 11",
+      "confidence": 0.5862069129943848,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "disconnected_nodes/adjacency/test/206",
+    "question": "Q: List all the nodes that are not connected to 1 in alphabetical order.\nA: ",
+    "expected_answer": "No nodes.",
+    "model_answer": "0, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14",
+      "confidence": 0.7931034564971924,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "disconnected_nodes/adjacency/test/207",
+    "question": "Q: List all the nodes that are not connected to 2 in alphabetical order.\nA: ",
+    "expected_answer": "No nodes.",
+    "model_answer": "0, 3, 4",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0, 3, 4",
+      "confidence": 0.13793103396892548,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "disconnected_nodes/adjacency/test/208",
+    "question": "Q: List all the nodes that are not connected to 8 in alphabetical order.\nA: ",
+    "expected_answer": "No nodes.",
+    "model_answer": "10, 11, 12, 13, 14, 15, 16",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "10, 11, 12, 13, 14, 15, 16",
+      "confidence": 0.5299999713897705,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "disconnected_nodes/adjacency/test/209",
+    "question": "Q: List all the nodes that are not connected to 3 in alphabetical order.\nA: ",
+    "expected_answer": "No nodes.",
+    "model_answer": "0, 2, 4, 5",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0, 2, 4, 5",
+      "confidence": 0.2199999988079071,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "disconnected_nodes/adjacency/test/210",
+    "question": "Q: List all the nodes that are not connected to 3 in alphabetical order.\nA: ",
+    "expected_answer": "No nodes.",
+    "model_answer": "0, 2, 4, 5, 6",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0, 2, 4, 5, 6",
+      "confidence": 0.2800000011920929,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "disconnected_nodes/adjacency/test/211",
+    "question": "Q: List all the nodes that are not connected to 8 in alphabetical order.\nA: ",
+    "expected_answer": "No nodes.",
+    "model_answer": "0, 1, 2, 3, 4, 5, 6, 7, 9, 10, 11, 12, 13, 14, 15",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0, 1, 2, 3, 4, 5, 6, 7, 9, 10, 11, 12, 13, 14, 15",
+      "confidence": 0.9899999499320984,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "disconnected_nodes/adjacency/test/212",
+    "question": "Q: List all the nodes that are not connected to 8 in alphabetical order.\nA: ",
+    "expected_answer": "No nodes.",
+    "model_answer": "0, 1, 2, 3, 4, 5, 6, 7, 9, 10, 11, 12",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0, 1, 2, 3, 4, 5, 6, 7, 9, 10, 11, 12",
+      "confidence": 0.7599999904632568,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "disconnected_nodes/adjacency/test/213",
+    "question": "Q: List all the nodes that are not connected to 1 in alphabetical order.\nA: ",
+    "expected_answer": "No nodes.",
+    "model_answer": "3, 4, 5, 6, 7, 8, 9",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3, 4, 5, 6, 7, 8, 9",
+      "confidence": 0.38999998569488525,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "disconnected_nodes/adjacency/test/214",
+    "question": "Q: List all the nodes that are not connected to 11 in alphabetical order.\nA: ",
+    "expected_answer": "No nodes.",
+    "model_answer": "0, 2, 3, 4, 5, 6, 7, 8, 9, 10, 12, 13",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0, 2, 3, 4, 5, 6, 7, 8, 9, 10, 12, 13",
+      "confidence": 0.7599999904632568,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "disconnected_nodes/adjacency/test/215",
+    "question": "Q: List all the nodes that are not connected to 6 in alphabetical order.\nA: ",
+    "expected_answer": "No nodes.",
+    "model_answer": "0, 1, 2, 3, 4, 5",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0, 1, 2, 3, 4, 5",
+      "confidence": 0.3400000035762787,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "disconnected_nodes/adjacency/test/216",
+    "question": "Q: List all the nodes that are not connected to 2 in alphabetical order.\nA: ",
+    "expected_answer": "No nodes.",
+    "model_answer": "0, 3, 4, 5",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0, 3, 4, 5",
+      "confidence": 0.2291666716337204,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "disconnected_nodes/adjacency/test/217",
+    "question": "Q: List all the nodes that are not connected to 3 in alphabetical order.\nA: ",
+    "expected_answer": "No nodes.",
+    "model_answer": "0, 2, 5, 6, 7",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0, 2, 5, 6, 7",
+      "confidence": 0.2916666865348816,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "disconnected_nodes/adjacency/test/218",
+    "question": "Q: List all the nodes that are not connected to 2 in alphabetical order.\nA: ",
+    "expected_answer": "No nodes.",
+    "model_answer": "0, 3, 4, 5",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0, 3, 4, 5",
+      "confidence": 0.2291666716337204,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "disconnected_nodes/adjacency/test/219",
+    "question": "Q: List all the nodes that are not connected to 11 in alphabetical order.\nA: ",
+    "expected_answer": "No nodes.",
+    "model_answer": "0, 2, 3, 4, 5, 6, 7, 8, 9, 10, 12, 13",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0, 2, 3, 4, 5, 6, 7, 8, 9, 10, 12, 13",
+      "confidence": 0.7916666865348816,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "disconnected_nodes/adjacency/test/220",
+    "question": "Q: List all the nodes that are not connected to 12 in alphabetical order.\nA: ",
+    "expected_answer": "No nodes.",
+    "model_answer": "0, 3, 4, 6, 7, 8, 9, 10, 11, 13, 14, 15, 16, 17",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0, 3, 4, 6, 7, 8, 9, 10, 11, 13, 14, 15, 16, 17",
+      "confidence": 1.0,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "disconnected_nodes/adjacency/test/221",
+    "question": "Q: List all the nodes that are not connected to 0 in alphabetical order.\nA: ",
+    "expected_answer": "No nodes.",
+    "model_answer": "3, 4, 5, 6, 7",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3, 4, 5, 6, 7",
+      "confidence": 0.2916666865348816,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "disconnected_nodes/adjacency/test/222",
+    "question": "Q: List all the nodes that are not connected to 5 in alphabetical order.\nA: ",
+    "expected_answer": "No nodes.",
+    "model_answer": "1, 2, 3, 4, 6, 7, 8, 9",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1, 2, 3, 4, 6, 7, 8, 9",
+      "confidence": 0.4791666865348816,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "disconnected_nodes/adjacency/test/223",
+    "question": "Q: List all the nodes that are not connected to 7 in alphabetical order.\nA: ",
+    "expected_answer": "No nodes.",
+    "model_answer": "0, 1, 2, 3, 4, 5, 6, 8, 9, 10, 11, 12",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0, 1, 2, 3, 4, 5, 6, 8, 9, 10, 11, 12",
+      "confidence": 0.7916666865348816,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "disconnected_nodes/adjacency/test/224",
+    "question": "Q: List all the nodes that are not connected to 3 in alphabetical order.\nA: ",
+    "expected_answer": "No nodes.",
+    "model_answer": "12",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "12",
+      "confidence": 0.07894736528396606,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "disconnected_nodes/adjacency/test/225",
+    "question": "Q: List all the nodes that are not connected to 3 in alphabetical order.\nA: ",
+    "expected_answer": "No nodes.",
+    "model_answer": "0, 2, 4, 5",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0, 2, 4, 5",
+      "confidence": 0.28947368264198303,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "disconnected_nodes/adjacency/test/226",
+    "question": "Q: List all the nodes that are not connected to 2 in alphabetical order.\nA: ",
+    "expected_answer": "No nodes.",
+    "model_answer": "0, 1, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0, 1, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12",
+      "confidence": 1.0,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "disconnected_nodes/adjacency/test/227",
+    "question": "Q: List all the nodes that are not connected to 6 in alphabetical order.\nA: ",
+    "expected_answer": "No nodes.",
+    "model_answer": "0, 1, 2, 3, 4, 5, 7",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0, 1, 2, 3, 4, 5, 7",
+      "confidence": 0.5263158082962036,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "disconnected_nodes/adjacency/test/228",
+    "question": "Q: List all the nodes that are not connected to 4 in alphabetical order.\nA: ",
+    "expected_answer": "No nodes.",
+    "model_answer": "0, 1, 2, 3, 5, 6, 7, 8, 9, 10, 11, 12",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0, 1, 2, 3, 5, 6, 7, 8, 9, 10, 11, 12",
+      "confidence": 1.0,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "disconnected_nodes/adjacency/test/229",
+    "question": "Q: List all the nodes that are not connected to 0 in alphabetical order.\nA: ",
+    "expected_answer": "No nodes.",
+    "model_answer": "1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11",
+      "confidence": 0.8947368264198303,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "disconnected_nodes/adjacency/test/230",
+    "question": "Q: List all the nodes that are not connected to 1 in alphabetical order.\nA: ",
+    "expected_answer": "No nodes.",
+    "model_answer": "0, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11",
+      "confidence": 0.8947368264198303,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "disconnected_nodes/adjacency/test/231",
+    "question": "Q: List all the nodes that are not connected to 7 in alphabetical order.\nA: ",
+    "expected_answer": "No nodes.",
+    "model_answer": "0, 1, 2, 3, 4, 5, 6, 8, 9",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0, 1, 2, 3, 4, 5, 6, 8, 9",
+      "confidence": 0.6842105388641357,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "disconnected_nodes/adjacency/test/232",
+    "question": "Q: List all the nodes that are not connected to 3 in alphabetical order.\nA: ",
+    "expected_answer": "No nodes.",
+    "model_answer": "0, 2, 4, 5",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0, 2, 4, 5",
+      "confidence": 0.18965516984462738,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "disconnected_nodes/adjacency/test/233",
+    "question": "Q: List all the nodes that are not connected to 9 in alphabetical order.\nA: ",
+    "expected_answer": "No nodes.",
+    "model_answer": "0, 1, 2, 3, 4, 5, 6, 7, 8, 10, 11, 12, 13, 14, 15, 16, 17",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0, 1, 2, 3, 4, 5, 6, 7, 8, 10, 11, 12, 13, 14, 15, 16, 17",
+      "confidence": 1.0,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "disconnected_nodes/adjacency/test/234",
+    "question": "Q: List all the nodes that are not connected to 6 in alphabetical order.\nA: ",
+    "expected_answer": "No nodes.",
+    "model_answer": "0, 1, 2, 3, 4, 5, 7, 8, 9, 10, 11",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0, 1, 2, 3, 4, 5, 7, 8, 9, 10, 11",
+      "confidence": 0.5862069129943848,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "disconnected_nodes/adjacency/test/235",
+    "question": "Q: List all the nodes that are not connected to 7 in alphabetical order.\nA: ",
+    "expected_answer": "No nodes.",
+    "model_answer": "0, 1, 2, 3, 4, 5, 6, 8, 9",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0, 1, 2, 3, 4, 5, 6, 8, 9",
+      "confidence": 0.4482758641242981,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "disconnected_nodes/adjacency/test/236",
+    "question": "Q: List all the nodes that are not connected to 2 in alphabetical order.\nA: ",
+    "expected_answer": "No nodes.",
+    "model_answer": "3, 4, 5, 6, 7, 8",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3, 4, 5, 6, 7, 8",
+      "confidence": 0.2931034564971924,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "disconnected_nodes/adjacency/test/237",
+    "question": "Q: List all the nodes that are not connected to 6 in alphabetical order.\nA: ",
+    "expected_answer": "No nodes.",
+    "model_answer": "0, 1, 2, 3, 4, 5, 7",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0, 1, 2, 3, 4, 5, 7",
+      "confidence": 0.3448275923728943,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "disconnected_nodes/adjacency/test/238",
+    "question": "Q: List all the nodes that are not connected to 7 in alphabetical order.\nA: ",
+    "expected_answer": "No nodes.",
+    "model_answer": "0, 1, 2, 3, 4, 5, 6",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0, 1, 2, 3, 4, 5, 6",
+      "confidence": 0.3448275923728943,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "disconnected_nodes/adjacency/test/239",
+    "question": "Q: List all the nodes that are not connected to 2 in alphabetical order.\nA: ",
+    "expected_answer": "No nodes.",
+    "model_answer": "3, 4, 5, 6, 7",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3, 4, 5, 6, 7",
+      "confidence": 0.24137930572032928,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "disconnected_nodes/adjacency/test/240",
+    "question": "Q: List all the nodes that are not connected to 4 in alphabetical order.\nA: ",
+    "expected_answer": "No nodes.",
+    "model_answer": "0, 1, 2, 3, 5, 6, 7, 8, 9, 10, 11",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0, 1, 2, 3, 5, 6, 7, 8, 9, 10, 11",
+      "confidence": 0.739130437374115,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "disconnected_nodes/adjacency/test/241",
+    "question": "Q: List all the nodes that are not connected to 9 in alphabetical order.\nA: ",
+    "expected_answer": "No nodes.",
+    "model_answer": "0, 1, 2, 3, 4, 5, 6, 7, 8, 10",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0, 1, 2, 3, 4, 5, 6, 7, 8, 10",
+      "confidence": 0.6413043737411499,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "disconnected_nodes/adjacency/test/242",
+    "question": "Q: List all the nodes that are not connected to 2 in alphabetical order.\nA: ",
+    "expected_answer": "No nodes.",
+    "model_answer": "0, 3, 4, 5",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0, 3, 4, 5",
+      "confidence": 0.239130437374115,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "disconnected_nodes/adjacency/test/243",
+    "question": "Q: List all the nodes that are not connected to 9 in alphabetical order.\nA: ",
+    "expected_answer": "No nodes.",
+    "model_answer": "0, 1, 2, 3, 4, 5, 6, 7, 8",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0, 1, 2, 3, 4, 5, 6, 7, 8",
+      "confidence": 0.5652173757553101,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "disconnected_nodes/adjacency/test/244",
+    "question": "Q: List all the nodes that are not connected to 2 in alphabetical order.\nA: ",
+    "expected_answer": "No nodes.",
+    "model_answer": "0, 3, 4",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0, 3, 4",
+      "confidence": 0.17391304671764374,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "disconnected_nodes/adjacency/test/245",
+    "question": "Q: List all the nodes that are not connected to 3 in alphabetical order.\nA: ",
+    "expected_answer": "No nodes.",
+    "model_answer": "12",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "12",
+      "confidence": 0.06521739065647125,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "disconnected_nodes/adjacency/test/246",
+    "question": "Q: List all the nodes that are not connected to 1 in alphabetical order.\nA: ",
+    "expected_answer": "No nodes.",
+    "model_answer": "0, 2, 3, 4, 5, 6",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0, 2, 3, 4, 5, 6",
+      "confidence": 0.3695652186870575,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "disconnected_nodes/adjacency/test/247",
+    "question": "Q: List all the nodes that are not connected to 14 in alphabetical order.\nA: ",
+    "expected_answer": "No nodes.",
+    "model_answer": "0, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 15",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 15",
+      "confidence": 1.0,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "disconnected_nodes/adjacency/test/248",
+    "question": "Q: List all the nodes that are not connected to 15 in alphabetical order.\nA: ",
+    "expected_answer": "No nodes.",
+    "model_answer": "0, 2, 3, 4, 6, 7, 8, 9, 10, 11, 12, 13, 14, 16",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0, 2, 3, 4, 6, 7, 8, 9, 10, 11, 12, 13, 14, 16",
+      "confidence": 0.9999999403953552,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "disconnected_nodes/adjacency/test/249",
+    "question": "Q: List all the nodes that are not connected to 0 in alphabetical order.\nA: ",
+    "expected_answer": "No nodes.",
+    "model_answer": "12, 13, 14, 15, 16, 17",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "12, 13, 14, 15, 16, 17",
+      "confidence": 0.4893616735935211,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "disconnected_nodes/adjacency/test/250",
+    "question": "Q: List all the nodes that are not connected to 14 in alphabetical order.\nA: ",
+    "expected_answer": "1, 10, 11, 12, 13, 15, 2, 3, 4, 5, 6, 7, 8, 9.",
+    "model_answer": "3, 5, 7, 8, 9, 10, 12, 13",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3, 5, 7, 8, 9, 10, 12, 13",
+      "confidence": 0.5531914830207825,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "disconnected_nodes/adjacency/test/251",
+    "question": "Q: List all the nodes that are not connected to 10 in alphabetical order.\nA: ",
+    "expected_answer": "1, 11, 2, 3, 4, 5, 6, 7, 8, 9.",
+    "model_answer": "3, 4, 5, 6, 7, 8, 9",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3, 4, 5, 6, 7, 8, 9",
+      "confidence": 0.42553189396858215,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "disconnected_nodes/adjacency/test/252",
+    "question": "Q: List all the nodes that are not connected to 1 in alphabetical order.\nA: ",
+    "expected_answer": "2, 3, 4, 5, 6, 7.",
+    "model_answer": "3, 5",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3, 5",
+      "confidence": 0.10638297349214554,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "disconnected_nodes/adjacency/test/253",
+    "question": "Q: List all the nodes that are not connected to 0 in alphabetical order.\nA: ",
+    "expected_answer": "No nodes.",
+    "model_answer": "14",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "14",
+      "confidence": 0.06382978707551956,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "disconnected_nodes/adjacency/test/254",
+    "question": "Q: List all the nodes that are not connected to 11 in alphabetical order.\nA: ",
+    "expected_answer": "1, 10, 12, 13, 14, 15, 16, 17, 2, 3, 4, 5, 6, 7, 8, 9.",
+    "model_answer": "2, 4, 6, 7, 9, 10, 12, 13, 15, 16, 17",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2, 4, 6, 7, 9, 10, 12, 13, 15, 16, 17",
+      "confidence": 0.7978723049163818,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "disconnected_nodes/adjacency/test/255",
+    "question": "Q: List all the nodes that are not connected to 7 in alphabetical order.\nA: ",
+    "expected_answer": "1, 10, 11, 2, 3, 4, 5, 6, 8, 9.",
+    "model_answer": "3, 4, 5, 6, 9, 10",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3, 4, 5, 6, 9, 10",
+      "confidence": 0.3829787075519562,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "disconnected_nodes/adjacency/test/256",
+    "question": "Q: List all the nodes that are not connected to 1 in alphabetical order.\nA: ",
+    "expected_answer": "10, 11, 12, 13, 14, 2, 3, 4, 5, 6, 7, 8, 9.",
+    "model_answer": "3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14",
+      "confidence": 1.0,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "disconnected_nodes/adjacency/test/257",
+    "question": "Q: List all the nodes that are not connected to 1 in alphabetical order.\nA: ",
+    "expected_answer": "2, 3, 4, 5.",
+    "model_answer": "3, 4, 5",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3, 4, 5",
+      "confidence": 0.20000000298023224,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "disconnected_nodes/adjacency/test/258",
+    "question": "Q: List all the nodes that are not connected to 10 in alphabetical order.\nA: ",
+    "expected_answer": "1, 11, 12, 13, 14, 15, 16, 2, 3, 4, 5, 6, 7, 8, 9.",
+    "model_answer": "3, 4, 9",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3, 4, 9",
+      "confidence": 0.17499999701976776,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "disconnected_nodes/adjacency/test/259",
+    "question": "Q: List all the nodes that are not connected to 2 in alphabetical order.\nA: ",
+    "expected_answer": "1, 3, 4, 5.",
+    "model_answer": "3, 4",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3, 4",
+      "confidence": 0.125,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "disconnected_nodes/adjacency/test/260",
+    "question": "Q: List all the nodes that are not connected to 6 in alphabetical order.\nA: ",
+    "expected_answer": "1, 2, 3, 4, 5.",
+    "model_answer": "1, 2, 3, 4",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1, 2, 3, 4",
+      "confidence": 0.2750000059604645,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "disconnected_nodes/adjacency/test/261",
+    "question": "Q: List all the nodes that are not connected to 9 in alphabetical order.\nA: ",
+    "expected_answer": "1, 10, 11, 12, 13, 14, 15, 2, 3, 4, 5, 6, 7, 8.",
+    "model_answer": "10",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "10",
+      "confidence": 0.0625,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "disconnected_nodes/adjacency/test/262",
+    "question": "Q: List all the nodes that are not connected to 4 in alphabetical order.\nA: ",
+    "expected_answer": "1, 10, 11, 12, 2, 3, 5, 6, 7, 8, 9.",
+    "model_answer": "3, 10",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3, 10",
+      "confidence": 0.15000000596046448,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "disconnected_nodes/adjacency/test/263",
+    "question": "Q: List all the nodes that are not connected to 9 in alphabetical order.\nA: ",
+    "expected_answer": "1, 2, 3, 4, 5, 6, 7, 8.",
+    "model_answer": "3",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3",
+      "confidence": 0.03750000149011612,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "disconnected_nodes/adjacency/test/264",
+    "question": "Q: List all the nodes that are not connected to 5 in alphabetical order.\nA: ",
+    "expected_answer": "1, 10, 11, 12, 13, 2, 3, 4, 6, 7, 8, 9.",
+    "model_answer": "12",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "12",
+      "confidence": 0.4285714626312256,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "disconnected_nodes/adjacency/test/265",
+    "question": "Q: List all the nodes that are not connected to 4 in alphabetical order.\nA: ",
+    "expected_answer": "1, 2, 3, 5, 6, 7.",
+    "model_answer": "3",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3",
+      "confidence": 0.2857142984867096,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "disconnected_nodes/adjacency/test/266",
+    "question": "Q: List all the nodes that are not connected to 4 in alphabetical order.\nA: ",
+    "expected_answer": "1, 2, 3, 5, 6.",
+    "model_answer": "3",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3",
+      "confidence": 0.2857142984867096,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "disconnected_nodes/adjacency/test/267",
+    "question": "Q: List all the nodes that are not connected to 3 in alphabetical order.\nA: ",
+    "expected_answer": "1, 2, 4, 5, 6, 7.",
+    "model_answer": "4",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "4",
+      "confidence": 0.2857142984867096,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "disconnected_nodes/adjacency/test/268",
+    "question": "Q: List all the nodes that are not connected to 4 in alphabetical order.\nA: ",
+    "expected_answer": "1, 2, 3, 5, 6.",
+    "model_answer": "3",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3",
+      "confidence": 0.2857142984867096,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "disconnected_nodes/adjacency/test/269",
+    "question": "Q: List all the nodes that are not connected to 13 in alphabetical order.\nA: ",
+    "expected_answer": "1, 10, 11, 12, 2, 3, 4, 5, 6, 7, 8, 9.",
+    "model_answer": "4",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "4",
+      "confidence": 0.2142857313156128,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "disconnected_nodes/adjacency/test/270",
+    "question": "Q: List all the nodes that are not connected to 8 in alphabetical order.\nA: ",
+    "expected_answer": "1, 10, 11, 12, 13, 14, 15, 16, 17, 2, 3, 4, 5, 6, 7, 9.",
+    "model_answer": "10, 13",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "10, 13",
+      "confidence": 1.0,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "disconnected_nodes/adjacency/test/271",
+    "question": "Q: List all the nodes that are not connected to 1 in alphabetical order.\nA: ",
+    "expected_answer": "2, 3, 4, 5, 6, 7.",
+    "model_answer": "3, 5",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3, 5",
+      "confidence": 0.7142857313156128,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "disconnected_nodes/adjacency/test/272",
+    "question": "Q: List all the nodes that are not connected to 8 in alphabetical order.\nA: ",
+    "expected_answer": "1, 2, 3, 4, 5, 6, 7, 9.",
+    "model_answer": "1, 2, 3, 4, 5, 6, 7, 9",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1, 2, 3, 4, 5, 6, 7, 9",
+      "confidence": 1.0,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "disconnected_nodes/adjacency/test/273",
+    "question": "Q: List all the nodes that are not connected to 11 in alphabetical order.\nA: ",
+    "expected_answer": "1, 10, 12, 2, 3, 4, 5, 6, 7, 8, 9.",
+    "model_answer": "3, 4, 6, 7, 8, 9, 10",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3, 4, 6, 7, 8, 9, 10",
+      "confidence": 0.9130434989929199,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "disconnected_nodes/adjacency/test/274",
+    "question": "Q: List all the nodes that are not connected to 9 in alphabetical order.\nA: ",
+    "expected_answer": "1, 10, 11, 12, 13, 2, 3, 4, 5, 6, 7, 8.",
+    "model_answer": "3, 4, 10",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3, 4, 10",
+      "confidence": 0.3913043439388275,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "disconnected_nodes/adjacency/test/275",
+    "question": "Q: List all the nodes that are not connected to 1 in alphabetical order.\nA: ",
+    "expected_answer": "2, 3, 4, 5.",
+    "model_answer": "3, 4, 5",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3, 4, 5",
+      "confidence": 0.3478260934352875,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "disconnected_nodes/adjacency/test/276",
+    "question": "Q: List all the nodes that are not connected to 5 in alphabetical order.\nA: ",
+    "expected_answer": "1, 10, 11, 12, 2, 3, 4, 6, 7, 8, 9.",
+    "model_answer": "10",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "10",
+      "confidence": 0.1304347813129425,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "disconnected_nodes/adjacency/test/277",
+    "question": "Q: List all the nodes that are not connected to 8 in alphabetical order.\nA: ",
+    "expected_answer": "1, 2, 3, 4, 5, 6, 7.",
+    "model_answer": "1, 2, 3, 4, 5, 6, 7",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1, 2, 3, 4, 5, 6, 7",
+      "confidence": 0.8695652484893799,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "disconnected_nodes/adjacency/test/278",
+    "question": "Q: List all the nodes that are not connected to 5 in alphabetical order.\nA: ",
+    "expected_answer": "1, 10, 11, 12, 2, 3, 4, 6, 7, 8, 9.",
+    "model_answer": "10",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "10",
+      "confidence": 0.1304347813129425,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "disconnected_nodes/adjacency/test/279",
+    "question": "Q: List all the nodes that are not connected to 5 in alphabetical order.\nA: ",
+    "expected_answer": "1, 10, 11, 2, 3, 4, 6, 7, 8, 9.",
+    "model_answer": "10",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "10",
+      "confidence": 0.1304347813129425,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "disconnected_nodes/adjacency/test/280",
+    "question": "Q: List all the nodes that are not connected to 7 in alphabetical order.\nA: ",
+    "expected_answer": "1, 10, 11, 2, 3, 4, 5, 6, 8, 9.",
+    "model_answer": "3, 4, 5, 6, 9, 10",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3, 4, 5, 6, 9, 10",
+      "confidence": 0.4285714328289032,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "disconnected_nodes/adjacency/test/281",
+    "question": "Q: List all the nodes that are not connected to 4 in alphabetical order.\nA: ",
+    "expected_answer": "1, 2, 3, 5, 6, 7, 8, 9.",
+    "model_answer": "3, 5, 7",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3, 5, 7",
+      "confidence": 0.190476194024086,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "disconnected_nodes/adjacency/test/282",
+    "question": "Q: List all the nodes that are not connected to 0 in alphabetical order.\nA: ",
+    "expected_answer": "No nodes.",
+    "model_answer": "3, 4, 5",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3, 4, 5",
+      "confidence": 0.190476194024086,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "disconnected_nodes/adjacency/test/283",
+    "question": "Q: List all the nodes that are not connected to 16 in alphabetical order.\nA: ",
+    "expected_answer": "1, 10, 11, 12, 13, 14, 15, 17, 2, 3, 4, 5, 6, 7, 8, 9.",
+    "model_answer": "2, 5, 7, 8, 9, 10, 11, 12, 13, 14, 15, 17",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2, 5, 7, 8, 9, 10, 11, 12, 13, 14, 15, 17",
+      "confidence": 1.0,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "disconnected_nodes/adjacency/test/284",
+    "question": "Q: List all the nodes that are not connected to 9 in alphabetical order.\nA: ",
+    "expected_answer": "1, 10, 11, 12, 2, 3, 4, 5, 6, 7, 8.",
+    "model_answer": "3, 4, 6, 7, 8, 10, 11",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3, 4, 6, 7, 8, 10, 11",
+      "confidence": 0.523809552192688,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "disconnected_nodes/adjacency/test/285",
+    "question": "Q: List all the nodes that are not connected to 9 in alphabetical order.\nA: ",
+    "expected_answer": "1, 2, 3, 4, 5, 6, 7, 8.",
+    "model_answer": "3",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3",
+      "confidence": 0.0357142873108387,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "disconnected_nodes/adjacency/test/286",
+    "question": "Q: List all the nodes that are not connected to 8 in alphabetical order.\nA: ",
+    "expected_answer": "1, 2, 3, 4, 5, 6, 7.",
+    "model_answer": "1, 2, 3, 4, 5, 6, 7",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1, 2, 3, 4, 5, 6, 7",
+      "confidence": 0.4761904776096344,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "disconnected_nodes/adjacency/test/287",
+    "question": "Q: List all the nodes that are not connected to 1 in alphabetical order.\nA: ",
+    "expected_answer": "2, 3, 4, 5, 6, 7, 8, 9.",
+    "model_answer": "4, 6, 7, 8, 9",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "4, 6, 7, 8, 9",
+      "confidence": 0.3333333432674408,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "disconnected_nodes/adjacency/test/288",
+    "question": "Q: List all the nodes that are not connected to 3 in alphabetical order.\nA: ",
+    "expected_answer": "1, 2, 4, 5, 6, 7.",
+    "model_answer": "4",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "4",
+      "confidence": 0.05128205195069313,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "disconnected_nodes/adjacency/test/289",
+    "question": "Q: List all the nodes that are not connected to 4 in alphabetical order.\nA: ",
+    "expected_answer": "1, 2, 3, 5, 6, 7.",
+    "model_answer": "3",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3",
+      "confidence": 0.05128205195069313,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "disconnected_nodes/adjacency/test/290",
+    "question": "Q: List all the nodes that are not connected to 5 in alphabetical order.\nA: ",
+    "expected_answer": "1, 10, 11, 2, 3, 4, 6, 7, 8, 9.",
+    "model_answer": "10",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "10",
+      "confidence": 0.07692307978868484,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "disconnected_nodes/adjacency/test/291",
+    "question": "Q: List all the nodes that are not connected to 2 in alphabetical order.\nA: ",
+    "expected_answer": "1, 10, 3, 4, 5, 6, 7, 8, 9.",
+    "model_answer": "3, 4, 5, 6, 7, 8, 9, 10",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3, 4, 5, 6, 7, 8, 9, 10",
+      "confidence": 0.6153846383094788,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "disconnected_nodes/adjacency/test/292",
+    "question": "Q: List all the nodes that are not connected to 6 in alphabetical order.\nA: ",
+    "expected_answer": "1, 2, 3, 4, 5.",
+    "model_answer": "1, 2, 3, 4",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1, 2, 3, 4",
+      "confidence": 0.28205129504203796,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "disconnected_nodes/adjacency/test/293",
+    "question": "Q: List all the nodes that are not connected to 0 in alphabetical order.\nA: ",
+    "expected_answer": "No nodes.",
+    "model_answer": "2, 4, 5, 6, 7, 8, 9",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2, 4, 5, 6, 7, 8, 9",
+      "confidence": 0.5128205418586731,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "disconnected_nodes/adjacency/test/294",
+    "question": "Q: List all the nodes that are not connected to 3 in alphabetical order.\nA: ",
+    "expected_answer": "1, 2, 4, 5.",
+    "model_answer": "2",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2",
+      "confidence": 0.05128205195069313,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "disconnected_nodes/adjacency/test/295",
+    "question": "Q: List all the nodes that are not connected to 0 in alphabetical order.\nA: ",
+    "expected_answer": "No nodes.",
+    "model_answer": "2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13",
+      "confidence": 0.9871795177459717,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "disconnected_nodes/adjacency/test/296",
+    "question": "Q: List all the nodes that are not connected to 5 in alphabetical order.\nA: ",
+    "expected_answer": "1, 2, 3, 4, 6.",
+    "model_answer": "1, 4, 6",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1, 4, 6",
+      "confidence": 0.1818181872367859,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "disconnected_nodes/adjacency/test/297",
+    "question": "Q: List all the nodes that are not connected to 1 in alphabetical order.\nA: ",
+    "expected_answer": "10, 11, 12, 13, 14, 15, 2, 3, 4, 5, 6, 7, 8, 9.",
+    "model_answer": "3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15",
+      "confidence": 0.9886363744735718,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "disconnected_nodes/adjacency/test/298",
+    "question": "Q: List all the nodes that are not connected to 6 in alphabetical order.\nA: ",
+    "expected_answer": "1, 10, 11, 12, 13, 14, 15, 16, 2, 3, 4, 5, 7, 8, 9.",
+    "model_answer": "3, 10",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3, 10",
+      "confidence": 0.11363636702299118,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "disconnected_nodes/adjacency/test/299",
+    "question": "Q: List all the nodes that are not connected to 4 in alphabetical order.\nA: ",
+    "expected_answer": "1, 10, 11, 12, 13, 14, 15, 16, 17, 2, 3, 5, 6, 7, 8, 9.",
+    "model_answer": "10",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "10",
+      "confidence": 0.06818182021379471,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "disconnected_nodes/adjacency/test/300",
+    "question": "Q: List all the nodes that are not connected to 10 in alphabetical order.\nA: ",
+    "expected_answer": "0, 1, 12, 13, 14, 15, 2, 3, 4, 5, 6, 7, 8.",
+    "model_answer": "9",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "9",
+      "confidence": 0.022727273404598236,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "disconnected_nodes/adjacency/test/301",
+    "question": "Q: List all the nodes that are not connected to 8 in alphabetical order.\nA: ",
+    "expected_answer": "0, 1, 10, 11, 2, 3, 4, 5, 6.",
+    "model_answer": "0, 1, 2, 3, 4, 5, 6, 7",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0, 1, 2, 3, 4, 5, 6, 7",
+      "confidence": 0.5227273106575012,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "disconnected_nodes/adjacency/test/302",
+    "question": "Q: List all the nodes that are not connected to 5 in alphabetical order.\nA: ",
+    "expected_answer": "0, 1, 2, 3, 7.",
+    "model_answer": "0, 1, 2, 3",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0, 1, 2, 3",
+      "confidence": 0.25,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "disconnected_nodes/adjacency/test/303",
+    "question": "Q: List all the nodes that are not connected to 6 in alphabetical order.\nA: ",
+    "expected_answer": "0, 1, 10, 11, 12, 13, 14, 2, 3, 4, 8, 9.",
+    "model_answer": "10",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "10",
+      "confidence": 0.06818182021379471,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "disconnected_nodes/adjacency/test/304",
+    "question": "Q: List all the nodes that are not connected to 16 in alphabetical order.\nA: ",
+    "expected_answer": "0, 1, 10, 11, 12, 13, 14, 2, 3, 4, 5, 6, 7, 8, 9.",
+    "model_answer": "0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12",
+      "confidence": 0.9999999403953552,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "disconnected_nodes/adjacency/test/305",
+    "question": "Q: List all the nodes that are not connected to 1 in alphabetical order.\nA: ",
+    "expected_answer": "10, 11, 3, 4, 5, 6, 7, 8, 9.",
+    "model_answer": "0, 2",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0, 2",
+      "confidence": 0.10975609719753265,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "disconnected_nodes/adjacency/test/306",
+    "question": "Q: List all the nodes that are not connected to 13 in alphabetical order.\nA: ",
+    "expected_answer": "0, 1, 10, 11, 2, 3, 4, 5, 6, 7, 8, 9.",
+    "model_answer": "0, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12",
+      "confidence": 0.8536584973335266,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "disconnected_nodes/adjacency/test/307",
+    "question": "Q: List all the nodes that are not connected to 2 in alphabetical order.\nA: ",
+    "expected_answer": "0, 4, 5.",
+    "model_answer": "0, 1",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0, 1",
+      "confidence": 0.12195121496915817,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "disconnected_nodes/adjacency/test/308",
+    "question": "Q: List all the nodes that are not connected to 8 in alphabetical order.\nA: ",
+    "expected_answer": "0, 1, 10, 11, 12, 13, 14, 15, 16, 2, 3, 4, 5, 6.",
+    "model_answer": "10, 12",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "10, 12",
+      "confidence": 0.15853658318519592,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "disconnected_nodes/adjacency/test/309",
+    "question": "Q: List all the nodes that are not connected to 5 in alphabetical order.\nA: ",
+    "expected_answer": "0, 1, 2, 3.",
+    "model_answer": "0, 1, 2, 3",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0, 1, 2, 3",
+      "confidence": 0.2682926654815674,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "disconnected_nodes/adjacency/test/310",
+    "question": "Q: List all the nodes that are not connected to 3 in alphabetical order.\nA: ",
+    "expected_answer": "0, 1, 5, 6.",
+    "model_answer": "0, 1",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0, 1",
+      "confidence": 0.10975609719753265,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "disconnected_nodes/adjacency/test/311",
+    "question": "Q: List all the nodes that are not connected to 7 in alphabetical order.\nA: ",
+    "expected_answer": "0, 1, 10, 11, 12, 13, 14, 15, 2, 3, 4, 5, 9.",
+    "model_answer": "10",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "10",
+      "confidence": 0.060975607484579086,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "disconnected_nodes/adjacency/test/312",
+    "question": "Q: List all the nodes that are not connected to 5 in alphabetical order.\nA: ",
+    "expected_answer": "0, 1, 10, 11, 12, 2, 3, 7, 8, 9.",
+    "model_answer": "0, 1, 2, 3, 4",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0, 1, 2, 3, 4",
+      "confidence": 0.3333333432674408,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "disconnected_nodes/adjacency/test/313",
+    "question": "Q: List all the nodes that are not connected to 8 in alphabetical order.\nA: ",
+    "expected_answer": "0, 1, 2, 3, 4, 5, 6.",
+    "model_answer": "1, 2, 3, 4, 5, 6",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1, 2, 3, 4, 5, 6",
+      "confidence": 0.4047619104385376,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "disconnected_nodes/adjacency/test/314",
+    "question": "Q: List all the nodes that are not connected to 1 in alphabetical order.\nA: ",
+    "expected_answer": "10, 11, 12, 13, 3, 4, 5, 6, 7, 8, 9.",
+    "model_answer": "0, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13",
+      "confidence": 0.9880952835083008,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "disconnected_nodes/adjacency/test/315",
+    "question": "Q: List all the nodes that are not connected to 0 in alphabetical order.\nA: ",
+    "expected_answer": "2, 3, 4, 5, 6, 7.",
+    "model_answer": "1, 2, 3, 4, 5, 6, 7",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1, 2, 3, 4, 5, 6, 7",
+      "confidence": 0.4761904776096344,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "disconnected_nodes/adjacency/test/316",
+    "question": "Q: List all the nodes that are not connected to 5 in alphabetical order.\nA: ",
+    "expected_answer": "0, 1, 2, 3.",
+    "model_answer": "1",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": 0.0476190485060215,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "disconnected_nodes/adjacency/test/317",
+    "question": "Q: List all the nodes that are not connected to 5 in alphabetical order.\nA: ",
+    "expected_answer": "0, 1, 2, 3, 7.",
+    "model_answer": "0, 1, 2, 3",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0, 1, 2, 3",
+      "confidence": 0.261904776096344,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "disconnected_nodes/adjacency/test/318",
+    "question": "Q: List all the nodes that are not connected to 6 in alphabetical order.\nA: ",
+    "expected_answer": "0, 1, 2, 3, 4.",
+    "model_answer": "1, 2, 3",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1, 2, 3",
+      "confidence": 0.1785714328289032,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "disconnected_nodes/adjacency/test/319",
+    "question": "Q: List all the nodes that are not connected to 9 in alphabetical order.\nA: ",
+    "expected_answer": "0, 1, 11, 12, 13, 2, 3, 4, 5, 6, 7.",
+    "model_answer": "10, 11, 12, 13",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "10, 11, 12, 13",
+      "confidence": 0.3333333432674408,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "disconnected_nodes/adjacency/test/320",
+    "question": "Q: List all the nodes that are not connected to 7 in alphabetical order.\nA: ",
+    "expected_answer": "0, 1, 10, 11, 12, 13, 14, 15, 16, 17, 2, 3, 4, 5, 9.",
+    "model_answer": "10, 9",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "10, 9",
+      "confidence": 0.30000001192092896,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "disconnected_nodes/adjacency/test/321",
+    "question": "Q: List all the nodes that are not connected to 2 in alphabetical order.\nA: ",
+    "expected_answer": "0, 4, 5, 6, 7.",
+    "model_answer": "0, 1",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0, 1",
+      "confidence": 0.25,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "disconnected_nodes/adjacency/test/322",
+    "question": "Q: List all the nodes that are not connected to 7 in alphabetical order.\nA: ",
+    "expected_answer": "0, 1, 2, 3, 4, 5, 9.",
+    "model_answer": "1, 2, 3, 4, 5",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1, 2, 3, 4, 5",
+      "confidence": 0.699999988079071,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "disconnected_nodes/adjacency/test/323",
+    "question": "Q: List all the nodes that are not connected to 7 in alphabetical order.\nA: ",
+    "expected_answer": "0, 1, 10, 11, 12, 2, 3, 4, 5, 9.",
+    "model_answer": "0, 1, 2, 3, 4, 5, 6",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0, 1, 2, 3, 4, 5, 6",
+      "confidence": 1.0,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "disconnected_nodes/adjacency/test/324",
+    "question": "Q: List all the nodes that are not connected to 10 in alphabetical order.\nA: ",
+    "expected_answer": "0, 1, 12, 13, 2, 3, 4, 5, 6, 7, 8.",
+    "model_answer": "6, 7, 8, 9",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "6, 7, 8, 9",
+      "confidence": 0.5250000357627869,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "disconnected_nodes/adjacency/test/325",
+    "question": "Q: List all the nodes that are not connected to 5 in alphabetical order.\nA: ",
+    "expected_answer": "0, 1, 2, 3.",
+    "model_answer": "0, 1, 2, 3",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0, 1, 2, 3",
+      "confidence": 0.550000011920929,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "disconnected_nodes/adjacency/test/326",
+    "question": "Q: List all the nodes that are not connected to 2 in alphabetical order.\nA: ",
+    "expected_answer": "0, 10, 11, 12, 4, 5, 6, 7, 8, 9.",
+    "model_answer": "0, 1",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0, 1",
+      "confidence": 0.25,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "disconnected_nodes/adjacency/test/327",
+    "question": "Q: List all the nodes that are not connected to 8 in alphabetical order.\nA: ",
+    "expected_answer": "0, 1, 2, 3, 4, 5, 6.",
+    "model_answer": "0, 1, 2, 3, 4, 5, 6",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0, 1, 2, 3, 4, 5, 6",
+      "confidence": 1.0,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "disconnected_nodes/adjacency/test/328",
+    "question": "Q: List all the nodes that are not connected to 9 in alphabetical order.\nA: ",
+    "expected_answer": "0, 1, 11, 12, 2, 3, 4, 5, 6, 7.",
+    "model_answer": "10",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "10",
+      "confidence": 0.11538462340831757,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "disconnected_nodes/adjacency/test/329",
+    "question": "Q: List all the nodes that are not connected to 9 in alphabetical order.\nA: ",
+    "expected_answer": "0, 1, 11, 2, 3, 4, 5, 6, 7.",
+    "model_answer": "0, 1, 2, 3, 4, 5, 6, 7, 8",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0, 1, 2, 3, 4, 5, 6, 7, 8",
+      "confidence": 1.0,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "disconnected_nodes/adjacency/test/330",
+    "question": "Q: List all the nodes that are not connected to 1 in alphabetical order.\nA: ",
+    "expected_answer": "10, 11, 3, 4, 5, 6, 7, 8, 9.",
+    "model_answer": "0, 2",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0, 2",
+      "confidence": 0.17307692766189575,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "disconnected_nodes/adjacency/test/331",
+    "question": "Q: List all the nodes that are not connected to 2 in alphabetical order.\nA: ",
+    "expected_answer": "0, 4, 5, 6, 7, 8, 9.",
+    "model_answer": "0, 1",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0, 1",
+      "confidence": 0.19230769574642181,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "disconnected_nodes/adjacency/test/332",
+    "question": "Q: List all the nodes that are not connected to 4 in alphabetical order.\nA: ",
+    "expected_answer": "0, 1, 2.",
+    "model_answer": "0, 1, 2",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0, 1, 2",
+      "confidence": 0.3076923191547394,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "disconnected_nodes/adjacency/test/333",
+    "question": "Q: List all the nodes that are not connected to 7 in alphabetical order.\nA: ",
+    "expected_answer": "0, 1, 10, 11, 12, 13, 14, 15, 16, 17, 2, 3, 4, 5, 9.",
+    "model_answer": "10, 9",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "10, 9",
+      "confidence": 0.23076924681663513,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "disconnected_nodes/adjacency/test/334",
+    "question": "Q: List all the nodes that are not connected to 11 in alphabetical order.\nA: ",
+    "expected_answer": "0, 1, 2, 3, 4, 5, 6, 7, 8, 9.",
+    "model_answer": "0, 2, 3, 4, 5, 6, 7, 8, 9",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0, 2, 3, 4, 5, 6, 7, 8, 9",
+      "confidence": 1.0,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "disconnected_nodes/adjacency/test/335",
+    "question": "Q: List all the nodes that are not connected to 2 in alphabetical order.\nA: ",
+    "expected_answer": "0, 4, 5, 6, 7, 8, 9.",
+    "model_answer": "0, 1",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0, 1",
+      "confidence": 0.19230769574642181,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "disconnected_nodes/adjacency/test/336",
+    "question": "Q: List all the nodes that are not connected to 8 in alphabetical order.\nA: ",
+    "expected_answer": "0, 1, 2, 3, 4, 5, 6.",
+    "model_answer": "0, 1, 2, 3, 4, 5, 6",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0, 1, 2, 3, 4, 5, 6",
+      "confidence": 0.8695652484893799,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "disconnected_nodes/adjacency/test/337",
+    "question": "Q: List all the nodes that are not connected to 8 in alphabetical order.\nA: ",
+    "expected_answer": "0, 1, 2, 3, 4, 5, 6.",
+    "model_answer": "1, 2, 3, 4, 5, 6",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1, 2, 3, 4, 5, 6",
+      "confidence": 0.739130437374115,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "disconnected_nodes/adjacency/test/338",
+    "question": "Q: List all the nodes that are not connected to 6 in alphabetical order.\nA: ",
+    "expected_answer": "0, 1, 2, 3, 4.",
+    "model_answer": "0, 1, 2, 3, 4",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0, 1, 2, 3, 4",
+      "confidence": 0.6086956858634949,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "disconnected_nodes/adjacency/test/339",
+    "question": "Q: List all the nodes that are not connected to 5 in alphabetical order.\nA: ",
+    "expected_answer": "0, 1, 2, 3, 7.",
+    "model_answer": "0, 1, 2, 3",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0, 1, 2, 3",
+      "confidence": 0.47826087474823,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "disconnected_nodes/adjacency/test/340",
+    "question": "Q: List all the nodes that are not connected to 2 in alphabetical order.\nA: ",
+    "expected_answer": "0, 10, 11, 4, 5, 6, 7, 8, 9.",
+    "model_answer": "0, 1, 3",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0, 1, 3",
+      "confidence": 0.3478260934352875,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "disconnected_nodes/adjacency/test/341",
+    "question": "Q: List all the nodes that are not connected to 8 in alphabetical order.\nA: ",
+    "expected_answer": "0, 1, 10, 2, 3, 4, 5, 6.",
+    "model_answer": "0, 1, 2, 3, 4, 5, 6, 7",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0, 1, 2, 3, 4, 5, 6, 7",
+      "confidence": 0.97826087474823,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "disconnected_nodes/adjacency/test/342",
+    "question": "Q: List all the nodes that are not connected to 4 in alphabetical order.\nA: ",
+    "expected_answer": "0, 1, 2, 6.",
+    "model_answer": "0, 1, 2",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0, 1, 2",
+      "confidence": 0.3478260934352875,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "disconnected_nodes/adjacency/test/343",
+    "question": "Q: List all the nodes that are not connected to 8 in alphabetical order.\nA: ",
+    "expected_answer": "0, 1, 2, 3, 4, 5, 6.",
+    "model_answer": "1, 2, 3, 4, 5, 6",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1, 2, 3, 4, 5, 6",
+      "confidence": 0.739130437374115,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "disconnected_nodes/adjacency/test/344",
+    "question": "Q: List all the nodes that are not connected to 4 in alphabetical order.\nA: ",
+    "expected_answer": "0, 1, 2.",
+    "model_answer": "0, 1, 2",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0, 1, 2",
+      "confidence": 0.14814814925193787,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "disconnected_nodes/adjacency/test/345",
+    "question": "Q: List all the nodes that are not connected to 9 in alphabetical order.\nA: ",
+    "expected_answer": "0, 1, 11, 12, 13, 2, 3, 4, 5, 6, 7.",
+    "model_answer": "10, 11, 12, 13",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "10, 11, 12, 13",
+      "confidence": 0.26851850748062134,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "disconnected_nodes/adjacency/test/346",
+    "question": "Q: List all the nodes that are not connected to 6 in alphabetical order.\nA: ",
+    "expected_answer": "0, 1, 2, 3, 4.",
+    "model_answer": "1, 2, 3",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1, 2, 3",
+      "confidence": 0.14814814925193787,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "disconnected_nodes/adjacency/test/347",
+    "question": "Q: List all the nodes that are not connected to 14 in alphabetical order.\nA: ",
+    "expected_answer": "0, 1, 10, 11, 12, 2, 3, 4, 5, 6, 7, 8, 9.",
+    "model_answer": "0, 2, 3, 5, 6, 7, 8, 9, 10, 11, 12, 13",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0, 2, 3, 5, 6, 7, 8, 9, 10, 11, 12, 13",
+      "confidence": 0.7222222089767456,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "disconnected_nodes/adjacency/test/348",
+    "question": "Q: List all the nodes that are not connected to 1 in alphabetical order.\nA: ",
+    "expected_answer": "10, 11, 12, 13, 14, 15, 16, 3, 4, 5, 6, 7, 8, 9.",
+    "model_answer": "0, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16",
+      "confidence": 0.9907407760620117,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "disconnected_nodes/adjacency/test/349",
+    "question": "Q: List all the nodes that are not connected to 11 in alphabetical order.\nA: ",
+    "expected_answer": "0, 1, 13, 14, 15, 16, 17, 2, 3, 4, 5, 6, 7, 8, 9.",
+    "model_answer": "0, 2, 3, 4, 5, 6, 7, 8, 9, 10",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0, 2, 3, 4, 5, 6, 7, 8, 9, 10",
+      "confidence": 0.5555555820465088,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  }
+]

@@ -18,8 +18,8 @@ model: llava
 
 
 modalities:
-  - text_only
-  - image_only
+  # - text_only
+  # - image_only
   - text_and_image
 
 text_encoding: "adjacency"

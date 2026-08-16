@@ -3,12 +3,13 @@
 data_dir: data
 
 tasks:
-  - connected_nodes
-  - shortest_path
-  #- cycle_check
-  - node_degree
-  - node_count
-  - edge_existence
+  # - connected_nodes
+  # - shortest_path
+  # #- cycle_check
+  # - node_degree
+  # - node_count
+  # - edge_existence
+  - triangle_counting
 
 model: qwen-3b
    #Qwen2.5-VL
