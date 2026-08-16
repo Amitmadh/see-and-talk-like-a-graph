@@ -22,7 +22,7 @@ TEXT_AND_IMAGE = "image_and_text"
 SETTINGS = {TEXT_ONLY, IMAGE_ONLY, TEXT_AND_IMAGE}
 
 FORMAT_RESTRICTION_PROMPT = """
-Answer with exactly one value and nothing else.
+Answer with exactly one answer and nothing else.
 
 For yes/no questions, output exactly:
 True
@@ -30,6 +30,12 @@ or
 False
 
 For numeric questions, output only the number.
+
+For questions asking for a list of nodes, output only the node numbers,
+separated by commas. Do not include brackets or any explanation.
+
+Example:
+8, 11, 13
 """
 
 

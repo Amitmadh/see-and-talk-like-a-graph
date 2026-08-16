@@ -62,10 +62,10 @@ def parse_expected(task, answer):
     text = answer.lower()
 
     if task_type == "boolean":
-        if re.search(r"\b(true|yes)\b", text):
+        if re.search(r"\b(true|yes)\b", text, re.IGNORECASE):
             return ParsedAnswer(True, True, answer)
 
-        if re.search(r"\b(false|no)\b", text):
+        if re.search(r"\b(false|no)\b", text, re.IGNORECASE):
             return ParsedAnswer(False, True, answer)
 
     elif task_type == "number":
@@ -79,7 +79,8 @@ def parse_expected(task, answer):
             )
 
     elif task_type == "list":
-        # Extract all integer values from the expected answer.
+        # Extract all integer values from the expected answer. 
+        # also support space-seperated numbers (0 1 2)
         numbers = re.findall(r"-?\d+", text)
 
         if numbers:
@@ -93,6 +94,7 @@ def parse_expected(task, answer):
         if re.search(
             r"\b(none|no nodes|no other nodes)\b",
             text,
+            re.IGNORECASE,
         ):
             return ParsedAnswer([], True, answer)
 
@@ -107,7 +109,7 @@ def parse_model_answer(task, answer):
 
       boolean -> exactly True / False
       number  -> exactly one integer
-      list    -> comma-separated integers, optionally in []
+      list    -> comma-separated integers, or space-seperated, optionally in []
 
     Everything else is considered wrong format.
     """
@@ -157,10 +159,8 @@ def parse_model_answer(task, answer):
         #
         #   [1, 2, 3]
         #   1, 2, 3
+        # 1 2 3
         #
-        # but NOT:
-        #
-        #   The nodes are 1, 2, 3
         #
         if answer.startswith("[") and answer.endswith("]"):
             answer = answer[1:-1].strip()
@@ -171,11 +171,20 @@ def parse_model_answer(task, answer):
                 True,
                 original_answer,
             )
-
-        parts = [
-            x.strip()
-            for x in answer.split(",")
-        ]
+        
+        if re.fullmatch(
+        r"(none|no nodes|no other nodes|false)",
+        answer.strip(),
+        re.IGNORECASE,
+        ):
+             return ParsedAnswer(
+                            [],
+                            True,
+                            original_answer,
+            )
+        
+        # accept comma-seperated or white space seperated list.
+        parts = re.split(r"[,\s]+", answer.strip())
 
         if all(
             re.fullmatch(r"-?\d+", x)
