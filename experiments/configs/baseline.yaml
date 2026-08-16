@@ -9,7 +9,7 @@ tasks:
   # - node_degree
   # - node_count
   # - edge_existence
-  - disconnected_components
+  - disconnected_nodes
   - edge_count
   - triangle_counting
 
