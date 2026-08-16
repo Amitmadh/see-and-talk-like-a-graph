@@ -1,7 +1,6 @@
 {
-  "generated_at": "2026-08-12T13:12:04.932296+00:00",
+  "generated_at": "2026-08-16T15:16:23.898918+00:00",
   "results_root": "results\\mixed_baseline",
-  "image_type_filter": "spring",
   "files": [
     {
       "setting": "text_and_image",
@@ -2270,7 +2269,2420 @@
           "matches_original": false,
           "matches_corrupted": true
         }
-      ]
+      ],
+      "wrong_format_answers": []
+    },
+    {
+      "setting": "text_and_image",
+      "task": "disconnected_nodes",
+      "file_name": "spring_corrupt-text_Qwen2.5-VL-3B-Instruct.jsonl",
+      "image_type": "spring",
+      "model": "Qwen2.5-VL-3B-Instruct",
+      "total": 12,
+      "correct": 0,
+      "incorrect": 12,
+      "wrong_format": 0,
+      "bad_expected": 0,
+      "accuracy": 0.0,
+      "image_wins": 8,
+      "text_wins": 0,
+      "neither_wins": 4,
+      "both_wins": 0,
+      "invalid_original": 0,
+      "invalid_corrupted": 0,
+      "image_win_rate": 0.666667,
+      "text_win_rate": 0.0,
+      "neither_rate": 0.333333,
+      "both_rate": 0.0,
+      "valid_modality_total": 12,
+      "path": "results\\mixed_baseline\\text_and_image\\disconnected_nodes\\spring_corrupt-text_Qwen2.5-VL-3B-Instruct.jsonl",
+      "samples": [
+        {
+          "sample_id": "disconnected_nodes/adjacency/test/27",
+          "expected_answer": "1, 2, 3, 4.",
+          "original_answer": "1, 2, 4.",
+          "corrupted_answer": "1, 2, 3, 4.",
+          "model_answer": "2, 3, 4",
+          "corruption": {
+            "type": "remove_edge",
+            "edge": [
+              0,
+              3
+            ]
+          },
+          "correct": false,
+          "correctness_status": "incorrect",
+          "modality_winner": "neither",
+          "matches_original": false,
+          "matches_corrupted": false
+        },
+        {
+          "sample_id": "disconnected_nodes/adjacency/test/96",
+          "expected_answer": "0, 1, 2, 3, 5.",
+          "original_answer": "1, 2, 3, 5.",
+          "corrupted_answer": "0, 1, 2, 3, 5.",
+          "model_answer": "1, 2, 3, 5",
+          "corruption": {
+            "type": "remove_edge",
+            "edge": [
+              4,
+              0
+            ]
+          },
+          "correct": false,
+          "correctness_status": "incorrect",
+          "modality_winner": "image",
+          "matches_original": true,
+          "matches_corrupted": false
+        },
+        {
+          "sample_id": "disconnected_nodes/adjacency/test/118",
+          "expected_answer": "2, 3, 4, 5.",
+          "original_answer": "0, 2, 3, 4, 5.",
+          "corrupted_answer": "2, 3, 4, 5.",
+          "model_answer": "0, 2, 3, 4, 5",
+          "corruption": {
+            "type": "add_edge",
+            "edge": [
+              1,
+              0
+            ]
+          },
+          "correct": false,
+          "correctness_status": "incorrect",
+          "modality_winner": "image",
+          "matches_original": true,
+          "matches_corrupted": false
+        },
+        {
+          "sample_id": "disconnected_nodes/adjacency/test/174",
+          "expected_answer": "0, 10.",
+          "original_answer": "10.",
+          "corrupted_answer": "0, 10.",
+          "model_answer": "10",
+          "corruption": {
+            "type": "remove_edge",
+            "edge": [
+              2,
+              0
+            ]
+          },
+          "correct": false,
+          "correctness_status": "incorrect",
+          "modality_winner": "image",
+          "matches_original": true,
+          "matches_corrupted": false
+        },
+        {
+          "sample_id": "disconnected_nodes/adjacency/test/185",
+          "expected_answer": "1, 6, 7, 8, 9.",
+          "original_answer": "6, 7, 8, 9.",
+          "corrupted_answer": "1, 6, 7, 8, 9.",
+          "model_answer": "5, 3, 4",
+          "corruption": {
+            "type": "remove_edge",
+            "edge": [
+              0,
+              1
+            ]
+          },
+          "correct": false,
+          "correctness_status": "incorrect",
+          "modality_winner": "neither",
+          "matches_original": false,
+          "matches_corrupted": false
+        },
+        {
+          "sample_id": "disconnected_nodes/adjacency/test/187",
+          "expected_answer": "0, 3, 4, 5, 6, 7, 8, 9.",
+          "original_answer": "3, 4, 5, 6, 7, 8, 9.",
+          "corrupted_answer": "0, 3, 4, 5, 6, 7, 8, 9.",
+          "model_answer": "3, 4, 5, 6, 7, 8, 9",
+          "corruption": {
+            "type": "remove_edge",
+            "edge": [
+              2,
+              0
+            ]
+          },
+          "correct": false,
+          "correctness_status": "incorrect",
+          "modality_winner": "image",
+          "matches_original": true,
+          "matches_corrupted": false
+        },
+        {
+          "sample_id": "disconnected_nodes/adjacency/test/260",
+          "expected_answer": "0, 1, 2, 3, 4, 5.",
+          "original_answer": "1, 2, 3, 4, 5.",
+          "corrupted_answer": "0, 1, 2, 3, 4, 5.",
+          "model_answer": "1, 2, 3, 4, 5",
+          "corruption": {
+            "type": "remove_edge",
+            "edge": [
+              6,
+              0
+            ]
+          },
+          "correct": false,
+          "correctness_status": "incorrect",
+          "modality_winner": "image",
+          "matches_original": true,
+          "matches_corrupted": false
+        },
+        {
+          "sample_id": "disconnected_nodes/adjacency/test/263",
+          "expected_answer": "0, 1, 2, 3, 4, 5, 6, 7, 8.",
+          "original_answer": "1, 2, 3, 4, 5, 6, 7, 8.",
+          "corrupted_answer": "0, 1, 2, 3, 4, 5, 6, 7, 8.",
+          "model_answer": "3, 4, 5, 6, 7, 8",
+          "corruption": {
+            "type": "remove_edge",
+            "edge": [
+              9,
+              0
+            ]
+          },
+          "correct": false,
+          "correctness_status": "incorrect",
+          "modality_winner": "neither",
+          "matches_original": false,
+          "matches_corrupted": false
+        },
+        {
+          "sample_id": "disconnected_nodes/adjacency/test/272",
+          "expected_answer": "0, 1, 2, 3, 4, 5, 6, 7, 9.",
+          "original_answer": "1, 2, 3, 4, 5, 6, 7, 9.",
+          "corrupted_answer": "0, 1, 2, 3, 4, 5, 6, 7, 9.",
+          "model_answer": "1, 2, 3, 4, 5, 6, 7, 9",
+          "corruption": {
+            "type": "remove_edge",
+            "edge": [
+              8,
+              0
+            ]
+          },
+          "correct": false,
+          "correctness_status": "incorrect",
+          "modality_winner": "image",
+          "matches_original": true,
+          "matches_corrupted": false
+        },
+        {
+          "sample_id": "disconnected_nodes/adjacency/test/285",
+          "expected_answer": "0, 1, 2, 3, 4, 5, 6, 7, 8.",
+          "original_answer": "1, 2, 3, 4, 5, 6, 7, 8.",
+          "corrupted_answer": "0, 1, 2, 3, 4, 5, 6, 7, 8.",
+          "model_answer": "3, 4, 5, 6, 7, 8",
+          "corruption": {
+            "type": "remove_edge",
+            "edge": [
+              9,
+              0
+            ]
+          },
+          "correct": false,
+          "correctness_status": "incorrect",
+          "modality_winner": "neither",
+          "matches_original": false,
+          "matches_corrupted": false
+        },
+        {
+          "sample_id": "disconnected_nodes/adjacency/test/292",
+          "expected_answer": "0, 1, 2, 3, 4, 5.",
+          "original_answer": "1, 2, 3, 4, 5.",
+          "corrupted_answer": "0, 1, 2, 3, 4, 5.",
+          "model_answer": "1, 2, 3, 4, 5",
+          "corruption": {
+            "type": "remove_edge",
+            "edge": [
+              6,
+              0
+            ]
+          },
+          "correct": false,
+          "correctness_status": "incorrect",
+          "modality_winner": "image",
+          "matches_original": true,
+          "matches_corrupted": false
+        },
+        {
+          "sample_id": "disconnected_nodes/adjacency/test/296",
+          "expected_answer": "0, 1, 2, 3, 4, 6.",
+          "original_answer": "1, 2, 3, 4, 6.",
+          "corrupted_answer": "0, 1, 2, 3, 4, 6.",
+          "model_answer": "1, 2, 3, 4, 6",
+          "corruption": {
+            "type": "remove_edge",
+            "edge": [
+              5,
+              0
+            ]
+          },
+          "correct": false,
+          "correctness_status": "incorrect",
+          "modality_winner": "image",
+          "matches_original": true,
+          "matches_corrupted": false
+        }
+      ],
+      "wrong_format_answers": []
+    },
+    {
+      "setting": "text_and_image",
+      "task": "edge_count",
+      "file_name": "spring_corrupt-text_Qwen2.5-VL-3B-Instruct.jsonl",
+      "image_type": "spring",
+      "model": "Qwen2.5-VL-3B-Instruct",
+      "total": 112,
+      "correct": 69,
+      "incorrect": 43,
+      "wrong_format": 0,
+      "bad_expected": 0,
+      "accuracy": 0.616071,
+      "image_wins": 33,
+      "text_wins": 69,
+      "neither_wins": 10,
+      "both_wins": 0,
+      "invalid_original": 0,
+      "invalid_corrupted": 0,
+      "image_win_rate": 0.294643,
+      "text_win_rate": 0.616071,
+      "neither_rate": 0.089286,
+      "both_rate": 0.0,
+      "valid_modality_total": 112,
+      "path": "results\\mixed_baseline\\text_and_image\\edge_count\\spring_corrupt-text_Qwen2.5-VL-3B-Instruct.jsonl",
+      "samples": [
+        {
+          "sample_id": "edge_count/adjacency/test/15",
+          "expected_answer": "8",
+          "original_answer": " 7.",
+          "corrupted_answer": "8",
+          "model_answer": "8",
+          "corruption": {
+            "type": "add_edge",
+            "edge": [
+              0,
+              1
+            ]
+          },
+          "correct": true,
+          "correctness_status": "correct",
+          "modality_winner": "text",
+          "matches_original": false,
+          "matches_corrupted": true
+        },
+        {
+          "sample_id": "edge_count/adjacency/test/16",
+          "expected_answer": "9",
+          "original_answer": " 10.",
+          "corrupted_answer": "9",
+          "model_answer": "9",
+          "corruption": {
+            "type": "remove_edge",
+            "edge": [
+              0,
+              1
+            ]
+          },
+          "correct": true,
+          "correctness_status": "correct",
+          "modality_winner": "text",
+          "matches_original": false,
+          "matches_corrupted": true
+        },
+        {
+          "sample_id": "edge_count/adjacency/test/25",
+          "expected_answer": "8",
+          "original_answer": " 7.",
+          "corrupted_answer": "8",
+          "model_answer": "8",
+          "corruption": {
+            "type": "add_edge",
+            "edge": [
+              1,
+              2
+            ]
+          },
+          "correct": true,
+          "correctness_status": "correct",
+          "modality_winner": "text",
+          "matches_original": false,
+          "matches_corrupted": true
+        },
+        {
+          "sample_id": "edge_count/adjacency/test/27",
+          "expected_answer": "5",
+          "original_answer": " 4.",
+          "corrupted_answer": "5",
+          "model_answer": "5",
+          "corruption": {
+            "type": "add_edge",
+            "edge": [
+              0,
+              1
+            ]
+          },
+          "correct": true,
+          "correctness_status": "correct",
+          "modality_winner": "text",
+          "matches_original": false,
+          "matches_corrupted": true
+        },
+        {
+          "sample_id": "edge_count/adjacency/test/30",
+          "expected_answer": "6",
+          "original_answer": " 5.",
+          "corrupted_answer": "6",
+          "model_answer": "7",
+          "corruption": {
+            "type": "add_edge",
+            "edge": [
+              0,
+              1
+            ]
+          },
+          "correct": false,
+          "correctness_status": "incorrect",
+          "modality_winner": "neither",
+          "matches_original": false,
+          "matches_corrupted": false
+        },
+        {
+          "sample_id": "edge_count/adjacency/test/32",
+          "expected_answer": "10",
+          "original_answer": " 9.",
+          "corrupted_answer": "10",
+          "model_answer": "10",
+          "corruption": {
+            "type": "add_edge",
+            "edge": [
+              0,
+              2
+            ]
+          },
+          "correct": true,
+          "correctness_status": "correct",
+          "modality_winner": "text",
+          "matches_original": false,
+          "matches_corrupted": true
+        },
+        {
+          "sample_id": "edge_count/adjacency/test/34",
+          "expected_answer": "36",
+          "original_answer": " 35.",
+          "corrupted_answer": "36",
+          "model_answer": "30",
+          "corruption": {
+            "type": "add_edge",
+            "edge": [
+              0,
+              1
+            ]
+          },
+          "correct": false,
+          "correctness_status": "incorrect",
+          "modality_winner": "neither",
+          "matches_original": false,
+          "matches_corrupted": false
+        },
+        {
+          "sample_id": "edge_count/adjacency/test/37",
+          "expected_answer": "20",
+          "original_answer": " 19.",
+          "corrupted_answer": "20",
+          "model_answer": "19",
+          "corruption": {
+            "type": "add_edge",
+            "edge": [
+              0,
+              2
+            ]
+          },
+          "correct": false,
+          "correctness_status": "incorrect",
+          "modality_winner": "image",
+          "matches_original": true,
+          "matches_corrupted": false
+        },
+        {
+          "sample_id": "edge_count/adjacency/test/43",
+          "expected_answer": "11",
+          "original_answer": " 10.",
+          "corrupted_answer": "11",
+          "model_answer": "10",
+          "corruption": {
+            "type": "add_edge",
+            "edge": [
+              0,
+              1
+            ]
+          },
+          "correct": false,
+          "correctness_status": "incorrect",
+          "modality_winner": "image",
+          "matches_original": true,
+          "matches_corrupted": false
+        },
+        {
+          "sample_id": "edge_count/adjacency/test/44",
+          "expected_answer": "9",
+          "original_answer": " 10.",
+          "corrupted_answer": "9",
+          "model_answer": "9",
+          "corruption": {
+            "type": "remove_edge",
+            "edge": [
+              0,
+              1
+            ]
+          },
+          "correct": true,
+          "correctness_status": "correct",
+          "modality_winner": "text",
+          "matches_original": false,
+          "matches_corrupted": true
+        },
+        {
+          "sample_id": "edge_count/adjacency/test/53",
+          "expected_answer": "31",
+          "original_answer": " 30.",
+          "corrupted_answer": "31",
+          "model_answer": "30",
+          "corruption": {
+            "type": "add_edge",
+            "edge": [
+              0,
+              6
+            ]
+          },
+          "correct": false,
+          "correctness_status": "incorrect",
+          "modality_winner": "image",
+          "matches_original": true,
+          "matches_corrupted": false
+        },
+        {
+          "sample_id": "edge_count/adjacency/test/59",
+          "expected_answer": "13",
+          "original_answer": " 12.",
+          "corrupted_answer": "13",
+          "model_answer": "15",
+          "corruption": {
+            "type": "add_edge",
+            "edge": [
+              1,
+              2
+            ]
+          },
+          "correct": false,
+          "correctness_status": "incorrect",
+          "modality_winner": "neither",
+          "matches_original": false,
+          "matches_corrupted": false
+        },
+        {
+          "sample_id": "edge_count/adjacency/test/60",
+          "expected_answer": "11",
+          "original_answer": " 10.",
+          "corrupted_answer": "11",
+          "model_answer": "10",
+          "corruption": {
+            "type": "add_edge",
+            "edge": [
+              1,
+              2
+            ]
+          },
+          "correct": false,
+          "correctness_status": "incorrect",
+          "modality_winner": "image",
+          "matches_original": true,
+          "matches_corrupted": false
+        },
+        {
+          "sample_id": "edge_count/adjacency/test/66",
+          "expected_answer": "13",
+          "original_answer": " 12.",
+          "corrupted_answer": "13",
+          "model_answer": "15",
+          "corruption": {
+            "type": "add_edge",
+            "edge": [
+              0,
+              6
+            ]
+          },
+          "correct": false,
+          "correctness_status": "incorrect",
+          "modality_winner": "neither",
+          "matches_original": false,
+          "matches_corrupted": false
+        },
+        {
+          "sample_id": "edge_count/adjacency/test/67",
+          "expected_answer": "7",
+          "original_answer": " 6.",
+          "corrupted_answer": "7",
+          "model_answer": "7",
+          "corruption": {
+            "type": "add_edge",
+            "edge": [
+              1,
+              2
+            ]
+          },
+          "correct": true,
+          "correctness_status": "correct",
+          "modality_winner": "text",
+          "matches_original": false,
+          "matches_corrupted": true
+        },
+        {
+          "sample_id": "edge_count/adjacency/test/72",
+          "expected_answer": "12",
+          "original_answer": " 11.",
+          "corrupted_answer": "12",
+          "model_answer": "12",
+          "corruption": {
+            "type": "add_edge",
+            "edge": [
+              1,
+              2
+            ]
+          },
+          "correct": true,
+          "correctness_status": "correct",
+          "modality_winner": "text",
+          "matches_original": false,
+          "matches_corrupted": true
+        },
+        {
+          "sample_id": "edge_count/adjacency/test/75",
+          "expected_answer": "21",
+          "original_answer": " 20.",
+          "corrupted_answer": "21",
+          "model_answer": "29",
+          "corruption": {
+            "type": "add_edge",
+            "edge": [
+              1,
+              2
+            ]
+          },
+          "correct": false,
+          "correctness_status": "incorrect",
+          "modality_winner": "neither",
+          "matches_original": false,
+          "matches_corrupted": false
+        },
+        {
+          "sample_id": "edge_count/adjacency/test/79",
+          "expected_answer": "37",
+          "original_answer": " 36.",
+          "corrupted_answer": "37",
+          "model_answer": "36",
+          "corruption": {
+            "type": "add_edge",
+            "edge": [
+              0,
+              9
+            ]
+          },
+          "correct": false,
+          "correctness_status": "incorrect",
+          "modality_winner": "image",
+          "matches_original": true,
+          "matches_corrupted": false
+        },
+        {
+          "sample_id": "edge_count/adjacency/test/88",
+          "expected_answer": "13",
+          "original_answer": " 12.",
+          "corrupted_answer": "13",
+          "model_answer": "15",
+          "corruption": {
+            "type": "add_edge",
+            "edge": [
+              0,
+              3
+            ]
+          },
+          "correct": false,
+          "correctness_status": "incorrect",
+          "modality_winner": "neither",
+          "matches_original": false,
+          "matches_corrupted": false
+        },
+        {
+          "sample_id": "edge_count/adjacency/test/89",
+          "expected_answer": "16",
+          "original_answer": " 15.",
+          "corrupted_answer": "16",
+          "model_answer": "18",
+          "corruption": {
+            "type": "add_edge",
+            "edge": [
+              1,
+              2
+            ]
+          },
+          "correct": false,
+          "correctness_status": "incorrect",
+          "modality_winner": "neither",
+          "matches_original": false,
+          "matches_corrupted": false
+        },
+        {
+          "sample_id": "edge_count/adjacency/test/92",
+          "expected_answer": "13",
+          "original_answer": " 12.",
+          "corrupted_answer": "13",
+          "model_answer": "15",
+          "corruption": {
+            "type": "add_edge",
+            "edge": [
+              0,
+              5
+            ]
+          },
+          "correct": false,
+          "correctness_status": "incorrect",
+          "modality_winner": "neither",
+          "matches_original": false,
+          "matches_corrupted": false
+        },
+        {
+          "sample_id": "edge_count/adjacency/test/96",
+          "expected_answer": "9",
+          "original_answer": " 8.",
+          "corrupted_answer": "9",
+          "model_answer": "9",
+          "corruption": {
+            "type": "add_edge",
+            "edge": [
+              1,
+              2
+            ]
+          },
+          "correct": true,
+          "correctness_status": "correct",
+          "modality_winner": "text",
+          "matches_original": false,
+          "matches_corrupted": true
+        },
+        {
+          "sample_id": "edge_count/adjacency/test/107",
+          "expected_answer": "7",
+          "original_answer": " 6.",
+          "corrupted_answer": "7",
+          "model_answer": "7",
+          "corruption": {
+            "type": "add_edge",
+            "edge": [
+              0,
+              2
+            ]
+          },
+          "correct": true,
+          "correctness_status": "correct",
+          "modality_winner": "text",
+          "matches_original": false,
+          "matches_corrupted": true
+        },
+        {
+          "sample_id": "edge_count/adjacency/test/110",
+          "expected_answer": "11",
+          "original_answer": " 10.",
+          "corrupted_answer": "11",
+          "model_answer": "10",
+          "corruption": {
+            "type": "add_edge",
+            "edge": [
+              0,
+              1
+            ]
+          },
+          "correct": false,
+          "correctness_status": "incorrect",
+          "modality_winner": "image",
+          "matches_original": true,
+          "matches_corrupted": false
+        },
+        {
+          "sample_id": "edge_count/adjacency/test/116",
+          "expected_answer": "8",
+          "original_answer": " 7.",
+          "corrupted_answer": "8",
+          "model_answer": "8",
+          "corruption": {
+            "type": "add_edge",
+            "edge": [
+              0,
+              1
+            ]
+          },
+          "correct": true,
+          "correctness_status": "correct",
+          "modality_winner": "text",
+          "matches_original": false,
+          "matches_corrupted": true
+        },
+        {
+          "sample_id": "edge_count/adjacency/test/117",
+          "expected_answer": "8",
+          "original_answer": " 7.",
+          "corrupted_answer": "8",
+          "model_answer": "8",
+          "corruption": {
+            "type": "add_edge",
+            "edge": [
+              0,
+              1
+            ]
+          },
+          "correct": true,
+          "correctness_status": "correct",
+          "modality_winner": "text",
+          "matches_original": false,
+          "matches_corrupted": true
+        },
+        {
+          "sample_id": "edge_count/adjacency/test/118",
+          "expected_answer": "6",
+          "original_answer": " 5.",
+          "corrupted_answer": "6",
+          "model_answer": "6",
+          "corruption": {
+            "type": "add_edge",
+            "edge": [
+              0,
+              1
+            ]
+          },
+          "correct": true,
+          "correctness_status": "correct",
+          "modality_winner": "text",
+          "matches_original": false,
+          "matches_corrupted": true
+        },
+        {
+          "sample_id": "edge_count/adjacency/test/121",
+          "expected_answer": "10",
+          "original_answer": " 9.",
+          "corrupted_answer": "10",
+          "model_answer": "10",
+          "corruption": {
+            "type": "add_edge",
+            "edge": [
+              1,
+              2
+            ]
+          },
+          "correct": true,
+          "correctness_status": "correct",
+          "modality_winner": "text",
+          "matches_original": false,
+          "matches_corrupted": true
+        },
+        {
+          "sample_id": "edge_count/adjacency/test/125",
+          "expected_answer": "11",
+          "original_answer": " 10.",
+          "corrupted_answer": "11",
+          "model_answer": "10",
+          "corruption": {
+            "type": "add_edge",
+            "edge": [
+              0,
+              2
+            ]
+          },
+          "correct": false,
+          "correctness_status": "incorrect",
+          "modality_winner": "image",
+          "matches_original": true,
+          "matches_corrupted": false
+        },
+        {
+          "sample_id": "edge_count/adjacency/test/135",
+          "expected_answer": "16",
+          "original_answer": " 15.",
+          "corrupted_answer": "16",
+          "model_answer": "15",
+          "corruption": {
+            "type": "add_edge",
+            "edge": [
+              0,
+              1
+            ]
+          },
+          "correct": false,
+          "correctness_status": "incorrect",
+          "modality_winner": "image",
+          "matches_original": true,
+          "matches_corrupted": false
+        },
+        {
+          "sample_id": "edge_count/adjacency/test/136",
+          "expected_answer": "8",
+          "original_answer": " 7.",
+          "corrupted_answer": "8",
+          "model_answer": "8",
+          "corruption": {
+            "type": "add_edge",
+            "edge": [
+              1,
+              3
+            ]
+          },
+          "correct": true,
+          "correctness_status": "correct",
+          "modality_winner": "text",
+          "matches_original": false,
+          "matches_corrupted": true
+        },
+        {
+          "sample_id": "edge_count/adjacency/test/146",
+          "expected_answer": "11",
+          "original_answer": " 10.",
+          "corrupted_answer": "11",
+          "model_answer": "10",
+          "corruption": {
+            "type": "add_edge",
+            "edge": [
+              0,
+              1
+            ]
+          },
+          "correct": false,
+          "correctness_status": "incorrect",
+          "modality_winner": "image",
+          "matches_original": true,
+          "matches_corrupted": false
+        },
+        {
+          "sample_id": "edge_count/adjacency/test/150",
+          "expected_answer": "20",
+          "original_answer": " 19.",
+          "corrupted_answer": "20",
+          "model_answer": "19",
+          "corruption": {
+            "type": "add_edge",
+            "edge": [
+              0,
+              6
+            ]
+          },
+          "correct": false,
+          "correctness_status": "incorrect",
+          "modality_winner": "image",
+          "matches_original": true,
+          "matches_corrupted": false
+        },
+        {
+          "sample_id": "edge_count/adjacency/test/152",
+          "expected_answer": "11",
+          "original_answer": " 10.",
+          "corrupted_answer": "11",
+          "model_answer": "10",
+          "corruption": {
+            "type": "add_edge",
+            "edge": [
+              0,
+              3
+            ]
+          },
+          "correct": false,
+          "correctness_status": "incorrect",
+          "modality_winner": "image",
+          "matches_original": true,
+          "matches_corrupted": false
+        },
+        {
+          "sample_id": "edge_count/adjacency/test/157",
+          "expected_answer": "9",
+          "original_answer": " 8.",
+          "corrupted_answer": "9",
+          "model_answer": "9",
+          "corruption": {
+            "type": "add_edge",
+            "edge": [
+              0,
+              5
+            ]
+          },
+          "correct": true,
+          "correctness_status": "correct",
+          "modality_winner": "text",
+          "matches_original": false,
+          "matches_corrupted": true
+        },
+        {
+          "sample_id": "edge_count/adjacency/test/158",
+          "expected_answer": "26",
+          "original_answer": " 25.",
+          "corrupted_answer": "26",
+          "model_answer": "20",
+          "corruption": {
+            "type": "add_edge",
+            "edge": [
+              0,
+              5
+            ]
+          },
+          "correct": false,
+          "correctness_status": "incorrect",
+          "modality_winner": "neither",
+          "matches_original": false,
+          "matches_corrupted": false
+        },
+        {
+          "sample_id": "edge_count/adjacency/test/159",
+          "expected_answer": "9",
+          "original_answer": " 8.",
+          "corrupted_answer": "9",
+          "model_answer": "8",
+          "corruption": {
+            "type": "add_edge",
+            "edge": [
+              0,
+              3
+            ]
+          },
+          "correct": false,
+          "correctness_status": "incorrect",
+          "modality_winner": "image",
+          "matches_original": true,
+          "matches_corrupted": false
+        },
+        {
+          "sample_id": "edge_count/adjacency/test/160",
+          "expected_answer": "10",
+          "original_answer": " 9.",
+          "corrupted_answer": "10",
+          "model_answer": "10",
+          "corruption": {
+            "type": "add_edge",
+            "edge": [
+              0,
+              4
+            ]
+          },
+          "correct": true,
+          "correctness_status": "correct",
+          "modality_winner": "text",
+          "matches_original": false,
+          "matches_corrupted": true
+        },
+        {
+          "sample_id": "edge_count/adjacency/test/166",
+          "expected_answer": "10",
+          "original_answer": " 9.",
+          "corrupted_answer": "10",
+          "model_answer": "10",
+          "corruption": {
+            "type": "add_edge",
+            "edge": [
+              0,
+              4
+            ]
+          },
+          "correct": true,
+          "correctness_status": "correct",
+          "modality_winner": "text",
+          "matches_original": false,
+          "matches_corrupted": true
+        },
+        {
+          "sample_id": "edge_count/adjacency/test/168",
+          "expected_answer": "8",
+          "original_answer": " 7.",
+          "corrupted_answer": "8",
+          "model_answer": "8",
+          "corruption": {
+            "type": "add_edge",
+            "edge": [
+              0,
+              3
+            ]
+          },
+          "correct": true,
+          "correctness_status": "correct",
+          "modality_winner": "text",
+          "matches_original": false,
+          "matches_corrupted": true
+        },
+        {
+          "sample_id": "edge_count/adjacency/test/171",
+          "expected_answer": "11",
+          "original_answer": " 10.",
+          "corrupted_answer": "11",
+          "model_answer": "10",
+          "corruption": {
+            "type": "add_edge",
+            "edge": [
+              0,
+              3
+            ]
+          },
+          "correct": false,
+          "correctness_status": "incorrect",
+          "modality_winner": "image",
+          "matches_original": true,
+          "matches_corrupted": false
+        },
+        {
+          "sample_id": "edge_count/adjacency/test/172",
+          "expected_answer": "13",
+          "original_answer": " 12.",
+          "corrupted_answer": "13",
+          "model_answer": "13",
+          "corruption": {
+            "type": "add_edge",
+            "edge": [
+              0,
+              3
+            ]
+          },
+          "correct": true,
+          "correctness_status": "correct",
+          "modality_winner": "text",
+          "matches_original": false,
+          "matches_corrupted": true
+        },
+        {
+          "sample_id": "edge_count/adjacency/test/179",
+          "expected_answer": "16",
+          "original_answer": " 15.",
+          "corrupted_answer": "16",
+          "model_answer": "15",
+          "corruption": {
+            "type": "add_edge",
+            "edge": [
+              0,
+              4
+            ]
+          },
+          "correct": false,
+          "correctness_status": "incorrect",
+          "modality_winner": "image",
+          "matches_original": true,
+          "matches_corrupted": false
+        },
+        {
+          "sample_id": "edge_count/adjacency/test/182",
+          "expected_answer": "7",
+          "original_answer": " 6.",
+          "corrupted_answer": "7",
+          "model_answer": "7",
+          "corruption": {
+            "type": "add_edge",
+            "edge": [
+              0,
+              3
+            ]
+          },
+          "correct": true,
+          "correctness_status": "correct",
+          "modality_winner": "text",
+          "matches_original": false,
+          "matches_corrupted": true
+        },
+        {
+          "sample_id": "edge_count/adjacency/test/188",
+          "expected_answer": "10",
+          "original_answer": " 9.",
+          "corrupted_answer": "10",
+          "model_answer": "10",
+          "corruption": {
+            "type": "add_edge",
+            "edge": [
+              0,
+              3
+            ]
+          },
+          "correct": true,
+          "correctness_status": "correct",
+          "modality_winner": "text",
+          "matches_original": false,
+          "matches_corrupted": true
+        },
+        {
+          "sample_id": "edge_count/adjacency/test/189",
+          "expected_answer": "9",
+          "original_answer": " 8.",
+          "corrupted_answer": "9",
+          "model_answer": "10",
+          "corruption": {
+            "type": "add_edge",
+            "edge": [
+              0,
+              3
+            ]
+          },
+          "correct": false,
+          "correctness_status": "incorrect",
+          "modality_winner": "neither",
+          "matches_original": false,
+          "matches_corrupted": false
+        },
+        {
+          "sample_id": "edge_count/adjacency/test/192",
+          "expected_answer": "9",
+          "original_answer": " 8.",
+          "corrupted_answer": "9",
+          "model_answer": "9",
+          "corruption": {
+            "type": "add_edge",
+            "edge": [
+              0,
+              4
+            ]
+          },
+          "correct": true,
+          "correctness_status": "correct",
+          "modality_winner": "text",
+          "matches_original": false,
+          "matches_corrupted": true
+        },
+        {
+          "sample_id": "edge_count/adjacency/test/196",
+          "expected_answer": "9",
+          "original_answer": " 8.",
+          "corrupted_answer": "9",
+          "model_answer": "9",
+          "corruption": {
+            "type": "add_edge",
+            "edge": [
+              0,
+              4
+            ]
+          },
+          "correct": true,
+          "correctness_status": "correct",
+          "modality_winner": "text",
+          "matches_original": false,
+          "matches_corrupted": true
+        },
+        {
+          "sample_id": "edge_count/adjacency/test/200",
+          "expected_answer": "119",
+          "original_answer": " 120.",
+          "corrupted_answer": "119",
+          "model_answer": "120",
+          "corruption": {
+            "type": "remove_edge",
+            "edge": [
+              0,
+              1
+            ]
+          },
+          "correct": false,
+          "correctness_status": "incorrect",
+          "modality_winner": "image",
+          "matches_original": true,
+          "matches_corrupted": false
+        },
+        {
+          "sample_id": "edge_count/adjacency/test/203",
+          "expected_answer": "104",
+          "original_answer": " 105.",
+          "corrupted_answer": "104",
+          "model_answer": "105",
+          "corruption": {
+            "type": "remove_edge",
+            "edge": [
+              0,
+              1
+            ]
+          },
+          "correct": false,
+          "correctness_status": "incorrect",
+          "modality_winner": "image",
+          "matches_original": true,
+          "matches_corrupted": false
+        },
+        {
+          "sample_id": "edge_count/adjacency/test/206",
+          "expected_answer": "104",
+          "original_answer": " 105.",
+          "corrupted_answer": "104",
+          "model_answer": "105",
+          "corruption": {
+            "type": "remove_edge",
+            "edge": [
+              0,
+              1
+            ]
+          },
+          "correct": false,
+          "correctness_status": "incorrect",
+          "modality_winner": "image",
+          "matches_original": true,
+          "matches_corrupted": false
+        },
+        {
+          "sample_id": "edge_count/adjacency/test/207",
+          "expected_answer": "14",
+          "original_answer": " 15.",
+          "corrupted_answer": "14",
+          "model_answer": "15",
+          "corruption": {
+            "type": "remove_edge",
+            "edge": [
+              0,
+              1
+            ]
+          },
+          "correct": false,
+          "correctness_status": "incorrect",
+          "modality_winner": "image",
+          "matches_original": true,
+          "matches_corrupted": false
+        },
+        {
+          "sample_id": "edge_count/adjacency/test/209",
+          "expected_answer": "14",
+          "original_answer": " 15.",
+          "corrupted_answer": "14",
+          "model_answer": "15",
+          "corruption": {
+            "type": "remove_edge",
+            "edge": [
+              0,
+              1
+            ]
+          },
+          "correct": false,
+          "correctness_status": "incorrect",
+          "modality_winner": "image",
+          "matches_original": true,
+          "matches_corrupted": false
+        },
+        {
+          "sample_id": "edge_count/adjacency/test/211",
+          "expected_answer": "119",
+          "original_answer": " 120.",
+          "corrupted_answer": "119",
+          "model_answer": "120",
+          "corruption": {
+            "type": "remove_edge",
+            "edge": [
+              0,
+              1
+            ]
+          },
+          "correct": false,
+          "correctness_status": "incorrect",
+          "modality_winner": "image",
+          "matches_original": true,
+          "matches_corrupted": false
+        },
+        {
+          "sample_id": "edge_count/adjacency/test/225",
+          "expected_answer": "14",
+          "original_answer": " 15.",
+          "corrupted_answer": "14",
+          "model_answer": "15",
+          "corruption": {
+            "type": "remove_edge",
+            "edge": [
+              0,
+              1
+            ]
+          },
+          "correct": false,
+          "correctness_status": "incorrect",
+          "modality_winner": "image",
+          "matches_original": true,
+          "matches_corrupted": false
+        },
+        {
+          "sample_id": "edge_count/adjacency/test/232",
+          "expected_answer": "14",
+          "original_answer": " 15.",
+          "corrupted_answer": "14",
+          "model_answer": "15",
+          "corruption": {
+            "type": "remove_edge",
+            "edge": [
+              0,
+              1
+            ]
+          },
+          "correct": false,
+          "correctness_status": "incorrect",
+          "modality_winner": "image",
+          "matches_original": true,
+          "matches_corrupted": false
+        },
+        {
+          "sample_id": "edge_count/adjacency/test/244",
+          "expected_answer": "14",
+          "original_answer": " 15.",
+          "corrupted_answer": "14",
+          "model_answer": "15",
+          "corruption": {
+            "type": "remove_edge",
+            "edge": [
+              0,
+              1
+            ]
+          },
+          "correct": false,
+          "correctness_status": "incorrect",
+          "modality_winner": "image",
+          "matches_original": true,
+          "matches_corrupted": false
+        },
+        {
+          "sample_id": "edge_count/adjacency/test/247",
+          "expected_answer": "119",
+          "original_answer": " 120.",
+          "corrupted_answer": "119",
+          "model_answer": "120",
+          "corruption": {
+            "type": "remove_edge",
+            "edge": [
+              0,
+              1
+            ]
+          },
+          "correct": false,
+          "correctness_status": "incorrect",
+          "modality_winner": "image",
+          "matches_original": true,
+          "matches_corrupted": false
+        },
+        {
+          "sample_id": "edge_count/adjacency/test/250",
+          "expected_answer": "16",
+          "original_answer": " 15.",
+          "corrupted_answer": "16",
+          "model_answer": "16",
+          "corruption": {
+            "type": "add_edge",
+            "edge": [
+              1,
+              2
+            ]
+          },
+          "correct": true,
+          "correctness_status": "correct",
+          "modality_winner": "text",
+          "matches_original": false,
+          "matches_corrupted": true
+        },
+        {
+          "sample_id": "edge_count/adjacency/test/251",
+          "expected_answer": "12",
+          "original_answer": " 11.",
+          "corrupted_answer": "12",
+          "model_answer": "12",
+          "corruption": {
+            "type": "add_edge",
+            "edge": [
+              1,
+              2
+            ]
+          },
+          "correct": true,
+          "correctness_status": "correct",
+          "modality_winner": "text",
+          "matches_original": false,
+          "matches_corrupted": true
+        },
+        {
+          "sample_id": "edge_count/adjacency/test/255",
+          "expected_answer": "12",
+          "original_answer": " 11.",
+          "corrupted_answer": "12",
+          "model_answer": "12",
+          "corruption": {
+            "type": "add_edge",
+            "edge": [
+              1,
+              2
+            ]
+          },
+          "correct": true,
+          "correctness_status": "correct",
+          "modality_winner": "text",
+          "matches_original": false,
+          "matches_corrupted": true
+        },
+        {
+          "sample_id": "edge_count/adjacency/test/257",
+          "expected_answer": "6",
+          "original_answer": " 5.",
+          "corrupted_answer": "6",
+          "model_answer": "6",
+          "corruption": {
+            "type": "add_edge",
+            "edge": [
+              1,
+              2
+            ]
+          },
+          "correct": true,
+          "correctness_status": "correct",
+          "modality_winner": "text",
+          "matches_original": false,
+          "matches_corrupted": true
+        },
+        {
+          "sample_id": "edge_count/adjacency/test/259",
+          "expected_answer": "6",
+          "original_answer": " 5.",
+          "corrupted_answer": "6",
+          "model_answer": "6",
+          "corruption": {
+            "type": "add_edge",
+            "edge": [
+              1,
+              2
+            ]
+          },
+          "correct": true,
+          "correctness_status": "correct",
+          "modality_winner": "text",
+          "matches_original": false,
+          "matches_corrupted": true
+        },
+        {
+          "sample_id": "edge_count/adjacency/test/261",
+          "expected_answer": "16",
+          "original_answer": " 15.",
+          "corrupted_answer": "16",
+          "model_answer": "16",
+          "corruption": {
+            "type": "add_edge",
+            "edge": [
+              1,
+              2
+            ]
+          },
+          "correct": true,
+          "correctness_status": "correct",
+          "modality_winner": "text",
+          "matches_original": false,
+          "matches_corrupted": true
+        },
+        {
+          "sample_id": "edge_count/adjacency/test/275",
+          "expected_answer": "6",
+          "original_answer": " 5.",
+          "corrupted_answer": "6",
+          "model_answer": "6",
+          "corruption": {
+            "type": "add_edge",
+            "edge": [
+              1,
+              2
+            ]
+          },
+          "correct": true,
+          "correctness_status": "correct",
+          "modality_winner": "text",
+          "matches_original": false,
+          "matches_corrupted": true
+        },
+        {
+          "sample_id": "edge_count/adjacency/test/279",
+          "expected_answer": "12",
+          "original_answer": " 11.",
+          "corrupted_answer": "12",
+          "model_answer": "12",
+          "corruption": {
+            "type": "add_edge",
+            "edge": [
+              1,
+              2
+            ]
+          },
+          "correct": true,
+          "correctness_status": "correct",
+          "modality_winner": "text",
+          "matches_original": false,
+          "matches_corrupted": true
+        },
+        {
+          "sample_id": "edge_count/adjacency/test/280",
+          "expected_answer": "12",
+          "original_answer": " 11.",
+          "corrupted_answer": "12",
+          "model_answer": "12",
+          "corruption": {
+            "type": "add_edge",
+            "edge": [
+              1,
+              2
+            ]
+          },
+          "correct": true,
+          "correctness_status": "correct",
+          "modality_winner": "text",
+          "matches_original": false,
+          "matches_corrupted": true
+        },
+        {
+          "sample_id": "edge_count/adjacency/test/282",
+          "expected_answer": "6",
+          "original_answer": " 5.",
+          "corrupted_answer": "6",
+          "model_answer": "6",
+          "corruption": {
+            "type": "add_edge",
+            "edge": [
+              1,
+              2
+            ]
+          },
+          "correct": true,
+          "correctness_status": "correct",
+          "modality_winner": "text",
+          "matches_original": false,
+          "matches_corrupted": true
+        },
+        {
+          "sample_id": "edge_count/adjacency/test/290",
+          "expected_answer": "12",
+          "original_answer": " 11.",
+          "corrupted_answer": "12",
+          "model_answer": "12",
+          "corruption": {
+            "type": "add_edge",
+            "edge": [
+              1,
+              2
+            ]
+          },
+          "correct": true,
+          "correctness_status": "correct",
+          "modality_winner": "text",
+          "matches_original": false,
+          "matches_corrupted": true
+        },
+        {
+          "sample_id": "edge_count/adjacency/test/291",
+          "expected_answer": "11",
+          "original_answer": " 10.",
+          "corrupted_answer": "11",
+          "model_answer": "11",
+          "corruption": {
+            "type": "add_edge",
+            "edge": [
+              1,
+              2
+            ]
+          },
+          "correct": true,
+          "correctness_status": "correct",
+          "modality_winner": "text",
+          "matches_original": false,
+          "matches_corrupted": true
+        },
+        {
+          "sample_id": "edge_count/adjacency/test/294",
+          "expected_answer": "6",
+          "original_answer": " 5.",
+          "corrupted_answer": "6",
+          "model_answer": "6",
+          "corruption": {
+            "type": "add_edge",
+            "edge": [
+              1,
+              2
+            ]
+          },
+          "correct": true,
+          "correctness_status": "correct",
+          "modality_winner": "text",
+          "matches_original": false,
+          "matches_corrupted": true
+        },
+        {
+          "sample_id": "edge_count/adjacency/test/297",
+          "expected_answer": "16",
+          "original_answer": " 15.",
+          "corrupted_answer": "16",
+          "model_answer": "16",
+          "corruption": {
+            "type": "add_edge",
+            "edge": [
+              1,
+              2
+            ]
+          },
+          "correct": true,
+          "correctness_status": "correct",
+          "modality_winner": "text",
+          "matches_original": false,
+          "matches_corrupted": true
+        },
+        {
+          "sample_id": "edge_count/adjacency/test/300",
+          "expected_answer": "16",
+          "original_answer": " 15.",
+          "corrupted_answer": "16",
+          "model_answer": "15",
+          "corruption": {
+            "type": "add_edge",
+            "edge": [
+              0,
+              2
+            ]
+          },
+          "correct": false,
+          "correctness_status": "incorrect",
+          "modality_winner": "image",
+          "matches_original": true,
+          "matches_corrupted": false
+        },
+        {
+          "sample_id": "edge_count/adjacency/test/301",
+          "expected_answer": "12",
+          "original_answer": " 11.",
+          "corrupted_answer": "12",
+          "model_answer": "12",
+          "corruption": {
+            "type": "add_edge",
+            "edge": [
+              0,
+              2
+            ]
+          },
+          "correct": true,
+          "correctness_status": "correct",
+          "modality_winner": "text",
+          "matches_original": false,
+          "matches_corrupted": true
+        },
+        {
+          "sample_id": "edge_count/adjacency/test/302",
+          "expected_answer": "8",
+          "original_answer": " 7.",
+          "corrupted_answer": "8",
+          "model_answer": "8",
+          "corruption": {
+            "type": "add_edge",
+            "edge": [
+              0,
+              2
+            ]
+          },
+          "correct": true,
+          "correctness_status": "correct",
+          "modality_winner": "text",
+          "matches_original": false,
+          "matches_corrupted": true
+        },
+        {
+          "sample_id": "edge_count/adjacency/test/304",
+          "expected_answer": "18",
+          "original_answer": " 17.",
+          "corrupted_answer": "18",
+          "model_answer": "17",
+          "corruption": {
+            "type": "add_edge",
+            "edge": [
+              0,
+              2
+            ]
+          },
+          "correct": false,
+          "correctness_status": "incorrect",
+          "modality_winner": "image",
+          "matches_original": true,
+          "matches_corrupted": false
+        },
+        {
+          "sample_id": "edge_count/adjacency/test/305",
+          "expected_answer": "12",
+          "original_answer": " 11.",
+          "corrupted_answer": "12",
+          "model_answer": "12",
+          "corruption": {
+            "type": "add_edge",
+            "edge": [
+              0,
+              2
+            ]
+          },
+          "correct": true,
+          "correctness_status": "correct",
+          "modality_winner": "text",
+          "matches_original": false,
+          "matches_corrupted": true
+        },
+        {
+          "sample_id": "edge_count/adjacency/test/306",
+          "expected_answer": "15",
+          "original_answer": " 14.",
+          "corrupted_answer": "15",
+          "model_answer": "15",
+          "corruption": {
+            "type": "add_edge",
+            "edge": [
+              0,
+              2
+            ]
+          },
+          "correct": true,
+          "correctness_status": "correct",
+          "modality_winner": "text",
+          "matches_original": false,
+          "matches_corrupted": true
+        },
+        {
+          "sample_id": "edge_count/adjacency/test/307",
+          "expected_answer": "6",
+          "original_answer": " 5.",
+          "corrupted_answer": "6",
+          "model_answer": "6",
+          "corruption": {
+            "type": "add_edge",
+            "edge": [
+              0,
+              2
+            ]
+          },
+          "correct": true,
+          "correctness_status": "correct",
+          "modality_winner": "text",
+          "matches_original": false,
+          "matches_corrupted": true
+        },
+        {
+          "sample_id": "edge_count/adjacency/test/308",
+          "expected_answer": "17",
+          "original_answer": " 16.",
+          "corrupted_answer": "17",
+          "model_answer": "16",
+          "corruption": {
+            "type": "add_edge",
+            "edge": [
+              0,
+              2
+            ]
+          },
+          "correct": false,
+          "correctness_status": "incorrect",
+          "modality_winner": "image",
+          "matches_original": true,
+          "matches_corrupted": false
+        },
+        {
+          "sample_id": "edge_count/adjacency/test/309",
+          "expected_answer": "6",
+          "original_answer": " 5.",
+          "corrupted_answer": "6",
+          "model_answer": "6",
+          "corruption": {
+            "type": "add_edge",
+            "edge": [
+              0,
+              2
+            ]
+          },
+          "correct": true,
+          "correctness_status": "correct",
+          "modality_winner": "text",
+          "matches_original": false,
+          "matches_corrupted": true
+        },
+        {
+          "sample_id": "edge_count/adjacency/test/310",
+          "expected_answer": "7",
+          "original_answer": " 6.",
+          "corrupted_answer": "7",
+          "model_answer": "7",
+          "corruption": {
+            "type": "add_edge",
+            "edge": [
+              0,
+              2
+            ]
+          },
+          "correct": true,
+          "correctness_status": "correct",
+          "modality_winner": "text",
+          "matches_original": false,
+          "matches_corrupted": true
+        },
+        {
+          "sample_id": "edge_count/adjacency/test/311",
+          "expected_answer": "16",
+          "original_answer": " 15.",
+          "corrupted_answer": "16",
+          "model_answer": "15",
+          "corruption": {
+            "type": "add_edge",
+            "edge": [
+              0,
+              2
+            ]
+          },
+          "correct": false,
+          "correctness_status": "incorrect",
+          "modality_winner": "image",
+          "matches_original": true,
+          "matches_corrupted": false
+        },
+        {
+          "sample_id": "edge_count/adjacency/test/313",
+          "expected_answer": "10",
+          "original_answer": " 9.",
+          "corrupted_answer": "10",
+          "model_answer": "10",
+          "corruption": {
+            "type": "add_edge",
+            "edge": [
+              0,
+              2
+            ]
+          },
+          "correct": true,
+          "correctness_status": "correct",
+          "modality_winner": "text",
+          "matches_original": false,
+          "matches_corrupted": true
+        },
+        {
+          "sample_id": "edge_count/adjacency/test/315",
+          "expected_answer": "8",
+          "original_answer": " 7.",
+          "corrupted_answer": "8",
+          "model_answer": "8",
+          "corruption": {
+            "type": "add_edge",
+            "edge": [
+              0,
+              2
+            ]
+          },
+          "correct": true,
+          "correctness_status": "correct",
+          "modality_winner": "text",
+          "matches_original": false,
+          "matches_corrupted": true
+        },
+        {
+          "sample_id": "edge_count/adjacency/test/316",
+          "expected_answer": "7",
+          "original_answer": " 6.",
+          "corrupted_answer": "7",
+          "model_answer": "7",
+          "corruption": {
+            "type": "add_edge",
+            "edge": [
+              0,
+              2
+            ]
+          },
+          "correct": true,
+          "correctness_status": "correct",
+          "modality_winner": "text",
+          "matches_original": false,
+          "matches_corrupted": true
+        },
+        {
+          "sample_id": "edge_count/adjacency/test/317",
+          "expected_answer": "8",
+          "original_answer": " 7.",
+          "corrupted_answer": "8",
+          "model_answer": "8",
+          "corruption": {
+            "type": "add_edge",
+            "edge": [
+              0,
+              2
+            ]
+          },
+          "correct": true,
+          "correctness_status": "correct",
+          "modality_winner": "text",
+          "matches_original": false,
+          "matches_corrupted": true
+        },
+        {
+          "sample_id": "edge_count/adjacency/test/318",
+          "expected_answer": "7",
+          "original_answer": " 6.",
+          "corrupted_answer": "7",
+          "model_answer": "7",
+          "corruption": {
+            "type": "add_edge",
+            "edge": [
+              0,
+              2
+            ]
+          },
+          "correct": true,
+          "correctness_status": "correct",
+          "modality_winner": "text",
+          "matches_original": false,
+          "matches_corrupted": true
+        },
+        {
+          "sample_id": "edge_count/adjacency/test/320",
+          "expected_answer": "18",
+          "original_answer": " 17.",
+          "corrupted_answer": "18",
+          "model_answer": "17",
+          "corruption": {
+            "type": "add_edge",
+            "edge": [
+              0,
+              2
+            ]
+          },
+          "correct": false,
+          "correctness_status": "incorrect",
+          "modality_winner": "image",
+          "matches_original": true,
+          "matches_corrupted": false
+        },
+        {
+          "sample_id": "edge_count/adjacency/test/321",
+          "expected_answer": "8",
+          "original_answer": " 7.",
+          "corrupted_answer": "8",
+          "model_answer": "8",
+          "corruption": {
+            "type": "add_edge",
+            "edge": [
+              0,
+              2
+            ]
+          },
+          "correct": true,
+          "correctness_status": "correct",
+          "modality_winner": "text",
+          "matches_original": false,
+          "matches_corrupted": true
+        },
+        {
+          "sample_id": "edge_count/adjacency/test/322",
+          "expected_answer": "10",
+          "original_answer": " 9.",
+          "corrupted_answer": "10",
+          "model_answer": "10",
+          "corruption": {
+            "type": "add_edge",
+            "edge": [
+              0,
+              2
+            ]
+          },
+          "correct": true,
+          "correctness_status": "correct",
+          "modality_winner": "text",
+          "matches_original": false,
+          "matches_corrupted": true
+        },
+        {
+          "sample_id": "edge_count/adjacency/test/325",
+          "expected_answer": "6",
+          "original_answer": " 5.",
+          "corrupted_answer": "6",
+          "model_answer": "6",
+          "corruption": {
+            "type": "add_edge",
+            "edge": [
+              0,
+              2
+            ]
+          },
+          "correct": true,
+          "correctness_status": "correct",
+          "modality_winner": "text",
+          "matches_original": false,
+          "matches_corrupted": true
+        },
+        {
+          "sample_id": "edge_count/adjacency/test/327",
+          "expected_answer": "9",
+          "original_answer": " 8.",
+          "corrupted_answer": "9",
+          "model_answer": "9",
+          "corruption": {
+            "type": "add_edge",
+            "edge": [
+              0,
+              2
+            ]
+          },
+          "correct": true,
+          "correctness_status": "correct",
+          "modality_winner": "text",
+          "matches_original": false,
+          "matches_corrupted": true
+        },
+        {
+          "sample_id": "edge_count/adjacency/test/329",
+          "expected_answer": "12",
+          "original_answer": " 11.",
+          "corrupted_answer": "12",
+          "model_answer": "12",
+          "corruption": {
+            "type": "add_edge",
+            "edge": [
+              0,
+              2
+            ]
+          },
+          "correct": true,
+          "correctness_status": "correct",
+          "modality_winner": "text",
+          "matches_original": false,
+          "matches_corrupted": true
+        },
+        {
+          "sample_id": "edge_count/adjacency/test/330",
+          "expected_answer": "12",
+          "original_answer": " 11.",
+          "corrupted_answer": "12",
+          "model_answer": "12",
+          "corruption": {
+            "type": "add_edge",
+            "edge": [
+              0,
+              2
+            ]
+          },
+          "correct": true,
+          "correctness_status": "correct",
+          "modality_winner": "text",
+          "matches_original": false,
+          "matches_corrupted": true
+        },
+        {
+          "sample_id": "edge_count/adjacency/test/331",
+          "expected_answer": "10",
+          "original_answer": " 9.",
+          "corrupted_answer": "10",
+          "model_answer": "10",
+          "corruption": {
+            "type": "add_edge",
+            "edge": [
+              0,
+              2
+            ]
+          },
+          "correct": true,
+          "correctness_status": "correct",
+          "modality_winner": "text",
+          "matches_original": false,
+          "matches_corrupted": true
+        },
+        {
+          "sample_id": "edge_count/adjacency/test/332",
+          "expected_answer": "6",
+          "original_answer": " 5.",
+          "corrupted_answer": "6",
+          "model_answer": "6",
+          "corruption": {
+            "type": "add_edge",
+            "edge": [
+              0,
+              2
+            ]
+          },
+          "correct": true,
+          "correctness_status": "correct",
+          "modality_winner": "text",
+          "matches_original": false,
+          "matches_corrupted": true
+        },
+        {
+          "sample_id": "edge_count/adjacency/test/333",
+          "expected_answer": "18",
+          "original_answer": " 17.",
+          "corrupted_answer": "18",
+          "model_answer": "17",
+          "corruption": {
+            "type": "add_edge",
+            "edge": [
+              0,
+              2
+            ]
+          },
+          "correct": false,
+          "correctness_status": "incorrect",
+          "modality_winner": "image",
+          "matches_original": true,
+          "matches_corrupted": false
+        },
+        {
+          "sample_id": "edge_count/adjacency/test/335",
+          "expected_answer": "10",
+          "original_answer": " 9.",
+          "corrupted_answer": "10",
+          "model_answer": "10",
+          "corruption": {
+            "type": "add_edge",
+            "edge": [
+              0,
+              2
+            ]
+          },
+          "correct": true,
+          "correctness_status": "correct",
+          "modality_winner": "text",
+          "matches_original": false,
+          "matches_corrupted": true
+        },
+        {
+          "sample_id": "edge_count/adjacency/test/336",
+          "expected_answer": "9",
+          "original_answer": " 8.",
+          "corrupted_answer": "9",
+          "model_answer": "9",
+          "corruption": {
+            "type": "add_edge",
+            "edge": [
+              0,
+              2
+            ]
+          },
+          "correct": true,
+          "correctness_status": "correct",
+          "modality_winner": "text",
+          "matches_original": false,
+          "matches_corrupted": true
+        },
+        {
+          "sample_id": "edge_count/adjacency/test/337",
+          "expected_answer": "10",
+          "original_answer": " 9.",
+          "corrupted_answer": "10",
+          "model_answer": "10",
+          "corruption": {
+            "type": "add_edge",
+            "edge": [
+              0,
+              2
+            ]
+          },
+          "correct": true,
+          "correctness_status": "correct",
+          "modality_winner": "text",
+          "matches_original": false,
+          "matches_corrupted": true
+        },
+        {
+          "sample_id": "edge_count/adjacency/test/338",
+          "expected_answer": "8",
+          "original_answer": " 7.",
+          "corrupted_answer": "8",
+          "model_answer": "8",
+          "corruption": {
+            "type": "add_edge",
+            "edge": [
+              0,
+              2
+            ]
+          },
+          "correct": true,
+          "correctness_status": "correct",
+          "modality_winner": "text",
+          "matches_original": false,
+          "matches_corrupted": true
+        },
+        {
+          "sample_id": "edge_count/adjacency/test/339",
+          "expected_answer": "8",
+          "original_answer": " 7.",
+          "corrupted_answer": "8",
+          "model_answer": "8",
+          "corruption": {
+            "type": "add_edge",
+            "edge": [
+              0,
+              2
+            ]
+          },
+          "correct": true,
+          "correctness_status": "correct",
+          "modality_winner": "text",
+          "matches_original": false,
+          "matches_corrupted": true
+        },
+        {
+          "sample_id": "edge_count/adjacency/test/340",
+          "expected_answer": "12",
+          "original_answer": " 11.",
+          "corrupted_answer": "12",
+          "model_answer": "12",
+          "corruption": {
+            "type": "add_edge",
+            "edge": [
+              0,
+              2
+            ]
+          },
+          "correct": true,
+          "correctness_status": "correct",
+          "modality_winner": "text",
+          "matches_original": false,
+          "matches_corrupted": true
+        },
+        {
+          "sample_id": "edge_count/adjacency/test/341",
+          "expected_answer": "11",
+          "original_answer": " 10.",
+          "corrupted_answer": "11",
+          "model_answer": "11",
+          "corruption": {
+            "type": "add_edge",
+            "edge": [
+              0,
+              2
+            ]
+          },
+          "correct": true,
+          "correctness_status": "correct",
+          "modality_winner": "text",
+          "matches_original": false,
+          "matches_corrupted": true
+        },
+        {
+          "sample_id": "edge_count/adjacency/test/342",
+          "expected_answer": "7",
+          "original_answer": " 6.",
+          "corrupted_answer": "7",
+          "model_answer": "7",
+          "corruption": {
+            "type": "add_edge",
+            "edge": [
+              0,
+              2
+            ]
+          },
+          "correct": true,
+          "correctness_status": "correct",
+          "modality_winner": "text",
+          "matches_original": false,
+          "matches_corrupted": true
+        },
+        {
+          "sample_id": "edge_count/adjacency/test/343",
+          "expected_answer": "10",
+          "original_answer": " 9.",
+          "corrupted_answer": "10",
+          "model_answer": "10",
+          "corruption": {
+            "type": "add_edge",
+            "edge": [
+              0,
+              2
+            ]
+          },
+          "correct": true,
+          "correctness_status": "correct",
+          "modality_winner": "text",
+          "matches_original": false,
+          "matches_corrupted": true
+        },
+        {
+          "sample_id": "edge_count/adjacency/test/344",
+          "expected_answer": "6",
+          "original_answer": " 5.",
+          "corrupted_answer": "6",
+          "model_answer": "6",
+          "corruption": {
+            "type": "add_edge",
+            "edge": [
+              0,
+              2
+            ]
+          },
+          "correct": true,
+          "correctness_status": "correct",
+          "modality_winner": "text",
+          "matches_original": false,
+          "matches_corrupted": true
+        },
+        {
+          "sample_id": "edge_count/adjacency/test/346",
+          "expected_answer": "7",
+          "original_answer": " 6.",
+          "corrupted_answer": "7",
+          "model_answer": "7",
+          "corruption": {
+            "type": "add_edge",
+            "edge": [
+              0,
+              2
+            ]
+          },
+          "correct": true,
+          "correctness_status": "correct",
+          "modality_winner": "text",
+          "matches_original": false,
+          "matches_corrupted": true
+        },
+        {
+          "sample_id": "edge_count/adjacency/test/347",
+          "expected_answer": "16",
+          "original_answer": " 15.",
+          "corrupted_answer": "16",
+          "model_answer": "15",
+          "corruption": {
+            "type": "add_edge",
+            "edge": [
+              0,
+              2
+            ]
+          },
+          "correct": false,
+          "correctness_status": "incorrect",
+          "modality_winner": "image",
+          "matches_original": true,
+          "matches_corrupted": false
+        },
+        {
+          "sample_id": "edge_count/adjacency/test/348",
+          "expected_answer": "17",
+          "original_answer": " 16.",
+          "corrupted_answer": "17",
+          "model_answer": "16",
+          "corruption": {
+            "type": "add_edge",
+            "edge": [
+              0,
+              2
+            ]
+          },
+          "correct": false,
+          "correctness_status": "incorrect",
+          "modality_winner": "image",
+          "matches_original": true,
+          "matches_corrupted": false
+        },
+        {
+          "sample_id": "edge_count/adjacency/test/349",
+          "expected_answer": "18",
+          "original_answer": " 17.",
+          "corrupted_answer": "18",
+          "model_answer": "17",
+          "corruption": {
+            "type": "add_edge",
+            "edge": [
+              0,
+              2
+            ]
+          },
+          "correct": false,
+          "correctness_status": "incorrect",
+          "modality_winner": "image",
+          "matches_original": true,
+          "matches_corrupted": false
+        }
+      ],
+      "wrong_format_answers": []
     },
     {
       "setting": "text_and_image",
@@ -7541,7 +9953,8 @@
           "matches_original": true,
           "matches_corrupted": false
         }
-      ]
+      ],
+      "wrong_format_answers": []
     },
     {
       "setting": "text_and_image",
@@ -12240,7 +14653,8 @@
           "matches_original": true,
           "matches_corrupted": false
         }
-      ]
+      ],
+      "wrong_format_answers": []
     },
     {
       "setting": "text_and_image",
@@ -14186,7 +16600,8 @@
           "matches_original": true,
           "matches_corrupted": false
         }
-      ]
+      ],
+      "wrong_format_answers": []
     },
     {
       "setting": "text_and_image",
@@ -16063,27 +18478,379 @@
           "matches_original": true,
           "matches_corrupted": false
         }
-      ]
+      ],
+      "wrong_format_answers": []
+    },
+    {
+      "setting": "text_and_image",
+      "task": "triangle_counting",
+      "file_name": "spring_corrupt-text_Qwen2.5-VL-3B-Instruct.jsonl",
+      "image_type": "spring",
+      "model": "Qwen2.5-VL-3B-Instruct",
+      "total": 17,
+      "correct": 2,
+      "incorrect": 15,
+      "wrong_format": 0,
+      "bad_expected": 0,
+      "accuracy": 0.117647,
+      "image_wins": 13,
+      "text_wins": 2,
+      "neither_wins": 2,
+      "both_wins": 0,
+      "invalid_original": 0,
+      "invalid_corrupted": 0,
+      "image_win_rate": 0.764706,
+      "text_win_rate": 0.117647,
+      "neither_rate": 0.117647,
+      "both_rate": 0.0,
+      "valid_modality_total": 17,
+      "path": "results\\mixed_baseline\\text_and_image\\triangle_counting\\spring_corrupt-text_Qwen2.5-VL-3B-Instruct.jsonl",
+      "samples": [
+        {
+          "sample_id": "triangle_counting/adjacency/test/15",
+          "expected_answer": "1",
+          "original_answer": "3.",
+          "corrupted_answer": "1",
+          "model_answer": "2",
+          "corruption": {
+            "type": "remove_edge",
+            "edge": [
+              2,
+              4
+            ]
+          },
+          "correct": false,
+          "correctness_status": "incorrect",
+          "modality_winner": "neither",
+          "matches_original": false,
+          "matches_corrupted": false
+        },
+        {
+          "sample_id": "triangle_counting/adjacency/test/21",
+          "expected_answer": "1",
+          "original_answer": "3.",
+          "corrupted_answer": "1",
+          "model_answer": "3",
+          "corruption": {
+            "type": "remove_edge",
+            "edge": [
+              1,
+              3
+            ]
+          },
+          "correct": false,
+          "correctness_status": "incorrect",
+          "modality_winner": "image",
+          "matches_original": true,
+          "matches_corrupted": false
+        },
+        {
+          "sample_id": "triangle_counting/adjacency/test/25",
+          "expected_answer": "2",
+          "original_answer": "3.",
+          "corrupted_answer": "2",
+          "model_answer": "2",
+          "corruption": {
+            "type": "remove_edge",
+            "edge": [
+              1,
+              4
+            ]
+          },
+          "correct": true,
+          "correctness_status": "correct",
+          "modality_winner": "text",
+          "matches_original": false,
+          "matches_corrupted": true
+        },
+        {
+          "sample_id": "triangle_counting/adjacency/test/67",
+          "expected_answer": "1",
+          "original_answer": "2.",
+          "corrupted_answer": "1",
+          "model_answer": "2",
+          "corruption": {
+            "type": "remove_edge",
+            "edge": [
+              2,
+              3
+            ]
+          },
+          "correct": false,
+          "correctness_status": "incorrect",
+          "modality_winner": "image",
+          "matches_original": true,
+          "matches_corrupted": false
+        },
+        {
+          "sample_id": "triangle_counting/adjacency/test/78",
+          "expected_answer": "3",
+          "original_answer": "5.",
+          "corrupted_answer": "3",
+          "model_answer": "3",
+          "corruption": {
+            "type": "remove_edge",
+            "edge": [
+              2,
+              3
+            ]
+          },
+          "correct": true,
+          "correctness_status": "correct",
+          "modality_winner": "text",
+          "matches_original": false,
+          "matches_corrupted": true
+        },
+        {
+          "sample_id": "triangle_counting/adjacency/test/101",
+          "expected_answer": "1",
+          "original_answer": "3.",
+          "corrupted_answer": "1",
+          "model_answer": "3",
+          "corruption": {
+            "type": "remove_edge",
+            "edge": [
+              9,
+              10
+            ]
+          },
+          "correct": false,
+          "correctness_status": "incorrect",
+          "modality_winner": "image",
+          "matches_original": true,
+          "matches_corrupted": false
+        },
+        {
+          "sample_id": "triangle_counting/adjacency/test/107",
+          "expected_answer": "1",
+          "original_answer": "2.",
+          "corrupted_answer": "1",
+          "model_answer": "2",
+          "corruption": {
+            "type": "remove_edge",
+            "edge": [
+              1,
+              3
+            ]
+          },
+          "correct": false,
+          "correctness_status": "incorrect",
+          "modality_winner": "image",
+          "matches_original": true,
+          "matches_corrupted": false
+        },
+        {
+          "sample_id": "triangle_counting/adjacency/test/147",
+          "expected_answer": "0",
+          "original_answer": "1.",
+          "corrupted_answer": "0",
+          "model_answer": "1",
+          "corruption": {
+            "type": "remove_edge",
+            "edge": [
+              14,
+              15
+            ]
+          },
+          "correct": false,
+          "correctness_status": "incorrect",
+          "modality_winner": "image",
+          "matches_original": true,
+          "matches_corrupted": false
+        },
+        {
+          "sample_id": "triangle_counting/adjacency/test/152",
+          "expected_answer": "0",
+          "original_answer": "1.",
+          "corrupted_answer": "0",
+          "model_answer": "1",
+          "corruption": {
+            "type": "remove_edge",
+            "edge": [
+              1,
+              2
+            ]
+          },
+          "correct": false,
+          "correctness_status": "incorrect",
+          "modality_winner": "image",
+          "matches_original": true,
+          "matches_corrupted": false
+        },
+        {
+          "sample_id": "triangle_counting/adjacency/test/157",
+          "expected_answer": "1",
+          "original_answer": "2.",
+          "corrupted_answer": "1",
+          "model_answer": "2",
+          "corruption": {
+            "type": "remove_edge",
+            "edge": [
+              1,
+              2
+            ]
+          },
+          "correct": false,
+          "correctness_status": "incorrect",
+          "modality_winner": "image",
+          "matches_original": true,
+          "matches_corrupted": false
+        },
+        {
+          "sample_id": "triangle_counting/adjacency/test/160",
+          "expected_answer": "1",
+          "original_answer": "2.",
+          "corrupted_answer": "1",
+          "model_answer": "2",
+          "corruption": {
+            "type": "remove_edge",
+            "edge": [
+              1,
+              3
+            ]
+          },
+          "correct": false,
+          "correctness_status": "incorrect",
+          "modality_winner": "image",
+          "matches_original": true,
+          "matches_corrupted": false
+        },
+        {
+          "sample_id": "triangle_counting/adjacency/test/171",
+          "expected_answer": "0",
+          "original_answer": "2.",
+          "corrupted_answer": "0",
+          "model_answer": "3",
+          "corruption": {
+            "type": "remove_edge",
+            "edge": [
+              1,
+              2
+            ]
+          },
+          "correct": false,
+          "correctness_status": "incorrect",
+          "modality_winner": "neither",
+          "matches_original": false,
+          "matches_corrupted": false
+        },
+        {
+          "sample_id": "triangle_counting/adjacency/test/175",
+          "expected_answer": "1",
+          "original_answer": "2.",
+          "corrupted_answer": "1",
+          "model_answer": "2",
+          "corruption": {
+            "type": "remove_edge",
+            "edge": [
+              1,
+              2
+            ]
+          },
+          "correct": false,
+          "correctness_status": "incorrect",
+          "modality_winner": "image",
+          "matches_original": true,
+          "matches_corrupted": false
+        },
+        {
+          "sample_id": "triangle_counting/adjacency/test/180",
+          "expected_answer": "0",
+          "original_answer": "1.",
+          "corrupted_answer": "0",
+          "model_answer": "1",
+          "corruption": {
+            "type": "remove_edge",
+            "edge": [
+              1,
+              2
+            ]
+          },
+          "correct": false,
+          "correctness_status": "incorrect",
+          "modality_winner": "image",
+          "matches_original": true,
+          "matches_corrupted": false
+        },
+        {
+          "sample_id": "triangle_counting/adjacency/test/186",
+          "expected_answer": "0",
+          "original_answer": "2.",
+          "corrupted_answer": "0",
+          "model_answer": "2",
+          "corruption": {
+            "type": "remove_edge",
+            "edge": [
+              1,
+              2
+            ]
+          },
+          "correct": false,
+          "correctness_status": "incorrect",
+          "modality_winner": "image",
+          "matches_original": true,
+          "matches_corrupted": false
+        },
+        {
+          "sample_id": "triangle_counting/adjacency/test/187",
+          "expected_answer": "0",
+          "original_answer": "1.",
+          "corrupted_answer": "0",
+          "model_answer": "1",
+          "corruption": {
+            "type": "remove_edge",
+            "edge": [
+              1,
+              2
+            ]
+          },
+          "correct": false,
+          "correctness_status": "incorrect",
+          "modality_winner": "image",
+          "matches_original": true,
+          "matches_corrupted": false
+        },
+        {
+          "sample_id": "triangle_counting/adjacency/test/191",
+          "expected_answer": "0",
+          "original_answer": "1.",
+          "corrupted_answer": "0",
+          "model_answer": "1",
+          "corruption": {
+            "type": "remove_edge",
+            "edge": [
+              1,
+              2
+            ]
+          },
+          "correct": false,
+          "correctness_status": "incorrect",
+          "modality_winner": "image",
+          "matches_original": true,
+          "matches_corrupted": false
+        }
+      ],
+      "wrong_format_answers": []
     }
   ],
   "summary": {
     "overall": {
-      "total": 877,
-      "correct": 212,
-      "incorrect": 665,
+      "total": 1018,
+      "correct": 283,
+      "incorrect": 735,
       "wrong_format": 0,
       "bad_expected": 0,
-      "image_wins": 607,
-      "text_wins": 212,
-      "neither_wins": 58,
+      "image_wins": 661,
+      "text_wins": 283,
+      "neither_wins": 74,
       "both_wins": 0,
       "invalid_original": 0,
       "invalid_corrupted": 0,
-      "valid_modality_total": 877,
-      "accuracy": 0.24173318129988597,
-      "image_win_rate": 0.6921322690992018,
-      "text_win_rate": 0.24173318129988597,
-      "neither_rate": 0.0661345496009122,
+      "valid_modality_total": 1018,
+      "accuracy": 0.2779960707269155,
+      "image_win_rate": 0.6493123772102161,
+      "text_win_rate": 0.2779960707269155,
+      "neither_rate": 0.07269155206286837,
       "both_rate": 0.0
     },
     "by_task": {
@@ -16104,6 +18871,44 @@
         "image_win_rate": 0.4915254237288136,
         "text_win_rate": 0.1694915254237288,
         "neither_rate": 0.3389830508474576,
+        "both_rate": 0.0
+      },
+      "disconnected_nodes": {
+        "total": 12,
+        "correct": 0,
+        "incorrect": 12,
+        "wrong_format": 0,
+        "bad_expected": 0,
+        "image_wins": 8,
+        "text_wins": 0,
+        "neither_wins": 4,
+        "both_wins": 0,
+        "invalid_original": 0,
+        "invalid_corrupted": 0,
+        "valid_modality_total": 12,
+        "accuracy": 0.0,
+        "image_win_rate": 0.6666666666666666,
+        "text_win_rate": 0.0,
+        "neither_rate": 0.3333333333333333,
+        "both_rate": 0.0
+      },
+      "edge_count": {
+        "total": 112,
+        "correct": 69,
+        "incorrect": 43,
+        "wrong_format": 0,
+        "bad_expected": 0,
+        "image_wins": 33,
+        "text_wins": 69,
+        "neither_wins": 10,
+        "both_wins": 0,
+        "invalid_original": 0,
+        "invalid_corrupted": 0,
+        "valid_modality_total": 112,
+        "accuracy": 0.6160714285714286,
+        "image_win_rate": 0.29464285714285715,
+        "text_win_rate": 0.6160714285714286,
+        "neither_rate": 0.08928571428571429,
         "both_rate": 0.0
       },
       "edge_existence": {
@@ -16181,47 +18986,66 @@
         "text_win_rate": 0.26666666666666666,
         "neither_rate": 0.15555555555555556,
         "both_rate": 0.0
+      },
+      "triangle_counting": {
+        "total": 17,
+        "correct": 2,
+        "incorrect": 15,
+        "wrong_format": 0,
+        "bad_expected": 0,
+        "image_wins": 13,
+        "text_wins": 2,
+        "neither_wins": 2,
+        "both_wins": 0,
+        "invalid_original": 0,
+        "invalid_corrupted": 0,
+        "valid_modality_total": 17,
+        "accuracy": 0.11764705882352941,
+        "image_win_rate": 0.7647058823529411,
+        "text_win_rate": 0.11764705882352941,
+        "neither_rate": 0.11764705882352941,
+        "both_rate": 0.0
       }
     },
     "by_image_type": {
       "spring": {
-        "total": 877,
-        "correct": 212,
-        "incorrect": 665,
+        "total": 1018,
+        "correct": 283,
+        "incorrect": 735,
         "wrong_format": 0,
         "bad_expected": 0,
-        "image_wins": 607,
-        "text_wins": 212,
-        "neither_wins": 58,
+        "image_wins": 661,
+        "text_wins": 283,
+        "neither_wins": 74,
         "both_wins": 0,
         "invalid_original": 0,
         "invalid_corrupted": 0,
-        "valid_modality_total": 877,
-        "accuracy": 0.24173318129988597,
-        "image_win_rate": 0.6921322690992018,
-        "text_win_rate": 0.24173318129988597,
-        "neither_rate": 0.0661345496009122,
+        "valid_modality_total": 1018,
+        "accuracy": 0.2779960707269155,
+        "image_win_rate": 0.6493123772102161,
+        "text_win_rate": 0.2779960707269155,
+        "neither_rate": 0.07269155206286837,
         "both_rate": 0.0
       }
     },
     "by_model": {
       "Qwen2.5-VL-3B-Instruct": {
-        "total": 877,
-        "correct": 212,
-        "incorrect": 665,
+        "total": 1018,
+        "correct": 283,
+        "incorrect": 735,
         "wrong_format": 0,
         "bad_expected": 0,
-        "image_wins": 607,
-        "text_wins": 212,
-        "neither_wins": 58,
+        "image_wins": 661,
+        "text_wins": 283,
+        "neither_wins": 74,
         "both_wins": 0,
         "invalid_original": 0,
         "invalid_corrupted": 0,
-        "valid_modality_total": 877,
-        "accuracy": 0.24173318129988597,
-        "image_win_rate": 0.6921322690992018,
-        "text_win_rate": 0.24173318129988597,
-        "neither_rate": 0.0661345496009122,
+        "valid_modality_total": 1018,
+        "accuracy": 0.2779960707269155,
+        "image_win_rate": 0.6493123772102161,
+        "text_win_rate": 0.2779960707269155,
+        "neither_rate": 0.07269155206286837,
         "both_rate": 0.0
       }
     }
