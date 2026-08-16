@@ -11,10 +11,16 @@ from pathlib import Path
 # Do NOT duplicate parsing/comparison logic here.
 # ---------------------------------------------------------------------------
 
-from evaluation.evaluation import TASK_TYPES
+from evaluation.evaluation import (
+    TASK_TYPES,
+    evaluate_mixed_file,
+    build_mixed_summary,
+)
 from evaluation.enrich_mixed_results import (
     DATA_DIR,
     TEXT_ENCODING,
+    enrich_results,
+    save_enriched_results,
     get_or_load_dataset,
     lookup_algorithm,
 )
@@ -1352,6 +1358,64 @@ def write_edges_csv(edge_distribution_by_task, output_path):
     write_compact_csv(csv_rows, output_path)
 
 
+def score_mixed_results(results_root):
+    """
+    Score every mixed-signals JSONL under results_root.
+    """
+
+    root = Path(results_root)
+
+    if not root.exists():
+        raise FileNotFoundError(
+            f"Results root does not exist: {root}"
+        )
+
+    rows = []
+
+    for path in sorted(root.rglob("*.jsonl")):
+
+        if path.name.startswith("."):
+            continue
+
+        print(f"Scoring {path}")
+
+        rows.append(
+            evaluate_mixed_file(
+                path,
+                root,
+            )
+        )
+
+    if not rows:
+        raise ValueError(
+            f"No JSONL result files found under {root}"
+        )
+
+    return {
+        "generated_at": datetime.now(
+            timezone.utc
+        ).isoformat(),
+        "results_root": str(root),
+        "files": rows,
+        "summary": build_mixed_summary(rows),
+    }
+
+
+def save_scored_results(report, path):
+    path = Path(path)
+    path.parent.mkdir(parents=True, exist_ok=True)
+
+    with open(path, "w", encoding="utf-8") as f:
+        json.dump(
+            report,
+            f,
+            indent=2,
+            ensure_ascii=False,
+        )
+
+    print(f"Saved scored mixed-signals JSON to {path}")
+
+
 # ===========================================================================
 # Main
 # ===========================================================================
@@ -1360,11 +1424,32 @@ def main():
 
     parser = argparse.ArgumentParser(
         description=(
-            "Analyze an already-enriched mixed-signals "
-            "evaluation report, including performance "
-            "stratified by graph generator algorithm "
-            "and by graph edge count."
+            "End-to-end mixed-signals evaluation: "
+            "score result JSONL files, enrich them with "
+            "GraphQA metadata, then write CSVs, JSON, "
+            "and visualizations."
         )
+    )
+
+    parser.add_argument(
+        "--results-root",
+        default="results/mixed_baseline",
+        help=(
+            "Root directory of mixed-signals JSONL "
+            "result files."
+        ),
+    )
+
+    parser.add_argument(
+        "--scored-json",
+        default=(
+            "evaluation/"
+            "mixed_signals_results.json"
+        ),
+        help=(
+            "Where to write the scored mixed-signals "
+            "JSON report."
+        ),
     )
 
     parser.add_argument(
@@ -1374,7 +1459,7 @@ def main():
             "enrich_mixed_signals_results.json"
         ),
         help=(
-            "Path to the already-enriched JSON report."
+            "Where to write the enriched JSON report."
         ),
     )
 
@@ -1447,17 +1532,121 @@ def main():
         help="Skip writing visualization PNGs.",
     )
 
+    parser.add_argument(
+        "--skip-score",
+        action="store_true",
+        help=(
+            "Skip scoring JSONL files and load "
+            "--scored-json instead."
+        ),
+    )
+
+    parser.add_argument(
+        "--skip-enrich",
+        action="store_true",
+        help=(
+            "Skip enrichment and load "
+            "--enriched-json instead."
+        ),
+    )
+
     args = parser.parse_args()
 
     # ---------------------------------------------------------------
-    # Load enriched report
+    # Score mixed-signals JSONL files
     # ---------------------------------------------------------------
 
-    enriched_report, rows = (
-        load_enriched_results(
-            args.enriched_json
+    if args.skip_score and args.skip_enrich:
+
+        enriched_report, rows = (
+            load_enriched_results(
+                args.enriched_json
+            )
         )
-    )
+
+    else:
+
+        if args.skip_score:
+
+            print(
+                f"Loading scored results from "
+                f"{args.scored_json}"
+            )
+
+            with open(
+                args.scored_json,
+                "r",
+                encoding="utf-8",
+            ) as f:
+                scored_report = json.load(f)
+
+        else:
+
+            print(
+                f"Scoring mixed-signals results in "
+                f"{args.results_root}"
+            )
+
+            scored_report = score_mixed_results(
+                args.results_root
+            )
+
+            save_scored_results(
+                scored_report,
+                args.scored_json,
+            )
+
+        # -----------------------------------------------------------
+        # Enrich with GraphQA metadata via sample_id
+        # -----------------------------------------------------------
+
+        if args.skip_enrich:
+
+            enriched_report, rows = (
+                load_enriched_results(
+                    args.enriched_json
+                )
+            )
+
+        else:
+
+            print()
+            print("Enriching scored results...")
+
+            stats = enrich_results(
+                scored_report,
+                data_dir=DATA_DIR,
+                text_encoding=TEXT_ENCODING,
+            )
+
+            print()
+            print("=" * 70)
+            print("ENRICHMENT COMPLETE")
+            print("=" * 70)
+            print(
+                f"Total corruption samples : "
+                f"{stats['total_samples']}"
+            )
+            print(
+                f"Matched                  : "
+                f"{stats['matched_samples']}"
+            )
+            print(
+                f"Missing                  : "
+                f"{stats['missing_samples']}"
+            )
+            print(
+                f"Fields added             : "
+                f"{stats['fields_added']}"
+            )
+
+            save_enriched_results(
+                scored_report,
+                args.enriched_json,
+            )
+
+            enriched_report = scored_report
+            rows = scored_report.get("files", [])
 
     # ---------------------------------------------------------------
     # Filter by image type

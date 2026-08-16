@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-10T05:49:28.426060+00:00",
-  "results_root": "results\\baseline",
+  "generated_at": "2026-08-16T15:19:16.297913+00:00",
+  "image_type_filter": "spring",
   "files": [
     {
       "setting": "image_only",
@@ -35,6 +35,36 @@
       "bad_expected": 0,
       "accuracy": 0.662857,
       "path": "results\\baseline\\image_only\\cycle_check\\spring_Qwen2.5-VL-3B-Instruct.jsonl",
+      "wrong_format_answers": []
+    },
+    {
+      "setting": "image_only",
+      "task": "disconnected_nodes",
+      "file_name": "spring_Qwen2.5-VL-3B-Instruct.jsonl",
+      "image_type": "spring",
+      "model": "Qwen2.5-VL-3B-Instruct",
+      "total": 350,
+      "correct": 16,
+      "incorrect": 334,
+      "wrong_format": 0,
+      "bad_expected": 0,
+      "accuracy": 0.045714,
+      "path": "results\\baseline\\image_only\\disconnected_nodes\\spring_Qwen2.5-VL-3B-Instruct.jsonl",
+      "wrong_format_answers": []
+    },
+    {
+      "setting": "image_only",
+      "task": "edge_count",
+      "file_name": "spring_Qwen2.5-VL-3B-Instruct.jsonl",
+      "image_type": "spring",
+      "model": "Qwen2.5-VL-3B-Instruct",
+      "total": 350,
+      "correct": 56,
+      "incorrect": 294,
+      "wrong_format": 0,
+      "bad_expected": 0,
+      "accuracy": 0.16,
+      "path": "results\\baseline\\image_only\\edge_count\\spring_Qwen2.5-VL-3B-Instruct.jsonl",
       "wrong_format_answers": []
     },
     {
@@ -98,6 +128,21 @@
       "wrong_format_answers": []
     },
     {
+      "setting": "image_only",
+      "task": "triangle_counting",
+      "file_name": "spring_Qwen2.5-VL-3B-Instruct.jsonl",
+      "image_type": "spring",
+      "model": "Qwen2.5-VL-3B-Instruct",
+      "total": 350,
+      "correct": 25,
+      "incorrect": 325,
+      "wrong_format": 0,
+      "bad_expected": 0,
+      "accuracy": 0.071429,
+      "path": "results\\baseline\\image_only\\triangle_counting\\spring_Qwen2.5-VL-3B-Instruct.jsonl",
+      "wrong_format_answers": []
+    },
+    {
       "setting": "text_and_image",
       "task": "connected_nodes",
       "file_name": "spring_Qwen2.5-VL-3B-Instruct.jsonl",
@@ -130,6 +175,36 @@
       "bad_expected": 0,
       "accuracy": 0.662857,
       "path": "results\\baseline\\text_and_image\\cycle_check\\spring_Qwen2.5-VL-3B-Instruct.jsonl",
+      "wrong_format_answers": []
+    },
+    {
+      "setting": "text_and_image",
+      "task": "disconnected_nodes",
+      "file_name": "spring_Qwen2.5-VL-3B-Instruct.jsonl",
+      "image_type": "spring",
+      "model": "Qwen2.5-VL-3B-Instruct",
+      "total": 350,
+      "correct": 19,
+      "incorrect": 331,
+      "wrong_format": 0,
+      "bad_expected": 0,
+      "accuracy": 0.054286,
+      "path": "results\\baseline\\text_and_image\\disconnected_nodes\\spring_Qwen2.5-VL-3B-Instruct.jsonl",
+      "wrong_format_answers": []
+    },
+    {
+      "setting": "text_and_image",
+      "task": "edge_count",
+      "file_name": "spring_Qwen2.5-VL-3B-Instruct.jsonl",
+      "image_type": "spring",
+      "model": "Qwen2.5-VL-3B-Instruct",
+      "total": 350,
+      "correct": 112,
+      "incorrect": 238,
+      "wrong_format": 0,
+      "bad_expected": 0,
+      "accuracy": 0.32,
+      "path": "results\\baseline\\text_and_image\\edge_count\\spring_Qwen2.5-VL-3B-Instruct.jsonl",
       "wrong_format_answers": []
     },
     {
@@ -190,6 +265,21 @@
       "bad_expected": 0,
       "accuracy": 0.257143,
       "path": "results\\baseline\\text_and_image\\shortest_path\\spring_Qwen2.5-VL-3B-Instruct.jsonl",
+      "wrong_format_answers": []
+    },
+    {
+      "setting": "text_and_image",
+      "task": "triangle_counting",
+      "file_name": "spring_Qwen2.5-VL-3B-Instruct.jsonl",
+      "image_type": "spring",
+      "model": "Qwen2.5-VL-3B-Instruct",
+      "total": 350,
+      "correct": 17,
+      "incorrect": 333,
+      "wrong_format": 0,
+      "bad_expected": 0,
+      "accuracy": 0.048571,
+      "path": "results\\baseline\\text_and_image\\triangle_counting\\spring_Qwen2.5-VL-3B-Instruct.jsonl",
       "wrong_format_answers": []
     },
     {
@@ -277,6 +367,141 @@
     },
     {
       "setting": "text_only",
+      "task": "disconnected_nodes",
+      "file_name": "spring_Qwen2.5-VL-3B-Instruct.jsonl",
+      "image_type": "spring",
+      "model": "Qwen2.5-VL-3B-Instruct",
+      "total": 350,
+      "correct": 33,
+      "incorrect": 291,
+      "wrong_format": 26,
+      "bad_expected": 0,
+      "accuracy": 0.094286,
+      "path": "results\\baseline\\text_only\\disconnected_nodes\\spring_Qwen2.5-VL-3B-Instruct.jsonl",
+      "wrong_format_answers": [
+        {
+          "sample_id": "disconnected_nodes/adjacency/test/11",
+          "answer": "1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17"
+        },
+        {
+          "sample_id": "disconnected_nodes/adjacency/test/19",
+          "answer": "0 2 3 4 5 6 7 8 9 10 11"
+        },
+        {
+          "sample_id": "disconnected_nodes/adjacency/test/22",
+          "answer": "0 2 3 4 5 6 7 8 9 10 11"
+        },
+        {
+          "sample_id": "disconnected_nodes/adjacency/test/45",
+          "answer": "0 2 4 5 6 7 8 9 10"
+        },
+        {
+          "sample_id": "disconnected_nodes/adjacency/test/60",
+          "answer": "1 2 3 4 5 6"
+        },
+        {
+          "sample_id": "disconnected_nodes/adjacency/test/87",
+          "answer": "1 2 3 4 5 6 7 8 9 10"
+        },
+        {
+          "sample_id": "disconnected_nodes/adjacency/test/104",
+          "answer": "0 1 2 3 4 5 7 8 9 10 11 12 13 14"
+        },
+        {
+          "sample_id": "disconnected_nodes/adjacency/test/105",
+          "answer": "0 1 2 3 4 5 7 8 9"
+        },
+        {
+          "sample_id": "disconnected_nodes/adjacency/test/120",
+          "answer": "10 11 12 13 14 15 16 17 18"
+        },
+        {
+          "sample_id": "disconnected_nodes/adjacency/test/162",
+          "answer": "10 11 12"
+        },
+        {
+          "sample_id": "disconnected_nodes/adjacency/test/183",
+          "answer": "1 2 15"
+        },
+        {
+          "sample_id": "disconnected_nodes/adjacency/test/187",
+          "answer": "0 1 7 9"
+        },
+        {
+          "sample_id": "disconnected_nodes/adjacency/test/206",
+          "answer": "0 2 3 4 5 6 7 8 9 10 11 12 13 14"
+        },
+        {
+          "sample_id": "disconnected_nodes/adjacency/test/208",
+          "answer": "0 1 2 3 4 5 6 7 9 10 11 12 13 14 15 16"
+        },
+        {
+          "sample_id": "disconnected_nodes/adjacency/test/211",
+          "answer": "0 1 2 3 4 5 6 7 9 10 11 12 13 14 15"
+        },
+        {
+          "sample_id": "disconnected_nodes/adjacency/test/212",
+          "answer": "0 1 2 3 4 5 6 7 9 10 11 12"
+        },
+        {
+          "sample_id": "disconnected_nodes/adjacency/test/213",
+          "answer": "0 2 3 4 5 6 7 8 9"
+        },
+        {
+          "sample_id": "disconnected_nodes/adjacency/test/233",
+          "answer": "0 1 2 3 4 5 6 7 8 10 11 12 13 14 15 16 17"
+        },
+        {
+          "sample_id": "disconnected_nodes/adjacency/test/236",
+          "answer": "0 1 3 4 5 6 7 8"
+        },
+        {
+          "sample_id": "disconnected_nodes/adjacency/test/274",
+          "answer": "10 11 12 13"
+        },
+        {
+          "sample_id": "disconnected_nodes/adjacency/test/281",
+          "answer": "0 1 2 3 5 6 7 8 9"
+        },
+        {
+          "sample_id": "disconnected_nodes/adjacency/test/293",
+          "answer": "1 2 3 4 5 6 7 8 9"
+        },
+        {
+          "sample_id": "disconnected_nodes/adjacency/test/319",
+          "answer": "10 11 12 13"
+        },
+        {
+          "sample_id": "disconnected_nodes/adjacency/test/324",
+          "answer": "11 12 13"
+        },
+        {
+          "sample_id": "disconnected_nodes/adjacency/test/328",
+          "answer": "10 11 12"
+        },
+        {
+          "sample_id": "disconnected_nodes/adjacency/test/345",
+          "answer": "10 11 12 13"
+        }
+      ]
+    },
+    {
+      "setting": "text_only",
+      "task": "edge_count",
+      "file_name": "spring_Qwen2.5-VL-3B-Instruct.jsonl",
+      "image_type": "spring",
+      "model": "Qwen2.5-VL-3B-Instruct",
+      "total": 350,
+      "correct": 112,
+      "incorrect": 238,
+      "wrong_format": 0,
+      "bad_expected": 0,
+      "accuracy": 0.32,
+      "path": "results\\baseline\\text_only\\edge_count\\spring_Qwen2.5-VL-3B-Instruct.jsonl",
+      "wrong_format_answers": []
+    },
+    {
+      "setting": "text_only",
       "task": "edge_existence",
       "file_name": "spring_Qwen2.5-VL-3B-Instruct.jsonl",
       "image_type": "spring",
@@ -339,6 +564,21 @@
           "answer": "None of the provided edges connect node 4 to node 2, so there is no path between them. Therefore, the length of the shortest path from node 4 to node 2 is 0."
         }
       ]
+    },
+    {
+      "setting": "text_only",
+      "task": "triangle_counting",
+      "file_name": "spring_Qwen2.5-VL-3B-Instruct.jsonl",
+      "image_type": "spring",
+      "model": "Qwen2.5-VL-3B-Instruct",
+      "total": 350,
+      "correct": 18,
+      "incorrect": 332,
+      "wrong_format": 0,
+      "bad_expected": 0,
+      "accuracy": 0.051429,
+      "path": "results\\baseline\\text_only\\triangle_counting\\spring_Qwen2.5-VL-3B-Instruct.jsonl",
+      "wrong_format_answers": []
     }
   ],
   "summary": {
@@ -350,13 +590,23 @@
           "std_accuracy": 0.0
         },
         "all": {
-          "count": 6,
-          "mean_accuracy": 0.447143,
-          "std_accuracy": 0.238685
+          "count": 9,
+          "mean_accuracy": 0.328889,
+          "std_accuracy": 0.258355
         },
         "cycle_check": {
           "count": 1,
           "mean_accuracy": 0.662857,
+          "std_accuracy": 0.0
+        },
+        "disconnected_nodes": {
+          "count": 1,
+          "mean_accuracy": 0.045714,
+          "std_accuracy": 0.0
+        },
+        "edge_count": {
+          "count": 1,
+          "mean_accuracy": 0.16,
           "std_accuracy": 0.0
         },
         "edge_existence": {
@@ -378,6 +628,11 @@
           "count": 1,
           "mean_accuracy": 0.177143,
           "std_accuracy": 0.0
+        },
+        "triangle_counting": {
+          "count": 1,
+          "mean_accuracy": 0.071429,
+          "std_accuracy": 0.0
         }
       },
       "text_and_image": {
@@ -387,13 +642,23 @@
           "std_accuracy": 0.0
         },
         "all": {
-          "count": 6,
-          "mean_accuracy": 0.528095,
-          "std_accuracy": 0.240489
+          "count": 9,
+          "mean_accuracy": 0.399048,
+          "std_accuracy": 0.277864
         },
         "cycle_check": {
           "count": 1,
           "mean_accuracy": 0.662857,
+          "std_accuracy": 0.0
+        },
+        "disconnected_nodes": {
+          "count": 1,
+          "mean_accuracy": 0.054286,
+          "std_accuracy": 0.0
+        },
+        "edge_count": {
+          "count": 1,
+          "mean_accuracy": 0.32,
           "std_accuracy": 0.0
         },
         "edge_existence": {
@@ -415,6 +680,11 @@
           "count": 1,
           "mean_accuracy": 0.257143,
           "std_accuracy": 0.0
+        },
+        "triangle_counting": {
+          "count": 1,
+          "mean_accuracy": 0.048571,
+          "std_accuracy": 0.0
         }
       },
       "text_only": {
@@ -424,13 +694,23 @@
           "std_accuracy": 0.0
         },
         "all": {
-          "count": 6,
-          "mean_accuracy": 0.506667,
-          "std_accuracy": 0.274784
+          "count": 9,
+          "mean_accuracy": 0.389524,
+          "std_accuracy": 0.28707
         },
         "cycle_check": {
           "count": 1,
           "mean_accuracy": 0.665714,
+          "std_accuracy": 0.0
+        },
+        "disconnected_nodes": {
+          "count": 1,
+          "mean_accuracy": 0.094286,
+          "std_accuracy": 0.0
+        },
+        "edge_count": {
+          "count": 1,
+          "mean_accuracy": 0.32,
           "std_accuracy": 0.0
         },
         "edge_existence": {
@@ -451,6 +731,11 @@
         "shortest_path": {
           "count": 1,
           "mean_accuracy": 0.197143,
+          "std_accuracy": 0.0
+        },
+        "triangle_counting": {
+          "count": 1,
+          "mean_accuracy": 0.051429,
           "std_accuracy": 0.0
         }
       }
@@ -497,6 +782,50 @@
         "text_only": {
           "count": 1,
           "mean_accuracy": 0.665714,
+          "std_accuracy": 0.0
+        }
+      },
+      "disconnected_nodes": {
+        "image_only": {
+          "count": 1,
+          "mean_accuracy": 0.045714,
+          "std_accuracy": 0.0
+        },
+        "all": {
+          "count": 3,
+          "mean_accuracy": 0.064762,
+          "std_accuracy": 0.021168
+        },
+        "text_and_image": {
+          "count": 1,
+          "mean_accuracy": 0.054286,
+          "std_accuracy": 0.0
+        },
+        "text_only": {
+          "count": 1,
+          "mean_accuracy": 0.094286,
+          "std_accuracy": 0.0
+        }
+      },
+      "edge_count": {
+        "image_only": {
+          "count": 1,
+          "mean_accuracy": 0.16,
+          "std_accuracy": 0.0
+        },
+        "all": {
+          "count": 3,
+          "mean_accuracy": 0.266667,
+          "std_accuracy": 0.075425
+        },
+        "text_and_image": {
+          "count": 1,
+          "mean_accuracy": 0.32,
+          "std_accuracy": 0.0
+        },
+        "text_only": {
+          "count": 1,
+          "mean_accuracy": 0.32,
           "std_accuracy": 0.0
         }
       },
@@ -587,43 +916,65 @@
           "mean_accuracy": 0.197143,
           "std_accuracy": 0.0
         }
+      },
+      "triangle_counting": {
+        "image_only": {
+          "count": 1,
+          "mean_accuracy": 0.071429,
+          "std_accuracy": 0.0
+        },
+        "all": {
+          "count": 3,
+          "mean_accuracy": 0.057143,
+          "std_accuracy": 0.010169
+        },
+        "text_and_image": {
+          "count": 1,
+          "mean_accuracy": 0.048571,
+          "std_accuracy": 0.0
+        },
+        "text_only": {
+          "count": 1,
+          "mean_accuracy": 0.051429,
+          "std_accuracy": 0.0
+        }
       }
     },
     "by_image_type": {
       "spring": {
         "image_only": {
-          "count": 6,
-          "mean_accuracy": 0.447143,
-          "std_accuracy": 0.238685
+          "count": 9,
+          "mean_accuracy": 0.328889,
+          "std_accuracy": 0.258355
         },
         "text_and_image": {
-          "count": 6,
-          "mean_accuracy": 0.528095,
-          "std_accuracy": 0.240489
+          "count": 9,
+          "mean_accuracy": 0.399048,
+          "std_accuracy": 0.277864
         },
         "text_only": {
-          "count": 6,
-          "mean_accuracy": 0.506667,
-          "std_accuracy": 0.274784
+          "count": 9,
+          "mean_accuracy": 0.389524,
+          "std_accuracy": 0.28707
         }
       }
     },
     "by_model": {
       "Qwen2.5-VL-3B-Instruct": {
         "image_only": {
-          "count": 6,
-          "mean_accuracy": 0.447143,
-          "std_accuracy": 0.238685
+          "count": 9,
+          "mean_accuracy": 0.328889,
+          "std_accuracy": 0.258355
         },
         "text_and_image": {
-          "count": 6,
-          "mean_accuracy": 0.528095,
-          "std_accuracy": 0.240489
+          "count": 9,
+          "mean_accuracy": 0.399048,
+          "std_accuracy": 0.277864
         },
         "text_only": {
-          "count": 6,
-          "mean_accuracy": 0.506667,
-          "std_accuracy": 0.274784
+          "count": 9,
+          "mean_accuracy": 0.389524,
+          "std_accuracy": 0.28707
         }
       }
     }
@@ -766,6 +1117,240 @@
     },
     {
       "setting": "text_only",
+      "task": "disconnected_nodes",
+      "image_type": "spring",
+      "model": "Qwen2.5-VL-3B-Instruct",
+      "file_name": "spring_Qwen2.5-VL-3B-Instruct.jsonl",
+      "sample_id": "disconnected_nodes/adjacency/test/11",
+      "answer": "1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17"
+    },
+    {
+      "setting": "text_only",
+      "task": "disconnected_nodes",
+      "image_type": "spring",
+      "model": "Qwen2.5-VL-3B-Instruct",
+      "file_name": "spring_Qwen2.5-VL-3B-Instruct.jsonl",
+      "sample_id": "disconnected_nodes/adjacency/test/19",
+      "answer": "0 2 3 4 5 6 7 8 9 10 11"
+    },
+    {
+      "setting": "text_only",
+      "task": "disconnected_nodes",
+      "image_type": "spring",
+      "model": "Qwen2.5-VL-3B-Instruct",
+      "file_name": "spring_Qwen2.5-VL-3B-Instruct.jsonl",
+      "sample_id": "disconnected_nodes/adjacency/test/22",
+      "answer": "0 2 3 4 5 6 7 8 9 10 11"
+    },
+    {
+      "setting": "text_only",
+      "task": "disconnected_nodes",
+      "image_type": "spring",
+      "model": "Qwen2.5-VL-3B-Instruct",
+      "file_name": "spring_Qwen2.5-VL-3B-Instruct.jsonl",
+      "sample_id": "disconnected_nodes/adjacency/test/45",
+      "answer": "0 2 4 5 6 7 8 9 10"
+    },
+    {
+      "setting": "text_only",
+      "task": "disconnected_nodes",
+      "image_type": "spring",
+      "model": "Qwen2.5-VL-3B-Instruct",
+      "file_name": "spring_Qwen2.5-VL-3B-Instruct.jsonl",
+      "sample_id": "disconnected_nodes/adjacency/test/60",
+      "answer": "1 2 3 4 5 6"
+    },
+    {
+      "setting": "text_only",
+      "task": "disconnected_nodes",
+      "image_type": "spring",
+      "model": "Qwen2.5-VL-3B-Instruct",
+      "file_name": "spring_Qwen2.5-VL-3B-Instruct.jsonl",
+      "sample_id": "disconnected_nodes/adjacency/test/87",
+      "answer": "1 2 3 4 5 6 7 8 9 10"
+    },
+    {
+      "setting": "text_only",
+      "task": "disconnected_nodes",
+      "image_type": "spring",
+      "model": "Qwen2.5-VL-3B-Instruct",
+      "file_name": "spring_Qwen2.5-VL-3B-Instruct.jsonl",
+      "sample_id": "disconnected_nodes/adjacency/test/104",
+      "answer": "0 1 2 3 4 5 7 8 9 10 11 12 13 14"
+    },
+    {
+      "setting": "text_only",
+      "task": "disconnected_nodes",
+      "image_type": "spring",
+      "model": "Qwen2.5-VL-3B-Instruct",
+      "file_name": "spring_Qwen2.5-VL-3B-Instruct.jsonl",
+      "sample_id": "disconnected_nodes/adjacency/test/105",
+      "answer": "0 1 2 3 4 5 7 8 9"
+    },
+    {
+      "setting": "text_only",
+      "task": "disconnected_nodes",
+      "image_type": "spring",
+      "model": "Qwen2.5-VL-3B-Instruct",
+      "file_name": "spring_Qwen2.5-VL-3B-Instruct.jsonl",
+      "sample_id": "disconnected_nodes/adjacency/test/120",
+      "answer": "10 11 12 13 14 15 16 17 18"
+    },
+    {
+      "setting": "text_only",
+      "task": "disconnected_nodes",
+      "image_type": "spring",
+      "model": "Qwen2.5-VL-3B-Instruct",
+      "file_name": "spring_Qwen2.5-VL-3B-Instruct.jsonl",
+      "sample_id": "disconnected_nodes/adjacency/test/162",
+      "answer": "10 11 12"
+    },
+    {
+      "setting": "text_only",
+      "task": "disconnected_nodes",
+      "image_type": "spring",
+      "model": "Qwen2.5-VL-3B-Instruct",
+      "file_name": "spring_Qwen2.5-VL-3B-Instruct.jsonl",
+      "sample_id": "disconnected_nodes/adjacency/test/183",
+      "answer": "1 2 15"
+    },
+    {
+      "setting": "text_only",
+      "task": "disconnected_nodes",
+      "image_type": "spring",
+      "model": "Qwen2.5-VL-3B-Instruct",
+      "file_name": "spring_Qwen2.5-VL-3B-Instruct.jsonl",
+      "sample_id": "disconnected_nodes/adjacency/test/187",
+      "answer": "0 1 7 9"
+    },
+    {
+      "setting": "text_only",
+      "task": "disconnected_nodes",
+      "image_type": "spring",
+      "model": "Qwen2.5-VL-3B-Instruct",
+      "file_name": "spring_Qwen2.5-VL-3B-Instruct.jsonl",
+      "sample_id": "disconnected_nodes/adjacency/test/206",
+      "answer": "0 2 3 4 5 6 7 8 9 10 11 12 13 14"
+    },
+    {
+      "setting": "text_only",
+      "task": "disconnected_nodes",
+      "image_type": "spring",
+      "model": "Qwen2.5-VL-3B-Instruct",
+      "file_name": "spring_Qwen2.5-VL-3B-Instruct.jsonl",
+      "sample_id": "disconnected_nodes/adjacency/test/208",
+      "answer": "0 1 2 3 4 5 6 7 9 10 11 12 13 14 15 16"
+    },
+    {
+      "setting": "text_only",
+      "task": "disconnected_nodes",
+      "image_type": "spring",
+      "model": "Qwen2.5-VL-3B-Instruct",
+      "file_name": "spring_Qwen2.5-VL-3B-Instruct.jsonl",
+      "sample_id": "disconnected_nodes/adjacency/test/211",
+      "answer": "0 1 2 3 4 5 6 7 9 10 11 12 13 14 15"
+    },
+    {
+      "setting": "text_only",
+      "task": "disconnected_nodes",
+      "image_type": "spring",
+      "model": "Qwen2.5-VL-3B-Instruct",
+      "file_name": "spring_Qwen2.5-VL-3B-Instruct.jsonl",
+      "sample_id": "disconnected_nodes/adjacency/test/212",
+      "answer": "0 1 2 3 4 5 6 7 9 10 11 12"
+    },
+    {
+      "setting": "text_only",
+      "task": "disconnected_nodes",
+      "image_type": "spring",
+      "model": "Qwen2.5-VL-3B-Instruct",
+      "file_name": "spring_Qwen2.5-VL-3B-Instruct.jsonl",
+      "sample_id": "disconnected_nodes/adjacency/test/213",
+      "answer": "0 2 3 4 5 6 7 8 9"
+    },
+    {
+      "setting": "text_only",
+      "task": "disconnected_nodes",
+      "image_type": "spring",
+      "model": "Qwen2.5-VL-3B-Instruct",
+      "file_name": "spring_Qwen2.5-VL-3B-Instruct.jsonl",
+      "sample_id": "disconnected_nodes/adjacency/test/233",
+      "answer": "0 1 2 3 4 5 6 7 8 10 11 12 13 14 15 16 17"
+    },
+    {
+      "setting": "text_only",
+      "task": "disconnected_nodes",
+      "image_type": "spring",
+      "model": "Qwen2.5-VL-3B-Instruct",
+      "file_name": "spring_Qwen2.5-VL-3B-Instruct.jsonl",
+      "sample_id": "disconnected_nodes/adjacency/test/236",
+      "answer": "0 1 3 4 5 6 7 8"
+    },
+    {
+      "setting": "text_only",
+      "task": "disconnected_nodes",
+      "image_type": "spring",
+      "model": "Qwen2.5-VL-3B-Instruct",
+      "file_name": "spring_Qwen2.5-VL-3B-Instruct.jsonl",
+      "sample_id": "disconnected_nodes/adjacency/test/274",
+      "answer": "10 11 12 13"
+    },
+    {
+      "setting": "text_only",
+      "task": "disconnected_nodes",
+      "image_type": "spring",
+      "model": "Qwen2.5-VL-3B-Instruct",
+      "file_name": "spring_Qwen2.5-VL-3B-Instruct.jsonl",
+      "sample_id": "disconnected_nodes/adjacency/test/281",
+      "answer": "0 1 2 3 5 6 7 8 9"
+    },
+    {
+      "setting": "text_only",
+      "task": "disconnected_nodes",
+      "image_type": "spring",
+      "model": "Qwen2.5-VL-3B-Instruct",
+      "file_name": "spring_Qwen2.5-VL-3B-Instruct.jsonl",
+      "sample_id": "disconnected_nodes/adjacency/test/293",
+      "answer": "1 2 3 4 5 6 7 8 9"
+    },
+    {
+      "setting": "text_only",
+      "task": "disconnected_nodes",
+      "image_type": "spring",
+      "model": "Qwen2.5-VL-3B-Instruct",
+      "file_name": "spring_Qwen2.5-VL-3B-Instruct.jsonl",
+      "sample_id": "disconnected_nodes/adjacency/test/319",
+      "answer": "10 11 12 13"
+    },
+    {
+      "setting": "text_only",
+      "task": "disconnected_nodes",
+      "image_type": "spring",
+      "model": "Qwen2.5-VL-3B-Instruct",
+      "file_name": "spring_Qwen2.5-VL-3B-Instruct.jsonl",
+      "sample_id": "disconnected_nodes/adjacency/test/324",
+      "answer": "11 12 13"
+    },
+    {
+      "setting": "text_only",
+      "task": "disconnected_nodes",
+      "image_type": "spring",
+      "model": "Qwen2.5-VL-3B-Instruct",
+      "file_name": "spring_Qwen2.5-VL-3B-Instruct.jsonl",
+      "sample_id": "disconnected_nodes/adjacency/test/328",
+      "answer": "10 11 12"
+    },
+    {
+      "setting": "text_only",
+      "task": "disconnected_nodes",
+      "image_type": "spring",
+      "model": "Qwen2.5-VL-3B-Instruct",
+      "file_name": "spring_Qwen2.5-VL-3B-Instruct.jsonl",
+      "sample_id": "disconnected_nodes/adjacency/test/345",
+      "answer": "10 11 12 13"
+    },
+    {
+      "setting": "text_only",
       "task": "shortest_path",
       "image_type": "spring",
       "model": "Qwen2.5-VL-3B-Instruct",
@@ -774,5 +1359,5 @@
       "answer": "None of the provided edges connect node 4 to node 2, so there is no path between them. Therefore, the length of the shortest path from node 4 to node 2 is 0."
     }
   ],
-  "wrong_format_count": 16
+  "wrong_format_count": 42
 }

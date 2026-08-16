@@ -225,8 +225,8 @@ def compare(task, expected_raw, predicted_raw):
             expected.raw,
         )
 
-    if task == "connected_nodes":
-        # Connected nodes form a set.
+    if TASK_TYPES[task] == "list":
+        # Node lists form a set.
         # Order should therefore not matter.
         correct = (
             set(expected.value)
@@ -377,6 +377,294 @@ def evaluate_file(path, root):
             wrong_format_answers
         ),
     }
+
+
+def classify_modality(matches_original, matches_corrupted):
+    if matches_original and matches_corrupted:
+        return "both"
+
+    if matches_original:
+        return "image"
+
+    if matches_corrupted:
+        return "text"
+
+    return "neither"
+
+
+def evaluate_mixed_file(path, root):
+    """
+    Score a mixed-signals JSONL file.
+
+    The model is compared to the original (image) answer and the
+    corrupted (text) answer to decide which modality it followed.
+    """
+
+    metadata = get_file_metadata(
+        path,
+        root,
+    )
+
+    data = load_results_file(path)
+    task = metadata["task"]
+
+    if task not in TASK_TYPES:
+        raise ValueError(
+            f"Unknown task in mixed results: {task}"
+        )
+
+    correct = 0
+    total = 0
+    wrong_format = 0
+    bad_expected = 0
+
+    image_wins = 0
+    text_wins = 0
+    neither_wins = 0
+    both_wins = 0
+    invalid_original = 0
+    invalid_corrupted = 0
+
+    image_type = "unknown"
+    model = "unknown"
+    samples = []
+
+    for row in data:
+        image_type = row.get(
+            "image_type",
+            image_type,
+        )
+
+        model = row.get(
+            "model",
+            model,
+        )
+
+        if row.get("model_answer") is None:
+            continue
+
+        total += 1
+
+        is_correct, status, raw = compare(
+            task,
+            row.get("expected_answer"),
+            row.get("model_answer"),
+        )
+
+        if is_correct:
+            correct += 1
+        elif status == "wrong_format":
+            wrong_format += 1
+        elif status == "bad_expected":
+            bad_expected += 1
+
+        original_answer = row.get("original_answer")
+        corrupted_answer = row.get(
+            "corrupted_answer",
+            row.get("expected_answer"),
+        )
+
+        original_expected = parse_expected(
+            task,
+            original_answer,
+        )
+        corrupted_expected = parse_expected(
+            task,
+            corrupted_answer,
+        )
+
+        if not original_expected.valid:
+            invalid_original += 1
+
+        if not corrupted_expected.valid:
+            invalid_corrupted += 1
+
+        matches_original, _, _ = compare(
+            task,
+            original_answer,
+            row.get("model_answer"),
+        )
+
+        matches_corrupted, _, _ = compare(
+            task,
+            corrupted_answer,
+            row.get("model_answer"),
+        )
+
+        winner = classify_modality(
+            matches_original,
+            matches_corrupted,
+        )
+
+        if winner == "image":
+            image_wins += 1
+        elif winner == "text":
+            text_wins += 1
+        elif winner == "neither":
+            neither_wins += 1
+        else:
+            both_wins += 1
+
+        samples.append({
+            "sample_id": row.get("sample_id"),
+            "expected_answer": row.get("expected_answer"),
+            "original_answer": original_answer,
+            "corrupted_answer": corrupted_answer,
+            "model_answer": row.get("model_answer"),
+            "corruption": row.get("corruption"),
+            "correct": is_correct,
+            "correctness_status": status,
+            "modality_winner": winner,
+            "matches_original": matches_original,
+            "matches_corrupted": matches_corrupted,
+        })
+
+    valid_modality_total = (
+        image_wins
+        + text_wins
+        + neither_wins
+        + both_wins
+    )
+
+    accuracy = (
+        correct / total
+        if total
+        else 0.0
+    )
+
+    return {
+        **metadata,
+        "image_type": image_type,
+        "model": model,
+        "total": total,
+        "correct": correct,
+        "incorrect": (
+            total
+            - correct
+            - wrong_format
+        ),
+        "wrong_format": wrong_format,
+        "bad_expected": bad_expected,
+        "accuracy": round(
+            accuracy,
+            6,
+        ),
+        "image_wins": image_wins,
+        "text_wins": text_wins,
+        "neither_wins": neither_wins,
+        "both_wins": both_wins,
+        "invalid_original": invalid_original,
+        "invalid_corrupted": invalid_corrupted,
+        "image_win_rate": round(
+            image_wins / valid_modality_total
+            if valid_modality_total
+            else 0.0,
+            6,
+        ),
+        "text_win_rate": round(
+            text_wins / valid_modality_total
+            if valid_modality_total
+            else 0.0,
+            6,
+        ),
+        "neither_rate": round(
+            neither_wins / valid_modality_total
+            if valid_modality_total
+            else 0.0,
+            6,
+        ),
+        "both_rate": round(
+            both_wins / valid_modality_total
+            if valid_modality_total
+            else 0.0,
+            6,
+        ),
+        "valid_modality_total": valid_modality_total,
+        "path": str(path),
+        "samples": samples,
+        "wrong_format_answers": [],
+    }
+
+
+def build_mixed_summary(rows):
+    fields = [
+        "total",
+        "correct",
+        "incorrect",
+        "wrong_format",
+        "bad_expected",
+        "image_wins",
+        "text_wins",
+        "neither_wins",
+        "both_wins",
+        "invalid_original",
+        "invalid_corrupted",
+        "valid_modality_total",
+    ]
+
+    def aggregate(group_rows):
+        result = {
+            field: sum(
+                row.get(field, 0)
+                for row in group_rows
+            )
+            for field in fields
+        }
+
+        total = result["total"]
+        valid = result["valid_modality_total"]
+
+        result["accuracy"] = (
+            result["correct"] / total
+            if total
+            else 0.0
+        )
+        result["image_win_rate"] = (
+            result["image_wins"] / valid
+            if valid
+            else 0.0
+        )
+        result["text_win_rate"] = (
+            result["text_wins"] / valid
+            if valid
+            else 0.0
+        )
+        result["neither_rate"] = (
+            result["neither_wins"] / valid
+            if valid
+            else 0.0
+        )
+        result["both_rate"] = (
+            result["both_wins"] / valid
+            if valid
+            else 0.0
+        )
+
+        return result
+
+    summary = {
+        "overall": aggregate(rows),
+        "by_task": {},
+        "by_image_type": {},
+        "by_model": {},
+    }
+
+    for row in rows:
+        for group_name, key in [
+            ("by_task", row.get("task")),
+            ("by_image_type", row.get("image_type")),
+            ("by_model", row.get("model")),
+        ]:
+            if key is None:
+                continue
+
+            summary[group_name].setdefault(key, []).append(row)
+
+    for group_name in ["by_task", "by_image_type", "by_model"]:
+        for key, group_rows in summary[group_name].items():
+            summary[group_name][key] = aggregate(group_rows)
+
+    return summary
 
 
 # ---------------------------------------------------------------------------
@@ -960,6 +1248,28 @@ def main():
         ),
     )
 
+    parser.add_argument(
+        "--mixed",
+        action="store_true",
+        help=(
+            "Score mixed-signals result files "
+            "(original vs corrupted answers) "
+            "instead of clean baseline accuracy."
+        ),
+    )
+
+    parser.add_argument(
+        "--vis-dir",
+        default="evaluation/vis",
+        help="Directory for visualization PNGs.",
+    )
+
+    parser.add_argument(
+        "--skip-vis",
+        action="store_true",
+        help="Skip writing visualization PNGs.",
+    )
+
     args = parser.parse_args()
 
     root = Path(
@@ -982,14 +1292,21 @@ def main():
             continue
 
         rows.append(
-            evaluate_file(
+            evaluate_mixed_file(
+                path,
+                root,
+            )
+            if args.mixed
+            else evaluate_file(
                 path,
                 root,
             )
         )
 
-    summary = build_summary(
-        rows
+    summary = (
+        build_mixed_summary(rows)
+        if args.mixed
+        else build_summary(rows)
     )
 
     # -----------------------------------------------------------------------
@@ -1030,7 +1347,7 @@ def main():
                 timezone.utc
             ).isoformat()
         ),
-        "results_root": str(root),
+        "image_type_filter": args.image_type,
         "files": rows,
         "summary": summary,
         "wrong_format_answers": (
@@ -1079,6 +1396,21 @@ def main():
         "bad_expected",
         "accuracy",
     ]
+
+    if args.mixed:
+        csv_fields.extend([
+            "image_wins",
+            "text_wins",
+            "neither_wins",
+            "both_wins",
+            "image_win_rate",
+            "text_win_rate",
+            "neither_rate",
+            "both_rate",
+            "valid_modality_total",
+            "invalid_original",
+            "invalid_corrupted",
+        ])
 
     output_csv = Path(
         args.output_csv
@@ -1161,6 +1493,31 @@ def main():
             else args.image_type
         ),
     )
+
+    if not args.mixed and not args.skip_vis:
+
+        try:
+            from evaluation.vis.plot_baseline import (
+                write_baseline_plot,
+            )
+
+        except ImportError as exc:
+            print(
+                "Skipping visualization "
+                f"(matplotlib unavailable): {exc}"
+            )
+
+        else:
+            vis_path = write_baseline_plot(
+                rows,
+                output_path=Path(args.vis_dir) / "baseline.png",
+                image_type=args.image_type,
+            )
+
+            if vis_path is not None:
+                print(
+                    f"Saved visualization to {vis_path}"
+                )
 
     # -----------------------------------------------------------------------
     # NEW: answer distributions
