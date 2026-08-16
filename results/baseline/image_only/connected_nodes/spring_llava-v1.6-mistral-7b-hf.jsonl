@@ -1,0 +1,6302 @@
+[
+  {
+    "sample_id": "connected_nodes/adjacency/test/0",
+    "question": "Q: List all the nodes connected to 14 in alphabetical order.\nA: ",
+    "expected_answer": "2, 5.",
+    "model_answer": "10",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "10",
+      "confidence": 0.45420464873313904,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/1",
+    "question": "Q: List all the nodes connected to 1 in alphabetical order.\nA: ",
+    "expected_answer": "3, 6, 7.",
+    "model_answer": "3",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3",
+      "confidence": 0.5899718999862671,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/2",
+    "question": "Q: List all the nodes connected to 0 in alphabetical order.\nA: ",
+    "expected_answer": " No nodes.",
+    "model_answer": "",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "",
+      "confidence": 0.3347279727458954,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/3",
+    "question": "Q: List all the nodes connected to 2 in alphabetical order.\nA: ",
+    "expected_answer": "3.",
+    "model_answer": "3",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3",
+      "confidence": 0.6565154790878296,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/4",
+    "question": "Q: List all the nodes connected to 1 in alphabetical order.\nA: ",
+    "expected_answer": "2, 6, 9, 15.",
+    "model_answer": "[0, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "[0, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]",
+      "confidence": 0.8928228616714478,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/5",
+    "question": "Q: List all the nodes connected to 10 in alphabetical order.\nA: ",
+    "expected_answer": "1, 2, 3, 4, 5, 7, 8, 9, 12.",
+    "model_answer": "[1, 2, 3, 4, 5, 6, 7, 8, 9, 11, 12]",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "[1, 2, 3, 4, 5, 6, 7, 8, 9, 11, 12]",
+      "confidence": 0.8932613134384155,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/6",
+    "question": "Q: List all the nodes connected to 2 in alphabetical order.\nA: ",
+    "expected_answer": "3, 14.",
+    "model_answer": "1",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": 0.44828683137893677,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/7",
+    "question": "Q: List all the nodes connected to 1 in alphabetical order.\nA: ",
+    "expected_answer": "0, 2, 3, 4, 5, 6.",
+    "model_answer": "[0, 2, 4, 6]",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "[0, 2, 4, 6]",
+      "confidence": 0.7069634795188904,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/8",
+    "question": "Q: List all the nodes connected to 11 in alphabetical order.\nA: ",
+    "expected_answer": "1, 8, 12, 17.",
+    "model_answer": "14",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "14",
+      "confidence": 0.504800021648407,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/9",
+    "question": "Q: List all the nodes connected to 3 in alphabetical order.\nA: ",
+    "expected_answer": "1, 5.",
+    "model_answer": "0",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": 0.6230765581130981,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/10",
+    "question": "Q: List all the nodes connected to 0 in alphabetical order.\nA: ",
+    "expected_answer": "1, 2, 3, 5, 6, 7, 8.",
+    "model_answer": "1",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": 0.5921857953071594,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/11",
+    "question": "Q: List all the nodes connected to 0 in alphabetical order.\nA: ",
+    "expected_answer": "1, 2, 3, 4, 6, 9, 10, 12, 13, 14, 15, 17.",
+    "model_answer": "[1, 4, 6, 9, 12, 15]",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "[1, 4, 6, 9, 12, 15]",
+      "confidence": 0.7425575256347656,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/12",
+    "question": "Q: List all the nodes connected to 12 in alphabetical order.\nA: ",
+    "expected_answer": "0, 1, 2, 3, 4, 5, 6, 7, 9, 11, 13.",
+    "model_answer": "11, 13, 14, 15",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "11, 13, 14, 15",
+      "confidence": 0.644819438457489,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/13",
+    "question": "Q: List all the nodes connected to 0 in alphabetical order.\nA: ",
+    "expected_answer": "1, 2, 3, 4, 6, 7, 8, 10, 11.",
+    "model_answer": "1",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": 0.5835244059562683,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/14",
+    "question": "Q: List all the nodes connected to 5 in alphabetical order.\nA: ",
+    "expected_answer": "4, 6, 7.",
+    "model_answer": "3",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3",
+      "confidence": 0.5392588973045349,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/15",
+    "question": "Q: List all the nodes connected to 4 in alphabetical order.\nA: ",
+    "expected_answer": "0, 1, 2, 3.",
+    "model_answer": "0",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": 0.6984280347824097,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/16",
+    "question": "Q: List all the nodes connected to 3 in alphabetical order.\nA: ",
+    "expected_answer": "0, 1, 2, 4.",
+    "model_answer": "0",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": 0.6068682670593262,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/17",
+    "question": "Q: List all the nodes connected to 7 in alphabetical order.\nA: ",
+    "expected_answer": "0, 1, 2, 3, 4, 5, 6.",
+    "model_answer": "3",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3",
+      "confidence": 0.5613218545913696,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/18",
+    "question": "Q: List all the nodes connected to 1 in alphabetical order.\nA: ",
+    "expected_answer": "2.",
+    "model_answer": "0",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": 0.619802713394165,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/19",
+    "question": "Q: List all the nodes connected to 1 in alphabetical order.\nA: ",
+    "expected_answer": "2, 3, 5, 6, 7, 9, 10, 11.",
+    "model_answer": "[0, 3, 5, 7, 9, 10]",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "[0, 3, 5, 7, 9, 10]",
+      "confidence": 0.7660630941390991,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/20",
+    "question": "Q: List all the nodes connected to 5 in alphabetical order.\nA: ",
+    "expected_answer": "4, 10.",
+    "model_answer": "11",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "11",
+      "confidence": 0.47810158133506775,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/21",
+    "question": "Q: List all the nodes connected to 5 in alphabetical order.\nA: ",
+    "expected_answer": "0, 4, 6.",
+    "model_answer": "[0, 1, 2, 3, 4, 6]",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "[0, 1, 2, 3, 4, 6]",
+      "confidence": 0.766938328742981,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/22",
+    "question": "Q: List all the nodes connected to 1 in alphabetical order.\nA: ",
+    "expected_answer": "0, 2, 3, 4, 6, 7, 8, 9, 10, 11.",
+    "model_answer": "[3, 4, 5, 6, 7, 8, 9, 10, 11]",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "[3, 4, 5, 6, 7, 8, 9, 10, 11]",
+      "confidence": 0.849230170249939,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/23",
+    "question": "Q: List all the nodes connected to 0 in alphabetical order.\nA: ",
+    "expected_answer": "1, 2, 4, 5, 6, 7, 8, 9, 12.",
+    "model_answer": "[1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12]",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "[1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12]",
+      "confidence": 0.8613445162773132,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/24",
+    "question": "Q: List all the nodes connected to 8 in alphabetical order.\nA: ",
+    "expected_answer": "2, 4, 5, 7, 9.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.7494621276855469,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/25",
+    "question": "Q: List all the nodes connected to 3 in alphabetical order.\nA: ",
+    "expected_answer": "0, 2, 4.",
+    "model_answer": "0",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": 0.6323314905166626,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/26",
+    "question": "Q: List all the nodes connected to 3 in alphabetical order.\nA: ",
+    "expected_answer": "0, 1, 2, 4, 5, 6, 7, 8, 9.",
+    "model_answer": "0",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": 0.5509811043739319,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/27",
+    "question": "Q: List all the nodes connected to 0 in alphabetical order.\nA: ",
+    "expected_answer": "3.",
+    "model_answer": "",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "",
+      "confidence": 0.30233925580978394,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/28",
+    "question": "Q: List all the nodes connected to 10 in alphabetical order.\nA: ",
+    "expected_answer": "1, 3, 4, 5, 6, 7, 9, 11.",
+    "model_answer": "[3, 4, 5, 6, 7, 8, 9, 10]",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "[3, 4, 5, 6, 7, 8, 9, 10]",
+      "confidence": 0.8564748764038086,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/29",
+    "question": "Q: List all the nodes connected to 8 in alphabetical order.\nA: ",
+    "expected_answer": "0, 6, 10, 11.",
+    "model_answer": "1",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": 0.4137501120567322,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/30",
+    "question": "Q: List all the nodes connected to 7 in alphabetical order.\nA: ",
+    "expected_answer": " No nodes.",
+    "model_answer": "0",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": 0.6685800552368164,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/31",
+    "question": "Q: List all the nodes connected to 1 in alphabetical order.\nA: ",
+    "expected_answer": "0, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12.",
+    "model_answer": "[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]",
+      "confidence": 0.9042075276374817,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/32",
+    "question": "Q: List all the nodes connected to 4 in alphabetical order.\nA: ",
+    "expected_answer": "0, 1, 2, 3.",
+    "model_answer": "0",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": 0.6248003244400024,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/33",
+    "question": "Q: List all the nodes connected to 2 in alphabetical order.\nA: ",
+    "expected_answer": "8, 9, 10, 15, 17.",
+    "model_answer": "1",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": 0.44246572256088257,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/34",
+    "question": "Q: List all the nodes connected to 8 in alphabetical order.\nA: ",
+    "expected_answer": "0, 1, 3, 9, 10, 11.",
+    "model_answer": "1",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": 0.43220388889312744,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/35",
+    "question": "Q: List all the nodes connected to 9 in alphabetical order.\nA: ",
+    "expected_answer": "0, 1, 2, 3, 4, 5, 6, 7, 8, 10.",
+    "model_answer": "1",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": 0.4772716164588928,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/36",
+    "question": "Q: List all the nodes connected to 0 in alphabetical order.\nA: ",
+    "expected_answer": "1, 2, 3, 7.",
+    "model_answer": "[2]",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "[2]",
+      "confidence": 0.7264547348022461,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/37",
+    "question": "Q: List all the nodes connected to 4 in alphabetical order.\nA: ",
+    "expected_answer": "5, 9, 12.",
+    "model_answer": "13",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "13",
+      "confidence": 0.52288419008255,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/38",
+    "question": "Q: List all the nodes connected to 4 in alphabetical order.\nA: ",
+    "expected_answer": " No nodes.",
+    "model_answer": "0",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": 0.7132015228271484,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/39",
+    "question": "Q: List all the nodes connected to 1 in alphabetical order.\nA: ",
+    "expected_answer": "0, 2, 3, 4, 5, 6, 7, 8.",
+    "model_answer": "[0, 2, 4, 5, 6, 7]",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "[0, 2, 4, 5, 6, 7]",
+      "confidence": 0.761721134185791,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/40",
+    "question": "Q: List all the nodes connected to 10 in alphabetical order.\nA: ",
+    "expected_answer": "8, 11, 13.",
+    "model_answer": "1 2 3 4 5 6 7 8 9",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1 2 3 4 5 6 7 8 9",
+      "confidence": 0.8162038922309875,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/41",
+    "question": "Q: List all the nodes connected to 4 in alphabetical order.\nA: ",
+    "expected_answer": "3, 8, 9, 10.",
+    "model_answer": "1",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": 0.4281526803970337,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/42",
+    "question": "Q: List all the nodes connected to 7 in alphabetical order.\nA: ",
+    "expected_answer": " No nodes.",
+    "model_answer": "5",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "5",
+      "confidence": 0.699923038482666,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/43",
+    "question": "Q: List all the nodes connected to 5 in alphabetical order.\nA: ",
+    "expected_answer": "7, 9, 10.",
+    "model_answer": "10",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "10",
+      "confidence": 0.638765275478363,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/44",
+    "question": "Q: List all the nodes connected to 2 in alphabetical order.\nA: ",
+    "expected_answer": "0, 1, 3, 4.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.7503894567489624,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/45",
+    "question": "Q: List all the nodes connected to 3 in alphabetical order.\nA: ",
+    "expected_answer": "0, 1, 2, 4, 5, 6, 8, 9.",
+    "model_answer": "1",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": 0.5189522504806519,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/46",
+    "question": "Q: List all the nodes connected to 1 in alphabetical order.\nA: ",
+    "expected_answer": " No nodes.",
+    "model_answer": "0",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": 0.7148873209953308,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/47",
+    "question": "Q: List all the nodes connected to 14 in alphabetical order.\nA: ",
+    "expected_answer": "1, 2, 3, 5, 7, 8, 9, 10, 12, 13, 15.",
+    "model_answer": "[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13]",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13]",
+      "confidence": 0.8860102295875549,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/48",
+    "question": "Q: List all the nodes connected to 14 in alphabetical order.\nA: ",
+    "expected_answer": "0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13.",
+    "model_answer": "[1, 3, 5, 7, 9, 11, 13]",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "[1, 3, 5, 7, 9, 11, 13]",
+      "confidence": 0.7756866812705994,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/49",
+    "question": "Q: List all the nodes connected to 16 in alphabetical order.\nA: ",
+    "expected_answer": "1, 2, 7, 8, 9, 11, 13, 15.",
+    "model_answer": "[13, 15]",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "[13, 15]",
+      "confidence": 0.6940438747406006,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/50",
+    "question": "Q: List all the nodes connected to 0 in alphabetical order.\nA: ",
+    "expected_answer": "1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15.",
+    "model_answer": "1",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": 0.5325964689254761,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/51",
+    "question": "Q: List all the nodes connected to 8 in alphabetical order.\nA: ",
+    "expected_answer": "0, 9, 10, 11.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.7516676783561707,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/52",
+    "question": "Q: List all the nodes connected to 0 in alphabetical order.\nA: ",
+    "expected_answer": "1, 2, 3, 4.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.7525819540023804,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/53",
+    "question": "Q: List all the nodes connected to 0 in alphabetical order.\nA: ",
+    "expected_answer": "1, 2, 3, 4, 5, 9, 13, 16.",
+    "model_answer": "1 2 3 4 5 6 7 8 9 10 11 12 13 14 15",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1 2 3 4 5 6 7 8 9 10 11 12 13 14 15",
+      "confidence": 0.9097238183021545,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/54",
+    "question": "Q: List all the nodes connected to 10 in alphabetical order.\nA: ",
+    "expected_answer": "0, 4, 5, 7, 9, 13, 14.",
+    "model_answer": "1, 2, 3, 4, 5, 6, 7, 8, 9, 11, 12, 13, 14, 15",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1, 2, 3, 4, 5, 6, 7, 8, 9, 11, 12, 13, 14, 15",
+      "confidence": 0.8827583193778992,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/55",
+    "question": "Q: List all the nodes connected to 2 in alphabetical order.\nA: ",
+    "expected_answer": "0.",
+    "model_answer": "0",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": 0.5764055252075195,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/56",
+    "question": "Q: List all the nodes connected to 15 in alphabetical order.\nA: ",
+    "expected_answer": "0, 1, 3, 4, 5, 7, 8, 9, 10, 11, 12, 13, 14.",
+    "model_answer": "[1, 2, 4, 6, 7, 8, 9, 10, 11, 12, 14]",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "[1, 2, 4, 6, 7, 8, 9, 10, 11, 12, 14]",
+      "confidence": 0.8210619688034058,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/57",
+    "question": "Q: List all the nodes connected to 6 in alphabetical order.\nA: ",
+    "expected_answer": "0.",
+    "model_answer": "0",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": 0.624052882194519,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/58",
+    "question": "Q: List all the nodes connected to 5 in alphabetical order.\nA: ",
+    "expected_answer": "0, 14, 16, 17.",
+    "model_answer": "14",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "14",
+      "confidence": 0.5488957762718201,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/59",
+    "question": "Q: List all the nodes connected to 0 in alphabetical order.\nA: ",
+    "expected_answer": "1, 2, 3, 4, 5, 6.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.7483040690422058,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/60",
+    "question": "Q: List all the nodes connected to 0 in alphabetical order.\nA: ",
+    "expected_answer": "1, 2, 3, 4, 5, 6.",
+    "model_answer": "1",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": 0.5709257125854492,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/61",
+    "question": "Q: List all the nodes connected to 15 in alphabetical order.\nA: ",
+    "expected_answer": "0, 17.",
+    "model_answer": "12",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "12",
+      "confidence": 0.4733811318874359,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/62",
+    "question": "Q: List all the nodes connected to 2 in alphabetical order.\nA: ",
+    "expected_answer": "0, 9.",
+    "model_answer": "[0, 1, 3, 4, 5, 6, 7, 8]",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "[0, 1, 3, 4, 5, 6, 7, 8]",
+      "confidence": 0.7858771085739136,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/63",
+    "question": "Q: List all the nodes connected to 1 in alphabetical order.\nA: ",
+    "expected_answer": "0.",
+    "model_answer": "3",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3",
+      "confidence": 0.6466716527938843,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/64",
+    "question": "Q: List all the nodes connected to 8 in alphabetical order.\nA: ",
+    "expected_answer": "0.",
+    "model_answer": "0",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": 0.5905401706695557,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/65",
+    "question": "Q: List all the nodes connected to 3 in alphabetical order.\nA: ",
+    "expected_answer": "0.",
+    "model_answer": "0",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": 0.6185875535011292,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/66",
+    "question": "Q: List all the nodes connected to 1 in alphabetical order.\nA: ",
+    "expected_answer": "0, 4, 5, 6.",
+    "model_answer": "3",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3",
+      "confidence": 0.6284225583076477,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/67",
+    "question": "Q: List all the nodes connected to 0 in alphabetical order.\nA: ",
+    "expected_answer": "1, 2, 3, 4.",
+    "model_answer": "[2]",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "[2]",
+      "confidence": 0.682815670967102,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/68",
+    "question": "Q: List all the nodes connected to 5 in alphabetical order.\nA: ",
+    "expected_answer": "0, 1, 2, 4, 6.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.7395871877670288,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/69",
+    "question": "Q: List all the nodes connected to 1 in alphabetical order.\nA: ",
+    "expected_answer": "0.",
+    "model_answer": "0",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": 0.6141990423202515,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/70",
+    "question": "Q: List all the nodes connected to 8 in alphabetical order.\nA: ",
+    "expected_answer": "0.",
+    "model_answer": "13",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "13",
+      "confidence": 0.5289667248725891,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/71",
+    "question": "Q: List all the nodes connected to 2 in alphabetical order.\nA: ",
+    "expected_answer": "0, 5, 6, 7.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.7445110082626343,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/72",
+    "question": "Q: List all the nodes connected to 10 in alphabetical order.\nA: ",
+    "expected_answer": "0.",
+    "model_answer": "0",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": 0.5153017640113831,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/73",
+    "question": "Q: List all the nodes connected to 4 in alphabetical order.\nA: ",
+    "expected_answer": "0, 7, 8, 9.",
+    "model_answer": "[1, 3, 5, 6, 7, 8, 9, 10]",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "[1, 3, 5, 6, 7, 8, 9, 10]",
+      "confidence": 0.8230311274528503,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/74",
+    "question": "Q: List all the nodes connected to 7 in alphabetical order.\nA: ",
+    "expected_answer": "0, 2, 5, 9.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.7493698000907898,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/75",
+    "question": "Q: List all the nodes connected to 0 in alphabetical order.\nA: ",
+    "expected_answer": "1, 2, 3, 4, 5, 6, 7, 8.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.7498229742050171,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/76",
+    "question": "Q: List all the nodes connected to 6 in alphabetical order.\nA: ",
+    "expected_answer": "0, 7, 8, 9, 10.",
+    "model_answer": "False",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "False",
+      "confidence": 0.7595957517623901,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/77",
+    "question": "Q: List all the nodes connected to 4 in alphabetical order.\nA: ",
+    "expected_answer": "0, 7.",
+    "model_answer": "0",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": 0.6129251718521118,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/78",
+    "question": "Q: List all the nodes connected to 0 in alphabetical order.\nA: ",
+    "expected_answer": "1, 2, 3, 4.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.7637003660202026,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/79",
+    "question": "Q: List all the nodes connected to 2 in alphabetical order.\nA: ",
+    "expected_answer": "0, 5, 6, 8.",
+    "model_answer": "11",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "11",
+      "confidence": 0.5656830072402954,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/80",
+    "question": "Q: List all the nodes connected to 4 in alphabetical order.\nA: ",
+    "expected_answer": "0, 6.",
+    "model_answer": "0",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": 0.5811176300048828,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/81",
+    "question": "Q: List all the nodes connected to 2 in alphabetical order.\nA: ",
+    "expected_answer": "0, 7.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.7508381605148315,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/82",
+    "question": "Q: List all the nodes connected to 4 in alphabetical order.\nA: ",
+    "expected_answer": "0, 1, 7, 8.",
+    "model_answer": "0",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": 0.5794036984443665,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/83",
+    "question": "Q: List all the nodes connected to 4 in alphabetical order.\nA: ",
+    "expected_answer": "0, 11, 12, 13, 14.",
+    "model_answer": "1 2 3 5 6 7 8 9 10 11 12 13 14 15",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1 2 3 5 6 7 8 9 10 11 12 13 14 15",
+      "confidence": 0.8726727366447449,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/84",
+    "question": "Q: List all the nodes connected to 12 in alphabetical order.\nA: ",
+    "expected_answer": "1, 5.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.7538694143295288,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/85",
+    "question": "Q: List all the nodes connected to 13 in alphabetical order.\nA: ",
+    "expected_answer": "0, 4, 6, 7, 8.",
+    "model_answer": "[11, 12]",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "[11, 12]",
+      "confidence": 0.6968765258789062,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/86",
+    "question": "Q: List all the nodes connected to 3 in alphabetical order.\nA: ",
+    "expected_answer": "0.",
+    "model_answer": "0",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": 0.6381731033325195,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/87",
+    "question": "Q: List all the nodes connected to 0 in alphabetical order.\nA: ",
+    "expected_answer": "1, 2, 3, 6, 10.",
+    "model_answer": "1",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": 0.6312000751495361,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/88",
+    "question": "Q: List all the nodes connected to 6 in alphabetical order.\nA: ",
+    "expected_answer": "0, 1.",
+    "model_answer": "1",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": 0.5896235704421997,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/89",
+    "question": "Q: List all the nodes connected to 5 in alphabetical order.\nA: ",
+    "expected_answer": "0, 6, 7.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.7422310709953308,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/90",
+    "question": "Q: List all the nodes connected to 7 in alphabetical order.\nA: ",
+    "expected_answer": "0, 1, 2, 4, 5, 6, 8, 9, 10.",
+    "model_answer": "10",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "10",
+      "confidence": 0.5626430511474609,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/91",
+    "question": "Q: List all the nodes connected to 5 in alphabetical order.\nA: ",
+    "expected_answer": "0, 10.",
+    "model_answer": "1",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": 0.3950396776199341,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/92",
+    "question": "Q: List all the nodes connected to 7 in alphabetical order.\nA: ",
+    "expected_answer": "2, 4.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.7507050037384033,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/93",
+    "question": "Q: List all the nodes connected to 7 in alphabetical order.\nA: ",
+    "expected_answer": "2, 4, 5, 6, 10, 13.",
+    "model_answer": "1",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": 0.43897342681884766,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/94",
+    "question": "Q: List all the nodes connected to 0 in alphabetical order.\nA: ",
+    "expected_answer": "1.",
+    "model_answer": "1",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": 0.6622653007507324,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/95",
+    "question": "Q: List all the nodes connected to 7 in alphabetical order.\nA: ",
+    "expected_answer": "0, 10.",
+    "model_answer": "1",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": 0.46975013613700867,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/96",
+    "question": "Q: List all the nodes connected to 4 in alphabetical order.\nA: ",
+    "expected_answer": "0.",
+    "model_answer": "0",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": 0.5724577307701111,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/97",
+    "question": "Q: List all the nodes connected to 5 in alphabetical order.\nA: ",
+    "expected_answer": "0, 17, 18.",
+    "model_answer": "14",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "14",
+      "confidence": 0.5876778960227966,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/98",
+    "question": "Q: List all the nodes connected to 14 in alphabetical order.\nA: ",
+    "expected_answer": "8, 10, 11, 12, 13.",
+    "model_answer": "[15, 16]",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "[15, 16]",
+      "confidence": 0.6668974757194519,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/99",
+    "question": "Q: List all the nodes connected to 14 in alphabetical order.\nA: ",
+    "expected_answer": "2.",
+    "model_answer": "[10, 11, 12, 15]",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "[10, 11, 12, 15]",
+      "confidence": 0.7343557476997375,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/100",
+    "question": "Q: List all the nodes connected to 9 in alphabetical order.\nA: ",
+    "expected_answer": "0, 1, 5, 6, 8, 11, 12, 13, 14, 15.",
+    "model_answer": "11",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "11",
+      "confidence": 0.5308944582939148,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/101",
+    "question": "Q: List all the nodes connected to 4 in alphabetical order.\nA: ",
+    "expected_answer": "3.",
+    "model_answer": "0",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": 0.5449680089950562,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/102",
+    "question": "Q: List all the nodes connected to 0 in alphabetical order.\nA: ",
+    "expected_answer": "3, 4, 5, 6.",
+    "model_answer": "[3]",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "[3]",
+      "confidence": 0.6714007258415222,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/103",
+    "question": "Q: List all the nodes connected to 5 in alphabetical order.\nA: ",
+    "expected_answer": "0, 2, 3, 8, 16.",
+    "model_answer": "13",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "13",
+      "confidence": 0.5672513842582703,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/104",
+    "question": "Q: List all the nodes connected to 6 in alphabetical order.\nA: ",
+    "expected_answer": "0, 1, 4, 5.",
+    "model_answer": "1",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": 0.4518131613731384,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/105",
+    "question": "Q: List all the nodes connected to 6 in alphabetical order.\nA: ",
+    "expected_answer": "0, 1, 3, 4, 5, 7.",
+    "model_answer": "0",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": 0.5650579333305359,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/106",
+    "question": "Q: List all the nodes connected to 3 in alphabetical order.\nA: ",
+    "expected_answer": "0, 1, 2, 11, 12, 14.",
+    "model_answer": "1",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": 0.3914810121059418,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/107",
+    "question": "Q: List all the nodes connected to 4 in alphabetical order.\nA: ",
+    "expected_answer": "2, 3.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.7351799011230469,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/108",
+    "question": "Q: List all the nodes connected to 1 in alphabetical order.\nA: ",
+    "expected_answer": "0, 3, 4, 6, 7, 9, 12.",
+    "model_answer": "10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 2, 3, 4, 5, 6, 7, 8, 9",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 2, 3, 4, 5, 6, 7, 8, 9",
+      "confidence": 0.8814998865127563,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/109",
+    "question": "Q: List all the nodes connected to 3 in alphabetical order.\nA: ",
+    "expected_answer": "1.",
+    "model_answer": "0",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": 0.6281924247741699,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/110",
+    "question": "Q: List all the nodes connected to 3 in alphabetical order.\nA: ",
+    "expected_answer": "5, 6.",
+    "model_answer": "0",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": 0.6278148889541626,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/111",
+    "question": "Q: List all the nodes connected to 8 in alphabetical order.\nA: ",
+    "expected_answer": "0, 1, 2, 3, 5, 6, 10, 12, 13, 16, 17, 14.",
+    "model_answer": "10",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "10",
+      "confidence": 0.48615390062332153,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/112",
+    "question": "Q: List all the nodes connected to 10 in alphabetical order.\nA: ",
+    "expected_answer": "0, 2, 3, 4, 5, 6, 7, 8, 9, 11.",
+    "model_answer": "[0, 2, 4, 6, 8, 9]",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "[0, 2, 4, 6, 8, 9]",
+      "confidence": 0.7714000940322876,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/113",
+    "question": "Q: List all the nodes connected to 3 in alphabetical order.\nA: ",
+    "expected_answer": "7, 11, 12, 13.",
+    "model_answer": "1",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": 0.5201635956764221,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/114",
+    "question": "Q: List all the nodes connected to 5 in alphabetical order.\nA: ",
+    "expected_answer": "0, 2, 4, 7, 11.",
+    "model_answer": "11",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "11",
+      "confidence": 0.5876993536949158,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/115",
+    "question": "Q: List all the nodes connected to 0 in alphabetical order.\nA: ",
+    "expected_answer": "1, 2, 3, 4, 5.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.7537260055541992,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/116",
+    "question": "Q: List all the nodes connected to 5 in alphabetical order.\nA: ",
+    "expected_answer": "6.",
+    "model_answer": "0",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": 0.5814430713653564,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/117",
+    "question": "Q: List all the nodes connected to 5 in alphabetical order.\nA: ",
+    "expected_answer": "2, 4.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.751955509185791,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/118",
+    "question": "Q: List all the nodes connected to 1 in alphabetical order.\nA: ",
+    "expected_answer": " No nodes.",
+    "model_answer": "0",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": 0.6478756666183472,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/119",
+    "question": "Q: List all the nodes connected to 9 in alphabetical order.\nA: ",
+    "expected_answer": "2, 3, 4, 8, 10, 11.",
+    "model_answer": "[1, 2, 3, 4, 5, 6, 7, 8, 10, 11, 12]",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "[1, 2, 3, 4, 5, 6, 7, 8, 10, 11, 12]",
+      "confidence": 0.8629024028778076,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/120",
+    "question": "Q: List all the nodes connected to 9 in alphabetical order.\nA: ",
+    "expected_answer": "4, 10, 7, 13, 14, 15.",
+    "model_answer": "1 2 3 4 5 6 7 8 10 11 12 13 14 15 16 17 18",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1 2 3 4 5 6 7 8 10 11 12 13 14 15 16 17 18",
+      "confidence": 0.8992518186569214,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/121",
+    "question": "Q: List all the nodes connected to 1 in alphabetical order.\nA: ",
+    "expected_answer": "0, 3, 4.",
+    "model_answer": "[0, 2, 4]",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "[0, 2, 4]",
+      "confidence": 0.7878835201263428,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/122",
+    "question": "Q: List all the nodes connected to 11 in alphabetical order.\nA: ",
+    "expected_answer": "0, 1, 2, 3, 4, 6, 8, 9, 10, 7.",
+    "model_answer": "[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]",
+      "confidence": 0.8736506104469299,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/123",
+    "question": "Q: List all the nodes connected to 5 in alphabetical order.\nA: ",
+    "expected_answer": "0, 1, 3, 10, 11.",
+    "model_answer": "10",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "10",
+      "confidence": 0.5552526712417603,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/124",
+    "question": "Q: List all the nodes connected to 12 in alphabetical order.\nA: ",
+    "expected_answer": "1, 2, 3, 4, 5, 6, 7, 9, 10.",
+    "model_answer": "[1, 3, 5, 6, 7, 9, 10, 11]",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "[1, 3, 5, 6, 7, 9, 10, 11]",
+      "confidence": 0.7839061617851257,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/125",
+    "question": "Q: List all the nodes connected to 7 in alphabetical order.\nA: ",
+    "expected_answer": "3, 6.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.7384840846061707,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/126",
+    "question": "Q: List all the nodes connected to 11 in alphabetical order.\nA: ",
+    "expected_answer": "1, 2.",
+    "model_answer": "10",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "10",
+      "confidence": 0.5148257613182068,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/127",
+    "question": "Q: List all the nodes connected to 1 in alphabetical order.\nA: ",
+    "expected_answer": "0, 6.",
+    "model_answer": "0",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": 0.6926038265228271,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/128",
+    "question": "Q: List all the nodes connected to 1 in alphabetical order.\nA: ",
+    "expected_answer": "0, 5, 7, 8, 9, 10, 11, 12.",
+    "model_answer": "[3, 5, 6, 7, 8, 9, 10, 11, 12]",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "[3, 5, 6, 7, 8, 9, 10, 11, 12]",
+      "confidence": 0.8389362096786499,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/129",
+    "question": "Q: List all the nodes connected to 6 in alphabetical order.\nA: ",
+    "expected_answer": "0, 2, 3, 4.",
+    "model_answer": "0",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": 0.5706748962402344,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/130",
+    "question": "Q: List all the nodes connected to 3 in alphabetical order.\nA: ",
+    "expected_answer": "1, 2, 5, 6, 7, 8, 9.",
+    "model_answer": "0",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": 0.5842959880828857,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/131",
+    "question": "Q: List all the nodes connected to 0 in alphabetical order.\nA: ",
+    "expected_answer": "1, 2, 3, 4, 5, 6, 8, 9, 10, 11, 12, 13.",
+    "model_answer": "1",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": 0.49330490827560425,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/132",
+    "question": "Q: List all the nodes connected to 4 in alphabetical order.\nA: ",
+    "expected_answer": "3, 6, 7.",
+    "model_answer": "5",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "5",
+      "confidence": 0.639805793762207,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/133",
+    "question": "Q: List all the nodes connected to 12 in alphabetical order.\nA: ",
+    "expected_answer": "3, 4, 5, 7, 8, 9.",
+    "model_answer": "10",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "10",
+      "confidence": 0.4668067991733551,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/134",
+    "question": "Q: List all the nodes connected to 0 in alphabetical order.\nA: ",
+    "expected_answer": "1, 3, 5, 7, 8, 9, 10.",
+    "model_answer": "1",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": 0.5746029615402222,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/135",
+    "question": "Q: List all the nodes connected to 3 in alphabetical order.\nA: ",
+    "expected_answer": "1, 9.",
+    "model_answer": "0",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": 0.5485919713973999,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/136",
+    "question": "Q: List all the nodes connected to 4 in alphabetical order.\nA: ",
+    "expected_answer": "0, 1, 3.",
+    "model_answer": "0",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": 0.6814553737640381,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/137",
+    "question": "Q: List all the nodes connected to 13 in alphabetical order.\nA: ",
+    "expected_answer": "2, 7, 9, 11.",
+    "model_answer": "[11, 12]",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "[11, 12]",
+      "confidence": 0.7568319439888,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/138",
+    "question": "Q: List all the nodes connected to 1 in alphabetical order.\nA: ",
+    "expected_answer": "0, 6.",
+    "model_answer": "0",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": 0.6038146018981934,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/139",
+    "question": "Q: List all the nodes connected to 5 in alphabetical order.\nA: ",
+    "expected_answer": " No nodes.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.7519983649253845,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/140",
+    "question": "Q: List all the nodes connected to 5 in alphabetical order.\nA: ",
+    "expected_answer": "0, 1.",
+    "model_answer": "1",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": 0.43927323818206787,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/141",
+    "question": "Q: List all the nodes connected to 4 in alphabetical order.\nA: ",
+    "expected_answer": "5.",
+    "model_answer": "0",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": 0.5719444751739502,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/142",
+    "question": "Q: List all the nodes connected to 6 in alphabetical order.\nA: ",
+    "expected_answer": "0, 1, 2, 3, 8, 7.",
+    "model_answer": "0",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": 0.5707187652587891,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/143",
+    "question": "Q: List all the nodes connected to 1 in alphabetical order.\nA: ",
+    "expected_answer": "4, 6, 7, 10.",
+    "model_answer": "[0, 2, 4, 5, 6, 7, 8, 9, 10]",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "[0, 2, 4, 5, 6, 7, 8, 9, 10]",
+      "confidence": 0.8155570030212402,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/144",
+    "question": "Q: List all the nodes connected to 4 in alphabetical order.\nA: ",
+    "expected_answer": "1, 2, 3, 5, 8, 7.",
+    "model_answer": "0",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": 0.55604088306427,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/145",
+    "question": "Q: List all the nodes connected to 1 in alphabetical order.\nA: ",
+    "expected_answer": "0, 3, 4, 5, 6, 7, 8, 9, 10.",
+    "model_answer": "10",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "10",
+      "confidence": 0.5822633504867554,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/146",
+    "question": "Q: List all the nodes connected to 5 in alphabetical order.\nA: ",
+    "expected_answer": "1.",
+    "model_answer": "0",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": 0.5636560320854187,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/147",
+    "question": "Q: List all the nodes connected to 13 in alphabetical order.\nA: ",
+    "expected_answer": "3, 4, 8.",
+    "model_answer": "10, 11, 12, 14, 15",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "10, 11, 12, 14, 15",
+      "confidence": 0.7648069262504578,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/148",
+    "question": "Q: List all the nodes connected to 6 in alphabetical order.\nA: ",
+    "expected_answer": "0, 1, 4, 5, 7, 8, 9, 12.",
+    "model_answer": "13",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "13",
+      "confidence": 0.5377048850059509,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/149",
+    "question": "Q: List all the nodes connected to 3 in alphabetical order.\nA: ",
+    "expected_answer": "0, 2, 4, 6, 7, 8, 9, 10, 11, 16, 18.",
+    "model_answer": "13",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "13",
+      "confidence": 0.547660768032074,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/150",
+    "question": "Q: List all the nodes connected to 12 in alphabetical order.\nA: ",
+    "expected_answer": "0.",
+    "model_answer": "14",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "14",
+      "confidence": 0.520832359790802,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/151",
+    "question": "Q: List all the nodes connected to 3 in alphabetical order.\nA: ",
+    "expected_answer": "0, 1, 4, 6.",
+    "model_answer": "1",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": 0.4649801254272461,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/152",
+    "question": "Q: List all the nodes connected to 7 in alphabetical order.\nA: ",
+    "expected_answer": "2.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.7499551773071289,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/153",
+    "question": "Q: List all the nodes connected to 8 in alphabetical order.\nA: ",
+    "expected_answer": "0.",
+    "model_answer": "1",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": 0.403766393661499,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/154",
+    "question": "Q: List all the nodes connected to 7 in alphabetical order.\nA: ",
+    "expected_answer": "1.",
+    "model_answer": "1",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": 0.4088154435157776,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/155",
+    "question": "Q: List all the nodes connected to 5 in alphabetical order.\nA: ",
+    "expected_answer": "3.",
+    "model_answer": "11",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "11",
+      "confidence": 0.5128211379051208,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/156",
+    "question": "Q: List all the nodes connected to 14 in alphabetical order.\nA: ",
+    "expected_answer": "9.",
+    "model_answer": "9",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "9",
+      "confidence": 0.5793761610984802,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/157",
+    "question": "Q: List all the nodes connected to 1 in alphabetical order.\nA: ",
+    "expected_answer": "0, 2, 1, 5.",
+    "model_answer": "3",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3",
+      "confidence": 0.6354102492332458,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/158",
+    "question": "Q: List all the nodes connected to 16 in alphabetical order.\nA: ",
+    "expected_answer": "6.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.7610062956809998,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/159",
+    "question": "Q: List all the nodes connected to 5 in alphabetical order.\nA: ",
+    "expected_answer": "0.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.7631470561027527,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/160",
+    "question": "Q: List all the nodes connected to 3 in alphabetical order.\nA: ",
+    "expected_answer": "0, 1.",
+    "model_answer": "1",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": 0.6244298219680786,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/161",
+    "question": "Q: List all the nodes connected to 5 in alphabetical order.\nA: ",
+    "expected_answer": "1, 2, 4, 5, 9.",
+    "model_answer": "1 2 3 4 6 7 8 9 10 11 12 13 14 15",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1 2 3 4 6 7 8 9 10 11 12 13 14 15",
+      "confidence": 0.8599653244018555,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/162",
+    "question": "Q: List all the nodes connected to 9 in alphabetical order.\nA: ",
+    "expected_answer": "2.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.757880687713623,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/163",
+    "question": "Q: List all the nodes connected to 3 in alphabetical order.\nA: ",
+    "expected_answer": "0.",
+    "model_answer": "0",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": 0.631438136100769,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/164",
+    "question": "Q: List all the nodes connected to 4 in alphabetical order.\nA: ",
+    "expected_answer": "2.",
+    "model_answer": "12",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "12",
+      "confidence": 0.5925750732421875,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/165",
+    "question": "Q: List all the nodes connected to 0 in alphabetical order.\nA: ",
+    "expected_answer": "1, 2, 6.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.7554990649223328,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/166",
+    "question": "Q: List all the nodes connected to 6 in alphabetical order.\nA: ",
+    "expected_answer": "2.",
+    "model_answer": "0",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": 0.5885897874832153,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/167",
+    "question": "Q: List all the nodes connected to 5 in alphabetical order.\nA: ",
+    "expected_answer": "0.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.7478238940238953,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/168",
+    "question": "Q: List all the nodes connected to 4 in alphabetical order.\nA: ",
+    "expected_answer": "2.",
+    "model_answer": "0",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": 0.655565619468689,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/169",
+    "question": "Q: List all the nodes connected to 2 in alphabetical order.\nA: ",
+    "expected_answer": "0, 1, 3, 4.",
+    "model_answer": "1",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": 0.46659839153289795,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/170",
+    "question": "Q: List all the nodes connected to 15 in alphabetical order.\nA: ",
+    "expected_answer": "1.",
+    "model_answer": "[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]",
+      "confidence": 0.886996865272522,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/171",
+    "question": "Q: List all the nodes connected to 7 in alphabetical order.\nA: ",
+    "expected_answer": "2.",
+    "model_answer": "0",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": 0.5931721329689026,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/172",
+    "question": "Q: List all the nodes connected to 5 in alphabetical order.\nA: ",
+    "expected_answer": "3.",
+    "model_answer": "3",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3",
+      "confidence": 0.6386226415634155,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/173",
+    "question": "Q: List all the nodes connected to 2 in alphabetical order.\nA: ",
+    "expected_answer": "0, 1, 4, 5, 8, 9, 12.",
+    "model_answer": "1",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": 0.5202506184577942,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/174",
+    "question": "Q: List all the nodes connected to 2 in alphabetical order.\nA: ",
+    "expected_answer": "0, 1, 3, 4, 5, 6, 7, 8, 9, 11, 12, 13.",
+    "model_answer": "11",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "11",
+      "confidence": 0.5936311483383179,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/175",
+    "question": "Q: List all the nodes connected to 0 in alphabetical order.\nA: ",
+    "expected_answer": "1, 2, 3, 4, 5.",
+    "model_answer": "1",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": 0.5530115365982056,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/176",
+    "question": "Q: List all the nodes connected to 9 in alphabetical order.\nA: ",
+    "expected_answer": "1.",
+    "model_answer": "3",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3",
+      "confidence": 0.6037510633468628,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/177",
+    "question": "Q: List all the nodes connected to 2 in alphabetical order.\nA: ",
+    "expected_answer": "0, 1, 3.",
+    "model_answer": "0",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": 0.616374671459198,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/178",
+    "question": "Q: List all the nodes connected to 2 in alphabetical order.\nA: ",
+    "expected_answer": "0, 1, 2, 12, 3, 4.",
+    "model_answer": "1",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": 0.39738938212394714,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/179",
+    "question": "Q: List all the nodes connected to 8 in alphabetical order.\nA: ",
+    "expected_answer": "0, 4.",
+    "model_answer": "0",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": 0.5877485871315002,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/180",
+    "question": "Q: List all the nodes connected to 1 in alphabetical order.\nA: ",
+    "expected_answer": "0, 2, 1, 3, 4, 5, 6, 7, 8.",
+    "model_answer": "2",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2",
+      "confidence": 0.6314448118209839,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/181",
+    "question": "Q: List all the nodes connected to 5 in alphabetical order.\nA: ",
+    "expected_answer": "0.",
+    "model_answer": "0",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": 0.5814974308013916,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/182",
+    "question": "Q: List all the nodes connected to 1 in alphabetical order.\nA: ",
+    "expected_answer": "0, 2.",
+    "model_answer": "2",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2",
+      "confidence": 0.6437698602676392,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/183",
+    "question": "Q: List all the nodes connected to 0 in alphabetical order.\nA: ",
+    "expected_answer": "1, 0, 2, 15.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.7523870468139648,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/184",
+    "question": "Q: List all the nodes connected to 10 in alphabetical order.\nA: ",
+    "expected_answer": "2.",
+    "model_answer": "11",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "11",
+      "confidence": 0.5880056023597717,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/185",
+    "question": "Q: List all the nodes connected to 0 in alphabetical order.\nA: ",
+    "expected_answer": "1, 2, 0, 5, 3, 4.",
+    "model_answer": "3",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3",
+      "confidence": 0.6249446868896484,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/186",
+    "question": "Q: List all the nodes connected to 1 in alphabetical order.\nA: ",
+    "expected_answer": "0, 2, 5.",
+    "model_answer": "0",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": 0.5931127071380615,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/187",
+    "question": "Q: List all the nodes connected to 2 in alphabetical order.\nA: ",
+    "expected_answer": "0, 1.",
+    "model_answer": "0",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": 0.6047334671020508,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/188",
+    "question": "Q: List all the nodes connected to 3 in alphabetical order.\nA: ",
+    "expected_answer": "2.",
+    "model_answer": "0",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": 0.6259256601333618,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/189",
+    "question": "Q: List all the nodes connected to 0 in alphabetical order.\nA: ",
+    "expected_answer": "1, 2, 5, 7.",
+    "model_answer": "1",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": 0.61727374792099,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/190",
+    "question": "Q: List all the nodes connected to 6 in alphabetical order.\nA: ",
+    "expected_answer": "2.",
+    "model_answer": "11",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "11",
+      "confidence": 0.5407664179801941,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/191",
+    "question": "Q: List all the nodes connected to 6 in alphabetical order.\nA: ",
+    "expected_answer": "0.",
+    "model_answer": "1",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": 0.41252589225769043,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/192",
+    "question": "Q: List all the nodes connected to 5 in alphabetical order.\nA: ",
+    "expected_answer": "2.",
+    "model_answer": "0",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": 0.6086746454238892,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/193",
+    "question": "Q: List all the nodes connected to 5 in alphabetical order.\nA: ",
+    "expected_answer": "0, 2, 4.",
+    "model_answer": "0",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": 0.59318608045578,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/194",
+    "question": "Q: List all the nodes connected to 1 in alphabetical order.\nA: ",
+    "expected_answer": "0, 2.",
+    "model_answer": "0",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": 0.686410665512085,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/195",
+    "question": "Q: List all the nodes connected to 13 in alphabetical order.\nA: ",
+    "expected_answer": "2.",
+    "model_answer": "12",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "12",
+      "confidence": 0.5344027876853943,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/196",
+    "question": "Q: List all the nodes connected to 5 in alphabetical order.\nA: ",
+    "expected_answer": "2.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.7595676183700562,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/197",
+    "question": "Q: List all the nodes connected to 12 in alphabetical order.\nA: ",
+    "expected_answer": "1.",
+    "model_answer": "14",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "14",
+      "confidence": 0.5464722514152527,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/198",
+    "question": "Q: List all the nodes connected to 8 in alphabetical order.\nA: ",
+    "expected_answer": "1.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.7400271892547607,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/199",
+    "question": "Q: List all the nodes connected to 17 in alphabetical order.\nA: ",
+    "expected_answer": "7.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.7608091831207275,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/200",
+    "question": "Q: List all the nodes connected to 9 in alphabetical order.\nA: ",
+    "expected_answer": "0, 1, 2, 3, 4, 5, 6, 7, 8, 10, 11, 12, 13, 14, 15.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.74466872215271,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/201",
+    "question": "Q: List all the nodes connected to 6 in alphabetical order.\nA: ",
+    "expected_answer": "0, 1, 2, 3, 4, 5, 7, 8, 9, 10, 11.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.7438524961471558,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/202",
+    "question": "Q: List all the nodes connected to 5 in alphabetical order.\nA: ",
+    "expected_answer": "0, 1, 2, 3, 4, 6, 7.",
+    "model_answer": "[1, 2, 4]",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "[1, 2, 4]",
+      "confidence": 0.6901765465736389,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/203",
+    "question": "Q: List all the nodes connected to 10 in alphabetical order.\nA: ",
+    "expected_answer": "0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 11, 12, 13, 14.",
+    "model_answer": "11, 12, 14",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "11, 12, 14",
+      "confidence": 0.6765580177307129,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/204",
+    "question": "Q: List all the nodes connected to 4 in alphabetical order.\nA: ",
+    "expected_answer": "0, 1, 2, 3, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17.",
+    "model_answer": "1",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": 0.4122332036495209,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/205",
+    "question": "Q: List all the nodes connected to 8 in alphabetical order.\nA: ",
+    "expected_answer": "0, 1, 2, 3, 4, 5, 6, 7, 9, 10, 11.",
+    "model_answer": "5",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "5",
+      "confidence": 0.6019222140312195,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/206",
+    "question": "Q: List all the nodes connected to 1 in alphabetical order.\nA: ",
+    "expected_answer": "0, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14.",
+    "model_answer": "[10, 11, 12, 13, 14]",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "[10, 11, 12, 13, 14]",
+      "confidence": 0.8050671815872192,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/207",
+    "question": "Q: List all the nodes connected to 2 in alphabetical order.\nA: ",
+    "expected_answer": "0, 1, 3, 4, 5.",
+    "model_answer": "3",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3",
+      "confidence": 0.6329720616340637,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/208",
+    "question": "Q: List all the nodes connected to 8 in alphabetical order.\nA: ",
+    "expected_answer": "0, 1, 2, 3, 4, 5, 6, 7, 9, 10, 11, 12, 13, 14, 15, 16.",
+    "model_answer": "1",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": 0.31801867485046387,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/209",
+    "question": "Q: List all the nodes connected to 3 in alphabetical order.\nA: ",
+    "expected_answer": "0, 1, 2, 4, 5.",
+    "model_answer": "1",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": 0.5796768069267273,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/210",
+    "question": "Q: List all the nodes connected to 3 in alphabetical order.\nA: ",
+    "expected_answer": "0, 1, 2, 4, 5, 6.",
+    "model_answer": "1",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": 0.6194604635238647,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/211",
+    "question": "Q: List all the nodes connected to 8 in alphabetical order.\nA: ",
+    "expected_answer": "0, 1, 2, 3, 4, 5, 6, 7, 9, 10, 11, 12, 13, 14, 15.",
+    "model_answer": "5",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "5",
+      "confidence": 0.5970852971076965,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/212",
+    "question": "Q: List all the nodes connected to 8 in alphabetical order.\nA: ",
+    "expected_answer": "0, 1, 2, 3, 4, 5, 6, 7, 9, 10, 11, 12.",
+    "model_answer": "1",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": 0.3900081515312195,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/213",
+    "question": "Q: List all the nodes connected to 1 in alphabetical order.\nA: ",
+    "expected_answer": "0, 2, 3, 4, 5, 6, 7, 8, 9.",
+    "model_answer": "[3, 5, 6, 7, 8, 9]",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "[3, 5, 6, 7, 8, 9]",
+      "confidence": 0.7835966348648071,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/214",
+    "question": "Q: List all the nodes connected to 11 in alphabetical order.\nA: ",
+    "expected_answer": "0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 12, 13.",
+    "model_answer": "10, 12, 13",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "10, 12, 13",
+      "confidence": 0.6756130456924438,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/215",
+    "question": "Q: List all the nodes connected to 6 in alphabetical order.\nA: ",
+    "expected_answer": "0, 1, 2, 3, 4, 5, 7.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.7503742575645447,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/216",
+    "question": "Q: List all the nodes connected to 2 in alphabetical order.\nA: ",
+    "expected_answer": "0, 1, 3, 4, 5, 6.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.7566589117050171,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/217",
+    "question": "Q: List all the nodes connected to 3 in alphabetical order.\nA: ",
+    "expected_answer": "0, 1, 2, 4, 5, 6, 7.",
+    "model_answer": "1",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": 0.6023159623146057,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/218",
+    "question": "Q: List all the nodes connected to 2 in alphabetical order.\nA: ",
+    "expected_answer": "0, 1, 3, 4, 5, 6.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.7566589117050171,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/219",
+    "question": "Q: List all the nodes connected to 11 in alphabetical order.\nA: ",
+    "expected_answer": "0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 12, 13.",
+    "model_answer": "10, 12, 13",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "10, 12, 13",
+      "confidence": 0.6756130456924438,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/220",
+    "question": "Q: List all the nodes connected to 12 in alphabetical order.\nA: ",
+    "expected_answer": "0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 13, 14, 15, 16, 17.",
+    "model_answer": "1 2 4 5 6 7 8 9 10 11 14 15 16 17",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1 2 4 5 6 7 8 9 10 11 14 15 16 17",
+      "confidence": 0.8295214772224426,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/221",
+    "question": "Q: List all the nodes connected to 0 in alphabetical order.\nA: ",
+    "expected_answer": "1, 2, 3, 4, 5, 6, 7.",
+    "model_answer": "[1, 3, 5, 6]",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "[1, 3, 5, 6]",
+      "confidence": 0.6977354288101196,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/222",
+    "question": "Q: List all the nodes connected to 5 in alphabetical order.\nA: ",
+    "expected_answer": "0, 1, 2, 3, 4, 6, 7, 8, 9.",
+    "model_answer": "1",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": 0.44420862197875977,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/223",
+    "question": "Q: List all the nodes connected to 7 in alphabetical order.\nA: ",
+    "expected_answer": "0, 1, 2, 3, 4, 5, 6, 8, 9, 10, 11, 12.",
+    "model_answer": "1",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": 0.4136230945587158,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/224",
+    "question": "Q: List all the nodes connected to 3 in alphabetical order.\nA: ",
+    "expected_answer": "0, 1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13.",
+    "model_answer": "1",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": 0.49751392006874084,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/225",
+    "question": "Q: List all the nodes connected to 3 in alphabetical order.\nA: ",
+    "expected_answer": "0, 1, 2, 4, 5.",
+    "model_answer": "1",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": 0.5796768069267273,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/226",
+    "question": "Q: List all the nodes connected to 2 in alphabetical order.\nA: ",
+    "expected_answer": "0, 1, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12.",
+    "model_answer": "1",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": 0.47978195548057556,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/227",
+    "question": "Q: List all the nodes connected to 6 in alphabetical order.\nA: ",
+    "expected_answer": "0, 1, 2, 3, 4, 5, 7, 8.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.7434970736503601,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/228",
+    "question": "Q: List all the nodes connected to 4 in alphabetical order.\nA: ",
+    "expected_answer": "0, 1, 2, 3, 5, 6, 7, 8, 9, 10, 11, 12.",
+    "model_answer": "1",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": 0.4373142123222351,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/229",
+    "question": "Q: List all the nodes connected to 0 in alphabetical order.\nA: ",
+    "expected_answer": "1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11.",
+    "model_answer": "1",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": 0.5744763612747192,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/230",
+    "question": "Q: List all the nodes connected to 1 in alphabetical order.\nA: ",
+    "expected_answer": "0, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11.",
+    "model_answer": "[3, 4, 5, 6, 7, 8, 9, 10, 11]",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "[3, 4, 5, 6, 7, 8, 9, 10, 11]",
+      "confidence": 0.8593652248382568,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/231",
+    "question": "Q: List all the nodes connected to 7 in alphabetical order.\nA: ",
+    "expected_answer": "0, 1, 2, 3, 4, 5, 6, 8, 9.",
+    "model_answer": "0",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": 0.5068776607513428,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/232",
+    "question": "Q: List all the nodes connected to 3 in alphabetical order.\nA: ",
+    "expected_answer": "0, 1, 2, 4, 5.",
+    "model_answer": "1",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": 0.5796768069267273,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/233",
+    "question": "Q: List all the nodes connected to 9 in alphabetical order.\nA: ",
+    "expected_answer": "0, 1, 2, 3, 4, 5, 6, 7, 8, 10, 11, 12, 13, 14, 15, 16, 17.",
+    "model_answer": "1",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": 0.4324694871902466,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/234",
+    "question": "Q: List all the nodes connected to 6 in alphabetical order.\nA: ",
+    "expected_answer": "0, 1, 2, 3, 4, 5, 7, 8, 9, 10, 11, 12.",
+    "model_answer": "1",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": 0.4175415337085724,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/235",
+    "question": "Q: List all the nodes connected to 7 in alphabetical order.\nA: ",
+    "expected_answer": "0, 1, 2, 3, 4, 5, 6, 8, 9.",
+    "model_answer": "0",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": 0.5068776607513428,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/236",
+    "question": "Q: List all the nodes connected to 2 in alphabetical order.\nA: ",
+    "expected_answer": "0, 1, 3, 4, 5, 6, 7, 8.",
+    "model_answer": "[1, 3, 4, 5, 6, 7, 8]",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "[1, 3, 4, 5, 6, 7, 8]",
+      "confidence": 0.8087906241416931,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/237",
+    "question": "Q: List all the nodes connected to 6 in alphabetical order.\nA: ",
+    "expected_answer": "0, 1, 2, 3, 4, 5, 7, 8, 9.",
+    "model_answer": "2",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2",
+      "confidence": 0.5817297697067261,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/238",
+    "question": "Q: List all the nodes connected to 7 in alphabetical order.\nA: ",
+    "expected_answer": "0, 1, 2, 3, 4, 5, 6.",
+    "model_answer": "1",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": 0.4963620901107788,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/239",
+    "question": "Q: List all the nodes connected to 2 in alphabetical order.\nA: ",
+    "expected_answer": "0, 1, 3, 4, 5, 6, 7.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.746875524520874,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/240",
+    "question": "Q: List all the nodes connected to 4 in alphabetical order.\nA: ",
+    "expected_answer": "0, 1, 2, 3, 5, 6, 7, 8, 9, 10, 11.",
+    "model_answer": "1",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": 0.48502811789512634,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/241",
+    "question": "Q: List all the nodes connected to 9 in alphabetical order.\nA: ",
+    "expected_answer": "0, 1, 2, 3, 4, 5, 6, 7, 8, 10.",
+    "model_answer": "1",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": 0.5981698036193848,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/242",
+    "question": "Q: List all the nodes connected to 2 in alphabetical order.\nA: ",
+    "expected_answer": "0, 1, 3, 4, 5, 6.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.7566589117050171,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/243",
+    "question": "Q: List all the nodes connected to 9 in alphabetical order.\nA: ",
+    "expected_answer": "0, 1, 2, 3, 4, 5, 6, 7, 8.",
+    "model_answer": "1",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": 0.5714460611343384,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/244",
+    "question": "Q: List all the nodes connected to 2 in alphabetical order.\nA: ",
+    "expected_answer": "0, 1, 3, 4, 5.",
+    "model_answer": "3",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3",
+      "confidence": 0.6329720616340637,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/245",
+    "question": "Q: List all the nodes connected to 3 in alphabetical order.\nA: ",
+    "expected_answer": "0, 1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13.",
+    "model_answer": "1",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": 0.49751392006874084,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/246",
+    "question": "Q: List all the nodes connected to 1 in alphabetical order.\nA: ",
+    "expected_answer": "0, 2, 3, 4, 5, 6.",
+    "model_answer": "[3]",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "[3]",
+      "confidence": 0.64372318983078,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/247",
+    "question": "Q: List all the nodes connected to 14 in alphabetical order.\nA: ",
+    "expected_answer": "0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 15.",
+    "model_answer": "[1, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 15]",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "[1, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 15]",
+      "confidence": 0.8581756949424744,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/248",
+    "question": "Q: List all the nodes connected to 15 in alphabetical order.\nA: ",
+    "expected_answer": "0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 16.",
+    "model_answer": "14",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "14",
+      "confidence": 0.4914869964122772,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/249",
+    "question": "Q: List all the nodes connected to 0 in alphabetical order.\nA: ",
+    "expected_answer": "1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17.",
+    "model_answer": "1",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": 0.5430712699890137,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/250",
+    "question": "Q: List all the nodes connected to 14 in alphabetical order.\nA: ",
+    "expected_answer": "0.",
+    "model_answer": "11, 12, 13, 15",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "11, 12, 13, 15",
+      "confidence": 0.6900506615638733,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/251",
+    "question": "Q: List all the nodes connected to 10 in alphabetical order.\nA: ",
+    "expected_answer": "0.",
+    "model_answer": "0",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": 0.5153017640113831,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/252",
+    "question": "Q: List all the nodes connected to 1 in alphabetical order.\nA: ",
+    "expected_answer": "0.",
+    "model_answer": "0",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": 0.632111668586731,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/253",
+    "question": "Q: List all the nodes connected to 0 in alphabetical order.\nA: ",
+    "expected_answer": "1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14.",
+    "model_answer": "1 2 3 4 5 6 7 8 9 10 11 12",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1 2 3 4 5 6 7 8 9 10 11 12",
+      "confidence": 0.9024519920349121,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/254",
+    "question": "Q: List all the nodes connected to 11 in alphabetical order.\nA: ",
+    "expected_answer": "0.",
+    "model_answer": "12",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "12",
+      "confidence": 0.5096673369407654,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/255",
+    "question": "Q: List all the nodes connected to 7 in alphabetical order.\nA: ",
+    "expected_answer": "0.",
+    "model_answer": "0",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": 0.602260947227478,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/256",
+    "question": "Q: List all the nodes connected to 1 in alphabetical order.\nA: ",
+    "expected_answer": "0.",
+    "model_answer": "13",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "13",
+      "confidence": 0.5444246530532837,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/257",
+    "question": "Q: List all the nodes connected to 1 in alphabetical order.\nA: ",
+    "expected_answer": "0.",
+    "model_answer": "0",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": 0.6949363350868225,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/258",
+    "question": "Q: List all the nodes connected to 10 in alphabetical order.\nA: ",
+    "expected_answer": "0.",
+    "model_answer": "13",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "13",
+      "confidence": 0.49393531680107117,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/259",
+    "question": "Q: List all the nodes connected to 2 in alphabetical order.\nA: ",
+    "expected_answer": "0.",
+    "model_answer": "0",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": 0.7049661874771118,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/260",
+    "question": "Q: List all the nodes connected to 6 in alphabetical order.\nA: ",
+    "expected_answer": "0.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.7497351169586182,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/261",
+    "question": "Q: List all the nodes connected to 9 in alphabetical order.\nA: ",
+    "expected_answer": "0.",
+    "model_answer": "1",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": 0.38807132840156555,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/262",
+    "question": "Q: List all the nodes connected to 4 in alphabetical order.\nA: ",
+    "expected_answer": "0.",
+    "model_answer": "1",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": 0.4046099781990051,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/263",
+    "question": "Q: List all the nodes connected to 9 in alphabetical order.\nA: ",
+    "expected_answer": "0.",
+    "model_answer": "0",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": 0.6321161389350891,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/264",
+    "question": "Q: List all the nodes connected to 5 in alphabetical order.\nA: ",
+    "expected_answer": "0.",
+    "model_answer": "1",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": 0.3581487536430359,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/265",
+    "question": "Q: List all the nodes connected to 4 in alphabetical order.\nA: ",
+    "expected_answer": "0.",
+    "model_answer": "0",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": 0.676582932472229,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/266",
+    "question": "Q: List all the nodes connected to 4 in alphabetical order.\nA: ",
+    "expected_answer": "0.",
+    "model_answer": "0",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": 0.6195893883705139,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/267",
+    "question": "Q: List all the nodes connected to 3 in alphabetical order.\nA: ",
+    "expected_answer": "0.",
+    "model_answer": "0",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": 0.68755042552948,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/268",
+    "question": "Q: List all the nodes connected to 4 in alphabetical order.\nA: ",
+    "expected_answer": "0.",
+    "model_answer": "0",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": 0.6195893883705139,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/269",
+    "question": "Q: List all the nodes connected to 13 in alphabetical order.\nA: ",
+    "expected_answer": "0.",
+    "model_answer": "[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]",
+      "confidence": 0.887920081615448,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/270",
+    "question": "Q: List all the nodes connected to 8 in alphabetical order.\nA: ",
+    "expected_answer": "0.",
+    "model_answer": "1",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": 0.3099808394908905,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/271",
+    "question": "Q: List all the nodes connected to 1 in alphabetical order.\nA: ",
+    "expected_answer": "0.",
+    "model_answer": "0",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": 0.632111668586731,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/272",
+    "question": "Q: List all the nodes connected to 8 in alphabetical order.\nA: ",
+    "expected_answer": "0.",
+    "model_answer": "0",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": 0.6599557399749756,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/273",
+    "question": "Q: List all the nodes connected to 11 in alphabetical order.\nA: ",
+    "expected_answer": "0.",
+    "model_answer": "10, 12, 13, 14, 15, 16, 17, 18, 19, 2, 3, 4, 5, 6, 7, 8, 9",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "10, 12, 13, 14, 15, 16, 17, 18, 19, 2, 3, 4, 5, 6, 7, 8, 9",
+      "confidence": 0.8188340067863464,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/274",
+    "question": "Q: List all the nodes connected to 9 in alphabetical order.\nA: ",
+    "expected_answer": "0.",
+    "model_answer": "13",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "13",
+      "confidence": 0.5866261720657349,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/275",
+    "question": "Q: List all the nodes connected to 1 in alphabetical order.\nA: ",
+    "expected_answer": "0.",
+    "model_answer": "0",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": 0.6949363350868225,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/276",
+    "question": "Q: List all the nodes connected to 5 in alphabetical order.\nA: ",
+    "expected_answer": "0.",
+    "model_answer": "1",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": 0.4232959449291229,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/277",
+    "question": "Q: List all the nodes connected to 8 in alphabetical order.\nA: ",
+    "expected_answer": "0.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.7444413900375366,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/278",
+    "question": "Q: List all the nodes connected to 5 in alphabetical order.\nA: ",
+    "expected_answer": "0.",
+    "model_answer": "1",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": 0.4232959449291229,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/279",
+    "question": "Q: List all the nodes connected to 5 in alphabetical order.\nA: ",
+    "expected_answer": "0.",
+    "model_answer": "1",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": 0.41752713918685913,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/280",
+    "question": "Q: List all the nodes connected to 7 in alphabetical order.\nA: ",
+    "expected_answer": "0.",
+    "model_answer": "0",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": 0.602260947227478,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/281",
+    "question": "Q: List all the nodes connected to 4 in alphabetical order.\nA: ",
+    "expected_answer": "0.",
+    "model_answer": "0",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": 0.632360577583313,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/282",
+    "question": "Q: List all the nodes connected to 0 in alphabetical order.\nA: ",
+    "expected_answer": "1, 2, 3, 4, 5.",
+    "model_answer": "1",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": 0.5716714859008789,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/283",
+    "question": "Q: List all the nodes connected to 16 in alphabetical order.\nA: ",
+    "expected_answer": "0.",
+    "model_answer": "12",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "12",
+      "confidence": 0.48078519105911255,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/284",
+    "question": "Q: List all the nodes connected to 9 in alphabetical order.\nA: ",
+    "expected_answer": "0.",
+    "model_answer": "1",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": 0.5325772166252136,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/285",
+    "question": "Q: List all the nodes connected to 9 in alphabetical order.\nA: ",
+    "expected_answer": "0.",
+    "model_answer": "0",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": 0.6321161389350891,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/286",
+    "question": "Q: List all the nodes connected to 8 in alphabetical order.\nA: ",
+    "expected_answer": "0.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.7444413900375366,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/287",
+    "question": "Q: List all the nodes connected to 1 in alphabetical order.\nA: ",
+    "expected_answer": "0.",
+    "model_answer": "0",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": 0.6141990423202515,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/288",
+    "question": "Q: List all the nodes connected to 3 in alphabetical order.\nA: ",
+    "expected_answer": "0.",
+    "model_answer": "0",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": 0.68755042552948,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/289",
+    "question": "Q: List all the nodes connected to 4 in alphabetical order.\nA: ",
+    "expected_answer": "0.",
+    "model_answer": "0",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": 0.676582932472229,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/290",
+    "question": "Q: List all the nodes connected to 5 in alphabetical order.\nA: ",
+    "expected_answer": "0.",
+    "model_answer": "1",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": 0.41752713918685913,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/291",
+    "question": "Q: List all the nodes connected to 2 in alphabetical order.\nA: ",
+    "expected_answer": "0.",
+    "model_answer": "1",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": 0.48504459857940674,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/292",
+    "question": "Q: List all the nodes connected to 6 in alphabetical order.\nA: ",
+    "expected_answer": "0.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.7497351169586182,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/293",
+    "question": "Q: List all the nodes connected to 0 in alphabetical order.\nA: ",
+    "expected_answer": "1, 2, 3, 4, 5, 6, 7, 8, 9.",
+    "model_answer": "1",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": 0.4949702024459839,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/294",
+    "question": "Q: List all the nodes connected to 3 in alphabetical order.\nA: ",
+    "expected_answer": "0.",
+    "model_answer": "0",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": 0.7733384370803833,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/295",
+    "question": "Q: List all the nodes connected to 0 in alphabetical order.\nA: ",
+    "expected_answer": "1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13.",
+    "model_answer": "[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]",
+      "confidence": 0.9336144924163818,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/296",
+    "question": "Q: List all the nodes connected to 5 in alphabetical order.\nA: ",
+    "expected_answer": "0.",
+    "model_answer": "1",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": 0.5560837984085083,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/297",
+    "question": "Q: List all the nodes connected to 1 in alphabetical order.\nA: ",
+    "expected_answer": "0.",
+    "model_answer": "13",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "13",
+      "confidence": 0.559381902217865,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/298",
+    "question": "Q: List all the nodes connected to 6 in alphabetical order.\nA: ",
+    "expected_answer": "0.",
+    "model_answer": "1",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": 0.3004246950149536,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/299",
+    "question": "Q: List all the nodes connected to 4 in alphabetical order.\nA: ",
+    "expected_answer": "0.",
+    "model_answer": "13",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "13",
+      "confidence": 0.5261829495429993,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/300",
+    "question": "Q: List all the nodes connected to 10 in alphabetical order.\nA: ",
+    "expected_answer": "9, 11.",
+    "model_answer": "12",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "12",
+      "confidence": 0.5558857321739197,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/301",
+    "question": "Q: List all the nodes connected to 8 in alphabetical order.\nA: ",
+    "expected_answer": "7, 9.",
+    "model_answer": "11",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "11",
+      "confidence": 0.5344050526618958,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/302",
+    "question": "Q: List all the nodes connected to 5 in alphabetical order.\nA: ",
+    "expected_answer": "4, 6.",
+    "model_answer": "0",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": 0.5315163731575012,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/303",
+    "question": "Q: List all the nodes connected to 6 in alphabetical order.\nA: ",
+    "expected_answer": "5, 7.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.751132607460022,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/304",
+    "question": "Q: List all the nodes connected to 16 in alphabetical order.\nA: ",
+    "expected_answer": "15, 17.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.7488958835601807,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/305",
+    "question": "Q: List all the nodes connected to 1 in alphabetical order.\nA: ",
+    "expected_answer": "0, 2.",
+    "model_answer": "0",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": 0.6898389458656311,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/306",
+    "question": "Q: List all the nodes connected to 13 in alphabetical order.\nA: ",
+    "expected_answer": "12, 14.",
+    "model_answer": "10",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "10",
+      "confidence": 0.6883184313774109,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/307",
+    "question": "Q: List all the nodes connected to 2 in alphabetical order.\nA: ",
+    "expected_answer": "1, 3.",
+    "model_answer": "0",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": 0.6323879361152649,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/308",
+    "question": "Q: List all the nodes connected to 8 in alphabetical order.\nA: ",
+    "expected_answer": "7, 9.",
+    "model_answer": "14",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "14",
+      "confidence": 0.532255232334137,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/309",
+    "question": "Q: List all the nodes connected to 5 in alphabetical order.\nA: ",
+    "expected_answer": "4.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.7539528608322144,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/310",
+    "question": "Q: List all the nodes connected to 3 in alphabetical order.\nA: ",
+    "expected_answer": "2, 4.",
+    "model_answer": "0",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": 0.611915111541748,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/311",
+    "question": "Q: List all the nodes connected to 7 in alphabetical order.\nA: ",
+    "expected_answer": "6, 8.",
+    "model_answer": "10",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "10",
+      "confidence": 0.5287215113639832,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/312",
+    "question": "Q: List all the nodes connected to 5 in alphabetical order.\nA: ",
+    "expected_answer": "4, 6.",
+    "model_answer": "1",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": 0.36663320660591125,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/313",
+    "question": "Q: List all the nodes connected to 8 in alphabetical order.\nA: ",
+    "expected_answer": "7, 9.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.7560402154922485,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/314",
+    "question": "Q: List all the nodes connected to 1 in alphabetical order.\nA: ",
+    "expected_answer": "0, 2.",
+    "model_answer": "12",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "12",
+      "confidence": 0.6256639361381531,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/315",
+    "question": "Q: List all the nodes connected to 0 in alphabetical order.\nA: ",
+    "expected_answer": "1.",
+    "model_answer": "1",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": 0.7195298671722412,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/316",
+    "question": "Q: List all the nodes connected to 5 in alphabetical order.\nA: ",
+    "expected_answer": "4, 6.",
+    "model_answer": "4",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "4",
+      "confidence": 0.656366765499115,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/317",
+    "question": "Q: List all the nodes connected to 5 in alphabetical order.\nA: ",
+    "expected_answer": "4, 6.",
+    "model_answer": "0",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": 0.5315163731575012,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/318",
+    "question": "Q: List all the nodes connected to 6 in alphabetical order.\nA: ",
+    "expected_answer": "5.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.7473682761192322,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/319",
+    "question": "Q: List all the nodes connected to 9 in alphabetical order.\nA: ",
+    "expected_answer": "8, 10.",
+    "model_answer": "10",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "10",
+      "confidence": 0.6152340769767761,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/320",
+    "question": "Q: List all the nodes connected to 7 in alphabetical order.\nA: ",
+    "expected_answer": "6, 8.",
+    "model_answer": "1",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": 0.33087483048439026,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/321",
+    "question": "Q: List all the nodes connected to 2 in alphabetical order.\nA: ",
+    "expected_answer": "1, 3.",
+    "model_answer": "1",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": 0.6836086511611938,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/322",
+    "question": "Q: List all the nodes connected to 7 in alphabetical order.\nA: ",
+    "expected_answer": "6, 8.",
+    "model_answer": "5",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "5",
+      "confidence": 0.5993992686271667,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/323",
+    "question": "Q: List all the nodes connected to 7 in alphabetical order.\nA: ",
+    "expected_answer": "6, 8.",
+    "model_answer": "10",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "10",
+      "confidence": 0.5230169296264648,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/324",
+    "question": "Q: List all the nodes connected to 10 in alphabetical order.\nA: ",
+    "expected_answer": "9, 11.",
+    "model_answer": "11",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "11",
+      "confidence": 0.5568265914916992,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/325",
+    "question": "Q: List all the nodes connected to 5 in alphabetical order.\nA: ",
+    "expected_answer": "4.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.7539528608322144,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/326",
+    "question": "Q: List all the nodes connected to 2 in alphabetical order.\nA: ",
+    "expected_answer": "1, 3.",
+    "model_answer": "1",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": 0.6000503301620483,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/327",
+    "question": "Q: List all the nodes connected to 8 in alphabetical order.\nA: ",
+    "expected_answer": "7.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.7610644102096558,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/328",
+    "question": "Q: List all the nodes connected to 9 in alphabetical order.\nA: ",
+    "expected_answer": "8, 10.",
+    "model_answer": "10",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "10",
+      "confidence": 0.6352594494819641,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/329",
+    "question": "Q: List all the nodes connected to 9 in alphabetical order.\nA: ",
+    "expected_answer": "8, 10.",
+    "model_answer": "10",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "10",
+      "confidence": 0.6231510043144226,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/330",
+    "question": "Q: List all the nodes connected to 1 in alphabetical order.\nA: ",
+    "expected_answer": "0, 2.",
+    "model_answer": "0",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": 0.6898389458656311,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/331",
+    "question": "Q: List all the nodes connected to 2 in alphabetical order.\nA: ",
+    "expected_answer": "1, 3.",
+    "model_answer": "1",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": 0.6565436124801636,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/332",
+    "question": "Q: List all the nodes connected to 4 in alphabetical order.\nA: ",
+    "expected_answer": "3, 5.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.7493459582328796,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/333",
+    "question": "Q: List all the nodes connected to 7 in alphabetical order.\nA: ",
+    "expected_answer": "6, 8.",
+    "model_answer": "1",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": 0.33087483048439026,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/334",
+    "question": "Q: List all the nodes connected to 11 in alphabetical order.\nA: ",
+    "expected_answer": "10, 12.",
+    "model_answer": "10, 12",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "10, 12",
+      "confidence": 0.699508011341095,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/335",
+    "question": "Q: List all the nodes connected to 2 in alphabetical order.\nA: ",
+    "expected_answer": "1, 3.",
+    "model_answer": "1",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": 0.6565436124801636,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/336",
+    "question": "Q: List all the nodes connected to 8 in alphabetical order.\nA: ",
+    "expected_answer": "7.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.7610644102096558,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/337",
+    "question": "Q: List all the nodes connected to 8 in alphabetical order.\nA: ",
+    "expected_answer": "7, 9.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.7560402154922485,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/338",
+    "question": "Q: List all the nodes connected to 6 in alphabetical order.\nA: ",
+    "expected_answer": "5, 7.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.7521683573722839,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/339",
+    "question": "Q: List all the nodes connected to 5 in alphabetical order.\nA: ",
+    "expected_answer": "4, 6.",
+    "model_answer": "0",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": 0.5315163731575012,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/340",
+    "question": "Q: List all the nodes connected to 2 in alphabetical order.\nA: ",
+    "expected_answer": "1, 3.",
+    "model_answer": "1",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": 0.5772213339805603,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/341",
+    "question": "Q: List all the nodes connected to 8 in alphabetical order.\nA: ",
+    "expected_answer": "7, 9.",
+    "model_answer": "10",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "10",
+      "confidence": 0.5884286165237427,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/342",
+    "question": "Q: List all the nodes connected to 4 in alphabetical order.\nA: ",
+    "expected_answer": "3, 5.",
+    "model_answer": "3",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3",
+      "confidence": 0.6812236309051514,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/343",
+    "question": "Q: List all the nodes connected to 8 in alphabetical order.\nA: ",
+    "expected_answer": "7, 9.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.7560402154922485,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/344",
+    "question": "Q: List all the nodes connected to 4 in alphabetical order.\nA: ",
+    "expected_answer": "3, 5.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.7493459582328796,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/345",
+    "question": "Q: List all the nodes connected to 9 in alphabetical order.\nA: ",
+    "expected_answer": "8, 10.",
+    "model_answer": "10",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "10",
+      "confidence": 0.6152340769767761,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/346",
+    "question": "Q: List all the nodes connected to 6 in alphabetical order.\nA: ",
+    "expected_answer": "5.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.7473682761192322,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/347",
+    "question": "Q: List all the nodes connected to 14 in alphabetical order.\nA: ",
+    "expected_answer": "13, 15.",
+    "model_answer": "13",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "13",
+      "confidence": 0.592502772808075,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/348",
+    "question": "Q: List all the nodes connected to 1 in alphabetical order.\nA: ",
+    "expected_answer": "0, 2.",
+    "model_answer": "0",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": 0.5675905346870422,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/349",
+    "question": "Q: List all the nodes connected to 11 in alphabetical order.\nA: ",
+    "expected_answer": "10, 12.",
+    "model_answer": "10, 12, 13, 15, 16, 17",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "10, 12, 13, 15, 16, 17",
+      "confidence": 0.7866236567497253,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  }
+]
