@@ -43,6 +43,11 @@ class Sample:
 
     metadata: dict
 
+    node_ids: list[int]
+
+    # sample.text_encoding_corrupted: str | None
+    # sample.corrupted_answer: Any | None   (ground truth under the corrupted graph)
+
 def load_graphqa_dataset(dataset_dir: str) -> GraphQADataset:
     dataset_path: Path = Path(dataset_dir)
 
@@ -75,7 +80,8 @@ def load_graphqa_dataset(dataset_dir: str) -> GraphQADataset:
                 k: v
                 for k, v in row.items()
                 if k not in NON_METADATA_KEYS
-            }
+            },
+            node_ids=row.get("node_ids")
         )
 
         samples.append(sample)

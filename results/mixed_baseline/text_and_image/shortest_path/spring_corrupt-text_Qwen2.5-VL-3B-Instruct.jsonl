@@ -1,0 +1,2572 @@
+[
+  {
+    "sample_id": "shortest_path/adjacency/test/0",
+    "question": "Q: What is the length of the shortest path from node 14 to node 3?\nA: ",
+    "expected_answer": "1",
+    "model_answer": "2",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2",
+      "confidence": 0.75,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "2.",
+    "corrupted_answer": "1",
+    "corruption": {
+      "type": "add_edge",
+      "edge": [
+        14,
+        3
+      ]
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/20",
+    "question": "Q: What is the length of the shortest path from node 15 to node 13?\nA: ",
+    "expected_answer": "1",
+    "model_answer": "3",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3",
+      "confidence": 1.0,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "4.",
+    "corrupted_answer": "1",
+    "corruption": {
+      "type": "add_edge",
+      "edge": [
+        15,
+        13
+      ]
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/21",
+    "question": "Q: What is the length of the shortest path from node 2 to node 6?\nA: ",
+    "expected_answer": "1",
+    "model_answer": "3",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3",
+      "confidence": 1.0,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "3.",
+    "corrupted_answer": "1",
+    "corruption": {
+      "type": "add_edge",
+      "edge": [
+        2,
+        6
+      ]
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/27",
+    "question": "Q: What is the length of the shortest path from node 1 to node 3?\nA: ",
+    "expected_answer": "1",
+    "model_answer": "2",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2",
+      "confidence": 1.0,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "2.",
+    "corrupted_answer": "1",
+    "corruption": {
+      "type": "add_edge",
+      "edge": [
+        1,
+        3
+      ]
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/32",
+    "question": "Q: What is the length of the shortest path from node 0 to node 1?\nA: ",
+    "expected_answer": "2",
+    "model_answer": "2",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2",
+      "confidence": 1.0,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "1.",
+    "corrupted_answer": "2",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        0,
+        1
+      ]
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/38",
+    "question": "Q: What is the length of the shortest path from node 2 to node 0?\nA: ",
+    "expected_answer": "1",
+    "model_answer": "1",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": 1.0,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "There is no path from node 2 to node 0.",
+    "corrupted_answer": "1",
+    "corruption": {
+      "type": "add_edge",
+      "edge": [
+        2,
+        0
+      ]
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/40",
+    "question": "Q: What is the length of the shortest path from node 2 to node 4?\nA: ",
+    "expected_answer": "1",
+    "model_answer": "2",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2",
+      "confidence": 1.0,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "2.",
+    "corrupted_answer": "1",
+    "corruption": {
+      "type": "add_edge",
+      "edge": [
+        2,
+        4
+      ]
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/43",
+    "question": "Q: What is the length of the shortest path from node 5 to node 7?\nA: ",
+    "expected_answer": "2",
+    "model_answer": "1",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": 1.0,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "1.",
+    "corrupted_answer": "2",
+    "corruption": {
+      "type": "replace_direct_edge_with_path",
+      "removed_edge": [
+        5,
+        7
+      ],
+      "added_edges": [
+        [
+          5,
+          0
+        ],
+        [
+          0,
+          7
+        ]
+      ]
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/57",
+    "question": "Q: What is the length of the shortest path from node 1 to node 5?\nA: ",
+    "expected_answer": "1",
+    "model_answer": "2",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2",
+      "confidence": 1.0,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "3.",
+    "corrupted_answer": "1",
+    "corruption": {
+      "type": "add_edge",
+      "edge": [
+        1,
+        5
+      ]
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/60",
+    "question": "Q: What is the length of the shortest path from node 2 to node 3?\nA: ",
+    "expected_answer": "1",
+    "model_answer": "2",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2",
+      "confidence": 1.0,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "2.",
+    "corrupted_answer": "1",
+    "corruption": {
+      "type": "add_edge",
+      "edge": [
+        2,
+        3
+      ]
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/62",
+    "question": "Q: What is the length of the shortest path from node 6 to node 3?\nA: ",
+    "expected_answer": "1",
+    "model_answer": "1",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": 0.75,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "2.",
+    "corrupted_answer": "1",
+    "corruption": {
+      "type": "add_edge",
+      "edge": [
+        6,
+        3
+      ]
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/64",
+    "question": "Q: What is the length of the shortest path from node 12 to node 0?\nA: ",
+    "expected_answer": "2",
+    "model_answer": "13",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "13",
+      "confidence": 1.0,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "1.",
+    "corrupted_answer": "2",
+    "corruption": {
+      "type": "replace_direct_edge_with_path",
+      "removed_edge": [
+        12,
+        0
+      ],
+      "added_edges": [
+        [
+          12,
+          13
+        ],
+        [
+          13,
+          0
+        ]
+      ]
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/67",
+    "question": "Q: What is the length of the shortest path from node 2 to node 4?\nA: ",
+    "expected_answer": "1",
+    "model_answer": "2",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2",
+      "confidence": 1.0,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "2.",
+    "corrupted_answer": "1",
+    "corruption": {
+      "type": "add_edge",
+      "edge": [
+        2,
+        4
+      ]
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/75",
+    "question": "Q: What is the length of the shortest path from node 5 to node 3?\nA: ",
+    "expected_answer": "1",
+    "model_answer": "2",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2",
+      "confidence": 1.0,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "2.",
+    "corrupted_answer": "1",
+    "corruption": {
+      "type": "add_edge",
+      "edge": [
+        5,
+        3
+      ]
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/78",
+    "question": "Q: What is the length of the shortest path from node 3 to node 4?\nA: ",
+    "expected_answer": "1",
+    "model_answer": "2",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2",
+      "confidence": 1.0,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "2.",
+    "corrupted_answer": "1",
+    "corruption": {
+      "type": "add_edge",
+      "edge": [
+        3,
+        4
+      ]
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/79",
+    "question": "Q: What is the length of the shortest path from node 0 to node 5?\nA: ",
+    "expected_answer": "2",
+    "model_answer": "3",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3",
+      "confidence": 1.0,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "1.",
+    "corrupted_answer": "2",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        0,
+        5
+      ]
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/81",
+    "question": "Q: What is the length of the shortest path from node 7 to node 8?\nA: ",
+    "expected_answer": "2",
+    "model_answer": "2",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2",
+      "confidence": 1.0,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "1.",
+    "corrupted_answer": "2",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        7,
+        8
+      ]
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/94",
+    "question": "Q: What is the length of the shortest path from node 1 to node 5?\nA: ",
+    "expected_answer": "1",
+    "model_answer": "2",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2",
+      "confidence": 1.0,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "2.",
+    "corrupted_answer": "1",
+    "corruption": {
+      "type": "add_edge",
+      "edge": [
+        1,
+        5
+      ]
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/95",
+    "question": "Q: What is the length of the shortest path from node 6 to node 4?\nA: ",
+    "expected_answer": "1",
+    "model_answer": "2",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2",
+      "confidence": 1.0,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "2.",
+    "corrupted_answer": "1",
+    "corruption": {
+      "type": "add_edge",
+      "edge": [
+        6,
+        4
+      ]
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/99",
+    "question": "Q: What is the length of the shortest path from node 8 to node 4?\nA: ",
+    "expected_answer": "2",
+    "model_answer": "2",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2",
+      "confidence": 1.0,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "1.",
+    "corrupted_answer": "2",
+    "corruption": {
+      "type": "replace_direct_edge_with_path",
+      "removed_edge": [
+        8,
+        4
+      ],
+      "added_edges": [
+        [
+          8,
+          1
+        ],
+        [
+          1,
+          4
+        ]
+      ]
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/108",
+    "question": "Q: What is the length of the shortest path from node 12 to node 6?\nA: ",
+    "expected_answer": "1",
+    "model_answer": "3",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3",
+      "confidence": 0.75,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "2.",
+    "corrupted_answer": "1",
+    "corruption": {
+      "type": "add_edge",
+      "edge": [
+        12,
+        6
+      ]
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/109",
+    "question": "Q: What is the length of the shortest path from node 1 to node 3?\nA: ",
+    "expected_answer": "2",
+    "model_answer": "2",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2",
+      "confidence": 1.0,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "1.",
+    "corrupted_answer": "2",
+    "corruption": {
+      "type": "replace_direct_edge_with_path",
+      "removed_edge": [
+        1,
+        3
+      ],
+      "added_edges": [
+        [
+          1,
+          0
+        ],
+        [
+          0,
+          3
+        ]
+      ]
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/125",
+    "question": "Q: What is the length of the shortest path from node 7 to node 5?\nA: ",
+    "expected_answer": "1",
+    "model_answer": "3",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3",
+      "confidence": 1.0,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "3.",
+    "corrupted_answer": "1",
+    "corruption": {
+      "type": "add_edge",
+      "edge": [
+        7,
+        5
+      ]
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/129",
+    "question": "Q: What is the length of the shortest path from node 1 to node 2?\nA: ",
+    "expected_answer": "2",
+    "model_answer": "1",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": 0.75,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "1.",
+    "corrupted_answer": "2",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        1,
+        2
+      ]
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/132",
+    "question": "Q: What is the length of the shortest path from node 4 to node 2?\nA: ",
+    "expected_answer": "1",
+    "model_answer": "3",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3",
+      "confidence": 1.0,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "There is no path from node 4 to node 2.",
+    "corrupted_answer": "1",
+    "corruption": {
+      "type": "add_edge",
+      "edge": [
+        4,
+        2
+      ]
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/145",
+    "question": "Q: What is the length of the shortest path from node 3 to node 4?\nA: ",
+    "expected_answer": "2",
+    "model_answer": "2",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2",
+      "confidence": 1.0,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "1.",
+    "corrupted_answer": "2",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        3,
+        4
+      ]
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/146",
+    "question": "Q: What is the length of the shortest path from node 2 to node 1?\nA: ",
+    "expected_answer": "3",
+    "model_answer": "2",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2",
+      "confidence": 1.0,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "1.",
+    "corrupted_answer": "3",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        2,
+        1
+      ]
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/151",
+    "question": "Q: What is the length of the shortest path from node 8 to node 5?\nA: ",
+    "expected_answer": "1",
+    "model_answer": "1",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": 1.0,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "2.",
+    "corrupted_answer": "1",
+    "corruption": {
+      "type": "add_edge",
+      "edge": [
+        8,
+        5
+      ]
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/152",
+    "question": "Q: What is the length of the shortest path from node 6 to node 4?\nA: ",
+    "expected_answer": "1",
+    "model_answer": "2",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2",
+      "confidence": 1.0,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "2.",
+    "corrupted_answer": "1",
+    "corruption": {
+      "type": "add_edge",
+      "edge": [
+        6,
+        4
+      ]
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/155",
+    "question": "Q: What is the length of the shortest path from node 11 to node 7?\nA: ",
+    "expected_answer": "1",
+    "model_answer": "1",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": 1.0,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "2.",
+    "corrupted_answer": "1",
+    "corruption": {
+      "type": "add_edge",
+      "edge": [
+        11,
+        7
+      ]
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/156",
+    "question": "Q: What is the length of the shortest path from node 14 to node 9?\nA: ",
+    "expected_answer": "2",
+    "model_answer": "3",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3",
+      "confidence": 1.0,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "1.",
+    "corrupted_answer": "2",
+    "corruption": {
+      "type": "replace_direct_edge_with_path",
+      "removed_edge": [
+        14,
+        9
+      ],
+      "added_edges": [
+        [
+          14,
+          0
+        ],
+        [
+          0,
+          9
+        ]
+      ]
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/162",
+    "question": "Q: What is the length of the shortest path from node 9 to node 3?\nA: ",
+    "expected_answer": "1",
+    "model_answer": "2",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2",
+      "confidence": 1.0,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "2.",
+    "corrupted_answer": "1",
+    "corruption": {
+      "type": "add_edge",
+      "edge": [
+        9,
+        3
+      ]
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/163",
+    "question": "Q: What is the length of the shortest path from node 2 to node 7?\nA: ",
+    "expected_answer": "1",
+    "model_answer": "2",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2",
+      "confidence": 1.0,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "2.",
+    "corrupted_answer": "1",
+    "corruption": {
+      "type": "add_edge",
+      "edge": [
+        2,
+        7
+      ]
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/164",
+    "question": "Q: What is the length of the shortest path from node 7 to node 10?\nA: ",
+    "expected_answer": "1",
+    "model_answer": "3",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3",
+      "confidence": 1.0,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "3.",
+    "corrupted_answer": "1",
+    "corruption": {
+      "type": "add_edge",
+      "edge": [
+        7,
+        10
+      ]
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/165",
+    "question": "Q: What is the length of the shortest path from node 2 to node 4?\nA: ",
+    "expected_answer": "1",
+    "model_answer": "2",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2",
+      "confidence": 1.0,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "3.",
+    "corrupted_answer": "1",
+    "corruption": {
+      "type": "add_edge",
+      "edge": [
+        2,
+        4
+      ]
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/166",
+    "question": "Q: What is the length of the shortest path from node 4 to node 6?\nA: ",
+    "expected_answer": "1",
+    "model_answer": "2",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2",
+      "confidence": 1.0,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "2.",
+    "corrupted_answer": "1",
+    "corruption": {
+      "type": "add_edge",
+      "edge": [
+        4,
+        6
+      ]
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/168",
+    "question": "Q: What is the length of the shortest path from node 4 to node 1?\nA: ",
+    "expected_answer": "1",
+    "model_answer": "2",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2",
+      "confidence": 1.0,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "2.",
+    "corrupted_answer": "1",
+    "corruption": {
+      "type": "add_edge",
+      "edge": [
+        4,
+        1
+      ]
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/171",
+    "question": "Q: What is the length of the shortest path from node 6 to node 7?\nA: ",
+    "expected_answer": "1",
+    "model_answer": "2",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2",
+      "confidence": 1.0,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "3.",
+    "corrupted_answer": "1",
+    "corruption": {
+      "type": "add_edge",
+      "edge": [
+        6,
+        7
+      ]
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/173",
+    "question": "Q: What is the length of the shortest path from node 11 to node 8?\nA: ",
+    "expected_answer": "1",
+    "model_answer": "3",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3",
+      "confidence": 1.0,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "3.",
+    "corrupted_answer": "1",
+    "corruption": {
+      "type": "add_edge",
+      "edge": [
+        11,
+        8
+      ]
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/174",
+    "question": "Q: What is the length of the shortest path from node 9 to node 8?\nA: ",
+    "expected_answer": "1",
+    "model_answer": "2",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2",
+      "confidence": 1.0,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "2.",
+    "corrupted_answer": "1",
+    "corruption": {
+      "type": "add_edge",
+      "edge": [
+        9,
+        8
+      ]
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/178",
+    "question": "Q: What is the length of the shortest path from node 5 to node 10?\nA: ",
+    "expected_answer": "1",
+    "model_answer": "1",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": 1.0,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "2.",
+    "corrupted_answer": "1",
+    "corruption": {
+      "type": "add_edge",
+      "edge": [
+        5,
+        10
+      ]
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/181",
+    "question": "Q: What is the length of the shortest path from node 1 to node 5?\nA: ",
+    "expected_answer": "1",
+    "model_answer": "2",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2",
+      "confidence": 1.0,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "2.",
+    "corrupted_answer": "1",
+    "corruption": {
+      "type": "add_edge",
+      "edge": [
+        1,
+        5
+      ]
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/185",
+    "question": "Q: What is the length of the shortest path from node 6 to node 7?\nA: ",
+    "expected_answer": "1",
+    "model_answer": "2",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2",
+      "confidence": 1.0,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "3.",
+    "corrupted_answer": "1",
+    "corruption": {
+      "type": "add_edge",
+      "edge": [
+        6,
+        7
+      ]
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/188",
+    "question": "Q: What is the length of the shortest path from node 4 to node 3?\nA: ",
+    "expected_answer": "1",
+    "model_answer": "2",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2",
+      "confidence": 1.0,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "3.",
+    "corrupted_answer": "1",
+    "corruption": {
+      "type": "add_edge",
+      "edge": [
+        4,
+        3
+      ]
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/189",
+    "question": "Q: What is the length of the shortest path from node 5 to node 1?\nA: ",
+    "expected_answer": "1",
+    "model_answer": "2",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2",
+      "confidence": 1.0,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "2.",
+    "corrupted_answer": "1",
+    "corruption": {
+      "type": "add_edge",
+      "edge": [
+        5,
+        1
+      ]
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/190",
+    "question": "Q: What is the length of the shortest path from node 7 to node 10?\nA: ",
+    "expected_answer": "1",
+    "model_answer": "3",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3",
+      "confidence": 1.0,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "3.",
+    "corrupted_answer": "1",
+    "corruption": {
+      "type": "add_edge",
+      "edge": [
+        7,
+        10
+      ]
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/194",
+    "question": "Q: What is the length of the shortest path from node 3 to node 1?\nA: ",
+    "expected_answer": "1",
+    "model_answer": "2",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2",
+      "confidence": 1.0,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "2.",
+    "corrupted_answer": "1",
+    "corruption": {
+      "type": "add_edge",
+      "edge": [
+        3,
+        1
+      ]
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/196",
+    "question": "Q: What is the length of the shortest path from node 0 to node 1?\nA: ",
+    "expected_answer": "2",
+    "model_answer": "2",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2",
+      "confidence": 0.75,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "1.",
+    "corrupted_answer": "2",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        0,
+        1
+      ]
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/202",
+    "question": "Q: What is the length of the shortest path from node 4 to node 3?\nA: ",
+    "expected_answer": "2",
+    "model_answer": "2",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2",
+      "confidence": 1.0,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "1.",
+    "corrupted_answer": "2",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        4,
+        3
+      ]
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/204",
+    "question": "Q: What is the length of the shortest path from node 11 to node 7?\nA: ",
+    "expected_answer": "2",
+    "model_answer": "1",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": 1.0,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "1.",
+    "corrupted_answer": "2",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        11,
+        7
+      ]
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/208",
+    "question": "Q: What is the length of the shortest path from node 3 to node 1?\nA: ",
+    "expected_answer": "2",
+    "model_answer": "1",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": 1.0,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "1.",
+    "corrupted_answer": "2",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        3,
+        1
+      ]
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/223",
+    "question": "Q: What is the length of the shortest path from node 7 to node 8?\nA: ",
+    "expected_answer": "2",
+    "model_answer": "1",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": 1.0,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "1.",
+    "corrupted_answer": "2",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        7,
+        8
+      ]
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/226",
+    "question": "Q: What is the length of the shortest path from node 9 to node 1?\nA: ",
+    "expected_answer": "2",
+    "model_answer": "1",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": 1.0,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "1.",
+    "corrupted_answer": "2",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        9,
+        1
+      ]
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/231",
+    "question": "Q: What is the length of the shortest path from node 8 to node 9?\nA: ",
+    "expected_answer": "2",
+    "model_answer": "2",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2",
+      "confidence": 1.0,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "1.",
+    "corrupted_answer": "2",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        8,
+        9
+      ]
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/234",
+    "question": "Q: What is the length of the shortest path from node 5 to node 6?\nA: ",
+    "expected_answer": "2",
+    "model_answer": "2",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2",
+      "confidence": 1.0,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "1.",
+    "corrupted_answer": "2",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        5,
+        6
+      ]
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/240",
+    "question": "Q: What is the length of the shortest path from node 7 to node 8?\nA: ",
+    "expected_answer": "2",
+    "model_answer": "2",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2",
+      "confidence": 1.0,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "1.",
+    "corrupted_answer": "2",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        7,
+        8
+      ]
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/250",
+    "question": "Q: What is the length of the shortest path from node 10 to node 9?\nA: ",
+    "expected_answer": "1",
+    "model_answer": "1",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": 1.0,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "2.",
+    "corrupted_answer": "1",
+    "corruption": {
+      "type": "add_edge",
+      "edge": [
+        10,
+        9
+      ]
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/251",
+    "question": "Q: What is the length of the shortest path from node 1 to node 0?\nA: ",
+    "expected_answer": "2",
+    "model_answer": "1",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": 1.0,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "1.",
+    "corrupted_answer": "2",
+    "corruption": {
+      "type": "replace_direct_edge_with_path",
+      "removed_edge": [
+        1,
+        0
+      ],
+      "added_edges": [
+        [
+          1,
+          12
+        ],
+        [
+          12,
+          0
+        ]
+      ]
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/268",
+    "question": "Q: What is the length of the shortest path from node 2 to node 3?\nA: ",
+    "expected_answer": "1",
+    "model_answer": "1",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": 1.0,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "2.",
+    "corrupted_answer": "1",
+    "corruption": {
+      "type": "add_edge",
+      "edge": [
+        2,
+        3
+      ]
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/274",
+    "question": "Q: What is the length of the shortest path from node 2 to node 0?\nA: ",
+    "expected_answer": "2",
+    "model_answer": "14",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "14",
+      "confidence": 1.0,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "1.",
+    "corrupted_answer": "2",
+    "corruption": {
+      "type": "replace_direct_edge_with_path",
+      "removed_edge": [
+        2,
+        0
+      ],
+      "added_edges": [
+        [
+          2,
+          14
+        ],
+        [
+          14,
+          0
+        ]
+      ]
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/275",
+    "question": "Q: What is the length of the shortest path from node 1 to node 4?\nA: ",
+    "expected_answer": "1",
+    "model_answer": "2",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2",
+      "confidence": 1.0,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "2.",
+    "corrupted_answer": "1",
+    "corruption": {
+      "type": "add_edge",
+      "edge": [
+        1,
+        4
+      ]
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/282",
+    "question": "Q: What is the length of the shortest path from node 1 to node 3?\nA: ",
+    "expected_answer": "1",
+    "model_answer": "2",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2",
+      "confidence": 1.0,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "2.",
+    "corrupted_answer": "1",
+    "corruption": {
+      "type": "add_edge",
+      "edge": [
+        1,
+        3
+      ]
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/289",
+    "question": "Q: What is the length of the shortest path from node 2 to node 1?\nA: ",
+    "expected_answer": "1",
+    "model_answer": "2",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2",
+      "confidence": 1.0,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "2.",
+    "corrupted_answer": "1",
+    "corruption": {
+      "type": "add_edge",
+      "edge": [
+        2,
+        1
+      ]
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/290",
+    "question": "Q: What is the length of the shortest path from node 2 to node 6?\nA: ",
+    "expected_answer": "1",
+    "model_answer": "1",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": 1.0,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "2.",
+    "corrupted_answer": "1",
+    "corruption": {
+      "type": "add_edge",
+      "edge": [
+        2,
+        6
+      ]
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/291",
+    "question": "Q: What is the length of the shortest path from node 6 to node 2?\nA: ",
+    "expected_answer": "1",
+    "model_answer": "1",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": 1.0,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "2.",
+    "corrupted_answer": "1",
+    "corruption": {
+      "type": "add_edge",
+      "edge": [
+        6,
+        2
+      ]
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/292",
+    "question": "Q: What is the length of the shortest path from node 4 to node 1?\nA: ",
+    "expected_answer": "1",
+    "model_answer": "2",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2",
+      "confidence": 1.0,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "2.",
+    "corrupted_answer": "1",
+    "corruption": {
+      "type": "add_edge",
+      "edge": [
+        4,
+        1
+      ]
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/294",
+    "question": "Q: What is the length of the shortest path from node 3 to node 4?\nA: ",
+    "expected_answer": "1",
+    "model_answer": "2",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2",
+      "confidence": 1.0,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "2.",
+    "corrupted_answer": "1",
+    "corruption": {
+      "type": "add_edge",
+      "edge": [
+        3,
+        4
+      ]
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/296",
+    "question": "Q: What is the length of the shortest path from node 4 to node 1?\nA: ",
+    "expected_answer": "1",
+    "model_answer": "2",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2",
+      "confidence": 1.0,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "2.",
+    "corrupted_answer": "1",
+    "corruption": {
+      "type": "add_edge",
+      "edge": [
+        4,
+        1
+      ]
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/305",
+    "question": "Q: What is the length of the shortest path from node 10 to node 8?\nA: ",
+    "expected_answer": "1",
+    "model_answer": "2",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2",
+      "confidence": 1.0,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "2.",
+    "corrupted_answer": "1",
+    "corruption": {
+      "type": "add_edge",
+      "edge": [
+        10,
+        8
+      ]
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/306",
+    "question": "Q: What is the length of the shortest path from node 4 to node 2?\nA: ",
+    "expected_answer": "1",
+    "model_answer": "1",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": 1.0,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "2.",
+    "corrupted_answer": "1",
+    "corruption": {
+      "type": "add_edge",
+      "edge": [
+        4,
+        2
+      ]
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/307",
+    "question": "Q: What is the length of the shortest path from node 3 to node 1?\nA: ",
+    "expected_answer": "1",
+    "model_answer": "2",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2",
+      "confidence": 1.0,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "2.",
+    "corrupted_answer": "1",
+    "corruption": {
+      "type": "add_edge",
+      "edge": [
+        3,
+        1
+      ]
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/308",
+    "question": "Q: What is the length of the shortest path from node 6 to node 4?\nA: ",
+    "expected_answer": "1",
+    "model_answer": "2",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2",
+      "confidence": 1.0,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "2.",
+    "corrupted_answer": "1",
+    "corruption": {
+      "type": "add_edge",
+      "edge": [
+        6,
+        4
+      ]
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/309",
+    "question": "Q: What is the length of the shortest path from node 1 to node 2?\nA: ",
+    "expected_answer": "2",
+    "model_answer": "1",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": 1.0,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "1.",
+    "corrupted_answer": "2",
+    "corruption": {
+      "type": "replace_direct_edge_with_path",
+      "removed_edge": [
+        1,
+        2
+      ],
+      "added_edges": [
+        [
+          1,
+          4
+        ],
+        [
+          4,
+          2
+        ]
+      ]
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/310",
+    "question": "Q: What is the length of the shortest path from node 5 to node 6?\nA: ",
+    "expected_answer": "2",
+    "model_answer": "2",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2",
+      "confidence": 1.0,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "1.",
+    "corrupted_answer": "2",
+    "corruption": {
+      "type": "replace_direct_edge_with_path",
+      "removed_edge": [
+        5,
+        6
+      ],
+      "added_edges": [
+        [
+          5,
+          0
+        ],
+        [
+          0,
+          6
+        ]
+      ]
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/313",
+    "question": "Q: What is the length of the shortest path from node 5 to node 3?\nA: ",
+    "expected_answer": "1",
+    "model_answer": "2",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2",
+      "confidence": 1.0,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "2.",
+    "corrupted_answer": "1",
+    "corruption": {
+      "type": "add_edge",
+      "edge": [
+        5,
+        3
+      ]
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/316",
+    "question": "Q: What is the length of the shortest path from node 2 to node 3?\nA: ",
+    "expected_answer": "2",
+    "model_answer": "1",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": 1.0,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "1.",
+    "corrupted_answer": "2",
+    "corruption": {
+      "type": "replace_direct_edge_with_path",
+      "removed_edge": [
+        2,
+        3
+      ],
+      "added_edges": [
+        [
+          2,
+          0
+        ],
+        [
+          0,
+          3
+        ]
+      ]
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/317",
+    "question": "Q: What is the length of the shortest path from node 3 to node 5?\nA: ",
+    "expected_answer": "1",
+    "model_answer": "2",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2",
+      "confidence": 1.0,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "2.",
+    "corrupted_answer": "1",
+    "corruption": {
+      "type": "add_edge",
+      "edge": [
+        3,
+        5
+      ]
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/321",
+    "question": "Q: What is the length of the shortest path from node 5 to node 7?\nA: ",
+    "expected_answer": "1",
+    "model_answer": "2",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2",
+      "confidence": 1.0,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "2.",
+    "corrupted_answer": "1",
+    "corruption": {
+      "type": "add_edge",
+      "edge": [
+        5,
+        7
+      ]
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/322",
+    "question": "Q: What is the length of the shortest path from node 9 to node 8?\nA: ",
+    "expected_answer": "2",
+    "model_answer": "2",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2",
+      "confidence": 1.0,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "1.",
+    "corrupted_answer": "2",
+    "corruption": {
+      "type": "replace_direct_edge_with_path",
+      "removed_edge": [
+        9,
+        8
+      ],
+      "added_edges": [
+        [
+          9,
+          0
+        ],
+        [
+          0,
+          8
+        ]
+      ]
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/324",
+    "question": "Q: What is the length of the shortest path from node 12 to node 9?\nA: ",
+    "expected_answer": "1",
+    "model_answer": "3",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3",
+      "confidence": 1.0,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "3.",
+    "corrupted_answer": "1",
+    "corruption": {
+      "type": "add_edge",
+      "edge": [
+        12,
+        9
+      ]
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/325",
+    "question": "Q: What is the length of the shortest path from node 5 to node 4?\nA: ",
+    "expected_answer": "2",
+    "model_answer": "2",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2",
+      "confidence": 1.0,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "1.",
+    "corrupted_answer": "2",
+    "corruption": {
+      "type": "replace_direct_edge_with_path",
+      "removed_edge": [
+        5,
+        4
+      ],
+      "added_edges": [
+        [
+          5,
+          0
+        ],
+        [
+          0,
+          4
+        ]
+      ]
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/326",
+    "question": "Q: What is the length of the shortest path from node 7 to node 4?\nA: ",
+    "expected_answer": "1",
+    "model_answer": "3",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3",
+      "confidence": 1.0,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "3.",
+    "corrupted_answer": "1",
+    "corruption": {
+      "type": "add_edge",
+      "edge": [
+        7,
+        4
+      ]
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/332",
+    "question": "Q: What is the length of the shortest path from node 3 to node 5?\nA: ",
+    "expected_answer": "1",
+    "model_answer": "2",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2",
+      "confidence": 1.0,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "2.",
+    "corrupted_answer": "1",
+    "corruption": {
+      "type": "add_edge",
+      "edge": [
+        3,
+        5
+      ]
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/333",
+    "question": "Q: What is the length of the shortest path from node 6 to node 1?\nA: ",
+    "expected_answer": "1",
+    "model_answer": "3",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3",
+      "confidence": 1.0,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "5.",
+    "corrupted_answer": "1",
+    "corruption": {
+      "type": "add_edge",
+      "edge": [
+        6,
+        1
+      ]
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/338",
+    "question": "Q: What is the length of the shortest path from node 5 to node 6?\nA: ",
+    "expected_answer": "2",
+    "model_answer": "2",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2",
+      "confidence": 1.0,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "1.",
+    "corrupted_answer": "2",
+    "corruption": {
+      "type": "replace_direct_edge_with_path",
+      "removed_edge": [
+        5,
+        6
+      ],
+      "added_edges": [
+        [
+          5,
+          0
+        ],
+        [
+          0,
+          6
+        ]
+      ]
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/340",
+    "question": "Q: What is the length of the shortest path from node 3 to node 1?\nA: ",
+    "expected_answer": "1",
+    "model_answer": "2",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2",
+      "confidence": 1.0,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "2.",
+    "corrupted_answer": "1",
+    "corruption": {
+      "type": "add_edge",
+      "edge": [
+        3,
+        1
+      ]
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/341",
+    "question": "Q: What is the length of the shortest path from node 8 to node 6?\nA: ",
+    "expected_answer": "1",
+    "model_answer": "2",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2",
+      "confidence": 1.0,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "2.",
+    "corrupted_answer": "1",
+    "corruption": {
+      "type": "add_edge",
+      "edge": [
+        8,
+        6
+      ]
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/342",
+    "question": "Q: What is the length of the shortest path from node 0 to node 1?\nA: ",
+    "expected_answer": "2",
+    "model_answer": "1",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": 1.0,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "1.",
+    "corrupted_answer": "2",
+    "corruption": {
+      "type": "replace_direct_edge_with_path",
+      "removed_edge": [
+        0,
+        1
+      ],
+      "added_edges": [
+        [
+          0,
+          3
+        ],
+        [
+          3,
+          1
+        ]
+      ]
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/344",
+    "question": "Q: What is the length of the shortest path from node 0 to node 2?\nA: ",
+    "expected_answer": "1",
+    "model_answer": "2",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2",
+      "confidence": 1.0,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "2.",
+    "corrupted_answer": "1",
+    "corruption": {
+      "type": "add_edge",
+      "edge": [
+        0,
+        2
+      ]
+    }
+  },
+  {
+    "sample_id": "shortest_path/adjacency/test/346",
+    "question": "Q: What is the length of the shortest path from node 6 to node 2?\nA: ",
+    "expected_answer": "1",
+    "model_answer": "4",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "4",
+      "confidence": 1.0,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "4.",
+    "corrupted_answer": "1",
+    "corruption": {
+      "type": "add_edge",
+      "edge": [
+        6,
+        2
+      ]
+    }
+  }
+]

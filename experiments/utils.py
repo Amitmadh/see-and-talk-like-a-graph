@@ -4,6 +4,27 @@ import yaml
 import datetime
 
 
+def load_results(results_path):
+    """
+    Load experiment results saved by save_results().
+    """
+    results_path = Path(results_path)
+
+    if not results_path.exists():
+        raise FileNotFoundError(
+            f"Results file not found: {results_path}"
+        )
+
+    with open(results_path, "r") as f:
+        results = json.load(f)
+
+    if not isinstance(results, list):
+        raise ValueError(
+            f"Expected results file to contain a JSON list, "
+            f"got {type(results).__name__}"
+        )
+
+    return results
 def load_config(config_path):
     """
     Load experiment configuration from yaml file.

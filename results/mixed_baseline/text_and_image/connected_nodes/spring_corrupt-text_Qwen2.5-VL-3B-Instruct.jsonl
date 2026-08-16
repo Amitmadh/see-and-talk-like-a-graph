@@ -1,0 +1,3188 @@
+[
+  {
+    "sample_id": "connected_nodes/adjacency/test/4",
+    "question": "Q: List all the nodes connected to 1 in alphabetical order.\nA: ",
+    "expected_answer": "6, 9, 15.",
+    "model_answer": "2, 6, 9, 11, 15",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2, 6, 9, 11, 15",
+      "confidence": 1.0,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "2, 6, 9, 15.",
+    "corrupted_answer": "6, 9, 15.",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        1,
+        2
+      ]
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/6",
+    "question": "Q: List all the nodes connected to 2 in alphabetical order.\nA: ",
+    "expected_answer": "14.",
+    "model_answer": "3, 14",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3, 14",
+      "confidence": 1.0,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "3, 14.",
+    "corrupted_answer": "14.",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        2,
+        3
+      ]
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/11",
+    "question": "Q: List all the nodes connected to 0 in alphabetical order.\nA: ",
+    "expected_answer": "2, 3, 4, 6, 9, 10, 12, 13, 14, 15, 17.",
+    "model_answer": "4, 6, 9, 10, 12, 13, 14, 15, 17",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "4, 6, 9, 10, 12, 13, 14, 15, 17",
+      "confidence": 1.0,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "1, 2, 3, 4, 6, 9, 10, 12, 13, 14, 15, 17.",
+    "corrupted_answer": "2, 3, 4, 6, 9, 10, 12, 13, 14, 15, 17.",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        0,
+        1
+      ]
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/15",
+    "question": "Q: List all the nodes connected to 4 in alphabetical order.\nA: ",
+    "expected_answer": "1, 2, 3.",
+    "model_answer": "2, 1, 3",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2, 1, 3",
+      "confidence": 0.9375,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "0, 1, 2, 3.",
+    "corrupted_answer": "1, 2, 3.",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        4,
+        0
+      ]
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/16",
+    "question": "Q: List all the nodes connected to 3 in alphabetical order.\nA: ",
+    "expected_answer": "1, 2, 4.",
+    "model_answer": "0, 1, 4",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0, 1, 4",
+      "confidence": 1.0,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "0, 1, 2, 4.",
+    "corrupted_answer": "1, 2, 4.",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        3,
+        0
+      ]
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/17",
+    "question": "Q: List all the nodes connected to 7 in alphabetical order.\nA: ",
+    "expected_answer": "1, 2, 3, 4, 5, 6.",
+    "model_answer": "0, 2, 3, 4, 5, 6",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0, 2, 3, 4, 5, 6",
+      "confidence": 0.9705882668495178,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "0, 1, 2, 3, 4, 5, 6.",
+    "corrupted_answer": "1, 2, 3, 4, 5, 6.",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        7,
+        0
+      ]
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/18",
+    "question": "Q: List all the nodes connected to 1 in alphabetical order.\nA: ",
+    "expected_answer": "",
+    "model_answer": "2",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2",
+      "confidence": 1.0,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "2.",
+    "corrupted_answer": "",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        1,
+        2
+      ]
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/22",
+    "question": "Q: List all the nodes connected to 1 in alphabetical order.\nA: ",
+    "expected_answer": "2, 3, 4, 6, 7, 8, 9, 10, 11.",
+    "model_answer": "1, 2, 3, 4, 6, 7, 8, 9, 10, 11",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1, 2, 3, 4, 6, 7, 8, 9, 10, 11",
+      "confidence": 0.9838709235191345,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "0, 2, 3, 4, 6, 7, 8, 9, 10, 11.",
+    "corrupted_answer": "2, 3, 4, 6, 7, 8, 9, 10, 11.",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        1,
+        0
+      ]
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/26",
+    "question": "Q: List all the nodes connected to 3 in alphabetical order.\nA: ",
+    "expected_answer": "1, 2, 4, 5, 6, 7, 8, 9.",
+    "model_answer": "0, 1, 2, 4, 5, 6, 7, 8, 9",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0, 1, 2, 4, 5, 6, 7, 8, 9",
+      "confidence": 1.0,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "0, 1, 2, 4, 5, 6, 7, 8, 9.",
+    "corrupted_answer": "1, 2, 4, 5, 6, 7, 8, 9.",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        3,
+        0
+      ]
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/27",
+    "question": "Q: List all the nodes connected to 0 in alphabetical order.\nA: ",
+    "expected_answer": "",
+    "model_answer": "3",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3",
+      "confidence": 0.75,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "3.",
+    "corrupted_answer": "",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        0,
+        3
+      ]
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/31",
+    "question": "Q: List all the nodes connected to 1 in alphabetical order.\nA: ",
+    "expected_answer": "2, 4, 5, 6, 7, 8, 9, 10, 11, 12.",
+    "model_answer": "12, 4, 5, 6, 7, 8, 9, 10, 11",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "12, 4, 5, 6, 7, 8, 9, 10, 11",
+      "confidence": 1.0,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "0, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12.",
+    "corrupted_answer": "2, 4, 5, 6, 7, 8, 9, 10, 11, 12.",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        1,
+        0
+      ]
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/32",
+    "question": "Q: List all the nodes connected to 4 in alphabetical order.\nA: ",
+    "expected_answer": "1, 2, 3.",
+    "model_answer": "3, 2, 1",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3, 2, 1",
+      "confidence": 1.0,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "0, 1, 2, 3.",
+    "corrupted_answer": "1, 2, 3.",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        4,
+        0
+      ]
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/37",
+    "question": "Q: List all the nodes connected to 4 in alphabetical order.\nA: ",
+    "expected_answer": "9, 12.",
+    "model_answer": "9, 12",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "9, 12",
+      "confidence": 1.0,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "5, 9, 12.",
+    "corrupted_answer": "9, 12.",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        4,
+        5
+      ]
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/43",
+    "question": "Q: List all the nodes connected to 5 in alphabetical order.\nA: ",
+    "expected_answer": "9, 10.",
+    "model_answer": "7, 10",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "7, 10",
+      "confidence": 1.0,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "7, 9, 10.",
+    "corrupted_answer": "9, 10.",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        5,
+        7
+      ]
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/44",
+    "question": "Q: List all the nodes connected to 2 in alphabetical order.\nA: ",
+    "expected_answer": "1, 3, 4.",
+    "model_answer": "0, 3, 4",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0, 3, 4",
+      "confidence": 1.0,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "0, 1, 3, 4.",
+    "corrupted_answer": "1, 3, 4.",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        2,
+        0
+      ]
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/48",
+    "question": "Q: List all the nodes connected to 14 in alphabetical order.\nA: ",
+    "expected_answer": "1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13.",
+    "model_answer": "0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13",
+      "confidence": 0.9888889193534851,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13.",
+    "corrupted_answer": "1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13.",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        14,
+        0
+      ]
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/50",
+    "question": "Q: List all the nodes connected to 0 in alphabetical order.\nA: ",
+    "expected_answer": "2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15.",
+    "model_answer": "10, 3, 4, 5, 6, 7, 8, 9, 11, 12, 13, 14, 15",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "10, 3, 4, 5, 6, 7, 8, 9, 11, 12, 13, 14, 15",
+      "confidence": 1.0,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15.",
+    "corrupted_answer": "2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15.",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        0,
+        1
+      ]
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/57",
+    "question": "Q: List all the nodes connected to 6 in alphabetical order.\nA: ",
+    "expected_answer": "",
+    "model_answer": "0",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": 1.0,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "0.",
+    "corrupted_answer": "",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        6,
+        0
+      ]
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/62",
+    "question": "Q: List all the nodes connected to 2 in alphabetical order.\nA: ",
+    "expected_answer": "9.",
+    "model_answer": "0, 9",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0, 9",
+      "confidence": 1.0,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "0, 9.",
+    "corrupted_answer": "9.",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        2,
+        0
+      ]
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/67",
+    "question": "Q: List all the nodes connected to 0 in alphabetical order.\nA: ",
+    "expected_answer": "2, 3, 4.",
+    "model_answer": "2, 3, 4",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2, 3, 4",
+      "confidence": 1.0,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "1, 2, 3, 4.",
+    "corrupted_answer": "2, 3, 4.",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        0,
+        1
+      ]
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/86",
+    "question": "Q: List all the nodes connected to 3 in alphabetical order.\nA: ",
+    "expected_answer": "",
+    "model_answer": "0",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": 1.0,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "0.",
+    "corrupted_answer": "",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        3,
+        0
+      ]
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/87",
+    "question": "Q: List all the nodes connected to 0 in alphabetical order.\nA: ",
+    "expected_answer": "2, 3, 6, 10.",
+    "model_answer": "10, 2, 3, 6, 9",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "10, 2, 3, 6, 9",
+      "confidence": 1.0,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "1, 2, 3, 6, 10.",
+    "corrupted_answer": "2, 3, 6, 10.",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        0,
+        1
+      ]
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/94",
+    "question": "Q: List all the nodes connected to 0 in alphabetical order.\nA: ",
+    "expected_answer": "",
+    "model_answer": "0",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": 1.0,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "1.",
+    "corrupted_answer": "",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        0,
+        1
+      ]
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/99",
+    "question": "Q: List all the nodes connected to 14 in alphabetical order.\nA: ",
+    "expected_answer": "",
+    "model_answer": "2",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2",
+      "confidence": 1.0,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "2.",
+    "corrupted_answer": "",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        14,
+        2
+      ]
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/101",
+    "question": "Q: List all the nodes connected to 4 in alphabetical order.\nA: ",
+    "expected_answer": "",
+    "model_answer": "3",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3",
+      "confidence": 1.0,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "3.",
+    "corrupted_answer": "",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        4,
+        3
+      ]
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/102",
+    "question": "Q: List all the nodes connected to 0 in alphabetical order.\nA: ",
+    "expected_answer": "4, 5, 6.",
+    "model_answer": "0, 4, 5, 6",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0, 4, 5, 6",
+      "confidence": 1.0,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "3, 4, 5, 6.",
+    "corrupted_answer": "4, 5, 6.",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        0,
+        3
+      ]
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/109",
+    "question": "Q: List all the nodes connected to 3 in alphabetical order.\nA: ",
+    "expected_answer": "",
+    "model_answer": "1",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": 1.0,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "1.",
+    "corrupted_answer": "",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        3,
+        1
+      ]
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/113",
+    "question": "Q: List all the nodes connected to 3 in alphabetical order.\nA: ",
+    "expected_answer": "11, 12, 13.",
+    "model_answer": "11, 12, 13",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "11, 12, 13",
+      "confidence": 1.0,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "7, 11, 12, 13.",
+    "corrupted_answer": "11, 12, 13.",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        3,
+        7
+      ]
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/121",
+    "question": "Q: List all the nodes connected to 1 in alphabetical order.\nA: ",
+    "expected_answer": "3, 4.",
+    "model_answer": "0, 3, 4",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0, 3, 4",
+      "confidence": 1.0,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "0, 3, 4.",
+    "corrupted_answer": "3, 4.",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        1,
+        0
+      ]
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/138",
+    "question": "Q: List all the nodes connected to 1 in alphabetical order.\nA: ",
+    "expected_answer": "6.",
+    "model_answer": "0, 6",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0, 6",
+      "confidence": 1.0,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "0, 6.",
+    "corrupted_answer": "6.",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        1,
+        0
+      ]
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/141",
+    "question": "Q: List all the nodes connected to 4 in alphabetical order.\nA: ",
+    "expected_answer": "",
+    "model_answer": "5",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "5",
+      "confidence": 1.0,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "5.",
+    "corrupted_answer": "",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        4,
+        5
+      ]
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/145",
+    "question": "Q: List all the nodes connected to 1 in alphabetical order.\nA: ",
+    "expected_answer": "3, 4, 5, 6, 7, 8, 9, 10.",
+    "model_answer": "0, 3, 4, 5, 6, 7, 8, 9, 10",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0, 3, 4, 5, 6, 7, 8, 9, 10",
+      "confidence": 1.0,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "0, 3, 4, 5, 6, 7, 8, 9, 10.",
+    "corrupted_answer": "3, 4, 5, 6, 7, 8, 9, 10.",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        1,
+        0
+      ]
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/146",
+    "question": "Q: List all the nodes connected to 5 in alphabetical order.\nA: ",
+    "expected_answer": "",
+    "model_answer": "1, 2, 3, 4",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1, 2, 3, 4",
+      "confidence": 0.9545454978942871,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "1.",
+    "corrupted_answer": "",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        5,
+        1
+      ]
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/152",
+    "question": "Q: List all the nodes connected to 7 in alphabetical order.\nA: ",
+    "expected_answer": "",
+    "model_answer": "2",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2",
+      "confidence": 1.0,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "2.",
+    "corrupted_answer": "",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        7,
+        2
+      ]
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/155",
+    "question": "Q: List all the nodes connected to 5 in alphabetical order.\nA: ",
+    "expected_answer": "",
+    "model_answer": "5",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "5",
+      "confidence": 1.0,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "3.",
+    "corrupted_answer": "",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        5,
+        3
+      ]
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/156",
+    "question": "Q: List all the nodes connected to 14 in alphabetical order.\nA: ",
+    "expected_answer": "",
+    "model_answer": "9",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "9",
+      "confidence": 1.0,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "9.",
+    "corrupted_answer": "",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        14,
+        9
+      ]
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/159",
+    "question": "Q: List all the nodes connected to 5 in alphabetical order.\nA: ",
+    "expected_answer": "",
+    "model_answer": "2",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2",
+      "confidence": 1.0,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "0.",
+    "corrupted_answer": "",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        5,
+        0
+      ]
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/162",
+    "question": "Q: List all the nodes connected to 9 in alphabetical order.\nA: ",
+    "expected_answer": "",
+    "model_answer": "2",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2",
+      "confidence": 1.0,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "2.",
+    "corrupted_answer": "",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        9,
+        2
+      ]
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/167",
+    "question": "Q: List all the nodes connected to 5 in alphabetical order.\nA: ",
+    "expected_answer": "",
+    "model_answer": "2",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2",
+      "confidence": 1.0,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "0.",
+    "corrupted_answer": "",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        5,
+        0
+      ]
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/168",
+    "question": "Q: List all the nodes connected to 4 in alphabetical order.\nA: ",
+    "expected_answer": "",
+    "model_answer": "2",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2",
+      "confidence": 1.0,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "2.",
+    "corrupted_answer": "",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        4,
+        2
+      ]
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/171",
+    "question": "Q: List all the nodes connected to 7 in alphabetical order.\nA: ",
+    "expected_answer": "",
+    "model_answer": "2",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2",
+      "confidence": 1.0,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "2.",
+    "corrupted_answer": "",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        7,
+        2
+      ]
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/172",
+    "question": "Q: List all the nodes connected to 5 in alphabetical order.\nA: ",
+    "expected_answer": "",
+    "model_answer": "4",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "4",
+      "confidence": 1.0,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "3.",
+    "corrupted_answer": "",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        5,
+        3
+      ]
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/181",
+    "question": "Q: List all the nodes connected to 5 in alphabetical order.\nA: ",
+    "expected_answer": "",
+    "model_answer": "0",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": 1.0,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "0.",
+    "corrupted_answer": "",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        5,
+        0
+      ]
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/183",
+    "question": "Q: List all the nodes connected to 0 in alphabetical order.\nA: ",
+    "expected_answer": "0, 2, 15.",
+    "model_answer": "0, 2, 15",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0, 2, 15",
+      "confidence": 1.0,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "1, 0, 2, 15.",
+    "corrupted_answer": "0, 2, 15.",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        0,
+        1
+      ]
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/187",
+    "question": "Q: List all the nodes connected to 2 in alphabetical order.\nA: ",
+    "expected_answer": "1.",
+    "model_answer": "0",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": 1.0,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "0, 1.",
+    "corrupted_answer": "1.",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        2,
+        0
+      ]
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/189",
+    "question": "Q: List all the nodes connected to 0 in alphabetical order.\nA: ",
+    "expected_answer": "2, 5, 7.",
+    "model_answer": "5, 7",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "5, 7",
+      "confidence": 1.0,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "1, 2, 5, 7.",
+    "corrupted_answer": "2, 5, 7.",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        0,
+        1
+      ]
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/190",
+    "question": "Q: List all the nodes connected to 6 in alphabetical order.\nA: ",
+    "expected_answer": "",
+    "model_answer": "2",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2",
+      "confidence": 1.0,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "2.",
+    "corrupted_answer": "",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        6,
+        2
+      ]
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/191",
+    "question": "Q: List all the nodes connected to 6 in alphabetical order.\nA: ",
+    "expected_answer": "",
+    "model_answer": "0",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": 1.0,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "0.",
+    "corrupted_answer": "",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        6,
+        0
+      ]
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/192",
+    "question": "Q: List all the nodes connected to 5 in alphabetical order.\nA: ",
+    "expected_answer": "",
+    "model_answer": "2",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2",
+      "confidence": 1.0,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "2.",
+    "corrupted_answer": "",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        5,
+        2
+      ]
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/194",
+    "question": "Q: List all the nodes connected to 1 in alphabetical order.\nA: ",
+    "expected_answer": "2.",
+    "model_answer": "0, 2",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0, 2",
+      "confidence": 1.0,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "0, 2.",
+    "corrupted_answer": "2.",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        1,
+        0
+      ]
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/196",
+    "question": "Q: List all the nodes connected to 5 in alphabetical order.\nA: ",
+    "expected_answer": "",
+    "model_answer": "2",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2",
+      "confidence": 1.0,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "2.",
+    "corrupted_answer": "",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        5,
+        2
+      ]
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/200",
+    "question": "Q: List all the nodes connected to 9 in alphabetical order.\nA: ",
+    "expected_answer": "1, 2, 3, 4, 5, 6, 7, 8, 10, 11, 12, 13, 14, 15.",
+    "model_answer": "0, 1, 2, 3, 4, 5, 6, 7, 8, 10, 11, 12, 13, 14, 15",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0, 1, 2, 3, 4, 5, 6, 7, 8, 10, 11, 12, 13, 14, 15",
+      "confidence": 1.0,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "0, 1, 2, 3, 4, 5, 6, 7, 8, 10, 11, 12, 13, 14, 15.",
+    "corrupted_answer": "1, 2, 3, 4, 5, 6, 7, 8, 10, 11, 12, 13, 14, 15.",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        9,
+        0
+      ]
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/201",
+    "question": "Q: List all the nodes connected to 6 in alphabetical order.\nA: ",
+    "expected_answer": "1, 2, 3, 4, 5, 7, 8, 9, 10, 11.",
+    "model_answer": "0, 1, 2, 3, 4, 5, 7, 8, 9, 10, 11",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0, 1, 2, 3, 4, 5, 7, 8, 9, 10, 11",
+      "confidence": 1.0,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "0, 1, 2, 3, 4, 5, 7, 8, 9, 10, 11.",
+    "corrupted_answer": "1, 2, 3, 4, 5, 7, 8, 9, 10, 11.",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        6,
+        0
+      ]
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/202",
+    "question": "Q: List all the nodes connected to 5 in alphabetical order.\nA: ",
+    "expected_answer": "1, 2, 3, 4, 6, 7.",
+    "model_answer": "0, 2, 3, 4, 6, 7",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0, 2, 3, 4, 6, 7",
+      "confidence": 1.0,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "0, 1, 2, 3, 4, 6, 7.",
+    "corrupted_answer": "1, 2, 3, 4, 6, 7.",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        5,
+        0
+      ]
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/203",
+    "question": "Q: List all the nodes connected to 10 in alphabetical order.\nA: ",
+    "expected_answer": "1, 2, 3, 4, 5, 6, 7, 8, 9, 11, 12, 13, 14.",
+    "model_answer": "0, 2, 3, 4, 5, 6, 7, 8, 9, 11, 12, 13, 14",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0, 2, 3, 4, 5, 6, 7, 8, 9, 11, 12, 13, 14",
+      "confidence": 1.0,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 11, 12, 13, 14.",
+    "corrupted_answer": "1, 2, 3, 4, 5, 6, 7, 8, 9, 11, 12, 13, 14.",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        10,
+        0
+      ]
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/204",
+    "question": "Q: List all the nodes connected to 4 in alphabetical order.\nA: ",
+    "expected_answer": "1, 2, 3, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17.",
+    "model_answer": "0, 1, 2, 3, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0, 1, 2, 3, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17",
+      "confidence": 1.0,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "0, 1, 2, 3, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17.",
+    "corrupted_answer": "1, 2, 3, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17.",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        4,
+        0
+      ]
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/205",
+    "question": "Q: List all the nodes connected to 8 in alphabetical order.\nA: ",
+    "expected_answer": "1, 2, 3, 4, 5, 6, 7, 9, 10, 11.",
+    "model_answer": "2, 3, 4, 5, 6, 7, 9, 10, 11",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2, 3, 4, 5, 6, 7, 9, 10, 11",
+      "confidence": 1.0,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "0, 1, 2, 3, 4, 5, 6, 7, 9, 10, 11.",
+    "corrupted_answer": "1, 2, 3, 4, 5, 6, 7, 9, 10, 11.",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        8,
+        0
+      ]
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/206",
+    "question": "Q: List all the nodes connected to 1 in alphabetical order.\nA: ",
+    "expected_answer": "2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14.",
+    "model_answer": "0, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14",
+      "confidence": 1.0,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "0, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14.",
+    "corrupted_answer": "2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14.",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        1,
+        0
+      ]
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/207",
+    "question": "Q: List all the nodes connected to 2 in alphabetical order.\nA: ",
+    "expected_answer": "1, 3, 4, 5.",
+    "model_answer": "0, 3, 4, 5",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0, 3, 4, 5",
+      "confidence": 0.9545454978942871,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "0, 1, 3, 4, 5.",
+    "corrupted_answer": "1, 3, 4, 5.",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        2,
+        0
+      ]
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/208",
+    "question": "Q: List all the nodes connected to 8 in alphabetical order.\nA: ",
+    "expected_answer": "1, 2, 3, 4, 5, 6, 7, 9, 10, 11, 12, 13, 14, 15, 16.",
+    "model_answer": "0, 1, 2, 3, 4, 5, 6, 7, 9, 10, 11, 12, 13, 14, 15, 16",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0, 1, 2, 3, 4, 5, 6, 7, 9, 10, 11, 12, 13, 14, 15, 16",
+      "confidence": 1.0,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "0, 1, 2, 3, 4, 5, 6, 7, 9, 10, 11, 12, 13, 14, 15, 16.",
+    "corrupted_answer": "1, 2, 3, 4, 5, 6, 7, 9, 10, 11, 12, 13, 14, 15, 16.",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        8,
+        0
+      ]
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/209",
+    "question": "Q: List all the nodes connected to 3 in alphabetical order.\nA: ",
+    "expected_answer": "1, 2, 4, 5.",
+    "model_answer": "1, 4, 5",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1, 4, 5",
+      "confidence": 1.0,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "0, 1, 2, 4, 5.",
+    "corrupted_answer": "1, 2, 4, 5.",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        3,
+        0
+      ]
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/210",
+    "question": "Q: List all the nodes connected to 3 in alphabetical order.\nA: ",
+    "expected_answer": "1, 2, 4, 5, 6.",
+    "model_answer": "0, 1, 4, 5, 6",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0, 1, 4, 5, 6",
+      "confidence": 0.9285714626312256,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "0, 1, 2, 4, 5, 6.",
+    "corrupted_answer": "1, 2, 4, 5, 6.",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        3,
+        0
+      ]
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/211",
+    "question": "Q: List all the nodes connected to 8 in alphabetical order.\nA: ",
+    "expected_answer": "1, 2, 3, 4, 5, 6, 7, 9, 10, 11, 12, 13, 14, 15.",
+    "model_answer": "0, 1, 2, 3, 4, 5, 6, 7, 9, 10, 11, 12, 13, 14, 15",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0, 1, 2, 3, 4, 5, 6, 7, 9, 10, 11, 12, 13, 14, 15",
+      "confidence": 1.0,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "0, 1, 2, 3, 4, 5, 6, 7, 9, 10, 11, 12, 13, 14, 15.",
+    "corrupted_answer": "1, 2, 3, 4, 5, 6, 7, 9, 10, 11, 12, 13, 14, 15.",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        8,
+        0
+      ]
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/213",
+    "question": "Q: List all the nodes connected to 1 in alphabetical order.\nA: ",
+    "expected_answer": "2, 3, 4, 5, 6, 7, 8, 9.",
+    "model_answer": "2, 3, 4, 5, 6, 7, 8, 9",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2, 3, 4, 5, 6, 7, 8, 9",
+      "confidence": 1.0,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "0, 2, 3, 4, 5, 6, 7, 8, 9.",
+    "corrupted_answer": "2, 3, 4, 5, 6, 7, 8, 9.",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        1,
+        0
+      ]
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/214",
+    "question": "Q: List all the nodes connected to 11 in alphabetical order.\nA: ",
+    "expected_answer": "1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 12, 13.",
+    "model_answer": "0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 12, 13",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 12, 13",
+      "confidence": 0.9878048300743103,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 12, 13.",
+    "corrupted_answer": "1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 12, 13.",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        11,
+        0
+      ]
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/215",
+    "question": "Q: List all the nodes connected to 6 in alphabetical order.\nA: ",
+    "expected_answer": "1, 2, 3, 4, 5, 7.",
+    "model_answer": "0, 1, 2, 3, 4, 5, 7",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0, 1, 2, 3, 4, 5, 7",
+      "confidence": 1.0,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "0, 1, 2, 3, 4, 5, 7.",
+    "corrupted_answer": "1, 2, 3, 4, 5, 7.",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        6,
+        0
+      ]
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/216",
+    "question": "Q: List all the nodes connected to 2 in alphabetical order.\nA: ",
+    "expected_answer": "1, 3, 4, 5, 6.",
+    "model_answer": "0, 1, 3, 4, 5, 6",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0, 1, 3, 4, 5, 6",
+      "confidence": 1.0,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "0, 1, 3, 4, 5, 6.",
+    "corrupted_answer": "1, 3, 4, 5, 6.",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        2,
+        0
+      ]
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/217",
+    "question": "Q: List all the nodes connected to 3 in alphabetical order.\nA: ",
+    "expected_answer": "1, 2, 4, 5, 6, 7.",
+    "model_answer": "1, 4, 5, 6, 7",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1, 4, 5, 6, 7",
+      "confidence": 1.0,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "0, 1, 2, 4, 5, 6, 7.",
+    "corrupted_answer": "1, 2, 4, 5, 6, 7.",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        3,
+        0
+      ]
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/218",
+    "question": "Q: List all the nodes connected to 2 in alphabetical order.\nA: ",
+    "expected_answer": "1, 3, 4, 5, 6.",
+    "model_answer": "0, 1, 3, 4, 5, 6",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0, 1, 3, 4, 5, 6",
+      "confidence": 1.0,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "0, 1, 3, 4, 5, 6.",
+    "corrupted_answer": "1, 3, 4, 5, 6.",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        2,
+        0
+      ]
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/219",
+    "question": "Q: List all the nodes connected to 11 in alphabetical order.\nA: ",
+    "expected_answer": "1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 12, 13.",
+    "model_answer": "0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 12, 13",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 12, 13",
+      "confidence": 0.9878048300743103,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 12, 13.",
+    "corrupted_answer": "1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 12, 13.",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        11,
+        0
+      ]
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/222",
+    "question": "Q: List all the nodes connected to 5 in alphabetical order.\nA: ",
+    "expected_answer": "1, 2, 3, 4, 6, 7, 8, 9.",
+    "model_answer": "0, 2, 3, 4, 6, 7, 8, 9",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0, 2, 3, 4, 6, 7, 8, 9",
+      "confidence": 1.0,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "0, 1, 2, 3, 4, 6, 7, 8, 9.",
+    "corrupted_answer": "1, 2, 3, 4, 6, 7, 8, 9.",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        5,
+        0
+      ]
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/223",
+    "question": "Q: List all the nodes connected to 7 in alphabetical order.\nA: ",
+    "expected_answer": "1, 2, 3, 4, 5, 6, 8, 9, 10, 11, 12.",
+    "model_answer": "0, 1, 2, 3, 4, 5, 6, 8, 9, 10, 11, 12",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0, 1, 2, 3, 4, 5, 6, 8, 9, 10, 11, 12",
+      "confidence": 1.0,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "0, 1, 2, 3, 4, 5, 6, 8, 9, 10, 11, 12.",
+    "corrupted_answer": "1, 2, 3, 4, 5, 6, 8, 9, 10, 11, 12.",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        7,
+        0
+      ]
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/224",
+    "question": "Q: List all the nodes connected to 3 in alphabetical order.\nA: ",
+    "expected_answer": "1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13.",
+    "model_answer": "1, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13",
+      "confidence": 1.0,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "0, 1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13.",
+    "corrupted_answer": "1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13.",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        3,
+        0
+      ]
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/225",
+    "question": "Q: List all the nodes connected to 3 in alphabetical order.\nA: ",
+    "expected_answer": "1, 2, 4, 5.",
+    "model_answer": "1, 4, 5",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1, 4, 5",
+      "confidence": 1.0,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "0, 1, 2, 4, 5.",
+    "corrupted_answer": "1, 2, 4, 5.",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        3,
+        0
+      ]
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/226",
+    "question": "Q: List all the nodes connected to 2 in alphabetical order.\nA: ",
+    "expected_answer": "1, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12.",
+    "model_answer": "0, 1, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0, 1, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12",
+      "confidence": 1.0,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "0, 1, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12.",
+    "corrupted_answer": "1, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12.",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        2,
+        0
+      ]
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/227",
+    "question": "Q: List all the nodes connected to 6 in alphabetical order.\nA: ",
+    "expected_answer": "1, 2, 3, 4, 5, 7, 8.",
+    "model_answer": "0, 1, 2, 3, 4, 5, 7, 8",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0, 1, 2, 3, 4, 5, 7, 8",
+      "confidence": 1.0,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "0, 1, 2, 3, 4, 5, 7, 8.",
+    "corrupted_answer": "1, 2, 3, 4, 5, 7, 8.",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        6,
+        0
+      ]
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/228",
+    "question": "Q: List all the nodes connected to 4 in alphabetical order.\nA: ",
+    "expected_answer": "1, 2, 3, 5, 6, 7, 8, 9, 10, 11, 12.",
+    "model_answer": "[1, 2, 3, 5, 6, 7, 8, 9, 10, 11, 12]",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "[1, 2, 3, 5, 6, 7, 8, 9, 10, 11, 12]",
+      "confidence": 0.9864864945411682,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "0, 1, 2, 3, 5, 6, 7, 8, 9, 10, 11, 12.",
+    "corrupted_answer": "1, 2, 3, 5, 6, 7, 8, 9, 10, 11, 12.",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        4,
+        0
+      ]
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/230",
+    "question": "Q: List all the nodes connected to 1 in alphabetical order.\nA: ",
+    "expected_answer": "2, 3, 4, 5, 6, 7, 8, 9, 10, 11.",
+    "model_answer": "1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11",
+      "confidence": 1.0,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "0, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11.",
+    "corrupted_answer": "2, 3, 4, 5, 6, 7, 8, 9, 10, 11.",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        1,
+        0
+      ]
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/231",
+    "question": "Q: List all the nodes connected to 7 in alphabetical order.\nA: ",
+    "expected_answer": "1, 2, 3, 4, 5, 6, 8, 9.",
+    "model_answer": "1, 2, 3, 4, 5, 6, 8, 9",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1, 2, 3, 4, 5, 6, 8, 9",
+      "confidence": 0.97826087474823,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "0, 1, 2, 3, 4, 5, 6, 8, 9.",
+    "corrupted_answer": "1, 2, 3, 4, 5, 6, 8, 9.",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        7,
+        0
+      ]
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/232",
+    "question": "Q: List all the nodes connected to 3 in alphabetical order.\nA: ",
+    "expected_answer": "1, 2, 4, 5.",
+    "model_answer": "1, 4, 5",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1, 4, 5",
+      "confidence": 1.0,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "0, 1, 2, 4, 5.",
+    "corrupted_answer": "1, 2, 4, 5.",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        3,
+        0
+      ]
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/233",
+    "question": "Q: List all the nodes connected to 9 in alphabetical order.\nA: ",
+    "expected_answer": "1, 2, 3, 4, 5, 6, 7, 8, 10, 11, 12, 13, 14, 15, 16, 17.",
+    "model_answer": "0, 1, 2, 3, 4, 5, 6, 7, 8, 10, 11, 12, 13, 14, 15, 16, 17",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0, 1, 2, 3, 4, 5, 6, 7, 8, 10, 11, 12, 13, 14, 15, 16, 17",
+      "confidence": 1.0,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "0, 1, 2, 3, 4, 5, 6, 7, 8, 10, 11, 12, 13, 14, 15, 16, 17.",
+    "corrupted_answer": "1, 2, 3, 4, 5, 6, 7, 8, 10, 11, 12, 13, 14, 15, 16, 17.",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        9,
+        0
+      ]
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/235",
+    "question": "Q: List all the nodes connected to 7 in alphabetical order.\nA: ",
+    "expected_answer": "1, 2, 3, 4, 5, 6, 8, 9.",
+    "model_answer": "0, 1, 2, 3, 4, 5, 6, 8, 9",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0, 1, 2, 3, 4, 5, 6, 8, 9",
+      "confidence": 0.9807692766189575,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "0, 1, 2, 3, 4, 5, 6, 8, 9.",
+    "corrupted_answer": "1, 2, 3, 4, 5, 6, 8, 9.",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        7,
+        0
+      ]
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/236",
+    "question": "Q: List all the nodes connected to 2 in alphabetical order.\nA: ",
+    "expected_answer": "1, 3, 4, 5, 6, 7, 8.",
+    "model_answer": "2",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2",
+      "confidence": 0.75,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "0, 1, 3, 4, 5, 6, 7, 8.",
+    "corrupted_answer": "1, 3, 4, 5, 6, 7, 8.",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        2,
+        0
+      ]
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/237",
+    "question": "Q: List all the nodes connected to 6 in alphabetical order.\nA: ",
+    "expected_answer": "1, 2, 3, 4, 5, 7, 8, 9.",
+    "model_answer": "0, 1, 2, 3, 4, 5, 7, 8, 9",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0, 1, 2, 3, 4, 5, 7, 8, 9",
+      "confidence": 1.0,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "0, 1, 2, 3, 4, 5, 7, 8, 9.",
+    "corrupted_answer": "1, 2, 3, 4, 5, 7, 8, 9.",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        6,
+        0
+      ]
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/238",
+    "question": "Q: List all the nodes connected to 7 in alphabetical order.\nA: ",
+    "expected_answer": "1, 2, 3, 4, 5, 6.",
+    "model_answer": "0, 1, 2, 3, 4, 5, 6",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0, 1, 2, 3, 4, 5, 6",
+      "confidence": 1.0,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "0, 1, 2, 3, 4, 5, 6.",
+    "corrupted_answer": "1, 2, 3, 4, 5, 6.",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        7,
+        0
+      ]
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/239",
+    "question": "Q: List all the nodes connected to 2 in alphabetical order.\nA: ",
+    "expected_answer": "1, 3, 4, 5, 6, 7.",
+    "model_answer": "0, 1, 3, 4, 5, 6, 7",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0, 1, 3, 4, 5, 6, 7",
+      "confidence": 1.0,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "0, 1, 3, 4, 5, 6, 7.",
+    "corrupted_answer": "1, 3, 4, 5, 6, 7.",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        2,
+        0
+      ]
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/240",
+    "question": "Q: List all the nodes connected to 4 in alphabetical order.\nA: ",
+    "expected_answer": "1, 2, 3, 5, 6, 7, 8, 9, 10, 11.",
+    "model_answer": "[2, 3, 5, 6, 7, 8, 9, 10, 11]",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "[2, 3, 5, 6, 7, 8, 9, 10, 11]",
+      "confidence": 1.0,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "0, 1, 2, 3, 5, 6, 7, 8, 9, 10, 11.",
+    "corrupted_answer": "1, 2, 3, 5, 6, 7, 8, 9, 10, 11.",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        4,
+        0
+      ]
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/242",
+    "question": "Q: List all the nodes connected to 2 in alphabetical order.\nA: ",
+    "expected_answer": "1, 3, 4, 5, 6.",
+    "model_answer": "0, 1, 3, 4, 5, 6",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0, 1, 3, 4, 5, 6",
+      "confidence": 1.0,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "0, 1, 3, 4, 5, 6.",
+    "corrupted_answer": "1, 3, 4, 5, 6.",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        2,
+        0
+      ]
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/244",
+    "question": "Q: List all the nodes connected to 2 in alphabetical order.\nA: ",
+    "expected_answer": "1, 3, 4, 5.",
+    "model_answer": "0, 1, 3, 4, 5",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0, 1, 3, 4, 5",
+      "confidence": 0.9642857313156128,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "0, 1, 3, 4, 5.",
+    "corrupted_answer": "1, 3, 4, 5.",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        2,
+        0
+      ]
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/245",
+    "question": "Q: List all the nodes connected to 3 in alphabetical order.\nA: ",
+    "expected_answer": "1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13.",
+    "model_answer": "1, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13",
+      "confidence": 1.0,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "0, 1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13.",
+    "corrupted_answer": "1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13.",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        3,
+        0
+      ]
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/246",
+    "question": "Q: List all the nodes connected to 1 in alphabetical order.\nA: ",
+    "expected_answer": "2, 3, 4, 5, 6.",
+    "model_answer": "0, 2, 3, 4, 5, 6",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0, 2, 3, 4, 5, 6",
+      "confidence": 1.0,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "0, 2, 3, 4, 5, 6.",
+    "corrupted_answer": "2, 3, 4, 5, 6.",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        1,
+        0
+      ]
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/257",
+    "question": "Q: List all the nodes connected to 1 in alphabetical order.\nA: ",
+    "expected_answer": "",
+    "model_answer": "3",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3",
+      "confidence": 1.0,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "0.",
+    "corrupted_answer": "",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        1,
+        0
+      ]
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/275",
+    "question": "Q: List all the nodes connected to 1 in alphabetical order.\nA: ",
+    "expected_answer": "",
+    "model_answer": "3",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3",
+      "confidence": 1.0,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "0.",
+    "corrupted_answer": "",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        1,
+        0
+      ]
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/300",
+    "question": "Q: List all the nodes connected to 10 in alphabetical order.\nA: ",
+    "expected_answer": "11.",
+    "model_answer": "11, 9",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "11, 9",
+      "confidence": 1.0,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "9, 11.",
+    "corrupted_answer": "11.",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        10,
+        9
+      ]
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/307",
+    "question": "Q: List all the nodes connected to 2 in alphabetical order.\nA: ",
+    "expected_answer": "3.",
+    "model_answer": "1, 3",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1, 3",
+      "confidence": 1.0,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "1, 3.",
+    "corrupted_answer": "3.",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        2,
+        1
+      ]
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/308",
+    "question": "Q: List all the nodes connected to 8 in alphabetical order.\nA: ",
+    "expected_answer": "9.",
+    "model_answer": "9",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "9",
+      "confidence": 0.75,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "7, 9.",
+    "corrupted_answer": "9.",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        8,
+        7
+      ]
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/309",
+    "question": "Q: List all the nodes connected to 5 in alphabetical order.\nA: ",
+    "expected_answer": "",
+    "model_answer": "3",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3",
+      "confidence": 1.0,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "4.",
+    "corrupted_answer": "",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        5,
+        4
+      ]
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/310",
+    "question": "Q: List all the nodes connected to 3 in alphabetical order.\nA: ",
+    "expected_answer": "4.",
+    "model_answer": "2",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2",
+      "confidence": 1.0,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "2, 4.",
+    "corrupted_answer": "4.",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        3,
+        2
+      ]
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/311",
+    "question": "Q: List all the nodes connected to 7 in alphabetical order.\nA: ",
+    "expected_answer": "8.",
+    "model_answer": "8",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "8",
+      "confidence": 1.0,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "6, 8.",
+    "corrupted_answer": "8.",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        7,
+        6
+      ]
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/315",
+    "question": "Q: List all the nodes connected to 0 in alphabetical order.\nA: ",
+    "expected_answer": "",
+    "model_answer": "1",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": 1.0,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "1.",
+    "corrupted_answer": "",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        0,
+        1
+      ]
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/316",
+    "question": "Q: List all the nodes connected to 5 in alphabetical order.\nA: ",
+    "expected_answer": "6.",
+    "model_answer": "6",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "6",
+      "confidence": 1.0,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "4, 6.",
+    "corrupted_answer": "6.",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        5,
+        4
+      ]
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/318",
+    "question": "Q: List all the nodes connected to 6 in alphabetical order.\nA: ",
+    "expected_answer": "",
+    "model_answer": "5",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "5",
+      "confidence": 1.0,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "5.",
+    "corrupted_answer": "",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        6,
+        5
+      ]
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/319",
+    "question": "Q: List all the nodes connected to 9 in alphabetical order.\nA: ",
+    "expected_answer": "10.",
+    "model_answer": "10",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "10",
+      "confidence": 1.0,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "8, 10.",
+    "corrupted_answer": "10.",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        9,
+        8
+      ]
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/320",
+    "question": "Q: List all the nodes connected to 7 in alphabetical order.\nA: ",
+    "expected_answer": "8.",
+    "model_answer": "8",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "8",
+      "confidence": 1.0,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "6, 8.",
+    "corrupted_answer": "8.",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        7,
+        6
+      ]
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/321",
+    "question": "Q: List all the nodes connected to 2 in alphabetical order.\nA: ",
+    "expected_answer": "3.",
+    "model_answer": "1, 3",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1, 3",
+      "confidence": 1.0,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "1, 3.",
+    "corrupted_answer": "3.",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        2,
+        1
+      ]
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/322",
+    "question": "Q: List all the nodes connected to 7 in alphabetical order.\nA: ",
+    "expected_answer": "8.",
+    "model_answer": "8",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "8",
+      "confidence": 1.0,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "6, 8.",
+    "corrupted_answer": "8.",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        7,
+        6
+      ]
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/323",
+    "question": "Q: List all the nodes connected to 7 in alphabetical order.\nA: ",
+    "expected_answer": "8.",
+    "model_answer": "8, 9",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "8, 9",
+      "confidence": 1.0,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "6, 8.",
+    "corrupted_answer": "8.",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        7,
+        6
+      ]
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/324",
+    "question": "Q: List all the nodes connected to 10 in alphabetical order.\nA: ",
+    "expected_answer": "11.",
+    "model_answer": "11",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "11",
+      "confidence": 0.8333333730697632,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "9, 11.",
+    "corrupted_answer": "11.",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        10,
+        9
+      ]
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/325",
+    "question": "Q: List all the nodes connected to 5 in alphabetical order.\nA: ",
+    "expected_answer": "",
+    "model_answer": "3",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3",
+      "confidence": 1.0,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "4.",
+    "corrupted_answer": "",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        5,
+        4
+      ]
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/326",
+    "question": "Q: List all the nodes connected to 2 in alphabetical order.\nA: ",
+    "expected_answer": "3.",
+    "model_answer": "1, 3",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1, 3",
+      "confidence": 1.0,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "1, 3.",
+    "corrupted_answer": "3.",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        2,
+        1
+      ]
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/331",
+    "question": "Q: List all the nodes connected to 2 in alphabetical order.\nA: ",
+    "expected_answer": "3.",
+    "model_answer": "1, 3",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1, 3",
+      "confidence": 1.0,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "1, 3.",
+    "corrupted_answer": "3.",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        2,
+        1
+      ]
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/332",
+    "question": "Q: List all the nodes connected to 4 in alphabetical order.\nA: ",
+    "expected_answer": "5.",
+    "model_answer": "5",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "5",
+      "confidence": 1.0,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "3, 5.",
+    "corrupted_answer": "5.",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        4,
+        3
+      ]
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/333",
+    "question": "Q: List all the nodes connected to 7 in alphabetical order.\nA: ",
+    "expected_answer": "8.",
+    "model_answer": "8",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "8",
+      "confidence": 1.0,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "6, 8.",
+    "corrupted_answer": "8.",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        7,
+        6
+      ]
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/335",
+    "question": "Q: List all the nodes connected to 2 in alphabetical order.\nA: ",
+    "expected_answer": "3.",
+    "model_answer": "1, 3",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1, 3",
+      "confidence": 1.0,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "1, 3.",
+    "corrupted_answer": "3.",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        2,
+        1
+      ]
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/340",
+    "question": "Q: List all the nodes connected to 2 in alphabetical order.\nA: ",
+    "expected_answer": "3.",
+    "model_answer": "1, 3",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1, 3",
+      "confidence": 1.0,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "1, 3.",
+    "corrupted_answer": "3.",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        2,
+        1
+      ]
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/345",
+    "question": "Q: List all the nodes connected to 9 in alphabetical order.\nA: ",
+    "expected_answer": "10.",
+    "model_answer": "10",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "10",
+      "confidence": 1.0,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "8, 10.",
+    "corrupted_answer": "10.",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        9,
+        8
+      ]
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/346",
+    "question": "Q: List all the nodes connected to 6 in alphabetical order.\nA: ",
+    "expected_answer": "",
+    "model_answer": "5",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "5",
+      "confidence": 1.0,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "5.",
+    "corrupted_answer": "",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        6,
+        5
+      ]
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/349",
+    "question": "Q: List all the nodes connected to 11 in alphabetical order.\nA: ",
+    "expected_answer": "12.",
+    "model_answer": "12",
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "12",
+      "confidence": 1.0,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "10, 12.",
+    "corrupted_answer": "12.",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        11,
+        10
+      ]
+    }
+  }
+]
