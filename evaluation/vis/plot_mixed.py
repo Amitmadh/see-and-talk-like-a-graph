@@ -6,8 +6,9 @@ Each task gets two figures:
     evaluation/vis/algorithm/<task>.png
     evaluation/vis/edges/<task>.png
 
-The top panel is a 100% stacked modality mix (image / text / neither).
-The bottom panel is accuracy, with sample size shown as a ghost bar.
+Plus one comparison across tasks:
+
+    evaluation/vis/by_task.png
 """
 
 from pathlib import Path
@@ -20,12 +21,12 @@ import matplotlib.pyplot as plt
 from matplotlib.patches import Patch
 from matplotlib.ticker import PercentFormatter
 
+from evaluation.evaluation import TASK_TYPES
+
 
 IMAGE_COLOR = "#E76F51"
 TEXT_COLOR = "#2A9D8F"
 NEITHER_COLOR = "#9AA5B1"
-ACCURACY_COLOR = "#1D3557"
-SAMPLE_COLOR = "#D8DEE6"
 BACKGROUND = "#F7F4EF"
 PANEL = "#FFFcf7"
 GRID = "#E6E0D6"
@@ -54,17 +55,56 @@ def _pretty_group(name, axis):
     if axis == "algorithm":
         return ALGORITHM_LABELS.get(name, str(name).upper())
 
+    if axis == "task":
+        return _pretty_task(name)
+
     return str(name)
 
 
-def _task_accuracy(entries, n_key, correct_key="correct"):
-    n = sum(entry.get(n_key, 0) or 0 for entry in entries)
-    correct = sum(entry.get(correct_key, 0) or 0 for entry in entries)
+def _ordered_tasks(tasks):
+    known = [
+        task
+        for task in TASK_TYPES
+        if task in tasks
+    ]
 
-    if not n:
-        return 0.0
+    extra = sorted(
+        task
+        for task in tasks
+        if task not in TASK_TYPES
+    )
 
-    return correct / n
+    return known + extra
+
+
+def _task_entries(algorithm_distribution):
+    by_task = algorithm_distribution.get("by_task", {})
+    entries = []
+
+    for task in _ordered_tasks(by_task):
+        image = 0
+        text = 0
+        neither = 0
+
+        for algo in by_task[task].get("algorithms", []):
+            image += algo.get("image", 0)
+            text += algo.get("text", 0)
+            neither += algo.get("neither", 0)
+
+        total = image + text + neither
+
+        entries.append({
+            "task": task,
+            "total": total,
+            "image": image,
+            "text": text,
+            "neither": neither,
+            "image_pct": round(100.0 * image / total, 2) if total else 0.0,
+            "text_pct": round(100.0 * text / total, 2) if total else 0.0,
+            "neither_pct": round(100.0 * neither / total, 2) if total else 0.0,
+        })
+
+    return entries
 
 
 def _style_axes(ax):
@@ -104,7 +144,6 @@ def _draw_task_figure(
     entries,
     group_key,
     axis,
-    xlabel,
     output_path,
     rotate_xticks=False,
 ):
@@ -117,7 +156,7 @@ def _draw_task_figure(
     ]
 
     n_values = [
-        int(entry.get("n_evaluated", entry.get("total", 0)) or 0)
+        int(entry.get("total", 0) or 0)
         for entry in entries
     ]
 
@@ -127,56 +166,32 @@ def _draw_task_figure(
         float(entry.get("neither_pct", 0) or 0)
         for entry in entries
     ]
-    accuracies = [
-        100.0 * float(entry.get("accuracy", 0) or 0)
-        for entry in entries
-    ]
 
     n_groups = len(entries)
-    width = max(11.0, 0.55 * n_groups + 5.5)
-    fig, (ax_mix, ax_acc) = plt.subplots(
-        2,
-        1,
-        figsize=(width, 8.6),
-        sharex=True,
-        gridspec_kw={"height_ratios": [1.35, 1.0], "hspace": 0.08},
-    )
+    width = max(10.0, 0.55 * n_groups + 4.5)
+    fig, ax = plt.subplots(figsize=(width, 5.4))
 
     fig.patch.set_facecolor(BACKGROUND)
-    fig.suptitle(
-        f"{_pretty_task(task)}",
-        fontsize=20,
-        fontweight="bold",
-        color=INK,
-        x=0.02,
-        ha="left",
-        y=0.98,
-    )
 
-    axis_title = (
-        "Which modality does the model follow?"
-        if axis == "algorithm"
-        else "Does graph size change the modality mix?"
-    )
-
-    fig.text(
-        0.02,
-        0.935,
-        f"{axis_title}   ·   {xlabel.lower()}",
-        fontsize=11,
-        color=MUTED,
-        ha="left",
-    )
+    if task:
+        fig.suptitle(
+            f"{_pretty_task(task)}",
+            fontsize=18,
+            fontweight="bold",
+            color=INK,
+            x=0.02,
+            ha="left",
+            y=0.98,
+        )
 
     show_stack_labels = n_groups <= 14
     show_n_labels = n_groups <= 18
-    show_acc_labels = n_groups <= 16
 
     x = list(range(n_groups))
     bar_width = 0.72 if n_groups <= 12 else 0.82
 
-    _style_axes(ax_mix)
-    ax_mix.bar(
+    _style_axes(ax)
+    ax.bar(
         x,
         image_pcts,
         width=bar_width,
@@ -185,7 +200,7 @@ def _draw_task_figure(
         linewidth=0.6,
         label="Image",
     )
-    ax_mix.bar(
+    ax.bar(
         x,
         text_pcts,
         width=bar_width,
@@ -195,7 +210,7 @@ def _draw_task_figure(
         linewidth=0.6,
         label="Text",
     )
-    ax_mix.bar(
+    ax.bar(
         x,
         neither_pcts,
         width=bar_width,
@@ -210,10 +225,10 @@ def _draw_task_figure(
         zip(image_pcts, text_pcts, neither_pcts, n_values)
     ):
         if show_stack_labels:
-            _annotate_stack(ax_mix, i, image_pct, text_pct, neither_pct)
+            _annotate_stack(ax, i, image_pct, text_pct, neither_pct)
 
         if show_n_labels:
-            ax_mix.text(
+            ax.text(
                 i,
                 103.5,
                 f"n={n}",
@@ -223,108 +238,28 @@ def _draw_task_figure(
                 color=MUTED,
             )
 
-    ax_mix.set_ylim(0, 118)
-    ax_mix.set_ylabel("Modality mix", color=MUTED, fontsize=10)
-    ax_mix.yaxis.set_major_formatter(PercentFormatter(100))
-    ax_mix.set_yticks([0, 25, 50, 75, 100])
-    ax_mix.legend(
+    ax.set_ylim(0, 118)
+    ax.yaxis.set_major_formatter(PercentFormatter(100))
+    ax.set_yticks([0, 25, 50, 75, 100])
+    ax.set_xticks(x)
+    ax.set_xticklabels(labels)
+
+    if rotate_xticks:
+        for label in ax.get_xticklabels():
+            label.set_rotation(45)
+            label.set_ha("right")
+
+    ax.legend(
         loc="upper right",
         frameon=False,
         ncol=3,
-        bbox_to_anchor=(1.0, 1.18),
+        bbox_to_anchor=(1.0, 1.16),
         fontsize=10,
         handles=[
             Patch(facecolor=IMAGE_COLOR, label="Image"),
             Patch(facecolor=TEXT_COLOR, label="Text"),
             Patch(facecolor=NEITHER_COLOR, label="Neither"),
         ],
-    )
-
-    _style_axes(ax_acc)
-
-    max_n = max(n_values) if n_values else 1
-    sample_heights = [
-        (n / max_n) * 100 if max_n else 0
-        for n in n_values
-    ]
-
-    ax_acc.bar(
-        x,
-        sample_heights,
-        width=bar_width,
-        color=SAMPLE_COLOR,
-        edgecolor=PANEL,
-        linewidth=0.6,
-        zorder=1,
-        label="Sample size",
-    )
-    ax_acc.bar(
-        x,
-        accuracies,
-        width=bar_width * 0.55,
-        color=ACCURACY_COLOR,
-        edgecolor=PANEL,
-        linewidth=0.4,
-        zorder=2,
-        label="Accuracy",
-    )
-
-    overall = 100.0 * _task_accuracy(
-        entries,
-        "n_evaluated" if "n_evaluated" in entries[0] else "total",
-    )
-
-    ax_acc.axhline(
-        overall,
-        color=IMAGE_COLOR,
-        linestyle=(0, (4, 3)),
-        linewidth=1.4,
-        zorder=3,
-        label=f"Task mean  {overall:.0f}%",
-    )
-
-    for i, acc in enumerate(accuracies):
-        if not show_acc_labels:
-            break
-
-        ax_acc.text(
-            i,
-            acc + 2.4,
-            f"{acc:.0f}%",
-            ha="center",
-            va="bottom",
-            fontsize=8.5,
-            fontweight="bold",
-            color=ACCURACY_COLOR,
-        )
-
-    ax_acc.set_ylim(0, 118)
-    ax_acc.set_ylabel("Accuracy", color=MUTED, fontsize=10)
-    ax_acc.yaxis.set_major_formatter(PercentFormatter(100))
-    ax_acc.set_yticks([0, 25, 50, 75, 100])
-    ax_acc.set_xticks(x)
-    ax_acc.set_xticklabels(labels)
-    ax_acc.set_xlabel(xlabel, color=MUTED, fontsize=10, labelpad=8)
-
-    if rotate_xticks:
-        for label in ax_acc.get_xticklabels():
-            label.set_rotation(45)
-            label.set_ha("right")
-
-    ax_acc.legend(
-        loc="upper right",
-        frameon=False,
-        ncol=3,
-        fontsize=9,
-    )
-
-    fig.text(
-        0.02,
-        0.015,
-        "Top: share of image / text / neither answers.  "
-        "Bottom: accuracy on the corrupted-text target; gray bars scale with n.",
-        fontsize=8.5,
-        color=MUTED,
     )
 
     output_path = Path(output_path)
@@ -335,7 +270,7 @@ def _draw_task_figure(
         dpi=170,
         bbox_inches="tight",
         facecolor=BACKGROUND,
-        pad_inches=0.28,
+        pad_inches=0.22,
     )
     plt.close(fig)
 
@@ -372,7 +307,6 @@ def write_mixed_visualizations(
             entries=entries,
             group_key="algorithm",
             axis="algorithm",
-            xlabel="Graph generator algorithm",
             output_path=algorithm_dir / f"{task}.png",
             rotate_xticks=False,
         )
@@ -386,7 +320,6 @@ def write_mixed_visualizations(
             entries=entries,
             group_key="edge_range",
             axis="edges",
-            xlabel="Number of edges",
             output_path=edges_dir / f"{task}.png",
             rotate_xticks=True,
         )
@@ -400,8 +333,22 @@ def write_mixed_visualizations(
             entries=edge_overall,
             group_key="edge_range",
             axis="edges",
-            xlabel="Number of edges",
             output_path=edges_dir / "ALL.png",
+            rotate_xticks=True,
+        )
+
+        if path is not None:
+            written.append(path)
+
+    task_entries = _task_entries(algorithm_distribution)
+
+    if task_entries:
+        path = _draw_task_figure(
+            task="",
+            entries=task_entries,
+            group_key="task",
+            axis="task",
+            output_path=output_dir / "by_task.png",
             rotate_xticks=True,
         )
 

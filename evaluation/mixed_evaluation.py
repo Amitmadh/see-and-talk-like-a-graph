@@ -104,14 +104,13 @@ def get_edge_count(sample):
     return len(edges)
 
 
-def get_edge_bin(n_edges, bin_size=4):
+def get_edge_bin(n_edges, bin_size=10):
     """
-    Assign an edge count to intervals:
+    Assign an edge count to intervals of `bin_size`:
 
-        0-4
-        5-8
-        9-12
-        13-16
+        0-10
+        11-20
+        21-30
         ...
 
     Intervals are inclusive.
@@ -121,7 +120,7 @@ def get_edge_bin(n_edges, bin_size=4):
         return None
 
     if n_edges <= bin_size:
-        return "0-4"
+        return f"0-{bin_size}"
 
     lower = (
         ((n_edges - 1) // bin_size) * bin_size
@@ -1010,13 +1009,12 @@ def print_edge_distributions(
         print(
             f"{'Edges':<12}"
             f"{'N':>8}"
-            f"{'Acc':>8}"
             f"{'Image':>20}"
             f"{'Text':>20}"
             f"{'Neither':>20}"
         )
 
-        print("-" * 88)
+        print("-" * 80)
 
         for entry in (
             edge_distribution_by_task[
@@ -1027,7 +1025,6 @@ def print_edge_distributions(
             print(
                 f"{entry['edge_range']:<12}"
                 f"{entry['total']:>8}"
-                f"{entry['accuracy']:>8.3f}"
                 f"{entry['image']:>7}"
                 f" ({entry['image_pct']:>5.1f}%)"
                 f"{entry['text']:>7}"
@@ -1041,22 +1038,21 @@ def print_edge_distributions(
 
 def print_algorithm_distributions(algorithm_distribution):
     """
-    Print accuracy and modality preference for each task,
-    stratified by graph generator algorithm.
+    Print modality preference for each task, stratified by
+    graph generator algorithm.
     """
 
     print()
-    print("=" * 110)
+    print("=" * 95)
     print(
-        "PERFORMANCE BY GRAPH GENERATOR ALGORITHM"
+        "MODALITY PREFERENCE BY GRAPH GENERATOR ALGORITHM"
     )
-    print("=" * 110)
+    print("=" * 95)
 
     print()
 
     print(
-        "Accuracy is over all evaluated samples. "
-        "Modality percentages are among valid "
+        "Percentages below are among valid "
         "image/text/neither comparisons."
     )
 
@@ -1095,20 +1091,18 @@ def print_algorithm_distributions(algorithm_distribution):
         print(
             f"{'Algorithm':<14}"
             f"{'N':>8}"
-            f"{'Acc':>8}"
             f"{'Image':>20}"
             f"{'Text':>20}"
             f"{'Neither':>20}"
         )
 
-        print("-" * 90)
+        print("-" * 82)
 
         for entry in payload["algorithms"]:
 
             print(
                 f"{entry['algorithm']:<14}"
                 f"{entry['total']:>8}"
-                f"{entry['accuracy']:>8.3f}"
                 f"{entry['image']:>7}"
                 f" ({entry['image_pct']:>5.1f}%)"
                 f"{entry['text']:>7}"
