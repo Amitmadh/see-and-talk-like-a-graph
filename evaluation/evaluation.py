@@ -16,6 +16,9 @@ TASK_TYPES = {
     "node_count": "number",
     "node_degree": "number",
     "shortest_path": "number",
+    "disconnected_components": "list",
+    "edge_count": "number",
+    "triangle_counting": "number",
 }
 
 

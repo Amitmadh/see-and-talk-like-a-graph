@@ -136,6 +136,13 @@ def corrupt_by_task(graph, task, expected_answer, sample):
             expected_answer,
         )
 
+    if task == "disconnected_nodes":
+        return corrupt_disconnected_nodes(
+            graph,
+            sample,
+            expected_answer,
+        )
+
     if task == "node_count":
         return corrupt_node_count(
             graph,
@@ -154,6 +161,13 @@ def corrupt_by_task(graph, task, expected_answer, sample):
             graph,
             sample,
             expected_answer
+        )
+
+    if task == "triangle_counting":
+        return corrupt_triangle_counting(
+            graph,
+            sample,
+            expected_answer,
         )
 
     raise ValueError(f"No corruption implemented for task: {task}")
@@ -472,6 +486,27 @@ def corrupt_connectivity(graph, sample, expected_answer):
         },
     )
 
+
+def _disconnected_answer(graph, source):
+    disconnected = sorted(
+        n for n in graph.nodes()
+        if n != source and not graph.has_edge(source, n)
+    )
+    if not disconnected:
+        return "No nodes."
+    return ", ".join(str(n) for n in disconnected) + "."
+
+
+def corrupt_disconnected_nodes(graph, sample, expected_answer):
+    graph, _, edit = corrupt_connectivity(
+        graph,
+        sample,
+        expected_answer,
+    )
+    source = query_nodes(sample)[0]
+    return graph, _disconnected_answer(graph, source), edit
+
+
 # ---------------------------------------------------------------------
 # node_count
 # ---------------------------------------------------------------------
@@ -496,29 +531,9 @@ def corrupt_node_count(graph, sample, expected_answer):
 # ---------------------------------------------------------------------
 
 def corrupt_edge_count(graph, sample, expected_answer):
-    nodes = list(graph.nodes())
-
-    # If graph is not complete, add exactly one edge.
-    for i, u in enumerate(nodes):
-        for v in nodes[i + 1:]:
-            if not graph.has_edge(u, v):
-                add_edge(graph, u, v)
-
-                return (
-                    graph,
-                    graph.number_of_edges(),
-                    {
-                        "type": "add_edge",
-                        "edge": [u, v],
-                    },
-                )
-
-    # Complete graph: remove exactly one edge.
     if graph.number_of_edges() > 0:
         u, v = next(iter(graph.edges()))
-
         remove_edge(graph, u, v)
-
         return (
             graph,
             graph.number_of_edges(),
@@ -528,13 +543,23 @@ def corrupt_edge_count(graph, sample, expected_answer):
             },
         )
 
-    # N=1.
+    nodes = list(graph.nodes())
+    for i, u in enumerate(nodes):
+        for v in nodes[i + 1:]:
+            add_edge(graph, u, v)
+            return (
+                graph,
+                graph.number_of_edges(),
+                {
+                    "type": "add_edge",
+                    "edge": [u, v],
+                },
+            )
+
     node = nodes[0]
     new_node = max(nodes) + 1
-
     graph.add_node(new_node)
     add_edge(graph, node, new_node)
-
     return (
         graph,
         1,
@@ -580,6 +605,83 @@ def corrupt_edge_existence(graph, sample, expected_answer):
                 "edge": [u, v],
             },
         )
+
+
+def _ntriangles(graph):
+    return int(sum(nx.triangles(graph).values()) / 3)
+
+
+def corrupt_triangle_counting(graph, sample, expected_answer):
+    if _ntriangles(graph) > 0:
+        for u in graph.nodes():
+            nbrs = list(graph.neighbors(u))
+            for i, v in enumerate(nbrs):
+                for w in nbrs[i + 1:]:
+                    if graph.has_edge(v, w):
+                        remove_edge(graph, v, w)
+                        return (
+                            graph,
+                            _ntriangles(graph),
+                            {
+                                "type": "remove_edge",
+                                "edge": [v, w],
+                            },
+                        )
+
+    nodes = list(graph.nodes())
+    for u in nodes:
+        nbrs = list(graph.neighbors(u))
+        for i, v in enumerate(nbrs):
+            for w in nbrs[i + 1:]:
+                if not graph.has_edge(v, w):
+                    add_edge(graph, v, w)
+                    return (
+                        graph,
+                        _ntriangles(graph),
+                        {
+                            "type": "add_edge",
+                            "edge": [v, w],
+                        },
+                    )
+
+    for u, v in list(graph.edges()):
+        for w in nodes:
+            if w in (u, v):
+                continue
+            added = []
+            if not graph.has_edge(u, w):
+                add_edge(graph, u, w)
+                added.append([u, w])
+            if not graph.has_edge(v, w):
+                add_edge(graph, v, w)
+                added.append([v, w])
+            return (
+                graph,
+                _ntriangles(graph),
+                {
+                    "type": "add_edges",
+                    "edges": added,
+                },
+            )
+
+    while len(graph.nodes()) < 3:
+        graph.add_node(max(graph.nodes()) + 1)
+    a, b, c = list(graph.nodes())[:3]
+    added = []
+    for u, v in ((a, b), (b, c), (a, c)):
+        if not graph.has_edge(u, v):
+            add_edge(graph, u, v)
+            added.append([u, v])
+    return (
+        graph,
+        _ntriangles(graph),
+        {
+            "type": "add_edges",
+            "edges": added,
+        },
+    )
+
+
 import json
 from pathlib import Path
 
