@@ -55,9 +55,9 @@ MODEL_LABELS = {
 }
 
 MODEL_COLORS = {
-    "Qwen2.5-VL-3B-Instruct": "#2A9D8F",
-    "Qwen2.5-VL-7B-Instruct": "#1D3557",
-    "llava-v1.6-mistral-7b-hf": "#E76F51",
+    "Qwen2.5-VL-3B-Instruct": "#457B9D",
+    "Qwen2.5-VL-7B-Instruct": "#E9C46A",
+    "llava-v1.6-mistral-7b-hf": "#BC6C25",
 }
 
 FALLBACK_MODEL_COLORS = [
