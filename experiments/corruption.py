@@ -181,7 +181,7 @@ def query_nodes(sample):
     """
     Return the nodes referred to by the question.
 
-    Your dataset already stores these in graph['node_ids'].
+    Our dataset already stores these in graph['node_ids'].
     """
     nodes = sample.node_ids
 
