@@ -850,6 +850,95 @@ def write_setting_table_csv(rows, output_path, image_type="spring"):
         writer.writerows(table)
 
     print(f"Saved setting table CSV to {output_path}")
+    return output_path
+
+
+def unique_models(rows):
+    models = []
+    seen = set()
+
+    for row in rows:
+        model = row.get("model")
+
+        if not model or model in seen:
+            continue
+
+        seen.add(model)
+        models.append(model)
+
+    return models
+
+
+def filter_rows_by_model(rows, model):
+    return [
+        row
+        for row in rows
+        if row.get("model") == model
+    ]
+
+
+def safe_model_filename(model):
+    return re.sub(r"[^\w.\-]+", "_", str(model)).strip("._") or "unknown"
+
+
+def build_model_setting_table(rows, image_type="spring"):
+    rows = [
+        r
+        for r in rows
+        if (
+            image_type is None
+            or r["image_type"] == image_type
+        )
+    ]
+
+    tasks = list(TASK_TYPES)
+    table = []
+
+    for model in unique_models(rows):
+        model_rows = filter_rows_by_model(rows, model)
+        setting_table, _ = build_setting_table(
+            model_rows,
+            image_type=image_type,
+        )
+
+        for setting_row in setting_table:
+            table.append(
+                {
+                    "model": model,
+                    **setting_row,
+                }
+            )
+
+    return table, tasks
+
+
+def write_model_setting_table_csv(rows, output_path, image_type="spring"):
+    table, tasks = build_model_setting_table(
+        rows,
+        image_type=image_type,
+    )
+
+    output_path = Path(output_path)
+    output_path.parent.mkdir(
+        parents=True,
+        exist_ok=True,
+    )
+
+    with open(
+        output_path,
+        "w",
+        encoding="utf-8",
+        newline="",
+    ) as f:
+        writer = csv.DictWriter(
+            f,
+            fieldnames=["model", "setting"] + tasks,
+        )
+        writer.writeheader()
+        writer.writerows(table)
+
+    print(f"Saved model comparison CSV to {output_path}")
+    return output_path
 
 
 def print_table(
@@ -1247,6 +1336,18 @@ def main():
     )
 
     parser.add_argument(
+        "--output-model-setting-csv",
+        default=(
+            "evaluation/"
+            "aggregate_results_by_model_and_setting.csv"
+        ),
+        help=(
+            "CSV comparing every model "
+            "across each modality/task."
+        ),
+    )
+
+    parser.add_argument(
         "--image-type",
         default="spring",
         help=(
@@ -1458,15 +1559,43 @@ def main():
         args.output_setting_csv
     )
 
+    image_type_filter = (
+        None
+        if args.image_type == "all"
+        else args.image_type
+    )
+
     write_setting_table_csv(
         rows,
         output_setting_csv,
-        image_type=(
-            None
-            if args.image_type == "all"
-            else args.image_type
-        ),
+        image_type=image_type_filter,
     )
+
+    per_model_setting_csvs = []
+
+    for model in unique_models(rows):
+        model_csv = output_setting_csv.with_name(
+            f"{output_setting_csv.stem}"
+            f"_{safe_model_filename(model)}"
+            f"{output_setting_csv.suffix}"
+        )
+        write_setting_table_csv(
+            filter_rows_by_model(rows, model),
+            model_csv,
+            image_type=image_type_filter,
+        )
+        per_model_setting_csvs.append((model, model_csv))
+
+    output_model_setting_csv = Path(
+        args.output_model_setting_csv
+    )
+
+    if not args.mixed:
+        write_model_setting_table_csv(
+            rows,
+            output_model_setting_csv,
+            image_type=image_type_filter,
+        )
 
     # -----------------------------------------------------------------------
     # Console output
@@ -1496,18 +1625,23 @@ def main():
 
     print_table(
         rows,
-        image_type=(
-            None
-            if args.image_type == "all"
-            else args.image_type
-        ),
+        image_type=image_type_filter,
     )
+
+    for model in unique_models(rows):
+        print()
+        print(f"Accuracy table ({args.image_type}, {model}):")
+        print_table(
+            filter_rows_by_model(rows, model),
+            image_type=image_type_filter,
+        )
 
     if not args.mixed and not args.skip_vis:
 
         try:
             from evaluation.vis.plot_baseline import (
                 write_baseline_plot,
+                write_model_comparison_plot,
             )
 
         except ImportError as exc:
@@ -1517,9 +1651,30 @@ def main():
             )
 
         else:
-            vis_path = write_baseline_plot(
+            vis_dir = Path(args.vis_dir)
+
+            for model, _ in per_model_setting_csvs:
+                vis_path = write_baseline_plot(
+                    filter_rows_by_model(rows, model),
+                    output_path=(
+                        vis_dir
+                        / f"baseline_{safe_model_filename(model)}.png"
+                    ),
+                    image_type=args.image_type,
+                    title=model,
+                )
+
+                if vis_path is not None:
+                    print(
+                        f"Saved visualization to {vis_path}"
+                    )
+
+            vis_path = write_model_comparison_plot(
                 rows,
-                output_path=Path(args.vis_dir) / "baseline.png",
+                output_path=(
+                    vis_dir
+                    / "baseline_by_model_and_setting.png"
+                ),
                 image_type=args.image_type,
             )
 

@@ -12,7 +12,7 @@ python -m evaluation.evaluation
 
 Defaults to `results/baseline`. Override with `--results-root` if needed.
 
-This writes JSON/CSV accuracy summaries and a grouped bar chart comparing modalities per task.
+This writes JSON/CSV accuracy summaries: a per-file aggregate, one setting×task CSV per model, and a model×modality comparison CSV. Unless `--skip-vis` is set, it also saves a grouped bar chart per model plus a three-panel plot comparing models across Text / Image / Image+Text.
 
 ```bash
 python -m evaluation.evaluation --skip-vis   # reports only

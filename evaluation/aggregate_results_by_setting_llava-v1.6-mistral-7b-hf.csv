@@ -1,0 +1,4 @@
+setting,connected_nodes,cycle_check,edge_existence,node_count,node_degree,shortest_path,disconnected_nodes,edge_count,triangle_counting
+image_only,,0.666,0.417,0.060,0.154,0.160,,0.089,0.229
+text_and_image,,0.663,0.451,0.934,0.397,0.329,,0.289,0.197
+text_only,,0.669,0.531,0.949,0.403,0.357,,0.300,0.057
