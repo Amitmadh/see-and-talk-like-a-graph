@@ -12,6 +12,30 @@ from pathlib import Path
 # ---------------------------------------------------------------------------
 
 from evaluation.evaluation import TASK_TYPES
+from evaluation.enrich_mixed_results import (
+    DATA_DIR,
+    TEXT_ENCODING,
+    get_or_load_dataset,
+    lookup_algorithm,
+)
+
+
+# Generator algorithms used by GraphQA, in canonical order.
+ALGORITHM_ORDER = [
+    "er",
+    "ba",
+    "sbm",
+    "sfn",
+    "complete",
+    "star",
+    "path",
+]
+
+MODALITY_WINNERS = {
+    "image",
+    "text",
+    "neither",
+}
 
 
 # ===========================================================================
@@ -216,6 +240,59 @@ def build_edge_distribution(samples):
     }
 
 
+def empty_edge_bin(edge_bin):
+    return {
+        "edge_range": edge_bin,
+
+        "total": 0,
+
+        "image": 0,
+        "text": 0,
+        "neither": 0,
+
+        "image_pct": 0.0,
+        "text_pct": 0.0,
+        "neither_pct": 0.0,
+
+        "n_evaluated": 0,
+        "correct": 0,
+        "incorrect": 0,
+        "wrong_format": 0,
+        "accuracy": 0.0,
+    }
+
+
+def finalize_edge_bin(entry):
+    n = entry["total"]
+
+    if n:
+        entry["image_pct"] = round(
+            100.0 * entry["image"] / n,
+            2,
+        )
+
+        entry["text_pct"] = round(
+            100.0 * entry["text"] / n,
+            2,
+        )
+
+        entry["neither_pct"] = round(
+            100.0 * entry["neither"] / n,
+            2,
+        )
+
+    evaluated = entry["n_evaluated"]
+
+    entry["accuracy"] = round(
+        entry["correct"] / evaluated
+        if evaluated
+        else 0.0,
+        6,
+    )
+
+    return entry
+
+
 def aggregate_edge_distributions(rows):
     """
     Pool samples across result files belonging to the same task.
@@ -232,19 +309,22 @@ def aggregate_edge_distributions(rows):
                     neither,
                     image_pct,
                     text_pct,
-                    neither_pct
+                    neither_pct,
+                    n_evaluated,
+                    correct,
+                    incorrect,
+                    wrong_format,
+                    accuracy
                 },
                 ...
             ]
         }
 
-    This is the main analysis used to distinguish:
+    `total` / modality percentages stay restricted to the
+    image/text/neither comparison, matching the previous report.
 
-        graph-size effect
-
-    from:
-
-        task-specific modality preference.
+    `n_evaluated` / `accuracy` cover every sample in the bin
+    that has graph metadata.
     """
 
     task_bins = {}
@@ -268,18 +348,6 @@ def aggregate_edge_distributions(rows):
             []
         ):
 
-            winner = sample.get(
-                "modality_winner"
-            )
-
-            # Only the three-way comparison.
-            if winner not in {
-                "image",
-                "text",
-                "neither",
-            }:
-                continue
-
             n_edges = get_edge_count(
                 sample
             )
@@ -292,58 +360,53 @@ def aggregate_edge_distributions(rows):
             )
 
             if edge_bin not in task_bins[task]:
-
-                task_bins[task][edge_bin] = {
-                    "edge_range": edge_bin,
-
-                    "total": 0,
-
-                    "image": 0,
-                    "text": 0,
-                    "neither": 0,
-
-                    "image_pct": 0.0,
-                    "text_pct": 0.0,
-                    "neither_pct": 0.0,
-                }
+                task_bins[task][edge_bin] = empty_edge_bin(
+                    edge_bin
+                )
 
             entry = task_bins[
                 task
             ][edge_bin]
 
+            entry["n_evaluated"] += 1
+
+            if sample.get("correct"):
+                entry["correct"] += 1
+
+            else:
+                status = sample.get(
+                    "correctness_status"
+                )
+
+                if status == "wrong_format":
+                    entry["wrong_format"] += 1
+                else:
+                    entry["incorrect"] += 1
+
+            winner = sample.get(
+                "modality_winner"
+            )
+
+            # Only the three-way comparison contributes to
+            # the original modality-preference fields.
+            if winner not in MODALITY_WINNERS:
+                continue
+
             entry["total"] += 1
             entry[winner] += 1
 
     # ---------------------------------------------------------------
-    # Calculate percentages.
+    # Calculate percentages and accuracy.
     # ---------------------------------------------------------------
 
-    for task, bins in task_bins.items():
+    for bins in task_bins.values():
 
         for entry in bins.values():
-
-            n = entry["total"]
-
-            if n == 0:
-                continue
-
-            entry["image_pct"] = round(
-                100.0 * entry["image"] / n,
-                2,
-            )
-
-            entry["text_pct"] = round(
-                100.0 * entry["text"] / n,
-                2,
-            )
-
-            entry["neither_pct"] = round(
-                100.0 * entry["neither"] / n,
-                2,
-            )
+            finalize_edge_bin(entry)
 
     # ---------------------------------------------------------------
     # Sort each task's bins numerically.
+    # Keep bins that have either modality or accuracy counts.
     # ---------------------------------------------------------------
 
     result = {}
@@ -351,13 +414,333 @@ def aggregate_edge_distributions(rows):
     for task, bins in task_bins.items():
 
         result[task] = sorted(
-            bins.values(),
+            [
+                entry
+                for entry in bins.values()
+                if entry["total"] or entry["n_evaluated"]
+            ],
             key=lambda x: int(
                 x["edge_range"].split("-")[0]
             ),
         )
 
     return result
+
+
+# ===========================================================================
+# Algorithm analysis
+# ===========================================================================
+
+def algorithm_sort_key(name):
+    if name in ALGORITHM_ORDER:
+        return (
+            0,
+            ALGORITHM_ORDER.index(name),
+        )
+
+    return (1, name)
+
+
+def ordered_tasks(tasks):
+    known = [
+        task
+        for task in TASK_TYPES
+        if task in tasks
+    ]
+
+    extra = sorted(
+        task
+        for task in tasks
+        if task not in TASK_TYPES
+    )
+
+    return known + extra
+
+
+def load_task_datasets(rows):
+    """
+    Index original GraphQA JSONL files by sample_id so algorithm
+    can be recovered even if a result row was not enriched.
+    """
+
+    dataset_cache = {}
+
+    for row in rows:
+
+        task = row.get("task")
+
+        if task is None:
+            continue
+
+        get_or_load_dataset(
+            task,
+            dataset_cache,
+            data_dir=DATA_DIR,
+            text_encoding=TEXT_ENCODING,
+            verbose=False,
+        )
+
+    return dataset_cache
+
+
+def empty_algorithm_entry(algorithm):
+    return {
+        "algorithm": algorithm,
+
+        "total": 0,
+        "correct": 0,
+        "incorrect": 0,
+        "wrong_format": 0,
+        "bad_expected": 0,
+        "accuracy": 0.0,
+
+        "image": 0,
+        "text": 0,
+        "neither": 0,
+        "both": 0,
+
+        "valid_modality_total": 0,
+
+        "image_pct": 0.0,
+        "text_pct": 0.0,
+        "neither_pct": 0.0,
+
+        "image_win_rate": 0.0,
+        "text_win_rate": 0.0,
+        "neither_rate": 0.0,
+        "both_rate": 0.0,
+    }
+
+
+def record_sample_performance(entry, sample):
+    entry["total"] += 1
+
+    if sample.get("correct"):
+        entry["correct"] += 1
+
+    else:
+        status = sample.get(
+            "correctness_status"
+        )
+
+        if status == "wrong_format":
+            entry["wrong_format"] += 1
+
+        elif status == "bad_expected":
+            entry["bad_expected"] += 1
+
+        else:
+            entry["incorrect"] += 1
+
+    winner = sample.get(
+        "modality_winner"
+    )
+
+    if winner in MODALITY_WINNERS:
+        entry[winner] += 1
+
+    elif winner == "both":
+        entry["both"] += 1
+
+
+def finalize_algorithm_entry(entry):
+    n = entry["total"]
+
+    entry["accuracy"] = round(
+        entry["correct"] / n
+        if n
+        else 0.0,
+        6,
+    )
+
+    valid = (
+        entry["image"]
+        + entry["text"]
+        + entry["neither"]
+    )
+
+    entry["valid_modality_total"] = valid
+
+    if valid:
+        entry["image_pct"] = round(
+            100.0 * entry["image"] / valid,
+            2,
+        )
+
+        entry["text_pct"] = round(
+            100.0 * entry["text"] / valid,
+            2,
+        )
+
+        entry["neither_pct"] = round(
+            100.0 * entry["neither"] / valid,
+            2,
+        )
+
+    denom = valid + entry["both"]
+
+    if denom:
+        entry["image_win_rate"] = round(
+            entry["image"] / denom,
+            6,
+        )
+
+        entry["text_win_rate"] = round(
+            entry["text"] / denom,
+            6,
+        )
+
+        entry["neither_rate"] = round(
+            entry["neither"] / denom,
+            6,
+        )
+
+        entry["both_rate"] = round(
+            entry["both"] / denom,
+            6,
+        )
+
+    return entry
+
+
+def pack_algorithm_buckets(buckets, missing_algorithm):
+    algorithms = sorted(
+        buckets.values(),
+        key=lambda x: algorithm_sort_key(
+            x["algorithm"]
+        ),
+    )
+
+    for entry in algorithms:
+        finalize_algorithm_entry(entry)
+
+    n_samples = sum(
+        entry["total"]
+        for entry in algorithms
+    ) + missing_algorithm
+
+    return {
+        "n_samples": n_samples,
+        "missing_algorithm": missing_algorithm,
+        "algorithms": algorithms,
+    }
+
+
+def aggregate_algorithm_distributions(rows, dataset_cache):
+    """
+    For every task, break mixed-signals performance down by the
+    graph generator algorithm that produced the sample.
+
+    Algorithm is resolved through sample_id against the original
+    GraphQA JSONL files.
+    """
+
+    by_task = {}
+    missing_by_task = {}
+    overall = {}
+    missing_overall = 0
+
+    for row in rows:
+
+        task = row.get("task")
+
+        if task is None:
+            continue
+
+        dataset_by_id = dataset_cache.get(task)
+
+        by_task.setdefault(task, {})
+        missing_by_task.setdefault(task, 0)
+
+        for sample in row.get("samples", []):
+
+            algorithm = lookup_algorithm(
+                sample,
+                dataset_by_id,
+            )
+
+            if not algorithm:
+                missing_by_task[task] += 1
+                missing_overall += 1
+                continue
+
+            if algorithm not in by_task[task]:
+                by_task[task][algorithm] = empty_algorithm_entry(
+                    algorithm
+                )
+
+            if algorithm not in overall:
+                overall[algorithm] = empty_algorithm_entry(
+                    algorithm
+                )
+
+            record_sample_performance(
+                by_task[task][algorithm],
+                sample,
+            )
+
+            record_sample_performance(
+                overall[algorithm],
+                sample,
+            )
+
+    result_by_task = {}
+
+    for task in ordered_tasks(by_task):
+
+        result_by_task[task] = pack_algorithm_buckets(
+            by_task[task],
+            missing_by_task.get(task, 0),
+        )
+
+    return {
+        "by_task": result_by_task,
+        "overall": pack_algorithm_buckets(
+            overall,
+            missing_overall,
+        ),
+    }
+
+
+def pool_edge_bins(edge_distribution_by_task):
+    """
+    Pool edge bins across tasks for the compact ALL-task CSV row.
+    """
+
+    pooled = {}
+
+    for bins in edge_distribution_by_task.values():
+
+        for entry in bins:
+
+            key = entry["edge_range"]
+
+            if key not in pooled:
+                pooled[key] = empty_edge_bin(key)
+
+            dest = pooled[key]
+
+            for field in [
+                "total",
+                "image",
+                "text",
+                "neither",
+                "n_evaluated",
+                "correct",
+                "incorrect",
+                "wrong_format",
+            ]:
+                dest[field] += entry.get(field, 0)
+
+    return sorted(
+        [
+            finalize_edge_bin(entry)
+            for entry in pooled.values()
+        ],
+        key=lambda x: int(
+            x["edge_range"].split("-")[0]
+        ),
+    )
 
 
 # ===========================================================================
@@ -627,12 +1010,13 @@ def print_edge_distributions(
         print(
             f"{'Edges':<12}"
             f"{'N':>8}"
+            f"{'Acc':>8}"
             f"{'Image':>20}"
             f"{'Text':>20}"
             f"{'Neither':>20}"
         )
 
-        print("-" * 80)
+        print("-" * 88)
 
         for entry in (
             edge_distribution_by_task[
@@ -643,6 +1027,88 @@ def print_edge_distributions(
             print(
                 f"{entry['edge_range']:<12}"
                 f"{entry['total']:>8}"
+                f"{entry['accuracy']:>8.3f}"
+                f"{entry['image']:>7}"
+                f" ({entry['image_pct']:>5.1f}%)"
+                f"{entry['text']:>7}"
+                f" ({entry['text_pct']:>5.1f}%)"
+                f"{entry['neither']:>7}"
+                f" ({entry['neither_pct']:>5.1f}%)"
+            )
+
+    print()
+
+
+def print_algorithm_distributions(algorithm_distribution):
+    """
+    Print accuracy and modality preference for each task,
+    stratified by graph generator algorithm.
+    """
+
+    print()
+    print("=" * 110)
+    print(
+        "PERFORMANCE BY GRAPH GENERATOR ALGORITHM"
+    )
+    print("=" * 110)
+
+    print()
+
+    print(
+        "Accuracy is over all evaluated samples. "
+        "Modality percentages are among valid "
+        "image/text/neither comparisons."
+    )
+
+    sections = [
+        (task, payload)
+        for task, payload in algorithm_distribution[
+            "by_task"
+        ].items()
+    ]
+
+    sections.append(
+        (
+            "OVERALL",
+            algorithm_distribution["overall"],
+        )
+    )
+
+    for task, payload in sections:
+
+        print()
+        print(
+            f"## TASK: {task}"
+        )
+
+        missing = payload[
+            "missing_algorithm"
+        ]
+
+        if missing:
+            print(
+                f"   (missing algorithm: {missing})"
+            )
+
+        print()
+
+        print(
+            f"{'Algorithm':<14}"
+            f"{'N':>8}"
+            f"{'Acc':>8}"
+            f"{'Image':>20}"
+            f"{'Text':>20}"
+            f"{'Neither':>20}"
+        )
+
+        print("-" * 90)
+
+        for entry in payload["algorithms"]:
+
+            print(
+                f"{entry['algorithm']:<14}"
+                f"{entry['total']:>8}"
+                f"{entry['accuracy']:>8.3f}"
                 f"{entry['image']:>7}"
                 f" ({entry['image_pct']:>5.1f}%)"
                 f"{entry['text']:>7}"
@@ -735,6 +1201,163 @@ def write_csv(rows, output_path):
     )
 
 
+AXIS_CSV_FIELDS = [
+    "task",
+    "group",
+    "n_evaluated",
+    "correct",
+    "incorrect",
+    "wrong_format",
+    "accuracy",
+    "n_modality",
+    "image",
+    "text",
+    "neither",
+    "image_pct",
+    "text_pct",
+    "neither_pct",
+]
+
+
+def write_compact_csv(csv_rows, output_path):
+    output_path = Path(output_path)
+
+    output_path.parent.mkdir(
+        parents=True,
+        exist_ok=True,
+    )
+
+    with open(
+        output_path,
+        "w",
+        encoding="utf-8",
+        newline="",
+    ) as f:
+
+        writer = csv.DictWriter(
+            f,
+            fieldnames=AXIS_CSV_FIELDS,
+        )
+
+        writer.writeheader()
+        writer.writerows(csv_rows)
+
+    print(
+        f"Saved compact CSV report to {output_path}"
+    )
+
+
+def algorithm_entry_to_csv_row(task, entry):
+    return {
+        "task": task,
+        "group": entry["algorithm"],
+        "n_evaluated": entry["total"],
+        "correct": entry["correct"],
+        "incorrect": entry["incorrect"],
+        "wrong_format": entry["wrong_format"],
+        "accuracy": entry["accuracy"],
+        "n_modality": entry["valid_modality_total"],
+        "image": entry["image"],
+        "text": entry["text"],
+        "neither": entry["neither"],
+        "image_pct": entry["image_pct"],
+        "text_pct": entry["text_pct"],
+        "neither_pct": entry["neither_pct"],
+    }
+
+
+def edge_entry_to_csv_row(task, entry):
+    return {
+        "task": task,
+        "group": entry["edge_range"],
+        "n_evaluated": entry.get(
+            "n_evaluated",
+            entry["total"],
+        ),
+        "correct": entry.get("correct", ""),
+        "incorrect": entry.get("incorrect", ""),
+        "wrong_format": entry.get("wrong_format", ""),
+        "accuracy": entry.get("accuracy", ""),
+        "n_modality": entry["total"],
+        "image": entry["image"],
+        "text": entry["text"],
+        "neither": entry["neither"],
+        "image_pct": entry["image_pct"],
+        "text_pct": entry["text_pct"],
+        "neither_pct": entry["neither_pct"],
+    }
+
+
+def write_algorithm_csv(algorithm_distribution, output_path):
+    """
+    One compact row per (task, algorithm), plus ALL-task totals.
+    """
+
+    csv_rows = []
+
+    for task in ordered_tasks(
+        algorithm_distribution["by_task"]
+    ):
+
+        payload = algorithm_distribution[
+            "by_task"
+        ][task]
+
+        for entry in payload["algorithms"]:
+            csv_rows.append(
+                algorithm_entry_to_csv_row(
+                    task,
+                    entry,
+                )
+            )
+
+    for entry in algorithm_distribution[
+        "overall"
+    ]["algorithms"]:
+
+        csv_rows.append(
+            algorithm_entry_to_csv_row(
+                "ALL",
+                entry,
+            )
+        )
+
+    write_compact_csv(csv_rows, output_path)
+
+
+def write_edges_csv(edge_distribution_by_task, output_path):
+    """
+    One compact row per (task, edge-count bin), plus ALL-task totals.
+    """
+
+    csv_rows = []
+
+    for task in ordered_tasks(
+        edge_distribution_by_task
+    ):
+
+        for entry in edge_distribution_by_task[task]:
+            csv_rows.append(
+                edge_entry_to_csv_row(
+                    task,
+                    entry,
+                )
+            )
+
+    for entry in pool_edge_bins(
+        edge_distribution_by_task
+    ):
+
+        csv_rows.append(
+            edge_entry_to_csv_row(
+                "ALL",
+                entry,
+            )
+        )
+
+    write_compact_csv(csv_rows, output_path)
+
+
 # ===========================================================================
 # Main
 # ===========================================================================
@@ -744,8 +1367,9 @@ def main():
     parser = argparse.ArgumentParser(
         description=(
             "Analyze an already-enriched mixed-signals "
-            "evaluation report, including modality preference "
-            "stratified by graph edge count."
+            "evaluation report, including performance "
+            "stratified by graph generator algorithm "
+            "and by graph edge count."
         )
     )
 
@@ -778,7 +1402,31 @@ def main():
             "mixed_signals_results.csv"
         ),
         help=(
-            "Output CSV report."
+            "Output CSV report (one row per result file)."
+        ),
+    )
+
+    parser.add_argument(
+        "--output-algorithm-csv",
+        default=(
+            "evaluation/"
+            "mixed_signals_by_algorithm.csv"
+        ),
+        help=(
+            "Compact CSV: performance by graph "
+            "generator algorithm."
+        ),
+    )
+
+    parser.add_argument(
+        "--output-edges-csv",
+        default=(
+            "evaluation/"
+            "mixed_signals_by_edges.csv"
+        ),
+        help=(
+            "Compact CSV: performance by graph "
+            "edge-count bin."
         ),
     )
 
@@ -789,6 +1437,20 @@ def main():
             "Image type to report. "
             "Use 'all' for all image types."
         ),
+    )
+
+    parser.add_argument(
+        "--vis-dir",
+        default="evaluation/vis",
+        help=(
+            "Directory for per-task visualization PNGs."
+        ),
+    )
+
+    parser.add_argument(
+        "--skip-vis",
+        action="store_true",
+        help="Skip writing visualization PNGs.",
     )
 
     args = parser.parse_args()
@@ -831,6 +1493,21 @@ def main():
     edge_distribution_by_task = (
         aggregate_edge_distributions(
             rows
+        )
+    )
+
+    # ---------------------------------------------------------------
+    # Calculate algorithm distributions via sample_id
+    # ---------------------------------------------------------------
+
+    dataset_cache = load_task_datasets(
+        rows
+    )
+
+    algorithm_distribution = (
+        aggregate_algorithm_distributions(
+            rows,
+            dataset_cache,
         )
     )
 
@@ -880,6 +1557,14 @@ def main():
 
         "edge_distribution_by_task":
             edge_distribution_by_task,
+
+        # -----------------------------------------------------------
+        # Performance stratified by the graph generator algorithm
+        # that produced each sample (joined via sample_id).
+        # -----------------------------------------------------------
+
+        "algorithm_distribution":
+            algorithm_distribution,
     }
 
     # ---------------------------------------------------------------
@@ -920,6 +1605,44 @@ def main():
         args.output_csv,
     )
 
+    write_algorithm_csv(
+        algorithm_distribution,
+        args.output_algorithm_csv,
+    )
+
+    write_edges_csv(
+        edge_distribution_by_task,
+        args.output_edges_csv,
+    )
+
+    if not args.skip_vis:
+
+        try:
+            from evaluation.vis.plot_mixed import (
+                write_mixed_visualizations,
+            )
+
+        except ImportError as exc:
+            print(
+                "Skipping visualizations "
+                f"(matplotlib unavailable): {exc}"
+            )
+
+        else:
+            vis_paths = write_mixed_visualizations(
+                algorithm_distribution,
+                edge_distribution_by_task,
+                pool_edge_bins(
+                    edge_distribution_by_task
+                ),
+                output_dir=args.vis_dir,
+            )
+
+            print(
+                f"Saved {len(vis_paths)} visualizations to "
+                f"{args.vis_dir}"
+            )
+
     # ---------------------------------------------------------------
     # Console reports
     # ---------------------------------------------------------------
@@ -930,6 +1653,10 @@ def main():
 
     print_edge_distributions(
         edge_distribution_by_task
+    )
+
+    print_algorithm_distributions(
+        algorithm_distribution
     )
 
 
