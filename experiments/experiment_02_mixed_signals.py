@@ -63,7 +63,7 @@ if __name__ == "__main__":
     text_encoding = config.get("text_encoding")
 
 
-    model_name_in_results = "Qwen2.5-VL-3B-Instruct"
+    model_name_in_results = "Qwen2.5-VL-7B-Instruct"
 
     # ============================================================
     # Validate required paths BEFORE loading the model

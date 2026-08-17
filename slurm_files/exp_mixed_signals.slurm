@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # SBATCH -A gpu-resaerch
-#SBATCH --job-name=mixed_signals_experiment02
+#SBATCH --job-name=qwen7b-mixed_signals_experiment02
 #SBATCH --output=/home/yandex/MLWG2026/%u/slurm_logs/%x_%j.out
 #SBATCH --error=/home/yandex/MLWG2026/%u/slurm_logs/%x_%j.err
 #SBATCH --partition=killable
