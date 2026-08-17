@@ -169,6 +169,12 @@ def corrupt_by_task(graph, task, expected_answer, sample):
             sample,
             expected_answer,
         )
+    if task == "cycle_check":
+        return corrupt_cycle_check(
+            graph,
+            sample,
+            expected_answer
+        )
 
     raise ValueError(f"No corruption implemented for task: {task}")
 
@@ -230,6 +236,159 @@ def shortest_distance(graph, source, target):
         )
     except nx.NetworkXNoPath:
         return None
+
+
+
+
+# ---------------------------------------------------------------------
+# cycle_check
+# ---------------------------------------------------------------------
+
+def corrupt_cycle_check(graph, sample, expected_answer):
+    """
+    Flip the cycle-check answer using the smallest practical edit.
+
+    Cases:
+      - graph contains a cycle:
+          remove one edge from each cycle until the graph is acyclic.
+      - graph is acyclic:
+          add one edge between two already-connected nodes, creating
+          a cycle.
+
+    Returns:
+        graph,
+        new_answer,
+        corruption_metadata
+    """
+
+    # ---------------------------------------------------------------
+    # Case 1: Graph contains a cycle.
+    #
+    # Remove one edge from a cycle, then repeat until no cycles remain.
+    # ---------------------------------------------------------------
+    cycles = nx.cycle_basis(graph)
+
+    if cycles:
+        removed_edges = []
+
+        while True:
+            cycles = nx.cycle_basis(graph)
+
+            if not cycles:
+                break
+
+            # Take any edge from the first cycle.
+            cycle = cycles[0]
+            u = cycle[0]
+            v = cycle[1]
+
+            remove_edge(graph, u, v)
+
+            removed_edges.append([u, v])
+
+        # Sanity check.
+        if nx.cycle_basis(graph):
+            raise ValueError(
+                f"Failed to remove all cycles for "
+                f"{sample.sample_id}"
+            )
+
+        return (
+            graph,
+            False,
+            {
+                "type": "remove_cycle_edges",
+                "removed_edges": removed_edges,
+            },
+        )
+
+    # ---------------------------------------------------------------
+    # Case 2: Graph is acyclic.
+    #
+    # Adding an edge between two nodes that are already connected by
+    # a path creates exactly one cycle.
+    # ---------------------------------------------------------------
+
+    nodes = list(graph.nodes())
+
+    for i, u in enumerate(nodes):
+        for v in nodes[i + 1:]:
+
+            # Already an edge -> adding it changes nothing.
+            if graph.has_edge(u, v):
+                continue
+
+            # If u and v are already connected, adding (u, v)
+            # creates a cycle.
+            if nx.has_path(graph, u, v):
+                add_edge(graph, u, v)
+
+                # Sanity check.
+                if not nx.cycle_basis(graph):
+                    raise ValueError(
+                        f"Failed to create a cycle by adding "
+                        f"edge [{u}, {v}] for {sample.sample_id}"
+                    )
+
+                return (
+                    graph,
+                    True,
+                    {
+                        "type": "add_edge",
+                        "edge": [u, v],
+                    },
+                )
+
+    # ---------------------------------------------------------------
+    # No pair of existing nodes can create a cycle with one edge.
+    #
+    # This happens when every connected component contains only
+    # isolated nodes (i.e., the graph has no edges).
+    #
+    # In that case, create a new node and a triangle if possible.
+    # ---------------------------------------------------------------
+
+    if len(nodes) < 2:
+        raise ValueError(
+            f"Cannot create a cycle with fewer than two nodes for "
+            f"{sample.sample_id}"
+        )
+
+    # If the graph has at least one edge, use its endpoints and
+    # introduce one new node to form a triangle.
+    existing_edge = next(iter(graph.edges()), None)
+
+    if existing_edge is None:
+        raise ValueError(
+            f"Cannot create a cycle in an edgeless graph using "
+            f"the current node set for {sample.sample_id}"
+        )
+
+    u, v = existing_edge
+
+    new_node = max(nodes) + 1
+    graph.add_node(new_node)
+
+    add_edge(graph, u, new_node)
+    add_edge(graph, new_node, v)
+
+    if not nx.cycle_basis(graph):
+        raise ValueError(
+            f"Failed to create a cycle for {sample.sample_id}"
+        )
+
+    return (
+        graph,
+        True,
+        {
+            "type": "add_node_and_cycle",
+            "node": new_node,
+            "added_edges": [
+                [u, new_node],
+                [new_node, v],
+            ],
+        },
+    )
 
 
 # ---------------------------------------------------------------------
