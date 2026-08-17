@@ -304,10 +304,13 @@ def _draw_task_figure(
     if task:
         title = _pretty_task(task)
     else:
-        title = "Comparison Across Tasks"
+        title = ""
 
-    if model_name:
-        title = f"{model_name} — {title}"
+    if model_name and task:
+        title = f"{model_name} - {title}"
+    elif model_name:
+        title = f"{model_name}"
+
 
     fig.suptitle(
         title,
