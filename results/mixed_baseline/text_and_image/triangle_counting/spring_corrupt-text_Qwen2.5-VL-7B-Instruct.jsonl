@@ -1,0 +1,3814 @@
+[
+  {
+    "sample_id": "triangle_counting/adjacency/test/2",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "1",
+    "model_answer": "1",
+    "model": "Qwen2.5-VL-7B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "0.",
+    "corrupted_answer": "1",
+    "corruption": {
+      "type": "add_edges",
+      "edges": [
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          0
+        ]
+      ]
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/21",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "1",
+    "model_answer": "3",
+    "model": "Qwen2.5-VL-7B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "3.",
+    "corrupted_answer": "1",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        1,
+        3
+      ]
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/25",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "2",
+    "model_answer": "2",
+    "model": "Qwen2.5-VL-7B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "3.",
+    "corrupted_answer": "2",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        1,
+        4
+      ]
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/38",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "1",
+    "model_answer": "1",
+    "model": "Qwen2.5-VL-7B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "0.",
+    "corrupted_answer": "1",
+    "corruption": {
+      "type": "add_edges",
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          0,
+          2
+        ]
+      ]
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/46",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "1",
+    "model_answer": "1",
+    "model": "Qwen2.5-VL-7B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "0.",
+    "corrupted_answer": "1",
+    "corruption": {
+      "type": "add_edges",
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          0,
+          2
+        ]
+      ]
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/52",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "1",
+    "model_answer": "0",
+    "model": "Qwen2.5-VL-7B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "0.",
+    "corrupted_answer": "1",
+    "corruption": {
+      "type": "add_edge",
+      "edge": [
+        1,
+        2
+      ]
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/64",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "1",
+    "model_answer": "0",
+    "model": "Qwen2.5-VL-7B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "0.",
+    "corrupted_answer": "1",
+    "corruption": {
+      "type": "add_edge",
+      "edge": [
+        1,
+        2
+      ]
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/65",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "1",
+    "model_answer": "0",
+    "model": "Qwen2.5-VL-7B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "0.",
+    "corrupted_answer": "1",
+    "corruption": {
+      "type": "add_edge",
+      "edge": [
+        1,
+        2
+      ]
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/67",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "1",
+    "model_answer": "2",
+    "model": "Qwen2.5-VL-7B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "2.",
+    "corrupted_answer": "1",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        2,
+        3
+      ]
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/69",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "1",
+    "model_answer": "0",
+    "model": "Qwen2.5-VL-7B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "0.",
+    "corrupted_answer": "1",
+    "corruption": {
+      "type": "add_edge",
+      "edge": [
+        1,
+        2
+      ]
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/70",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "1",
+    "model_answer": "0",
+    "model": "Qwen2.5-VL-7B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "0.",
+    "corrupted_answer": "1",
+    "corruption": {
+      "type": "add_edge",
+      "edge": [
+        1,
+        2
+      ]
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/72",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "1",
+    "model_answer": "0",
+    "model": "Qwen2.5-VL-7B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "0.",
+    "corrupted_answer": "1",
+    "corruption": {
+      "type": "add_edge",
+      "edge": [
+        1,
+        2
+      ]
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/86",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "1",
+    "model_answer": "0",
+    "model": "Qwen2.5-VL-7B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "0.",
+    "corrupted_answer": "1",
+    "corruption": {
+      "type": "add_edge",
+      "edge": [
+        1,
+        2
+      ]
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/96",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "2",
+    "model_answer": "2",
+    "model": "Qwen2.5-VL-7B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "3.",
+    "corrupted_answer": "2",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        1,
+        5
+      ]
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/101",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "1",
+    "model_answer": "2",
+    "model": "Qwen2.5-VL-7B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "3.",
+    "corrupted_answer": "1",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        9,
+        10
+      ]
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/107",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "1",
+    "model_answer": "2",
+    "model": "Qwen2.5-VL-7B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "2.",
+    "corrupted_answer": "1",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        1,
+        3
+      ]
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/109",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "1",
+    "model_answer": "1",
+    "model": "Qwen2.5-VL-7B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "0.",
+    "corrupted_answer": "1",
+    "corruption": {
+      "type": "add_edges",
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          4,
+          1
+        ]
+      ]
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/110",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "0",
+    "model_answer": "3",
+    "model": "Qwen2.5-VL-7B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "4.",
+    "corrupted_answer": "0",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        5,
+        6
+      ]
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/116",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "0",
+    "model_answer": "1",
+    "model": "Qwen2.5-VL-7B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "1.",
+    "corrupted_answer": "0",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        4,
+        6
+      ]
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/117",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "0",
+    "model_answer": "2",
+    "model": "Qwen2.5-VL-7B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "2.",
+    "corrupted_answer": "0",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        2,
+        3
+      ]
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/118",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "0",
+    "model_answer": "1",
+    "model": "Qwen2.5-VL-7B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "1.",
+    "corrupted_answer": "0",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        3,
+        5
+      ]
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/127",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "1",
+    "model_answer": "3",
+    "model": "Qwen2.5-VL-7B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "3.",
+    "corrupted_answer": "1",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        2,
+        7
+      ]
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/132",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "1",
+    "model_answer": "2",
+    "model": "Qwen2.5-VL-7B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "2.",
+    "corrupted_answer": "1",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        4,
+        6
+      ]
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/136",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "2",
+    "model_answer": "3",
+    "model": "Qwen2.5-VL-7B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "3.",
+    "corrupted_answer": "2",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        1,
+        2
+      ]
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/138",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "1",
+    "model_answer": "2",
+    "model": "Qwen2.5-VL-7B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "2.",
+    "corrupted_answer": "1",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        1,
+        6
+      ]
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/139",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "1",
+    "model_answer": "1",
+    "model": "Qwen2.5-VL-7B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "0.",
+    "corrupted_answer": "1",
+    "corruption": {
+      "type": "add_edge",
+      "edge": [
+        3,
+        4
+      ]
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/141",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "0",
+    "model_answer": "2",
+    "model": "Qwen2.5-VL-7B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "2.",
+    "corrupted_answer": "0",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        5,
+        8
+      ]
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/157",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "1",
+    "model_answer": "2",
+    "model": "Qwen2.5-VL-7B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "2.",
+    "corrupted_answer": "1",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        1,
+        2
+      ]
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/159",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "1",
+    "model_answer": "2",
+    "model": "Qwen2.5-VL-7B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "2.",
+    "corrupted_answer": "1",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        1,
+        0
+      ]
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/160",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "1",
+    "model_answer": "2",
+    "model": "Qwen2.5-VL-7B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "2.",
+    "corrupted_answer": "1",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        1,
+        3
+      ]
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/171",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "0",
+    "model_answer": "2",
+    "model": "Qwen2.5-VL-7B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "2.",
+    "corrupted_answer": "0",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        1,
+        2
+      ]
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/172",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "0",
+    "model_answer": "2",
+    "model": "Qwen2.5-VL-7B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "2.",
+    "corrupted_answer": "0",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        1,
+        2
+      ]
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/180",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "0",
+    "model_answer": "1",
+    "model": "Qwen2.5-VL-7B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "1.",
+    "corrupted_answer": "0",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        1,
+        2
+      ]
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/182",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "0",
+    "model_answer": "1",
+    "model": "Qwen2.5-VL-7B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "1.",
+    "corrupted_answer": "0",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        1,
+        2
+      ]
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/186",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "0",
+    "model_answer": "2",
+    "model": "Qwen2.5-VL-7B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "2.",
+    "corrupted_answer": "0",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        1,
+        2
+      ]
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/187",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "0",
+    "model_answer": "1",
+    "model": "Qwen2.5-VL-7B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "1.",
+    "corrupted_answer": "0",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        1,
+        2
+      ]
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/192",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "0",
+    "model_answer": "1",
+    "model": "Qwen2.5-VL-7B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "1.",
+    "corrupted_answer": "0",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        1,
+        0
+      ]
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/194",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "0",
+    "model_answer": "1",
+    "model": "Qwen2.5-VL-7B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "1.",
+    "corrupted_answer": "0",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        1,
+        2
+      ]
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/213",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "112",
+    "model_answer": "120",
+    "model": "Qwen2.5-VL-7B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "120",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "120.",
+    "corrupted_answer": "112",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        1,
+        2
+      ]
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/231",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "112",
+    "model_answer": "10",
+    "model": "Qwen2.5-VL-7B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "10",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "120.",
+    "corrupted_answer": "112",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        1,
+        2
+      ]
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/250",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "1",
+    "model_answer": "0",
+    "model": "Qwen2.5-VL-7B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "0.",
+    "corrupted_answer": "1",
+    "corruption": {
+      "type": "add_edge",
+      "edge": [
+        1,
+        2
+      ]
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/251",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "1",
+    "model_answer": "0",
+    "model": "Qwen2.5-VL-7B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "0.",
+    "corrupted_answer": "1",
+    "corruption": {
+      "type": "add_edge",
+      "edge": [
+        1,
+        2
+      ]
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/252",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "1",
+    "model_answer": "0",
+    "model": "Qwen2.5-VL-7B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "0.",
+    "corrupted_answer": "1",
+    "corruption": {
+      "type": "add_edge",
+      "edge": [
+        1,
+        2
+      ]
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/253",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "1",
+    "model_answer": "0",
+    "model": "Qwen2.5-VL-7B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "0.",
+    "corrupted_answer": "1",
+    "corruption": {
+      "type": "add_edge",
+      "edge": [
+        1,
+        2
+      ]
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/254",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "1",
+    "model_answer": "0",
+    "model": "Qwen2.5-VL-7B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "0.",
+    "corrupted_answer": "1",
+    "corruption": {
+      "type": "add_edge",
+      "edge": [
+        1,
+        2
+      ]
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/255",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "1",
+    "model_answer": "0",
+    "model": "Qwen2.5-VL-7B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "0.",
+    "corrupted_answer": "1",
+    "corruption": {
+      "type": "add_edge",
+      "edge": [
+        1,
+        2
+      ]
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/256",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "1",
+    "model_answer": "0",
+    "model": "Qwen2.5-VL-7B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "0.",
+    "corrupted_answer": "1",
+    "corruption": {
+      "type": "add_edge",
+      "edge": [
+        1,
+        2
+      ]
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/257",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "1",
+    "model_answer": "0",
+    "model": "Qwen2.5-VL-7B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "0.",
+    "corrupted_answer": "1",
+    "corruption": {
+      "type": "add_edge",
+      "edge": [
+        1,
+        2
+      ]
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/258",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "1",
+    "model_answer": "0",
+    "model": "Qwen2.5-VL-7B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "0.",
+    "corrupted_answer": "1",
+    "corruption": {
+      "type": "add_edge",
+      "edge": [
+        1,
+        2
+      ]
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/259",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "1",
+    "model_answer": "0",
+    "model": "Qwen2.5-VL-7B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "0.",
+    "corrupted_answer": "1",
+    "corruption": {
+      "type": "add_edge",
+      "edge": [
+        1,
+        2
+      ]
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/260",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "1",
+    "model_answer": "0",
+    "model": "Qwen2.5-VL-7B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "0.",
+    "corrupted_answer": "1",
+    "corruption": {
+      "type": "add_edge",
+      "edge": [
+        1,
+        2
+      ]
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/261",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "1",
+    "model_answer": "0",
+    "model": "Qwen2.5-VL-7B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "0.",
+    "corrupted_answer": "1",
+    "corruption": {
+      "type": "add_edge",
+      "edge": [
+        1,
+        2
+      ]
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/262",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "1",
+    "model_answer": "0",
+    "model": "Qwen2.5-VL-7B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "0.",
+    "corrupted_answer": "1",
+    "corruption": {
+      "type": "add_edge",
+      "edge": [
+        1,
+        2
+      ]
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/263",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "1",
+    "model_answer": "0",
+    "model": "Qwen2.5-VL-7B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "0.",
+    "corrupted_answer": "1",
+    "corruption": {
+      "type": "add_edge",
+      "edge": [
+        1,
+        2
+      ]
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/264",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "1",
+    "model_answer": "0",
+    "model": "Qwen2.5-VL-7B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "0.",
+    "corrupted_answer": "1",
+    "corruption": {
+      "type": "add_edge",
+      "edge": [
+        1,
+        2
+      ]
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/265",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "1",
+    "model_answer": "0",
+    "model": "Qwen2.5-VL-7B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "0.",
+    "corrupted_answer": "1",
+    "corruption": {
+      "type": "add_edge",
+      "edge": [
+        1,
+        2
+      ]
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/266",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "1",
+    "model_answer": "0",
+    "model": "Qwen2.5-VL-7B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "0.",
+    "corrupted_answer": "1",
+    "corruption": {
+      "type": "add_edge",
+      "edge": [
+        1,
+        2
+      ]
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/267",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "1",
+    "model_answer": "0",
+    "model": "Qwen2.5-VL-7B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "0.",
+    "corrupted_answer": "1",
+    "corruption": {
+      "type": "add_edge",
+      "edge": [
+        1,
+        2
+      ]
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/268",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "1",
+    "model_answer": "0",
+    "model": "Qwen2.5-VL-7B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "0.",
+    "corrupted_answer": "1",
+    "corruption": {
+      "type": "add_edge",
+      "edge": [
+        1,
+        2
+      ]
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/269",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "1",
+    "model_answer": "0",
+    "model": "Qwen2.5-VL-7B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "0.",
+    "corrupted_answer": "1",
+    "corruption": {
+      "type": "add_edge",
+      "edge": [
+        1,
+        2
+      ]
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/270",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "1",
+    "model_answer": "0",
+    "model": "Qwen2.5-VL-7B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "0.",
+    "corrupted_answer": "1",
+    "corruption": {
+      "type": "add_edge",
+      "edge": [
+        1,
+        2
+      ]
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/271",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "1",
+    "model_answer": "0",
+    "model": "Qwen2.5-VL-7B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "0.",
+    "corrupted_answer": "1",
+    "corruption": {
+      "type": "add_edge",
+      "edge": [
+        1,
+        2
+      ]
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/272",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "1",
+    "model_answer": "0",
+    "model": "Qwen2.5-VL-7B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "0.",
+    "corrupted_answer": "1",
+    "corruption": {
+      "type": "add_edge",
+      "edge": [
+        1,
+        2
+      ]
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/273",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "1",
+    "model_answer": "0",
+    "model": "Qwen2.5-VL-7B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "0.",
+    "corrupted_answer": "1",
+    "corruption": {
+      "type": "add_edge",
+      "edge": [
+        1,
+        2
+      ]
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/274",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "1",
+    "model_answer": "0",
+    "model": "Qwen2.5-VL-7B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "0.",
+    "corrupted_answer": "1",
+    "corruption": {
+      "type": "add_edge",
+      "edge": [
+        1,
+        2
+      ]
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/275",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "1",
+    "model_answer": "0",
+    "model": "Qwen2.5-VL-7B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "0.",
+    "corrupted_answer": "1",
+    "corruption": {
+      "type": "add_edge",
+      "edge": [
+        1,
+        2
+      ]
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/276",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "1",
+    "model_answer": "0",
+    "model": "Qwen2.5-VL-7B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "0.",
+    "corrupted_answer": "1",
+    "corruption": {
+      "type": "add_edge",
+      "edge": [
+        1,
+        2
+      ]
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/277",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "1",
+    "model_answer": "0",
+    "model": "Qwen2.5-VL-7B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "0.",
+    "corrupted_answer": "1",
+    "corruption": {
+      "type": "add_edge",
+      "edge": [
+        1,
+        2
+      ]
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/278",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "1",
+    "model_answer": "0",
+    "model": "Qwen2.5-VL-7B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "0.",
+    "corrupted_answer": "1",
+    "corruption": {
+      "type": "add_edge",
+      "edge": [
+        1,
+        2
+      ]
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/279",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "1",
+    "model_answer": "0",
+    "model": "Qwen2.5-VL-7B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "0.",
+    "corrupted_answer": "1",
+    "corruption": {
+      "type": "add_edge",
+      "edge": [
+        1,
+        2
+      ]
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/280",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "1",
+    "model_answer": "0",
+    "model": "Qwen2.5-VL-7B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "0.",
+    "corrupted_answer": "1",
+    "corruption": {
+      "type": "add_edge",
+      "edge": [
+        1,
+        2
+      ]
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/281",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "1",
+    "model_answer": "0",
+    "model": "Qwen2.5-VL-7B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "0.",
+    "corrupted_answer": "1",
+    "corruption": {
+      "type": "add_edge",
+      "edge": [
+        1,
+        2
+      ]
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/282",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "1",
+    "model_answer": "0",
+    "model": "Qwen2.5-VL-7B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "0.",
+    "corrupted_answer": "1",
+    "corruption": {
+      "type": "add_edge",
+      "edge": [
+        1,
+        2
+      ]
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/283",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "1",
+    "model_answer": "0",
+    "model": "Qwen2.5-VL-7B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "0.",
+    "corrupted_answer": "1",
+    "corruption": {
+      "type": "add_edge",
+      "edge": [
+        1,
+        2
+      ]
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/284",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "1",
+    "model_answer": "0",
+    "model": "Qwen2.5-VL-7B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "0.",
+    "corrupted_answer": "1",
+    "corruption": {
+      "type": "add_edge",
+      "edge": [
+        1,
+        2
+      ]
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/285",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "1",
+    "model_answer": "0",
+    "model": "Qwen2.5-VL-7B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "0.",
+    "corrupted_answer": "1",
+    "corruption": {
+      "type": "add_edge",
+      "edge": [
+        1,
+        2
+      ]
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/286",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "1",
+    "model_answer": "0",
+    "model": "Qwen2.5-VL-7B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "0.",
+    "corrupted_answer": "1",
+    "corruption": {
+      "type": "add_edge",
+      "edge": [
+        1,
+        2
+      ]
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/287",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "1",
+    "model_answer": "0",
+    "model": "Qwen2.5-VL-7B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "0.",
+    "corrupted_answer": "1",
+    "corruption": {
+      "type": "add_edge",
+      "edge": [
+        1,
+        2
+      ]
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/288",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "1",
+    "model_answer": "0",
+    "model": "Qwen2.5-VL-7B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "0.",
+    "corrupted_answer": "1",
+    "corruption": {
+      "type": "add_edge",
+      "edge": [
+        1,
+        2
+      ]
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/289",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "1",
+    "model_answer": "0",
+    "model": "Qwen2.5-VL-7B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "0.",
+    "corrupted_answer": "1",
+    "corruption": {
+      "type": "add_edge",
+      "edge": [
+        1,
+        2
+      ]
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/290",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "1",
+    "model_answer": "0",
+    "model": "Qwen2.5-VL-7B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "0.",
+    "corrupted_answer": "1",
+    "corruption": {
+      "type": "add_edge",
+      "edge": [
+        1,
+        2
+      ]
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/291",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "1",
+    "model_answer": "0",
+    "model": "Qwen2.5-VL-7B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "0.",
+    "corrupted_answer": "1",
+    "corruption": {
+      "type": "add_edge",
+      "edge": [
+        1,
+        2
+      ]
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/292",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "1",
+    "model_answer": "0",
+    "model": "Qwen2.5-VL-7B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "0.",
+    "corrupted_answer": "1",
+    "corruption": {
+      "type": "add_edge",
+      "edge": [
+        1,
+        2
+      ]
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/293",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "1",
+    "model_answer": "0",
+    "model": "Qwen2.5-VL-7B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "0.",
+    "corrupted_answer": "1",
+    "corruption": {
+      "type": "add_edge",
+      "edge": [
+        1,
+        2
+      ]
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/294",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "1",
+    "model_answer": "0",
+    "model": "Qwen2.5-VL-7B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "0.",
+    "corrupted_answer": "1",
+    "corruption": {
+      "type": "add_edge",
+      "edge": [
+        1,
+        2
+      ]
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/295",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "1",
+    "model_answer": "0",
+    "model": "Qwen2.5-VL-7B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "0.",
+    "corrupted_answer": "1",
+    "corruption": {
+      "type": "add_edge",
+      "edge": [
+        1,
+        2
+      ]
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/296",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "1",
+    "model_answer": "0",
+    "model": "Qwen2.5-VL-7B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "0.",
+    "corrupted_answer": "1",
+    "corruption": {
+      "type": "add_edge",
+      "edge": [
+        1,
+        2
+      ]
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/297",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "1",
+    "model_answer": "0",
+    "model": "Qwen2.5-VL-7B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "0.",
+    "corrupted_answer": "1",
+    "corruption": {
+      "type": "add_edge",
+      "edge": [
+        1,
+        2
+      ]
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/298",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "1",
+    "model_answer": "0",
+    "model": "Qwen2.5-VL-7B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "0.",
+    "corrupted_answer": "1",
+    "corruption": {
+      "type": "add_edge",
+      "edge": [
+        1,
+        2
+      ]
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/299",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "1",
+    "model_answer": "0",
+    "model": "Qwen2.5-VL-7B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "0.",
+    "corrupted_answer": "1",
+    "corruption": {
+      "type": "add_edge",
+      "edge": [
+        1,
+        2
+      ]
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/300",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "1",
+    "model_answer": "0",
+    "model": "Qwen2.5-VL-7B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "0.",
+    "corrupted_answer": "1",
+    "corruption": {
+      "type": "add_edge",
+      "edge": [
+        0,
+        2
+      ]
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/301",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "1",
+    "model_answer": "0",
+    "model": "Qwen2.5-VL-7B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "0.",
+    "corrupted_answer": "1",
+    "corruption": {
+      "type": "add_edge",
+      "edge": [
+        0,
+        2
+      ]
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/302",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "1",
+    "model_answer": "0",
+    "model": "Qwen2.5-VL-7B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "0.",
+    "corrupted_answer": "1",
+    "corruption": {
+      "type": "add_edge",
+      "edge": [
+        0,
+        2
+      ]
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/303",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "1",
+    "model_answer": "0",
+    "model": "Qwen2.5-VL-7B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "0.",
+    "corrupted_answer": "1",
+    "corruption": {
+      "type": "add_edge",
+      "edge": [
+        0,
+        2
+      ]
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/304",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "1",
+    "model_answer": "0",
+    "model": "Qwen2.5-VL-7B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "0.",
+    "corrupted_answer": "1",
+    "corruption": {
+      "type": "add_edge",
+      "edge": [
+        0,
+        2
+      ]
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/305",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "1",
+    "model_answer": "0",
+    "model": "Qwen2.5-VL-7B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "0.",
+    "corrupted_answer": "1",
+    "corruption": {
+      "type": "add_edge",
+      "edge": [
+        0,
+        2
+      ]
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/306",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "1",
+    "model_answer": "0",
+    "model": "Qwen2.5-VL-7B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "0.",
+    "corrupted_answer": "1",
+    "corruption": {
+      "type": "add_edge",
+      "edge": [
+        0,
+        2
+      ]
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/307",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "1",
+    "model_answer": "0",
+    "model": "Qwen2.5-VL-7B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "0.",
+    "corrupted_answer": "1",
+    "corruption": {
+      "type": "add_edge",
+      "edge": [
+        0,
+        2
+      ]
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/308",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "1",
+    "model_answer": "0",
+    "model": "Qwen2.5-VL-7B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "0.",
+    "corrupted_answer": "1",
+    "corruption": {
+      "type": "add_edge",
+      "edge": [
+        0,
+        2
+      ]
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/309",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "1",
+    "model_answer": "0",
+    "model": "Qwen2.5-VL-7B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "0.",
+    "corrupted_answer": "1",
+    "corruption": {
+      "type": "add_edge",
+      "edge": [
+        0,
+        2
+      ]
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/310",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "1",
+    "model_answer": "0",
+    "model": "Qwen2.5-VL-7B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "0.",
+    "corrupted_answer": "1",
+    "corruption": {
+      "type": "add_edge",
+      "edge": [
+        0,
+        2
+      ]
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/311",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "1",
+    "model_answer": "0",
+    "model": "Qwen2.5-VL-7B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "0.",
+    "corrupted_answer": "1",
+    "corruption": {
+      "type": "add_edge",
+      "edge": [
+        0,
+        2
+      ]
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/312",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "1",
+    "model_answer": "0",
+    "model": "Qwen2.5-VL-7B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "0.",
+    "corrupted_answer": "1",
+    "corruption": {
+      "type": "add_edge",
+      "edge": [
+        0,
+        2
+      ]
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/313",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "1",
+    "model_answer": "0",
+    "model": "Qwen2.5-VL-7B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "0.",
+    "corrupted_answer": "1",
+    "corruption": {
+      "type": "add_edge",
+      "edge": [
+        0,
+        2
+      ]
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/314",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "1",
+    "model_answer": "0",
+    "model": "Qwen2.5-VL-7B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "0.",
+    "corrupted_answer": "1",
+    "corruption": {
+      "type": "add_edge",
+      "edge": [
+        0,
+        2
+      ]
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/315",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "1",
+    "model_answer": "0",
+    "model": "Qwen2.5-VL-7B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "0.",
+    "corrupted_answer": "1",
+    "corruption": {
+      "type": "add_edge",
+      "edge": [
+        0,
+        2
+      ]
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/316",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "1",
+    "model_answer": "0",
+    "model": "Qwen2.5-VL-7B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "0.",
+    "corrupted_answer": "1",
+    "corruption": {
+      "type": "add_edge",
+      "edge": [
+        0,
+        2
+      ]
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/317",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "1",
+    "model_answer": "0",
+    "model": "Qwen2.5-VL-7B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "0.",
+    "corrupted_answer": "1",
+    "corruption": {
+      "type": "add_edge",
+      "edge": [
+        0,
+        2
+      ]
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/318",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "1",
+    "model_answer": "0",
+    "model": "Qwen2.5-VL-7B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "0.",
+    "corrupted_answer": "1",
+    "corruption": {
+      "type": "add_edge",
+      "edge": [
+        0,
+        2
+      ]
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/319",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "1",
+    "model_answer": "0",
+    "model": "Qwen2.5-VL-7B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "0.",
+    "corrupted_answer": "1",
+    "corruption": {
+      "type": "add_edge",
+      "edge": [
+        0,
+        2
+      ]
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/320",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "1",
+    "model_answer": "0",
+    "model": "Qwen2.5-VL-7B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "0.",
+    "corrupted_answer": "1",
+    "corruption": {
+      "type": "add_edge",
+      "edge": [
+        0,
+        2
+      ]
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/321",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "1",
+    "model_answer": "0",
+    "model": "Qwen2.5-VL-7B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "0.",
+    "corrupted_answer": "1",
+    "corruption": {
+      "type": "add_edge",
+      "edge": [
+        0,
+        2
+      ]
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/322",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "1",
+    "model_answer": "0",
+    "model": "Qwen2.5-VL-7B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "0.",
+    "corrupted_answer": "1",
+    "corruption": {
+      "type": "add_edge",
+      "edge": [
+        0,
+        2
+      ]
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/323",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "1",
+    "model_answer": "0",
+    "model": "Qwen2.5-VL-7B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "0.",
+    "corrupted_answer": "1",
+    "corruption": {
+      "type": "add_edge",
+      "edge": [
+        0,
+        2
+      ]
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/324",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "1",
+    "model_answer": "0",
+    "model": "Qwen2.5-VL-7B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "0.",
+    "corrupted_answer": "1",
+    "corruption": {
+      "type": "add_edge",
+      "edge": [
+        0,
+        2
+      ]
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/325",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "1",
+    "model_answer": "0",
+    "model": "Qwen2.5-VL-7B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "0.",
+    "corrupted_answer": "1",
+    "corruption": {
+      "type": "add_edge",
+      "edge": [
+        0,
+        2
+      ]
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/326",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "1",
+    "model_answer": "0",
+    "model": "Qwen2.5-VL-7B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "0.",
+    "corrupted_answer": "1",
+    "corruption": {
+      "type": "add_edge",
+      "edge": [
+        0,
+        2
+      ]
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/327",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "1",
+    "model_answer": "0",
+    "model": "Qwen2.5-VL-7B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "0.",
+    "corrupted_answer": "1",
+    "corruption": {
+      "type": "add_edge",
+      "edge": [
+        0,
+        2
+      ]
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/328",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "1",
+    "model_answer": "0",
+    "model": "Qwen2.5-VL-7B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "0.",
+    "corrupted_answer": "1",
+    "corruption": {
+      "type": "add_edge",
+      "edge": [
+        0,
+        2
+      ]
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/329",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "1",
+    "model_answer": "0",
+    "model": "Qwen2.5-VL-7B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "0.",
+    "corrupted_answer": "1",
+    "corruption": {
+      "type": "add_edge",
+      "edge": [
+        0,
+        2
+      ]
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/330",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "1",
+    "model_answer": "0",
+    "model": "Qwen2.5-VL-7B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "0.",
+    "corrupted_answer": "1",
+    "corruption": {
+      "type": "add_edge",
+      "edge": [
+        0,
+        2
+      ]
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/331",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "1",
+    "model_answer": "0",
+    "model": "Qwen2.5-VL-7B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "0.",
+    "corrupted_answer": "1",
+    "corruption": {
+      "type": "add_edge",
+      "edge": [
+        0,
+        2
+      ]
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/332",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "1",
+    "model_answer": "0",
+    "model": "Qwen2.5-VL-7B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "0.",
+    "corrupted_answer": "1",
+    "corruption": {
+      "type": "add_edge",
+      "edge": [
+        0,
+        2
+      ]
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/333",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "1",
+    "model_answer": "0",
+    "model": "Qwen2.5-VL-7B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "0.",
+    "corrupted_answer": "1",
+    "corruption": {
+      "type": "add_edge",
+      "edge": [
+        0,
+        2
+      ]
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/334",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "1",
+    "model_answer": "0",
+    "model": "Qwen2.5-VL-7B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "0.",
+    "corrupted_answer": "1",
+    "corruption": {
+      "type": "add_edge",
+      "edge": [
+        0,
+        2
+      ]
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/335",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "1",
+    "model_answer": "0",
+    "model": "Qwen2.5-VL-7B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "0.",
+    "corrupted_answer": "1",
+    "corruption": {
+      "type": "add_edge",
+      "edge": [
+        0,
+        2
+      ]
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/336",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "1",
+    "model_answer": "0",
+    "model": "Qwen2.5-VL-7B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "0.",
+    "corrupted_answer": "1",
+    "corruption": {
+      "type": "add_edge",
+      "edge": [
+        0,
+        2
+      ]
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/337",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "1",
+    "model_answer": "0",
+    "model": "Qwen2.5-VL-7B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "0.",
+    "corrupted_answer": "1",
+    "corruption": {
+      "type": "add_edge",
+      "edge": [
+        0,
+        2
+      ]
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/338",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "1",
+    "model_answer": "0",
+    "model": "Qwen2.5-VL-7B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "0.",
+    "corrupted_answer": "1",
+    "corruption": {
+      "type": "add_edge",
+      "edge": [
+        0,
+        2
+      ]
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/339",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "1",
+    "model_answer": "0",
+    "model": "Qwen2.5-VL-7B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "0.",
+    "corrupted_answer": "1",
+    "corruption": {
+      "type": "add_edge",
+      "edge": [
+        0,
+        2
+      ]
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/340",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "1",
+    "model_answer": "0",
+    "model": "Qwen2.5-VL-7B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "0.",
+    "corrupted_answer": "1",
+    "corruption": {
+      "type": "add_edge",
+      "edge": [
+        0,
+        2
+      ]
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/341",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "1",
+    "model_answer": "0",
+    "model": "Qwen2.5-VL-7B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "0.",
+    "corrupted_answer": "1",
+    "corruption": {
+      "type": "add_edge",
+      "edge": [
+        0,
+        2
+      ]
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/342",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "1",
+    "model_answer": "0",
+    "model": "Qwen2.5-VL-7B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "0.",
+    "corrupted_answer": "1",
+    "corruption": {
+      "type": "add_edge",
+      "edge": [
+        0,
+        2
+      ]
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/343",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "1",
+    "model_answer": "0",
+    "model": "Qwen2.5-VL-7B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "0.",
+    "corrupted_answer": "1",
+    "corruption": {
+      "type": "add_edge",
+      "edge": [
+        0,
+        2
+      ]
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/344",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "1",
+    "model_answer": "0",
+    "model": "Qwen2.5-VL-7B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "0.",
+    "corrupted_answer": "1",
+    "corruption": {
+      "type": "add_edge",
+      "edge": [
+        0,
+        2
+      ]
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/345",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "1",
+    "model_answer": "0",
+    "model": "Qwen2.5-VL-7B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "0.",
+    "corrupted_answer": "1",
+    "corruption": {
+      "type": "add_edge",
+      "edge": [
+        0,
+        2
+      ]
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/346",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "1",
+    "model_answer": "0",
+    "model": "Qwen2.5-VL-7B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "0.",
+    "corrupted_answer": "1",
+    "corruption": {
+      "type": "add_edge",
+      "edge": [
+        0,
+        2
+      ]
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/347",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "1",
+    "model_answer": "0",
+    "model": "Qwen2.5-VL-7B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "0.",
+    "corrupted_answer": "1",
+    "corruption": {
+      "type": "add_edge",
+      "edge": [
+        0,
+        2
+      ]
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/348",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "1",
+    "model_answer": "0",
+    "model": "Qwen2.5-VL-7B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "0.",
+    "corrupted_answer": "1",
+    "corruption": {
+      "type": "add_edge",
+      "edge": [
+        0,
+        2
+      ]
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/349",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "1",
+    "model_answer": "0",
+    "model": "Qwen2.5-VL-7B-Instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "0.",
+    "corrupted_answer": "1",
+    "corruption": {
+      "type": "add_edge",
+      "edge": [
+        0,
+        2
+      ]
+    }
+  }
+]

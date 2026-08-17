@@ -223,7 +223,6 @@ class QwenVLModel(VLMModel):
             generated = self.model.generate(
                 **proc_inputs,
                 max_new_tokens=self.max_new_tokens,
-                output_scores=True,
                 return_dict_in_generate=True,
             )
 
