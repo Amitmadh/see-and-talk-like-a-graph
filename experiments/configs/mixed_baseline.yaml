@@ -3,8 +3,8 @@
 data_dir: data
 
 tasks:
-   - connected_nodes
-   - shortest_path
+  #  - connected_nodes
+  #  - shortest_path
    - node_degree
    - node_count
    - edge_existence
