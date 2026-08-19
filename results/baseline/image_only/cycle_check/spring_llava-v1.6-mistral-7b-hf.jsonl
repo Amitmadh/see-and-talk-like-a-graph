@@ -1,0 +1,6302 @@
+[
+  {
+    "sample_id": "cycle_check/adjacency/test/0",
+    "question": "Q: Is there a cycle in this graph?\nA: ",
+    "expected_answer": "Yes, there is a cycle.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.8709151148796082,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "cycle_check/adjacency/test/1",
+    "question": "Q: Is there a cycle in this graph?\nA: ",
+    "expected_answer": "Yes, there is a cycle.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.8882275819778442,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "cycle_check/adjacency/test/2",
+    "question": "Q: Is there a cycle in this graph?\nA: ",
+    "expected_answer": "No, there is no cycle.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.849899172782898,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "cycle_check/adjacency/test/3",
+    "question": "Q: Is there a cycle in this graph?\nA: ",
+    "expected_answer": "Yes, there is a cycle.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.8934299349784851,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "cycle_check/adjacency/test/4",
+    "question": "Q: Is there a cycle in this graph?\nA: ",
+    "expected_answer": "Yes, there is a cycle.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.8965205550193787,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "cycle_check/adjacency/test/5",
+    "question": "Q: Is there a cycle in this graph?\nA: ",
+    "expected_answer": "Yes, there is a cycle.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.8935310244560242,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "cycle_check/adjacency/test/6",
+    "question": "Q: Is there a cycle in this graph?\nA: ",
+    "expected_answer": "Yes, there is a cycle.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.871288001537323,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "cycle_check/adjacency/test/7",
+    "question": "Q: Is there a cycle in this graph?\nA: ",
+    "expected_answer": "Yes, there is a cycle.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.8828856348991394,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "cycle_check/adjacency/test/8",
+    "question": "Q: Is there a cycle in this graph?\nA: ",
+    "expected_answer": "Yes, there is a cycle.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.8964029550552368,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "cycle_check/adjacency/test/9",
+    "question": "Q: Is there a cycle in this graph?\nA: ",
+    "expected_answer": "Yes, there is a cycle.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.8668844103813171,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "cycle_check/adjacency/test/10",
+    "question": "Q: Is there a cycle in this graph?\nA: ",
+    "expected_answer": "Yes, there is a cycle.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.8892961740493774,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "cycle_check/adjacency/test/11",
+    "question": "Q: Is there a cycle in this graph?\nA: ",
+    "expected_answer": "Yes, there is a cycle.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.9014272093772888,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "cycle_check/adjacency/test/12",
+    "question": "Q: Is there a cycle in this graph?\nA: ",
+    "expected_answer": "Yes, there is a cycle.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.8901386260986328,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "cycle_check/adjacency/test/13",
+    "question": "Q: Is there a cycle in this graph?\nA: ",
+    "expected_answer": "Yes, there is a cycle.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.8935079574584961,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "cycle_check/adjacency/test/14",
+    "question": "Q: Is there a cycle in this graph?\nA: ",
+    "expected_answer": "Yes, there is a cycle.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.8797334432601929,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "cycle_check/adjacency/test/15",
+    "question": "Q: Is there a cycle in this graph?\nA: ",
+    "expected_answer": "Yes, there is a cycle.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.855494499206543,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "cycle_check/adjacency/test/16",
+    "question": "Q: Is there a cycle in this graph?\nA: ",
+    "expected_answer": "Yes, there is a cycle.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.8741311430931091,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "cycle_check/adjacency/test/17",
+    "question": "Q: Is there a cycle in this graph?\nA: ",
+    "expected_answer": "Yes, there is a cycle.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.8802753686904907,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "cycle_check/adjacency/test/18",
+    "question": "Q: Is there a cycle in this graph?\nA: ",
+    "expected_answer": "Yes, there is a cycle.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.8513643145561218,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "cycle_check/adjacency/test/19",
+    "question": "Q: Is there a cycle in this graph?\nA: ",
+    "expected_answer": "Yes, there is a cycle.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.8889307379722595,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "cycle_check/adjacency/test/20",
+    "question": "Q: Is there a cycle in this graph?\nA: ",
+    "expected_answer": "Yes, there is a cycle.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.8652806282043457,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "cycle_check/adjacency/test/21",
+    "question": "Q: Is there a cycle in this graph?\nA: ",
+    "expected_answer": "Yes, there is a cycle.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.8699964880943298,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "cycle_check/adjacency/test/22",
+    "question": "Q: Is there a cycle in this graph?\nA: ",
+    "expected_answer": "Yes, there is a cycle.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.8930648565292358,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "cycle_check/adjacency/test/23",
+    "question": "Q: Is there a cycle in this graph?\nA: ",
+    "expected_answer": "Yes, there is a cycle.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.892551600933075,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "cycle_check/adjacency/test/24",
+    "question": "Q: Is there a cycle in this graph?\nA: ",
+    "expected_answer": "Yes, there is a cycle.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.8921813368797302,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "cycle_check/adjacency/test/25",
+    "question": "Q: Is there a cycle in this graph?\nA: ",
+    "expected_answer": "Yes, there is a cycle.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.8527876734733582,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "cycle_check/adjacency/test/26",
+    "question": "Q: Is there a cycle in this graph?\nA: ",
+    "expected_answer": "Yes, there is a cycle.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.8856937885284424,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "cycle_check/adjacency/test/27",
+    "question": "Q: Is there a cycle in this graph?\nA: ",
+    "expected_answer": "No, there is no cycle.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.8312352895736694,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "cycle_check/adjacency/test/28",
+    "question": "Q: Is there a cycle in this graph?\nA: ",
+    "expected_answer": "Yes, there is a cycle.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.8908731341362,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "cycle_check/adjacency/test/29",
+    "question": "Q: Is there a cycle in this graph?\nA: ",
+    "expected_answer": "Yes, there is a cycle.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.8647043108940125,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "cycle_check/adjacency/test/30",
+    "question": "Q: Is there a cycle in this graph?\nA: ",
+    "expected_answer": "No, there is no cycle.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.8266507983207703,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "cycle_check/adjacency/test/31",
+    "question": "Q: Is there a cycle in this graph?\nA: ",
+    "expected_answer": "Yes, there is a cycle.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.8917155265808105,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "cycle_check/adjacency/test/32",
+    "question": "Q: Is there a cycle in this graph?\nA: ",
+    "expected_answer": "Yes, there is a cycle.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.8651891946792603,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "cycle_check/adjacency/test/33",
+    "question": "Q: Is there a cycle in this graph?\nA: ",
+    "expected_answer": "Yes, there is a cycle.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.8978642225265503,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "cycle_check/adjacency/test/34",
+    "question": "Q: Is there a cycle in this graph?\nA: ",
+    "expected_answer": "Yes, there is a cycle.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.8902227878570557,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "cycle_check/adjacency/test/35",
+    "question": "Q: Is there a cycle in this graph?\nA: ",
+    "expected_answer": "Yes, there is a cycle.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.8919309377670288,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "cycle_check/adjacency/test/36",
+    "question": "Q: Is there a cycle in this graph?\nA: ",
+    "expected_answer": "Yes, there is a cycle.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.8801950216293335,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "cycle_check/adjacency/test/37",
+    "question": "Q: Is there a cycle in this graph?\nA: ",
+    "expected_answer": "Yes, there is a cycle.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.872353732585907,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "cycle_check/adjacency/test/38",
+    "question": "Q: Is there a cycle in this graph?\nA: ",
+    "expected_answer": "No, there is no cycle.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.84619140625,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "cycle_check/adjacency/test/39",
+    "question": "Q: Is there a cycle in this graph?\nA: ",
+    "expected_answer": "Yes, there is a cycle.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.8848975896835327,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "cycle_check/adjacency/test/40",
+    "question": "Q: Is there a cycle in this graph?\nA: ",
+    "expected_answer": "Yes, there is a cycle.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.8527815341949463,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "cycle_check/adjacency/test/41",
+    "question": "Q: Is there a cycle in this graph?\nA: ",
+    "expected_answer": "Yes, there is a cycle.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.8885480165481567,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "cycle_check/adjacency/test/42",
+    "question": "Q: Is there a cycle in this graph?\nA: ",
+    "expected_answer": "No, there is no cycle.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.853115439414978,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "cycle_check/adjacency/test/43",
+    "question": "Q: Is there a cycle in this graph?\nA: ",
+    "expected_answer": "Yes, there is a cycle.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.8596805334091187,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "cycle_check/adjacency/test/44",
+    "question": "Q: Is there a cycle in this graph?\nA: ",
+    "expected_answer": "Yes, there is a cycle.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.8741311430931091,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "cycle_check/adjacency/test/45",
+    "question": "Q: Is there a cycle in this graph?\nA: ",
+    "expected_answer": "Yes, there is a cycle.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.8843635320663452,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "cycle_check/adjacency/test/46",
+    "question": "Q: Is there a cycle in this graph?\nA: ",
+    "expected_answer": "No, there is no cycle.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.84619140625,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "cycle_check/adjacency/test/47",
+    "question": "Q: Is there a cycle in this graph?\nA: ",
+    "expected_answer": "Yes, there is a cycle.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.8951048851013184,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "cycle_check/adjacency/test/48",
+    "question": "Q: Is there a cycle in this graph?\nA: ",
+    "expected_answer": "Yes, there is a cycle.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.8946673274040222,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "cycle_check/adjacency/test/49",
+    "question": "Q: Is there a cycle in this graph?\nA: ",
+    "expected_answer": "Yes, there is a cycle.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.8936912417411804,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "cycle_check/adjacency/test/50",
+    "question": "Q: Is there a cycle in this graph?\nA: ",
+    "expected_answer": "Yes, there is a cycle.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.8989778757095337,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "cycle_check/adjacency/test/51",
+    "question": "Q: Is there a cycle in this graph?\nA: ",
+    "expected_answer": "Yes, there is a cycle.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.8887057304382324,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "cycle_check/adjacency/test/52",
+    "question": "Q: Is there a cycle in this graph?\nA: ",
+    "expected_answer": "No, there is no cycle.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.8422565460205078,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "cycle_check/adjacency/test/53",
+    "question": "Q: Is there a cycle in this graph?\nA: ",
+    "expected_answer": "Yes, there is a cycle.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.895638644695282,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "cycle_check/adjacency/test/54",
+    "question": "Q: Is there a cycle in this graph?\nA: ",
+    "expected_answer": "Yes, there is a cycle.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.894507884979248,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "cycle_check/adjacency/test/55",
+    "question": "Q: Is there a cycle in this graph?\nA: ",
+    "expected_answer": "Yes, there is a cycle.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.8782409429550171,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "cycle_check/adjacency/test/56",
+    "question": "Q: Is there a cycle in this graph?\nA: ",
+    "expected_answer": "Yes, there is a cycle.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.8966279029846191,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "cycle_check/adjacency/test/57",
+    "question": "Q: Is there a cycle in this graph?\nA: ",
+    "expected_answer": "No, there is no cycle.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.8509172201156616,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "cycle_check/adjacency/test/58",
+    "question": "Q: Is there a cycle in this graph?\nA: ",
+    "expected_answer": "Yes, there is a cycle.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.8975293040275574,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "cycle_check/adjacency/test/59",
+    "question": "Q: Is there a cycle in this graph?\nA: ",
+    "expected_answer": "Yes, there is a cycle.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.8770065307617188,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "cycle_check/adjacency/test/60",
+    "question": "Q: Is there a cycle in this graph?\nA: ",
+    "expected_answer": "Yes, there is a cycle.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.875411868095398,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "cycle_check/adjacency/test/61",
+    "question": "Q: Is there a cycle in this graph?\nA: ",
+    "expected_answer": "Yes, there is a cycle.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.8948208689689636,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "cycle_check/adjacency/test/62",
+    "question": "Q: Is there a cycle in this graph?\nA: ",
+    "expected_answer": "Yes, there is a cycle.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.894542396068573,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "cycle_check/adjacency/test/63",
+    "question": "Q: Is there a cycle in this graph?\nA: ",
+    "expected_answer": "Yes, there is a cycle.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.8897620439529419,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "cycle_check/adjacency/test/64",
+    "question": "Q: Is there a cycle in this graph?\nA: ",
+    "expected_answer": "No, there is no cycle.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.8871237635612488,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "cycle_check/adjacency/test/65",
+    "question": "Q: Is there a cycle in this graph?\nA: ",
+    "expected_answer": "No, there is no cycle.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.889607310295105,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "cycle_check/adjacency/test/66",
+    "question": "Q: Is there a cycle in this graph?\nA: ",
+    "expected_answer": "Yes, there is a cycle.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.8643185496330261,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "cycle_check/adjacency/test/67",
+    "question": "Q: Is there a cycle in this graph?\nA: ",
+    "expected_answer": "Yes, there is a cycle.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.855221688747406,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "cycle_check/adjacency/test/68",
+    "question": "Q: Is there a cycle in this graph?\nA: ",
+    "expected_answer": "Yes, there is a cycle.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.8791993856430054,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "cycle_check/adjacency/test/69",
+    "question": "Q: Is there a cycle in this graph?\nA: ",
+    "expected_answer": "No, there is no cycle.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.889398455619812,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "cycle_check/adjacency/test/70",
+    "question": "Q: Is there a cycle in this graph?\nA: ",
+    "expected_answer": "No, there is no cycle.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.8896629214286804,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "cycle_check/adjacency/test/71",
+    "question": "Q: Is there a cycle in this graph?\nA: ",
+    "expected_answer": "Yes, there is a cycle.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.8847825527191162,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "cycle_check/adjacency/test/72",
+    "question": "Q: Is there a cycle in this graph?\nA: ",
+    "expected_answer": "No, there is no cycle.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.890952467918396,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "cycle_check/adjacency/test/73",
+    "question": "Q: Is there a cycle in this graph?\nA: ",
+    "expected_answer": "Yes, there is a cycle.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.8892743587493896,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "cycle_check/adjacency/test/74",
+    "question": "Q: Is there a cycle in this graph?\nA: ",
+    "expected_answer": "Yes, there is a cycle.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.892244279384613,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "cycle_check/adjacency/test/75",
+    "question": "Q: Is there a cycle in this graph?\nA: ",
+    "expected_answer": "Yes, there is a cycle.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.8804210424423218,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "cycle_check/adjacency/test/76",
+    "question": "Q: Is there a cycle in this graph?\nA: ",
+    "expected_answer": "Yes, there is a cycle.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.8761906027793884,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "cycle_check/adjacency/test/77",
+    "question": "Q: Is there a cycle in this graph?\nA: ",
+    "expected_answer": "Yes, there is a cycle.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.878939151763916,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "cycle_check/adjacency/test/78",
+    "question": "Q: Is there a cycle in this graph?\nA: ",
+    "expected_answer": "Yes, there is a cycle.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.8771438002586365,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "cycle_check/adjacency/test/79",
+    "question": "Q: Is there a cycle in this graph?\nA: ",
+    "expected_answer": "Yes, there is a cycle.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.8852273225784302,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "cycle_check/adjacency/test/80",
+    "question": "Q: Is there a cycle in this graph?\nA: ",
+    "expected_answer": "Yes, there is a cycle.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.8759329319000244,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "cycle_check/adjacency/test/81",
+    "question": "Q: Is there a cycle in this graph?\nA: ",
+    "expected_answer": "Yes, there is a cycle.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.8862075805664062,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "cycle_check/adjacency/test/82",
+    "question": "Q: Is there a cycle in this graph?\nA: ",
+    "expected_answer": "Yes, there is a cycle.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.883686900138855,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "cycle_check/adjacency/test/83",
+    "question": "Q: Is there a cycle in this graph?\nA: ",
+    "expected_answer": "Yes, there is a cycle.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.8911811709403992,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "cycle_check/adjacency/test/84",
+    "question": "Q: Is there a cycle in this graph?\nA: ",
+    "expected_answer": "Yes, there is a cycle.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.8910136222839355,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "cycle_check/adjacency/test/85",
+    "question": "Q: Is there a cycle in this graph?\nA: ",
+    "expected_answer": "Yes, there is a cycle.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.8938192129135132,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "cycle_check/adjacency/test/86",
+    "question": "Q: Is there a cycle in this graph?\nA: ",
+    "expected_answer": "No, there is no cycle.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.8422565460205078,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "cycle_check/adjacency/test/87",
+    "question": "Q: Is there a cycle in this graph?\nA: ",
+    "expected_answer": "Yes, there is a cycle.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.8900762796401978,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "cycle_check/adjacency/test/88",
+    "question": "Q: Is there a cycle in this graph?\nA: ",
+    "expected_answer": "Yes, there is a cycle.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.8731334209442139,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "cycle_check/adjacency/test/89",
+    "question": "Q: Is there a cycle in this graph?\nA: ",
+    "expected_answer": "Yes, there is a cycle.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.8786565065383911,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "cycle_check/adjacency/test/90",
+    "question": "Q: Is there a cycle in this graph?\nA: ",
+    "expected_answer": "Yes, there is a cycle.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.8857133388519287,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "cycle_check/adjacency/test/91",
+    "question": "Q: Is there a cycle in this graph?\nA: ",
+    "expected_answer": "Yes, there is a cycle.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.8926438093185425,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "cycle_check/adjacency/test/92",
+    "question": "Q: Is there a cycle in this graph?\nA: ",
+    "expected_answer": "Yes, there is a cycle.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.8613802790641785,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "cycle_check/adjacency/test/93",
+    "question": "Q: Is there a cycle in this graph?\nA: ",
+    "expected_answer": "Yes, there is a cycle.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.8910075426101685,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "cycle_check/adjacency/test/94",
+    "question": "Q: Is there a cycle in this graph?\nA: ",
+    "expected_answer": "No, there is no cycle.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.8480762243270874,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "cycle_check/adjacency/test/95",
+    "question": "Q: Is there a cycle in this graph?\nA: ",
+    "expected_answer": "Yes, there is a cycle.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.8936402201652527,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "cycle_check/adjacency/test/96",
+    "question": "Q: Is there a cycle in this graph?\nA: ",
+    "expected_answer": "Yes, there is a cycle.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.8711966276168823,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "cycle_check/adjacency/test/97",
+    "question": "Q: Is there a cycle in this graph?\nA: ",
+    "expected_answer": "Yes, there is a cycle.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.9023737907409668,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "cycle_check/adjacency/test/98",
+    "question": "Q: Is there a cycle in this graph?\nA: ",
+    "expected_answer": "Yes, there is a cycle.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.889633297920227,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "cycle_check/adjacency/test/99",
+    "question": "Q: Is there a cycle in this graph?\nA: ",
+    "expected_answer": "No, there is no cycle.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.8858906030654907,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "cycle_check/adjacency/test/100",
+    "question": "Q: Is there a cycle in this graph?\nA: ",
+    "expected_answer": "Yes, there is a cycle.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.8915947675704956,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "cycle_check/adjacency/test/101",
+    "question": "Q: Is there a cycle in this graph?\nA: ",
+    "expected_answer": "Yes, there is a cycle.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.8653304576873779,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "cycle_check/adjacency/test/102",
+    "question": "Q: Is there a cycle in this graph?\nA: ",
+    "expected_answer": "Yes, there is a cycle.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.8814115524291992,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "cycle_check/adjacency/test/103",
+    "question": "Q: Is there a cycle in this graph?\nA: ",
+    "expected_answer": "Yes, there is a cycle.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.8949834704399109,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "cycle_check/adjacency/test/104",
+    "question": "Q: Is there a cycle in this graph?\nA: ",
+    "expected_answer": "Yes, there is a cycle.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.8839038610458374,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "cycle_check/adjacency/test/105",
+    "question": "Q: Is there a cycle in this graph?\nA: ",
+    "expected_answer": "Yes, there is a cycle.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.8758455514907837,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "cycle_check/adjacency/test/106",
+    "question": "Q: Is there a cycle in this graph?\nA: ",
+    "expected_answer": "Yes, there is a cycle.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.8947782516479492,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "cycle_check/adjacency/test/107",
+    "question": "Q: Is there a cycle in this graph?\nA: ",
+    "expected_answer": "Yes, there is a cycle.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.8442379832267761,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "cycle_check/adjacency/test/108",
+    "question": "Q: Is there a cycle in this graph?\nA: ",
+    "expected_answer": "Yes, there is a cycle.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.895226240158081,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "cycle_check/adjacency/test/109",
+    "question": "Q: Is there a cycle in this graph?\nA: ",
+    "expected_answer": "No, there is no cycle.",
+    "model_answer": "False",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "False",
+      "confidence": 0.8285393714904785,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "cycle_check/adjacency/test/110",
+    "question": "Q: Is there a cycle in this graph?\nA: ",
+    "expected_answer": "Yes, there is a cycle.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.8769748210906982,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "cycle_check/adjacency/test/111",
+    "question": "Q: Is there a cycle in this graph?\nA: ",
+    "expected_answer": "Yes, there is a cycle.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.8916504383087158,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "cycle_check/adjacency/test/112",
+    "question": "Q: Is there a cycle in this graph?\nA: ",
+    "expected_answer": "Yes, there is a cycle.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.8902015089988708,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "cycle_check/adjacency/test/113",
+    "question": "Q: Is there a cycle in this graph?\nA: ",
+    "expected_answer": "Yes, there is a cycle.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.8918884992599487,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "cycle_check/adjacency/test/114",
+    "question": "Q: Is there a cycle in this graph?\nA: ",
+    "expected_answer": "Yes, there is a cycle.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.8864445686340332,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "cycle_check/adjacency/test/115",
+    "question": "Q: Is there a cycle in this graph?\nA: ",
+    "expected_answer": "Yes, there is a cycle.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.879248857498169,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "cycle_check/adjacency/test/116",
+    "question": "Q: Is there a cycle in this graph?\nA: ",
+    "expected_answer": "Yes, there is a cycle.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.8798102140426636,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "cycle_check/adjacency/test/117",
+    "question": "Q: Is there a cycle in this graph?\nA: ",
+    "expected_answer": "Yes, there is a cycle.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.8499104976654053,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "cycle_check/adjacency/test/118",
+    "question": "Q: Is there a cycle in this graph?\nA: ",
+    "expected_answer": "Yes, there is a cycle.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.8277005553245544,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "cycle_check/adjacency/test/119",
+    "question": "Q: Is there a cycle in this graph?\nA: ",
+    "expected_answer": "Yes, there is a cycle.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.8946514129638672,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "cycle_check/adjacency/test/120",
+    "question": "Q: Is there a cycle in this graph?\nA: ",
+    "expected_answer": "Yes, there is a cycle.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.8973110914230347,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "cycle_check/adjacency/test/121",
+    "question": "Q: Is there a cycle in this graph?\nA: ",
+    "expected_answer": "Yes, there is a cycle.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.8650822639465332,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "cycle_check/adjacency/test/122",
+    "question": "Q: Is there a cycle in this graph?\nA: ",
+    "expected_answer": "Yes, there is a cycle.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.8943192958831787,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "cycle_check/adjacency/test/123",
+    "question": "Q: Is there a cycle in this graph?\nA: ",
+    "expected_answer": "Yes, there is a cycle.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.8929367065429688,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "cycle_check/adjacency/test/124",
+    "question": "Q: Is there a cycle in this graph?\nA: ",
+    "expected_answer": "Yes, there is a cycle.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.8895658850669861,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "cycle_check/adjacency/test/125",
+    "question": "Q: Is there a cycle in this graph?\nA: ",
+    "expected_answer": "Yes, there is a cycle.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.8446127772331238,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "cycle_check/adjacency/test/126",
+    "question": "Q: Is there a cycle in this graph?\nA: ",
+    "expected_answer": "Yes, there is a cycle.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.8574134707450867,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "cycle_check/adjacency/test/127",
+    "question": "Q: Is there a cycle in this graph?\nA: ",
+    "expected_answer": "Yes, there is a cycle.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.8603194952011108,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "cycle_check/adjacency/test/128",
+    "question": "Q: Is there a cycle in this graph?\nA: ",
+    "expected_answer": "Yes, there is a cycle.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.8966281414031982,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "cycle_check/adjacency/test/129",
+    "question": "Q: Is there a cycle in this graph?\nA: ",
+    "expected_answer": "Yes, there is a cycle.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.884573221206665,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "cycle_check/adjacency/test/130",
+    "question": "Q: Is there a cycle in this graph?\nA: ",
+    "expected_answer": "Yes, there is a cycle.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.8910560607910156,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "cycle_check/adjacency/test/131",
+    "question": "Q: Is there a cycle in this graph?\nA: ",
+    "expected_answer": "Yes, there is a cycle.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.8882758021354675,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "cycle_check/adjacency/test/132",
+    "question": "Q: Is there a cycle in this graph?\nA: ",
+    "expected_answer": "Yes, there is a cycle.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.8506057262420654,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "cycle_check/adjacency/test/133",
+    "question": "Q: Is there a cycle in this graph?\nA: ",
+    "expected_answer": "Yes, there is a cycle.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.8950560092926025,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "cycle_check/adjacency/test/134",
+    "question": "Q: Is there a cycle in this graph?\nA: ",
+    "expected_answer": "Yes, there is a cycle.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.8872960805892944,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "cycle_check/adjacency/test/135",
+    "question": "Q: Is there a cycle in this graph?\nA: ",
+    "expected_answer": "Yes, there is a cycle.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.881024956703186,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "cycle_check/adjacency/test/136",
+    "question": "Q: Is there a cycle in this graph?\nA: ",
+    "expected_answer": "Yes, there is a cycle.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.8551955223083496,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "cycle_check/adjacency/test/137",
+    "question": "Q: Is there a cycle in this graph?\nA: ",
+    "expected_answer": "Yes, there is a cycle.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.888874888420105,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "cycle_check/adjacency/test/138",
+    "question": "Q: Is there a cycle in this graph?\nA: ",
+    "expected_answer": "Yes, there is a cycle.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.8612396121025085,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "cycle_check/adjacency/test/139",
+    "question": "Q: Is there a cycle in this graph?\nA: ",
+    "expected_answer": "No, there is no cycle.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.8340486288070679,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "cycle_check/adjacency/test/140",
+    "question": "Q: Is there a cycle in this graph?\nA: ",
+    "expected_answer": "Yes, there is a cycle.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.8937029242515564,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "cycle_check/adjacency/test/141",
+    "question": "Q: Is there a cycle in this graph?\nA: ",
+    "expected_answer": "Yes, there is a cycle.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.8626567721366882,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "cycle_check/adjacency/test/142",
+    "question": "Q: Is there a cycle in this graph?\nA: ",
+    "expected_answer": "Yes, there is a cycle.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.8851003646850586,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "cycle_check/adjacency/test/143",
+    "question": "Q: Is there a cycle in this graph?\nA: ",
+    "expected_answer": "Yes, there is a cycle.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.8891552686691284,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "cycle_check/adjacency/test/144",
+    "question": "Q: Is there a cycle in this graph?\nA: ",
+    "expected_answer": "Yes, there is a cycle.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.8718177676200867,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "cycle_check/adjacency/test/145",
+    "question": "Q: Is there a cycle in this graph?\nA: ",
+    "expected_answer": "Yes, there is a cycle.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.8815276026725769,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "cycle_check/adjacency/test/146",
+    "question": "Q: Is there a cycle in this graph?\nA: ",
+    "expected_answer": "Yes, there is a cycle.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.8740595579147339,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "cycle_check/adjacency/test/147",
+    "question": "Q: Is there a cycle in this graph?\nA: ",
+    "expected_answer": "Yes, there is a cycle.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.8573605418205261,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "cycle_check/adjacency/test/148",
+    "question": "Q: Is there a cycle in this graph?\nA: ",
+    "expected_answer": "Yes, there is a cycle.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.8941571116447449,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "cycle_check/adjacency/test/149",
+    "question": "Q: Is there a cycle in this graph?\nA: ",
+    "expected_answer": "Yes, there is a cycle.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.8900773525238037,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "cycle_check/adjacency/test/150",
+    "question": "Q: Is there a cycle in this graph?\nA: ",
+    "expected_answer": "Yes, there is a cycle.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.8875710368156433,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "cycle_check/adjacency/test/151",
+    "question": "Q: Is there a cycle in this graph?\nA: ",
+    "expected_answer": "Yes, there is a cycle.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.8880432844161987,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "cycle_check/adjacency/test/152",
+    "question": "Q: Is there a cycle in this graph?\nA: ",
+    "expected_answer": "Yes, there is a cycle.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.8945794105529785,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "cycle_check/adjacency/test/153",
+    "question": "Q: Is there a cycle in this graph?\nA: ",
+    "expected_answer": "Yes, there is a cycle.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.9029620885848999,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "cycle_check/adjacency/test/154",
+    "question": "Q: Is there a cycle in this graph?\nA: ",
+    "expected_answer": "Yes, there is a cycle.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.8945684432983398,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "cycle_check/adjacency/test/155",
+    "question": "Q: Is there a cycle in this graph?\nA: ",
+    "expected_answer": "Yes, there is a cycle.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.8856923580169678,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "cycle_check/adjacency/test/156",
+    "question": "Q: Is there a cycle in this graph?\nA: ",
+    "expected_answer": "Yes, there is a cycle.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.8950285911560059,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "cycle_check/adjacency/test/157",
+    "question": "Q: Is there a cycle in this graph?\nA: ",
+    "expected_answer": "Yes, there is a cycle.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.8746885657310486,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "cycle_check/adjacency/test/158",
+    "question": "Q: Is there a cycle in this graph?\nA: ",
+    "expected_answer": "Yes, there is a cycle.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.8886245489120483,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "cycle_check/adjacency/test/159",
+    "question": "Q: Is there a cycle in this graph?\nA: ",
+    "expected_answer": "Yes, there is a cycle.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.8776775598526001,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "cycle_check/adjacency/test/160",
+    "question": "Q: Is there a cycle in this graph?\nA: ",
+    "expected_answer": "Yes, there is a cycle.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.869774341583252,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "cycle_check/adjacency/test/161",
+    "question": "Q: Is there a cycle in this graph?\nA: ",
+    "expected_answer": "Yes, there is a cycle.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.8931655287742615,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "cycle_check/adjacency/test/162",
+    "question": "Q: Is there a cycle in this graph?\nA: ",
+    "expected_answer": "Yes, there is a cycle.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.8903557062149048,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "cycle_check/adjacency/test/163",
+    "question": "Q: Is there a cycle in this graph?\nA: ",
+    "expected_answer": "Yes, there is a cycle.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.8904697895050049,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "cycle_check/adjacency/test/164",
+    "question": "Q: Is there a cycle in this graph?\nA: ",
+    "expected_answer": "Yes, there is a cycle.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.9012631177902222,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "cycle_check/adjacency/test/165",
+    "question": "Q: Is there a cycle in this graph?\nA: ",
+    "expected_answer": "Yes, there is a cycle.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.8747055530548096,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "cycle_check/adjacency/test/166",
+    "question": "Q: Is there a cycle in this graph?\nA: ",
+    "expected_answer": "Yes, there is a cycle.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.863253116607666,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "cycle_check/adjacency/test/167",
+    "question": "Q: Is there a cycle in this graph?\nA: ",
+    "expected_answer": "Yes, there is a cycle.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.8642541170120239,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "cycle_check/adjacency/test/168",
+    "question": "Q: Is there a cycle in this graph?\nA: ",
+    "expected_answer": "Yes, there is a cycle.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.8608474731445312,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "cycle_check/adjacency/test/169",
+    "question": "Q: Is there a cycle in this graph?\nA: ",
+    "expected_answer": "Yes, there is a cycle.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.8847898244857788,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "cycle_check/adjacency/test/170",
+    "question": "Q: Is there a cycle in this graph?\nA: ",
+    "expected_answer": "Yes, there is a cycle.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.9009639620780945,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "cycle_check/adjacency/test/171",
+    "question": "Q: Is there a cycle in this graph?\nA: ",
+    "expected_answer": "Yes, there is a cycle.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.8709892630577087,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "cycle_check/adjacency/test/172",
+    "question": "Q: Is there a cycle in this graph?\nA: ",
+    "expected_answer": "Yes, there is a cycle.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.8699358701705933,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "cycle_check/adjacency/test/173",
+    "question": "Q: Is there a cycle in this graph?\nA: ",
+    "expected_answer": "Yes, there is a cycle.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.8845385313034058,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "cycle_check/adjacency/test/174",
+    "question": "Q: Is there a cycle in this graph?\nA: ",
+    "expected_answer": "Yes, there is a cycle.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.8896093368530273,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "cycle_check/adjacency/test/175",
+    "question": "Q: Is there a cycle in this graph?\nA: ",
+    "expected_answer": "Yes, there is a cycle.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.8637251853942871,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "cycle_check/adjacency/test/176",
+    "question": "Q: Is there a cycle in this graph?\nA: ",
+    "expected_answer": "Yes, there is a cycle.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.8965487480163574,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "cycle_check/adjacency/test/177",
+    "question": "Q: Is there a cycle in this graph?\nA: ",
+    "expected_answer": "Yes, there is a cycle.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.8858414888381958,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "cycle_check/adjacency/test/178",
+    "question": "Q: Is there a cycle in this graph?\nA: ",
+    "expected_answer": "Yes, there is a cycle.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.8920790553092957,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "cycle_check/adjacency/test/179",
+    "question": "Q: Is there a cycle in this graph?\nA: ",
+    "expected_answer": "Yes, there is a cycle.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.894498348236084,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "cycle_check/adjacency/test/180",
+    "question": "Q: Is there a cycle in this graph?\nA: ",
+    "expected_answer": "Yes, there is a cycle.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.8892557621002197,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "cycle_check/adjacency/test/181",
+    "question": "Q: Is there a cycle in this graph?\nA: ",
+    "expected_answer": "Yes, there is a cycle.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.8763525485992432,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "cycle_check/adjacency/test/182",
+    "question": "Q: Is there a cycle in this graph?\nA: ",
+    "expected_answer": "Yes, there is a cycle.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.8449615240097046,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "cycle_check/adjacency/test/183",
+    "question": "Q: Is there a cycle in this graph?\nA: ",
+    "expected_answer": "Yes, there is a cycle.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.8968377113342285,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "cycle_check/adjacency/test/184",
+    "question": "Q: Is there a cycle in this graph?\nA: ",
+    "expected_answer": "Yes, there is a cycle.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.8959954977035522,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "cycle_check/adjacency/test/185",
+    "question": "Q: Is there a cycle in this graph?\nA: ",
+    "expected_answer": "Yes, there is a cycle.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.8820613622665405,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "cycle_check/adjacency/test/186",
+    "question": "Q: Is there a cycle in this graph?\nA: ",
+    "expected_answer": "Yes, there is a cycle.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.8773843050003052,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "cycle_check/adjacency/test/187",
+    "question": "Q: Is there a cycle in this graph?\nA: ",
+    "expected_answer": "Yes, there is a cycle.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.8822283744812012,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "cycle_check/adjacency/test/188",
+    "question": "Q: Is there a cycle in this graph?\nA: ",
+    "expected_answer": "Yes, there is a cycle.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.8940856456756592,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "cycle_check/adjacency/test/189",
+    "question": "Q: Is there a cycle in this graph?\nA: ",
+    "expected_answer": "Yes, there is a cycle.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.8653252124786377,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "cycle_check/adjacency/test/190",
+    "question": "Q: Is there a cycle in this graph?\nA: ",
+    "expected_answer": "Yes, there is a cycle.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.8853353261947632,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "cycle_check/adjacency/test/191",
+    "question": "Q: Is there a cycle in this graph?\nA: ",
+    "expected_answer": "Yes, there is a cycle.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.8815276026725769,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "cycle_check/adjacency/test/192",
+    "question": "Q: Is there a cycle in this graph?\nA: ",
+    "expected_answer": "Yes, there is a cycle.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.8424254655838013,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "cycle_check/adjacency/test/193",
+    "question": "Q: Is there a cycle in this graph?\nA: ",
+    "expected_answer": "Yes, there is a cycle.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.8861751556396484,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "cycle_check/adjacency/test/194",
+    "question": "Q: Is there a cycle in this graph?\nA: ",
+    "expected_answer": "Yes, there is a cycle.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.8379871249198914,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "cycle_check/adjacency/test/195",
+    "question": "Q: Is there a cycle in this graph?\nA: ",
+    "expected_answer": "Yes, there is a cycle.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.8904861807823181,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "cycle_check/adjacency/test/196",
+    "question": "Q: Is there a cycle in this graph?\nA: ",
+    "expected_answer": "Yes, there is a cycle.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.8705570101737976,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "cycle_check/adjacency/test/197",
+    "question": "Q: Is there a cycle in this graph?\nA: ",
+    "expected_answer": "Yes, there is a cycle.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.9023643732070923,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "cycle_check/adjacency/test/198",
+    "question": "Q: Is there a cycle in this graph?\nA: ",
+    "expected_answer": "Yes, there is a cycle.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.8875843286514282,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "cycle_check/adjacency/test/199",
+    "question": "Q: Is there a cycle in this graph?\nA: ",
+    "expected_answer": "Yes, there is a cycle.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.8832959532737732,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "cycle_check/adjacency/test/200",
+    "question": "Q: Is there a cycle in this graph?\nA: ",
+    "expected_answer": "Yes, there is a cycle.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.8968521356582642,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "cycle_check/adjacency/test/201",
+    "question": "Q: Is there a cycle in this graph?\nA: ",
+    "expected_answer": "Yes, there is a cycle.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.8939564228057861,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "cycle_check/adjacency/test/202",
+    "question": "Q: Is there a cycle in this graph?\nA: ",
+    "expected_answer": "Yes, there is a cycle.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.8949412703514099,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "cycle_check/adjacency/test/203",
+    "question": "Q: Is there a cycle in this graph?\nA: ",
+    "expected_answer": "Yes, there is a cycle.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.8977179527282715,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "cycle_check/adjacency/test/204",
+    "question": "Q: Is there a cycle in this graph?\nA: ",
+    "expected_answer": "Yes, there is a cycle.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.8981367349624634,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "cycle_check/adjacency/test/205",
+    "question": "Q: Is there a cycle in this graph?\nA: ",
+    "expected_answer": "Yes, there is a cycle.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.8939564228057861,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "cycle_check/adjacency/test/206",
+    "question": "Q: Is there a cycle in this graph?\nA: ",
+    "expected_answer": "Yes, there is a cycle.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.8977179527282715,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "cycle_check/adjacency/test/207",
+    "question": "Q: Is there a cycle in this graph?\nA: ",
+    "expected_answer": "Yes, there is a cycle.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.8844504356384277,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "cycle_check/adjacency/test/208",
+    "question": "Q: Is there a cycle in this graph?\nA: ",
+    "expected_answer": "Yes, there is a cycle.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.8985089063644409,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "cycle_check/adjacency/test/209",
+    "question": "Q: Is there a cycle in this graph?\nA: ",
+    "expected_answer": "Yes, there is a cycle.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.8844504356384277,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "cycle_check/adjacency/test/210",
+    "question": "Q: Is there a cycle in this graph?\nA: ",
+    "expected_answer": "Yes, there is a cycle.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.8877345323562622,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "cycle_check/adjacency/test/211",
+    "question": "Q: Is there a cycle in this graph?\nA: ",
+    "expected_answer": "Yes, there is a cycle.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.8968521356582642,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "cycle_check/adjacency/test/212",
+    "question": "Q: Is there a cycle in this graph?\nA: ",
+    "expected_answer": "Yes, there is a cycle.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.89524906873703,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "cycle_check/adjacency/test/213",
+    "question": "Q: Is there a cycle in this graph?\nA: ",
+    "expected_answer": "Yes, there is a cycle.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.8937591314315796,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "cycle_check/adjacency/test/214",
+    "question": "Q: Is there a cycle in this graph?\nA: ",
+    "expected_answer": "Yes, there is a cycle.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.8968018293380737,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "cycle_check/adjacency/test/215",
+    "question": "Q: Is there a cycle in this graph?\nA: ",
+    "expected_answer": "Yes, there is a cycle.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.8949412703514099,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "cycle_check/adjacency/test/216",
+    "question": "Q: Is there a cycle in this graph?\nA: ",
+    "expected_answer": "Yes, there is a cycle.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.8877345323562622,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "cycle_check/adjacency/test/217",
+    "question": "Q: Is there a cycle in this graph?\nA: ",
+    "expected_answer": "Yes, there is a cycle.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.8949412703514099,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "cycle_check/adjacency/test/218",
+    "question": "Q: Is there a cycle in this graph?\nA: ",
+    "expected_answer": "Yes, there is a cycle.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.8877345323562622,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "cycle_check/adjacency/test/219",
+    "question": "Q: Is there a cycle in this graph?\nA: ",
+    "expected_answer": "Yes, there is a cycle.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.8968018293380737,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "cycle_check/adjacency/test/220",
+    "question": "Q: Is there a cycle in this graph?\nA: ",
+    "expected_answer": "Yes, there is a cycle.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.8981367349624634,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "cycle_check/adjacency/test/221",
+    "question": "Q: Is there a cycle in this graph?\nA: ",
+    "expected_answer": "Yes, there is a cycle.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.8949412703514099,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "cycle_check/adjacency/test/222",
+    "question": "Q: Is there a cycle in this graph?\nA: ",
+    "expected_answer": "Yes, there is a cycle.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.8937591314315796,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "cycle_check/adjacency/test/223",
+    "question": "Q: Is there a cycle in this graph?\nA: ",
+    "expected_answer": "Yes, there is a cycle.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.89524906873703,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "cycle_check/adjacency/test/224",
+    "question": "Q: Is there a cycle in this graph?\nA: ",
+    "expected_answer": "Yes, there is a cycle.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.8968018293380737,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "cycle_check/adjacency/test/225",
+    "question": "Q: Is there a cycle in this graph?\nA: ",
+    "expected_answer": "Yes, there is a cycle.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.8844504356384277,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "cycle_check/adjacency/test/226",
+    "question": "Q: Is there a cycle in this graph?\nA: ",
+    "expected_answer": "Yes, there is a cycle.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.89524906873703,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "cycle_check/adjacency/test/227",
+    "question": "Q: Is there a cycle in this graph?\nA: ",
+    "expected_answer": "Yes, there is a cycle.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.896356999874115,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "cycle_check/adjacency/test/228",
+    "question": "Q: Is there a cycle in this graph?\nA: ",
+    "expected_answer": "Yes, there is a cycle.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.89524906873703,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "cycle_check/adjacency/test/229",
+    "question": "Q: Is there a cycle in this graph?\nA: ",
+    "expected_answer": "Yes, there is a cycle.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.8939564228057861,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "cycle_check/adjacency/test/230",
+    "question": "Q: Is there a cycle in this graph?\nA: ",
+    "expected_answer": "Yes, there is a cycle.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.8939564228057861,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "cycle_check/adjacency/test/231",
+    "question": "Q: Is there a cycle in this graph?\nA: ",
+    "expected_answer": "Yes, there is a cycle.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.8937591314315796,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "cycle_check/adjacency/test/232",
+    "question": "Q: Is there a cycle in this graph?\nA: ",
+    "expected_answer": "Yes, there is a cycle.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.8844504356384277,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "cycle_check/adjacency/test/233",
+    "question": "Q: Is there a cycle in this graph?\nA: ",
+    "expected_answer": "Yes, there is a cycle.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.8981367349624634,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "cycle_check/adjacency/test/234",
+    "question": "Q: Is there a cycle in this graph?\nA: ",
+    "expected_answer": "Yes, there is a cycle.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.89524906873703,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "cycle_check/adjacency/test/235",
+    "question": "Q: Is there a cycle in this graph?\nA: ",
+    "expected_answer": "Yes, there is a cycle.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.8937591314315796,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "cycle_check/adjacency/test/236",
+    "question": "Q: Is there a cycle in this graph?\nA: ",
+    "expected_answer": "Yes, there is a cycle.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.896356999874115,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "cycle_check/adjacency/test/237",
+    "question": "Q: Is there a cycle in this graph?\nA: ",
+    "expected_answer": "Yes, there is a cycle.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.8937591314315796,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "cycle_check/adjacency/test/238",
+    "question": "Q: Is there a cycle in this graph?\nA: ",
+    "expected_answer": "Yes, there is a cycle.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.8949412703514099,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "cycle_check/adjacency/test/239",
+    "question": "Q: Is there a cycle in this graph?\nA: ",
+    "expected_answer": "Yes, there is a cycle.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.8949412703514099,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "cycle_check/adjacency/test/240",
+    "question": "Q: Is there a cycle in this graph?\nA: ",
+    "expected_answer": "Yes, there is a cycle.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.8939564228057861,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "cycle_check/adjacency/test/241",
+    "question": "Q: Is there a cycle in this graph?\nA: ",
+    "expected_answer": "Yes, there is a cycle.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.8947920799255371,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "cycle_check/adjacency/test/242",
+    "question": "Q: Is there a cycle in this graph?\nA: ",
+    "expected_answer": "Yes, there is a cycle.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.8877345323562622,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "cycle_check/adjacency/test/243",
+    "question": "Q: Is there a cycle in this graph?\nA: ",
+    "expected_answer": "Yes, there is a cycle.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.8937591314315796,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "cycle_check/adjacency/test/244",
+    "question": "Q: Is there a cycle in this graph?\nA: ",
+    "expected_answer": "Yes, there is a cycle.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.8844504356384277,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "cycle_check/adjacency/test/245",
+    "question": "Q: Is there a cycle in this graph?\nA: ",
+    "expected_answer": "Yes, there is a cycle.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.8968018293380737,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "cycle_check/adjacency/test/246",
+    "question": "Q: Is there a cycle in this graph?\nA: ",
+    "expected_answer": "Yes, there is a cycle.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.8877345323562622,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "cycle_check/adjacency/test/247",
+    "question": "Q: Is there a cycle in this graph?\nA: ",
+    "expected_answer": "Yes, there is a cycle.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.8968521356582642,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "cycle_check/adjacency/test/248",
+    "question": "Q: Is there a cycle in this graph?\nA: ",
+    "expected_answer": "Yes, there is a cycle.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.8985089063644409,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "cycle_check/adjacency/test/249",
+    "question": "Q: Is there a cycle in this graph?\nA: ",
+    "expected_answer": "Yes, there is a cycle.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.8981367349624634,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "cycle_check/adjacency/test/250",
+    "question": "Q: Is there a cycle in this graph?\nA: ",
+    "expected_answer": "No, there is no cycle.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.8886920809745789,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "cycle_check/adjacency/test/251",
+    "question": "Q: Is there a cycle in this graph?\nA: ",
+    "expected_answer": "No, there is no cycle.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.890952467918396,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "cycle_check/adjacency/test/252",
+    "question": "Q: Is there a cycle in this graph?\nA: ",
+    "expected_answer": "No, there is no cycle.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.8811343908309937,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "cycle_check/adjacency/test/253",
+    "question": "Q: Is there a cycle in this graph?\nA: ",
+    "expected_answer": "No, there is no cycle.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.8896629214286804,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "cycle_check/adjacency/test/254",
+    "question": "Q: Is there a cycle in this graph?\nA: ",
+    "expected_answer": "No, there is no cycle.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.8907444477081299,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "cycle_check/adjacency/test/255",
+    "question": "Q: Is there a cycle in this graph?\nA: ",
+    "expected_answer": "No, there is no cycle.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.890952467918396,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "cycle_check/adjacency/test/256",
+    "question": "Q: Is there a cycle in this graph?\nA: ",
+    "expected_answer": "No, there is no cycle.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.8896629214286804,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "cycle_check/adjacency/test/257",
+    "question": "Q: Is there a cycle in this graph?\nA: ",
+    "expected_answer": "No, there is no cycle.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.862881064414978,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "cycle_check/adjacency/test/258",
+    "question": "Q: Is there a cycle in this graph?\nA: ",
+    "expected_answer": "No, there is no cycle.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.8917490839958191,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "cycle_check/adjacency/test/259",
+    "question": "Q: Is there a cycle in this graph?\nA: ",
+    "expected_answer": "No, there is no cycle.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.862881064414978,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "cycle_check/adjacency/test/260",
+    "question": "Q: Is there a cycle in this graph?\nA: ",
+    "expected_answer": "No, there is no cycle.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.8749820590019226,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "cycle_check/adjacency/test/261",
+    "question": "Q: Is there a cycle in this graph?\nA: ",
+    "expected_answer": "No, there is no cycle.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.8886920809745789,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "cycle_check/adjacency/test/262",
+    "question": "Q: Is there a cycle in this graph?\nA: ",
+    "expected_answer": "No, there is no cycle.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.8871237635612488,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "cycle_check/adjacency/test/263",
+    "question": "Q: Is there a cycle in this graph?\nA: ",
+    "expected_answer": "No, there is no cycle.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.889398455619812,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "cycle_check/adjacency/test/264",
+    "question": "Q: Is there a cycle in this graph?\nA: ",
+    "expected_answer": "No, there is no cycle.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.8900622129440308,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "cycle_check/adjacency/test/265",
+    "question": "Q: Is there a cycle in this graph?\nA: ",
+    "expected_answer": "No, there is no cycle.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.8811343908309937,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "cycle_check/adjacency/test/266",
+    "question": "Q: Is there a cycle in this graph?\nA: ",
+    "expected_answer": "No, there is no cycle.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.8749820590019226,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "cycle_check/adjacency/test/267",
+    "question": "Q: Is there a cycle in this graph?\nA: ",
+    "expected_answer": "No, there is no cycle.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.8811343908309937,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "cycle_check/adjacency/test/268",
+    "question": "Q: Is there a cycle in this graph?\nA: ",
+    "expected_answer": "No, there is no cycle.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.8749820590019226,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "cycle_check/adjacency/test/269",
+    "question": "Q: Is there a cycle in this graph?\nA: ",
+    "expected_answer": "No, there is no cycle.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.8900622129440308,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "cycle_check/adjacency/test/270",
+    "question": "Q: Is there a cycle in this graph?\nA: ",
+    "expected_answer": "No, there is no cycle.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.8907444477081299,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "cycle_check/adjacency/test/271",
+    "question": "Q: Is there a cycle in this graph?\nA: ",
+    "expected_answer": "No, there is no cycle.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.8811343908309937,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "cycle_check/adjacency/test/272",
+    "question": "Q: Is there a cycle in this graph?\nA: ",
+    "expected_answer": "No, there is no cycle.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.889398455619812,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "cycle_check/adjacency/test/273",
+    "question": "Q: Is there a cycle in this graph?\nA: ",
+    "expected_answer": "No, there is no cycle.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.8871237635612488,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "cycle_check/adjacency/test/274",
+    "question": "Q: Is there a cycle in this graph?\nA: ",
+    "expected_answer": "No, there is no cycle.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.8900622129440308,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "cycle_check/adjacency/test/275",
+    "question": "Q: Is there a cycle in this graph?\nA: ",
+    "expected_answer": "No, there is no cycle.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.862881064414978,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "cycle_check/adjacency/test/276",
+    "question": "Q: Is there a cycle in this graph?\nA: ",
+    "expected_answer": "No, there is no cycle.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.8871237635612488,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "cycle_check/adjacency/test/277",
+    "question": "Q: Is there a cycle in this graph?\nA: ",
+    "expected_answer": "No, there is no cycle.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.889607310295105,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "cycle_check/adjacency/test/278",
+    "question": "Q: Is there a cycle in this graph?\nA: ",
+    "expected_answer": "No, there is no cycle.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.8871237635612488,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "cycle_check/adjacency/test/279",
+    "question": "Q: Is there a cycle in this graph?\nA: ",
+    "expected_answer": "No, there is no cycle.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.890952467918396,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "cycle_check/adjacency/test/280",
+    "question": "Q: Is there a cycle in this graph?\nA: ",
+    "expected_answer": "No, there is no cycle.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.890952467918396,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "cycle_check/adjacency/test/281",
+    "question": "Q: Is there a cycle in this graph?\nA: ",
+    "expected_answer": "No, there is no cycle.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.889398455619812,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "cycle_check/adjacency/test/282",
+    "question": "Q: Is there a cycle in this graph?\nA: ",
+    "expected_answer": "No, there is no cycle.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.862881064414978,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "cycle_check/adjacency/test/283",
+    "question": "Q: Is there a cycle in this graph?\nA: ",
+    "expected_answer": "No, there is no cycle.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.8907444477081299,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "cycle_check/adjacency/test/284",
+    "question": "Q: Is there a cycle in this graph?\nA: ",
+    "expected_answer": "No, there is no cycle.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.8871237635612488,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "cycle_check/adjacency/test/285",
+    "question": "Q: Is there a cycle in this graph?\nA: ",
+    "expected_answer": "No, there is no cycle.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.889398455619812,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "cycle_check/adjacency/test/286",
+    "question": "Q: Is there a cycle in this graph?\nA: ",
+    "expected_answer": "No, there is no cycle.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.889607310295105,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "cycle_check/adjacency/test/287",
+    "question": "Q: Is there a cycle in this graph?\nA: ",
+    "expected_answer": "No, there is no cycle.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.889398455619812,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "cycle_check/adjacency/test/288",
+    "question": "Q: Is there a cycle in this graph?\nA: ",
+    "expected_answer": "No, there is no cycle.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.8811343908309937,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "cycle_check/adjacency/test/289",
+    "question": "Q: Is there a cycle in this graph?\nA: ",
+    "expected_answer": "No, there is no cycle.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.8811343908309937,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "cycle_check/adjacency/test/290",
+    "question": "Q: Is there a cycle in this graph?\nA: ",
+    "expected_answer": "No, there is no cycle.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.890952467918396,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "cycle_check/adjacency/test/291",
+    "question": "Q: Is there a cycle in this graph?\nA: ",
+    "expected_answer": "No, there is no cycle.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.8916980624198914,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "cycle_check/adjacency/test/292",
+    "question": "Q: Is there a cycle in this graph?\nA: ",
+    "expected_answer": "No, there is no cycle.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.8749820590019226,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "cycle_check/adjacency/test/293",
+    "question": "Q: Is there a cycle in this graph?\nA: ",
+    "expected_answer": "No, there is no cycle.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.889398455619812,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "cycle_check/adjacency/test/294",
+    "question": "Q: Is there a cycle in this graph?\nA: ",
+    "expected_answer": "No, there is no cycle.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.862881064414978,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "cycle_check/adjacency/test/295",
+    "question": "Q: Is there a cycle in this graph?\nA: ",
+    "expected_answer": "No, there is no cycle.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.8900622129440308,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "cycle_check/adjacency/test/296",
+    "question": "Q: Is there a cycle in this graph?\nA: ",
+    "expected_answer": "No, there is no cycle.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.8749820590019226,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "cycle_check/adjacency/test/297",
+    "question": "Q: Is there a cycle in this graph?\nA: ",
+    "expected_answer": "No, there is no cycle.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.8886920809745789,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "cycle_check/adjacency/test/298",
+    "question": "Q: Is there a cycle in this graph?\nA: ",
+    "expected_answer": "No, there is no cycle.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.8917490839958191,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "cycle_check/adjacency/test/299",
+    "question": "Q: Is there a cycle in this graph?\nA: ",
+    "expected_answer": "No, there is no cycle.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.8907444477081299,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "cycle_check/adjacency/test/300",
+    "question": "Q: Is there a cycle in this graph?\nA: ",
+    "expected_answer": "No, there is no cycle.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.9264771938323975,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "cycle_check/adjacency/test/301",
+    "question": "Q: Is there a cycle in this graph?\nA: ",
+    "expected_answer": "No, there is no cycle.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.8831441402435303,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "cycle_check/adjacency/test/302",
+    "question": "Q: Is there a cycle in this graph?\nA: ",
+    "expected_answer": "No, there is no cycle.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.835281252861023,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "cycle_check/adjacency/test/303",
+    "question": "Q: Is there a cycle in this graph?\nA: ",
+    "expected_answer": "No, there is no cycle.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.8842082023620605,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "cycle_check/adjacency/test/304",
+    "question": "Q: Is there a cycle in this graph?\nA: ",
+    "expected_answer": "No, there is no cycle.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.8715261220932007,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "cycle_check/adjacency/test/305",
+    "question": "Q: Is there a cycle in this graph?\nA: ",
+    "expected_answer": "No, there is no cycle.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.8831441402435303,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "cycle_check/adjacency/test/306",
+    "question": "Q: Is there a cycle in this graph?\nA: ",
+    "expected_answer": "No, there is no cycle.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.8842082023620605,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "cycle_check/adjacency/test/307",
+    "question": "Q: Is there a cycle in this graph?\nA: ",
+    "expected_answer": "No, there is no cycle.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.8237837553024292,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "cycle_check/adjacency/test/308",
+    "question": "Q: Is there a cycle in this graph?\nA: ",
+    "expected_answer": "No, there is no cycle.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.8669041395187378,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "cycle_check/adjacency/test/309",
+    "question": "Q: Is there a cycle in this graph?\nA: ",
+    "expected_answer": "No, there is no cycle.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.8237837553024292,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "cycle_check/adjacency/test/310",
+    "question": "Q: Is there a cycle in this graph?\nA: ",
+    "expected_answer": "No, there is no cycle.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.8387200832366943,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "cycle_check/adjacency/test/311",
+    "question": "Q: Is there a cycle in this graph?\nA: ",
+    "expected_answer": "No, there is no cycle.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.9264771938323975,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "cycle_check/adjacency/test/312",
+    "question": "Q: Is there a cycle in this graph?\nA: ",
+    "expected_answer": "No, there is no cycle.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.9003967642784119,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "cycle_check/adjacency/test/313",
+    "question": "Q: Is there a cycle in this graph?\nA: ",
+    "expected_answer": "No, there is no cycle.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.8498144149780273,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "cycle_check/adjacency/test/314",
+    "question": "Q: Is there a cycle in this graph?\nA: ",
+    "expected_answer": "No, there is no cycle.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.9117602109909058,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "cycle_check/adjacency/test/315",
+    "question": "Q: Is there a cycle in this graph?\nA: ",
+    "expected_answer": "No, there is no cycle.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.835281252861023,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "cycle_check/adjacency/test/316",
+    "question": "Q: Is there a cycle in this graph?\nA: ",
+    "expected_answer": "No, there is no cycle.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.8387200832366943,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "cycle_check/adjacency/test/317",
+    "question": "Q: Is there a cycle in this graph?\nA: ",
+    "expected_answer": "No, there is no cycle.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.835281252861023,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "cycle_check/adjacency/test/318",
+    "question": "Q: Is there a cycle in this graph?\nA: ",
+    "expected_answer": "No, there is no cycle.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.8387200832366943,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "cycle_check/adjacency/test/319",
+    "question": "Q: Is there a cycle in this graph?\nA: ",
+    "expected_answer": "No, there is no cycle.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.9117602109909058,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "cycle_check/adjacency/test/320",
+    "question": "Q: Is there a cycle in this graph?\nA: ",
+    "expected_answer": "No, there is no cycle.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.8715261220932007,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "cycle_check/adjacency/test/321",
+    "question": "Q: Is there a cycle in this graph?\nA: ",
+    "expected_answer": "No, there is no cycle.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.835281252861023,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "cycle_check/adjacency/test/322",
+    "question": "Q: Is there a cycle in this graph?\nA: ",
+    "expected_answer": "No, there is no cycle.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.8498144149780273,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "cycle_check/adjacency/test/323",
+    "question": "Q: Is there a cycle in this graph?\nA: ",
+    "expected_answer": "No, there is no cycle.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.9003967642784119,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "cycle_check/adjacency/test/324",
+    "question": "Q: Is there a cycle in this graph?\nA: ",
+    "expected_answer": "No, there is no cycle.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.9117602109909058,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "cycle_check/adjacency/test/325",
+    "question": "Q: Is there a cycle in this graph?\nA: ",
+    "expected_answer": "No, there is no cycle.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.8237837553024292,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "cycle_check/adjacency/test/326",
+    "question": "Q: Is there a cycle in this graph?\nA: ",
+    "expected_answer": "No, there is no cycle.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.9003967642784119,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "cycle_check/adjacency/test/327",
+    "question": "Q: Is there a cycle in this graph?\nA: ",
+    "expected_answer": "No, there is no cycle.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.8328328132629395,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "cycle_check/adjacency/test/328",
+    "question": "Q: Is there a cycle in this graph?\nA: ",
+    "expected_answer": "No, there is no cycle.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.9003967642784119,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "cycle_check/adjacency/test/329",
+    "question": "Q: Is there a cycle in this graph?\nA: ",
+    "expected_answer": "No, there is no cycle.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.8831441402435303,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "cycle_check/adjacency/test/330",
+    "question": "Q: Is there a cycle in this graph?\nA: ",
+    "expected_answer": "No, there is no cycle.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.8831441402435303,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "cycle_check/adjacency/test/331",
+    "question": "Q: Is there a cycle in this graph?\nA: ",
+    "expected_answer": "No, there is no cycle.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.8498144149780273,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "cycle_check/adjacency/test/332",
+    "question": "Q: Is there a cycle in this graph?\nA: ",
+    "expected_answer": "No, there is no cycle.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.8237837553024292,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "cycle_check/adjacency/test/333",
+    "question": "Q: Is there a cycle in this graph?\nA: ",
+    "expected_answer": "No, there is no cycle.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.8715261220932007,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "cycle_check/adjacency/test/334",
+    "question": "Q: Is there a cycle in this graph?\nA: ",
+    "expected_answer": "No, there is no cycle.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.9003967642784119,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "cycle_check/adjacency/test/335",
+    "question": "Q: Is there a cycle in this graph?\nA: ",
+    "expected_answer": "No, there is no cycle.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.8498144149780273,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "cycle_check/adjacency/test/336",
+    "question": "Q: Is there a cycle in this graph?\nA: ",
+    "expected_answer": "No, there is no cycle.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.8328328132629395,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "cycle_check/adjacency/test/337",
+    "question": "Q: Is there a cycle in this graph?\nA: ",
+    "expected_answer": "No, there is no cycle.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.8498144149780273,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "cycle_check/adjacency/test/338",
+    "question": "Q: Is there a cycle in this graph?\nA: ",
+    "expected_answer": "No, there is no cycle.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.835281252861023,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "cycle_check/adjacency/test/339",
+    "question": "Q: Is there a cycle in this graph?\nA: ",
+    "expected_answer": "No, there is no cycle.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.835281252861023,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "cycle_check/adjacency/test/340",
+    "question": "Q: Is there a cycle in this graph?\nA: ",
+    "expected_answer": "No, there is no cycle.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.8831441402435303,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "cycle_check/adjacency/test/341",
+    "question": "Q: Is there a cycle in this graph?\nA: ",
+    "expected_answer": "No, there is no cycle.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.9065300822257996,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "cycle_check/adjacency/test/342",
+    "question": "Q: Is there a cycle in this graph?\nA: ",
+    "expected_answer": "No, there is no cycle.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.8387200832366943,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "cycle_check/adjacency/test/343",
+    "question": "Q: Is there a cycle in this graph?\nA: ",
+    "expected_answer": "No, there is no cycle.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.8498144149780273,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "cycle_check/adjacency/test/344",
+    "question": "Q: Is there a cycle in this graph?\nA: ",
+    "expected_answer": "No, there is no cycle.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.8237837553024292,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "cycle_check/adjacency/test/345",
+    "question": "Q: Is there a cycle in this graph?\nA: ",
+    "expected_answer": "No, there is no cycle.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.9117602109909058,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "cycle_check/adjacency/test/346",
+    "question": "Q: Is there a cycle in this graph?\nA: ",
+    "expected_answer": "No, there is no cycle.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.8387200832366943,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "cycle_check/adjacency/test/347",
+    "question": "Q: Is there a cycle in this graph?\nA: ",
+    "expected_answer": "No, there is no cycle.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.9264771938323975,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "cycle_check/adjacency/test/348",
+    "question": "Q: Is there a cycle in this graph?\nA: ",
+    "expected_answer": "No, there is no cycle.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.8669041395187378,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "cycle_check/adjacency/test/349",
+    "question": "Q: Is there a cycle in this graph?\nA: ",
+    "expected_answer": "No, there is no cycle.",
+    "model_answer": "True",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "True",
+      "confidence": 0.8715261220932007,
+      "status": "ok",
+      "setting": "image_only"
+    },
+    "input_preview": {
+      "has_text": false,
+      "has_image": true
+    }
+  }
+]

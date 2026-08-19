@@ -1812,18 +1812,67 @@ def main():
             )
 
         else:
-            vis_paths = write_mixed_visualizations(
-                algorithm_distribution,
-                edge_distribution_by_task,
-                pool_edge_bins(
-                    edge_distribution_by_task
-                ),
-                output_dir=args.vis_dir,
-            )
+            # Group evaluation rows by model.
+            rows_by_model = {}
+
+            for row in rows:
+                model = row.get("model", "unknown_model")
+                rows_by_model.setdefault(model, []).append(row)
+
+            all_vis_paths = []
+
+            for model, model_rows in sorted(rows_by_model.items()):
+
+                print()
+                print("=" * 80)
+                print(f"Generating visualizations for model: {model}")
+                print("=" * 80)
+
+                # Compute distributions ONLY from this model's rows.
+                model_edge_distribution = (
+                    aggregate_edge_distributions(model_rows)
+                )
+
+                model_dataset_cache = load_task_datasets(
+                    model_rows
+                )
+
+                model_algorithm_distribution = (
+                    aggregate_algorithm_distributions(
+                        model_rows,
+                        model_dataset_cache,
+                    )
+                )
+
+                # Separate directory for each model.
+                model_output_dir = (
+                    Path(args.vis_dir) / model
+                )
+
+                model_output_dir.mkdir(
+                    parents=True,
+                    exist_ok=True,
+                )
+
+                # Generate plots using only this model's data.
+                model_vis_paths = write_mixed_visualizations(
+                    model_algorithm_distribution,
+                    model_edge_distribution,
+                    pool_edge_bins(model_edge_distribution),
+                    output_dir=model_output_dir,
+                    model_name=model,
+                )
+
+                all_vis_paths.extend(model_vis_paths)
+
+                print(
+                    f"Saved {len(model_vis_paths)} visualizations "
+                    f"for {model} to {model_output_dir}"
+                )
 
             print(
-                f"Saved {len(vis_paths)} visualizations to "
-                f"{args.vis_dir}"
+                f"Saved {len(all_vis_paths)} model-specific "
+                f"visualizations to {args.vis_dir}"
             )
 
     # ---------------------------------------------------------------

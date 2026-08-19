@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-16T15:19:16.297913+00:00",
+  "generated_at": "2026-08-16T19:57:34.925753+00:00",
   "image_type_filter": "spring",
   "files": [
     {
@@ -9,18 +9,43 @@
       "image_type": "spring",
       "model": "Qwen2.5-VL-3B-Instruct",
       "total": 350,
-      "correct": 57,
+      "correct": 58,
       "incorrect": 292,
-      "wrong_format": 1,
+      "wrong_format": 0,
       "bad_expected": 0,
-      "accuracy": 0.162857,
+      "accuracy": 0.165714,
       "path": "results\\baseline\\image_only\\connected_nodes\\spring_Qwen2.5-VL-3B-Instruct.jsonl",
-      "wrong_format_answers": [
-        {
-          "sample_id": "connected_nodes/adjacency/test/118",
-          "answer": "None"
-        }
-      ]
+      "wrong_format_answers": []
+    },
+    {
+      "setting": "image_only",
+      "task": "connected_nodes",
+      "file_name": "spring_Qwen2.5-VL-7B-Instruct.jsonl",
+      "image_type": "spring",
+      "model": "Qwen2.5-VL-7B-Instruct",
+      "total": 350,
+      "correct": 85,
+      "incorrect": 265,
+      "wrong_format": 0,
+      "bad_expected": 0,
+      "accuracy": 0.242857,
+      "path": "results\\baseline\\image_only\\connected_nodes\\spring_Qwen2.5-VL-7B-Instruct.jsonl",
+      "wrong_format_answers": []
+    },
+    {
+      "setting": "image_only",
+      "task": "cycle_check",
+      "file_name": "spring_llava-v1.6-mistral-7b-hf.jsonl",
+      "image_type": "spring",
+      "model": "llava-v1.6-mistral-7b-hf",
+      "total": 350,
+      "correct": 233,
+      "incorrect": 117,
+      "wrong_format": 0,
+      "bad_expected": 0,
+      "accuracy": 0.665714,
+      "path": "results\\baseline\\image_only\\cycle_check\\spring_llava-v1.6-mistral-7b-hf.jsonl",
+      "wrong_format_answers": []
     },
     {
       "setting": "image_only",
@@ -35,6 +60,21 @@
       "bad_expected": 0,
       "accuracy": 0.662857,
       "path": "results\\baseline\\image_only\\cycle_check\\spring_Qwen2.5-VL-3B-Instruct.jsonl",
+      "wrong_format_answers": []
+    },
+    {
+      "setting": "image_only",
+      "task": "cycle_check",
+      "file_name": "spring_Qwen2.5-VL-7B-Instruct.jsonl",
+      "image_type": "spring",
+      "model": "Qwen2.5-VL-7B-Instruct",
+      "total": 350,
+      "correct": 285,
+      "incorrect": 65,
+      "wrong_format": 0,
+      "bad_expected": 0,
+      "accuracy": 0.814286,
+      "path": "results\\baseline\\image_only\\cycle_check\\spring_Qwen2.5-VL-7B-Instruct.jsonl",
       "wrong_format_answers": []
     },
     {
@@ -54,6 +94,36 @@
     },
     {
       "setting": "image_only",
+      "task": "disconnected_nodes",
+      "file_name": "spring_Qwen2.5-VL-7B-Instruct.jsonl",
+      "image_type": "spring",
+      "model": "Qwen2.5-VL-7B-Instruct",
+      "total": 350,
+      "correct": 26,
+      "incorrect": 324,
+      "wrong_format": 0,
+      "bad_expected": 0,
+      "accuracy": 0.074286,
+      "path": "results\\baseline\\image_only\\disconnected_nodes\\spring_Qwen2.5-VL-7B-Instruct.jsonl",
+      "wrong_format_answers": []
+    },
+    {
+      "setting": "image_only",
+      "task": "edge_count",
+      "file_name": "spring_llava-v1.6-mistral-7b-hf.jsonl",
+      "image_type": "spring",
+      "model": "llava-v1.6-mistral-7b-hf",
+      "total": 350,
+      "correct": 31,
+      "incorrect": 319,
+      "wrong_format": 0,
+      "bad_expected": 0,
+      "accuracy": 0.088571,
+      "path": "results\\baseline\\image_only\\edge_count\\spring_llava-v1.6-mistral-7b-hf.jsonl",
+      "wrong_format_answers": []
+    },
+    {
+      "setting": "image_only",
       "task": "edge_count",
       "file_name": "spring_Qwen2.5-VL-3B-Instruct.jsonl",
       "image_type": "spring",
@@ -65,6 +135,36 @@
       "bad_expected": 0,
       "accuracy": 0.16,
       "path": "results\\baseline\\image_only\\edge_count\\spring_Qwen2.5-VL-3B-Instruct.jsonl",
+      "wrong_format_answers": []
+    },
+    {
+      "setting": "image_only",
+      "task": "edge_count",
+      "file_name": "spring_Qwen2.5-VL-7B-Instruct.jsonl",
+      "image_type": "spring",
+      "model": "Qwen2.5-VL-7B-Instruct",
+      "total": 350,
+      "correct": 102,
+      "incorrect": 248,
+      "wrong_format": 0,
+      "bad_expected": 0,
+      "accuracy": 0.291429,
+      "path": "results\\baseline\\image_only\\edge_count\\spring_Qwen2.5-VL-7B-Instruct.jsonl",
+      "wrong_format_answers": []
+    },
+    {
+      "setting": "image_only",
+      "task": "edge_existence",
+      "file_name": "spring_llava-v1.6-mistral-7b-hf.jsonl",
+      "image_type": "spring",
+      "model": "llava-v1.6-mistral-7b-hf",
+      "total": 350,
+      "correct": 146,
+      "incorrect": 204,
+      "wrong_format": 0,
+      "bad_expected": 0,
+      "accuracy": 0.417143,
+      "path": "results\\baseline\\image_only\\edge_existence\\spring_llava-v1.6-mistral-7b-hf.jsonl",
       "wrong_format_answers": []
     },
     {
@@ -84,6 +184,36 @@
     },
     {
       "setting": "image_only",
+      "task": "edge_existence",
+      "file_name": "spring_Qwen2.5-VL-7B-Instruct.jsonl",
+      "image_type": "spring",
+      "model": "Qwen2.5-VL-7B-Instruct",
+      "total": 350,
+      "correct": 281,
+      "incorrect": 69,
+      "wrong_format": 0,
+      "bad_expected": 0,
+      "accuracy": 0.802857,
+      "path": "results\\baseline\\image_only\\edge_existence\\spring_Qwen2.5-VL-7B-Instruct.jsonl",
+      "wrong_format_answers": []
+    },
+    {
+      "setting": "image_only",
+      "task": "node_count",
+      "file_name": "spring_llava-v1.6-mistral-7b-hf.jsonl",
+      "image_type": "spring",
+      "model": "llava-v1.6-mistral-7b-hf",
+      "total": 350,
+      "correct": 21,
+      "incorrect": 329,
+      "wrong_format": 0,
+      "bad_expected": 0,
+      "accuracy": 0.06,
+      "path": "results\\baseline\\image_only\\node_count\\spring_llava-v1.6-mistral-7b-hf.jsonl",
+      "wrong_format_answers": []
+    },
+    {
+      "setting": "image_only",
       "task": "node_count",
       "file_name": "spring_Qwen2.5-VL-3B-Instruct.jsonl",
       "image_type": "spring",
@@ -95,6 +225,36 @@
       "bad_expected": 0,
       "accuracy": 0.642857,
       "path": "results\\baseline\\image_only\\node_count\\spring_Qwen2.5-VL-3B-Instruct.jsonl",
+      "wrong_format_answers": []
+    },
+    {
+      "setting": "image_only",
+      "task": "node_count",
+      "file_name": "spring_Qwen2.5-VL-7B-Instruct.jsonl",
+      "image_type": "spring",
+      "model": "Qwen2.5-VL-7B-Instruct",
+      "total": 350,
+      "correct": 345,
+      "incorrect": 5,
+      "wrong_format": 0,
+      "bad_expected": 0,
+      "accuracy": 0.985714,
+      "path": "results\\baseline\\image_only\\node_count\\spring_Qwen2.5-VL-7B-Instruct.jsonl",
+      "wrong_format_answers": []
+    },
+    {
+      "setting": "image_only",
+      "task": "node_degree",
+      "file_name": "spring_llava-v1.6-mistral-7b-hf.jsonl",
+      "image_type": "spring",
+      "model": "llava-v1.6-mistral-7b-hf",
+      "total": 350,
+      "correct": 54,
+      "incorrect": 296,
+      "wrong_format": 0,
+      "bad_expected": 0,
+      "accuracy": 0.154286,
+      "path": "results\\baseline\\image_only\\node_degree\\spring_llava-v1.6-mistral-7b-hf.jsonl",
       "wrong_format_answers": []
     },
     {
@@ -114,6 +274,36 @@
     },
     {
       "setting": "image_only",
+      "task": "node_degree",
+      "file_name": "spring_Qwen2.5-VL-7B-Instruct.jsonl",
+      "image_type": "spring",
+      "model": "Qwen2.5-VL-7B-Instruct",
+      "total": 350,
+      "correct": 122,
+      "incorrect": 228,
+      "wrong_format": 0,
+      "bad_expected": 0,
+      "accuracy": 0.348571,
+      "path": "results\\baseline\\image_only\\node_degree\\spring_Qwen2.5-VL-7B-Instruct.jsonl",
+      "wrong_format_answers": []
+    },
+    {
+      "setting": "image_only",
+      "task": "shortest_path",
+      "file_name": "spring_llava-v1.6-mistral-7b-hf.jsonl",
+      "image_type": "spring",
+      "model": "llava-v1.6-mistral-7b-hf",
+      "total": 350,
+      "correct": 56,
+      "incorrect": 294,
+      "wrong_format": 0,
+      "bad_expected": 0,
+      "accuracy": 0.16,
+      "path": "results\\baseline\\image_only\\shortest_path\\spring_llava-v1.6-mistral-7b-hf.jsonl",
+      "wrong_format_answers": []
+    },
+    {
+      "setting": "image_only",
       "task": "shortest_path",
       "file_name": "spring_Qwen2.5-VL-3B-Instruct.jsonl",
       "image_type": "spring",
@@ -125,6 +315,36 @@
       "bad_expected": 0,
       "accuracy": 0.177143,
       "path": "results\\baseline\\image_only\\shortest_path\\spring_Qwen2.5-VL-3B-Instruct.jsonl",
+      "wrong_format_answers": []
+    },
+    {
+      "setting": "image_only",
+      "task": "shortest_path",
+      "file_name": "spring_Qwen2.5-VL-7B-Instruct.jsonl",
+      "image_type": "spring",
+      "model": "Qwen2.5-VL-7B-Instruct",
+      "total": 350,
+      "correct": 133,
+      "incorrect": 217,
+      "wrong_format": 0,
+      "bad_expected": 0,
+      "accuracy": 0.38,
+      "path": "results\\baseline\\image_only\\shortest_path\\spring_Qwen2.5-VL-7B-Instruct.jsonl",
+      "wrong_format_answers": []
+    },
+    {
+      "setting": "image_only",
+      "task": "triangle_counting",
+      "file_name": "spring_llava-v1.6-mistral-7b-hf.jsonl",
+      "image_type": "spring",
+      "model": "llava-v1.6-mistral-7b-hf",
+      "total": 350,
+      "correct": 80,
+      "incorrect": 270,
+      "wrong_format": 0,
+      "bad_expected": 0,
+      "accuracy": 0.228571,
+      "path": "results\\baseline\\image_only\\triangle_counting\\spring_llava-v1.6-mistral-7b-hf.jsonl",
       "wrong_format_answers": []
     },
     {
@@ -143,24 +363,64 @@
       "wrong_format_answers": []
     },
     {
+      "setting": "image_only",
+      "task": "triangle_counting",
+      "file_name": "spring_Qwen2.5-VL-7B-Instruct.jsonl",
+      "image_type": "spring",
+      "model": "Qwen2.5-VL-7B-Instruct",
+      "total": 350,
+      "correct": 132,
+      "incorrect": 218,
+      "wrong_format": 0,
+      "bad_expected": 0,
+      "accuracy": 0.377143,
+      "path": "results\\baseline\\image_only\\triangle_counting\\spring_Qwen2.5-VL-7B-Instruct.jsonl",
+      "wrong_format_answers": []
+    },
+    {
       "setting": "text_and_image",
       "task": "connected_nodes",
       "file_name": "spring_Qwen2.5-VL-3B-Instruct.jsonl",
       "image_type": "spring",
       "model": "Qwen2.5-VL-3B-Instruct",
       "total": 350,
-      "correct": 118,
+      "correct": 119,
       "incorrect": 231,
-      "wrong_format": 1,
+      "wrong_format": 0,
       "bad_expected": 0,
-      "accuracy": 0.337143,
+      "accuracy": 0.34,
       "path": "results\\baseline\\text_and_image\\connected_nodes\\spring_Qwen2.5-VL-3B-Instruct.jsonl",
-      "wrong_format_answers": [
-        {
-          "sample_id": "connected_nodes/adjacency/test/118",
-          "answer": "None"
-        }
-      ]
+      "wrong_format_answers": []
+    },
+    {
+      "setting": "text_and_image",
+      "task": "connected_nodes",
+      "file_name": "spring_Qwen2.5-VL-7B-Instruct.jsonl",
+      "image_type": "spring",
+      "model": "Qwen2.5-VL-7B-Instruct",
+      "total": 350,
+      "correct": 159,
+      "incorrect": 191,
+      "wrong_format": 0,
+      "bad_expected": 0,
+      "accuracy": 0.454286,
+      "path": "results\\baseline\\text_and_image\\connected_nodes\\spring_Qwen2.5-VL-7B-Instruct.jsonl",
+      "wrong_format_answers": []
+    },
+    {
+      "setting": "text_and_image",
+      "task": "cycle_check",
+      "file_name": "spring_llava-v1.6-mistral-7b-hf.jsonl",
+      "image_type": "spring",
+      "model": "llava-v1.6-mistral-7b-hf",
+      "total": 350,
+      "correct": 232,
+      "incorrect": 118,
+      "wrong_format": 0,
+      "bad_expected": 0,
+      "accuracy": 0.662857,
+      "path": "results\\baseline\\text_and_image\\cycle_check\\spring_llava-v1.6-mistral-7b-hf.jsonl",
+      "wrong_format_answers": []
     },
     {
       "setting": "text_and_image",
@@ -175,6 +435,21 @@
       "bad_expected": 0,
       "accuracy": 0.662857,
       "path": "results\\baseline\\text_and_image\\cycle_check\\spring_Qwen2.5-VL-3B-Instruct.jsonl",
+      "wrong_format_answers": []
+    },
+    {
+      "setting": "text_and_image",
+      "task": "cycle_check",
+      "file_name": "spring_Qwen2.5-VL-7B-Instruct.jsonl",
+      "image_type": "spring",
+      "model": "Qwen2.5-VL-7B-Instruct",
+      "total": 350,
+      "correct": 290,
+      "incorrect": 60,
+      "wrong_format": 0,
+      "bad_expected": 0,
+      "accuracy": 0.828571,
+      "path": "results\\baseline\\text_and_image\\cycle_check\\spring_Qwen2.5-VL-7B-Instruct.jsonl",
       "wrong_format_answers": []
     },
     {
@@ -194,6 +469,36 @@
     },
     {
       "setting": "text_and_image",
+      "task": "disconnected_nodes",
+      "file_name": "spring_Qwen2.5-VL-7B-Instruct.jsonl",
+      "image_type": "spring",
+      "model": "Qwen2.5-VL-7B-Instruct",
+      "total": 350,
+      "correct": 31,
+      "incorrect": 319,
+      "wrong_format": 0,
+      "bad_expected": 0,
+      "accuracy": 0.088571,
+      "path": "results\\baseline\\text_and_image\\disconnected_nodes\\spring_Qwen2.5-VL-7B-Instruct.jsonl",
+      "wrong_format_answers": []
+    },
+    {
+      "setting": "text_and_image",
+      "task": "edge_count",
+      "file_name": "spring_llava-v1.6-mistral-7b-hf.jsonl",
+      "image_type": "spring",
+      "model": "llava-v1.6-mistral-7b-hf",
+      "total": 350,
+      "correct": 101,
+      "incorrect": 249,
+      "wrong_format": 0,
+      "bad_expected": 0,
+      "accuracy": 0.288571,
+      "path": "results\\baseline\\text_and_image\\edge_count\\spring_llava-v1.6-mistral-7b-hf.jsonl",
+      "wrong_format_answers": []
+    },
+    {
+      "setting": "text_and_image",
       "task": "edge_count",
       "file_name": "spring_Qwen2.5-VL-3B-Instruct.jsonl",
       "image_type": "spring",
@@ -205,6 +510,36 @@
       "bad_expected": 0,
       "accuracy": 0.32,
       "path": "results\\baseline\\text_and_image\\edge_count\\spring_Qwen2.5-VL-3B-Instruct.jsonl",
+      "wrong_format_answers": []
+    },
+    {
+      "setting": "text_and_image",
+      "task": "edge_count",
+      "file_name": "spring_Qwen2.5-VL-7B-Instruct.jsonl",
+      "image_type": "spring",
+      "model": "Qwen2.5-VL-7B-Instruct",
+      "total": 350,
+      "correct": 191,
+      "incorrect": 159,
+      "wrong_format": 0,
+      "bad_expected": 0,
+      "accuracy": 0.545714,
+      "path": "results\\baseline\\text_and_image\\edge_count\\spring_Qwen2.5-VL-7B-Instruct.jsonl",
+      "wrong_format_answers": []
+    },
+    {
+      "setting": "text_and_image",
+      "task": "edge_existence",
+      "file_name": "spring_llava-v1.6-mistral-7b-hf.jsonl",
+      "image_type": "spring",
+      "model": "llava-v1.6-mistral-7b-hf",
+      "total": 350,
+      "correct": 158,
+      "incorrect": 192,
+      "wrong_format": 0,
+      "bad_expected": 0,
+      "accuracy": 0.451429,
+      "path": "results\\baseline\\text_and_image\\edge_existence\\spring_llava-v1.6-mistral-7b-hf.jsonl",
       "wrong_format_answers": []
     },
     {
@@ -224,6 +559,36 @@
     },
     {
       "setting": "text_and_image",
+      "task": "edge_existence",
+      "file_name": "spring_Qwen2.5-VL-7B-Instruct.jsonl",
+      "image_type": "spring",
+      "model": "Qwen2.5-VL-7B-Instruct",
+      "total": 350,
+      "correct": 300,
+      "incorrect": 50,
+      "wrong_format": 0,
+      "bad_expected": 0,
+      "accuracy": 0.857143,
+      "path": "results\\baseline\\text_and_image\\edge_existence\\spring_Qwen2.5-VL-7B-Instruct.jsonl",
+      "wrong_format_answers": []
+    },
+    {
+      "setting": "text_and_image",
+      "task": "node_count",
+      "file_name": "spring_llava-v1.6-mistral-7b-hf.jsonl",
+      "image_type": "spring",
+      "model": "llava-v1.6-mistral-7b-hf",
+      "total": 350,
+      "correct": 327,
+      "incorrect": 23,
+      "wrong_format": 0,
+      "bad_expected": 0,
+      "accuracy": 0.934286,
+      "path": "results\\baseline\\text_and_image\\node_count\\spring_llava-v1.6-mistral-7b-hf.jsonl",
+      "wrong_format_answers": []
+    },
+    {
+      "setting": "text_and_image",
       "task": "node_count",
       "file_name": "spring_Qwen2.5-VL-3B-Instruct.jsonl",
       "image_type": "spring",
@@ -235,6 +600,36 @@
       "bad_expected": 0,
       "accuracy": 0.834286,
       "path": "results\\baseline\\text_and_image\\node_count\\spring_Qwen2.5-VL-3B-Instruct.jsonl",
+      "wrong_format_answers": []
+    },
+    {
+      "setting": "text_and_image",
+      "task": "node_count",
+      "file_name": "spring_Qwen2.5-VL-7B-Instruct.jsonl",
+      "image_type": "spring",
+      "model": "Qwen2.5-VL-7B-Instruct",
+      "total": 350,
+      "correct": 350,
+      "incorrect": 0,
+      "wrong_format": 0,
+      "bad_expected": 0,
+      "accuracy": 1.0,
+      "path": "results\\baseline\\text_and_image\\node_count\\spring_Qwen2.5-VL-7B-Instruct.jsonl",
+      "wrong_format_answers": []
+    },
+    {
+      "setting": "text_and_image",
+      "task": "node_degree",
+      "file_name": "spring_llava-v1.6-mistral-7b-hf.jsonl",
+      "image_type": "spring",
+      "model": "llava-v1.6-mistral-7b-hf",
+      "total": 350,
+      "correct": 139,
+      "incorrect": 211,
+      "wrong_format": 0,
+      "bad_expected": 0,
+      "accuracy": 0.397143,
+      "path": "results\\baseline\\text_and_image\\node_degree\\spring_llava-v1.6-mistral-7b-hf.jsonl",
       "wrong_format_answers": []
     },
     {
@@ -254,6 +649,50 @@
     },
     {
       "setting": "text_and_image",
+      "task": "node_degree",
+      "file_name": "spring_Qwen2.5-VL-7B-Instruct.jsonl",
+      "image_type": "spring",
+      "model": "Qwen2.5-VL-7B-Instruct",
+      "total": 350,
+      "correct": 198,
+      "incorrect": 150,
+      "wrong_format": 2,
+      "bad_expected": 0,
+      "accuracy": 0.565714,
+      "path": "results\\baseline\\text_and_image\\node_degree\\spring_Qwen2.5-VL-7B-Instruct.jsonl",
+      "wrong_format_answers": [
+        {
+          "sample_id": "node_degree/adjacency/test/113",
+          "answer": "3, 7, 11, 12"
+        },
+        {
+          "sample_id": "node_degree/adjacency/test/151",
+          "answer": "3, 4, 6"
+        }
+      ]
+    },
+    {
+      "setting": "text_and_image",
+      "task": "shortest_path",
+      "file_name": "spring_llava-v1.6-mistral-7b-hf.jsonl",
+      "image_type": "spring",
+      "model": "llava-v1.6-mistral-7b-hf",
+      "total": 350,
+      "correct": 115,
+      "incorrect": 234,
+      "wrong_format": 1,
+      "bad_expected": 0,
+      "accuracy": 0.328571,
+      "path": "results\\baseline\\text_and_image\\shortest_path\\spring_llava-v1.6-mistral-7b-hf.jsonl",
+      "wrong_format_answers": [
+        {
+          "sample_id": "shortest_path/adjacency/test/2",
+          "answer": "True"
+        }
+      ]
+    },
+    {
+      "setting": "text_and_image",
       "task": "shortest_path",
       "file_name": "spring_Qwen2.5-VL-3B-Instruct.jsonl",
       "image_type": "spring",
@@ -266,6 +705,45 @@
       "accuracy": 0.257143,
       "path": "results\\baseline\\text_and_image\\shortest_path\\spring_Qwen2.5-VL-3B-Instruct.jsonl",
       "wrong_format_answers": []
+    },
+    {
+      "setting": "text_and_image",
+      "task": "shortest_path",
+      "file_name": "spring_Qwen2.5-VL-7B-Instruct.jsonl",
+      "image_type": "spring",
+      "model": "Qwen2.5-VL-7B-Instruct",
+      "total": 350,
+      "correct": 141,
+      "incorrect": 209,
+      "wrong_format": 0,
+      "bad_expected": 0,
+      "accuracy": 0.402857,
+      "path": "results\\baseline\\text_and_image\\shortest_path\\spring_Qwen2.5-VL-7B-Instruct.jsonl",
+      "wrong_format_answers": []
+    },
+    {
+      "setting": "text_and_image",
+      "task": "triangle_counting",
+      "file_name": "spring_llava-v1.6-mistral-7b-hf.jsonl",
+      "image_type": "spring",
+      "model": "llava-v1.6-mistral-7b-hf",
+      "total": 350,
+      "correct": 69,
+      "incorrect": 279,
+      "wrong_format": 2,
+      "bad_expected": 0,
+      "accuracy": 0.197143,
+      "path": "results\\baseline\\text_and_image\\triangle_counting\\spring_llava-v1.6-mistral-7b-hf.jsonl",
+      "wrong_format_answers": [
+        {
+          "sample_id": "triangle_counting/adjacency/test/2",
+          "answer": "False"
+        },
+        {
+          "sample_id": "triangle_counting/adjacency/test/109",
+          "answer": "False"
+        }
+      ]
     },
     {
       "setting": "text_and_image",
@@ -283,72 +761,86 @@
       "wrong_format_answers": []
     },
     {
+      "setting": "text_and_image",
+      "task": "triangle_counting",
+      "file_name": "spring_Qwen2.5-VL-7B-Instruct.jsonl",
+      "image_type": "spring",
+      "model": "Qwen2.5-VL-7B-Instruct",
+      "total": 350,
+      "correct": 140,
+      "incorrect": 210,
+      "wrong_format": 0,
+      "bad_expected": 0,
+      "accuracy": 0.4,
+      "path": "results\\baseline\\text_and_image\\triangle_counting\\spring_Qwen2.5-VL-7B-Instruct.jsonl",
+      "wrong_format_answers": []
+    },
+    {
       "setting": "text_only",
       "task": "connected_nodes",
       "file_name": "spring_Qwen2.5-VL-3B-Instruct.jsonl",
       "image_type": "spring",
       "model": "Qwen2.5-VL-3B-Instruct",
       "total": 350,
-      "correct": 102,
-      "incorrect": 235,
-      "wrong_format": 13,
+      "correct": 108,
+      "incorrect": 238,
+      "wrong_format": 4,
       "bad_expected": 0,
-      "accuracy": 0.291429,
+      "accuracy": 0.308571,
       "path": "results\\baseline\\text_only\\connected_nodes\\spring_Qwen2.5-VL-3B-Instruct.jsonl",
       "wrong_format_answers": [
         {
-          "sample_id": "connected_nodes/adjacency/test/2",
-          "answer": "None"
-        },
-        {
-          "sample_id": "connected_nodes/adjacency/test/7",
-          "answer": "1 2 3 4 5 6 7"
-        },
-        {
-          "sample_id": "connected_nodes/adjacency/test/11",
-          "answer": "1 2 3 4 6 9 10 12 13 14 15 17"
-        },
-        {
           "sample_id": "connected_nodes/adjacency/test/30",
           "answer": "None of the nodes are directly connected to node 7 based on the provided information."
-        },
-        {
-          "sample_id": "connected_nodes/adjacency/test/35",
-          "answer": "10 8 7 6 5 4 3 2 1 0"
         },
         {
           "sample_id": "connected_nodes/adjacency/test/42",
           "answer": "None of the nodes are directly connected to node 7 based on the provided information."
         },
         {
-          "sample_id": "connected_nodes/adjacency/test/61",
-          "answer": "14 16 17"
-        },
-        {
           "sample_id": "connected_nodes/adjacency/test/118",
           "answer": "None of the nodes are connected to 1."
         },
         {
-          "sample_id": "connected_nodes/adjacency/test/131",
-          "answer": "1 2 3 4 5 6 8 9 10 11 12 13"
-        },
-        {
           "sample_id": "connected_nodes/adjacency/test/139",
           "answer": "None of the nodes are directly connected to node 5 based on the provided information."
-        },
-        {
-          "sample_id": "connected_nodes/adjacency/test/241",
-          "answer": "0 1 2 3 4 5 6 7 8 10"
-        },
-        {
-          "sample_id": "connected_nodes/adjacency/test/243",
-          "answer": "0 1 2 3 4 5 6 7 8"
-        },
-        {
-          "sample_id": "connected_nodes/adjacency/test/258",
-          "answer": "11 12 13 14 15 16"
         }
       ]
+    },
+    {
+      "setting": "text_only",
+      "task": "connected_nodes",
+      "file_name": "spring_Qwen2.5-VL-7B-Instruct.jsonl",
+      "image_type": "spring",
+      "model": "Qwen2.5-VL-7B-Instruct",
+      "total": 350,
+      "correct": 110,
+      "incorrect": 239,
+      "wrong_format": 1,
+      "bad_expected": 0,
+      "accuracy": 0.314286,
+      "path": "results\\baseline\\text_only\\connected_nodes\\spring_Qwen2.5-VL-7B-Instruct.jsonl",
+      "wrong_format_answers": [
+        {
+          "sample_id": "connected_nodes/adjacency/test/94",
+          "answer": "1,"
+        }
+      ]
+    },
+    {
+      "setting": "text_only",
+      "task": "cycle_check",
+      "file_name": "spring_llava-v1.6-mistral-7b-hf.jsonl",
+      "image_type": "spring",
+      "model": "llava-v1.6-mistral-7b-hf",
+      "total": 350,
+      "correct": 234,
+      "incorrect": 116,
+      "wrong_format": 0,
+      "bad_expected": 0,
+      "accuracy": 0.668571,
+      "path": "results\\baseline\\text_only\\cycle_check\\spring_llava-v1.6-mistral-7b-hf.jsonl",
+      "wrong_format_answers": []
     },
     {
       "setting": "text_only",
@@ -367,123 +859,63 @@
     },
     {
       "setting": "text_only",
+      "task": "cycle_check",
+      "file_name": "spring_Qwen2.5-VL-7B-Instruct.jsonl",
+      "image_type": "spring",
+      "model": "Qwen2.5-VL-7B-Instruct",
+      "total": 350,
+      "correct": 264,
+      "incorrect": 86,
+      "wrong_format": 0,
+      "bad_expected": 0,
+      "accuracy": 0.754286,
+      "path": "results\\baseline\\text_only\\cycle_check\\spring_Qwen2.5-VL-7B-Instruct.jsonl",
+      "wrong_format_answers": []
+    },
+    {
+      "setting": "text_only",
       "task": "disconnected_nodes",
       "file_name": "spring_Qwen2.5-VL-3B-Instruct.jsonl",
       "image_type": "spring",
       "model": "Qwen2.5-VL-3B-Instruct",
       "total": 350,
       "correct": 33,
-      "incorrect": 291,
-      "wrong_format": 26,
+      "incorrect": 317,
+      "wrong_format": 0,
       "bad_expected": 0,
       "accuracy": 0.094286,
       "path": "results\\baseline\\text_only\\disconnected_nodes\\spring_Qwen2.5-VL-3B-Instruct.jsonl",
-      "wrong_format_answers": [
-        {
-          "sample_id": "disconnected_nodes/adjacency/test/11",
-          "answer": "1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17"
-        },
-        {
-          "sample_id": "disconnected_nodes/adjacency/test/19",
-          "answer": "0 2 3 4 5 6 7 8 9 10 11"
-        },
-        {
-          "sample_id": "disconnected_nodes/adjacency/test/22",
-          "answer": "0 2 3 4 5 6 7 8 9 10 11"
-        },
-        {
-          "sample_id": "disconnected_nodes/adjacency/test/45",
-          "answer": "0 2 4 5 6 7 8 9 10"
-        },
-        {
-          "sample_id": "disconnected_nodes/adjacency/test/60",
-          "answer": "1 2 3 4 5 6"
-        },
-        {
-          "sample_id": "disconnected_nodes/adjacency/test/87",
-          "answer": "1 2 3 4 5 6 7 8 9 10"
-        },
-        {
-          "sample_id": "disconnected_nodes/adjacency/test/104",
-          "answer": "0 1 2 3 4 5 7 8 9 10 11 12 13 14"
-        },
-        {
-          "sample_id": "disconnected_nodes/adjacency/test/105",
-          "answer": "0 1 2 3 4 5 7 8 9"
-        },
-        {
-          "sample_id": "disconnected_nodes/adjacency/test/120",
-          "answer": "10 11 12 13 14 15 16 17 18"
-        },
-        {
-          "sample_id": "disconnected_nodes/adjacency/test/162",
-          "answer": "10 11 12"
-        },
-        {
-          "sample_id": "disconnected_nodes/adjacency/test/183",
-          "answer": "1 2 15"
-        },
-        {
-          "sample_id": "disconnected_nodes/adjacency/test/187",
-          "answer": "0 1 7 9"
-        },
-        {
-          "sample_id": "disconnected_nodes/adjacency/test/206",
-          "answer": "0 2 3 4 5 6 7 8 9 10 11 12 13 14"
-        },
-        {
-          "sample_id": "disconnected_nodes/adjacency/test/208",
-          "answer": "0 1 2 3 4 5 6 7 9 10 11 12 13 14 15 16"
-        },
-        {
-          "sample_id": "disconnected_nodes/adjacency/test/211",
-          "answer": "0 1 2 3 4 5 6 7 9 10 11 12 13 14 15"
-        },
-        {
-          "sample_id": "disconnected_nodes/adjacency/test/212",
-          "answer": "0 1 2 3 4 5 6 7 9 10 11 12"
-        },
-        {
-          "sample_id": "disconnected_nodes/adjacency/test/213",
-          "answer": "0 2 3 4 5 6 7 8 9"
-        },
-        {
-          "sample_id": "disconnected_nodes/adjacency/test/233",
-          "answer": "0 1 2 3 4 5 6 7 8 10 11 12 13 14 15 16 17"
-        },
-        {
-          "sample_id": "disconnected_nodes/adjacency/test/236",
-          "answer": "0 1 3 4 5 6 7 8"
-        },
-        {
-          "sample_id": "disconnected_nodes/adjacency/test/274",
-          "answer": "10 11 12 13"
-        },
-        {
-          "sample_id": "disconnected_nodes/adjacency/test/281",
-          "answer": "0 1 2 3 5 6 7 8 9"
-        },
-        {
-          "sample_id": "disconnected_nodes/adjacency/test/293",
-          "answer": "1 2 3 4 5 6 7 8 9"
-        },
-        {
-          "sample_id": "disconnected_nodes/adjacency/test/319",
-          "answer": "10 11 12 13"
-        },
-        {
-          "sample_id": "disconnected_nodes/adjacency/test/324",
-          "answer": "11 12 13"
-        },
-        {
-          "sample_id": "disconnected_nodes/adjacency/test/328",
-          "answer": "10 11 12"
-        },
-        {
-          "sample_id": "disconnected_nodes/adjacency/test/345",
-          "answer": "10 11 12 13"
-        }
-      ]
+      "wrong_format_answers": []
+    },
+    {
+      "setting": "text_only",
+      "task": "disconnected_nodes",
+      "file_name": "spring_Qwen2.5-VL-7B-Instruct.jsonl",
+      "image_type": "spring",
+      "model": "Qwen2.5-VL-7B-Instruct",
+      "total": 350,
+      "correct": 46,
+      "incorrect": 304,
+      "wrong_format": 0,
+      "bad_expected": 0,
+      "accuracy": 0.131429,
+      "path": "results\\baseline\\text_only\\disconnected_nodes\\spring_Qwen2.5-VL-7B-Instruct.jsonl",
+      "wrong_format_answers": []
+    },
+    {
+      "setting": "text_only",
+      "task": "edge_count",
+      "file_name": "spring_llava-v1.6-mistral-7b-hf.jsonl",
+      "image_type": "spring",
+      "model": "llava-v1.6-mistral-7b-hf",
+      "total": 350,
+      "correct": 105,
+      "incorrect": 245,
+      "wrong_format": 0,
+      "bad_expected": 0,
+      "accuracy": 0.3,
+      "path": "results\\baseline\\text_only\\edge_count\\spring_llava-v1.6-mistral-7b-hf.jsonl",
+      "wrong_format_answers": []
     },
     {
       "setting": "text_only",
@@ -498,6 +930,36 @@
       "bad_expected": 0,
       "accuracy": 0.32,
       "path": "results\\baseline\\text_only\\edge_count\\spring_Qwen2.5-VL-3B-Instruct.jsonl",
+      "wrong_format_answers": []
+    },
+    {
+      "setting": "text_only",
+      "task": "edge_count",
+      "file_name": "spring_Qwen2.5-VL-7B-Instruct.jsonl",
+      "image_type": "spring",
+      "model": "Qwen2.5-VL-7B-Instruct",
+      "total": 350,
+      "correct": 189,
+      "incorrect": 161,
+      "wrong_format": 0,
+      "bad_expected": 0,
+      "accuracy": 0.54,
+      "path": "results\\baseline\\text_only\\edge_count\\spring_Qwen2.5-VL-7B-Instruct.jsonl",
+      "wrong_format_answers": []
+    },
+    {
+      "setting": "text_only",
+      "task": "edge_existence",
+      "file_name": "spring_llava-v1.6-mistral-7b-hf.jsonl",
+      "image_type": "spring",
+      "model": "llava-v1.6-mistral-7b-hf",
+      "total": 350,
+      "correct": 186,
+      "incorrect": 164,
+      "wrong_format": 0,
+      "bad_expected": 0,
+      "accuracy": 0.531429,
+      "path": "results\\baseline\\text_only\\edge_existence\\spring_llava-v1.6-mistral-7b-hf.jsonl",
       "wrong_format_answers": []
     },
     {
@@ -517,6 +979,36 @@
     },
     {
       "setting": "text_only",
+      "task": "edge_existence",
+      "file_name": "spring_Qwen2.5-VL-7B-Instruct.jsonl",
+      "image_type": "spring",
+      "model": "Qwen2.5-VL-7B-Instruct",
+      "total": 350,
+      "correct": 297,
+      "incorrect": 53,
+      "wrong_format": 0,
+      "bad_expected": 0,
+      "accuracy": 0.848571,
+      "path": "results\\baseline\\text_only\\edge_existence\\spring_Qwen2.5-VL-7B-Instruct.jsonl",
+      "wrong_format_answers": []
+    },
+    {
+      "setting": "text_only",
+      "task": "node_count",
+      "file_name": "spring_llava-v1.6-mistral-7b-hf.jsonl",
+      "image_type": "spring",
+      "model": "llava-v1.6-mistral-7b-hf",
+      "total": 350,
+      "correct": 332,
+      "incorrect": 18,
+      "wrong_format": 0,
+      "bad_expected": 0,
+      "accuracy": 0.948571,
+      "path": "results\\baseline\\text_only\\node_count\\spring_llava-v1.6-mistral-7b-hf.jsonl",
+      "wrong_format_answers": []
+    },
+    {
+      "setting": "text_only",
       "task": "node_count",
       "file_name": "spring_Qwen2.5-VL-3B-Instruct.jsonl",
       "image_type": "spring",
@@ -532,6 +1024,36 @@
     },
     {
       "setting": "text_only",
+      "task": "node_count",
+      "file_name": "spring_Qwen2.5-VL-7B-Instruct.jsonl",
+      "image_type": "spring",
+      "model": "Qwen2.5-VL-7B-Instruct",
+      "total": 350,
+      "correct": 349,
+      "incorrect": 1,
+      "wrong_format": 0,
+      "bad_expected": 0,
+      "accuracy": 0.997143,
+      "path": "results\\baseline\\text_only\\node_count\\spring_Qwen2.5-VL-7B-Instruct.jsonl",
+      "wrong_format_answers": []
+    },
+    {
+      "setting": "text_only",
+      "task": "node_degree",
+      "file_name": "spring_llava-v1.6-mistral-7b-hf.jsonl",
+      "image_type": "spring",
+      "model": "llava-v1.6-mistral-7b-hf",
+      "total": 350,
+      "correct": 141,
+      "incorrect": 209,
+      "wrong_format": 0,
+      "bad_expected": 0,
+      "accuracy": 0.402857,
+      "path": "results\\baseline\\text_only\\node_degree\\spring_llava-v1.6-mistral-7b-hf.jsonl",
+      "wrong_format_answers": []
+    },
+    {
+      "setting": "text_only",
       "task": "node_degree",
       "file_name": "spring_Qwen2.5-VL-3B-Instruct.jsonl",
       "image_type": "spring",
@@ -543,6 +1065,36 @@
       "bad_expected": 0,
       "accuracy": 0.231429,
       "path": "results\\baseline\\text_only\\node_degree\\spring_Qwen2.5-VL-3B-Instruct.jsonl",
+      "wrong_format_answers": []
+    },
+    {
+      "setting": "text_only",
+      "task": "node_degree",
+      "file_name": "spring_Qwen2.5-VL-7B-Instruct.jsonl",
+      "image_type": "spring",
+      "model": "Qwen2.5-VL-7B-Instruct",
+      "total": 350,
+      "correct": 122,
+      "incorrect": 228,
+      "wrong_format": 0,
+      "bad_expected": 0,
+      "accuracy": 0.348571,
+      "path": "results\\baseline\\text_only\\node_degree\\spring_Qwen2.5-VL-7B-Instruct.jsonl",
+      "wrong_format_answers": []
+    },
+    {
+      "setting": "text_only",
+      "task": "shortest_path",
+      "file_name": "spring_llava-v1.6-mistral-7b-hf.jsonl",
+      "image_type": "spring",
+      "model": "llava-v1.6-mistral-7b-hf",
+      "total": 350,
+      "correct": 125,
+      "incorrect": 225,
+      "wrong_format": 0,
+      "bad_expected": 0,
+      "accuracy": 0.357143,
+      "path": "results\\baseline\\text_only\\shortest_path\\spring_llava-v1.6-mistral-7b-hf.jsonl",
       "wrong_format_answers": []
     },
     {
@@ -567,6 +1119,41 @@
     },
     {
       "setting": "text_only",
+      "task": "shortest_path",
+      "file_name": "spring_Qwen2.5-VL-7B-Instruct.jsonl",
+      "image_type": "spring",
+      "model": "Qwen2.5-VL-7B-Instruct",
+      "total": 350,
+      "correct": 118,
+      "incorrect": 231,
+      "wrong_format": 1,
+      "bad_expected": 0,
+      "accuracy": 0.337143,
+      "path": "results\\baseline\\text_only\\shortest_path\\spring_Qwen2.5-VL-7B-Instruct.jsonl",
+      "wrong_format_answers": [
+        {
+          "sample_id": "shortest_path/adjacency/test/126",
+          "answer": "False"
+        }
+      ]
+    },
+    {
+      "setting": "text_only",
+      "task": "triangle_counting",
+      "file_name": "spring_llava-v1.6-mistral-7b-hf.jsonl",
+      "image_type": "spring",
+      "model": "llava-v1.6-mistral-7b-hf",
+      "total": 350,
+      "correct": 20,
+      "incorrect": 330,
+      "wrong_format": 0,
+      "bad_expected": 0,
+      "accuracy": 0.057143,
+      "path": "results\\baseline\\text_only\\triangle_counting\\spring_llava-v1.6-mistral-7b-hf.jsonl",
+      "wrong_format_answers": []
+    },
+    {
+      "setting": "text_only",
       "task": "triangle_counting",
       "file_name": "spring_Qwen2.5-VL-3B-Instruct.jsonl",
       "image_type": "spring",
@@ -579,383 +1166,398 @@
       "accuracy": 0.051429,
       "path": "results\\baseline\\text_only\\triangle_counting\\spring_Qwen2.5-VL-3B-Instruct.jsonl",
       "wrong_format_answers": []
+    },
+    {
+      "setting": "text_only",
+      "task": "triangle_counting",
+      "file_name": "spring_Qwen2.5-VL-7B-Instruct.jsonl",
+      "image_type": "spring",
+      "model": "Qwen2.5-VL-7B-Instruct",
+      "total": 350,
+      "correct": 139,
+      "incorrect": 211,
+      "wrong_format": 0,
+      "bad_expected": 0,
+      "accuracy": 0.397143,
+      "path": "results\\baseline\\text_only\\triangle_counting\\spring_Qwen2.5-VL-7B-Instruct.jsonl",
+      "wrong_format_answers": []
     }
   ],
   "summary": {
     "by_setting": {
       "image_only": {
         "connected_nodes": {
-          "count": 1,
-          "mean_accuracy": 0.162857,
-          "std_accuracy": 0.0
+          "count": 2,
+          "mean_accuracy": 0.204286,
+          "std_accuracy": 0.038571
         },
         "all": {
-          "count": 9,
-          "mean_accuracy": 0.328889,
-          "std_accuracy": 0.258355
+          "count": 25,
+          "mean_accuracy": 0.362171,
+          "std_accuracy": 0.27299
         },
         "cycle_check": {
-          "count": 1,
-          "mean_accuracy": 0.662857,
-          "std_accuracy": 0.0
+          "count": 3,
+          "mean_accuracy": 0.714286,
+          "std_accuracy": 0.070721
         },
         "disconnected_nodes": {
-          "count": 1,
-          "mean_accuracy": 0.045714,
-          "std_accuracy": 0.0
+          "count": 2,
+          "mean_accuracy": 0.06,
+          "std_accuracy": 0.014286
         },
         "edge_count": {
-          "count": 1,
-          "mean_accuracy": 0.16,
-          "std_accuracy": 0.0
+          "count": 3,
+          "mean_accuracy": 0.18,
+          "std_accuracy": 0.084015
         },
         "edge_existence": {
-          "count": 1,
-          "mean_accuracy": 0.734286,
-          "std_accuracy": 0.0
+          "count": 3,
+          "mean_accuracy": 0.651429,
+          "std_accuracy": 0.168014
         },
         "node_count": {
-          "count": 1,
-          "mean_accuracy": 0.642857,
-          "std_accuracy": 0.0
+          "count": 3,
+          "mean_accuracy": 0.562857,
+          "std_accuracy": 0.382131
         },
         "node_degree": {
-          "count": 1,
-          "mean_accuracy": 0.302857,
-          "std_accuracy": 0.0
+          "count": 3,
+          "mean_accuracy": 0.268571,
+          "std_accuracy": 0.082939
         },
         "shortest_path": {
-          "count": 1,
-          "mean_accuracy": 0.177143,
-          "std_accuracy": 0.0
+          "count": 3,
+          "mean_accuracy": 0.239048,
+          "std_accuracy": 0.099914
         },
         "triangle_counting": {
-          "count": 1,
-          "mean_accuracy": 0.071429,
-          "std_accuracy": 0.0
+          "count": 3,
+          "mean_accuracy": 0.225714,
+          "std_accuracy": 0.124824
         }
       },
       "text_and_image": {
         "connected_nodes": {
-          "count": 1,
-          "mean_accuracy": 0.337143,
-          "std_accuracy": 0.0
+          "count": 2,
+          "mean_accuracy": 0.397143,
+          "std_accuracy": 0.057143
         },
         "all": {
-          "count": 9,
-          "mean_accuracy": 0.399048,
-          "std_accuracy": 0.277864
+          "count": 25,
+          "mean_accuracy": 0.479886,
+          "std_accuracy": 0.272188
         },
         "cycle_check": {
-          "count": 1,
-          "mean_accuracy": 0.662857,
-          "std_accuracy": 0.0
+          "count": 3,
+          "mean_accuracy": 0.718095,
+          "std_accuracy": 0.078118
         },
         "disconnected_nodes": {
-          "count": 1,
-          "mean_accuracy": 0.054286,
-          "std_accuracy": 0.0
+          "count": 2,
+          "mean_accuracy": 0.071429,
+          "std_accuracy": 0.017142
         },
         "edge_count": {
-          "count": 1,
-          "mean_accuracy": 0.32,
-          "std_accuracy": 0.0
+          "count": 3,
+          "mean_accuracy": 0.384762,
+          "std_accuracy": 0.114531
         },
         "edge_existence": {
-          "count": 1,
-          "mean_accuracy": 0.788571,
-          "std_accuracy": 0.0
+          "count": 3,
+          "mean_accuracy": 0.699048,
+          "std_accuracy": 0.177317
         },
         "node_count": {
-          "count": 1,
-          "mean_accuracy": 0.834286,
-          "std_accuracy": 0.0
+          "count": 3,
+          "mean_accuracy": 0.922857,
+          "std_accuracy": 0.068133
         },
         "node_degree": {
-          "count": 1,
-          "mean_accuracy": 0.288571,
-          "std_accuracy": 0.0
+          "count": 3,
+          "mean_accuracy": 0.417143,
+          "std_accuracy": 0.114024
         },
         "shortest_path": {
-          "count": 1,
-          "mean_accuracy": 0.257143,
-          "std_accuracy": 0.0
+          "count": 3,
+          "mean_accuracy": 0.329524,
+          "std_accuracy": 0.059491
         },
         "triangle_counting": {
-          "count": 1,
-          "mean_accuracy": 0.048571,
-          "std_accuracy": 0.0
+          "count": 3,
+          "mean_accuracy": 0.215238,
+          "std_accuracy": 0.14404
         }
       },
       "text_only": {
         "connected_nodes": {
-          "count": 1,
-          "mean_accuracy": 0.291429,
-          "std_accuracy": 0.0
+          "count": 2,
+          "mean_accuracy": 0.311428,
+          "std_accuracy": 0.002858
         },
         "all": {
-          "count": 9,
-          "mean_accuracy": 0.389524,
-          "std_accuracy": 0.28707
+          "count": 25,
+          "mean_accuracy": 0.458286,
+          "std_accuracy": 0.280217
         },
         "cycle_check": {
-          "count": 1,
-          "mean_accuracy": 0.665714,
-          "std_accuracy": 0.0
+          "count": 3,
+          "mean_accuracy": 0.69619,
+          "std_accuracy": 0.041096
         },
         "disconnected_nodes": {
-          "count": 1,
-          "mean_accuracy": 0.094286,
-          "std_accuracy": 0.0
+          "count": 2,
+          "mean_accuracy": 0.112857,
+          "std_accuracy": 0.018571
         },
         "edge_count": {
-          "count": 1,
-          "mean_accuracy": 0.32,
-          "std_accuracy": 0.0
+          "count": 3,
+          "mean_accuracy": 0.386667,
+          "std_accuracy": 0.10873
         },
         "edge_existence": {
-          "count": 1,
-          "mean_accuracy": 0.78,
-          "std_accuracy": 0.0
+          "count": 3,
+          "mean_accuracy": 0.72,
+          "std_accuracy": 0.136247
         },
         "node_count": {
-          "count": 1,
-          "mean_accuracy": 0.874286,
-          "std_accuracy": 0.0
+          "count": 3,
+          "mean_accuracy": 0.94,
+          "std_accuracy": 0.050521
         },
         "node_degree": {
-          "count": 1,
-          "mean_accuracy": 0.231429,
-          "std_accuracy": 0.0
+          "count": 3,
+          "mean_accuracy": 0.327619,
+          "std_accuracy": 0.071536
         },
         "shortest_path": {
-          "count": 1,
-          "mean_accuracy": 0.197143,
-          "std_accuracy": 0.0
+          "count": 3,
+          "mean_accuracy": 0.297143,
+          "std_accuracy": 0.071181
         },
         "triangle_counting": {
-          "count": 1,
-          "mean_accuracy": 0.051429,
-          "std_accuracy": 0.0
+          "count": 3,
+          "mean_accuracy": 0.168572,
+          "std_accuracy": 0.161641
         }
       }
     },
     "by_task": {
       "connected_nodes": {
         "image_only": {
-          "count": 1,
-          "mean_accuracy": 0.162857,
-          "std_accuracy": 0.0
+          "count": 2,
+          "mean_accuracy": 0.204286,
+          "std_accuracy": 0.038571
         },
         "all": {
-          "count": 3,
-          "mean_accuracy": 0.26381,
-          "std_accuracy": 0.073784
+          "count": 6,
+          "mean_accuracy": 0.304286,
+          "std_accuracy": 0.088383
         },
         "text_and_image": {
-          "count": 1,
-          "mean_accuracy": 0.337143,
-          "std_accuracy": 0.0
+          "count": 2,
+          "mean_accuracy": 0.397143,
+          "std_accuracy": 0.057143
         },
         "text_only": {
-          "count": 1,
-          "mean_accuracy": 0.291429,
-          "std_accuracy": 0.0
+          "count": 2,
+          "mean_accuracy": 0.311428,
+          "std_accuracy": 0.002858
         }
       },
       "cycle_check": {
         "image_only": {
-          "count": 1,
-          "mean_accuracy": 0.662857,
-          "std_accuracy": 0.0
+          "count": 3,
+          "mean_accuracy": 0.714286,
+          "std_accuracy": 0.070721
         },
         "all": {
-          "count": 3,
-          "mean_accuracy": 0.663809,
-          "std_accuracy": 0.001347
+          "count": 9,
+          "mean_accuracy": 0.709524,
+          "std_accuracy": 0.065997
         },
         "text_and_image": {
-          "count": 1,
-          "mean_accuracy": 0.662857,
-          "std_accuracy": 0.0
+          "count": 3,
+          "mean_accuracy": 0.718095,
+          "std_accuracy": 0.078118
         },
         "text_only": {
-          "count": 1,
-          "mean_accuracy": 0.665714,
-          "std_accuracy": 0.0
+          "count": 3,
+          "mean_accuracy": 0.69619,
+          "std_accuracy": 0.041096
         }
       },
       "disconnected_nodes": {
         "image_only": {
-          "count": 1,
-          "mean_accuracy": 0.045714,
-          "std_accuracy": 0.0
+          "count": 2,
+          "mean_accuracy": 0.06,
+          "std_accuracy": 0.014286
         },
         "all": {
-          "count": 3,
-          "mean_accuracy": 0.064762,
-          "std_accuracy": 0.021168
+          "count": 6,
+          "mean_accuracy": 0.081429,
+          "std_accuracy": 0.028224
         },
         "text_and_image": {
-          "count": 1,
-          "mean_accuracy": 0.054286,
-          "std_accuracy": 0.0
+          "count": 2,
+          "mean_accuracy": 0.071429,
+          "std_accuracy": 0.017142
         },
         "text_only": {
-          "count": 1,
-          "mean_accuracy": 0.094286,
-          "std_accuracy": 0.0
+          "count": 2,
+          "mean_accuracy": 0.112857,
+          "std_accuracy": 0.018571
         }
       },
       "edge_count": {
         "image_only": {
-          "count": 1,
-          "mean_accuracy": 0.16,
-          "std_accuracy": 0.0
+          "count": 3,
+          "mean_accuracy": 0.18,
+          "std_accuracy": 0.084015
         },
         "all": {
-          "count": 3,
-          "mean_accuracy": 0.266667,
-          "std_accuracy": 0.075425
+          "count": 9,
+          "mean_accuracy": 0.317143,
+          "std_accuracy": 0.141671
         },
         "text_and_image": {
-          "count": 1,
-          "mean_accuracy": 0.32,
-          "std_accuracy": 0.0
+          "count": 3,
+          "mean_accuracy": 0.384762,
+          "std_accuracy": 0.114531
         },
         "text_only": {
-          "count": 1,
-          "mean_accuracy": 0.32,
-          "std_accuracy": 0.0
+          "count": 3,
+          "mean_accuracy": 0.386667,
+          "std_accuracy": 0.10873
         }
       },
       "edge_existence": {
         "image_only": {
-          "count": 1,
-          "mean_accuracy": 0.734286,
-          "std_accuracy": 0.0
+          "count": 3,
+          "mean_accuracy": 0.651429,
+          "std_accuracy": 0.168014
         },
         "all": {
-          "count": 3,
-          "mean_accuracy": 0.767619,
-          "std_accuracy": 0.023828
+          "count": 9,
+          "mean_accuracy": 0.690159,
+          "std_accuracy": 0.164015
         },
         "text_and_image": {
-          "count": 1,
-          "mean_accuracy": 0.788571,
-          "std_accuracy": 0.0
+          "count": 3,
+          "mean_accuracy": 0.699048,
+          "std_accuracy": 0.177317
         },
         "text_only": {
-          "count": 1,
-          "mean_accuracy": 0.78,
-          "std_accuracy": 0.0
+          "count": 3,
+          "mean_accuracy": 0.72,
+          "std_accuracy": 0.136247
         }
       },
       "node_count": {
         "image_only": {
-          "count": 1,
-          "mean_accuracy": 0.642857,
-          "std_accuracy": 0.0
+          "count": 3,
+          "mean_accuracy": 0.562857,
+          "std_accuracy": 0.382131
         },
         "all": {
-          "count": 3,
-          "mean_accuracy": 0.78381,
-          "std_accuracy": 0.100997
+          "count": 9,
+          "mean_accuracy": 0.808571,
+          "std_accuracy": 0.285149
         },
         "text_and_image": {
-          "count": 1,
-          "mean_accuracy": 0.834286,
-          "std_accuracy": 0.0
+          "count": 3,
+          "mean_accuracy": 0.922857,
+          "std_accuracy": 0.068133
         },
         "text_only": {
-          "count": 1,
-          "mean_accuracy": 0.874286,
-          "std_accuracy": 0.0
+          "count": 3,
+          "mean_accuracy": 0.94,
+          "std_accuracy": 0.050521
         }
       },
       "node_degree": {
         "image_only": {
-          "count": 1,
-          "mean_accuracy": 0.302857,
-          "std_accuracy": 0.0
+          "count": 3,
+          "mean_accuracy": 0.268571,
+          "std_accuracy": 0.082939
         },
         "all": {
-          "count": 3,
-          "mean_accuracy": 0.274286,
-          "std_accuracy": 0.03086
+          "count": 9,
+          "mean_accuracy": 0.337778,
+          "std_accuracy": 0.109832
         },
         "text_and_image": {
-          "count": 1,
-          "mean_accuracy": 0.288571,
-          "std_accuracy": 0.0
+          "count": 3,
+          "mean_accuracy": 0.417143,
+          "std_accuracy": 0.114024
         },
         "text_only": {
-          "count": 1,
-          "mean_accuracy": 0.231429,
-          "std_accuracy": 0.0
+          "count": 3,
+          "mean_accuracy": 0.327619,
+          "std_accuracy": 0.071536
         }
       },
       "shortest_path": {
         "image_only": {
-          "count": 1,
-          "mean_accuracy": 0.177143,
-          "std_accuracy": 0.0
+          "count": 3,
+          "mean_accuracy": 0.239048,
+          "std_accuracy": 0.099914
         },
         "all": {
-          "count": 3,
-          "mean_accuracy": 0.210476,
-          "std_accuracy": 0.033993
+          "count": 9,
+          "mean_accuracy": 0.288571,
+          "std_accuracy": 0.087162
         },
         "text_and_image": {
-          "count": 1,
-          "mean_accuracy": 0.257143,
-          "std_accuracy": 0.0
+          "count": 3,
+          "mean_accuracy": 0.329524,
+          "std_accuracy": 0.059491
         },
         "text_only": {
-          "count": 1,
-          "mean_accuracy": 0.197143,
-          "std_accuracy": 0.0
+          "count": 3,
+          "mean_accuracy": 0.297143,
+          "std_accuracy": 0.071181
         }
       },
       "triangle_counting": {
         "image_only": {
-          "count": 1,
-          "mean_accuracy": 0.071429,
-          "std_accuracy": 0.0
+          "count": 3,
+          "mean_accuracy": 0.225714,
+          "std_accuracy": 0.124824
         },
         "all": {
-          "count": 3,
-          "mean_accuracy": 0.057143,
-          "std_accuracy": 0.010169
+          "count": 9,
+          "mean_accuracy": 0.203175,
+          "std_accuracy": 0.146409
         },
         "text_and_image": {
-          "count": 1,
-          "mean_accuracy": 0.048571,
-          "std_accuracy": 0.0
+          "count": 3,
+          "mean_accuracy": 0.215238,
+          "std_accuracy": 0.14404
         },
         "text_only": {
-          "count": 1,
-          "mean_accuracy": 0.051429,
-          "std_accuracy": 0.0
+          "count": 3,
+          "mean_accuracy": 0.168572,
+          "std_accuracy": 0.161641
         }
       }
     },
     "by_image_type": {
       "spring": {
         "image_only": {
-          "count": 9,
-          "mean_accuracy": 0.328889,
-          "std_accuracy": 0.258355
+          "count": 25,
+          "mean_accuracy": 0.362171,
+          "std_accuracy": 0.27299
         },
         "text_and_image": {
-          "count": 9,
-          "mean_accuracy": 0.399048,
-          "std_accuracy": 0.277864
+          "count": 25,
+          "mean_accuracy": 0.479886,
+          "std_accuracy": 0.272188
         },
         "text_only": {
-          "count": 9,
-          "mean_accuracy": 0.389524,
-          "std_accuracy": 0.28707
+          "count": 25,
+          "mean_accuracy": 0.458286,
+          "std_accuracy": 0.280217
         }
       }
     },
@@ -963,67 +1565,101 @@
       "Qwen2.5-VL-3B-Instruct": {
         "image_only": {
           "count": 9,
-          "mean_accuracy": 0.328889,
-          "std_accuracy": 0.258355
+          "mean_accuracy": 0.329206,
+          "std_accuracy": 0.258152
         },
         "text_and_image": {
           "count": 9,
-          "mean_accuracy": 0.399048,
-          "std_accuracy": 0.277864
+          "mean_accuracy": 0.399365,
+          "std_accuracy": 0.277794
         },
         "text_only": {
           "count": 9,
-          "mean_accuracy": 0.389524,
-          "std_accuracy": 0.28707
+          "mean_accuracy": 0.391429,
+          "std_accuracy": 0.286469
+        }
+      },
+      "Qwen2.5-VL-7B-Instruct": {
+        "image_only": {
+          "count": 9,
+          "mean_accuracy": 0.479683,
+          "std_accuracy": 0.291735
+        },
+        "text_and_image": {
+          "count": 9,
+          "mean_accuracy": 0.571428,
+          "std_accuracy": 0.265999
+        },
+        "text_only": {
+          "count": 9,
+          "mean_accuracy": 0.51873,
+          "std_accuracy": 0.271237
+        }
+      },
+      "llava-v1.6-mistral-7b-hf": {
+        "image_only": {
+          "count": 7,
+          "mean_accuracy": 0.253469,
+          "std_accuracy": 0.200196
+        },
+        "text_and_image": {
+          "count": 7,
+          "mean_accuracy": 0.465714,
+          "std_accuracy": 0.234718
+        },
+        "text_only": {
+          "count": 7,
+          "mean_accuracy": 0.466531,
+          "std_accuracy": 0.264236
         }
       }
     }
   },
   "wrong_format_answers": [
     {
-      "setting": "image_only",
-      "task": "connected_nodes",
+      "setting": "text_and_image",
+      "task": "node_degree",
       "image_type": "spring",
-      "model": "Qwen2.5-VL-3B-Instruct",
-      "file_name": "spring_Qwen2.5-VL-3B-Instruct.jsonl",
-      "sample_id": "connected_nodes/adjacency/test/118",
-      "answer": "None"
+      "model": "Qwen2.5-VL-7B-Instruct",
+      "file_name": "spring_Qwen2.5-VL-7B-Instruct.jsonl",
+      "sample_id": "node_degree/adjacency/test/113",
+      "answer": "3, 7, 11, 12"
     },
     {
       "setting": "text_and_image",
-      "task": "connected_nodes",
+      "task": "node_degree",
       "image_type": "spring",
-      "model": "Qwen2.5-VL-3B-Instruct",
-      "file_name": "spring_Qwen2.5-VL-3B-Instruct.jsonl",
-      "sample_id": "connected_nodes/adjacency/test/118",
-      "answer": "None"
+      "model": "Qwen2.5-VL-7B-Instruct",
+      "file_name": "spring_Qwen2.5-VL-7B-Instruct.jsonl",
+      "sample_id": "node_degree/adjacency/test/151",
+      "answer": "3, 4, 6"
     },
     {
-      "setting": "text_only",
-      "task": "connected_nodes",
+      "setting": "text_and_image",
+      "task": "shortest_path",
       "image_type": "spring",
-      "model": "Qwen2.5-VL-3B-Instruct",
-      "file_name": "spring_Qwen2.5-VL-3B-Instruct.jsonl",
-      "sample_id": "connected_nodes/adjacency/test/2",
-      "answer": "None"
+      "model": "llava-v1.6-mistral-7b-hf",
+      "file_name": "spring_llava-v1.6-mistral-7b-hf.jsonl",
+      "sample_id": "shortest_path/adjacency/test/2",
+      "answer": "True"
     },
     {
-      "setting": "text_only",
-      "task": "connected_nodes",
+      "setting": "text_and_image",
+      "task": "triangle_counting",
       "image_type": "spring",
-      "model": "Qwen2.5-VL-3B-Instruct",
-      "file_name": "spring_Qwen2.5-VL-3B-Instruct.jsonl",
-      "sample_id": "connected_nodes/adjacency/test/7",
-      "answer": "1 2 3 4 5 6 7"
+      "model": "llava-v1.6-mistral-7b-hf",
+      "file_name": "spring_llava-v1.6-mistral-7b-hf.jsonl",
+      "sample_id": "triangle_counting/adjacency/test/2",
+      "answer": "False"
     },
     {
-      "setting": "text_only",
-      "task": "connected_nodes",
+      "setting": "text_and_image",
+      "task": "triangle_counting",
       "image_type": "spring",
-      "model": "Qwen2.5-VL-3B-Instruct",
-      "file_name": "spring_Qwen2.5-VL-3B-Instruct.jsonl",
-      "sample_id": "connected_nodes/adjacency/test/11",
-      "answer": "1 2 3 4 6 9 10 12 13 14 15 17"
+      "model": "llava-v1.6-mistral-7b-hf",
+      "file_name": "spring_llava-v1.6-mistral-7b-hf.jsonl",
+      "sample_id": "triangle_counting/adjacency/test/109",
+      "answer": "False"
     },
     {
       "setting": "text_only",
@@ -1040,26 +1676,8 @@
       "image_type": "spring",
       "model": "Qwen2.5-VL-3B-Instruct",
       "file_name": "spring_Qwen2.5-VL-3B-Instruct.jsonl",
-      "sample_id": "connected_nodes/adjacency/test/35",
-      "answer": "10 8 7 6 5 4 3 2 1 0"
-    },
-    {
-      "setting": "text_only",
-      "task": "connected_nodes",
-      "image_type": "spring",
-      "model": "Qwen2.5-VL-3B-Instruct",
-      "file_name": "spring_Qwen2.5-VL-3B-Instruct.jsonl",
       "sample_id": "connected_nodes/adjacency/test/42",
       "answer": "None of the nodes are directly connected to node 7 based on the provided information."
-    },
-    {
-      "setting": "text_only",
-      "task": "connected_nodes",
-      "image_type": "spring",
-      "model": "Qwen2.5-VL-3B-Instruct",
-      "file_name": "spring_Qwen2.5-VL-3B-Instruct.jsonl",
-      "sample_id": "connected_nodes/adjacency/test/61",
-      "answer": "14 16 17"
     },
     {
       "setting": "text_only",
@@ -1076,15 +1694,6 @@
       "image_type": "spring",
       "model": "Qwen2.5-VL-3B-Instruct",
       "file_name": "spring_Qwen2.5-VL-3B-Instruct.jsonl",
-      "sample_id": "connected_nodes/adjacency/test/131",
-      "answer": "1 2 3 4 5 6 8 9 10 11 12 13"
-    },
-    {
-      "setting": "text_only",
-      "task": "connected_nodes",
-      "image_type": "spring",
-      "model": "Qwen2.5-VL-3B-Instruct",
-      "file_name": "spring_Qwen2.5-VL-3B-Instruct.jsonl",
       "sample_id": "connected_nodes/adjacency/test/139",
       "answer": "None of the nodes are directly connected to node 5 based on the provided information."
     },
@@ -1092,262 +1701,10 @@
       "setting": "text_only",
       "task": "connected_nodes",
       "image_type": "spring",
-      "model": "Qwen2.5-VL-3B-Instruct",
-      "file_name": "spring_Qwen2.5-VL-3B-Instruct.jsonl",
-      "sample_id": "connected_nodes/adjacency/test/241",
-      "answer": "0 1 2 3 4 5 6 7 8 10"
-    },
-    {
-      "setting": "text_only",
-      "task": "connected_nodes",
-      "image_type": "spring",
-      "model": "Qwen2.5-VL-3B-Instruct",
-      "file_name": "spring_Qwen2.5-VL-3B-Instruct.jsonl",
-      "sample_id": "connected_nodes/adjacency/test/243",
-      "answer": "0 1 2 3 4 5 6 7 8"
-    },
-    {
-      "setting": "text_only",
-      "task": "connected_nodes",
-      "image_type": "spring",
-      "model": "Qwen2.5-VL-3B-Instruct",
-      "file_name": "spring_Qwen2.5-VL-3B-Instruct.jsonl",
-      "sample_id": "connected_nodes/adjacency/test/258",
-      "answer": "11 12 13 14 15 16"
-    },
-    {
-      "setting": "text_only",
-      "task": "disconnected_nodes",
-      "image_type": "spring",
-      "model": "Qwen2.5-VL-3B-Instruct",
-      "file_name": "spring_Qwen2.5-VL-3B-Instruct.jsonl",
-      "sample_id": "disconnected_nodes/adjacency/test/11",
-      "answer": "1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17"
-    },
-    {
-      "setting": "text_only",
-      "task": "disconnected_nodes",
-      "image_type": "spring",
-      "model": "Qwen2.5-VL-3B-Instruct",
-      "file_name": "spring_Qwen2.5-VL-3B-Instruct.jsonl",
-      "sample_id": "disconnected_nodes/adjacency/test/19",
-      "answer": "0 2 3 4 5 6 7 8 9 10 11"
-    },
-    {
-      "setting": "text_only",
-      "task": "disconnected_nodes",
-      "image_type": "spring",
-      "model": "Qwen2.5-VL-3B-Instruct",
-      "file_name": "spring_Qwen2.5-VL-3B-Instruct.jsonl",
-      "sample_id": "disconnected_nodes/adjacency/test/22",
-      "answer": "0 2 3 4 5 6 7 8 9 10 11"
-    },
-    {
-      "setting": "text_only",
-      "task": "disconnected_nodes",
-      "image_type": "spring",
-      "model": "Qwen2.5-VL-3B-Instruct",
-      "file_name": "spring_Qwen2.5-VL-3B-Instruct.jsonl",
-      "sample_id": "disconnected_nodes/adjacency/test/45",
-      "answer": "0 2 4 5 6 7 8 9 10"
-    },
-    {
-      "setting": "text_only",
-      "task": "disconnected_nodes",
-      "image_type": "spring",
-      "model": "Qwen2.5-VL-3B-Instruct",
-      "file_name": "spring_Qwen2.5-VL-3B-Instruct.jsonl",
-      "sample_id": "disconnected_nodes/adjacency/test/60",
-      "answer": "1 2 3 4 5 6"
-    },
-    {
-      "setting": "text_only",
-      "task": "disconnected_nodes",
-      "image_type": "spring",
-      "model": "Qwen2.5-VL-3B-Instruct",
-      "file_name": "spring_Qwen2.5-VL-3B-Instruct.jsonl",
-      "sample_id": "disconnected_nodes/adjacency/test/87",
-      "answer": "1 2 3 4 5 6 7 8 9 10"
-    },
-    {
-      "setting": "text_only",
-      "task": "disconnected_nodes",
-      "image_type": "spring",
-      "model": "Qwen2.5-VL-3B-Instruct",
-      "file_name": "spring_Qwen2.5-VL-3B-Instruct.jsonl",
-      "sample_id": "disconnected_nodes/adjacency/test/104",
-      "answer": "0 1 2 3 4 5 7 8 9 10 11 12 13 14"
-    },
-    {
-      "setting": "text_only",
-      "task": "disconnected_nodes",
-      "image_type": "spring",
-      "model": "Qwen2.5-VL-3B-Instruct",
-      "file_name": "spring_Qwen2.5-VL-3B-Instruct.jsonl",
-      "sample_id": "disconnected_nodes/adjacency/test/105",
-      "answer": "0 1 2 3 4 5 7 8 9"
-    },
-    {
-      "setting": "text_only",
-      "task": "disconnected_nodes",
-      "image_type": "spring",
-      "model": "Qwen2.5-VL-3B-Instruct",
-      "file_name": "spring_Qwen2.5-VL-3B-Instruct.jsonl",
-      "sample_id": "disconnected_nodes/adjacency/test/120",
-      "answer": "10 11 12 13 14 15 16 17 18"
-    },
-    {
-      "setting": "text_only",
-      "task": "disconnected_nodes",
-      "image_type": "spring",
-      "model": "Qwen2.5-VL-3B-Instruct",
-      "file_name": "spring_Qwen2.5-VL-3B-Instruct.jsonl",
-      "sample_id": "disconnected_nodes/adjacency/test/162",
-      "answer": "10 11 12"
-    },
-    {
-      "setting": "text_only",
-      "task": "disconnected_nodes",
-      "image_type": "spring",
-      "model": "Qwen2.5-VL-3B-Instruct",
-      "file_name": "spring_Qwen2.5-VL-3B-Instruct.jsonl",
-      "sample_id": "disconnected_nodes/adjacency/test/183",
-      "answer": "1 2 15"
-    },
-    {
-      "setting": "text_only",
-      "task": "disconnected_nodes",
-      "image_type": "spring",
-      "model": "Qwen2.5-VL-3B-Instruct",
-      "file_name": "spring_Qwen2.5-VL-3B-Instruct.jsonl",
-      "sample_id": "disconnected_nodes/adjacency/test/187",
-      "answer": "0 1 7 9"
-    },
-    {
-      "setting": "text_only",
-      "task": "disconnected_nodes",
-      "image_type": "spring",
-      "model": "Qwen2.5-VL-3B-Instruct",
-      "file_name": "spring_Qwen2.5-VL-3B-Instruct.jsonl",
-      "sample_id": "disconnected_nodes/adjacency/test/206",
-      "answer": "0 2 3 4 5 6 7 8 9 10 11 12 13 14"
-    },
-    {
-      "setting": "text_only",
-      "task": "disconnected_nodes",
-      "image_type": "spring",
-      "model": "Qwen2.5-VL-3B-Instruct",
-      "file_name": "spring_Qwen2.5-VL-3B-Instruct.jsonl",
-      "sample_id": "disconnected_nodes/adjacency/test/208",
-      "answer": "0 1 2 3 4 5 6 7 9 10 11 12 13 14 15 16"
-    },
-    {
-      "setting": "text_only",
-      "task": "disconnected_nodes",
-      "image_type": "spring",
-      "model": "Qwen2.5-VL-3B-Instruct",
-      "file_name": "spring_Qwen2.5-VL-3B-Instruct.jsonl",
-      "sample_id": "disconnected_nodes/adjacency/test/211",
-      "answer": "0 1 2 3 4 5 6 7 9 10 11 12 13 14 15"
-    },
-    {
-      "setting": "text_only",
-      "task": "disconnected_nodes",
-      "image_type": "spring",
-      "model": "Qwen2.5-VL-3B-Instruct",
-      "file_name": "spring_Qwen2.5-VL-3B-Instruct.jsonl",
-      "sample_id": "disconnected_nodes/adjacency/test/212",
-      "answer": "0 1 2 3 4 5 6 7 9 10 11 12"
-    },
-    {
-      "setting": "text_only",
-      "task": "disconnected_nodes",
-      "image_type": "spring",
-      "model": "Qwen2.5-VL-3B-Instruct",
-      "file_name": "spring_Qwen2.5-VL-3B-Instruct.jsonl",
-      "sample_id": "disconnected_nodes/adjacency/test/213",
-      "answer": "0 2 3 4 5 6 7 8 9"
-    },
-    {
-      "setting": "text_only",
-      "task": "disconnected_nodes",
-      "image_type": "spring",
-      "model": "Qwen2.5-VL-3B-Instruct",
-      "file_name": "spring_Qwen2.5-VL-3B-Instruct.jsonl",
-      "sample_id": "disconnected_nodes/adjacency/test/233",
-      "answer": "0 1 2 3 4 5 6 7 8 10 11 12 13 14 15 16 17"
-    },
-    {
-      "setting": "text_only",
-      "task": "disconnected_nodes",
-      "image_type": "spring",
-      "model": "Qwen2.5-VL-3B-Instruct",
-      "file_name": "spring_Qwen2.5-VL-3B-Instruct.jsonl",
-      "sample_id": "disconnected_nodes/adjacency/test/236",
-      "answer": "0 1 3 4 5 6 7 8"
-    },
-    {
-      "setting": "text_only",
-      "task": "disconnected_nodes",
-      "image_type": "spring",
-      "model": "Qwen2.5-VL-3B-Instruct",
-      "file_name": "spring_Qwen2.5-VL-3B-Instruct.jsonl",
-      "sample_id": "disconnected_nodes/adjacency/test/274",
-      "answer": "10 11 12 13"
-    },
-    {
-      "setting": "text_only",
-      "task": "disconnected_nodes",
-      "image_type": "spring",
-      "model": "Qwen2.5-VL-3B-Instruct",
-      "file_name": "spring_Qwen2.5-VL-3B-Instruct.jsonl",
-      "sample_id": "disconnected_nodes/adjacency/test/281",
-      "answer": "0 1 2 3 5 6 7 8 9"
-    },
-    {
-      "setting": "text_only",
-      "task": "disconnected_nodes",
-      "image_type": "spring",
-      "model": "Qwen2.5-VL-3B-Instruct",
-      "file_name": "spring_Qwen2.5-VL-3B-Instruct.jsonl",
-      "sample_id": "disconnected_nodes/adjacency/test/293",
-      "answer": "1 2 3 4 5 6 7 8 9"
-    },
-    {
-      "setting": "text_only",
-      "task": "disconnected_nodes",
-      "image_type": "spring",
-      "model": "Qwen2.5-VL-3B-Instruct",
-      "file_name": "spring_Qwen2.5-VL-3B-Instruct.jsonl",
-      "sample_id": "disconnected_nodes/adjacency/test/319",
-      "answer": "10 11 12 13"
-    },
-    {
-      "setting": "text_only",
-      "task": "disconnected_nodes",
-      "image_type": "spring",
-      "model": "Qwen2.5-VL-3B-Instruct",
-      "file_name": "spring_Qwen2.5-VL-3B-Instruct.jsonl",
-      "sample_id": "disconnected_nodes/adjacency/test/324",
-      "answer": "11 12 13"
-    },
-    {
-      "setting": "text_only",
-      "task": "disconnected_nodes",
-      "image_type": "spring",
-      "model": "Qwen2.5-VL-3B-Instruct",
-      "file_name": "spring_Qwen2.5-VL-3B-Instruct.jsonl",
-      "sample_id": "disconnected_nodes/adjacency/test/328",
-      "answer": "10 11 12"
-    },
-    {
-      "setting": "text_only",
-      "task": "disconnected_nodes",
-      "image_type": "spring",
-      "model": "Qwen2.5-VL-3B-Instruct",
-      "file_name": "spring_Qwen2.5-VL-3B-Instruct.jsonl",
-      "sample_id": "disconnected_nodes/adjacency/test/345",
-      "answer": "10 11 12 13"
+      "model": "Qwen2.5-VL-7B-Instruct",
+      "file_name": "spring_Qwen2.5-VL-7B-Instruct.jsonl",
+      "sample_id": "connected_nodes/adjacency/test/94",
+      "answer": "1,"
     },
     {
       "setting": "text_only",
@@ -1357,7 +1714,16 @@
       "file_name": "spring_Qwen2.5-VL-3B-Instruct.jsonl",
       "sample_id": "shortest_path/adjacency/test/132",
       "answer": "None of the provided edges connect node 4 to node 2, so there is no path between them. Therefore, the length of the shortest path from node 4 to node 2 is 0."
+    },
+    {
+      "setting": "text_only",
+      "task": "shortest_path",
+      "image_type": "spring",
+      "model": "Qwen2.5-VL-7B-Instruct",
+      "file_name": "spring_Qwen2.5-VL-7B-Instruct.jsonl",
+      "sample_id": "shortest_path/adjacency/test/126",
+      "answer": "False"
     }
   ],
-  "wrong_format_count": 42
+  "wrong_format_count": 12
 }

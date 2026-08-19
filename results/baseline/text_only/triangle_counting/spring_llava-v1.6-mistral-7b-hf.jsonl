@@ -1,0 +1,6302 @@
+[
+  {
+    "sample_id": "triangle_counting/adjacency/test/0",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "5.",
+    "model_answer": "3",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3",
+      "confidence": 0.7880147695541382,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/1",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "17.",
+    "model_answer": "3",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3",
+      "confidence": 0.7642889022827148,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/2",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "0.",
+    "model_answer": "0",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": 0.8037329912185669,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/3",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "8.",
+    "model_answer": "3",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3",
+      "confidence": 0.7488476037979126,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/4",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "9.",
+    "model_answer": "3",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3",
+      "confidence": 0.7632564306259155,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/5",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "149.",
+    "model_answer": "10",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "10",
+      "confidence": 0.6688883900642395,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/6",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "1.",
+    "model_answer": "2",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2",
+      "confidence": 0.7703409194946289,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/7",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "30.",
+    "model_answer": "6",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "6",
+      "confidence": 0.7902643084526062,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/8",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "27.",
+    "model_answer": "6",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "6",
+      "confidence": 0.7645770311355591,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/9",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "2.",
+    "model_answer": "3",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3",
+      "confidence": 0.8132387399673462,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/10",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "70.",
+    "model_answer": "12",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "12",
+      "confidence": 0.7022678852081299,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/11",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "437.",
+    "model_answer": "12",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "12",
+      "confidence": 0.6852596402168274,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/12",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "194.",
+    "model_answer": "10",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "10",
+      "confidence": 0.6735156178474426,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/13",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "145.",
+    "model_answer": "12",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "12",
+      "confidence": 0.67997807264328,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/14",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "1.",
+    "model_answer": "3",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3",
+      "confidence": 0.7816562056541443,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/15",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "3.",
+    "model_answer": "2",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2",
+      "confidence": 0.8012678623199463,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/16",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "10.",
+    "model_answer": "3",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3",
+      "confidence": 0.8371480107307434,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/17",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "35.",
+    "model_answer": "6",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "6",
+      "confidence": 0.7869417667388916,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/18",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "1.",
+    "model_answer": "2",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2",
+      "confidence": 0.8092837333679199,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/19",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "83.",
+    "model_answer": "6",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "6",
+      "confidence": 0.7736449837684631,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/20",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "0.",
+    "model_answer": "3",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3",
+      "confidence": 0.7725174427032471,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/21",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "3.",
+    "model_answer": "3",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3",
+      "confidence": 0.831890344619751,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/22",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "210.",
+    "model_answer": "12",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "12",
+      "confidence": 0.7066709399223328,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/23",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "165.",
+    "model_answer": "12",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "12",
+      "confidence": 0.6716791987419128,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/24",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "50.",
+    "model_answer": "6",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "6",
+      "confidence": 0.7712169885635376,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/25",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "3.",
+    "model_answer": "2",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2",
+      "confidence": 0.8075313568115234,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/26",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "90.",
+    "model_answer": "12",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "12",
+      "confidence": 0.7156893610954285,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/27",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "0.",
+    "model_answer": "1",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": 0.8292877674102783,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/28",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "89.",
+    "model_answer": "6",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "6",
+      "confidence": 0.7755498886108398,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/29",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "1.",
+    "model_answer": "3",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3",
+      "confidence": 0.7787169814109802,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/30",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "0.",
+    "model_answer": "2",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2",
+      "confidence": 0.8070430755615234,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/31",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "206.",
+    "model_answer": "12",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "12",
+      "confidence": 0.6969176530838013,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/32",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "7.",
+    "model_answer": "3",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3",
+      "confidence": 0.8305994272232056,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/33",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "34.",
+    "model_answer": "6",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "6",
+      "confidence": 0.7577885389328003,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/34",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "29.",
+    "model_answer": "6",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "6",
+      "confidence": 0.7700245380401611,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/35",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "114.",
+    "model_answer": "10",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "10",
+      "confidence": 0.6849082112312317,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/36",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "12.",
+    "model_answer": "3",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3",
+      "confidence": 0.7708002328872681,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/37",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "3.",
+    "model_answer": "3",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3",
+      "confidence": 0.7765792608261108,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/38",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "0.",
+    "model_answer": "1",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": 0.7734932899475098,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/39",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "55.",
+    "model_answer": "6",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "6",
+      "confidence": 0.7914813756942749,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/40",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "1.",
+    "model_answer": "3",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3",
+      "confidence": 0.770365834236145,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/41",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "13.",
+    "model_answer": "3",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3",
+      "confidence": 0.7752659320831299,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/42",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "0.",
+    "model_answer": "1",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": 0.8132965564727783,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/43",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "0.",
+    "model_answer": "2",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2",
+      "confidence": 0.7782448530197144,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/44",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "10.",
+    "model_answer": "3",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3",
+      "confidence": 0.8371480107307434,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/45",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "57.",
+    "model_answer": "6",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "6",
+      "confidence": 0.7810404300689697,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/46",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "0.",
+    "model_answer": "1",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": 0.7734932899475098,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/47",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "140.",
+    "model_answer": "10",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "10",
+      "confidence": 0.6778629422187805,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/48",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "417.",
+    "model_answer": "14",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "14",
+      "confidence": 0.681097686290741,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/49",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "40.",
+    "model_answer": "10",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "10",
+      "confidence": 0.663364052772522,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/50",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "82.",
+    "model_answer": "12",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "12",
+      "confidence": 0.6943382024765015,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/51",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "36.",
+    "model_answer": "10",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "10",
+      "confidence": 0.6594457030296326,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/52",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "0.",
+    "model_answer": "1",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": 0.783467710018158,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/53",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "9.",
+    "model_answer": "6",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "6",
+      "confidence": 0.7592014074325562,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/54",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "63.",
+    "model_answer": "10",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "10",
+      "confidence": 0.6630620956420898,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/55",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "37.",
+    "model_answer": "6",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "6",
+      "confidence": 0.7740662693977356,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/56",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "34.",
+    "model_answer": "10",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "10",
+      "confidence": 0.6818506121635437,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/57",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "0.",
+    "model_answer": "2",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2",
+      "confidence": 0.8281041979789734,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/58",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "148.",
+    "model_answer": "12",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "12",
+      "confidence": 0.6923359036445618,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/59",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "7.",
+    "model_answer": "3",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3",
+      "confidence": 0.8147341012954712,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/60",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "4.",
+    "model_answer": "3",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3",
+      "confidence": 0.799511730670929,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/61",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "15.",
+    "model_answer": "17",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "17",
+      "confidence": 0.6411382555961609,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/62",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "7.",
+    "model_answer": "1",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": 0.5913993716239929,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/63",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "21.",
+    "model_answer": "6",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "6",
+      "confidence": 0.7697601914405823,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/64",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "0.",
+    "model_answer": "12",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "12",
+      "confidence": 0.6454955339431763,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/65",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "0.",
+    "model_answer": "7",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "7",
+      "confidence": 0.7496691346168518,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/66",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "8.",
+    "model_answer": "3",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3",
+      "confidence": 0.817937970161438,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/67",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "2.",
+    "model_answer": "1",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": 0.8068970441818237,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/68",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "12.",
+    "model_answer": "3",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3",
+      "confidence": 0.789289116859436,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/69",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "0.",
+    "model_answer": "1",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": 0.603548526763916,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/70",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "0.",
+    "model_answer": "15",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "15",
+      "confidence": 0.6492910385131836,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/71",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "11.",
+    "model_answer": "3",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3",
+      "confidence": 0.7904139757156372,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/72",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "0.",
+    "model_answer": "10",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "10",
+      "confidence": 0.6745380759239197,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/73",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "36.",
+    "model_answer": "6",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "6",
+      "confidence": 0.7706934213638306,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/74",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "13.",
+    "model_answer": "3",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3",
+      "confidence": 0.7632860541343689,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/75",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "18.",
+    "model_answer": "3",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3",
+      "confidence": 0.7642316818237305,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/76",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "34.",
+    "model_answer": "6",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "6",
+      "confidence": 0.7711634635925293,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/77",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "5.",
+    "model_answer": "3",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3",
+      "confidence": 0.7567527890205383,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/78",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "5.",
+    "model_answer": "3",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3",
+      "confidence": 0.7944701910018921,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/79",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "34.",
+    "model_answer": "6",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "6",
+      "confidence": 0.774836540222168,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/80",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "26.",
+    "model_answer": "6",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "6",
+      "confidence": 0.7674893140792847,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/81",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "22.",
+    "model_answer": "3",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3",
+      "confidence": 0.78444504737854,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/82",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "5.",
+    "model_answer": "3",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3",
+      "confidence": 0.7929878234863281,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/83",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "136.",
+    "model_answer": "12",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "12",
+      "confidence": 0.6958189010620117,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/84",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "6.",
+    "model_answer": "3",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3",
+      "confidence": 0.759019136428833,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/85",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "54.",
+    "model_answer": "10",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "10",
+      "confidence": 0.6453664898872375,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/86",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "0.",
+    "model_answer": "1",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": 0.783467710018158,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/87",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "5.",
+    "model_answer": "3",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3",
+      "confidence": 0.7870818376541138,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/88",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "4.",
+    "model_answer": "3",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3",
+      "confidence": 0.8071764707565308,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/89",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "11.",
+    "model_answer": "3",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3",
+      "confidence": 0.783268928527832,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/90",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "34.",
+    "model_answer": "6",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "6",
+      "confidence": 0.7683670520782471,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/91",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "8.",
+    "model_answer": "1",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": 0.5788675546646118,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/92",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "4.",
+    "model_answer": "3",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3",
+      "confidence": 0.8083277940750122,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/93",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "33.",
+    "model_answer": "6",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "6",
+      "confidence": 0.755195140838623,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/94",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "0.",
+    "model_answer": "2",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2",
+      "confidence": 0.8216127157211304,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/95",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "22.",
+    "model_answer": "12",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "12",
+      "confidence": 0.6663524508476257,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/96",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "3.",
+    "model_answer": "1",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": 0.782700777053833,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/97",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "44.",
+    "model_answer": "12",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "12",
+      "confidence": 0.6609105467796326,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/98",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "72.",
+    "model_answer": "10",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "10",
+      "confidence": 0.6723110675811768,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/99",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "0.",
+    "model_answer": "3",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3",
+      "confidence": 0.7714592218399048,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/100",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "122.",
+    "model_answer": "10",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "10",
+      "confidence": 0.6889240145683289,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/101",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "3.",
+    "model_answer": "3",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3",
+      "confidence": 0.78737872838974,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/102",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "16.",
+    "model_answer": "3",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3",
+      "confidence": 0.7894732356071472,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/103",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "70.",
+    "model_answer": "10",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "10",
+      "confidence": 0.6658213138580322,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/104",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "19.",
+    "model_answer": "3",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3",
+      "confidence": 0.7681633234024048,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/105",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "20.",
+    "model_answer": "6",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "6",
+      "confidence": 0.7675806283950806,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/106",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "94.",
+    "model_answer": "10",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "10",
+      "confidence": 0.6757842302322388,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/107",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "2.",
+    "model_answer": "2",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2",
+      "confidence": 0.8443305492401123,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/108",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "47.",
+    "model_answer": "6",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "6",
+      "confidence": 0.7667974829673767,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/109",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "0.",
+    "model_answer": "0",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": 0.7954257130622864,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/110",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "4.",
+    "model_answer": "3",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3",
+      "confidence": 0.8112197518348694,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/111",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "232.",
+    "model_answer": "10",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "10",
+      "confidence": 0.6656547784805298,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/112",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "86.",
+    "model_answer": "10",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "10",
+      "confidence": 0.6705079078674316,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/113",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "7.",
+    "model_answer": "6",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "6",
+      "confidence": 0.7655267715454102,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/114",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "97.",
+    "model_answer": "10",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "10",
+      "confidence": 0.6775083541870117,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/115",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "10.",
+    "model_answer": "3",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3",
+      "confidence": 0.8341198563575745,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/116",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "1.",
+    "model_answer": "3",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3",
+      "confidence": 0.7668458223342896,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/117",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "2.",
+    "model_answer": "2",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2",
+      "confidence": 0.8156778812408447,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/118",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "1.",
+    "model_answer": "1",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": 0.8274328708648682,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/119",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "119.",
+    "model_answer": "10",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "10",
+      "confidence": 0.6607696413993835,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/120",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "209.",
+    "model_answer": "10",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "10",
+      "confidence": 0.6795069575309753,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/121",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "7.",
+    "model_answer": "3",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3",
+      "confidence": 0.8103687763214111,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/122",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "64.",
+    "model_answer": "6",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "6",
+      "confidence": 0.7831301689147949,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/123",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "91.",
+    "model_answer": "6",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "6",
+      "confidence": 0.7683552503585815,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/124",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "117.",
+    "model_answer": "10",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "10",
+      "confidence": 0.6659846305847168,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/125",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "4.",
+    "model_answer": "3",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3",
+      "confidence": 0.8195353746414185,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/126",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "12.",
+    "model_answer": "3",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3",
+      "confidence": 0.7830625176429749,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/127",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "3.",
+    "model_answer": "3",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3",
+      "confidence": 0.8008575439453125,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/128",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "72.",
+    "model_answer": "6",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "6",
+      "confidence": 0.7699475288391113,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/129",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "45.",
+    "model_answer": "6",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "6",
+      "confidence": 0.7860261797904968,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/130",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "18.",
+    "model_answer": "4",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "4",
+      "confidence": 0.7636051177978516,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/131",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "119.",
+    "model_answer": "10",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "10",
+      "confidence": 0.6639470458030701,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/132",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "2.",
+    "model_answer": "2",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2",
+      "confidence": 0.7928218841552734,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/133",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "104.",
+    "model_answer": "10",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "10",
+      "confidence": 0.6734462976455688,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/134",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "50.",
+    "model_answer": "6",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "6",
+      "confidence": 0.7705965042114258,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/135",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "2.",
+    "model_answer": "3",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3",
+      "confidence": 0.7776105403900146,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/136",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "3.",
+    "model_answer": "2",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2",
+      "confidence": 0.7995760440826416,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/137",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "49.",
+    "model_answer": "6",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "6",
+      "confidence": 0.7812874913215637,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/138",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "2.",
+    "model_answer": "2",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2",
+      "confidence": 0.8162400126457214,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/139",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "0.",
+    "model_answer": "1",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": 0.802590012550354,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/140",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "28.",
+    "model_answer": "10",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "10",
+      "confidence": 0.6690064668655396,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/141",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "2.",
+    "model_answer": "3",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3",
+      "confidence": 0.7924313545227051,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/142",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "42.",
+    "model_answer": "6",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "6",
+      "confidence": 0.779484748840332,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/143",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "26.",
+    "model_answer": "6",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "6",
+      "confidence": 0.758254885673523,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/144",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "35.",
+    "model_answer": "6",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "6",
+      "confidence": 0.783999502658844,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/145",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "66.",
+    "model_answer": "10",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "10",
+      "confidence": 0.6843464374542236,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/146",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "2.",
+    "model_answer": "3",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3",
+      "confidence": 0.8094421625137329,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/147",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "1.",
+    "model_answer": "3",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3",
+      "confidence": 0.763530969619751,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/148",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "60.",
+    "model_answer": "6",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "6",
+      "confidence": 0.7620190382003784,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/149",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "105.",
+    "model_answer": "10",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "10",
+      "confidence": 0.6682133078575134,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/150",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "3.",
+    "model_answer": "1",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": 0.5641055703163147,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/151",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "4.",
+    "model_answer": "3",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3",
+      "confidence": 0.7721303105354309,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/152",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "1.",
+    "model_answer": "3",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3",
+      "confidence": 0.7808278799057007,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/153",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "5.",
+    "model_answer": "1",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": 0.5697793960571289,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/154",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "5.",
+    "model_answer": "4",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "4",
+      "confidence": 0.741952121257782,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/155",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "2.",
+    "model_answer": "3",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3",
+      "confidence": 0.7840937972068787,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/156",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "8.",
+    "model_answer": "6",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "6",
+      "confidence": 0.7642858624458313,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/157",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "2.",
+    "model_answer": "2",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2",
+      "confidence": 0.8184930086135864,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/158",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "3.",
+    "model_answer": "4",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "4",
+      "confidence": 0.7520290613174438,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/159",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "2.",
+    "model_answer": "2",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2",
+      "confidence": 0.8254796862602234,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/160",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "2.",
+    "model_answer": "2",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2",
+      "confidence": 0.8005712628364563,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/161",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "4.",
+    "model_answer": "4",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "4",
+      "confidence": 0.7755222320556641,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/162",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "5.",
+    "model_answer": "3",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3",
+      "confidence": 0.7685589790344238,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/163",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "2.",
+    "model_answer": "3",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3",
+      "confidence": 0.7805297374725342,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/164",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "5.",
+    "model_answer": "3",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3",
+      "confidence": 0.7555807828903198,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/165",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "1.",
+    "model_answer": "2",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2",
+      "confidence": 0.7890608310699463,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/166",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "1.",
+    "model_answer": "3",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3",
+      "confidence": 0.806522011756897,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/167",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "1.",
+    "model_answer": "2",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2",
+      "confidence": 0.7958054542541504,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/168",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "1.",
+    "model_answer": "2",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2",
+      "confidence": 0.8358782529830933,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/169",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "2.",
+    "model_answer": "3",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3",
+      "confidence": 0.7591896057128906,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/170",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "4.",
+    "model_answer": "10",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "10",
+      "confidence": 0.6398927569389343,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/171",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "2.",
+    "model_answer": "2",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2",
+      "confidence": 0.8069308400154114,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/172",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "2.",
+    "model_answer": "3",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3",
+      "confidence": 0.7928342223167419,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/173",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "3.",
+    "model_answer": "3",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3",
+      "confidence": 0.7568404674530029,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/174",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "4.",
+    "model_answer": "6",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "6",
+      "confidence": 0.7602329254150391,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/175",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "2.",
+    "model_answer": "2",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2",
+      "confidence": 0.7939485311508179,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/176",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "4.",
+    "model_answer": "3",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3",
+      "confidence": 0.7380202412605286,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/177",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "4.",
+    "model_answer": "3",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3",
+      "confidence": 0.7980396747589111,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/178",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "5.",
+    "model_answer": "3",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3",
+      "confidence": 0.7718044519424438,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/179",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "1.",
+    "model_answer": "3",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3",
+      "confidence": 0.758836030960083,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/180",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "1.",
+    "model_answer": "6",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "6",
+      "confidence": 0.7530719637870789,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/181",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "3.",
+    "model_answer": "3",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3",
+      "confidence": 0.787200391292572,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/182",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "1.",
+    "model_answer": "2",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2",
+      "confidence": 0.8111974596977234,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/183",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "3.",
+    "model_answer": "6",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "6",
+      "confidence": 0.7492053508758545,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/184",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "3.",
+    "model_answer": "3",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3",
+      "confidence": 0.7482200264930725,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/185",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "1.",
+    "model_answer": "3",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3",
+      "confidence": 0.7753690481185913,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/186",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "2.",
+    "model_answer": "3",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3",
+      "confidence": 0.7974579930305481,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/187",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "1.",
+    "model_answer": "3",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3",
+      "confidence": 0.7592132687568665,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/188",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "1.",
+    "model_answer": "2",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2",
+      "confidence": 0.8091044425964355,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/189",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "1.",
+    "model_answer": "2",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2",
+      "confidence": 0.8092461824417114,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/190",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "4.",
+    "model_answer": "3",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3",
+      "confidence": 0.7718188762664795,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/191",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "1.",
+    "model_answer": "3",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3",
+      "confidence": 0.7932230830192566,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/192",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "1.",
+    "model_answer": "2",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2",
+      "confidence": 0.8040497303009033,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/193",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "4.",
+    "model_answer": "3",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3",
+      "confidence": 0.7844794988632202,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/194",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "1.",
+    "model_answer": "2",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2",
+      "confidence": 0.7837821245193481,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/195",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "4.",
+    "model_answer": "3",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3",
+      "confidence": 0.7363404035568237,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/196",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "1.",
+    "model_answer": "2",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2",
+      "confidence": 0.8017457723617554,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/197",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "5.",
+    "model_answer": "3",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3",
+      "confidence": 0.7447625398635864,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/198",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "5.",
+    "model_answer": "4",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "4",
+      "confidence": 0.7600433230400085,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/199",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "11.",
+    "model_answer": "3",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3",
+      "confidence": 0.7404788732528687,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/200",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "560.",
+    "model_answer": "15",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "15",
+      "confidence": 0.6970001459121704,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/201",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "220.",
+    "model_answer": "15",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "15",
+      "confidence": 0.7112632989883423,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/202",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "56.",
+    "model_answer": "6",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "6",
+      "confidence": 0.7887915372848511,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/203",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "455.",
+    "model_answer": "14",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "14",
+      "confidence": 0.6884845495223999,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/204",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "816.",
+    "model_answer": "17",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "17",
+      "confidence": 0.672050952911377,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/205",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "220.",
+    "model_answer": "15",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "15",
+      "confidence": 0.7112632989883423,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/206",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "455.",
+    "model_answer": "14",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "14",
+      "confidence": 0.6884845495223999,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/207",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "20.",
+    "model_answer": "3",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3",
+      "confidence": 0.8055457472801208,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/208",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "680.",
+    "model_answer": "12",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "12",
+      "confidence": 0.7023336291313171,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/209",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "20.",
+    "model_answer": "3",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3",
+      "confidence": 0.8055457472801208,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/210",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "35.",
+    "model_answer": "6",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "6",
+      "confidence": 0.7919548749923706,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/211",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "560.",
+    "model_answer": "15",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "15",
+      "confidence": 0.6970001459121704,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/212",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "286.",
+    "model_answer": "12",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "12",
+      "confidence": 0.7172142863273621,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/213",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "120.",
+    "model_answer": "12",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "12",
+      "confidence": 0.7411693930625916,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/214",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "364.",
+    "model_answer": "13",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "13",
+      "confidence": 0.6965166330337524,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/215",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "56.",
+    "model_answer": "6",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "6",
+      "confidence": 0.7887915372848511,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/216",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "35.",
+    "model_answer": "6",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "6",
+      "confidence": 0.7919548749923706,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/217",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "56.",
+    "model_answer": "6",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "6",
+      "confidence": 0.7887915372848511,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/218",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "35.",
+    "model_answer": "6",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "6",
+      "confidence": 0.7919548749923706,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/219",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "364.",
+    "model_answer": "13",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "13",
+      "confidence": 0.6965166330337524,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/220",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "816.",
+    "model_answer": "17",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "17",
+      "confidence": 0.672050952911377,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/221",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "56.",
+    "model_answer": "6",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "6",
+      "confidence": 0.7887915372848511,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/222",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "120.",
+    "model_answer": "12",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "12",
+      "confidence": 0.7411693930625916,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/223",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "286.",
+    "model_answer": "12",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "12",
+      "confidence": 0.7172142863273621,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/224",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "364.",
+    "model_answer": "13",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "13",
+      "confidence": 0.6965166330337524,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/225",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "20.",
+    "model_answer": "3",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3",
+      "confidence": 0.8055457472801208,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/226",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "286.",
+    "model_answer": "12",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "12",
+      "confidence": 0.7172142863273621,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/227",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "84.",
+    "model_answer": "12",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "12",
+      "confidence": 0.7314996719360352,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/228",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "286.",
+    "model_answer": "12",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "12",
+      "confidence": 0.7172142863273621,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/229",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "220.",
+    "model_answer": "15",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "15",
+      "confidence": 0.7112632989883423,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/230",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "220.",
+    "model_answer": "15",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "15",
+      "confidence": 0.7112632989883423,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/231",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "120.",
+    "model_answer": "12",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "12",
+      "confidence": 0.7411693930625916,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/232",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "20.",
+    "model_answer": "3",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3",
+      "confidence": 0.8055457472801208,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/233",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "816.",
+    "model_answer": "17",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "17",
+      "confidence": 0.672050952911377,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/234",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "286.",
+    "model_answer": "12",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "12",
+      "confidence": 0.7172142863273621,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/235",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "120.",
+    "model_answer": "12",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "12",
+      "confidence": 0.7411693930625916,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/236",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "84.",
+    "model_answer": "12",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "12",
+      "confidence": 0.7314996719360352,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/237",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "120.",
+    "model_answer": "12",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "12",
+      "confidence": 0.7411693930625916,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/238",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "56.",
+    "model_answer": "6",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "6",
+      "confidence": 0.7887915372848511,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/239",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "56.",
+    "model_answer": "6",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "6",
+      "confidence": 0.7887915372848511,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/240",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "220.",
+    "model_answer": "15",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "15",
+      "confidence": 0.7112632989883423,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/241",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "165.",
+    "model_answer": "15",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "15",
+      "confidence": 0.7466694116592407,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/242",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "35.",
+    "model_answer": "6",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "6",
+      "confidence": 0.7919548749923706,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/243",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "120.",
+    "model_answer": "12",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "12",
+      "confidence": 0.7411693930625916,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/244",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "20.",
+    "model_answer": "3",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3",
+      "confidence": 0.8055457472801208,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/245",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "364.",
+    "model_answer": "13",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "13",
+      "confidence": 0.6965166330337524,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/246",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "35.",
+    "model_answer": "6",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "6",
+      "confidence": 0.7919548749923706,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/247",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "560.",
+    "model_answer": "15",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "15",
+      "confidence": 0.6970001459121704,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/248",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "680.",
+    "model_answer": "12",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "12",
+      "confidence": 0.7023336291313171,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/249",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "816.",
+    "model_answer": "17",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "17",
+      "confidence": 0.672050952911377,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/250",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "0.",
+    "model_answer": "10",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "10",
+      "confidence": 0.6597446799278259,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/251",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "0.",
+    "model_answer": "10",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "10",
+      "confidence": 0.6745380759239197,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/252",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "0.",
+    "model_answer": "1",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": 0.7092514038085938,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/253",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "0.",
+    "model_answer": "15",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "15",
+      "confidence": 0.6492910385131836,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/254",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "0.",
+    "model_answer": "12",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "12",
+      "confidence": 0.6426364183425903,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/255",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "0.",
+    "model_answer": "10",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "10",
+      "confidence": 0.6745380759239197,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/256",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "0.",
+    "model_answer": "15",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "15",
+      "confidence": 0.6492910385131836,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/257",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "0.",
+    "model_answer": "1",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": 0.7709458470344543,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/258",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "0.",
+    "model_answer": "10",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "10",
+      "confidence": 0.6434329152107239,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/259",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "0.",
+    "model_answer": "1",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": 0.7709458470344543,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/260",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "0.",
+    "model_answer": "1",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": 0.7380139827728271,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/261",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "0.",
+    "model_answer": "10",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "10",
+      "confidence": 0.6597446799278259,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/262",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "0.",
+    "model_answer": "12",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "12",
+      "confidence": 0.6454955339431763,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/263",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "0.",
+    "model_answer": "1",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": 0.603548526763916,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/264",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "0.",
+    "model_answer": "10",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "10",
+      "confidence": 0.6263002753257751,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/265",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "0.",
+    "model_answer": "1",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": 0.7092514038085938,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/266",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "0.",
+    "model_answer": "1",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": 0.7380139827728271,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/267",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "0.",
+    "model_answer": "1",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": 0.7092514038085938,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/268",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "0.",
+    "model_answer": "1",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": 0.7380139827728271,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/269",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "0.",
+    "model_answer": "10",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "10",
+      "confidence": 0.6263002753257751,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/270",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "0.",
+    "model_answer": "12",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "12",
+      "confidence": 0.6426364183425903,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/271",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "0.",
+    "model_answer": "1",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": 0.7092514038085938,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/272",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "0.",
+    "model_answer": "1",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": 0.603548526763916,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/273",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "0.",
+    "model_answer": "12",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "12",
+      "confidence": 0.6454955339431763,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/274",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "0.",
+    "model_answer": "10",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "10",
+      "confidence": 0.6263002753257751,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/275",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "0.",
+    "model_answer": "1",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": 0.7709458470344543,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/276",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "0.",
+    "model_answer": "12",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "12",
+      "confidence": 0.6454955339431763,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/277",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "0.",
+    "model_answer": "7",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "7",
+      "confidence": 0.7496691346168518,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/278",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "0.",
+    "model_answer": "12",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "12",
+      "confidence": 0.6454955339431763,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/279",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "0.",
+    "model_answer": "10",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "10",
+      "confidence": 0.6745380759239197,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/280",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "0.",
+    "model_answer": "10",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "10",
+      "confidence": 0.6745380759239197,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/281",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "0.",
+    "model_answer": "1",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": 0.603548526763916,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/282",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "0.",
+    "model_answer": "1",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": 0.7709458470344543,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/283",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "0.",
+    "model_answer": "12",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "12",
+      "confidence": 0.6426364183425903,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/284",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "0.",
+    "model_answer": "12",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "12",
+      "confidence": 0.6454955339431763,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/285",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "0.",
+    "model_answer": "1",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": 0.603548526763916,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/286",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "0.",
+    "model_answer": "7",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "7",
+      "confidence": 0.7496691346168518,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/287",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "0.",
+    "model_answer": "1",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": 0.603548526763916,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/288",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "0.",
+    "model_answer": "1",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": 0.7092514038085938,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/289",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "0.",
+    "model_answer": "1",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": 0.7092514038085938,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/290",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "0.",
+    "model_answer": "10",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "10",
+      "confidence": 0.6745380759239197,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/291",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "0.",
+    "model_answer": "10",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "10",
+      "confidence": 0.6768601536750793,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/292",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "0.",
+    "model_answer": "1",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": 0.7380139827728271,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/293",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "0.",
+    "model_answer": "1",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": 0.603548526763916,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/294",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "0.",
+    "model_answer": "1",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": 0.7709458470344543,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/295",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "0.",
+    "model_answer": "10",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "10",
+      "confidence": 0.6263002753257751,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/296",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "0.",
+    "model_answer": "1",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": 0.7380139827728271,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/297",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "0.",
+    "model_answer": "10",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "10",
+      "confidence": 0.6597446799278259,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/298",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "0.",
+    "model_answer": "10",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "10",
+      "confidence": 0.6434329152107239,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/299",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "0.",
+    "model_answer": "12",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "12",
+      "confidence": 0.6426364183425903,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/300",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "0.",
+    "model_answer": "6",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "6",
+      "confidence": 0.7956916689872742,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/301",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "0.",
+    "model_answer": "3",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3",
+      "confidence": 0.8144031167030334,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/302",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "0.",
+    "model_answer": "3",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3",
+      "confidence": 0.8070390224456787,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/303",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "0.",
+    "model_answer": "6",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "6",
+      "confidence": 0.7964558601379395,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/304",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "0.",
+    "model_answer": "6",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "6",
+      "confidence": 0.7966077327728271,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/305",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "0.",
+    "model_answer": "3",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3",
+      "confidence": 0.8144031167030334,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/306",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "0.",
+    "model_answer": "6",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "6",
+      "confidence": 0.7964558601379395,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/307",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "0.",
+    "model_answer": "1",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": 0.8268250226974487,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/308",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "0.",
+    "model_answer": "6",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "6",
+      "confidence": 0.7976822853088379,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/309",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "0.",
+    "model_answer": "1",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": 0.8268250226974487,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/310",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "0.",
+    "model_answer": "1",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": 0.7951447367668152,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/311",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "0.",
+    "model_answer": "6",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "6",
+      "confidence": 0.7956916689872742,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/312",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "0.",
+    "model_answer": "3",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3",
+      "confidence": 0.8079574704170227,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/313",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "0.",
+    "model_answer": "3",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3",
+      "confidence": 0.822079062461853,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/314",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "0.",
+    "model_answer": "3",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3",
+      "confidence": 0.7863895893096924,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/315",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "0.",
+    "model_answer": "3",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3",
+      "confidence": 0.8070390224456787,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/316",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "0.",
+    "model_answer": "1",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": 0.7951447367668152,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/317",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "0.",
+    "model_answer": "3",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3",
+      "confidence": 0.8070390224456787,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/318",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "0.",
+    "model_answer": "1",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": 0.7951447367668152,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/319",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "0.",
+    "model_answer": "3",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3",
+      "confidence": 0.7863895893096924,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/320",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "0.",
+    "model_answer": "6",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "6",
+      "confidence": 0.7966077327728271,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/321",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "0.",
+    "model_answer": "3",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3",
+      "confidence": 0.8070390224456787,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/322",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "0.",
+    "model_answer": "3",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3",
+      "confidence": 0.822079062461853,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/323",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "0.",
+    "model_answer": "3",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3",
+      "confidence": 0.8079574704170227,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/324",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "0.",
+    "model_answer": "3",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3",
+      "confidence": 0.7863895893096924,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/325",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "0.",
+    "model_answer": "1",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": 0.8268250226974487,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/326",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "0.",
+    "model_answer": "3",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3",
+      "confidence": 0.8079574704170227,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/327",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "0.",
+    "model_answer": "3",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3",
+      "confidence": 0.8234580159187317,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/328",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "0.",
+    "model_answer": "3",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3",
+      "confidence": 0.8079574704170227,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/329",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "0.",
+    "model_answer": "3",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3",
+      "confidence": 0.8144031167030334,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/330",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "0.",
+    "model_answer": "3",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3",
+      "confidence": 0.8144031167030334,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/331",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "0.",
+    "model_answer": "3",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3",
+      "confidence": 0.822079062461853,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/332",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "0.",
+    "model_answer": "1",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": 0.8268250226974487,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/333",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "0.",
+    "model_answer": "6",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "6",
+      "confidence": 0.7966077327728271,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/334",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "0.",
+    "model_answer": "3",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3",
+      "confidence": 0.8079574704170227,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/335",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "0.",
+    "model_answer": "3",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3",
+      "confidence": 0.822079062461853,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/336",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "0.",
+    "model_answer": "3",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3",
+      "confidence": 0.8234580159187317,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/337",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "0.",
+    "model_answer": "3",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3",
+      "confidence": 0.822079062461853,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/338",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "0.",
+    "model_answer": "3",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3",
+      "confidence": 0.8070390224456787,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/339",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "0.",
+    "model_answer": "3",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3",
+      "confidence": 0.8070390224456787,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/340",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "0.",
+    "model_answer": "3",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3",
+      "confidence": 0.8144031167030334,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/341",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "0.",
+    "model_answer": "3",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3",
+      "confidence": 0.817607581615448,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/342",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "0.",
+    "model_answer": "1",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": 0.7951447367668152,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/343",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "0.",
+    "model_answer": "3",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3",
+      "confidence": 0.822079062461853,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/344",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "0.",
+    "model_answer": "1",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": 0.8268250226974487,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/345",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "0.",
+    "model_answer": "3",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3",
+      "confidence": 0.7863895893096924,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/346",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "0.",
+    "model_answer": "1",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": 0.7951447367668152,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/347",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "0.",
+    "model_answer": "6",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "6",
+      "confidence": 0.7956916689872742,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/348",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "0.",
+    "model_answer": "6",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "6",
+      "confidence": 0.7976822853088379,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/349",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "0.",
+    "model_answer": "6",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "6",
+      "confidence": 0.7966077327728271,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  }
+]

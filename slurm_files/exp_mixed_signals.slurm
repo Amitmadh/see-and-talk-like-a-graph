@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # SBATCH -A gpu-resaerch
-#SBATCH --job-name=mixed_signals_experiment02
+#SBATCH --job-name=qwen7b-mixed_signals_experiment02
 #SBATCH --output=/home/yandex/MLWG2026/%u/slurm_logs/%x_%j.out
 #SBATCH --error=/home/yandex/MLWG2026/%u/slurm_logs/%x_%j.err
 #SBATCH --partition=killable
@@ -24,6 +24,7 @@ source /home/yandex/MLWG2026/itamarberger/miniconda3/etc/profile.d/conda.sh
 conda activate see-talk
 
 # Hugging Face cache on large filesystem
+export PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True
 export HF_HOME=/home/yandex/MLWG2026/itamarberger/huggingface
 export HF_HUB_CACHE=$HF_HOME/hub
 export TRITON_CACHE_DIR=/home/yandex/MLWG2026/itamarberger/triton_cache

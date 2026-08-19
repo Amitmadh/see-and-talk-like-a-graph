@@ -1,0 +1,6302 @@
+[
+  {
+    "sample_id": "edge_count/adjacency/test/0",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 18.",
+    "model_answer": "14",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "14",
+      "confidence": 0.8422512412071228,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/1",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 29.",
+    "model_answer": "19",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "19",
+      "confidence": 0.7851572036743164,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/2",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 1.",
+    "model_answer": "1",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": 0.9940203428268433,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/3",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 26.",
+    "model_answer": "18",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "18",
+      "confidence": 0.7986350059509277,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/4",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 32.",
+    "model_answer": "16",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "16",
+      "confidence": 0.8033381700515747,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/5",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 63.",
+    "model_answer": "27",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "27",
+      "confidence": 0.8029991388320923,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/6",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 10.",
+    "model_answer": "8",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "8",
+      "confidence": 0.885086178779602,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/7",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 23.",
+    "model_answer": "14",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "14",
+      "confidence": 0.8489626049995422,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/8",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 49.",
+    "model_answer": "27",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "27",
+      "confidence": 0.7828084230422974,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/9",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 11.",
+    "model_answer": "10",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "10",
+      "confidence": 0.7889695167541504,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/10",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 34.",
+    "model_answer": "27",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "27",
+      "confidence": 0.7816752791404724,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/11",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 125.",
+    "model_answer": "32",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "32",
+      "confidence": 0.7454390525817871,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/12",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 74.",
+    "model_answer": "27",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "27",
+      "confidence": 0.79659104347229,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/13",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 57.",
+    "model_answer": "27",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "27",
+      "confidence": 0.8001804351806641,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/14",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 17.",
+    "model_answer": "14",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "14",
+      "confidence": 0.8459707498550415,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/15",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 7.",
+    "model_answer": "7",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "7",
+      "confidence": 0.8756965398788452,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/16",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 10.",
+    "model_answer": "10",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "10",
+      "confidence": 0.8332000970840454,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/17",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 24.",
+    "model_answer": "16",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "16",
+      "confidence": 0.8070079684257507,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/18",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 6.",
+    "model_answer": "6",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "6",
+      "confidence": 0.8918195962905884,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/19",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 48.",
+    "model_answer": "22",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "22",
+      "confidence": 0.775054931640625,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/20",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 16.",
+    "model_answer": "11",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "11",
+      "confidence": 0.8185125589370728,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/21",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 11.",
+    "model_answer": "11",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "11",
+      "confidence": 0.8503946661949158,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/22",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 65.",
+    "model_answer": "27",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "27",
+      "confidence": 0.797484815120697,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/23",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 65.",
+    "model_answer": "27",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "27",
+      "confidence": 0.8247257471084595,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/24",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 34.",
+    "model_answer": "20",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "20",
+      "confidence": 0.754136860370636,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/25",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 7.",
+    "model_answer": "6",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "6",
+      "confidence": 0.8932531476020813,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/26",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 41.",
+    "model_answer": "27",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "27",
+      "confidence": 0.7641387581825256,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/27",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 4.",
+    "model_answer": "4",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "4",
+      "confidence": 0.9846473932266235,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/28",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 49.",
+    "model_answer": "27",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "27",
+      "confidence": 0.7929937243461609,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/29",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 17.",
+    "model_answer": "14",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "14",
+      "confidence": 0.8500112891197205,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/30",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 5.",
+    "model_answer": "4",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "4",
+      "confidence": 0.8966482877731323,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/31",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 70.",
+    "model_answer": "27",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "27",
+      "confidence": 0.8351747393608093,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/32",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 9.",
+    "model_answer": "9",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "9",
+      "confidence": 0.9070744514465332,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/33",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 53.",
+    "model_answer": "27",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "27",
+      "confidence": 0.7843086123466492,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/34",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 35.",
+    "model_answer": "20",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "20",
+      "confidence": 0.7674382925033569,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/35",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 49.",
+    "model_answer": "27",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "27",
+      "confidence": 0.793580174446106,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/36",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 17.",
+    "model_answer": "14",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "14",
+      "confidence": 0.8624240756034851,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/37",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 19.",
+    "model_answer": "14",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "14",
+      "confidence": 0.8506674766540527,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/38",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 0.",
+    "model_answer": "6",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "6",
+      "confidence": 0.8153330683708191,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/39",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 31.",
+    "model_answer": "27",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "27",
+      "confidence": 0.7511066198348999,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/40",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 13.",
+    "model_answer": "12",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "12",
+      "confidence": 0.8057635426521301,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/41",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 24.",
+    "model_answer": "16",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "16",
+      "confidence": 0.8353769183158875,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/42",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 3.",
+    "model_answer": "3",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3",
+      "confidence": 0.9934443235397339,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/43",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 10.",
+    "model_answer": "7",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "7",
+      "confidence": 0.8584263920783997,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/44",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 10.",
+    "model_answer": "10",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "10",
+      "confidence": 0.8332000970840454,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/45",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 38.",
+    "model_answer": "27",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "27",
+      "confidence": 0.7768440246582031,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/46",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 0.",
+    "model_answer": "6",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "6",
+      "confidence": 0.8153330683708191,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/47",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 75.",
+    "model_answer": "27",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "27",
+      "confidence": 0.7663543224334717,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/48",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 102.",
+    "model_answer": "32",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "32",
+      "confidence": 0.7372925877571106,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/49",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 50.",
+    "model_answer": "27",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "27",
+      "confidence": 0.7815240025520325,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/50",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 55.",
+    "model_answer": "32",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "32",
+      "confidence": 0.7468407154083252,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/51",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 32.",
+    "model_answer": "22",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "22",
+      "confidence": 0.7885252833366394,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/52",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 4.",
+    "model_answer": "4",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "4",
+      "confidence": 0.9751574993133545,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/53",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 30.",
+    "model_answer": "20",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "20",
+      "confidence": 0.7595474720001221,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/54",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 55.",
+    "model_answer": "27",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "27",
+      "confidence": 0.7811152935028076,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/55",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 30.",
+    "model_answer": "20",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "20",
+      "confidence": 0.7720006108283997,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/56",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 39.",
+    "model_answer": "27",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "27",
+      "confidence": 0.7606338858604431,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/57",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 7.",
+    "model_answer": "7",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "7",
+      "confidence": 0.9633999466896057,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/58",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 78.",
+    "model_answer": "32",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "32",
+      "confidence": 0.7779903411865234,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/59",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 12.",
+    "model_answer": "12",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "12",
+      "confidence": 0.8576623797416687,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/60",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 10.",
+    "model_answer": "7",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "7",
+      "confidence": 0.8553740382194519,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/61",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 32.",
+    "model_answer": "28",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "28",
+      "confidence": 0.7632550597190857,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/62",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 16.",
+    "model_answer": "16",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "16",
+      "confidence": 0.8292445540428162,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/63",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 33.",
+    "model_answer": "20",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "20",
+      "confidence": 0.7547407150268555,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/64",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 12.",
+    "model_answer": "12",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "12",
+      "confidence": 0.9384928941726685,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/65",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 8.",
+    "model_answer": "8",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "8",
+      "confidence": 0.9469034671783447,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/66",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 12.",
+    "model_answer": "12",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "12",
+      "confidence": 0.8600534796714783,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/67",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 6.",
+    "model_answer": "5",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "5",
+      "confidence": 0.8687100410461426,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/68",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 16.",
+    "model_answer": "14",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "14",
+      "confidence": 0.8821366429328918,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/69",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 9.",
+    "model_answer": "10",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "10",
+      "confidence": 0.8843016624450684,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/70",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 14.",
+    "model_answer": "14",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "14",
+      "confidence": 0.8025763630867004,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/71",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 16.",
+    "model_answer": "14",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "14",
+      "confidence": 0.8680599331855774,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/72",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 11.",
+    "model_answer": "12",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "12",
+      "confidence": 0.914889931678772,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/73",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 30.",
+    "model_answer": "20",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "20",
+      "confidence": 0.7798933386802673,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/74",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 21.",
+    "model_answer": "16",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "16",
+      "confidence": 0.8493456244468689,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/75",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 20.",
+    "model_answer": "16",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "16",
+      "confidence": 0.8536287546157837,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/76",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 30.",
+    "model_answer": "20",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "20",
+      "confidence": 0.7677018046379089,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/77",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 12.",
+    "model_answer": "10",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "10",
+      "confidence": 0.755807101726532,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/78",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 16.",
+    "model_answer": "14",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "14",
+      "confidence": 0.855682373046875,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/79",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 36.",
+    "model_answer": "22",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "22",
+      "confidence": 0.7734864354133606,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/80",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 25.",
+    "model_answer": "16",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "16",
+      "confidence": 0.8179557919502258,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/81",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 24.",
+    "model_answer": "16",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "16",
+      "confidence": 0.8178077936172485,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/82",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 14.",
+    "model_answer": "10",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "10",
+      "confidence": 0.7961835265159607,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/83",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 70.",
+    "model_answer": "32",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "32",
+      "confidence": 0.756110668182373,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/84",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 22.",
+    "model_answer": "16",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "16",
+      "confidence": 0.8272719383239746,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/85",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 45.",
+    "model_answer": "27",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "27",
+      "confidence": 0.7963631749153137,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/86",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 4.",
+    "model_answer": "4",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "4",
+      "confidence": 0.9751574993133545,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/87",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 18.",
+    "model_answer": "13",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "13",
+      "confidence": 0.8428403735160828,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/88",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 12.",
+    "model_answer": "10",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "10",
+      "confidence": 0.758572518825531,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/89",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 15.",
+    "model_answer": "14",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "14",
+      "confidence": 0.8595046997070312,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/90",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 30.",
+    "model_answer": "20",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "20",
+      "confidence": 0.7777912616729736,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/91",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 18.",
+    "model_answer": "16",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "16",
+      "confidence": 0.8173143267631531,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/92",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 12.",
+    "model_answer": "12",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "12",
+      "confidence": 0.8123316168785095,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/93",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 40.",
+    "model_answer": "20",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "20",
+      "confidence": 0.765021026134491,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/94",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 6.",
+    "model_answer": "6",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "6",
+      "confidence": 0.9816381931304932,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/95",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 27.",
+    "model_answer": "22",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "22",
+      "confidence": 0.7713514566421509,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/96",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 8.",
+    "model_answer": "6",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "6",
+      "confidence": 0.8817974328994751,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/97",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 48.",
+    "model_answer": "32",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "32",
+      "confidence": 0.7799420356750488,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/98",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 60.",
+    "model_answer": "32",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "32",
+      "confidence": 0.7569791674613953,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/99",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 15.",
+    "model_answer": "13",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "13",
+      "confidence": 0.8360466361045837,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/100",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 71.",
+    "model_answer": "27",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "27",
+      "confidence": 0.7564499378204346,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/101",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 12.",
+    "model_answer": "11",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "11",
+      "confidence": 0.8102543950080872,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/102",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 17.",
+    "model_answer": "14",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "14",
+      "confidence": 0.8669618964195251,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/103",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 69.",
+    "model_answer": "27",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "27",
+      "confidence": 0.7709745764732361,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/104",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 31.",
+    "model_answer": "20",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "20",
+      "confidence": 0.7495341897010803,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/105",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 26.",
+    "model_answer": "16",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "16",
+      "confidence": 0.8375349044799805,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/106",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 64.",
+    "model_answer": "27",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "27",
+      "confidence": 0.7566432356834412,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/107",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 6.",
+    "model_answer": "6",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "6",
+      "confidence": 0.9331496953964233,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/108",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 45.",
+    "model_answer": "19",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "19",
+      "confidence": 0.7545807957649231,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/109",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 2.",
+    "model_answer": "2",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2",
+      "confidence": 0.9928246140480042,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/110",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 10.",
+    "model_answer": "10",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "10",
+      "confidence": 0.8000492453575134,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/111",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 101.",
+    "model_answer": "27",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "27",
+      "confidence": 0.7560378909111023,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/112",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 47.",
+    "model_answer": "27",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "27",
+      "confidence": 0.7895298004150391,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/113",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 27.",
+    "model_answer": "20",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "20",
+      "confidence": 0.7545943260192871,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/114",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 49.",
+    "model_answer": "27",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "27",
+      "confidence": 0.8222917914390564,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/115",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 12.",
+    "model_answer": "12",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "12",
+      "confidence": 0.8491634726524353,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/116",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 7.",
+    "model_answer": "7",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "7",
+      "confidence": 0.8837786912918091,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/117",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 7.",
+    "model_answer": "6",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "6",
+      "confidence": 0.8689215183258057,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/118",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 5.",
+    "model_answer": "4",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "4",
+      "confidence": 0.8958792090415955,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/119",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 58.",
+    "model_answer": "27",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "27",
+      "confidence": 0.8177035450935364,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/120",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 99.",
+    "model_answer": "27",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "27",
+      "confidence": 0.7796120643615723,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/121",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 9.",
+    "model_answer": "9",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "9",
+      "confidence": 0.8433985710144043,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/122",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 48.",
+    "model_answer": "20",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "20",
+      "confidence": 0.7680478096008301,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/123",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 54.",
+    "model_answer": "27",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "27",
+      "confidence": 0.8039687275886536,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/124",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 62.",
+    "model_answer": "27",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "27",
+      "confidence": 0.7830791473388672,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/125",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 10.",
+    "model_answer": "9",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "9",
+      "confidence": 0.8702151775360107,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/126",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 23.",
+    "model_answer": "14",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "14",
+      "confidence": 0.8381175994873047,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/127",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 13.",
+    "model_answer": "12",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "12",
+      "confidence": 0.8254154324531555,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/128",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 56.",
+    "model_answer": "27",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "27",
+      "confidence": 0.7992216348648071,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/129",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 32.",
+    "model_answer": "19",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "19",
+      "confidence": 0.7520609498023987,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/130",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 22.",
+    "model_answer": "16",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "16",
+      "confidence": 0.8392616510391235,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/131",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 62.",
+    "model_answer": "27",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "27",
+      "confidence": 0.7912015318870544,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/132",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 7.",
+    "model_answer": "6",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "6",
+      "confidence": 0.9262619614601135,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/133",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 63.",
+    "model_answer": "27",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "27",
+      "confidence": 0.7651509046554565,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/134",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 37.",
+    "model_answer": "20",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "20",
+      "confidence": 0.7660967707633972,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/135",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 15.",
+    "model_answer": "14",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "14",
+      "confidence": 0.8502243161201477,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/136",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 7.",
+    "model_answer": "6",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "6",
+      "confidence": 0.9263615608215332,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/137",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 42.",
+    "model_answer": "22",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "22",
+      "confidence": 0.7672836184501648,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/138",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 9.",
+    "model_answer": "7",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "7",
+      "confidence": 0.9203978776931763,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/139",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 2.",
+    "model_answer": "2",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2",
+      "confidence": 0.995736837387085,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/140",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 35.",
+    "model_answer": "27",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "27",
+      "confidence": 0.8148162961006165,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/141",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 11.",
+    "model_answer": "10",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "10",
+      "confidence": 0.8179629445075989,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/142",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 29.",
+    "model_answer": "16",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "16",
+      "confidence": 0.789900004863739,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/143",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 33.",
+    "model_answer": "19",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "19",
+      "confidence": 0.7680220007896423,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/144",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 25.",
+    "model_answer": "16",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "16",
+      "confidence": 0.8174474835395813,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/145",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 40.",
+    "model_answer": "27",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "27",
+      "confidence": 0.7729324698448181,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/146",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 10.",
+    "model_answer": "7",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "7",
+      "confidence": 0.9040026664733887,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/147",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 17.",
+    "model_answer": "11",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "11",
+      "confidence": 0.808255672454834,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/148",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 53.",
+    "model_answer": "27",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "27",
+      "confidence": 0.8013913035392761,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/149",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 75.",
+    "model_answer": "27",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "27",
+      "confidence": 0.7565518617630005,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/150",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 19.",
+    "model_answer": "16",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "16",
+      "confidence": 0.8404739499092102,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/151",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 16.",
+    "model_answer": "12",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "12",
+      "confidence": 0.8567290306091309,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/152",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 10.",
+    "model_answer": "9",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "9",
+      "confidence": 0.8426871299743652,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/153",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 22.",
+    "model_answer": "16",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "16",
+      "confidence": 0.7682575583457947,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/154",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 23.",
+    "model_answer": "16",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "16",
+      "confidence": 0.831161618232727,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/155",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 14.",
+    "model_answer": "11",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "11",
+      "confidence": 0.818117082118988,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/156",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 22.",
+    "model_answer": "15",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "15",
+      "confidence": 0.8459711074829102,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/157",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 8.",
+    "model_answer": "6",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "6",
+      "confidence": 0.8800085186958313,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/158",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 25.",
+    "model_answer": "16",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "16",
+      "confidence": 0.8353254199028015,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/159",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 8.",
+    "model_answer": "6",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "6",
+      "confidence": 0.918081521987915,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/160",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 9.",
+    "model_answer": "7",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "7",
+      "confidence": 0.9008665084838867,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/161",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 20.",
+    "model_answer": "14",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "14",
+      "confidence": 0.8424475789070129,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/162",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 19.",
+    "model_answer": "14",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "14",
+      "confidence": 0.831181526184082,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/163",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 12.",
+    "model_answer": "10",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "10",
+      "confidence": 0.8267713785171509,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/164",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 20.",
+    "model_answer": "14",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "14",
+      "confidence": 0.840998113155365,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/165",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 9.",
+    "model_answer": "7",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "7",
+      "confidence": 0.8887165784835815,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/166",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 9.",
+    "model_answer": "7",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "7",
+      "confidence": 0.8388401865959167,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/167",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 8.",
+    "model_answer": "7",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "7",
+      "confidence": 0.939882218837738,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/168",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 7.",
+    "model_answer": "7",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "7",
+      "confidence": 0.9429149031639099,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/169",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 17.",
+    "model_answer": "13",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "13",
+      "confidence": 0.8518819808959961,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/170",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 22.",
+    "model_answer": "18",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "18",
+      "confidence": 0.7990075945854187,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/171",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 10.",
+    "model_answer": "8",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "8",
+      "confidence": 0.8783297538757324,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/172",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 12.",
+    "model_answer": "10",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "10",
+      "confidence": 0.7817398905754089,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/173",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 16.",
+    "model_answer": "13",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "13",
+      "confidence": 0.8425647020339966,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/174",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 18.",
+    "model_answer": "16",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "16",
+      "confidence": 0.8150963187217712,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/175",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 8.",
+    "model_answer": "6",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "6",
+      "confidence": 0.8966776132583618,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/176",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 17.",
+    "model_answer": "10",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "10",
+      "confidence": 0.7827736735343933,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/177",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 13.",
+    "model_answer": "13",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "13",
+      "confidence": 0.8246170282363892,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/178",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 18.",
+    "model_answer": "13",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "13",
+      "confidence": 0.8546856045722961,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/179",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 15.",
+    "model_answer": "11",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "11",
+      "confidence": 0.8226537108421326,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/180",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 13.",
+    "model_answer": "12",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "12",
+      "confidence": 0.8491432070732117,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/181",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 13.",
+    "model_answer": "10",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "10",
+      "confidence": 0.8092607855796814,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/182",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 6.",
+    "model_answer": "6",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "6",
+      "confidence": 0.9369305372238159,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/183",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 23.",
+    "model_answer": "16",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "16",
+      "confidence": 0.8190582394599915,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/184",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 17.",
+    "model_answer": "12",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "12",
+      "confidence": 0.8310422897338867,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/185",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 12.",
+    "model_answer": "9",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "9",
+      "confidence": 0.8412320613861084,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/186",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 11.",
+    "model_answer": "9",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "9",
+      "confidence": 0.8521890044212341,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/187",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 11.",
+    "model_answer": "10",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "10",
+      "confidence": 0.7865058183670044,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/188",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 9.",
+    "model_answer": "8",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "8",
+      "confidence": 0.852150022983551,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/189",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 8.",
+    "model_answer": "7",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "7",
+      "confidence": 0.9208539724349976,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/190",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 17.",
+    "model_answer": "12",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "12",
+      "confidence": 0.8327273726463318,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/191",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 12.",
+    "model_answer": "11",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "11",
+      "confidence": 0.8330557942390442,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/192",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 8.",
+    "model_answer": "7",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "7",
+      "confidence": 0.8822695016860962,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/193",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 14.",
+    "model_answer": "10",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "10",
+      "confidence": 0.8244970440864563,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/194",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 6.",
+    "model_answer": "6",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "6",
+      "confidence": 0.8968015909194946,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/195",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 19.",
+    "model_answer": "14",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "14",
+      "confidence": 0.8401213884353638,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/196",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 8.",
+    "model_answer": "7",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "7",
+      "confidence": 0.9182499647140503,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/197",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 23.",
+    "model_answer": "14",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "14",
+      "confidence": 0.8315202593803406,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/198",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 21.",
+    "model_answer": "16",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "16",
+      "confidence": 0.8427997827529907,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/199",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 28.",
+    "model_answer": "16",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "16",
+      "confidence": 0.8157989382743835,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/200",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 120.",
+    "model_answer": "30",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "30",
+      "confidence": 0.7488769888877869,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/201",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 66.",
+    "model_answer": "27",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "27",
+      "confidence": 0.7834579348564148,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/202",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 28.",
+    "model_answer": "14",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "14",
+      "confidence": 0.7952417731285095,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/203",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 105.",
+    "model_answer": "30",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "30",
+      "confidence": 0.7335466742515564,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/204",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 153.",
+    "model_answer": "32",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "32",
+      "confidence": 0.734937846660614,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/205",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 66.",
+    "model_answer": "27",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "27",
+      "confidence": 0.7834579348564148,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/206",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 105.",
+    "model_answer": "30",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "30",
+      "confidence": 0.7335466742515564,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/207",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 15.",
+    "model_answer": "14",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "14",
+      "confidence": 0.8420299887657166,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/208",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 136.",
+    "model_answer": "32",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "32",
+      "confidence": 0.7322021722793579,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/209",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 15.",
+    "model_answer": "14",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "14",
+      "confidence": 0.8420299887657166,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/210",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 21.",
+    "model_answer": "15",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "15",
+      "confidence": 0.864544689655304,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/211",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 120.",
+    "model_answer": "30",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "30",
+      "confidence": 0.7488769888877869,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/212",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 78.",
+    "model_answer": "27",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "27",
+      "confidence": 0.8327202200889587,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/213",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 45.",
+    "model_answer": "27",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "27",
+      "confidence": 0.7732222080230713,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/214",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 91.",
+    "model_answer": "30",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "30",
+      "confidence": 0.7178900241851807,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/215",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 28.",
+    "model_answer": "14",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "14",
+      "confidence": 0.7952417731285095,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/216",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 21.",
+    "model_answer": "15",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "15",
+      "confidence": 0.864544689655304,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/217",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 28.",
+    "model_answer": "14",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "14",
+      "confidence": 0.7952417731285095,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/218",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 21.",
+    "model_answer": "15",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "15",
+      "confidence": 0.864544689655304,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/219",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 91.",
+    "model_answer": "30",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "30",
+      "confidence": 0.7178900241851807,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/220",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 153.",
+    "model_answer": "32",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "32",
+      "confidence": 0.734937846660614,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/221",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 28.",
+    "model_answer": "14",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "14",
+      "confidence": 0.7952417731285095,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/222",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 45.",
+    "model_answer": "27",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "27",
+      "confidence": 0.7732222080230713,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/223",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 78.",
+    "model_answer": "27",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "27",
+      "confidence": 0.8327202200889587,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/224",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 91.",
+    "model_answer": "30",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "30",
+      "confidence": 0.7178900241851807,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/225",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 15.",
+    "model_answer": "14",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "14",
+      "confidence": 0.8420299887657166,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/226",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 78.",
+    "model_answer": "27",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "27",
+      "confidence": 0.8327202200889587,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/227",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 36.",
+    "model_answer": "28",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "28",
+      "confidence": 0.7800821661949158,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/228",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 78.",
+    "model_answer": "27",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "27",
+      "confidence": 0.8327202200889587,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/229",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 66.",
+    "model_answer": "27",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "27",
+      "confidence": 0.7834579348564148,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/230",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 66.",
+    "model_answer": "27",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "27",
+      "confidence": 0.7834579348564148,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/231",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 45.",
+    "model_answer": "27",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "27",
+      "confidence": 0.7732222080230713,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/232",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 15.",
+    "model_answer": "14",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "14",
+      "confidence": 0.8420299887657166,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/233",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 153.",
+    "model_answer": "32",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "32",
+      "confidence": 0.734937846660614,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/234",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 78.",
+    "model_answer": "27",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "27",
+      "confidence": 0.8327202200889587,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/235",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 45.",
+    "model_answer": "27",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "27",
+      "confidence": 0.7732222080230713,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/236",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 36.",
+    "model_answer": "28",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "28",
+      "confidence": 0.7800821661949158,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/237",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 45.",
+    "model_answer": "27",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "27",
+      "confidence": 0.7732222080230713,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/238",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 28.",
+    "model_answer": "14",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "14",
+      "confidence": 0.7952417731285095,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/239",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 28.",
+    "model_answer": "14",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "14",
+      "confidence": 0.7952417731285095,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/240",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 66.",
+    "model_answer": "27",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "27",
+      "confidence": 0.7834579348564148,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/241",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 55.",
+    "model_answer": "27",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "27",
+      "confidence": 0.819152295589447,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/242",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 21.",
+    "model_answer": "15",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "15",
+      "confidence": 0.864544689655304,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/243",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 45.",
+    "model_answer": "27",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "27",
+      "confidence": 0.7732222080230713,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/244",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 15.",
+    "model_answer": "14",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "14",
+      "confidence": 0.8420299887657166,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/245",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 91.",
+    "model_answer": "30",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "30",
+      "confidence": 0.7178900241851807,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/246",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 21.",
+    "model_answer": "15",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "15",
+      "confidence": 0.864544689655304,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/247",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 120.",
+    "model_answer": "30",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "30",
+      "confidence": 0.7488769888877869,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/248",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 136.",
+    "model_answer": "32",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "32",
+      "confidence": 0.7322021722793579,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/249",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 153.",
+    "model_answer": "32",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "32",
+      "confidence": 0.734937846660614,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/250",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 15.",
+    "model_answer": "26",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "26",
+      "confidence": 0.7613530158996582,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/251",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 11.",
+    "model_answer": "12",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "12",
+      "confidence": 0.914889931678772,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/252",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 7.",
+    "model_answer": "7",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "7",
+      "confidence": 0.9835643172264099,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/253",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 14.",
+    "model_answer": "14",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "14",
+      "confidence": 0.8025763630867004,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/254",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 17.",
+    "model_answer": "28",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "28",
+      "confidence": 0.8128933906555176,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/255",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 11.",
+    "model_answer": "12",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "12",
+      "confidence": 0.914889931678772,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/256",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 14.",
+    "model_answer": "14",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "14",
+      "confidence": 0.8025763630867004,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/257",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 5.",
+    "model_answer": "5",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "5",
+      "confidence": 0.9302113652229309,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/258",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 16.",
+    "model_answer": "27",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "27",
+      "confidence": 0.7638137936592102,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/259",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 5.",
+    "model_answer": "5",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "5",
+      "confidence": 0.9302113652229309,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/260",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 6.",
+    "model_answer": "6",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "6",
+      "confidence": 0.9402889013290405,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/261",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 15.",
+    "model_answer": "26",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "26",
+      "confidence": 0.7613530158996582,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/262",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 12.",
+    "model_answer": "12",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "12",
+      "confidence": 0.9384928941726685,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/263",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 9.",
+    "model_answer": "10",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "10",
+      "confidence": 0.8843016624450684,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/264",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 13.",
+    "model_answer": "13",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "13",
+      "confidence": 0.9274311065673828,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/265",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 7.",
+    "model_answer": "7",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "7",
+      "confidence": 0.9835643172264099,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/266",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 6.",
+    "model_answer": "6",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "6",
+      "confidence": 0.9402889013290405,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/267",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 7.",
+    "model_answer": "7",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "7",
+      "confidence": 0.9835643172264099,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/268",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 6.",
+    "model_answer": "6",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "6",
+      "confidence": 0.9402889013290405,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/269",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 13.",
+    "model_answer": "13",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "13",
+      "confidence": 0.9274311065673828,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/270",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 17.",
+    "model_answer": "28",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "28",
+      "confidence": 0.8128933906555176,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/271",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 7.",
+    "model_answer": "7",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "7",
+      "confidence": 0.9835643172264099,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/272",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 9.",
+    "model_answer": "10",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "10",
+      "confidence": 0.8843016624450684,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/273",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 12.",
+    "model_answer": "12",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "12",
+      "confidence": 0.9384928941726685,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/274",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 13.",
+    "model_answer": "13",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "13",
+      "confidence": 0.9274311065673828,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/275",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 5.",
+    "model_answer": "5",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "5",
+      "confidence": 0.9302113652229309,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/276",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 12.",
+    "model_answer": "12",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "12",
+      "confidence": 0.9384928941726685,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/277",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 8.",
+    "model_answer": "8",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "8",
+      "confidence": 0.9469034671783447,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/278",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 12.",
+    "model_answer": "12",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "12",
+      "confidence": 0.9384928941726685,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/279",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 11.",
+    "model_answer": "12",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "12",
+      "confidence": 0.914889931678772,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/280",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 11.",
+    "model_answer": "12",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "12",
+      "confidence": 0.914889931678772,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/281",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 9.",
+    "model_answer": "10",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "10",
+      "confidence": 0.8843016624450684,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/282",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 5.",
+    "model_answer": "5",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "5",
+      "confidence": 0.9302113652229309,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/283",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 17.",
+    "model_answer": "28",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "28",
+      "confidence": 0.8128933906555176,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/284",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 12.",
+    "model_answer": "12",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "12",
+      "confidence": 0.9384928941726685,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/285",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 9.",
+    "model_answer": "10",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "10",
+      "confidence": 0.8843016624450684,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/286",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 8.",
+    "model_answer": "8",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "8",
+      "confidence": 0.9469034671783447,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/287",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 9.",
+    "model_answer": "10",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "10",
+      "confidence": 0.8843016624450684,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/288",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 7.",
+    "model_answer": "7",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "7",
+      "confidence": 0.9835643172264099,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/289",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 7.",
+    "model_answer": "7",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "7",
+      "confidence": 0.9835643172264099,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/290",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 11.",
+    "model_answer": "12",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "12",
+      "confidence": 0.914889931678772,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/291",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 10.",
+    "model_answer": "10",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "10",
+      "confidence": 0.9027037620544434,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/292",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 6.",
+    "model_answer": "6",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "6",
+      "confidence": 0.9402889013290405,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/293",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 9.",
+    "model_answer": "10",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "10",
+      "confidence": 0.8843016624450684,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/294",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 5.",
+    "model_answer": "5",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "5",
+      "confidence": 0.9302113652229309,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/295",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 13.",
+    "model_answer": "13",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "13",
+      "confidence": 0.9274311065673828,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/296",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 6.",
+    "model_answer": "6",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "6",
+      "confidence": 0.9402889013290405,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/297",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 15.",
+    "model_answer": "26",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "26",
+      "confidence": 0.7613530158996582,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/298",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 16.",
+    "model_answer": "27",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "27",
+      "confidence": 0.7638137936592102,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/299",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 17.",
+    "model_answer": "28",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "28",
+      "confidence": 0.8128933906555176,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/300",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 15.",
+    "model_answer": "15",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "15",
+      "confidence": 0.9027387499809265,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/301",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 11.",
+    "model_answer": "11",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "11",
+      "confidence": 0.9373038411140442,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/302",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 7.",
+    "model_answer": "7",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "7",
+      "confidence": 0.9897040724754333,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/303",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 14.",
+    "model_answer": "13",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "13",
+      "confidence": 0.8701040148735046,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/304",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 17.",
+    "model_answer": "16",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "16",
+      "confidence": 0.8600754141807556,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/305",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 11.",
+    "model_answer": "11",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "11",
+      "confidence": 0.9373038411140442,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/306",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 14.",
+    "model_answer": "13",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "13",
+      "confidence": 0.8701040148735046,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/307",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 5.",
+    "model_answer": "5",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "5",
+      "confidence": 0.9884364604949951,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/308",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 16.",
+    "model_answer": "16",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "16",
+      "confidence": 0.8852508664131165,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/309",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 5.",
+    "model_answer": "5",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "5",
+      "confidence": 0.9884364604949951,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/310",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 6.",
+    "model_answer": "6",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "6",
+      "confidence": 0.9890379309654236,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/311",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 15.",
+    "model_answer": "15",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "15",
+      "confidence": 0.9027387499809265,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/312",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 12.",
+    "model_answer": "12",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "12",
+      "confidence": 0.9499638676643372,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/313",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 9.",
+    "model_answer": "9",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "9",
+      "confidence": 0.9699527621269226,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/314",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 13.",
+    "model_answer": "13",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "13",
+      "confidence": 0.930404007434845,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/315",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 7.",
+    "model_answer": "7",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "7",
+      "confidence": 0.9897040724754333,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/316",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 6.",
+    "model_answer": "6",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "6",
+      "confidence": 0.9890379309654236,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/317",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 7.",
+    "model_answer": "7",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "7",
+      "confidence": 0.9897040724754333,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/318",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 6.",
+    "model_answer": "6",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "6",
+      "confidence": 0.9890379309654236,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/319",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 13.",
+    "model_answer": "13",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "13",
+      "confidence": 0.930404007434845,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/320",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 17.",
+    "model_answer": "16",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "16",
+      "confidence": 0.8600754141807556,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/321",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 7.",
+    "model_answer": "7",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "7",
+      "confidence": 0.9897040724754333,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/322",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 9.",
+    "model_answer": "9",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "9",
+      "confidence": 0.9699527621269226,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/323",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 12.",
+    "model_answer": "12",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "12",
+      "confidence": 0.9499638676643372,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/324",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 13.",
+    "model_answer": "13",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "13",
+      "confidence": 0.930404007434845,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/325",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 5.",
+    "model_answer": "5",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "5",
+      "confidence": 0.9884364604949951,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/326",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 12.",
+    "model_answer": "12",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "12",
+      "confidence": 0.9499638676643372,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/327",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 8.",
+    "model_answer": "8",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "8",
+      "confidence": 0.9240285754203796,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/328",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 12.",
+    "model_answer": "12",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "12",
+      "confidence": 0.9499638676643372,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/329",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 11.",
+    "model_answer": "11",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "11",
+      "confidence": 0.9373038411140442,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/330",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 11.",
+    "model_answer": "11",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "11",
+      "confidence": 0.9373038411140442,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/331",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 9.",
+    "model_answer": "9",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "9",
+      "confidence": 0.9699527621269226,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/332",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 5.",
+    "model_answer": "5",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "5",
+      "confidence": 0.9884364604949951,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/333",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 17.",
+    "model_answer": "16",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "16",
+      "confidence": 0.8600754141807556,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/334",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 12.",
+    "model_answer": "12",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "12",
+      "confidence": 0.9499638676643372,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/335",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 9.",
+    "model_answer": "9",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "9",
+      "confidence": 0.9699527621269226,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/336",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 8.",
+    "model_answer": "8",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "8",
+      "confidence": 0.9240285754203796,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/337",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 9.",
+    "model_answer": "9",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "9",
+      "confidence": 0.9699527621269226,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/338",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 7.",
+    "model_answer": "7",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "7",
+      "confidence": 0.9897040724754333,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/339",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 7.",
+    "model_answer": "7",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "7",
+      "confidence": 0.9897040724754333,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/340",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 11.",
+    "model_answer": "11",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "11",
+      "confidence": 0.9373038411140442,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/341",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 10.",
+    "model_answer": "10",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "10",
+      "confidence": 0.9159870147705078,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/342",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 6.",
+    "model_answer": "6",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "6",
+      "confidence": 0.9890379309654236,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/343",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 9.",
+    "model_answer": "9",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "9",
+      "confidence": 0.9699527621269226,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/344",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 5.",
+    "model_answer": "5",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "5",
+      "confidence": 0.9884364604949951,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/345",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 13.",
+    "model_answer": "13",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "13",
+      "confidence": 0.930404007434845,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/346",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 6.",
+    "model_answer": "6",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "6",
+      "confidence": 0.9890379309654236,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/347",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 15.",
+    "model_answer": "15",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "15",
+      "confidence": 0.9027387499809265,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/348",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 16.",
+    "model_answer": "16",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "16",
+      "confidence": 0.8852508664131165,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/349",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 17.",
+    "model_answer": "16",
+    "model": "llava-v1.6-mistral-7b-hf",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "16",
+      "confidence": 0.8600754141807556,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  }
+]

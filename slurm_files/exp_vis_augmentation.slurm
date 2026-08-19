@@ -1,7 +1,7 @@
 #!/bin/bash
 
 #SBATCH -A gpu-research
-#SBATCH --job-name=new_tasks_visual_augmentation_experiment01
+#SBATCH --job-name=llava_visual_augmentation_experiment01
 #SBATCH --output=/home/yandex/MLWG2026/%u/slurm_logs/%x_%j.out
 #SBATCH --error=/home/yandex/MLWG2026/%u/slurm_logs/%x_%j.err
 #SBATCH --partition=killable
