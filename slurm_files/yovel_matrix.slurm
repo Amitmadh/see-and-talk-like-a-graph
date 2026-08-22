@@ -33,13 +33,13 @@ cd /home/yandex/MLWG2026/$USER/see-and-talk-like-a-graph
 
 umask 0002
 
-# --- Conda: point at YOUR miniconda (installed under MLWG2026/$USER, NOT $HOME) ---
-source /home/yandex/MLWG2026/$USER/miniconda3/etc/profile.d/conda.sh
+# --- Conda: use Itamar's install (this account has no miniconda of its own) ---
+source /home/yandex/MLWG2026/itamarberger/miniconda3/etc/profile.d/conda.sh
 conda activate see-talk
 
-# --- Hugging Face cache on the large filesystem (NOT $HOME - quota) ---
+# --- Hugging Face cache: reuse the already-downloaded Qwen weights ---
 export PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True
-export HF_HOME=/home/yandex/MLWG2026/$USER/huggingface
+export HF_HOME=/home/yandex/MLWG2026/itamarberger/huggingface
 export HF_HUB_CACHE=$HF_HOME/hub
 export TRITON_CACHE_DIR=/home/yandex/MLWG2026/$USER/triton_cache
 export XDG_CACHE_HOME=/home/yandex/MLWG2026/$USER/cache
