@@ -1,0 +1,37 @@
+# mixed_adjacency_matrix.yaml
+#
+# Yovel's Mixed Signals run with the MATRIX text encoding.
+# Identical to mixed_baseline.yaml (Itamar's edge-list run) except
+# text_encoding is "adjacency_matrix" instead of "adjacency".
+#
+# Purpose: does the matrix text resist a contradicting image better or
+# worse than the edge list? Compare text-follow vs image-follow rates
+# against the adjacency results, per task.
+#
+# Requires the adjacency_matrix clean baseline to exist first:
+#   results/baseline/text_and_image/<task>/spring_adjacency_matrix_Qwen2.5-VL-7B-Instruct.jsonl
+
+data_dir: data
+
+tasks:
+   - node_degree
+   - node_count
+   - edge_existence
+   - edge_count
+   - disconnected_nodes
+   - triangle_counting
+   - cycle_check
+
+model: qwen-7b
+
+modalities:
+  - text_and_image
+
+text_encoding: "adjacency_matrix"
+
+image_types:
+  - spring
+
+batch_size: 1
+
+output_dir: results/mixed_baseline/

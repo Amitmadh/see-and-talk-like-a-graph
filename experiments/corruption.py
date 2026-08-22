@@ -1,14 +1,22 @@
 import copy
 import networkx as nx
 
-from talk_like_a_graph.graph_text_encoders import (
-    adjacency_encoder,
-    nodes_to_text,
-)
+from talk_like_a_graph import extra_text_encoders
 
-def encode_corrupted_graph(graph):
-    name_dict = nodes_to_text(graph, "integer")
-    return adjacency_encoder(graph, name_dict)
+
+def encode_corrupted_graph(graph, text_encoding="adjacency"):
+    """Re-encode the corrupted graph as text in the requested encoding.
+
+    Mixed-signals corruption edits the graph and must regenerate the text so it
+    contradicts the (unchanged) image. The regenerated text has to be in the
+    SAME encoding the dataset used, otherwise the encoding sweep would compare
+    two identical texts. `extra_text_encoders.encode_graph` dispatches to the
+    released edge-list encoders (e.g. ``adjacency``) and to the extra ones
+    (e.g. ``adjacency_matrix``) alike.
+    """
+    return extra_text_encoders.encode_graph(graph, text_encoding)
+
+
 # ---------------------------------------------------------------------
 # Public API
 # ---------------------------------------------------------------------
@@ -42,9 +50,11 @@ def corrupt_sample(sample, task, text_encoding):
             f"{sample.sample_id}: {original_answer} -> {corrupted_answer}"
         )
 
-    # Regenerate the textual graph representation from the corrupted graph.
+    # Regenerate the textual graph representation from the corrupted graph,
+    # in the SAME encoding the dataset used (edge list vs. matrix, ...).
     s.text_encoding = encode_corrupted_graph(
-    corrupted_graph
+    corrupted_graph,
+    text_encoding=text_encoding,
     )
 
     # Keep the image exactly as it was.

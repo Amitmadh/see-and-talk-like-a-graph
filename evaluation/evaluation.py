@@ -286,10 +286,22 @@ def get_file_metadata(path, root):
             f"Unexpected results path: {path}"
         )
 
+    # Detect the text encoding from the filename. Older result files (the
+    # original adjacency runs) carry no encoding tag, so an untagged file
+    # is by definition the default "adjacency" encoding. Only the newer
+    # matrix runs are tagged. Check the longer name first because
+    # "adjacency_matrix" contains "adjacency" as a prefix.
+    text_encoding = "adjacency"
+    for candidate in ("adjacency_matrix", "adjacency"):
+        if f"_{candidate}_" in path.name or f"_{candidate}." in path.name:
+            text_encoding = candidate
+            break
+
     return {
         "setting": parts[0],
         "task": parts[1],
         "file_name": path.name,
+        "text_encoding": text_encoding,
     }
 
 
@@ -656,6 +668,7 @@ def build_mixed_summary(rows):
         "by_task": {},
         "by_image_type": {},
         "by_model": {},
+        "by_text_encoding": {},
     }
 
     for row in rows:
@@ -663,13 +676,19 @@ def build_mixed_summary(rows):
             ("by_task", row.get("task")),
             ("by_image_type", row.get("image_type")),
             ("by_model", row.get("model")),
+            ("by_text_encoding", row.get("text_encoding")),
         ]:
             if key is None:
                 continue
 
             summary[group_name].setdefault(key, []).append(row)
 
-    for group_name in ["by_task", "by_image_type", "by_model"]:
+    for group_name in [
+        "by_task",
+        "by_image_type",
+        "by_model",
+        "by_text_encoding",
+    ]:
         for key, group_rows in summary[group_name].items():
             summary[group_name][key] = aggregate(group_rows)
 
