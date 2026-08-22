@@ -14,7 +14,7 @@
 #SBATCH --job-name=yovel_matrix_mixed_signals
 #SBATCH --output=/home/yandex/MLWG2026/%u/slurm_logs/%x_%j.out
 #SBATCH --error=/home/yandex/MLWG2026/%u/slurm_logs/%x_%j.err
-#SBATCH --partition=studentbatch
+#SBATCH --partition=studentkillable
 #SBATCH --time=24:00:00
 #SBATCH --signal=USR1@120
 #SBATCH --nodes=1
