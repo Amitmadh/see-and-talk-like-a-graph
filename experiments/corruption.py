@@ -93,7 +93,7 @@ def corrupt_dataset(samples, task, text_encoding):
                     text_encoding=text_encoding,
                 )
             )
-        except ValueError as exc:
+        except (ValueError, IndexError, KeyError) as exc:
             log(f"Skipping uncorruptible sample {sample.sample_id}: {exc}")
     log(
         f"Corrupted {len(corrupted)}/{len(samples)} samples "
@@ -302,9 +302,28 @@ def corrupt_cycle_check(graph, sample, expected_answer):
                 break
 
             # Take any edge from the first cycle.
+            # cycle_basis can return a 1-node list for a self-loop.
             cycle = cycles[0]
+            if len(cycle) < 2:
+                u = cycle[0]
+                if not graph.has_edge(u, u):
+                    raise ValueError(
+                        f"Degenerate cycle {cycle} with no self-loop "
+                        f"for {sample.sample_id}"
+                    )
+                remove_edge(graph, u, u)
+                removed_edges.append([u, u])
+                continue
+
             u = cycle[0]
             v = cycle[1]
+            if not graph.has_edge(u, v):
+                v = cycle[-1]
+            if not graph.has_edge(u, v):
+                raise ValueError(
+                    f"No removable cycle edge in {cycle} "
+                    f"for {sample.sample_id}"
+                )
 
             remove_edge(graph, u, v)
 
