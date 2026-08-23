@@ -131,7 +131,8 @@ if __name__ == "__main__":
             log(f"Running mixed-signals experiment for task: {task}, image_type: {image_type}")
 
             output_path = (
-                Path(config["output_dir"])
+                root
+                / config["output_dir"]
                 / "text_and_image"
                 / task
                 / f"{image_type}{enc_tag}_corrupt-text_{model_name_in_results}.jsonl"

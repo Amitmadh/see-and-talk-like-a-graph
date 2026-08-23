@@ -899,9 +899,10 @@ def save_corrupted_dataset(samples, output_path):
     output_path = Path(output_path)
 
     if output_path.exists():
-        raise FileExistsError(
-            f"Refusing to overwrite existing dataset: {output_path}"
+        log(
+            f"Overwriting existing corrupted dataset: {output_path}"
         )
+        output_path.unlink()
 
     output_path.parent.mkdir(
         parents=True,
