@@ -130,6 +130,16 @@ if __name__ == "__main__":
 
             log(f"Running mixed-signals experiment for task: {task}, image_type: {image_type}")
 
+            output_path = (
+                Path(config["output_dir"])
+                / "text_and_image"
+                / task
+                / f"{image_type}{enc_tag}_corrupt-text_{model_name_in_results}.jsonl"
+            )
+            if output_path.is_file():
+                log(f"Skipping {task}: results already exist at {output_path}")
+                continue
+
             dataset_dir = root / config["data_dir"] / f"{task}_{text_encoding}_test.jsonl"
             dataset = load_graphqa_dataset(dataset_dir=dataset_dir)
 
@@ -192,9 +202,5 @@ if __name__ == "__main__":
                 r["corruption"] = s.metadata["corruption"]
 
 
-
-            output_path = Path(config["output_dir"]) / "text_and_image" / task / f"{image_type}{enc_tag}_corrupt-text.jsonl"
-            if model:
-                output_path = Path(config["output_dir"]) / "text_and_image" / task / f"{image_type}{enc_tag}_corrupt-text_{model.name}.jsonl"
 
             save_results(results, output_path)

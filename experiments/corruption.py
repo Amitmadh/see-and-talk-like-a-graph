@@ -1,6 +1,7 @@
 import copy
 import networkx as nx
 
+from experiments.utils import log
 from talk_like_a_graph import extra_text_encoders
 
 
@@ -77,15 +78,28 @@ def corrupt_sample(sample, task, text_encoding):
 
 
 def corrupt_dataset(samples, task, text_encoding):
-    """Corrupt every sample and return new Sample objects."""
-    return [
-        corrupt_sample(
-            sample,
-            task=task,
-            text_encoding=text_encoding,
-        )
-        for sample in samples
-    ]
+    """Corrupt every sample and return new Sample objects.
+
+    Samples that cannot be corrupted (the answer would not change) are
+    skipped with a log line instead of aborting the whole experiment.
+    """
+    corrupted = []
+    for sample in samples:
+        try:
+            corrupted.append(
+                corrupt_sample(
+                    sample,
+                    task=task,
+                    text_encoding=text_encoding,
+                )
+            )
+        except ValueError as exc:
+            log(f"Skipping uncorruptible sample {sample.sample_id}: {exc}")
+    log(
+        f"Corrupted {len(corrupted)}/{len(samples)} samples "
+        f"for task={task}"
+    )
+    return corrupted
 
 
 # ---------------------------------------------------------------------
@@ -369,6 +383,27 @@ def corrupt_cycle_check(graph, sample, expected_answer):
     existing_edge = next(iter(graph.edges()), None)
 
     if existing_edge is None:
+        # Isolated vertices: a single new edge cannot make a cycle.
+        # Add a triangle on existing nodes so the text says there is a
+        # cycle while the (unchanged) image still shows none.
+        if len(nodes) >= 3:
+            a, b, c = nodes[0], nodes[1], nodes[2]
+            add_edge(graph, a, b)
+            add_edge(graph, b, c)
+            add_edge(graph, a, c)
+            if not nx.cycle_basis(graph):
+                raise ValueError(
+                    f"Failed to create a triangle in an edgeless "
+                    f"graph for {sample.sample_id}"
+                )
+            return (
+                graph,
+                True,
+                {
+                    "type": "add_triangle",
+                    "added_edges": [[a, b], [b, c], [a, c]],
+                },
+            )
         raise ValueError(
             f"Cannot create a cycle in an edgeless graph using "
             f"the current node set for {sample.sample_id}"
