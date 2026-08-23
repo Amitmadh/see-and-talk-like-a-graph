@@ -65,6 +65,12 @@ if __name__ == "__main__":
 
     model_name_in_results = "Qwen2.5-VL-7B-Instruct"
 
+    # Tag filenames with the encoding ONLY for non-default encodings, so
+    # adjacency runs reuse the original untagged baseline/output names
+    # (matching the released results) and only the newer matrix runs get a
+    # distinguishing tag. Keeps Itamar's adjacency files untouched.
+    enc_tag = "" if text_encoding == "adjacency" else f"_{text_encoding}"
+
     # ============================================================
     # Validate required paths BEFORE loading the model
     # ============================================================
@@ -98,7 +104,7 @@ if __name__ == "__main__":
                 output_dir
                 / "text_and_image"
                 / task
-                / f"{image_type}_{model_name_in_results}.jsonl"
+                / f"{image_type}{enc_tag}_{model_name_in_results}.jsonl"
             )
 
             if not baseline_path.is_file():
@@ -124,12 +130,23 @@ if __name__ == "__main__":
 
             log(f"Running mixed-signals experiment for task: {task}, image_type: {image_type}")
 
+            output_path = (
+                root
+                / config["output_dir"]
+                / "text_and_image"
+                / task
+                / f"{image_type}{enc_tag}_corrupt-text_{model_name_in_results}.jsonl"
+            )
+            if output_path.is_file():
+                log(f"Skipping {task}: results already exist at {output_path}")
+                continue
+
             dataset_dir = root / config["data_dir"] / f"{task}_{text_encoding}_test.jsonl"
             dataset = load_graphqa_dataset(dataset_dir=dataset_dir)
 
             baseline_path = (
                 Path("results/baseline") / "text_and_image" / task /
-                (f"{image_type}_{model_name_in_results}.jsonl")
+                (f"{image_type}{enc_tag}_{model_name_in_results}.jsonl")
             )
             dataset = filter_clean_correct(
             dataset,
@@ -186,9 +203,5 @@ if __name__ == "__main__":
                 r["corruption"] = s.metadata["corruption"]
 
 
-
-            output_path = Path(config["output_dir"]) / "text_and_image" / task / f"{image_type}_corrupt-text.jsonl"
-            if model:
-                output_path = Path(config["output_dir"]) / "text_and_image" / task / f"{image_type}_corrupt-text_{model.name}.jsonl"
 
             save_results(results, output_path)

@@ -1,14 +1,23 @@
 import copy
 import networkx as nx
 
-from talk_like_a_graph.graph_text_encoders import (
-    adjacency_encoder,
-    nodes_to_text,
-)
+from experiments.utils import log
+from talk_like_a_graph import extra_text_encoders
 
-def encode_corrupted_graph(graph):
-    name_dict = nodes_to_text(graph, "integer")
-    return adjacency_encoder(graph, name_dict)
+
+def encode_corrupted_graph(graph, text_encoding="adjacency"):
+    """Re-encode the corrupted graph as text in the requested encoding.
+
+    Mixed-signals corruption edits the graph and must regenerate the text so it
+    contradicts the (unchanged) image. The regenerated text has to be in the
+    SAME encoding the dataset used, otherwise the encoding sweep would compare
+    two identical texts. `extra_text_encoders.encode_graph` dispatches to the
+    released edge-list encoders (e.g. ``adjacency``) and to the extra ones
+    (e.g. ``adjacency_matrix``) alike.
+    """
+    return extra_text_encoders.encode_graph(graph, text_encoding)
+
+
 # ---------------------------------------------------------------------
 # Public API
 # ---------------------------------------------------------------------
@@ -42,9 +51,11 @@ def corrupt_sample(sample, task, text_encoding):
             f"{sample.sample_id}: {original_answer} -> {corrupted_answer}"
         )
 
-    # Regenerate the textual graph representation from the corrupted graph.
+    # Regenerate the textual graph representation from the corrupted graph,
+    # in the SAME encoding the dataset used (edge list vs. matrix, ...).
     s.text_encoding = encode_corrupted_graph(
-    corrupted_graph
+    corrupted_graph,
+    text_encoding=text_encoding,
     )
 
     # Keep the image exactly as it was.
@@ -67,15 +78,28 @@ def corrupt_sample(sample, task, text_encoding):
 
 
 def corrupt_dataset(samples, task, text_encoding):
-    """Corrupt every sample and return new Sample objects."""
-    return [
-        corrupt_sample(
-            sample,
-            task=task,
-            text_encoding=text_encoding,
-        )
-        for sample in samples
-    ]
+    """Corrupt every sample and return new Sample objects.
+
+    Samples that cannot be corrupted (the answer would not change) are
+    skipped with a log line instead of aborting the whole experiment.
+    """
+    corrupted = []
+    for sample in samples:
+        try:
+            corrupted.append(
+                corrupt_sample(
+                    sample,
+                    task=task,
+                    text_encoding=text_encoding,
+                )
+            )
+        except (ValueError, IndexError, KeyError) as exc:
+            log(f"Skipping uncorruptible sample {sample.sample_id}: {exc}")
+    log(
+        f"Corrupted {len(corrupted)}/{len(samples)} samples "
+        f"for task={task}"
+    )
+    return corrupted
 
 
 # ---------------------------------------------------------------------
@@ -278,9 +302,28 @@ def corrupt_cycle_check(graph, sample, expected_answer):
                 break
 
             # Take any edge from the first cycle.
+            # cycle_basis can return a 1-node list for a self-loop.
             cycle = cycles[0]
+            if len(cycle) < 2:
+                u = cycle[0]
+                if not graph.has_edge(u, u):
+                    raise ValueError(
+                        f"Degenerate cycle {cycle} with no self-loop "
+                        f"for {sample.sample_id}"
+                    )
+                remove_edge(graph, u, u)
+                removed_edges.append([u, u])
+                continue
+
             u = cycle[0]
             v = cycle[1]
+            if not graph.has_edge(u, v):
+                v = cycle[-1]
+            if not graph.has_edge(u, v):
+                raise ValueError(
+                    f"No removable cycle edge in {cycle} "
+                    f"for {sample.sample_id}"
+                )
 
             remove_edge(graph, u, v)
 
@@ -359,6 +402,27 @@ def corrupt_cycle_check(graph, sample, expected_answer):
     existing_edge = next(iter(graph.edges()), None)
 
     if existing_edge is None:
+        # Isolated vertices: a single new edge cannot make a cycle.
+        # Add a triangle on existing nodes so the text says there is a
+        # cycle while the (unchanged) image still shows none.
+        if len(nodes) >= 3:
+            a, b, c = nodes[0], nodes[1], nodes[2]
+            add_edge(graph, a, b)
+            add_edge(graph, b, c)
+            add_edge(graph, a, c)
+            if not nx.cycle_basis(graph):
+                raise ValueError(
+                    f"Failed to create a triangle in an edgeless "
+                    f"graph for {sample.sample_id}"
+                )
+            return (
+                graph,
+                True,
+                {
+                    "type": "add_triangle",
+                    "added_edges": [[a, b], [b, c], [a, c]],
+                },
+            )
         raise ValueError(
             f"Cannot create a cycle in an edgeless graph using "
             f"the current node set for {sample.sample_id}"
@@ -854,9 +918,10 @@ def save_corrupted_dataset(samples, output_path):
     output_path = Path(output_path)
 
     if output_path.exists():
-        raise FileExistsError(
-            f"Refusing to overwrite existing dataset: {output_path}"
+        log(
+            f"Overwriting existing corrupted dataset: {output_path}"
         )
+        output_path.unlink()
 
     output_path.parent.mkdir(
         parents=True,

@@ -212,9 +212,14 @@ if __name__ == "__main__":
                     batch_size=config.get("batch_size", 8),
                 )
 
-                output_path = Path(config["output_dir"]) / modality / task / f"{image_type}.jsonl"
+                # Tag the filename with the encoding ONLY for non-default
+                # encodings, so adjacency runs keep the original untagged
+                # names (matching the released results) and only the newer
+                # matrix runs get a distinguishing tag.
+                enc_tag = "" if text_encoding == "adjacency" else f"_{text_encoding}"
+                output_path = Path(config["output_dir"]) / modality / task / f"{image_type}{enc_tag}.jsonl"
                 if model:
-                    output_path = Path(config["output_dir"]) / modality / task / f"{image_type}_{model.name}.jsonl"
+                    output_path = Path(config["output_dir"]) / modality / task / f"{image_type}{enc_tag}_{model.name}.jsonl"
 
                 save_results(
                     results,
