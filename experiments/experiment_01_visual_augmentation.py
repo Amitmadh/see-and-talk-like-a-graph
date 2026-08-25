@@ -186,6 +186,19 @@ if __name__ == "__main__":
         
                 log(f"Running experiment for task: {task}, modality: {modality}, image_type: {image_type}")
 
+                # Tag the filename with the encoding ONLY for non-default
+                # encodings, so adjacency runs keep the original untagged
+                # names (matching the released results) and only the newer
+                # encodings get a distinguishing tag.
+                enc_tag = "" if text_encoding == "adjacency" else f"_{text_encoding}"
+                output_path = Path(config["output_dir"]) / modality / task / f"{image_type}{enc_tag}.jsonl"
+                if model:
+                    output_path = Path(config["output_dir"]) / modality / task / f"{image_type}{enc_tag}_{model.name}.jsonl"
+
+                if output_path.is_file():
+                    log(f"Skipping {task}/{modality}/{image_type}: results already exist at {output_path}")
+                    continue
+
                 dataset_dir = (
                     root / 
                     config["data_dir"] /
@@ -211,15 +224,6 @@ if __name__ == "__main__":
                     image_type=image_type,
                     batch_size=config.get("batch_size", 8),
                 )
-
-                # Tag the filename with the encoding ONLY for non-default
-                # encodings, so adjacency runs keep the original untagged
-                # names (matching the released results) and only the newer
-                # matrix runs get a distinguishing tag.
-                enc_tag = "" if text_encoding == "adjacency" else f"_{text_encoding}"
-                output_path = Path(config["output_dir"]) / modality / task / f"{image_type}{enc_tag}.jsonl"
-                if model:
-                    output_path = Path(config["output_dir"]) / modality / task / f"{image_type}{enc_tag}_{model.name}.jsonl"
 
                 save_results(
                     results,

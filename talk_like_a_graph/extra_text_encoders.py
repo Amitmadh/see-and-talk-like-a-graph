@@ -11,7 +11,7 @@ changes the *shape* of the textual evidence without changing its content --
 the edge list and the matrix are information-equivalent, so any accuracy
 difference is about format, not about what the model was told.
 
-Two properties are deliberate:
+Two properties of the matrix are deliberate:
 
 *   Rows and columns are labelled. Without headers the model has to infer which
     row belongs to which node by counting, and an off-by-one there is
@@ -21,13 +21,25 @@ Two properties are deliberate:
     natively, so unlike the edge-list encoders this one needs no separate
     sentence listing capacities.
 
+`incident` and `node_roster` are count-oriented: they put one record per node
+on its own line, including isolated nodes. Mixed-signals results with the
+matrix showed that burying a node list in a prose sentence ("among nodes 0, 1,
+...") is not enough to make node-count follow text -- the model still prefers
+the image. These two encodings make *counting records* the obvious action,
+without ever writing the gold count ("G has 17 nodes").
+
+The extra `incident` is not the released `incident_encoder`. The released one
+skips isolated nodes (it only emits "Node X is connected to ..." for nodes
+with neighbours) and still opens with the buried prose list. Ours lists every
+node as `id: neighbours` or `id: (none)`.
+
 Node names come from the same integer mapping `adjacency` uses, so a graph
 encoded this way is drawn identically and reuses the cached image.
 """
 
 from __future__ import annotations
 
-from typing import Any, Mapping
+from typing import Any, Callable, Mapping
 
 import networkx as nx
 
@@ -35,7 +47,8 @@ from . import graph_text_encoders
 
 
 # Encoders defined here rather than in `graph_text_encoders`.
-EXTRA_ENCODERS = ('adjacency_matrix',)
+# `incident` here overrides the released encoder when this module dispatches.
+EXTRA_ENCODERS = ('adjacency_matrix', 'incident', 'node_roster')
 
 # Which released encoder each extra one borrows its node naming and its
 # question phrasing from. The tasks in `graph_tasks` call the released encoder
@@ -44,6 +57,8 @@ EXTRA_ENCODERS = ('adjacency_matrix',)
 # node names, and the gold answer depends on the graph rather than the text.
 BASE_ENCODER = {
     'adjacency_matrix': 'adjacency',
+    'incident': 'adjacency',
+    'node_roster': 'adjacency',
 }
 
 
@@ -147,6 +162,68 @@ def adjacency_matrix_encoder(
   return '\n'.join(lines) + '\n'
 
 
+def incident_encoder(
+    graph: nx.Graph, name_dict: Mapping[Any, str]
+) -> str:
+  """One neighbourhood line per node, including isolates.
+
+  Isolated nodes are written as `id: (none)` so they still occupy a record
+  that can be counted. The released `incident_encoder` omits them.
+  """
+  direction = 'directed' if graph.is_directed() else 'undirected'
+  lines = [
+      'G is an %s graph.' % direction,
+      'Neighborhoods:',
+  ]
+  for node in sorted(graph.nodes()):
+    neighbours = sorted(graph.neighbors(node))
+    if neighbours:
+      neighbour_str = ', '.join(str(name_dict[n]) for n in neighbours)
+    else:
+      neighbour_str = '(none)'
+    lines.append('%s: %s' % (name_dict[node], neighbour_str))
+  return '\n'.join(lines) + '\n'
+
+
+def node_roster_encoder(
+    graph: nx.Graph, name_dict: Mapping[Any, str]
+) -> str:
+  """A vertical node roster, then the edge list.
+
+  Never writes the node count in words. Isolated nodes still appear, each on
+  its own line, so counting nodes is counting lines under the roster heading.
+  """
+  direction = 'directed' if graph.is_directed() else 'undirected'
+  lines = [
+      'G is an %s graph.' % direction,
+      'The nodes of G are:',
+  ]
+  for node in sorted(graph.nodes()):
+    lines.append(str(name_dict[node]))
+
+  if graph.edges():
+    pairs = []
+    for source, target in graph.edges():
+      if not graph.is_directed() and source > target:
+        source, target = target, source
+      pairs.append((source, target))
+    pairs.sort()
+    edge_parts = [
+        '(%s, %s)' % (name_dict[u], name_dict[v]) for u, v in pairs
+    ]
+    lines.append('The edges of G are: ' + ', '.join(edge_parts) + '.')
+  else:
+    lines.append('The edges of G are: (none).')
+  return '\n'.join(lines) + '\n'
+
+
+_ENCODERS: dict[str, Callable[[nx.Graph, Mapping[Any, str]], str]] = {
+    'adjacency_matrix': adjacency_matrix_encoder,
+    'incident': incident_encoder,
+    'node_roster': node_roster_encoder,
+}
+
+
 def encode_graph(
     graph: nx.Graph,
     encoding_method: str,
@@ -166,7 +243,7 @@ def encode_graph(
     return graph_text_encoders.encode_graph(graph, encoding_method)
   if name_dict is None:
     name_dict = get_node_encoder(graph, encoding_method)
-  return adjacency_matrix_encoder(graph, name_dict)
+  return _ENCODERS[encoding_method](graph, name_dict)
 
 
 def get_node_encoder(graph: nx.Graph, encoding_method: str):

@@ -1,0 +1,23 @@
+# Mixed Signals with the vertical node-roster encoding.
+# Requires the node_roster clean baseline first:
+#   results/baseline/text_and_image/<task>/spring_node_roster_Qwen2.5-VL-7B-Instruct.jsonl
+
+data_dir: data
+
+tasks:
+  - node_count
+  - cycle_check
+
+model: qwen-7b
+
+modalities:
+  - text_and_image
+
+text_encoding: "node_roster"
+
+image_types:
+  - spring
+
+batch_size: 1
+
+output_dir: results/mixed_baseline/

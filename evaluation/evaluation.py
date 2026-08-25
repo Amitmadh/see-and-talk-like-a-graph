@@ -288,11 +288,11 @@ def get_file_metadata(path, root):
 
     # Detect the text encoding from the filename. Older result files (the
     # original adjacency runs) carry no encoding tag, so an untagged file
-    # is by definition the default "adjacency" encoding. Only the newer
-    # matrix runs are tagged. Check the longer name first because
-    # "adjacency_matrix" contains "adjacency" as a prefix.
+    # is by definition the default "adjacency" encoding. Newer encodings are
+    # tagged. Check longer names first because "adjacency_matrix" contains
+    # "adjacency" as a prefix.
     text_encoding = "adjacency"
-    for candidate in ("adjacency_matrix", "adjacency"):
+    for candidate in ("adjacency_matrix", "node_roster", "incident", "adjacency"):
         if f"_{candidate}_" in path.name or f"_{candidate}." in path.name:
             text_encoding = candidate
             break
