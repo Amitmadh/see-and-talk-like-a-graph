@@ -74,6 +74,20 @@ class ExtraTextEncodersTest(unittest.TestCase):
     )
     self.assertIn('The adjacency matrix of G is:', text)
 
+  def test_dimacs_problem_line_counts_isolates(self):
+    text = extra_text_encoders.encode_graph(
+        _line_graph_with_isolate(), 'dimacs'
+    )
+    self.assertEqual(
+        text,
+        'c undirected graph\n'
+        'p edge 4 2\n'
+        'e 0 1\n'
+        'e 1 2\n',
+    )
+    self.assertNotIn('4 nodes', text)
+    self.assertNotIn('e 3', text)
+
 
 if __name__ == '__main__':
   unittest.main()

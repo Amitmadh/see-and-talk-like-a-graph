@@ -292,7 +292,13 @@ def get_file_metadata(path, root):
     # tagged. Check longer names first because "adjacency_matrix" contains
     # "adjacency" as a prefix.
     text_encoding = "adjacency"
-    for candidate in ("adjacency_matrix", "node_roster", "incident", "adjacency"):
+    for candidate in (
+        "adjacency_matrix",
+        "node_roster",
+        "incident",
+        "dimacs",
+        "adjacency",
+    ):
         if f"_{candidate}_" in path.name or f"_{candidate}." in path.name:
             text_encoding = candidate
             break

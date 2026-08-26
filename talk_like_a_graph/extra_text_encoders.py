@@ -33,6 +33,13 @@ skips isolated nodes (it only emits "Node X is connected to ..." for nodes
 with neighbours) and still opens with the buried prose list. Ours lists every
 node as `id: neighbours` or `id: (none)`.
 
+`dimacs` is a graph *file* format, not an English description. The first data
+line is `p edge n m` (node count, then edge count), then one `e u v` per edge.
+Isolates are counted in `n` but do not appear as `e` lines. That puts `|V|` in
+the text as a numeral -- the lever line-counting encodings did not have --
+without a sentence like "G has 17 nodes." Node ids stay 0-based so they match
+the image labels; classic DIMACS is often 1-based.
+
 Node names come from the same integer mapping `adjacency` uses, so a graph
 encoded this way is drawn identically and reuses the cached image.
 """
@@ -48,7 +55,7 @@ from . import graph_text_encoders
 
 # Encoders defined here rather than in `graph_text_encoders`.
 # `incident` here overrides the released encoder when this module dispatches.
-EXTRA_ENCODERS = ('adjacency_matrix', 'incident', 'node_roster')
+EXTRA_ENCODERS = ('adjacency_matrix', 'incident', 'node_roster', 'dimacs')
 
 # Which released encoder each extra one borrows its node naming and its
 # question phrasing from. The tasks in `graph_tasks` call the released encoder
@@ -59,6 +66,7 @@ BASE_ENCODER = {
     'adjacency_matrix': 'adjacency',
     'incident': 'adjacency',
     'node_roster': 'adjacency',
+    'dimacs': 'adjacency',
 }
 
 
@@ -217,10 +225,36 @@ def node_roster_encoder(
   return '\n'.join(lines) + '\n'
 
 
+def dimacs_encoder(
+    graph: nx.Graph, name_dict: Mapping[Any, str]
+) -> str:
+  """DIMACS `p edge n m` format, with 0-based ids matching the image.
+
+  Isolated nodes are included in `n` but have no `e` line. Does not write an
+  English node-count sentence; the problem line *is* the count.
+  """
+  n = graph.number_of_nodes()
+  pairs = []
+  for source, target in graph.edges():
+    if not graph.is_directed() and source > target:
+      source, target = target, source
+    pairs.append((source, target))
+  pairs.sort()
+  direction = 'directed' if graph.is_directed() else 'undirected'
+  lines = [
+      'c %s graph' % direction,
+      'p edge %d %d' % (n, len(pairs)),
+  ]
+  for source, target in pairs:
+    lines.append('e %s %s' % (name_dict[source], name_dict[target]))
+  return '\n'.join(lines) + '\n'
+
+
 _ENCODERS: dict[str, Callable[[nx.Graph, Mapping[Any, str]], str]] = {
     'adjacency_matrix': adjacency_matrix_encoder,
     'incident': incident_encoder,
     'node_roster': node_roster_encoder,
+    'dimacs': dimacs_encoder,
 }
 
 

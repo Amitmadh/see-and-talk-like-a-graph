@@ -1,0 +1,25 @@
+# Experiment 1 (clean baseline) with DIMACS text encoding.
+# Two tasks only: node_count (the tilt) and cycle_check (control).
+#
+# Outputs:
+#   results/baseline/text_and_image/<task>/spring_dimacs_Qwen2.5-VL-7B-Instruct.jsonl
+
+data_dir: data
+
+tasks:
+  - node_count
+  - cycle_check
+
+model: qwen-7b
+
+modalities:
+  - text_and_image
+
+text_encoding: "dimacs"
+
+image_types:
+  - spring
+
+batch_size: 1
+
+output_dir: results/baseline/
