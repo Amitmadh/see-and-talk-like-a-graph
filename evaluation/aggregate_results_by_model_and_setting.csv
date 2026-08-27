@@ -8,3 +8,4 @@ Qwen2.5-VL-7B-Instruct,text_only,0.314,0.754,0.849,0.997,0.349,0.337,0.131,0.540
 llava-v1.6-mistral-7b-hf,image_only,,0.666,0.417,0.060,0.154,0.160,,0.089,0.229
 llava-v1.6-mistral-7b-hf,text_and_image,,0.663,0.451,0.934,0.397,0.329,,0.289,0.197
 llava-v1.6-mistral-7b-hf,text_only,,0.669,0.531,0.949,0.403,0.357,,0.300,0.057
+Phi-4-multimodal-instruct,text_and_image,0.214,,0.783,0.849,0.509,0.429,0.117,0.357,0.363
