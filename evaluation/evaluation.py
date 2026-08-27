@@ -294,6 +294,7 @@ def get_file_metadata(path, root):
     text_encoding = "adjacency"
     for candidate in (
         "adjacency_matrix",
+        "incident_prose",
         "node_roster",
         "incident",
         "dimacs",

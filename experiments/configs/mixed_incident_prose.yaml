@@ -1,0 +1,23 @@
+# Mixed Signals with the released Talk-Like-A-Graph incident encoder.
+# Requires the incident_prose clean baseline first:
+#   results/baseline/text_and_image/<task>/spring_incident_prose_Qwen2.5-VL-7B-Instruct.jsonl
+
+data_dir: data
+
+tasks:
+  - node_count
+  - cycle_check
+
+model: qwen-7b
+
+modalities:
+  - text_and_image
+
+text_encoding: "incident_prose"
+
+image_types:
+  - spring
+
+batch_size: 1
+
+output_dir: results/mixed_baseline/

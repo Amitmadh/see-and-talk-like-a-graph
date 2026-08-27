@@ -1,0 +1,26 @@
+# Experiment 1 with the released Talk-Like-A-Graph incident encoder
+# (English "Node X is connected to …"). Named incident_prose so it does
+# not overwrite our neighbourhood-list incident run.
+#
+# Outputs:
+#   results/baseline/text_and_image/<task>/spring_incident_prose_Qwen2.5-VL-7B-Instruct.jsonl
+
+data_dir: data
+
+tasks:
+  - node_count
+  - cycle_check
+
+model: qwen-7b
+
+modalities:
+  - text_and_image
+
+text_encoding: "incident_prose"
+
+image_types:
+  - spring
+
+batch_size: 1
+
+output_dir: results/baseline/

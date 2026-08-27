@@ -88,6 +88,18 @@ class ExtraTextEncodersTest(unittest.TestCase):
     self.assertNotIn('4 nodes', text)
     self.assertNotIn('e 3', text)
 
+  def test_incident_prose_matches_released_encoder(self):
+    graph = _line_graph_with_isolate()
+    prose = extra_text_encoders.encode_graph(graph, 'incident_prose')
+    released = graph_text_encoders.encode_graph(graph, 'incident')
+    self.assertEqual(prose, released)
+    self.assertIn('G describes a graph among nodes', prose)
+    self.assertIn('Node 0 is connected to node', prose)
+    self.assertNotIn('Node 3', prose)
+    self.assertNotEqual(
+        prose, extra_text_encoders.encode_graph(graph, 'incident')
+    )
+
 
 if __name__ == '__main__':
   unittest.main()

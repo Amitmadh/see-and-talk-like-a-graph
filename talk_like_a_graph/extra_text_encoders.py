@@ -31,7 +31,9 @@ without ever writing the gold count ("G has 17 nodes").
 The extra `incident` is not the released `incident_encoder`. The released one
 skips isolated nodes (it only emits "Node X is connected to ..." for nodes
 with neighbours) and still opens with the buried prose list. Ours lists every
-node as `id: neighbours` or `id: (none)`.
+node as `id: neighbours` or `id: (none)`. `incident_prose` is that released
+encoder under a separate name, so mixed-signals can try the paper figure
+without overwriting the neighbourhood-list run.
 
 `dimacs` is a graph *file* format, not an English description. The first data
 line is `p edge n m` (node count, then edge count), then one `e u v` per edge.
@@ -55,7 +57,13 @@ from . import graph_text_encoders
 
 # Encoders defined here rather than in `graph_text_encoders`.
 # `incident` here overrides the released encoder when this module dispatches.
-EXTRA_ENCODERS = ('adjacency_matrix', 'incident', 'node_roster', 'dimacs')
+EXTRA_ENCODERS = (
+    'adjacency_matrix',
+    'incident',
+    'incident_prose',
+    'node_roster',
+    'dimacs',
+)
 
 # Which released encoder each extra one borrows its node naming and its
 # question phrasing from. The tasks in `graph_tasks` call the released encoder
@@ -65,6 +73,7 @@ EXTRA_ENCODERS = ('adjacency_matrix', 'incident', 'node_roster', 'dimacs')
 BASE_ENCODER = {
     'adjacency_matrix': 'adjacency',
     'incident': 'adjacency',
+    'incident_prose': 'adjacency',
     'node_roster': 'adjacency',
     'dimacs': 'adjacency',
 }
@@ -193,6 +202,17 @@ def incident_encoder(
   return '\n'.join(lines) + '\n'
 
 
+def incident_prose_encoder(
+    graph: nx.Graph, name_dict: Mapping[Any, str]
+) -> str:
+  """The released Talk-Like-A-Graph incident encoder (English connected-to).
+
+  Isolated nodes get no line. Kept as a named extra so it does not overwrite
+  our `incident` neighbourhood-list files.
+  """
+  return graph_text_encoders.incident_encoder(graph, dict(name_dict))
+
+
 def node_roster_encoder(
     graph: nx.Graph, name_dict: Mapping[Any, str]
 ) -> str:
@@ -253,6 +273,7 @@ def dimacs_encoder(
 _ENCODERS: dict[str, Callable[[nx.Graph, Mapping[Any, str]], str]] = {
     'adjacency_matrix': adjacency_matrix_encoder,
     'incident': incident_encoder,
+    'incident_prose': incident_prose_encoder,
     'node_roster': node_roster_encoder,
     'dimacs': dimacs_encoder,
 }
