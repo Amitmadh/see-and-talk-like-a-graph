@@ -1,11 +1,12 @@
 {
-  "generated_at": "2026-08-16T19:57:34.925753+00:00",
+  "generated_at": "2026-08-27T08:50:10.374275+00:00",
   "image_type_filter": "spring",
   "files": [
     {
       "setting": "image_only",
       "task": "connected_nodes",
       "file_name": "spring_Qwen2.5-VL-3B-Instruct.jsonl",
+      "text_encoding": "adjacency",
       "image_type": "spring",
       "model": "Qwen2.5-VL-3B-Instruct",
       "total": 350,
@@ -21,6 +22,7 @@
       "setting": "image_only",
       "task": "connected_nodes",
       "file_name": "spring_Qwen2.5-VL-7B-Instruct.jsonl",
+      "text_encoding": "adjacency",
       "image_type": "spring",
       "model": "Qwen2.5-VL-7B-Instruct",
       "total": 350,
@@ -36,6 +38,7 @@
       "setting": "image_only",
       "task": "cycle_check",
       "file_name": "spring_llava-v1.6-mistral-7b-hf.jsonl",
+      "text_encoding": "adjacency",
       "image_type": "spring",
       "model": "llava-v1.6-mistral-7b-hf",
       "total": 350,
@@ -51,6 +54,7 @@
       "setting": "image_only",
       "task": "cycle_check",
       "file_name": "spring_Qwen2.5-VL-3B-Instruct.jsonl",
+      "text_encoding": "adjacency",
       "image_type": "spring",
       "model": "Qwen2.5-VL-3B-Instruct",
       "total": 350,
@@ -66,6 +70,7 @@
       "setting": "image_only",
       "task": "cycle_check",
       "file_name": "spring_Qwen2.5-VL-7B-Instruct.jsonl",
+      "text_encoding": "adjacency",
       "image_type": "spring",
       "model": "Qwen2.5-VL-7B-Instruct",
       "total": 350,
@@ -81,6 +86,7 @@
       "setting": "image_only",
       "task": "disconnected_nodes",
       "file_name": "spring_Qwen2.5-VL-3B-Instruct.jsonl",
+      "text_encoding": "adjacency",
       "image_type": "spring",
       "model": "Qwen2.5-VL-3B-Instruct",
       "total": 350,
@@ -96,6 +102,7 @@
       "setting": "image_only",
       "task": "disconnected_nodes",
       "file_name": "spring_Qwen2.5-VL-7B-Instruct.jsonl",
+      "text_encoding": "adjacency",
       "image_type": "spring",
       "model": "Qwen2.5-VL-7B-Instruct",
       "total": 350,
@@ -111,6 +118,7 @@
       "setting": "image_only",
       "task": "edge_count",
       "file_name": "spring_llava-v1.6-mistral-7b-hf.jsonl",
+      "text_encoding": "adjacency",
       "image_type": "spring",
       "model": "llava-v1.6-mistral-7b-hf",
       "total": 350,
@@ -126,6 +134,7 @@
       "setting": "image_only",
       "task": "edge_count",
       "file_name": "spring_Qwen2.5-VL-3B-Instruct.jsonl",
+      "text_encoding": "adjacency",
       "image_type": "spring",
       "model": "Qwen2.5-VL-3B-Instruct",
       "total": 350,
@@ -141,6 +150,7 @@
       "setting": "image_only",
       "task": "edge_count",
       "file_name": "spring_Qwen2.5-VL-7B-Instruct.jsonl",
+      "text_encoding": "adjacency",
       "image_type": "spring",
       "model": "Qwen2.5-VL-7B-Instruct",
       "total": 350,
@@ -156,6 +166,7 @@
       "setting": "image_only",
       "task": "edge_existence",
       "file_name": "spring_llava-v1.6-mistral-7b-hf.jsonl",
+      "text_encoding": "adjacency",
       "image_type": "spring",
       "model": "llava-v1.6-mistral-7b-hf",
       "total": 350,
@@ -171,6 +182,7 @@
       "setting": "image_only",
       "task": "edge_existence",
       "file_name": "spring_Qwen2.5-VL-3B-Instruct.jsonl",
+      "text_encoding": "adjacency",
       "image_type": "spring",
       "model": "Qwen2.5-VL-3B-Instruct",
       "total": 350,
@@ -186,6 +198,7 @@
       "setting": "image_only",
       "task": "edge_existence",
       "file_name": "spring_Qwen2.5-VL-7B-Instruct.jsonl",
+      "text_encoding": "adjacency",
       "image_type": "spring",
       "model": "Qwen2.5-VL-7B-Instruct",
       "total": 350,
@@ -201,6 +214,7 @@
       "setting": "image_only",
       "task": "node_count",
       "file_name": "spring_llava-v1.6-mistral-7b-hf.jsonl",
+      "text_encoding": "adjacency",
       "image_type": "spring",
       "model": "llava-v1.6-mistral-7b-hf",
       "total": 350,
@@ -216,6 +230,7 @@
       "setting": "image_only",
       "task": "node_count",
       "file_name": "spring_Qwen2.5-VL-3B-Instruct.jsonl",
+      "text_encoding": "adjacency",
       "image_type": "spring",
       "model": "Qwen2.5-VL-3B-Instruct",
       "total": 350,
@@ -231,6 +246,7 @@
       "setting": "image_only",
       "task": "node_count",
       "file_name": "spring_Qwen2.5-VL-7B-Instruct.jsonl",
+      "text_encoding": "adjacency",
       "image_type": "spring",
       "model": "Qwen2.5-VL-7B-Instruct",
       "total": 350,
@@ -246,6 +262,7 @@
       "setting": "image_only",
       "task": "node_degree",
       "file_name": "spring_llava-v1.6-mistral-7b-hf.jsonl",
+      "text_encoding": "adjacency",
       "image_type": "spring",
       "model": "llava-v1.6-mistral-7b-hf",
       "total": 350,
@@ -261,6 +278,7 @@
       "setting": "image_only",
       "task": "node_degree",
       "file_name": "spring_Qwen2.5-VL-3B-Instruct.jsonl",
+      "text_encoding": "adjacency",
       "image_type": "spring",
       "model": "Qwen2.5-VL-3B-Instruct",
       "total": 350,
@@ -276,6 +294,7 @@
       "setting": "image_only",
       "task": "node_degree",
       "file_name": "spring_Qwen2.5-VL-7B-Instruct.jsonl",
+      "text_encoding": "adjacency",
       "image_type": "spring",
       "model": "Qwen2.5-VL-7B-Instruct",
       "total": 350,
@@ -291,6 +310,7 @@
       "setting": "image_only",
       "task": "shortest_path",
       "file_name": "spring_llava-v1.6-mistral-7b-hf.jsonl",
+      "text_encoding": "adjacency",
       "image_type": "spring",
       "model": "llava-v1.6-mistral-7b-hf",
       "total": 350,
@@ -306,6 +326,7 @@
       "setting": "image_only",
       "task": "shortest_path",
       "file_name": "spring_Qwen2.5-VL-3B-Instruct.jsonl",
+      "text_encoding": "adjacency",
       "image_type": "spring",
       "model": "Qwen2.5-VL-3B-Instruct",
       "total": 350,
@@ -321,6 +342,7 @@
       "setting": "image_only",
       "task": "shortest_path",
       "file_name": "spring_Qwen2.5-VL-7B-Instruct.jsonl",
+      "text_encoding": "adjacency",
       "image_type": "spring",
       "model": "Qwen2.5-VL-7B-Instruct",
       "total": 350,
@@ -336,6 +358,7 @@
       "setting": "image_only",
       "task": "triangle_counting",
       "file_name": "spring_llava-v1.6-mistral-7b-hf.jsonl",
+      "text_encoding": "adjacency",
       "image_type": "spring",
       "model": "llava-v1.6-mistral-7b-hf",
       "total": 350,
@@ -351,6 +374,7 @@
       "setting": "image_only",
       "task": "triangle_counting",
       "file_name": "spring_Qwen2.5-VL-3B-Instruct.jsonl",
+      "text_encoding": "adjacency",
       "image_type": "spring",
       "model": "Qwen2.5-VL-3B-Instruct",
       "total": 350,
@@ -366,6 +390,7 @@
       "setting": "image_only",
       "task": "triangle_counting",
       "file_name": "spring_Qwen2.5-VL-7B-Instruct.jsonl",
+      "text_encoding": "adjacency",
       "image_type": "spring",
       "model": "Qwen2.5-VL-7B-Instruct",
       "total": 350,
@@ -380,7 +405,221 @@
     {
       "setting": "text_and_image",
       "task": "connected_nodes",
+      "file_name": "spring_Phi-4-multimodal-instruct.jsonl",
+      "text_encoding": "adjacency",
+      "image_type": "spring",
+      "model": "Phi-4-multimodal-instruct",
+      "total": 350,
+      "correct": 75,
+      "incorrect": 226,
+      "wrong_format": 49,
+      "bad_expected": 0,
+      "accuracy": 0.214286,
+      "path": "results\\baseline\\text_and_image\\connected_nodes\\spring_Phi-4-multimodal-instruct.jsonl",
+      "wrong_format_answers": [
+        {
+          "sample_id": "connected_nodes/adjacency/test/0",
+          "answer": "2, in the in the in, in (i. 1. for. in. in. in: 1, in sorted in: 1 to. 1 to in (both: 1 to, in\nto\nex. to, to, (and\nand to in- and,"
+        },
+        {
+          "sample_id": "connected_nodes/adjacency/test/1",
+          "answer": "3 to. (both."
+        },
+        {
+          "sample_id": "connected_nodes/adjacency/test/6",
+          "answer": "3- to a, with a in in a by by by is in as in output, in (1 (0-1 (1 to by by. to. in. by, and, and, in . (1, in. 0, and in by . in in in yes."
+        },
+        {
+          "sample_id": "connected_nodes/adjacency/test/20",
+          "answer": "4, (1:: 1, to, to.h1, to, in indirectly, in, in output, in indirectly, (1,"
+        },
+        {
+          "sample_id": "connected_nodes/adjacency/test/21",
+          "answer": "3, (1, 1, with, (1, to, to. add. by, by, 1, with, prompt, to. by. by, by. by, by, in both in both (1 (1\nboth (1, by by by, by 1, ("
+        },
+        {
+          "sample_id": "connected_nodes/adjacency/test/32",
+          "answer": "1 ( ( ( ( ( ( ( ("
+        },
+        {
+          "sample_id": "connected_nodes/adjacency/test/33",
+          "answer": "8, for blank.."
+        },
+        {
+          "sample_id": "connected_nodes/adjacency/test/36",
+          "answer": "1, to, with a to the (0, to a given with a graph."
+        },
+        {
+          "sample_id": "connected_nodes/adjacency/test/39",
+          "answer": "0, to."
+        },
+        {
+          "sample_id": "connected_nodes/adjacency/test/47",
+          "answer": "8 to to 1 to a, in, in in with with in the, for the. (a-both. in 9. in a. in_1. for. 1. for. for."
+        },
+        {
+          "sample_id": "connected_nodes/adjacency/test/48",
+          "answer": "0. 10."
+        },
+        {
+          "sample_id": "connected_nodes/adjacency/test/49",
+          "answer": "2, in. 4, in a, andr, in a, for, 8, for, fora, and in, in, in, and, in."
+        },
+        {
+          "sample_id": "connected_nodes/adjacency/test/54",
+          "answer": "8, for nodes, and, and for both for a. and for both for sequential, and sorted as and and. prompt. in a in sequential output in both as. for. for. for for. for. For for for, as, for, for. for.. 1, for."
+        },
+        {
+          "sample_id": "connected_nodes/adjacency/test/55",
+          "answer": "0, to."
+        },
+        {
+          "sample_id": "connected_nodes/adjacency/test/63",
+          "answer": "1.\nto\nto."
+        },
+        {
+          "sample_id": "connected_nodes/adjacency/test/66",
+          "answer": "1- (1, to. 1, by 1, by. by, 2."
+        },
+        {
+          "sample_id": "connected_nodes/adjacency/test/67",
+          "answer": "1, with, (1, 1, 1, by (and (both, (both with both given set ( (10, a, 1 0, ( ( (yes (1, 0, 0.2, 4, by, by, (a: (both"
+        },
+        {
+          "sample_id": "connected_nodes/adjacency/test/74",
+          "answer": "5, 9, to in prompt prompt. for prompt res... 1nd. (1-1. 7. to, 1to 1."
+        },
+        {
+          "sample_id": "connected_nodes/adjacency/test/78",
+          "answer": "0 to a with a given to a, with a (to with not to. to,,, to\n,, and, to, in, to, to, to to to, to, in (0, in, with, in both in the (h, in, inse. in. trace"
+        },
+        {
+          "sample_id": "connected_nodes/adjacency/test/79",
+          "answer": "5, in. (ind. (to."
+        },
+        {
+          "sample_id": "connected_nodes/adjacency/test/84",
+          "answer": "0 to not to: 4- to recb, and, 1, to iter- in iterh (1- in iter-1. in_1- to- in. to- (both. to. to. to. and (1\nl. in (totog. to."
+        },
+        {
+          "sample_id": "connected_nodes/adjacency/test/89",
+          "answer": "2to- to both, 2to. (1. by\n 1|both-1:: 1- 1... to. 1-to. 1, 1. in. (a, (1 1, respectively. 1-5-1-2.4none"
+        },
+        {
+          "sample_id": "connected_nodes/adjacency/test/90",
+          "answer": "2. to. in."
+        },
+        {
+          "sample_id": "connected_nodes/adjacency/test/94",
+          "answer": "0, with a, with, (1, (0, both, 0 (both (1, (both (0, 1, 1, to_ (0, ( (0harm (0, both, by (0,1, by,4, by, with. (by"
+        },
+        {
+          "sample_id": "connected_nodes/adjacency/test/95",
+          "answer": "0. to in. in. to. to. to. to. in. to. to. for. for. 4. to, in."
+        },
+        {
+          "sample_id": "connected_nodes/adjacency/test/97",
+          "answer": "5, and, and n, 7, 7. 7, and, 7, and, 5, 1, 5, 5, to, to, 5, 7, 8, 11, 12, 14, 15, 16,"
+        },
+        {
+          "sample_id": "connected_nodes/adjacency/test/103",
+          "answer": "8, 5. 5.5, and in sequential, 1.1.5. 5, with. 1, to. to. to infa to inf. to. to. to-1, index. rec.5, for.3.2, to, to.2"
+        },
+        {
+          "sample_id": "connected_nodes/adjacency/test/106",
+          "answer": "3\n* (a\ncur."
+        },
+        {
+          "sample_id": "connected_nodes/adjacency/test/122",
+          "answer": "0, 11, 1, 1, with, with, 11, to, 1, 1, 1, 1, to, in a, with in a, with. to. to, to. to. to. in indirectly in a, in, to.1,"
+        },
+        {
+          "sample_id": "connected_nodes/adjacency/test/125",
+          "answer": "3,"
+        },
+        {
+          "sample_id": "connected_nodes/adjacency/test/126",
+          "answer": "1 to a graph in both. 1. in both, 1 (i, 1. 1. (1. with- rec! rec. in a graph. in the. in- 1. (a. 1_i-i- graph in. to. 1- to"
+        },
+        {
+          "sample_id": "connected_nodes/adjacency/test/142",
+          "answer": "0. in sequential graph in. for a. to a prompt, to. in. to. to. for rec. to. to. to."
+        },
+        {
+          "sample_id": "connected_nodes/adjacency/test/154",
+          "answer": "1 to. 1, to. to."
+        },
+        {
+          "sample_id": "connected_nodes/adjacency/test/155",
+          "answer": "3, for a, (1 (1 ( ( for. 1\n\n0,,-0, toboth, to. to. (10, to, to, in the, 1, in. in the, with, by, 1 1 1 (yes, 2. in"
+        },
+        {
+          "sample_id": "connected_nodes/adjacency/test/156",
+          "answer": "9 to in iter- to rec_answer. for. in. 1 in the not not in the recar. in sequential infex- in. in. in. in. 1\nand in a- 1- (i. 1. for (i, 1. in. in."
+        },
+        {
+          "sample_id": "connected_nodes/adjacency/test/157",
+          "answer": "0, ( ( ( (1, (1, (5, (1, (1, (2, both (1, (1, with both, to: (both, 1, 1, (1, (both, (both,1hour."
+        },
+        {
+          "sample_id": "connected_nodes/adjacency/test/166",
+          "answer": "2, both, a, (1, (yes (1, and, (0 (6, with_1, 1, to, by both, by, by (0, both, by, by, (1, (0, by (remany- ,,, (2,"
+        },
+        {
+          "sample_id": "connected_nodes/adjacency/test/180",
+          "answer": "0, 3, 4, 5, 6, 7, 8, and, to, to, to, to, to, to 9, 1, in. in, in, in sequential in, to, in in in, both,1, 1, to,"
+        },
+        {
+          "sample_id": "connected_nodes/adjacency/test/214",
+          "answer": "0topwppr, a, 9. in sequential, p, in the, for present, for, for, for. for.forno,forptprem, in.for."
+        },
+        {
+          "sample_id": "connected_nodes/adjacency/test/218",
+          "answer": "1, (i, to-1-1-1-1, (1, 3, 4, 5, 6"
+        },
+        {
+          "sample_id": "connected_nodes/adjacency/test/220",
+          "answer": "1. 1. 4. 1  30"
+        },
+        {
+          "sample_id": "connected_nodes/adjacency/test/221",
+          "answer": "1. to. 0. to. to directed in."
+        },
+        {
+          "sample_id": "connected_nodes/adjacency/test/234",
+          "answer": "1. in a. 1, 6, in a.1, 1. to, in. yes, in 1. in. in 6, in in in. in_6 in in."
+        },
+        {
+          "sample_id": "connected_nodes/adjacency/test/242",
+          "answer": "1, (i to/b-1-1 to/bast indirectly to indirectly to,1 (both to 4 to-bothtolutopt."
+        },
+        {
+          "sample_id": "connected_nodes/adjacency/test/253",
+          "answer": "0 to a (to_ to, to a (0 to to to (0, ( to to to to to to to ( to, to, to, to, to, to to to, to (yes. in, to, to in a rectremo, in, ( (. in."
+        },
+        {
+          "sample_id": "connected_nodes/adjacency/test/257",
+          "answer": "0 (1, both in (1, 1, 1, with (1_2, with (0, 0 ( 1 , ( 1 ( ( ( ( ( 2, 2, 1, 2 (0."
+        },
+        {
+          "sample_id": "connected_nodes/adjacency/test/258",
+          "answer": "0, (i, to, to, (1"
+        },
+        {
+          "sample_id": "connected_nodes/adjacency/test/259",
+          "answer": "0 (0, with a (1, 1, 1, with (1_1 ( (1 ( ( ( ( ( 1b| 1 yes.  ( 1, 4 (i, 3.5ranyh."
+        },
+        {
+          "sample_id": "connected_nodes/adjacency/test/282",
+          "answer": "1 (1, both in both to, (1, both, with by_1 (yes, both graph in a ( ( ( ( ( descriptive ( ( ( ( ( ( ( (1, 2, (i, 3. (by, 1, 1, both, to: with"
+        }
+      ]
+    },
+    {
+      "setting": "text_and_image",
+      "task": "connected_nodes",
       "file_name": "spring_Qwen2.5-VL-3B-Instruct.jsonl",
+      "text_encoding": "adjacency",
       "image_type": "spring",
       "model": "Qwen2.5-VL-3B-Instruct",
       "total": 350,
@@ -396,6 +635,7 @@
       "setting": "text_and_image",
       "task": "connected_nodes",
       "file_name": "spring_Qwen2.5-VL-7B-Instruct.jsonl",
+      "text_encoding": "adjacency",
       "image_type": "spring",
       "model": "Qwen2.5-VL-7B-Instruct",
       "total": 350,
@@ -411,6 +651,7 @@
       "setting": "text_and_image",
       "task": "cycle_check",
       "file_name": "spring_llava-v1.6-mistral-7b-hf.jsonl",
+      "text_encoding": "adjacency",
       "image_type": "spring",
       "model": "llava-v1.6-mistral-7b-hf",
       "total": 350,
@@ -426,6 +667,7 @@
       "setting": "text_and_image",
       "task": "cycle_check",
       "file_name": "spring_Qwen2.5-VL-3B-Instruct.jsonl",
+      "text_encoding": "adjacency",
       "image_type": "spring",
       "model": "Qwen2.5-VL-3B-Instruct",
       "total": 350,
@@ -441,6 +683,7 @@
       "setting": "text_and_image",
       "task": "cycle_check",
       "file_name": "spring_Qwen2.5-VL-7B-Instruct.jsonl",
+      "text_encoding": "adjacency",
       "image_type": "spring",
       "model": "Qwen2.5-VL-7B-Instruct",
       "total": 350,
@@ -455,7 +698,65 @@
     {
       "setting": "text_and_image",
       "task": "disconnected_nodes",
+      "file_name": "spring_Phi-4-multimodal-instruct.jsonl",
+      "text_encoding": "adjacency",
+      "image_type": "spring",
+      "model": "Phi-4-multimodal-instruct",
+      "total": 350,
+      "correct": 41,
+      "incorrect": 299,
+      "wrong_format": 10,
+      "bad_expected": 0,
+      "accuracy": 0.117143,
+      "path": "results\\baseline\\text_and_image\\disconnected_nodes\\spring_Phi-4-multimodal-instruct.jsonl",
+      "wrong_format_answers": [
+        {
+          "sample_id": "disconnected_nodes/adjacency/test/88",
+          "answer": "0, 1, in a (1, to. 0, 1, 1. 1. by. by by graph by both, 1| 1_1-0,1,both.2-2, 1, 1, 1, 2, 1"
+        },
+        {
+          "sample_id": "disconnected_nodes/adjacency/test/89",
+          "answer": "1 to, to-though. ( (1. for. 1_1::yes, 0- to (0, to. 0. 1. 1. in a, to, (1. 1-1. byar_1. 4vourveharear"
+        },
+        {
+          "sample_id": "disconnected_nodes/adjacency/test/90",
+          "answer": "3 to. to that graph in graph in a in a graph in a, in a in prompt in. (yes. in graph ingraph, in a. in to i. to- to- regardless. to to. to. and. to. to. to."
+        },
+        {
+          "sample_id": "disconnected_nodes/adjacency/test/91",
+          "answer": "0 in. to. (_ to 10, in sequential to,"
+        },
+        {
+          "sample_id": "disconnected_nodes/adjacency/test/169",
+          "answer": "3, 4, 5, 6, 7, 8, 9, 10, 11, 12, to to with to a graph to to to to, with to, with, 1,,,, (6, in, with,"
+        },
+        {
+          "sample_id": "disconnected_nodes/adjacency/test/206",
+          "answer": "3. in 9.1r\n1. a. for rech. 1. 1 1 1_1. 1 post that that prompt image graph_1. for both rec1."
+        },
+        {
+          "sample_id": "disconnected_nodes/adjacency/test/260",
+          "answer": "1, (1 (1, to (1, both, 0 (1, to, (both (1, (i (i, 1, 1 (1 ( ( ( 1, both, 0, 1, 1- 1- 6 (0,1*"
+        },
+        {
+          "sample_id": "disconnected_nodes/adjacency/test/261",
+          "answer": "0 to to-0 to to in that to-1b (1 to to, in a in ("
+        },
+        {
+          "sample_id": "disconnected_nodes/adjacency/test/330",
+          "answer": "3, 1, (1, (1, (1, (1, (0, by, with, (both, recom. (0, (1,omcluding,0 1, 11, 1, in. in.1, (yes, respectively, respectively,"
+        },
+        {
+          "sample_id": "disconnected_nodes/adjacency/test/334",
+          "answer": "0, to, ( ( ( ( ( ( ( ( ( (1 ( ( ( ( ( (0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 12)\n\nExplanation:\nThe nodes that are not connected"
+        }
+      ]
+    },
+    {
+      "setting": "text_and_image",
+      "task": "disconnected_nodes",
       "file_name": "spring_Qwen2.5-VL-3B-Instruct.jsonl",
+      "text_encoding": "adjacency",
       "image_type": "spring",
       "model": "Qwen2.5-VL-3B-Instruct",
       "total": 350,
@@ -471,6 +772,7 @@
       "setting": "text_and_image",
       "task": "disconnected_nodes",
       "file_name": "spring_Qwen2.5-VL-7B-Instruct.jsonl",
+      "text_encoding": "adjacency",
       "image_type": "spring",
       "model": "Qwen2.5-VL-7B-Instruct",
       "total": 350,
@@ -486,6 +788,7 @@
       "setting": "text_and_image",
       "task": "edge_count",
       "file_name": "spring_llava-v1.6-mistral-7b-hf.jsonl",
+      "text_encoding": "adjacency",
       "image_type": "spring",
       "model": "llava-v1.6-mistral-7b-hf",
       "total": 350,
@@ -500,7 +803,69 @@
     {
       "setting": "text_and_image",
       "task": "edge_count",
+      "file_name": "spring_Phi-4-multimodal-instruct.jsonl",
+      "text_encoding": "adjacency",
+      "image_type": "spring",
+      "model": "Phi-4-multimodal-instruct",
+      "total": 350,
+      "correct": 125,
+      "incorrect": 214,
+      "wrong_format": 11,
+      "bad_expected": 0,
+      "accuracy": 0.357143,
+      "path": "results\\baseline\\text_and_image\\edge_count\\spring_Phi-4-multimodal-instruct.jsonl",
+      "wrong_format_answers": [
+        {
+          "sample_id": "edge_count/adjacency/test/14",
+          "answer": "13-"
+        },
+        {
+          "sample_id": "edge_count/adjacency/test/18",
+          "answer": "6, inhere_6, and, with, (1, both (both, both, in both (1uany ( ( with (1,"
+        },
+        {
+          "sample_id": "edge_count/adjacency/test/25",
+          "answer": "6...both, 4, both contlu, by, a| 4, both, both overlay in...both, (1agraph in prompt in blank graph graph prompt prompt bounded graph output prompt description, yes. graph. yes, both, 1, by, (0, both,1-"
+        },
+        {
+          "sample_id": "edge_count/adjacency/test/34",
+          "answer": "22, (for."
+        },
+        {
+          "sample_id": "edge_count/adjacency/test/38",
+          "answer": "4\n([],\n...\n\nb"
+        },
+        {
+          "sample_id": "edge_count/adjacency/test/246",
+          "answer": "16, by, ( (i, prompt in. 6, in/b/2, in or, and/1? 6,10, 2- in- in- for a graph in/1, in/6- or. to. 6, in? but, in, in both"
+        },
+        {
+          "sample_id": "edge_count/adjacency/test/247",
+          "answer": "90."
+        },
+        {
+          "sample_id": "edge_count/adjacency/test/248",
+          "answer": "32, for which, for. for which for. for. 1, in. 1, in 1. 7. 1. 1 and 8. 8. for over. 4, 8."
+        },
+        {
+          "sample_id": "edge_count/adjacency/test/313",
+          "answer": "9, a graph."
+        },
+        {
+          "sample_id": "edge_count/adjacency/test/314",
+          "answer": "13, recu, alternate, for a set, by ( for the given (0, ( ( (0, (1, (1, (0, with, in.1, 1, and,1, in. as_1, by (1 (1, as, include, toggle,"
+        },
+        {
+          "sample_id": "edge_count/adjacency/test/349",
+          "answer": "17, (1 (yes, and in a (for..."
+        }
+      ]
+    },
+    {
+      "setting": "text_and_image",
+      "task": "edge_count",
       "file_name": "spring_Qwen2.5-VL-3B-Instruct.jsonl",
+      "text_encoding": "adjacency",
       "image_type": "spring",
       "model": "Qwen2.5-VL-3B-Instruct",
       "total": 350,
@@ -516,6 +881,7 @@
       "setting": "text_and_image",
       "task": "edge_count",
       "file_name": "spring_Qwen2.5-VL-7B-Instruct.jsonl",
+      "text_encoding": "adjacency",
       "image_type": "spring",
       "model": "Qwen2.5-VL-7B-Instruct",
       "total": 350,
@@ -531,6 +897,7 @@
       "setting": "text_and_image",
       "task": "edge_existence",
       "file_name": "spring_llava-v1.6-mistral-7b-hf.jsonl",
+      "text_encoding": "adjacency",
       "image_type": "spring",
       "model": "llava-v1.6-mistral-7b-hf",
       "total": 350,
@@ -545,7 +912,61 @@
     {
       "setting": "text_and_image",
       "task": "edge_existence",
+      "file_name": "spring_Phi-4-multimodal-instruct.jsonl",
+      "text_encoding": "adjacency",
+      "image_type": "spring",
+      "model": "Phi-4-multimodal-instruct",
+      "total": 350,
+      "correct": 274,
+      "incorrect": 67,
+      "wrong_format": 9,
+      "bad_expected": 0,
+      "accuracy": 0.782857,
+      "path": "results\\baseline\\text_and_image\\edge_existence\\spring_Phi-4-multimodal-instruct.jsonl",
+      "wrong_format_answers": [
+        {
+          "sample_id": "edge_existence/adjacency/test/26",
+          "answer": "True, and, in, for a, in the, in,0,0, in.0, and in in, in, in.0, in)0.0, in, in-0."
+        },
+        {
+          "sample_id": "edge_existence/adjacency/test/28",
+          "answer": "True."
+        },
+        {
+          "sample_id": "edge_existence/adjacency/test/106",
+          "answer": "True\n\n\n\ni\nA\n_1\n 5\n_5"
+        },
+        {
+          "sample_id": "edge_existence/adjacency/test/107",
+          "answer": "True, in. (1:: 1, 4, 0, with a_0_ (both_ (both: 1_0, 0, ( both ( 1, (both, in_3, both."
+        },
+        {
+          "sample_id": "edge_existence/adjacency/test/126",
+          "answer": "No"
+        },
+        {
+          "sample_id": "edge_existence/adjacency/test/221",
+          "answer": "True to rec. in. to rec. to. to in graph in. to. to graph. to. to. to. to. to. in any in a in the in a in either graph, output in (6 graph. in in in in- in- in in. in_0."
+        },
+        {
+          "sample_id": "edge_existence/adjacency/test/260",
+          "answer": "False indirectly in both (2, 6 (4, 6, (1-1-2-1-2, (1- (1 (a ( 2_2- ( (2obany (no-2-1, 0, 0-0-1-0-2"
+        },
+        {
+          "sample_id": "edge_existence/adjacency/test/276",
+          "answer": "True, 1, for both,  ( ( (1, (0 (by (both ( 1| (1:: 1. ( 1, in. 1, 1. in, 1, both, in, in a, respectively. 1, both, 1,"
+        },
+        {
+          "sample_id": "edge_existence/adjacency/test/289",
+          "answer": "False, 1, ( ( (1remitrematwhonbelow (1- (both-1hany-0, 2,2ndh. to-1,"
+        }
+      ]
+    },
+    {
+      "setting": "text_and_image",
+      "task": "edge_existence",
       "file_name": "spring_Qwen2.5-VL-3B-Instruct.jsonl",
+      "text_encoding": "adjacency",
       "image_type": "spring",
       "model": "Qwen2.5-VL-3B-Instruct",
       "total": 350,
@@ -561,6 +982,7 @@
       "setting": "text_and_image",
       "task": "edge_existence",
       "file_name": "spring_Qwen2.5-VL-7B-Instruct.jsonl",
+      "text_encoding": "adjacency",
       "image_type": "spring",
       "model": "Qwen2.5-VL-7B-Instruct",
       "total": 350,
@@ -576,6 +998,7 @@
       "setting": "text_and_image",
       "task": "node_count",
       "file_name": "spring_llava-v1.6-mistral-7b-hf.jsonl",
+      "text_encoding": "adjacency",
       "image_type": "spring",
       "model": "llava-v1.6-mistral-7b-hf",
       "total": 350,
@@ -590,7 +1013,57 @@
     {
       "setting": "text_and_image",
       "task": "node_count",
+      "file_name": "spring_Phi-4-multimodal-instruct.jsonl",
+      "text_encoding": "adjacency",
+      "image_type": "spring",
+      "model": "Phi-4-multimodal-instruct",
+      "total": 350,
+      "correct": 297,
+      "incorrect": 45,
+      "wrong_format": 8,
+      "bad_expected": 0,
+      "accuracy": 0.848571,
+      "path": "results\\baseline\\text_and_image\\node_count\\spring_Phi-4-multimodal-instruct.jsonl",
+      "wrong_format_answers": [
+        {
+          "sample_id": "node_count/adjacency/test/27",
+          "answer": "5 (to- to, a, with (0, definitely, with, and with,1 (1, and,0, 1,1, with, with, both, 1, in,0, in, in_conthgraph described inhere:: 1, with, notwithstanding, hboth"
+        },
+        {
+          "sample_id": "node_count/adjacency/test/157",
+          "answer": "6, by: (1, a. 5, 5, a-5, 1, and, (2h, 5, in_3: inbotha-2ode."
+        },
+        {
+          "sample_id": "node_count/adjacency/test/204",
+          "answer": "17."
+        },
+        {
+          "sample_id": "node_count/adjacency/test/213",
+          "answer": "10, and in and, and in both, in, in, 9,, in)\n, 6, 6, in, 6,,, 6, in, in, in, in, and, 6, inabum, in,1, and indirectly, and, and"
+        },
+        {
+          "sample_id": "node_count/adjacency/test/219",
+          "answer": "13lndexiyes\nexanswer\nanswer, a, in."
+        },
+        {
+          "sample_id": "node_count/adjacency/test/241",
+          "answer": "10, for, in both, 1, respectively, respectively, respectively, as."
+        },
+        {
+          "sample_id": "node_count/adjacency/test/276",
+          "answer": "13. in the given node, for node, nodes ( ( ( by output, nodes (by by prompt (both (both. (1. recat. ( answer, in. 1, . text, (1, in over. in a, in both respectively.1here in non. both"
+        },
+        {
+          "sample_id": "node_count/adjacency/test/277",
+          "answer": "9."
+        }
+      ]
+    },
+    {
+      "setting": "text_and_image",
+      "task": "node_count",
       "file_name": "spring_Qwen2.5-VL-3B-Instruct.jsonl",
+      "text_encoding": "adjacency",
       "image_type": "spring",
       "model": "Qwen2.5-VL-3B-Instruct",
       "total": 350,
@@ -606,6 +1079,7 @@
       "setting": "text_and_image",
       "task": "node_count",
       "file_name": "spring_Qwen2.5-VL-7B-Instruct.jsonl",
+      "text_encoding": "adjacency",
       "image_type": "spring",
       "model": "Qwen2.5-VL-7B-Instruct",
       "total": 350,
@@ -621,6 +1095,7 @@
       "setting": "text_and_image",
       "task": "node_degree",
       "file_name": "spring_llava-v1.6-mistral-7b-hf.jsonl",
+      "text_encoding": "adjacency",
       "image_type": "spring",
       "model": "llava-v1.6-mistral-7b-hf",
       "total": 350,
@@ -635,7 +1110,61 @@
     {
       "setting": "text_and_image",
       "task": "node_degree",
+      "file_name": "spring_Phi-4-multimodal-instruct.jsonl",
+      "text_encoding": "adjacency",
+      "image_type": "spring",
+      "model": "Phi-4-multimodal-instruct",
+      "total": 350,
+      "correct": 178,
+      "incorrect": 163,
+      "wrong_format": 9,
+      "bad_expected": 0,
+      "accuracy": 0.508571,
+      "path": "results\\baseline\\text_and_image\\node_degree\\spring_Phi-4-multimodal-instruct.jsonl",
+      "wrong_format_answers": [
+        {
+          "sample_id": "node_degree/adjacency/test/16",
+          "answer": "4. 1-1_"
+        },
+        {
+          "sample_id": "node_degree/adjacency/test/34",
+          "answer": "6, for. for. For for."
+        },
+        {
+          "sample_id": "node_degree/adjacency/test/35",
+          "answer": "10, both, 6, in? _0, in.0, 6,ct. and."
+        },
+        {
+          "sample_id": "node_degree/adjacency/test/41",
+          "answer": "4, to a, in a graph in any. both graph in both graph, and in a in a/ in output in any prompt in prompt in not in graph contop. 2. 1. 1- in standard graph in. in a. in graph in graph in. in. 1"
+        },
+        {
+          "sample_id": "node_degree/adjacency/test/123",
+          "answer": "4 for, for, for graph. is in for for recursiveness, 4"
+        },
+        {
+          "sample_id": "node_degree/adjacency/test/172",
+          "answer": "1, in ascending, (1, (1, in both by by in both, to by by by (1_0by by. add."
+        },
+        {
+          "sample_id": "node_degree/adjacency/test/178",
+          "answer": "5, by iter-b\ni, in.h-1-1\n1_1*"
+        },
+        {
+          "sample_id": "node_degree/adjacency/test/219",
+          "answer": "13exgofanyexgansweranswer, addhexanswer, answer. answer. forheperoverg, forheperex, for\nforvperforstpheexexoverheexptanyexevenctobpthefor.for,for,forexome for.for"
+        },
+        {
+          "sample_id": "node_degree/adjacency/test/221",
+          "answer": "7 in."
+        }
+      ]
+    },
+    {
+      "setting": "text_and_image",
+      "task": "node_degree",
       "file_name": "spring_Qwen2.5-VL-3B-Instruct.jsonl",
+      "text_encoding": "adjacency",
       "image_type": "spring",
       "model": "Qwen2.5-VL-3B-Instruct",
       "total": 350,
@@ -651,6 +1180,7 @@
       "setting": "text_and_image",
       "task": "node_degree",
       "file_name": "spring_Qwen2.5-VL-7B-Instruct.jsonl",
+      "text_encoding": "adjacency",
       "image_type": "spring",
       "model": "Qwen2.5-VL-7B-Instruct",
       "total": 350,
@@ -675,6 +1205,7 @@
       "setting": "text_and_image",
       "task": "shortest_path",
       "file_name": "spring_llava-v1.6-mistral-7b-hf.jsonl",
+      "text_encoding": "adjacency",
       "image_type": "spring",
       "model": "llava-v1.6-mistral-7b-hf",
       "total": 350,
@@ -694,7 +1225,73 @@
     {
       "setting": "text_and_image",
       "task": "shortest_path",
+      "file_name": "spring_Phi-4-multimodal-instruct.jsonl",
+      "text_encoding": "adjacency",
+      "image_type": "spring",
+      "model": "Phi-4-multimodal-instruct",
+      "total": 350,
+      "correct": 150,
+      "incorrect": 188,
+      "wrong_format": 12,
+      "bad_expected": 0,
+      "accuracy": 0.428571,
+      "path": "results\\baseline\\text_and_image\\shortest_path\\spring_Phi-4-multimodal-instruct.jsonl",
+      "wrong_format_answers": [
+        {
+          "sample_id": "shortest_path/adjacency/test/187",
+          "answer": "2, and with a, by, (1, by, a graph, 1, by. by, by, by, and both, for. 1hremhany, (omhbar,0, 1h, in both, for, in both, 1hany, in"
+        },
+        {
+          "sample_id": "shortest_path/adjacency/test/193",
+          "answer": "2, (byresponse. byced graph, (yes, though-1(((bothh(1here, 1, 1, in both, by both. (a, in a, both, in a, 1. by redirect, add. in. in. inackamoreamore"
+        },
+        {
+          "sample_id": "shortest_path/adjacency/test/208",
+          "answer": "2. for which.1. 3. and non non.1. 3."
+        },
+        {
+          "sample_id": "shortest_path/adjacency/test/218",
+          "answer": "1. in. 2? in. in? and indirectly. 1. as/5-6|so-re_6. to nested in-6 to become in_1,exhover-1,1-1hexpl,6,1,,,-1, to, inex"
+        },
+        {
+          "sample_id": "shortest_path/adjacency/test/258",
+          "answer": "6, in. (1, in graph, in output, and yes, in/1, (1, in\nno\nfor No-1b, in-2, in, in-1, in, in, in, (1, in::b,, to, to, in, in"
+        },
+        {
+          "sample_id": "shortest_path/adjacency/test/269",
+          "answer": "1, to (to. to. in (for, (1, (1::i, in,, in, (tilhand, (tremo. in. in. in. to. in a."
+        },
+        {
+          "sample_id": "shortest_path/adjacency/test/270",
+          "answer": "2 (to- (1. 1-1, (0, 1? 1:: ...conth, 2, (0...no. 1{1... to, toh...t...tboth_1; 1\nlof\n1iand,"
+        },
+        {
+          "sample_id": "shortest_path/adjacency/test/283",
+          "answer": "1 (toto yes- with iter-0 (0, (0, 1, in 1,0, 2. 1, (0; to become to\ntoh..."
+        },
+        {
+          "sample_id": "shortest_path/adjacency/test/284",
+          "answer": "2, ( ( (1, by graph ( (by (y ( ( ( (y:: 1 ( ( ( read, answer. in. 0. in. in. in a, both, in a, in text.  text in over, in. recad, in, in. in"
+        },
+        {
+          "sample_id": "shortest_path/adjacency/test/285",
+          "answer": "4- (1. 1. and. given, both, both, 1, by. ( ( ( remany- both. 1hremo- 1-1ndany_ , 1-0, 0here, both, 1, both in both, both, both"
+        },
+        {
+          "sample_id": "shortest_path/adjacency/test/324",
+          "answer": "1, by (to (to (1, (, (0,, answer, (, (,, in,, (1, (i, in. in. (by. to, in. 1, as (no, only, as, in a (yes. in a, (in"
+        },
+        {
+          "sample_id": "shortest_path/adjacency/test/325",
+          "answer": "4, (1, 1, with both (1, with (yes-1, inot_0,0, in... (1, ( (both,2 (yes (yes, yes, 1, inve. 0. for both, that. in."
+        }
+      ]
+    },
+    {
+      "setting": "text_and_image",
+      "task": "shortest_path",
       "file_name": "spring_Qwen2.5-VL-3B-Instruct.jsonl",
+      "text_encoding": "adjacency",
       "image_type": "spring",
       "model": "Qwen2.5-VL-3B-Instruct",
       "total": 350,
@@ -710,6 +1307,7 @@
       "setting": "text_and_image",
       "task": "shortest_path",
       "file_name": "spring_Qwen2.5-VL-7B-Instruct.jsonl",
+      "text_encoding": "adjacency",
       "image_type": "spring",
       "model": "Qwen2.5-VL-7B-Instruct",
       "total": 350,
@@ -725,6 +1323,7 @@
       "setting": "text_and_image",
       "task": "triangle_counting",
       "file_name": "spring_llava-v1.6-mistral-7b-hf.jsonl",
+      "text_encoding": "adjacency",
       "image_type": "spring",
       "model": "llava-v1.6-mistral-7b-hf",
       "total": 350,
@@ -748,7 +1347,385 @@
     {
       "setting": "text_and_image",
       "task": "triangle_counting",
+      "file_name": "spring_Phi-4-multimodal-instruct.jsonl",
+      "text_encoding": "adjacency",
+      "image_type": "spring",
+      "model": "Phi-4-multimodal-instruct",
+      "total": 350,
+      "correct": 127,
+      "incorrect": 133,
+      "wrong_format": 90,
+      "bad_expected": 0,
+      "accuracy": 0.362857,
+      "path": "results\\baseline\\text_and_image\\triangle_counting\\spring_Phi-4-multimodal-instruct.jsonl",
+      "wrong_format_answers": [
+        {
+          "sample_id": "triangle_counting/adjacency/test/5",
+          "answer": "True"
+        },
+        {
+          "sample_id": "triangle_counting/adjacency/test/8",
+          "answer": "True"
+        },
+        {
+          "sample_id": "triangle_counting/adjacency/test/11",
+          "answer": "True"
+        },
+        {
+          "sample_id": "triangle_counting/adjacency/test/12",
+          "answer": "True"
+        },
+        {
+          "sample_id": "triangle_counting/adjacency/test/13",
+          "answer": "True"
+        },
+        {
+          "sample_id": "triangle_counting/adjacency/test/19",
+          "answer": "True"
+        },
+        {
+          "sample_id": "triangle_counting/adjacency/test/20",
+          "answer": "3, (i,, (1, 1, (1, 1, in graph, in, and, in- in- by, reci,"
+        },
+        {
+          "sample_id": "triangle_counting/adjacency/test/22",
+          "answer": "True"
+        },
+        {
+          "sample_id": "triangle_counting/adjacency/test/23",
+          "answer": "True"
+        },
+        {
+          "sample_id": "triangle_counting/adjacency/test/26",
+          "answer": "True"
+        },
+        {
+          "sample_id": "triangle_counting/adjacency/test/28",
+          "answer": "True"
+        },
+        {
+          "sample_id": "triangle_counting/adjacency/test/31",
+          "answer": "True"
+        },
+        {
+          "sample_id": "triangle_counting/adjacency/test/33",
+          "answer": "True"
+        },
+        {
+          "sample_id": "triangle_counting/adjacency/test/34",
+          "answer": "True"
+        },
+        {
+          "sample_id": "triangle_counting/adjacency/test/35",
+          "answer": "True"
+        },
+        {
+          "sample_id": "triangle_counting/adjacency/test/41",
+          "answer": "3 in a, in the in a nested graph in. in iter, in both rec. in which in- rec- in. in a, iter, iter iter- graph, 2, 4, 1, in a, in the, 1, (1, which, 1, in"
+        },
+        {
+          "sample_id": "triangle_counting/adjacency/test/45",
+          "answer": "True"
+        },
+        {
+          "sample_id": "triangle_counting/adjacency/test/47",
+          "answer": "True"
+        },
+        {
+          "sample_id": "triangle_counting/adjacency/test/48",
+          "answer": "True"
+        },
+        {
+          "sample_id": "triangle_counting/adjacency/test/49",
+          "answer": "True"
+        },
+        {
+          "sample_id": "triangle_counting/adjacency/test/50",
+          "answer": "True"
+        },
+        {
+          "sample_id": "triangle_counting/adjacency/test/54",
+          "answer": "True"
+        },
+        {
+          "sample_id": "triangle_counting/adjacency/test/56",
+          "answer": "True"
+        },
+        {
+          "sample_id": "triangle_counting/adjacency/test/58",
+          "answer": "True"
+        },
+        {
+          "sample_id": "triangle_counting/adjacency/test/61",
+          "answer": "False"
+        },
+        {
+          "sample_id": "triangle_counting/adjacency/test/79",
+          "answer": "True"
+        },
+        {
+          "sample_id": "triangle_counting/adjacency/test/83",
+          "answer": "True"
+        },
+        {
+          "sample_id": "triangle_counting/adjacency/test/85",
+          "answer": "True"
+        },
+        {
+          "sample_id": "triangle_counting/adjacency/test/93",
+          "answer": "True"
+        },
+        {
+          "sample_id": "triangle_counting/adjacency/test/97",
+          "answer": "True"
+        },
+        {
+          "sample_id": "triangle_counting/adjacency/test/98",
+          "answer": "True"
+        },
+        {
+          "sample_id": "triangle_counting/adjacency/test/100",
+          "answer": "True"
+        },
+        {
+          "sample_id": "triangle_counting/adjacency/test/103",
+          "answer": "True"
+        },
+        {
+          "sample_id": "triangle_counting/adjacency/test/106",
+          "answer": "True"
+        },
+        {
+          "sample_id": "triangle_counting/adjacency/test/111",
+          "answer": "True?"
+        },
+        {
+          "sample_id": "triangle_counting/adjacency/test/112",
+          "answer": "True"
+        },
+        {
+          "sample_id": "triangle_counting/adjacency/test/114",
+          "answer": "True"
+        },
+        {
+          "sample_id": "triangle_counting/adjacency/test/119",
+          "answer": "True"
+        },
+        {
+          "sample_id": "triangle_counting/adjacency/test/120",
+          "answer": "True"
+        },
+        {
+          "sample_id": "triangle_counting/adjacency/test/122",
+          "answer": "True"
+        },
+        {
+          "sample_id": "triangle_counting/adjacency/test/123",
+          "answer": "True"
+        },
+        {
+          "sample_id": "triangle_counting/adjacency/test/124",
+          "answer": "True"
+        },
+        {
+          "sample_id": "triangle_counting/adjacency/test/128",
+          "answer": "True, which. yes. for graph. in, for which for sequential for sequential graph for both for a input in a._none. sequential graph. forany. yes. yes, respectively, for. For. for for. for. for. for, forany, for. for."
+        },
+        {
+          "sample_id": "triangle_counting/adjacency/test/131",
+          "answer": "True"
+        },
+        {
+          "sample_id": "triangle_counting/adjacency/test/133",
+          "answer": "True"
+        },
+        {
+          "sample_id": "triangle_counting/adjacency/test/134",
+          "answer": "True"
+        },
+        {
+          "sample_id": "triangle_counting/adjacency/test/140",
+          "answer": "True"
+        },
+        {
+          "sample_id": "triangle_counting/adjacency/test/145",
+          "answer": "True"
+        },
+        {
+          "sample_id": "triangle_counting/adjacency/test/148",
+          "answer": "True"
+        },
+        {
+          "sample_id": "triangle_counting/adjacency/test/149",
+          "answer": "True"
+        },
+        {
+          "sample_id": "triangle_counting/adjacency/test/178",
+          "answer": "3) (1 ( ( (1, 1,1, in-re) in indirectly, as,"
+        },
+        {
+          "sample_id": "triangle_counting/adjacency/test/179",
+          "answer": "3,,, by (1 (1-  (1; 1,,, (0,"
+        },
+        {
+          "sample_id": "triangle_counting/adjacency/test/183",
+          "answer": "3, which. (0, in the in a, in the graph in. 1, to, in both is for the, and in the graph, and in a in a, and graph, graph in, output, 1, graph. 1, in- given graph, inext. in"
+        },
+        {
+          "sample_id": "triangle_counting/adjacency/test/200",
+          "answer": "True"
+        },
+        {
+          "sample_id": "triangle_counting/adjacency/test/201",
+          "answer": "True"
+        },
+        {
+          "sample_id": "triangle_counting/adjacency/test/203",
+          "answer": "True"
+        },
+        {
+          "sample_id": "triangle_counting/adjacency/test/204",
+          "answer": "False"
+        },
+        {
+          "sample_id": "triangle_counting/adjacency/test/205",
+          "answer": "True"
+        },
+        {
+          "sample_id": "triangle_counting/adjacency/test/206",
+          "answer": "True"
+        },
+        {
+          "sample_id": "triangle_counting/adjacency/test/208",
+          "answer": "False"
+        },
+        {
+          "sample_id": "triangle_counting/adjacency/test/210",
+          "answer": "8? 1,: (1, 6, in{1- in. 1,1, 1-2,1-1conto-1-1octomore...remo, mostly,1.  or. 61-1overany, 6, in"
+        },
+        {
+          "sample_id": "triangle_counting/adjacency/test/211",
+          "answer": "True"
+        },
+        {
+          "sample_id": "triangle_counting/adjacency/test/212",
+          "answer": "True"
+        },
+        {
+          "sample_id": "triangle_counting/adjacency/test/213",
+          "answer": "True"
+        },
+        {
+          "sample_id": "triangle_counting/adjacency/test/214",
+          "answer": "True"
+        },
+        {
+          "sample_id": "triangle_counting/adjacency/test/215",
+          "answer": "28, which. in. in. in the. in the graph. in. in. to nested. in both. for a graph in. ingraph, in any in a-da, in a graph, in nested graph, and graph. in, 7 in- in graph"
+        },
+        {
+          "sample_id": "triangle_counting/adjacency/test/219",
+          "answer": "True slightly infutwexgbothp response, a, 9, in. answer, for, prompt. yes, for\nper, for, for-foranswer.forrexpremptemanybeanyexptobanybptfor, for, for,ome, respectively, for"
+        },
+        {
+          "sample_id": "triangle_counting/adjacency/test/220",
+          "answer": "False."
+        },
+        {
+          "sample_id": "triangle_counting/adjacency/test/222",
+          "answer": "True"
+        },
+        {
+          "sample_id": "triangle_counting/adjacency/test/223",
+          "answer": "True"
+        },
+        {
+          "sample_id": "triangle_counting/adjacency/test/224",
+          "answer": "True"
+        },
+        {
+          "sample_id": "triangle_counting/adjacency/test/226",
+          "answer": "True"
+        },
+        {
+          "sample_id": "triangle_counting/adjacency/test/228",
+          "answer": "True"
+        },
+        {
+          "sample_id": "triangle_counting/adjacency/test/229",
+          "answer": "True"
+        },
+        {
+          "sample_id": "triangle_counting/adjacency/test/230",
+          "answer": "True"
+        },
+        {
+          "sample_id": "triangle_counting/adjacency/test/231",
+          "answer": "True"
+        },
+        {
+          "sample_id": "triangle_counting/adjacency/test/233",
+          "answer": "False"
+        },
+        {
+          "sample_id": "triangle_counting/adjacency/test/234",
+          "answer": "True"
+        },
+        {
+          "sample_id": "triangle_counting/adjacency/test/235",
+          "answer": "True"
+        },
+        {
+          "sample_id": "triangle_counting/adjacency/test/237",
+          "answer": "True"
+        },
+        {
+          "sample_id": "triangle_counting/adjacency/test/240",
+          "answer": "True"
+        },
+        {
+          "sample_id": "triangle_counting/adjacency/test/241",
+          "answer": "True"
+        },
+        {
+          "sample_id": "triangle_counting/adjacency/test/243",
+          "answer": "True"
+        },
+        {
+          "sample_id": "triangle_counting/adjacency/test/245",
+          "answer": "True"
+        },
+        {
+          "sample_id": "triangle_counting/adjacency/test/247",
+          "answer": "True"
+        },
+        {
+          "sample_id": "triangle_counting/adjacency/test/248",
+          "answer": "False"
+        },
+        {
+          "sample_id": "triangle_counting/adjacency/test/249",
+          "answer": "False"
+        },
+        {
+          "sample_id": "triangle_counting/adjacency/test/265",
+          "answer": "0 ( and, 1 ( ( ( (1response (1atexta (1- (1- (1-1 (1-1, (1-1- (1_conta.h_1, 5- 4. 1_cont. 4_1_1. (by"
+        },
+        {
+          "sample_id": "triangle_counting/adjacency/test/323",
+          "answer": "0, both a recordum, a/1, (1, (1 ( (1, by (1 (1 (1 (1ore-p- (1, answer in. by, by. (1, in, in (1, in a, in both, in, prompt, both,"
+        },
+        {
+          "sample_id": "triangle_counting/adjacency/test/324",
+          "answer": "0,, 1ourone, recconto (1 ( ( for (1, (0, (1, (1, 1, 0, 1, 1, 1, in (1, in.1, in, by (1.0, as, toggle,"
+        }
+      ]
+    },
+    {
+      "setting": "text_and_image",
+      "task": "triangle_counting",
       "file_name": "spring_Qwen2.5-VL-3B-Instruct.jsonl",
+      "text_encoding": "adjacency",
       "image_type": "spring",
       "model": "Qwen2.5-VL-3B-Instruct",
       "total": 350,
@@ -764,6 +1741,7 @@
       "setting": "text_and_image",
       "task": "triangle_counting",
       "file_name": "spring_Qwen2.5-VL-7B-Instruct.jsonl",
+      "text_encoding": "adjacency",
       "image_type": "spring",
       "model": "Qwen2.5-VL-7B-Instruct",
       "total": 350,
@@ -779,6 +1757,7 @@
       "setting": "text_only",
       "task": "connected_nodes",
       "file_name": "spring_Qwen2.5-VL-3B-Instruct.jsonl",
+      "text_encoding": "adjacency",
       "image_type": "spring",
       "model": "Qwen2.5-VL-3B-Instruct",
       "total": 350,
@@ -811,6 +1790,7 @@
       "setting": "text_only",
       "task": "connected_nodes",
       "file_name": "spring_Qwen2.5-VL-7B-Instruct.jsonl",
+      "text_encoding": "adjacency",
       "image_type": "spring",
       "model": "Qwen2.5-VL-7B-Instruct",
       "total": 350,
@@ -831,6 +1811,7 @@
       "setting": "text_only",
       "task": "cycle_check",
       "file_name": "spring_llava-v1.6-mistral-7b-hf.jsonl",
+      "text_encoding": "adjacency",
       "image_type": "spring",
       "model": "llava-v1.6-mistral-7b-hf",
       "total": 350,
@@ -846,6 +1827,7 @@
       "setting": "text_only",
       "task": "cycle_check",
       "file_name": "spring_Qwen2.5-VL-3B-Instruct.jsonl",
+      "text_encoding": "adjacency",
       "image_type": "spring",
       "model": "Qwen2.5-VL-3B-Instruct",
       "total": 350,
@@ -861,6 +1843,7 @@
       "setting": "text_only",
       "task": "cycle_check",
       "file_name": "spring_Qwen2.5-VL-7B-Instruct.jsonl",
+      "text_encoding": "adjacency",
       "image_type": "spring",
       "model": "Qwen2.5-VL-7B-Instruct",
       "total": 350,
@@ -876,6 +1859,7 @@
       "setting": "text_only",
       "task": "disconnected_nodes",
       "file_name": "spring_Qwen2.5-VL-3B-Instruct.jsonl",
+      "text_encoding": "adjacency",
       "image_type": "spring",
       "model": "Qwen2.5-VL-3B-Instruct",
       "total": 350,
@@ -891,6 +1875,7 @@
       "setting": "text_only",
       "task": "disconnected_nodes",
       "file_name": "spring_Qwen2.5-VL-7B-Instruct.jsonl",
+      "text_encoding": "adjacency",
       "image_type": "spring",
       "model": "Qwen2.5-VL-7B-Instruct",
       "total": 350,
@@ -906,6 +1891,7 @@
       "setting": "text_only",
       "task": "edge_count",
       "file_name": "spring_llava-v1.6-mistral-7b-hf.jsonl",
+      "text_encoding": "adjacency",
       "image_type": "spring",
       "model": "llava-v1.6-mistral-7b-hf",
       "total": 350,
@@ -921,6 +1907,7 @@
       "setting": "text_only",
       "task": "edge_count",
       "file_name": "spring_Qwen2.5-VL-3B-Instruct.jsonl",
+      "text_encoding": "adjacency",
       "image_type": "spring",
       "model": "Qwen2.5-VL-3B-Instruct",
       "total": 350,
@@ -936,6 +1923,7 @@
       "setting": "text_only",
       "task": "edge_count",
       "file_name": "spring_Qwen2.5-VL-7B-Instruct.jsonl",
+      "text_encoding": "adjacency",
       "image_type": "spring",
       "model": "Qwen2.5-VL-7B-Instruct",
       "total": 350,
@@ -951,6 +1939,7 @@
       "setting": "text_only",
       "task": "edge_existence",
       "file_name": "spring_llava-v1.6-mistral-7b-hf.jsonl",
+      "text_encoding": "adjacency",
       "image_type": "spring",
       "model": "llava-v1.6-mistral-7b-hf",
       "total": 350,
@@ -966,6 +1955,7 @@
       "setting": "text_only",
       "task": "edge_existence",
       "file_name": "spring_Qwen2.5-VL-3B-Instruct.jsonl",
+      "text_encoding": "adjacency",
       "image_type": "spring",
       "model": "Qwen2.5-VL-3B-Instruct",
       "total": 350,
@@ -981,6 +1971,7 @@
       "setting": "text_only",
       "task": "edge_existence",
       "file_name": "spring_Qwen2.5-VL-7B-Instruct.jsonl",
+      "text_encoding": "adjacency",
       "image_type": "spring",
       "model": "Qwen2.5-VL-7B-Instruct",
       "total": 350,
@@ -996,6 +1987,7 @@
       "setting": "text_only",
       "task": "node_count",
       "file_name": "spring_llava-v1.6-mistral-7b-hf.jsonl",
+      "text_encoding": "adjacency",
       "image_type": "spring",
       "model": "llava-v1.6-mistral-7b-hf",
       "total": 350,
@@ -1011,6 +2003,7 @@
       "setting": "text_only",
       "task": "node_count",
       "file_name": "spring_Qwen2.5-VL-3B-Instruct.jsonl",
+      "text_encoding": "adjacency",
       "image_type": "spring",
       "model": "Qwen2.5-VL-3B-Instruct",
       "total": 350,
@@ -1026,6 +2019,7 @@
       "setting": "text_only",
       "task": "node_count",
       "file_name": "spring_Qwen2.5-VL-7B-Instruct.jsonl",
+      "text_encoding": "adjacency",
       "image_type": "spring",
       "model": "Qwen2.5-VL-7B-Instruct",
       "total": 350,
@@ -1041,6 +2035,7 @@
       "setting": "text_only",
       "task": "node_degree",
       "file_name": "spring_llava-v1.6-mistral-7b-hf.jsonl",
+      "text_encoding": "adjacency",
       "image_type": "spring",
       "model": "llava-v1.6-mistral-7b-hf",
       "total": 350,
@@ -1056,6 +2051,7 @@
       "setting": "text_only",
       "task": "node_degree",
       "file_name": "spring_Qwen2.5-VL-3B-Instruct.jsonl",
+      "text_encoding": "adjacency",
       "image_type": "spring",
       "model": "Qwen2.5-VL-3B-Instruct",
       "total": 350,
@@ -1071,6 +2067,7 @@
       "setting": "text_only",
       "task": "node_degree",
       "file_name": "spring_Qwen2.5-VL-7B-Instruct.jsonl",
+      "text_encoding": "adjacency",
       "image_type": "spring",
       "model": "Qwen2.5-VL-7B-Instruct",
       "total": 350,
@@ -1086,6 +2083,7 @@
       "setting": "text_only",
       "task": "shortest_path",
       "file_name": "spring_llava-v1.6-mistral-7b-hf.jsonl",
+      "text_encoding": "adjacency",
       "image_type": "spring",
       "model": "llava-v1.6-mistral-7b-hf",
       "total": 350,
@@ -1101,6 +2099,7 @@
       "setting": "text_only",
       "task": "shortest_path",
       "file_name": "spring_Qwen2.5-VL-3B-Instruct.jsonl",
+      "text_encoding": "adjacency",
       "image_type": "spring",
       "model": "Qwen2.5-VL-3B-Instruct",
       "total": 350,
@@ -1121,6 +2120,7 @@
       "setting": "text_only",
       "task": "shortest_path",
       "file_name": "spring_Qwen2.5-VL-7B-Instruct.jsonl",
+      "text_encoding": "adjacency",
       "image_type": "spring",
       "model": "Qwen2.5-VL-7B-Instruct",
       "total": 350,
@@ -1141,6 +2141,7 @@
       "setting": "text_only",
       "task": "triangle_counting",
       "file_name": "spring_llava-v1.6-mistral-7b-hf.jsonl",
+      "text_encoding": "adjacency",
       "image_type": "spring",
       "model": "llava-v1.6-mistral-7b-hf",
       "total": 350,
@@ -1156,6 +2157,7 @@
       "setting": "text_only",
       "task": "triangle_counting",
       "file_name": "spring_Qwen2.5-VL-3B-Instruct.jsonl",
+      "text_encoding": "adjacency",
       "image_type": "spring",
       "model": "Qwen2.5-VL-3B-Instruct",
       "total": 350,
@@ -1171,6 +2173,7 @@
       "setting": "text_only",
       "task": "triangle_counting",
       "file_name": "spring_Qwen2.5-VL-7B-Instruct.jsonl",
+      "text_encoding": "adjacency",
       "image_type": "spring",
       "model": "Qwen2.5-VL-7B-Instruct",
       "total": 350,
@@ -1239,14 +2242,14 @@
       },
       "text_and_image": {
         "connected_nodes": {
-          "count": 2,
-          "mean_accuracy": 0.397143,
-          "std_accuracy": 0.057143
+          "count": 3,
+          "mean_accuracy": 0.336191,
+          "std_accuracy": 0.098017
         },
         "all": {
-          "count": 25,
-          "mean_accuracy": 0.479886,
-          "std_accuracy": 0.272188
+          "count": 33,
+          "mean_accuracy": 0.473247,
+          "std_accuracy": 0.264733
         },
         "cycle_check": {
           "count": 3,
@@ -1254,39 +2257,39 @@
           "std_accuracy": 0.078118
         },
         "disconnected_nodes": {
-          "count": 2,
-          "mean_accuracy": 0.071429,
-          "std_accuracy": 0.017142
+          "count": 3,
+          "mean_accuracy": 0.086667,
+          "std_accuracy": 0.025697
         },
         "edge_count": {
-          "count": 3,
-          "mean_accuracy": 0.384762,
-          "std_accuracy": 0.114531
+          "count": 4,
+          "mean_accuracy": 0.377857,
+          "std_accuracy": 0.099906
         },
         "edge_existence": {
-          "count": 3,
-          "mean_accuracy": 0.699048,
-          "std_accuracy": 0.177317
+          "count": 4,
+          "mean_accuracy": 0.72,
+          "std_accuracy": 0.157791
         },
         "node_count": {
-          "count": 3,
-          "mean_accuracy": 0.922857,
-          "std_accuracy": 0.068133
+          "count": 4,
+          "mean_accuracy": 0.904286,
+          "std_accuracy": 0.067204
         },
         "node_degree": {
-          "count": 3,
-          "mean_accuracy": 0.417143,
-          "std_accuracy": 0.114024
+          "count": 4,
+          "mean_accuracy": 0.44,
+          "std_accuracy": 0.106388
         },
         "shortest_path": {
-          "count": 3,
-          "mean_accuracy": 0.329524,
-          "std_accuracy": 0.059491
+          "count": 4,
+          "mean_accuracy": 0.354286,
+          "std_accuracy": 0.067036
         },
         "triangle_counting": {
-          "count": 3,
-          "mean_accuracy": 0.215238,
-          "std_accuracy": 0.14404
+          "count": 4,
+          "mean_accuracy": 0.252143,
+          "std_accuracy": 0.140166
         }
       },
       "text_only": {
@@ -1350,14 +2353,14 @@
           "std_accuracy": 0.038571
         },
         "all": {
-          "count": 6,
-          "mean_accuracy": 0.304286,
-          "std_accuracy": 0.088383
+          "count": 7,
+          "mean_accuracy": 0.291429,
+          "std_accuracy": 0.087678
         },
         "text_and_image": {
-          "count": 2,
-          "mean_accuracy": 0.397143,
-          "std_accuracy": 0.057143
+          "count": 3,
+          "mean_accuracy": 0.336191,
+          "std_accuracy": 0.098017
         },
         "text_only": {
           "count": 2,
@@ -1394,14 +2397,14 @@
           "std_accuracy": 0.014286
         },
         "all": {
-          "count": 6,
-          "mean_accuracy": 0.081429,
-          "std_accuracy": 0.028224
+          "count": 7,
+          "mean_accuracy": 0.086531,
+          "std_accuracy": 0.028965
         },
         "text_and_image": {
-          "count": 2,
-          "mean_accuracy": 0.071429,
-          "std_accuracy": 0.017142
+          "count": 3,
+          "mean_accuracy": 0.086667,
+          "std_accuracy": 0.025697
         },
         "text_only": {
           "count": 2,
@@ -1416,14 +2419,14 @@
           "std_accuracy": 0.084015
         },
         "all": {
-          "count": 9,
-          "mean_accuracy": 0.317143,
-          "std_accuracy": 0.141671
+          "count": 10,
+          "mean_accuracy": 0.321143,
+          "std_accuracy": 0.134936
         },
         "text_and_image": {
-          "count": 3,
-          "mean_accuracy": 0.384762,
-          "std_accuracy": 0.114531
+          "count": 4,
+          "mean_accuracy": 0.377857,
+          "std_accuracy": 0.099906
         },
         "text_only": {
           "count": 3,
@@ -1438,14 +2441,14 @@
           "std_accuracy": 0.168014
         },
         "all": {
-          "count": 9,
-          "mean_accuracy": 0.690159,
-          "std_accuracy": 0.164015
+          "count": 10,
+          "mean_accuracy": 0.699429,
+          "std_accuracy": 0.158064
         },
         "text_and_image": {
-          "count": 3,
-          "mean_accuracy": 0.699048,
-          "std_accuracy": 0.177317
+          "count": 4,
+          "mean_accuracy": 0.72,
+          "std_accuracy": 0.157791
         },
         "text_only": {
           "count": 3,
@@ -1460,14 +2463,14 @@
           "std_accuracy": 0.382131
         },
         "all": {
-          "count": 9,
-          "mean_accuracy": 0.808571,
-          "std_accuracy": 0.285149
+          "count": 10,
+          "mean_accuracy": 0.812571,
+          "std_accuracy": 0.270782
         },
         "text_and_image": {
-          "count": 3,
-          "mean_accuracy": 0.922857,
-          "std_accuracy": 0.068133
+          "count": 4,
+          "mean_accuracy": 0.904286,
+          "std_accuracy": 0.067204
         },
         "text_only": {
           "count": 3,
@@ -1482,14 +2485,14 @@
           "std_accuracy": 0.082939
         },
         "all": {
-          "count": 9,
-          "mean_accuracy": 0.337778,
-          "std_accuracy": 0.109832
+          "count": 10,
+          "mean_accuracy": 0.354857,
+          "std_accuracy": 0.116112
         },
         "text_and_image": {
-          "count": 3,
-          "mean_accuracy": 0.417143,
-          "std_accuracy": 0.114024
+          "count": 4,
+          "mean_accuracy": 0.44,
+          "std_accuracy": 0.106388
         },
         "text_only": {
           "count": 3,
@@ -1504,14 +2507,14 @@
           "std_accuracy": 0.099914
         },
         "all": {
-          "count": 9,
-          "mean_accuracy": 0.288571,
-          "std_accuracy": 0.087162
+          "count": 10,
+          "mean_accuracy": 0.302571,
+          "std_accuracy": 0.092744
         },
         "text_and_image": {
-          "count": 3,
-          "mean_accuracy": 0.329524,
-          "std_accuracy": 0.059491
+          "count": 4,
+          "mean_accuracy": 0.354286,
+          "std_accuracy": 0.067036
         },
         "text_only": {
           "count": 3,
@@ -1526,14 +2529,14 @@
           "std_accuracy": 0.124824
         },
         "all": {
-          "count": 9,
-          "mean_accuracy": 0.203175,
-          "std_accuracy": 0.146409
+          "count": 10,
+          "mean_accuracy": 0.219143,
+          "std_accuracy": 0.146925
         },
         "text_and_image": {
-          "count": 3,
-          "mean_accuracy": 0.215238,
-          "std_accuracy": 0.14404
+          "count": 4,
+          "mean_accuracy": 0.252143,
+          "std_accuracy": 0.140166
         },
         "text_only": {
           "count": 3,
@@ -1550,9 +2553,9 @@
           "std_accuracy": 0.27299
         },
         "text_and_image": {
-          "count": 25,
-          "mean_accuracy": 0.479886,
-          "std_accuracy": 0.272188
+          "count": 33,
+          "mean_accuracy": 0.473247,
+          "std_accuracy": 0.264733
         },
         "text_only": {
           "count": 25,
@@ -1612,10 +2615,881 @@
           "mean_accuracy": 0.466531,
           "std_accuracy": 0.264236
         }
+      },
+      "Phi-4-multimodal-instruct": {
+        "text_and_image": {
+          "count": 8,
+          "mean_accuracy": 0.4525,
+          "std_accuracy": 0.238763
+        }
       }
     }
   },
   "wrong_format_answers": [
+    {
+      "setting": "text_and_image",
+      "task": "connected_nodes",
+      "image_type": "spring",
+      "model": "Phi-4-multimodal-instruct",
+      "file_name": "spring_Phi-4-multimodal-instruct.jsonl",
+      "sample_id": "connected_nodes/adjacency/test/0",
+      "answer": "2, in the in the in, in (i. 1. for. in. in. in: 1, in sorted in: 1 to. 1 to in (both: 1 to, in\nto\nex. to, to, (and\nand to in- and,"
+    },
+    {
+      "setting": "text_and_image",
+      "task": "connected_nodes",
+      "image_type": "spring",
+      "model": "Phi-4-multimodal-instruct",
+      "file_name": "spring_Phi-4-multimodal-instruct.jsonl",
+      "sample_id": "connected_nodes/adjacency/test/1",
+      "answer": "3 to. (both."
+    },
+    {
+      "setting": "text_and_image",
+      "task": "connected_nodes",
+      "image_type": "spring",
+      "model": "Phi-4-multimodal-instruct",
+      "file_name": "spring_Phi-4-multimodal-instruct.jsonl",
+      "sample_id": "connected_nodes/adjacency/test/6",
+      "answer": "3- to a, with a in in a by by by is in as in output, in (1 (0-1 (1 to by by. to. in. by, and, and, in . (1, in. 0, and in by . in in in yes."
+    },
+    {
+      "setting": "text_and_image",
+      "task": "connected_nodes",
+      "image_type": "spring",
+      "model": "Phi-4-multimodal-instruct",
+      "file_name": "spring_Phi-4-multimodal-instruct.jsonl",
+      "sample_id": "connected_nodes/adjacency/test/20",
+      "answer": "4, (1:: 1, to, to.h1, to, in indirectly, in, in output, in indirectly, (1,"
+    },
+    {
+      "setting": "text_and_image",
+      "task": "connected_nodes",
+      "image_type": "spring",
+      "model": "Phi-4-multimodal-instruct",
+      "file_name": "spring_Phi-4-multimodal-instruct.jsonl",
+      "sample_id": "connected_nodes/adjacency/test/21",
+      "answer": "3, (1, 1, with, (1, to, to. add. by, by, 1, with, prompt, to. by. by, by. by, by, in both in both (1 (1\nboth (1, by by by, by 1, ("
+    },
+    {
+      "setting": "text_and_image",
+      "task": "connected_nodes",
+      "image_type": "spring",
+      "model": "Phi-4-multimodal-instruct",
+      "file_name": "spring_Phi-4-multimodal-instruct.jsonl",
+      "sample_id": "connected_nodes/adjacency/test/32",
+      "answer": "1 ( ( ( ( ( ( ( ("
+    },
+    {
+      "setting": "text_and_image",
+      "task": "connected_nodes",
+      "image_type": "spring",
+      "model": "Phi-4-multimodal-instruct",
+      "file_name": "spring_Phi-4-multimodal-instruct.jsonl",
+      "sample_id": "connected_nodes/adjacency/test/33",
+      "answer": "8, for blank.."
+    },
+    {
+      "setting": "text_and_image",
+      "task": "connected_nodes",
+      "image_type": "spring",
+      "model": "Phi-4-multimodal-instruct",
+      "file_name": "spring_Phi-4-multimodal-instruct.jsonl",
+      "sample_id": "connected_nodes/adjacency/test/36",
+      "answer": "1, to, with a to the (0, to a given with a graph."
+    },
+    {
+      "setting": "text_and_image",
+      "task": "connected_nodes",
+      "image_type": "spring",
+      "model": "Phi-4-multimodal-instruct",
+      "file_name": "spring_Phi-4-multimodal-instruct.jsonl",
+      "sample_id": "connected_nodes/adjacency/test/39",
+      "answer": "0, to."
+    },
+    {
+      "setting": "text_and_image",
+      "task": "connected_nodes",
+      "image_type": "spring",
+      "model": "Phi-4-multimodal-instruct",
+      "file_name": "spring_Phi-4-multimodal-instruct.jsonl",
+      "sample_id": "connected_nodes/adjacency/test/47",
+      "answer": "8 to to 1 to a, in, in in with with in the, for the. (a-both. in 9. in a. in_1. for. 1. for. for."
+    },
+    {
+      "setting": "text_and_image",
+      "task": "connected_nodes",
+      "image_type": "spring",
+      "model": "Phi-4-multimodal-instruct",
+      "file_name": "spring_Phi-4-multimodal-instruct.jsonl",
+      "sample_id": "connected_nodes/adjacency/test/48",
+      "answer": "0. 10."
+    },
+    {
+      "setting": "text_and_image",
+      "task": "connected_nodes",
+      "image_type": "spring",
+      "model": "Phi-4-multimodal-instruct",
+      "file_name": "spring_Phi-4-multimodal-instruct.jsonl",
+      "sample_id": "connected_nodes/adjacency/test/49",
+      "answer": "2, in. 4, in a, andr, in a, for, 8, for, fora, and in, in, in, and, in."
+    },
+    {
+      "setting": "text_and_image",
+      "task": "connected_nodes",
+      "image_type": "spring",
+      "model": "Phi-4-multimodal-instruct",
+      "file_name": "spring_Phi-4-multimodal-instruct.jsonl",
+      "sample_id": "connected_nodes/adjacency/test/54",
+      "answer": "8, for nodes, and, and for both for a. and for both for sequential, and sorted as and and. prompt. in a in sequential output in both as. for. for. for for. for. For for for, as, for, for. for.. 1, for."
+    },
+    {
+      "setting": "text_and_image",
+      "task": "connected_nodes",
+      "image_type": "spring",
+      "model": "Phi-4-multimodal-instruct",
+      "file_name": "spring_Phi-4-multimodal-instruct.jsonl",
+      "sample_id": "connected_nodes/adjacency/test/55",
+      "answer": "0, to."
+    },
+    {
+      "setting": "text_and_image",
+      "task": "connected_nodes",
+      "image_type": "spring",
+      "model": "Phi-4-multimodal-instruct",
+      "file_name": "spring_Phi-4-multimodal-instruct.jsonl",
+      "sample_id": "connected_nodes/adjacency/test/63",
+      "answer": "1.\nto\nto."
+    },
+    {
+      "setting": "text_and_image",
+      "task": "connected_nodes",
+      "image_type": "spring",
+      "model": "Phi-4-multimodal-instruct",
+      "file_name": "spring_Phi-4-multimodal-instruct.jsonl",
+      "sample_id": "connected_nodes/adjacency/test/66",
+      "answer": "1- (1, to. 1, by 1, by. by, 2."
+    },
+    {
+      "setting": "text_and_image",
+      "task": "connected_nodes",
+      "image_type": "spring",
+      "model": "Phi-4-multimodal-instruct",
+      "file_name": "spring_Phi-4-multimodal-instruct.jsonl",
+      "sample_id": "connected_nodes/adjacency/test/67",
+      "answer": "1, with, (1, 1, 1, by (and (both, (both with both given set ( (10, a, 1 0, ( ( (yes (1, 0, 0.2, 4, by, by, (a: (both"
+    },
+    {
+      "setting": "text_and_image",
+      "task": "connected_nodes",
+      "image_type": "spring",
+      "model": "Phi-4-multimodal-instruct",
+      "file_name": "spring_Phi-4-multimodal-instruct.jsonl",
+      "sample_id": "connected_nodes/adjacency/test/74",
+      "answer": "5, 9, to in prompt prompt. for prompt res... 1nd. (1-1. 7. to, 1to 1."
+    },
+    {
+      "setting": "text_and_image",
+      "task": "connected_nodes",
+      "image_type": "spring",
+      "model": "Phi-4-multimodal-instruct",
+      "file_name": "spring_Phi-4-multimodal-instruct.jsonl",
+      "sample_id": "connected_nodes/adjacency/test/78",
+      "answer": "0 to a with a given to a, with a (to with not to. to,,, to\n,, and, to, in, to, to, to to to, to, in (0, in, with, in both in the (h, in, inse. in. trace"
+    },
+    {
+      "setting": "text_and_image",
+      "task": "connected_nodes",
+      "image_type": "spring",
+      "model": "Phi-4-multimodal-instruct",
+      "file_name": "spring_Phi-4-multimodal-instruct.jsonl",
+      "sample_id": "connected_nodes/adjacency/test/79",
+      "answer": "5, in. (ind. (to."
+    },
+    {
+      "setting": "text_and_image",
+      "task": "connected_nodes",
+      "image_type": "spring",
+      "model": "Phi-4-multimodal-instruct",
+      "file_name": "spring_Phi-4-multimodal-instruct.jsonl",
+      "sample_id": "connected_nodes/adjacency/test/84",
+      "answer": "0 to not to: 4- to recb, and, 1, to iter- in iterh (1- in iter-1. in_1- to- in. to- (both. to. to. to. and (1\nl. in (totog. to."
+    },
+    {
+      "setting": "text_and_image",
+      "task": "connected_nodes",
+      "image_type": "spring",
+      "model": "Phi-4-multimodal-instruct",
+      "file_name": "spring_Phi-4-multimodal-instruct.jsonl",
+      "sample_id": "connected_nodes/adjacency/test/89",
+      "answer": "2to- to both, 2to. (1. by\n 1|both-1:: 1- 1... to. 1-to. 1, 1. in. (a, (1 1, respectively. 1-5-1-2.4none"
+    },
+    {
+      "setting": "text_and_image",
+      "task": "connected_nodes",
+      "image_type": "spring",
+      "model": "Phi-4-multimodal-instruct",
+      "file_name": "spring_Phi-4-multimodal-instruct.jsonl",
+      "sample_id": "connected_nodes/adjacency/test/90",
+      "answer": "2. to. in."
+    },
+    {
+      "setting": "text_and_image",
+      "task": "connected_nodes",
+      "image_type": "spring",
+      "model": "Phi-4-multimodal-instruct",
+      "file_name": "spring_Phi-4-multimodal-instruct.jsonl",
+      "sample_id": "connected_nodes/adjacency/test/94",
+      "answer": "0, with a, with, (1, (0, both, 0 (both (1, (both (0, 1, 1, to_ (0, ( (0harm (0, both, by (0,1, by,4, by, with. (by"
+    },
+    {
+      "setting": "text_and_image",
+      "task": "connected_nodes",
+      "image_type": "spring",
+      "model": "Phi-4-multimodal-instruct",
+      "file_name": "spring_Phi-4-multimodal-instruct.jsonl",
+      "sample_id": "connected_nodes/adjacency/test/95",
+      "answer": "0. to in. in. to. to. to. to. in. to. to. for. for. 4. to, in."
+    },
+    {
+      "setting": "text_and_image",
+      "task": "connected_nodes",
+      "image_type": "spring",
+      "model": "Phi-4-multimodal-instruct",
+      "file_name": "spring_Phi-4-multimodal-instruct.jsonl",
+      "sample_id": "connected_nodes/adjacency/test/97",
+      "answer": "5, and, and n, 7, 7. 7, and, 7, and, 5, 1, 5, 5, to, to, 5, 7, 8, 11, 12, 14, 15, 16,"
+    },
+    {
+      "setting": "text_and_image",
+      "task": "connected_nodes",
+      "image_type": "spring",
+      "model": "Phi-4-multimodal-instruct",
+      "file_name": "spring_Phi-4-multimodal-instruct.jsonl",
+      "sample_id": "connected_nodes/adjacency/test/103",
+      "answer": "8, 5. 5.5, and in sequential, 1.1.5. 5, with. 1, to. to. to infa to inf. to. to. to-1, index. rec.5, for.3.2, to, to.2"
+    },
+    {
+      "setting": "text_and_image",
+      "task": "connected_nodes",
+      "image_type": "spring",
+      "model": "Phi-4-multimodal-instruct",
+      "file_name": "spring_Phi-4-multimodal-instruct.jsonl",
+      "sample_id": "connected_nodes/adjacency/test/106",
+      "answer": "3\n* (a\ncur."
+    },
+    {
+      "setting": "text_and_image",
+      "task": "connected_nodes",
+      "image_type": "spring",
+      "model": "Phi-4-multimodal-instruct",
+      "file_name": "spring_Phi-4-multimodal-instruct.jsonl",
+      "sample_id": "connected_nodes/adjacency/test/122",
+      "answer": "0, 11, 1, 1, with, with, 11, to, 1, 1, 1, 1, to, in a, with in a, with. to. to, to. to. to. in indirectly in a, in, to.1,"
+    },
+    {
+      "setting": "text_and_image",
+      "task": "connected_nodes",
+      "image_type": "spring",
+      "model": "Phi-4-multimodal-instruct",
+      "file_name": "spring_Phi-4-multimodal-instruct.jsonl",
+      "sample_id": "connected_nodes/adjacency/test/125",
+      "answer": "3,"
+    },
+    {
+      "setting": "text_and_image",
+      "task": "connected_nodes",
+      "image_type": "spring",
+      "model": "Phi-4-multimodal-instruct",
+      "file_name": "spring_Phi-4-multimodal-instruct.jsonl",
+      "sample_id": "connected_nodes/adjacency/test/126",
+      "answer": "1 to a graph in both. 1. in both, 1 (i, 1. 1. (1. with- rec! rec. in a graph. in the. in- 1. (a. 1_i-i- graph in. to. 1- to"
+    },
+    {
+      "setting": "text_and_image",
+      "task": "connected_nodes",
+      "image_type": "spring",
+      "model": "Phi-4-multimodal-instruct",
+      "file_name": "spring_Phi-4-multimodal-instruct.jsonl",
+      "sample_id": "connected_nodes/adjacency/test/142",
+      "answer": "0. in sequential graph in. for a. to a prompt, to. in. to. to. for rec. to. to. to."
+    },
+    {
+      "setting": "text_and_image",
+      "task": "connected_nodes",
+      "image_type": "spring",
+      "model": "Phi-4-multimodal-instruct",
+      "file_name": "spring_Phi-4-multimodal-instruct.jsonl",
+      "sample_id": "connected_nodes/adjacency/test/154",
+      "answer": "1 to. 1, to. to."
+    },
+    {
+      "setting": "text_and_image",
+      "task": "connected_nodes",
+      "image_type": "spring",
+      "model": "Phi-4-multimodal-instruct",
+      "file_name": "spring_Phi-4-multimodal-instruct.jsonl",
+      "sample_id": "connected_nodes/adjacency/test/155",
+      "answer": "3, for a, (1 (1 ( ( for. 1\n\n0,,-0, toboth, to. to. (10, to, to, in the, 1, in. in the, with, by, 1 1 1 (yes, 2. in"
+    },
+    {
+      "setting": "text_and_image",
+      "task": "connected_nodes",
+      "image_type": "spring",
+      "model": "Phi-4-multimodal-instruct",
+      "file_name": "spring_Phi-4-multimodal-instruct.jsonl",
+      "sample_id": "connected_nodes/adjacency/test/156",
+      "answer": "9 to in iter- to rec_answer. for. in. 1 in the not not in the recar. in sequential infex- in. in. in. in. 1\nand in a- 1- (i. 1. for (i, 1. in. in."
+    },
+    {
+      "setting": "text_and_image",
+      "task": "connected_nodes",
+      "image_type": "spring",
+      "model": "Phi-4-multimodal-instruct",
+      "file_name": "spring_Phi-4-multimodal-instruct.jsonl",
+      "sample_id": "connected_nodes/adjacency/test/157",
+      "answer": "0, ( ( ( (1, (1, (5, (1, (1, (2, both (1, (1, with both, to: (both, 1, 1, (1, (both, (both,1hour."
+    },
+    {
+      "setting": "text_and_image",
+      "task": "connected_nodes",
+      "image_type": "spring",
+      "model": "Phi-4-multimodal-instruct",
+      "file_name": "spring_Phi-4-multimodal-instruct.jsonl",
+      "sample_id": "connected_nodes/adjacency/test/166",
+      "answer": "2, both, a, (1, (yes (1, and, (0 (6, with_1, 1, to, by both, by, by (0, both, by, by, (1, (0, by (remany- ,,, (2,"
+    },
+    {
+      "setting": "text_and_image",
+      "task": "connected_nodes",
+      "image_type": "spring",
+      "model": "Phi-4-multimodal-instruct",
+      "file_name": "spring_Phi-4-multimodal-instruct.jsonl",
+      "sample_id": "connected_nodes/adjacency/test/180",
+      "answer": "0, 3, 4, 5, 6, 7, 8, and, to, to, to, to, to, to 9, 1, in. in, in, in sequential in, to, in in in, both,1, 1, to,"
+    },
+    {
+      "setting": "text_and_image",
+      "task": "connected_nodes",
+      "image_type": "spring",
+      "model": "Phi-4-multimodal-instruct",
+      "file_name": "spring_Phi-4-multimodal-instruct.jsonl",
+      "sample_id": "connected_nodes/adjacency/test/214",
+      "answer": "0topwppr, a, 9. in sequential, p, in the, for present, for, for, for. for.forno,forptprem, in.for."
+    },
+    {
+      "setting": "text_and_image",
+      "task": "connected_nodes",
+      "image_type": "spring",
+      "model": "Phi-4-multimodal-instruct",
+      "file_name": "spring_Phi-4-multimodal-instruct.jsonl",
+      "sample_id": "connected_nodes/adjacency/test/218",
+      "answer": "1, (i, to-1-1-1-1, (1, 3, 4, 5, 6"
+    },
+    {
+      "setting": "text_and_image",
+      "task": "connected_nodes",
+      "image_type": "spring",
+      "model": "Phi-4-multimodal-instruct",
+      "file_name": "spring_Phi-4-multimodal-instruct.jsonl",
+      "sample_id": "connected_nodes/adjacency/test/220",
+      "answer": "1. 1. 4. 1  30"
+    },
+    {
+      "setting": "text_and_image",
+      "task": "connected_nodes",
+      "image_type": "spring",
+      "model": "Phi-4-multimodal-instruct",
+      "file_name": "spring_Phi-4-multimodal-instruct.jsonl",
+      "sample_id": "connected_nodes/adjacency/test/221",
+      "answer": "1. to. 0. to. to directed in."
+    },
+    {
+      "setting": "text_and_image",
+      "task": "connected_nodes",
+      "image_type": "spring",
+      "model": "Phi-4-multimodal-instruct",
+      "file_name": "spring_Phi-4-multimodal-instruct.jsonl",
+      "sample_id": "connected_nodes/adjacency/test/234",
+      "answer": "1. in a. 1, 6, in a.1, 1. to, in. yes, in 1. in. in 6, in in in. in_6 in in."
+    },
+    {
+      "setting": "text_and_image",
+      "task": "connected_nodes",
+      "image_type": "spring",
+      "model": "Phi-4-multimodal-instruct",
+      "file_name": "spring_Phi-4-multimodal-instruct.jsonl",
+      "sample_id": "connected_nodes/adjacency/test/242",
+      "answer": "1, (i to/b-1-1 to/bast indirectly to indirectly to,1 (both to 4 to-bothtolutopt."
+    },
+    {
+      "setting": "text_and_image",
+      "task": "connected_nodes",
+      "image_type": "spring",
+      "model": "Phi-4-multimodal-instruct",
+      "file_name": "spring_Phi-4-multimodal-instruct.jsonl",
+      "sample_id": "connected_nodes/adjacency/test/253",
+      "answer": "0 to a (to_ to, to a (0 to to to (0, ( to to to to to to to ( to, to, to, to, to, to to to, to (yes. in, to, to in a rectremo, in, ( (. in."
+    },
+    {
+      "setting": "text_and_image",
+      "task": "connected_nodes",
+      "image_type": "spring",
+      "model": "Phi-4-multimodal-instruct",
+      "file_name": "spring_Phi-4-multimodal-instruct.jsonl",
+      "sample_id": "connected_nodes/adjacency/test/257",
+      "answer": "0 (1, both in (1, 1, 1, with (1_2, with (0, 0 ( 1 , ( 1 ( ( ( ( ( 2, 2, 1, 2 (0."
+    },
+    {
+      "setting": "text_and_image",
+      "task": "connected_nodes",
+      "image_type": "spring",
+      "model": "Phi-4-multimodal-instruct",
+      "file_name": "spring_Phi-4-multimodal-instruct.jsonl",
+      "sample_id": "connected_nodes/adjacency/test/258",
+      "answer": "0, (i, to, to, (1"
+    },
+    {
+      "setting": "text_and_image",
+      "task": "connected_nodes",
+      "image_type": "spring",
+      "model": "Phi-4-multimodal-instruct",
+      "file_name": "spring_Phi-4-multimodal-instruct.jsonl",
+      "sample_id": "connected_nodes/adjacency/test/259",
+      "answer": "0 (0, with a (1, 1, 1, with (1_1 ( (1 ( ( ( ( ( 1b| 1 yes.  ( 1, 4 (i, 3.5ranyh."
+    },
+    {
+      "setting": "text_and_image",
+      "task": "connected_nodes",
+      "image_type": "spring",
+      "model": "Phi-4-multimodal-instruct",
+      "file_name": "spring_Phi-4-multimodal-instruct.jsonl",
+      "sample_id": "connected_nodes/adjacency/test/282",
+      "answer": "1 (1, both in both to, (1, both, with by_1 (yes, both graph in a ( ( ( ( ( descriptive ( ( ( ( ( ( ( (1, 2, (i, 3. (by, 1, 1, both, to: with"
+    },
+    {
+      "setting": "text_and_image",
+      "task": "disconnected_nodes",
+      "image_type": "spring",
+      "model": "Phi-4-multimodal-instruct",
+      "file_name": "spring_Phi-4-multimodal-instruct.jsonl",
+      "sample_id": "disconnected_nodes/adjacency/test/88",
+      "answer": "0, 1, in a (1, to. 0, 1, 1. 1. by. by by graph by both, 1| 1_1-0,1,both.2-2, 1, 1, 1, 2, 1"
+    },
+    {
+      "setting": "text_and_image",
+      "task": "disconnected_nodes",
+      "image_type": "spring",
+      "model": "Phi-4-multimodal-instruct",
+      "file_name": "spring_Phi-4-multimodal-instruct.jsonl",
+      "sample_id": "disconnected_nodes/adjacency/test/89",
+      "answer": "1 to, to-though. ( (1. for. 1_1::yes, 0- to (0, to. 0. 1. 1. in a, to, (1. 1-1. byar_1. 4vourveharear"
+    },
+    {
+      "setting": "text_and_image",
+      "task": "disconnected_nodes",
+      "image_type": "spring",
+      "model": "Phi-4-multimodal-instruct",
+      "file_name": "spring_Phi-4-multimodal-instruct.jsonl",
+      "sample_id": "disconnected_nodes/adjacency/test/90",
+      "answer": "3 to. to that graph in graph in a in a graph in a, in a in prompt in. (yes. in graph ingraph, in a. in to i. to- to- regardless. to to. to. and. to. to. to."
+    },
+    {
+      "setting": "text_and_image",
+      "task": "disconnected_nodes",
+      "image_type": "spring",
+      "model": "Phi-4-multimodal-instruct",
+      "file_name": "spring_Phi-4-multimodal-instruct.jsonl",
+      "sample_id": "disconnected_nodes/adjacency/test/91",
+      "answer": "0 in. to. (_ to 10, in sequential to,"
+    },
+    {
+      "setting": "text_and_image",
+      "task": "disconnected_nodes",
+      "image_type": "spring",
+      "model": "Phi-4-multimodal-instruct",
+      "file_name": "spring_Phi-4-multimodal-instruct.jsonl",
+      "sample_id": "disconnected_nodes/adjacency/test/169",
+      "answer": "3, 4, 5, 6, 7, 8, 9, 10, 11, 12, to to with to a graph to to to to, with to, with, 1,,,, (6, in, with,"
+    },
+    {
+      "setting": "text_and_image",
+      "task": "disconnected_nodes",
+      "image_type": "spring",
+      "model": "Phi-4-multimodal-instruct",
+      "file_name": "spring_Phi-4-multimodal-instruct.jsonl",
+      "sample_id": "disconnected_nodes/adjacency/test/206",
+      "answer": "3. in 9.1r\n1. a. for rech. 1. 1 1 1_1. 1 post that that prompt image graph_1. for both rec1."
+    },
+    {
+      "setting": "text_and_image",
+      "task": "disconnected_nodes",
+      "image_type": "spring",
+      "model": "Phi-4-multimodal-instruct",
+      "file_name": "spring_Phi-4-multimodal-instruct.jsonl",
+      "sample_id": "disconnected_nodes/adjacency/test/260",
+      "answer": "1, (1 (1, to (1, both, 0 (1, to, (both (1, (i (i, 1, 1 (1 ( ( ( 1, both, 0, 1, 1- 1- 6 (0,1*"
+    },
+    {
+      "setting": "text_and_image",
+      "task": "disconnected_nodes",
+      "image_type": "spring",
+      "model": "Phi-4-multimodal-instruct",
+      "file_name": "spring_Phi-4-multimodal-instruct.jsonl",
+      "sample_id": "disconnected_nodes/adjacency/test/261",
+      "answer": "0 to to-0 to to in that to-1b (1 to to, in a in ("
+    },
+    {
+      "setting": "text_and_image",
+      "task": "disconnected_nodes",
+      "image_type": "spring",
+      "model": "Phi-4-multimodal-instruct",
+      "file_name": "spring_Phi-4-multimodal-instruct.jsonl",
+      "sample_id": "disconnected_nodes/adjacency/test/330",
+      "answer": "3, 1, (1, (1, (1, (1, (0, by, with, (both, recom. (0, (1,omcluding,0 1, 11, 1, in. in.1, (yes, respectively, respectively,"
+    },
+    {
+      "setting": "text_and_image",
+      "task": "disconnected_nodes",
+      "image_type": "spring",
+      "model": "Phi-4-multimodal-instruct",
+      "file_name": "spring_Phi-4-multimodal-instruct.jsonl",
+      "sample_id": "disconnected_nodes/adjacency/test/334",
+      "answer": "0, to, ( ( ( ( ( ( ( ( ( (1 ( ( ( ( ( (0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 12)\n\nExplanation:\nThe nodes that are not connected"
+    },
+    {
+      "setting": "text_and_image",
+      "task": "edge_count",
+      "image_type": "spring",
+      "model": "Phi-4-multimodal-instruct",
+      "file_name": "spring_Phi-4-multimodal-instruct.jsonl",
+      "sample_id": "edge_count/adjacency/test/14",
+      "answer": "13-"
+    },
+    {
+      "setting": "text_and_image",
+      "task": "edge_count",
+      "image_type": "spring",
+      "model": "Phi-4-multimodal-instruct",
+      "file_name": "spring_Phi-4-multimodal-instruct.jsonl",
+      "sample_id": "edge_count/adjacency/test/18",
+      "answer": "6, inhere_6, and, with, (1, both (both, both, in both (1uany ( ( with (1,"
+    },
+    {
+      "setting": "text_and_image",
+      "task": "edge_count",
+      "image_type": "spring",
+      "model": "Phi-4-multimodal-instruct",
+      "file_name": "spring_Phi-4-multimodal-instruct.jsonl",
+      "sample_id": "edge_count/adjacency/test/25",
+      "answer": "6...both, 4, both contlu, by, a| 4, both, both overlay in...both, (1agraph in prompt in blank graph graph prompt prompt bounded graph output prompt description, yes. graph. yes, both, 1, by, (0, both,1-"
+    },
+    {
+      "setting": "text_and_image",
+      "task": "edge_count",
+      "image_type": "spring",
+      "model": "Phi-4-multimodal-instruct",
+      "file_name": "spring_Phi-4-multimodal-instruct.jsonl",
+      "sample_id": "edge_count/adjacency/test/34",
+      "answer": "22, (for."
+    },
+    {
+      "setting": "text_and_image",
+      "task": "edge_count",
+      "image_type": "spring",
+      "model": "Phi-4-multimodal-instruct",
+      "file_name": "spring_Phi-4-multimodal-instruct.jsonl",
+      "sample_id": "edge_count/adjacency/test/38",
+      "answer": "4\n([],\n...\n\nb"
+    },
+    {
+      "setting": "text_and_image",
+      "task": "edge_count",
+      "image_type": "spring",
+      "model": "Phi-4-multimodal-instruct",
+      "file_name": "spring_Phi-4-multimodal-instruct.jsonl",
+      "sample_id": "edge_count/adjacency/test/246",
+      "answer": "16, by, ( (i, prompt in. 6, in/b/2, in or, and/1? 6,10, 2- in- in- for a graph in/1, in/6- or. to. 6, in? but, in, in both"
+    },
+    {
+      "setting": "text_and_image",
+      "task": "edge_count",
+      "image_type": "spring",
+      "model": "Phi-4-multimodal-instruct",
+      "file_name": "spring_Phi-4-multimodal-instruct.jsonl",
+      "sample_id": "edge_count/adjacency/test/247",
+      "answer": "90."
+    },
+    {
+      "setting": "text_and_image",
+      "task": "edge_count",
+      "image_type": "spring",
+      "model": "Phi-4-multimodal-instruct",
+      "file_name": "spring_Phi-4-multimodal-instruct.jsonl",
+      "sample_id": "edge_count/adjacency/test/248",
+      "answer": "32, for which, for. for which for. for. 1, in. 1, in 1. 7. 1. 1 and 8. 8. for over. 4, 8."
+    },
+    {
+      "setting": "text_and_image",
+      "task": "edge_count",
+      "image_type": "spring",
+      "model": "Phi-4-multimodal-instruct",
+      "file_name": "spring_Phi-4-multimodal-instruct.jsonl",
+      "sample_id": "edge_count/adjacency/test/313",
+      "answer": "9, a graph."
+    },
+    {
+      "setting": "text_and_image",
+      "task": "edge_count",
+      "image_type": "spring",
+      "model": "Phi-4-multimodal-instruct",
+      "file_name": "spring_Phi-4-multimodal-instruct.jsonl",
+      "sample_id": "edge_count/adjacency/test/314",
+      "answer": "13, recu, alternate, for a set, by ( for the given (0, ( ( (0, (1, (1, (0, with, in.1, 1, and,1, in. as_1, by (1 (1, as, include, toggle,"
+    },
+    {
+      "setting": "text_and_image",
+      "task": "edge_count",
+      "image_type": "spring",
+      "model": "Phi-4-multimodal-instruct",
+      "file_name": "spring_Phi-4-multimodal-instruct.jsonl",
+      "sample_id": "edge_count/adjacency/test/349",
+      "answer": "17, (1 (yes, and in a (for..."
+    },
+    {
+      "setting": "text_and_image",
+      "task": "edge_existence",
+      "image_type": "spring",
+      "model": "Phi-4-multimodal-instruct",
+      "file_name": "spring_Phi-4-multimodal-instruct.jsonl",
+      "sample_id": "edge_existence/adjacency/test/26",
+      "answer": "True, and, in, for a, in the, in,0,0, in.0, and in in, in, in.0, in)0.0, in, in-0."
+    },
+    {
+      "setting": "text_and_image",
+      "task": "edge_existence",
+      "image_type": "spring",
+      "model": "Phi-4-multimodal-instruct",
+      "file_name": "spring_Phi-4-multimodal-instruct.jsonl",
+      "sample_id": "edge_existence/adjacency/test/28",
+      "answer": "True."
+    },
+    {
+      "setting": "text_and_image",
+      "task": "edge_existence",
+      "image_type": "spring",
+      "model": "Phi-4-multimodal-instruct",
+      "file_name": "spring_Phi-4-multimodal-instruct.jsonl",
+      "sample_id": "edge_existence/adjacency/test/106",
+      "answer": "True\n\n\n\ni\nA\n_1\n 5\n_5"
+    },
+    {
+      "setting": "text_and_image",
+      "task": "edge_existence",
+      "image_type": "spring",
+      "model": "Phi-4-multimodal-instruct",
+      "file_name": "spring_Phi-4-multimodal-instruct.jsonl",
+      "sample_id": "edge_existence/adjacency/test/107",
+      "answer": "True, in. (1:: 1, 4, 0, with a_0_ (both_ (both: 1_0, 0, ( both ( 1, (both, in_3, both."
+    },
+    {
+      "setting": "text_and_image",
+      "task": "edge_existence",
+      "image_type": "spring",
+      "model": "Phi-4-multimodal-instruct",
+      "file_name": "spring_Phi-4-multimodal-instruct.jsonl",
+      "sample_id": "edge_existence/adjacency/test/126",
+      "answer": "No"
+    },
+    {
+      "setting": "text_and_image",
+      "task": "edge_existence",
+      "image_type": "spring",
+      "model": "Phi-4-multimodal-instruct",
+      "file_name": "spring_Phi-4-multimodal-instruct.jsonl",
+      "sample_id": "edge_existence/adjacency/test/221",
+      "answer": "True to rec. in. to rec. to. to in graph in. to. to graph. to. to. to. to. to. in any in a in the in a in either graph, output in (6 graph. in in in in- in- in in. in_0."
+    },
+    {
+      "setting": "text_and_image",
+      "task": "edge_existence",
+      "image_type": "spring",
+      "model": "Phi-4-multimodal-instruct",
+      "file_name": "spring_Phi-4-multimodal-instruct.jsonl",
+      "sample_id": "edge_existence/adjacency/test/260",
+      "answer": "False indirectly in both (2, 6 (4, 6, (1-1-2-1-2, (1- (1 (a ( 2_2- ( (2obany (no-2-1, 0, 0-0-1-0-2"
+    },
+    {
+      "setting": "text_and_image",
+      "task": "edge_existence",
+      "image_type": "spring",
+      "model": "Phi-4-multimodal-instruct",
+      "file_name": "spring_Phi-4-multimodal-instruct.jsonl",
+      "sample_id": "edge_existence/adjacency/test/276",
+      "answer": "True, 1, for both,  ( ( (1, (0 (by (both ( 1| (1:: 1. ( 1, in. 1, 1. in, 1, both, in, in a, respectively. 1, both, 1,"
+    },
+    {
+      "setting": "text_and_image",
+      "task": "edge_existence",
+      "image_type": "spring",
+      "model": "Phi-4-multimodal-instruct",
+      "file_name": "spring_Phi-4-multimodal-instruct.jsonl",
+      "sample_id": "edge_existence/adjacency/test/289",
+      "answer": "False, 1, ( ( (1remitrematwhonbelow (1- (both-1hany-0, 2,2ndh. to-1,"
+    },
+    {
+      "setting": "text_and_image",
+      "task": "node_count",
+      "image_type": "spring",
+      "model": "Phi-4-multimodal-instruct",
+      "file_name": "spring_Phi-4-multimodal-instruct.jsonl",
+      "sample_id": "node_count/adjacency/test/27",
+      "answer": "5 (to- to, a, with (0, definitely, with, and with,1 (1, and,0, 1,1, with, with, both, 1, in,0, in, in_conthgraph described inhere:: 1, with, notwithstanding, hboth"
+    },
+    {
+      "setting": "text_and_image",
+      "task": "node_count",
+      "image_type": "spring",
+      "model": "Phi-4-multimodal-instruct",
+      "file_name": "spring_Phi-4-multimodal-instruct.jsonl",
+      "sample_id": "node_count/adjacency/test/157",
+      "answer": "6, by: (1, a. 5, 5, a-5, 1, and, (2h, 5, in_3: inbotha-2ode."
+    },
+    {
+      "setting": "text_and_image",
+      "task": "node_count",
+      "image_type": "spring",
+      "model": "Phi-4-multimodal-instruct",
+      "file_name": "spring_Phi-4-multimodal-instruct.jsonl",
+      "sample_id": "node_count/adjacency/test/204",
+      "answer": "17."
+    },
+    {
+      "setting": "text_and_image",
+      "task": "node_count",
+      "image_type": "spring",
+      "model": "Phi-4-multimodal-instruct",
+      "file_name": "spring_Phi-4-multimodal-instruct.jsonl",
+      "sample_id": "node_count/adjacency/test/213",
+      "answer": "10, and in and, and in both, in, in, 9,, in)\n, 6, 6, in, 6,,, 6, in, in, in, in, and, 6, inabum, in,1, and indirectly, and, and"
+    },
+    {
+      "setting": "text_and_image",
+      "task": "node_count",
+      "image_type": "spring",
+      "model": "Phi-4-multimodal-instruct",
+      "file_name": "spring_Phi-4-multimodal-instruct.jsonl",
+      "sample_id": "node_count/adjacency/test/219",
+      "answer": "13lndexiyes\nexanswer\nanswer, a, in."
+    },
+    {
+      "setting": "text_and_image",
+      "task": "node_count",
+      "image_type": "spring",
+      "model": "Phi-4-multimodal-instruct",
+      "file_name": "spring_Phi-4-multimodal-instruct.jsonl",
+      "sample_id": "node_count/adjacency/test/241",
+      "answer": "10, for, in both, 1, respectively, respectively, respectively, as."
+    },
+    {
+      "setting": "text_and_image",
+      "task": "node_count",
+      "image_type": "spring",
+      "model": "Phi-4-multimodal-instruct",
+      "file_name": "spring_Phi-4-multimodal-instruct.jsonl",
+      "sample_id": "node_count/adjacency/test/276",
+      "answer": "13. in the given node, for node, nodes ( ( ( by output, nodes (by by prompt (both (both. (1. recat. ( answer, in. 1, . text, (1, in over. in a, in both respectively.1here in non. both"
+    },
+    {
+      "setting": "text_and_image",
+      "task": "node_count",
+      "image_type": "spring",
+      "model": "Phi-4-multimodal-instruct",
+      "file_name": "spring_Phi-4-multimodal-instruct.jsonl",
+      "sample_id": "node_count/adjacency/test/277",
+      "answer": "9."
+    },
+    {
+      "setting": "text_and_image",
+      "task": "node_degree",
+      "image_type": "spring",
+      "model": "Phi-4-multimodal-instruct",
+      "file_name": "spring_Phi-4-multimodal-instruct.jsonl",
+      "sample_id": "node_degree/adjacency/test/16",
+      "answer": "4. 1-1_"
+    },
+    {
+      "setting": "text_and_image",
+      "task": "node_degree",
+      "image_type": "spring",
+      "model": "Phi-4-multimodal-instruct",
+      "file_name": "spring_Phi-4-multimodal-instruct.jsonl",
+      "sample_id": "node_degree/adjacency/test/34",
+      "answer": "6, for. for. For for."
+    },
+    {
+      "setting": "text_and_image",
+      "task": "node_degree",
+      "image_type": "spring",
+      "model": "Phi-4-multimodal-instruct",
+      "file_name": "spring_Phi-4-multimodal-instruct.jsonl",
+      "sample_id": "node_degree/adjacency/test/35",
+      "answer": "10, both, 6, in? _0, in.0, 6,ct. and."
+    },
+    {
+      "setting": "text_and_image",
+      "task": "node_degree",
+      "image_type": "spring",
+      "model": "Phi-4-multimodal-instruct",
+      "file_name": "spring_Phi-4-multimodal-instruct.jsonl",
+      "sample_id": "node_degree/adjacency/test/41",
+      "answer": "4, to a, in a graph in any. both graph in both graph, and in a in a/ in output in any prompt in prompt in not in graph contop. 2. 1. 1- in standard graph in. in a. in graph in graph in. in. 1"
+    },
+    {
+      "setting": "text_and_image",
+      "task": "node_degree",
+      "image_type": "spring",
+      "model": "Phi-4-multimodal-instruct",
+      "file_name": "spring_Phi-4-multimodal-instruct.jsonl",
+      "sample_id": "node_degree/adjacency/test/123",
+      "answer": "4 for, for, for graph. is in for for recursiveness, 4"
+    },
+    {
+      "setting": "text_and_image",
+      "task": "node_degree",
+      "image_type": "spring",
+      "model": "Phi-4-multimodal-instruct",
+      "file_name": "spring_Phi-4-multimodal-instruct.jsonl",
+      "sample_id": "node_degree/adjacency/test/172",
+      "answer": "1, in ascending, (1, (1, in both by by in both, to by by by (1_0by by. add."
+    },
+    {
+      "setting": "text_and_image",
+      "task": "node_degree",
+      "image_type": "spring",
+      "model": "Phi-4-multimodal-instruct",
+      "file_name": "spring_Phi-4-multimodal-instruct.jsonl",
+      "sample_id": "node_degree/adjacency/test/178",
+      "answer": "5, by iter-b\ni, in.h-1-1\n1_1*"
+    },
+    {
+      "setting": "text_and_image",
+      "task": "node_degree",
+      "image_type": "spring",
+      "model": "Phi-4-multimodal-instruct",
+      "file_name": "spring_Phi-4-multimodal-instruct.jsonl",
+      "sample_id": "node_degree/adjacency/test/219",
+      "answer": "13exgofanyexgansweranswer, addhexanswer, answer. answer. forheperoverg, forheperex, for\nforvperforstpheexexoverheexptanyexevenctobpthefor.for,for,forexome for.for"
+    },
+    {
+      "setting": "text_and_image",
+      "task": "node_degree",
+      "image_type": "spring",
+      "model": "Phi-4-multimodal-instruct",
+      "file_name": "spring_Phi-4-multimodal-instruct.jsonl",
+      "sample_id": "node_degree/adjacency/test/221",
+      "answer": "7 in."
+    },
     {
       "setting": "text_and_image",
       "task": "node_degree",
@@ -1645,6 +3519,114 @@
     },
     {
       "setting": "text_and_image",
+      "task": "shortest_path",
+      "image_type": "spring",
+      "model": "Phi-4-multimodal-instruct",
+      "file_name": "spring_Phi-4-multimodal-instruct.jsonl",
+      "sample_id": "shortest_path/adjacency/test/187",
+      "answer": "2, and with a, by, (1, by, a graph, 1, by. by, by, by, and both, for. 1hremhany, (omhbar,0, 1h, in both, for, in both, 1hany, in"
+    },
+    {
+      "setting": "text_and_image",
+      "task": "shortest_path",
+      "image_type": "spring",
+      "model": "Phi-4-multimodal-instruct",
+      "file_name": "spring_Phi-4-multimodal-instruct.jsonl",
+      "sample_id": "shortest_path/adjacency/test/193",
+      "answer": "2, (byresponse. byced graph, (yes, though-1(((bothh(1here, 1, 1, in both, by both. (a, in a, both, in a, 1. by redirect, add. in. in. inackamoreamore"
+    },
+    {
+      "setting": "text_and_image",
+      "task": "shortest_path",
+      "image_type": "spring",
+      "model": "Phi-4-multimodal-instruct",
+      "file_name": "spring_Phi-4-multimodal-instruct.jsonl",
+      "sample_id": "shortest_path/adjacency/test/208",
+      "answer": "2. for which.1. 3. and non non.1. 3."
+    },
+    {
+      "setting": "text_and_image",
+      "task": "shortest_path",
+      "image_type": "spring",
+      "model": "Phi-4-multimodal-instruct",
+      "file_name": "spring_Phi-4-multimodal-instruct.jsonl",
+      "sample_id": "shortest_path/adjacency/test/218",
+      "answer": "1. in. 2? in. in? and indirectly. 1. as/5-6|so-re_6. to nested in-6 to become in_1,exhover-1,1-1hexpl,6,1,,,-1, to, inex"
+    },
+    {
+      "setting": "text_and_image",
+      "task": "shortest_path",
+      "image_type": "spring",
+      "model": "Phi-4-multimodal-instruct",
+      "file_name": "spring_Phi-4-multimodal-instruct.jsonl",
+      "sample_id": "shortest_path/adjacency/test/258",
+      "answer": "6, in. (1, in graph, in output, and yes, in/1, (1, in\nno\nfor No-1b, in-2, in, in-1, in, in, in, (1, in::b,, to, to, in, in"
+    },
+    {
+      "setting": "text_and_image",
+      "task": "shortest_path",
+      "image_type": "spring",
+      "model": "Phi-4-multimodal-instruct",
+      "file_name": "spring_Phi-4-multimodal-instruct.jsonl",
+      "sample_id": "shortest_path/adjacency/test/269",
+      "answer": "1, to (to. to. in (for, (1, (1::i, in,, in, (tilhand, (tremo. in. in. in. to. in a."
+    },
+    {
+      "setting": "text_and_image",
+      "task": "shortest_path",
+      "image_type": "spring",
+      "model": "Phi-4-multimodal-instruct",
+      "file_name": "spring_Phi-4-multimodal-instruct.jsonl",
+      "sample_id": "shortest_path/adjacency/test/270",
+      "answer": "2 (to- (1. 1-1, (0, 1? 1:: ...conth, 2, (0...no. 1{1... to, toh...t...tboth_1; 1\nlof\n1iand,"
+    },
+    {
+      "setting": "text_and_image",
+      "task": "shortest_path",
+      "image_type": "spring",
+      "model": "Phi-4-multimodal-instruct",
+      "file_name": "spring_Phi-4-multimodal-instruct.jsonl",
+      "sample_id": "shortest_path/adjacency/test/283",
+      "answer": "1 (toto yes- with iter-0 (0, (0, 1, in 1,0, 2. 1, (0; to become to\ntoh..."
+    },
+    {
+      "setting": "text_and_image",
+      "task": "shortest_path",
+      "image_type": "spring",
+      "model": "Phi-4-multimodal-instruct",
+      "file_name": "spring_Phi-4-multimodal-instruct.jsonl",
+      "sample_id": "shortest_path/adjacency/test/284",
+      "answer": "2, ( ( (1, by graph ( (by (y ( ( ( (y:: 1 ( ( ( read, answer. in. 0. in. in. in a, both, in a, in text.  text in over, in. recad, in, in. in"
+    },
+    {
+      "setting": "text_and_image",
+      "task": "shortest_path",
+      "image_type": "spring",
+      "model": "Phi-4-multimodal-instruct",
+      "file_name": "spring_Phi-4-multimodal-instruct.jsonl",
+      "sample_id": "shortest_path/adjacency/test/285",
+      "answer": "4- (1. 1. and. given, both, both, 1, by. ( ( ( remany- both. 1hremo- 1-1ndany_ , 1-0, 0here, both, 1, both in both, both, both"
+    },
+    {
+      "setting": "text_and_image",
+      "task": "shortest_path",
+      "image_type": "spring",
+      "model": "Phi-4-multimodal-instruct",
+      "file_name": "spring_Phi-4-multimodal-instruct.jsonl",
+      "sample_id": "shortest_path/adjacency/test/324",
+      "answer": "1, by (to (to (1, (, (0,, answer, (, (,, in,, (1, (i, in. in. (by. to, in. 1, as (no, only, as, in a (yes. in a, (in"
+    },
+    {
+      "setting": "text_and_image",
+      "task": "shortest_path",
+      "image_type": "spring",
+      "model": "Phi-4-multimodal-instruct",
+      "file_name": "spring_Phi-4-multimodal-instruct.jsonl",
+      "sample_id": "shortest_path/adjacency/test/325",
+      "answer": "4, (1, 1, with both (1, with (yes-1, inot_0,0, in... (1, ( (both,2 (yes (yes, yes, 1, inve. 0. for both, that. in."
+    },
+    {
+      "setting": "text_and_image",
       "task": "triangle_counting",
       "image_type": "spring",
       "model": "llava-v1.6-mistral-7b-hf",
@@ -1660,6 +3642,816 @@
       "file_name": "spring_llava-v1.6-mistral-7b-hf.jsonl",
       "sample_id": "triangle_counting/adjacency/test/109",
       "answer": "False"
+    },
+    {
+      "setting": "text_and_image",
+      "task": "triangle_counting",
+      "image_type": "spring",
+      "model": "Phi-4-multimodal-instruct",
+      "file_name": "spring_Phi-4-multimodal-instruct.jsonl",
+      "sample_id": "triangle_counting/adjacency/test/5",
+      "answer": "True"
+    },
+    {
+      "setting": "text_and_image",
+      "task": "triangle_counting",
+      "image_type": "spring",
+      "model": "Phi-4-multimodal-instruct",
+      "file_name": "spring_Phi-4-multimodal-instruct.jsonl",
+      "sample_id": "triangle_counting/adjacency/test/8",
+      "answer": "True"
+    },
+    {
+      "setting": "text_and_image",
+      "task": "triangle_counting",
+      "image_type": "spring",
+      "model": "Phi-4-multimodal-instruct",
+      "file_name": "spring_Phi-4-multimodal-instruct.jsonl",
+      "sample_id": "triangle_counting/adjacency/test/11",
+      "answer": "True"
+    },
+    {
+      "setting": "text_and_image",
+      "task": "triangle_counting",
+      "image_type": "spring",
+      "model": "Phi-4-multimodal-instruct",
+      "file_name": "spring_Phi-4-multimodal-instruct.jsonl",
+      "sample_id": "triangle_counting/adjacency/test/12",
+      "answer": "True"
+    },
+    {
+      "setting": "text_and_image",
+      "task": "triangle_counting",
+      "image_type": "spring",
+      "model": "Phi-4-multimodal-instruct",
+      "file_name": "spring_Phi-4-multimodal-instruct.jsonl",
+      "sample_id": "triangle_counting/adjacency/test/13",
+      "answer": "True"
+    },
+    {
+      "setting": "text_and_image",
+      "task": "triangle_counting",
+      "image_type": "spring",
+      "model": "Phi-4-multimodal-instruct",
+      "file_name": "spring_Phi-4-multimodal-instruct.jsonl",
+      "sample_id": "triangle_counting/adjacency/test/19",
+      "answer": "True"
+    },
+    {
+      "setting": "text_and_image",
+      "task": "triangle_counting",
+      "image_type": "spring",
+      "model": "Phi-4-multimodal-instruct",
+      "file_name": "spring_Phi-4-multimodal-instruct.jsonl",
+      "sample_id": "triangle_counting/adjacency/test/20",
+      "answer": "3, (i,, (1, 1, (1, 1, in graph, in, and, in- in- by, reci,"
+    },
+    {
+      "setting": "text_and_image",
+      "task": "triangle_counting",
+      "image_type": "spring",
+      "model": "Phi-4-multimodal-instruct",
+      "file_name": "spring_Phi-4-multimodal-instruct.jsonl",
+      "sample_id": "triangle_counting/adjacency/test/22",
+      "answer": "True"
+    },
+    {
+      "setting": "text_and_image",
+      "task": "triangle_counting",
+      "image_type": "spring",
+      "model": "Phi-4-multimodal-instruct",
+      "file_name": "spring_Phi-4-multimodal-instruct.jsonl",
+      "sample_id": "triangle_counting/adjacency/test/23",
+      "answer": "True"
+    },
+    {
+      "setting": "text_and_image",
+      "task": "triangle_counting",
+      "image_type": "spring",
+      "model": "Phi-4-multimodal-instruct",
+      "file_name": "spring_Phi-4-multimodal-instruct.jsonl",
+      "sample_id": "triangle_counting/adjacency/test/26",
+      "answer": "True"
+    },
+    {
+      "setting": "text_and_image",
+      "task": "triangle_counting",
+      "image_type": "spring",
+      "model": "Phi-4-multimodal-instruct",
+      "file_name": "spring_Phi-4-multimodal-instruct.jsonl",
+      "sample_id": "triangle_counting/adjacency/test/28",
+      "answer": "True"
+    },
+    {
+      "setting": "text_and_image",
+      "task": "triangle_counting",
+      "image_type": "spring",
+      "model": "Phi-4-multimodal-instruct",
+      "file_name": "spring_Phi-4-multimodal-instruct.jsonl",
+      "sample_id": "triangle_counting/adjacency/test/31",
+      "answer": "True"
+    },
+    {
+      "setting": "text_and_image",
+      "task": "triangle_counting",
+      "image_type": "spring",
+      "model": "Phi-4-multimodal-instruct",
+      "file_name": "spring_Phi-4-multimodal-instruct.jsonl",
+      "sample_id": "triangle_counting/adjacency/test/33",
+      "answer": "True"
+    },
+    {
+      "setting": "text_and_image",
+      "task": "triangle_counting",
+      "image_type": "spring",
+      "model": "Phi-4-multimodal-instruct",
+      "file_name": "spring_Phi-4-multimodal-instruct.jsonl",
+      "sample_id": "triangle_counting/adjacency/test/34",
+      "answer": "True"
+    },
+    {
+      "setting": "text_and_image",
+      "task": "triangle_counting",
+      "image_type": "spring",
+      "model": "Phi-4-multimodal-instruct",
+      "file_name": "spring_Phi-4-multimodal-instruct.jsonl",
+      "sample_id": "triangle_counting/adjacency/test/35",
+      "answer": "True"
+    },
+    {
+      "setting": "text_and_image",
+      "task": "triangle_counting",
+      "image_type": "spring",
+      "model": "Phi-4-multimodal-instruct",
+      "file_name": "spring_Phi-4-multimodal-instruct.jsonl",
+      "sample_id": "triangle_counting/adjacency/test/41",
+      "answer": "3 in a, in the in a nested graph in. in iter, in both rec. in which in- rec- in. in a, iter, iter iter- graph, 2, 4, 1, in a, in the, 1, (1, which, 1, in"
+    },
+    {
+      "setting": "text_and_image",
+      "task": "triangle_counting",
+      "image_type": "spring",
+      "model": "Phi-4-multimodal-instruct",
+      "file_name": "spring_Phi-4-multimodal-instruct.jsonl",
+      "sample_id": "triangle_counting/adjacency/test/45",
+      "answer": "True"
+    },
+    {
+      "setting": "text_and_image",
+      "task": "triangle_counting",
+      "image_type": "spring",
+      "model": "Phi-4-multimodal-instruct",
+      "file_name": "spring_Phi-4-multimodal-instruct.jsonl",
+      "sample_id": "triangle_counting/adjacency/test/47",
+      "answer": "True"
+    },
+    {
+      "setting": "text_and_image",
+      "task": "triangle_counting",
+      "image_type": "spring",
+      "model": "Phi-4-multimodal-instruct",
+      "file_name": "spring_Phi-4-multimodal-instruct.jsonl",
+      "sample_id": "triangle_counting/adjacency/test/48",
+      "answer": "True"
+    },
+    {
+      "setting": "text_and_image",
+      "task": "triangle_counting",
+      "image_type": "spring",
+      "model": "Phi-4-multimodal-instruct",
+      "file_name": "spring_Phi-4-multimodal-instruct.jsonl",
+      "sample_id": "triangle_counting/adjacency/test/49",
+      "answer": "True"
+    },
+    {
+      "setting": "text_and_image",
+      "task": "triangle_counting",
+      "image_type": "spring",
+      "model": "Phi-4-multimodal-instruct",
+      "file_name": "spring_Phi-4-multimodal-instruct.jsonl",
+      "sample_id": "triangle_counting/adjacency/test/50",
+      "answer": "True"
+    },
+    {
+      "setting": "text_and_image",
+      "task": "triangle_counting",
+      "image_type": "spring",
+      "model": "Phi-4-multimodal-instruct",
+      "file_name": "spring_Phi-4-multimodal-instruct.jsonl",
+      "sample_id": "triangle_counting/adjacency/test/54",
+      "answer": "True"
+    },
+    {
+      "setting": "text_and_image",
+      "task": "triangle_counting",
+      "image_type": "spring",
+      "model": "Phi-4-multimodal-instruct",
+      "file_name": "spring_Phi-4-multimodal-instruct.jsonl",
+      "sample_id": "triangle_counting/adjacency/test/56",
+      "answer": "True"
+    },
+    {
+      "setting": "text_and_image",
+      "task": "triangle_counting",
+      "image_type": "spring",
+      "model": "Phi-4-multimodal-instruct",
+      "file_name": "spring_Phi-4-multimodal-instruct.jsonl",
+      "sample_id": "triangle_counting/adjacency/test/58",
+      "answer": "True"
+    },
+    {
+      "setting": "text_and_image",
+      "task": "triangle_counting",
+      "image_type": "spring",
+      "model": "Phi-4-multimodal-instruct",
+      "file_name": "spring_Phi-4-multimodal-instruct.jsonl",
+      "sample_id": "triangle_counting/adjacency/test/61",
+      "answer": "False"
+    },
+    {
+      "setting": "text_and_image",
+      "task": "triangle_counting",
+      "image_type": "spring",
+      "model": "Phi-4-multimodal-instruct",
+      "file_name": "spring_Phi-4-multimodal-instruct.jsonl",
+      "sample_id": "triangle_counting/adjacency/test/79",
+      "answer": "True"
+    },
+    {
+      "setting": "text_and_image",
+      "task": "triangle_counting",
+      "image_type": "spring",
+      "model": "Phi-4-multimodal-instruct",
+      "file_name": "spring_Phi-4-multimodal-instruct.jsonl",
+      "sample_id": "triangle_counting/adjacency/test/83",
+      "answer": "True"
+    },
+    {
+      "setting": "text_and_image",
+      "task": "triangle_counting",
+      "image_type": "spring",
+      "model": "Phi-4-multimodal-instruct",
+      "file_name": "spring_Phi-4-multimodal-instruct.jsonl",
+      "sample_id": "triangle_counting/adjacency/test/85",
+      "answer": "True"
+    },
+    {
+      "setting": "text_and_image",
+      "task": "triangle_counting",
+      "image_type": "spring",
+      "model": "Phi-4-multimodal-instruct",
+      "file_name": "spring_Phi-4-multimodal-instruct.jsonl",
+      "sample_id": "triangle_counting/adjacency/test/93",
+      "answer": "True"
+    },
+    {
+      "setting": "text_and_image",
+      "task": "triangle_counting",
+      "image_type": "spring",
+      "model": "Phi-4-multimodal-instruct",
+      "file_name": "spring_Phi-4-multimodal-instruct.jsonl",
+      "sample_id": "triangle_counting/adjacency/test/97",
+      "answer": "True"
+    },
+    {
+      "setting": "text_and_image",
+      "task": "triangle_counting",
+      "image_type": "spring",
+      "model": "Phi-4-multimodal-instruct",
+      "file_name": "spring_Phi-4-multimodal-instruct.jsonl",
+      "sample_id": "triangle_counting/adjacency/test/98",
+      "answer": "True"
+    },
+    {
+      "setting": "text_and_image",
+      "task": "triangle_counting",
+      "image_type": "spring",
+      "model": "Phi-4-multimodal-instruct",
+      "file_name": "spring_Phi-4-multimodal-instruct.jsonl",
+      "sample_id": "triangle_counting/adjacency/test/100",
+      "answer": "True"
+    },
+    {
+      "setting": "text_and_image",
+      "task": "triangle_counting",
+      "image_type": "spring",
+      "model": "Phi-4-multimodal-instruct",
+      "file_name": "spring_Phi-4-multimodal-instruct.jsonl",
+      "sample_id": "triangle_counting/adjacency/test/103",
+      "answer": "True"
+    },
+    {
+      "setting": "text_and_image",
+      "task": "triangle_counting",
+      "image_type": "spring",
+      "model": "Phi-4-multimodal-instruct",
+      "file_name": "spring_Phi-4-multimodal-instruct.jsonl",
+      "sample_id": "triangle_counting/adjacency/test/106",
+      "answer": "True"
+    },
+    {
+      "setting": "text_and_image",
+      "task": "triangle_counting",
+      "image_type": "spring",
+      "model": "Phi-4-multimodal-instruct",
+      "file_name": "spring_Phi-4-multimodal-instruct.jsonl",
+      "sample_id": "triangle_counting/adjacency/test/111",
+      "answer": "True?"
+    },
+    {
+      "setting": "text_and_image",
+      "task": "triangle_counting",
+      "image_type": "spring",
+      "model": "Phi-4-multimodal-instruct",
+      "file_name": "spring_Phi-4-multimodal-instruct.jsonl",
+      "sample_id": "triangle_counting/adjacency/test/112",
+      "answer": "True"
+    },
+    {
+      "setting": "text_and_image",
+      "task": "triangle_counting",
+      "image_type": "spring",
+      "model": "Phi-4-multimodal-instruct",
+      "file_name": "spring_Phi-4-multimodal-instruct.jsonl",
+      "sample_id": "triangle_counting/adjacency/test/114",
+      "answer": "True"
+    },
+    {
+      "setting": "text_and_image",
+      "task": "triangle_counting",
+      "image_type": "spring",
+      "model": "Phi-4-multimodal-instruct",
+      "file_name": "spring_Phi-4-multimodal-instruct.jsonl",
+      "sample_id": "triangle_counting/adjacency/test/119",
+      "answer": "True"
+    },
+    {
+      "setting": "text_and_image",
+      "task": "triangle_counting",
+      "image_type": "spring",
+      "model": "Phi-4-multimodal-instruct",
+      "file_name": "spring_Phi-4-multimodal-instruct.jsonl",
+      "sample_id": "triangle_counting/adjacency/test/120",
+      "answer": "True"
+    },
+    {
+      "setting": "text_and_image",
+      "task": "triangle_counting",
+      "image_type": "spring",
+      "model": "Phi-4-multimodal-instruct",
+      "file_name": "spring_Phi-4-multimodal-instruct.jsonl",
+      "sample_id": "triangle_counting/adjacency/test/122",
+      "answer": "True"
+    },
+    {
+      "setting": "text_and_image",
+      "task": "triangle_counting",
+      "image_type": "spring",
+      "model": "Phi-4-multimodal-instruct",
+      "file_name": "spring_Phi-4-multimodal-instruct.jsonl",
+      "sample_id": "triangle_counting/adjacency/test/123",
+      "answer": "True"
+    },
+    {
+      "setting": "text_and_image",
+      "task": "triangle_counting",
+      "image_type": "spring",
+      "model": "Phi-4-multimodal-instruct",
+      "file_name": "spring_Phi-4-multimodal-instruct.jsonl",
+      "sample_id": "triangle_counting/adjacency/test/124",
+      "answer": "True"
+    },
+    {
+      "setting": "text_and_image",
+      "task": "triangle_counting",
+      "image_type": "spring",
+      "model": "Phi-4-multimodal-instruct",
+      "file_name": "spring_Phi-4-multimodal-instruct.jsonl",
+      "sample_id": "triangle_counting/adjacency/test/128",
+      "answer": "True, which. yes. for graph. in, for which for sequential for sequential graph for both for a input in a._none. sequential graph. forany. yes. yes, respectively, for. For. for for. for. for. for, forany, for. for."
+    },
+    {
+      "setting": "text_and_image",
+      "task": "triangle_counting",
+      "image_type": "spring",
+      "model": "Phi-4-multimodal-instruct",
+      "file_name": "spring_Phi-4-multimodal-instruct.jsonl",
+      "sample_id": "triangle_counting/adjacency/test/131",
+      "answer": "True"
+    },
+    {
+      "setting": "text_and_image",
+      "task": "triangle_counting",
+      "image_type": "spring",
+      "model": "Phi-4-multimodal-instruct",
+      "file_name": "spring_Phi-4-multimodal-instruct.jsonl",
+      "sample_id": "triangle_counting/adjacency/test/133",
+      "answer": "True"
+    },
+    {
+      "setting": "text_and_image",
+      "task": "triangle_counting",
+      "image_type": "spring",
+      "model": "Phi-4-multimodal-instruct",
+      "file_name": "spring_Phi-4-multimodal-instruct.jsonl",
+      "sample_id": "triangle_counting/adjacency/test/134",
+      "answer": "True"
+    },
+    {
+      "setting": "text_and_image",
+      "task": "triangle_counting",
+      "image_type": "spring",
+      "model": "Phi-4-multimodal-instruct",
+      "file_name": "spring_Phi-4-multimodal-instruct.jsonl",
+      "sample_id": "triangle_counting/adjacency/test/140",
+      "answer": "True"
+    },
+    {
+      "setting": "text_and_image",
+      "task": "triangle_counting",
+      "image_type": "spring",
+      "model": "Phi-4-multimodal-instruct",
+      "file_name": "spring_Phi-4-multimodal-instruct.jsonl",
+      "sample_id": "triangle_counting/adjacency/test/145",
+      "answer": "True"
+    },
+    {
+      "setting": "text_and_image",
+      "task": "triangle_counting",
+      "image_type": "spring",
+      "model": "Phi-4-multimodal-instruct",
+      "file_name": "spring_Phi-4-multimodal-instruct.jsonl",
+      "sample_id": "triangle_counting/adjacency/test/148",
+      "answer": "True"
+    },
+    {
+      "setting": "text_and_image",
+      "task": "triangle_counting",
+      "image_type": "spring",
+      "model": "Phi-4-multimodal-instruct",
+      "file_name": "spring_Phi-4-multimodal-instruct.jsonl",
+      "sample_id": "triangle_counting/adjacency/test/149",
+      "answer": "True"
+    },
+    {
+      "setting": "text_and_image",
+      "task": "triangle_counting",
+      "image_type": "spring",
+      "model": "Phi-4-multimodal-instruct",
+      "file_name": "spring_Phi-4-multimodal-instruct.jsonl",
+      "sample_id": "triangle_counting/adjacency/test/178",
+      "answer": "3) (1 ( ( (1, 1,1, in-re) in indirectly, as,"
+    },
+    {
+      "setting": "text_and_image",
+      "task": "triangle_counting",
+      "image_type": "spring",
+      "model": "Phi-4-multimodal-instruct",
+      "file_name": "spring_Phi-4-multimodal-instruct.jsonl",
+      "sample_id": "triangle_counting/adjacency/test/179",
+      "answer": "3,,, by (1 (1-  (1; 1,,, (0,"
+    },
+    {
+      "setting": "text_and_image",
+      "task": "triangle_counting",
+      "image_type": "spring",
+      "model": "Phi-4-multimodal-instruct",
+      "file_name": "spring_Phi-4-multimodal-instruct.jsonl",
+      "sample_id": "triangle_counting/adjacency/test/183",
+      "answer": "3, which. (0, in the in a, in the graph in. 1, to, in both is for the, and in the graph, and in a in a, and graph, graph in, output, 1, graph. 1, in- given graph, inext. in"
+    },
+    {
+      "setting": "text_and_image",
+      "task": "triangle_counting",
+      "image_type": "spring",
+      "model": "Phi-4-multimodal-instruct",
+      "file_name": "spring_Phi-4-multimodal-instruct.jsonl",
+      "sample_id": "triangle_counting/adjacency/test/200",
+      "answer": "True"
+    },
+    {
+      "setting": "text_and_image",
+      "task": "triangle_counting",
+      "image_type": "spring",
+      "model": "Phi-4-multimodal-instruct",
+      "file_name": "spring_Phi-4-multimodal-instruct.jsonl",
+      "sample_id": "triangle_counting/adjacency/test/201",
+      "answer": "True"
+    },
+    {
+      "setting": "text_and_image",
+      "task": "triangle_counting",
+      "image_type": "spring",
+      "model": "Phi-4-multimodal-instruct",
+      "file_name": "spring_Phi-4-multimodal-instruct.jsonl",
+      "sample_id": "triangle_counting/adjacency/test/203",
+      "answer": "True"
+    },
+    {
+      "setting": "text_and_image",
+      "task": "triangle_counting",
+      "image_type": "spring",
+      "model": "Phi-4-multimodal-instruct",
+      "file_name": "spring_Phi-4-multimodal-instruct.jsonl",
+      "sample_id": "triangle_counting/adjacency/test/204",
+      "answer": "False"
+    },
+    {
+      "setting": "text_and_image",
+      "task": "triangle_counting",
+      "image_type": "spring",
+      "model": "Phi-4-multimodal-instruct",
+      "file_name": "spring_Phi-4-multimodal-instruct.jsonl",
+      "sample_id": "triangle_counting/adjacency/test/205",
+      "answer": "True"
+    },
+    {
+      "setting": "text_and_image",
+      "task": "triangle_counting",
+      "image_type": "spring",
+      "model": "Phi-4-multimodal-instruct",
+      "file_name": "spring_Phi-4-multimodal-instruct.jsonl",
+      "sample_id": "triangle_counting/adjacency/test/206",
+      "answer": "True"
+    },
+    {
+      "setting": "text_and_image",
+      "task": "triangle_counting",
+      "image_type": "spring",
+      "model": "Phi-4-multimodal-instruct",
+      "file_name": "spring_Phi-4-multimodal-instruct.jsonl",
+      "sample_id": "triangle_counting/adjacency/test/208",
+      "answer": "False"
+    },
+    {
+      "setting": "text_and_image",
+      "task": "triangle_counting",
+      "image_type": "spring",
+      "model": "Phi-4-multimodal-instruct",
+      "file_name": "spring_Phi-4-multimodal-instruct.jsonl",
+      "sample_id": "triangle_counting/adjacency/test/210",
+      "answer": "8? 1,: (1, 6, in{1- in. 1,1, 1-2,1-1conto-1-1octomore...remo, mostly,1.  or. 61-1overany, 6, in"
+    },
+    {
+      "setting": "text_and_image",
+      "task": "triangle_counting",
+      "image_type": "spring",
+      "model": "Phi-4-multimodal-instruct",
+      "file_name": "spring_Phi-4-multimodal-instruct.jsonl",
+      "sample_id": "triangle_counting/adjacency/test/211",
+      "answer": "True"
+    },
+    {
+      "setting": "text_and_image",
+      "task": "triangle_counting",
+      "image_type": "spring",
+      "model": "Phi-4-multimodal-instruct",
+      "file_name": "spring_Phi-4-multimodal-instruct.jsonl",
+      "sample_id": "triangle_counting/adjacency/test/212",
+      "answer": "True"
+    },
+    {
+      "setting": "text_and_image",
+      "task": "triangle_counting",
+      "image_type": "spring",
+      "model": "Phi-4-multimodal-instruct",
+      "file_name": "spring_Phi-4-multimodal-instruct.jsonl",
+      "sample_id": "triangle_counting/adjacency/test/213",
+      "answer": "True"
+    },
+    {
+      "setting": "text_and_image",
+      "task": "triangle_counting",
+      "image_type": "spring",
+      "model": "Phi-4-multimodal-instruct",
+      "file_name": "spring_Phi-4-multimodal-instruct.jsonl",
+      "sample_id": "triangle_counting/adjacency/test/214",
+      "answer": "True"
+    },
+    {
+      "setting": "text_and_image",
+      "task": "triangle_counting",
+      "image_type": "spring",
+      "model": "Phi-4-multimodal-instruct",
+      "file_name": "spring_Phi-4-multimodal-instruct.jsonl",
+      "sample_id": "triangle_counting/adjacency/test/215",
+      "answer": "28, which. in. in. in the. in the graph. in. in. to nested. in both. for a graph in. ingraph, in any in a-da, in a graph, in nested graph, and graph. in, 7 in- in graph"
+    },
+    {
+      "setting": "text_and_image",
+      "task": "triangle_counting",
+      "image_type": "spring",
+      "model": "Phi-4-multimodal-instruct",
+      "file_name": "spring_Phi-4-multimodal-instruct.jsonl",
+      "sample_id": "triangle_counting/adjacency/test/219",
+      "answer": "True slightly infutwexgbothp response, a, 9, in. answer, for, prompt. yes, for\nper, for, for-foranswer.forrexpremptemanybeanyexptobanybptfor, for, for,ome, respectively, for"
+    },
+    {
+      "setting": "text_and_image",
+      "task": "triangle_counting",
+      "image_type": "spring",
+      "model": "Phi-4-multimodal-instruct",
+      "file_name": "spring_Phi-4-multimodal-instruct.jsonl",
+      "sample_id": "triangle_counting/adjacency/test/220",
+      "answer": "False."
+    },
+    {
+      "setting": "text_and_image",
+      "task": "triangle_counting",
+      "image_type": "spring",
+      "model": "Phi-4-multimodal-instruct",
+      "file_name": "spring_Phi-4-multimodal-instruct.jsonl",
+      "sample_id": "triangle_counting/adjacency/test/222",
+      "answer": "True"
+    },
+    {
+      "setting": "text_and_image",
+      "task": "triangle_counting",
+      "image_type": "spring",
+      "model": "Phi-4-multimodal-instruct",
+      "file_name": "spring_Phi-4-multimodal-instruct.jsonl",
+      "sample_id": "triangle_counting/adjacency/test/223",
+      "answer": "True"
+    },
+    {
+      "setting": "text_and_image",
+      "task": "triangle_counting",
+      "image_type": "spring",
+      "model": "Phi-4-multimodal-instruct",
+      "file_name": "spring_Phi-4-multimodal-instruct.jsonl",
+      "sample_id": "triangle_counting/adjacency/test/224",
+      "answer": "True"
+    },
+    {
+      "setting": "text_and_image",
+      "task": "triangle_counting",
+      "image_type": "spring",
+      "model": "Phi-4-multimodal-instruct",
+      "file_name": "spring_Phi-4-multimodal-instruct.jsonl",
+      "sample_id": "triangle_counting/adjacency/test/226",
+      "answer": "True"
+    },
+    {
+      "setting": "text_and_image",
+      "task": "triangle_counting",
+      "image_type": "spring",
+      "model": "Phi-4-multimodal-instruct",
+      "file_name": "spring_Phi-4-multimodal-instruct.jsonl",
+      "sample_id": "triangle_counting/adjacency/test/228",
+      "answer": "True"
+    },
+    {
+      "setting": "text_and_image",
+      "task": "triangle_counting",
+      "image_type": "spring",
+      "model": "Phi-4-multimodal-instruct",
+      "file_name": "spring_Phi-4-multimodal-instruct.jsonl",
+      "sample_id": "triangle_counting/adjacency/test/229",
+      "answer": "True"
+    },
+    {
+      "setting": "text_and_image",
+      "task": "triangle_counting",
+      "image_type": "spring",
+      "model": "Phi-4-multimodal-instruct",
+      "file_name": "spring_Phi-4-multimodal-instruct.jsonl",
+      "sample_id": "triangle_counting/adjacency/test/230",
+      "answer": "True"
+    },
+    {
+      "setting": "text_and_image",
+      "task": "triangle_counting",
+      "image_type": "spring",
+      "model": "Phi-4-multimodal-instruct",
+      "file_name": "spring_Phi-4-multimodal-instruct.jsonl",
+      "sample_id": "triangle_counting/adjacency/test/231",
+      "answer": "True"
+    },
+    {
+      "setting": "text_and_image",
+      "task": "triangle_counting",
+      "image_type": "spring",
+      "model": "Phi-4-multimodal-instruct",
+      "file_name": "spring_Phi-4-multimodal-instruct.jsonl",
+      "sample_id": "triangle_counting/adjacency/test/233",
+      "answer": "False"
+    },
+    {
+      "setting": "text_and_image",
+      "task": "triangle_counting",
+      "image_type": "spring",
+      "model": "Phi-4-multimodal-instruct",
+      "file_name": "spring_Phi-4-multimodal-instruct.jsonl",
+      "sample_id": "triangle_counting/adjacency/test/234",
+      "answer": "True"
+    },
+    {
+      "setting": "text_and_image",
+      "task": "triangle_counting",
+      "image_type": "spring",
+      "model": "Phi-4-multimodal-instruct",
+      "file_name": "spring_Phi-4-multimodal-instruct.jsonl",
+      "sample_id": "triangle_counting/adjacency/test/235",
+      "answer": "True"
+    },
+    {
+      "setting": "text_and_image",
+      "task": "triangle_counting",
+      "image_type": "spring",
+      "model": "Phi-4-multimodal-instruct",
+      "file_name": "spring_Phi-4-multimodal-instruct.jsonl",
+      "sample_id": "triangle_counting/adjacency/test/237",
+      "answer": "True"
+    },
+    {
+      "setting": "text_and_image",
+      "task": "triangle_counting",
+      "image_type": "spring",
+      "model": "Phi-4-multimodal-instruct",
+      "file_name": "spring_Phi-4-multimodal-instruct.jsonl",
+      "sample_id": "triangle_counting/adjacency/test/240",
+      "answer": "True"
+    },
+    {
+      "setting": "text_and_image",
+      "task": "triangle_counting",
+      "image_type": "spring",
+      "model": "Phi-4-multimodal-instruct",
+      "file_name": "spring_Phi-4-multimodal-instruct.jsonl",
+      "sample_id": "triangle_counting/adjacency/test/241",
+      "answer": "True"
+    },
+    {
+      "setting": "text_and_image",
+      "task": "triangle_counting",
+      "image_type": "spring",
+      "model": "Phi-4-multimodal-instruct",
+      "file_name": "spring_Phi-4-multimodal-instruct.jsonl",
+      "sample_id": "triangle_counting/adjacency/test/243",
+      "answer": "True"
+    },
+    {
+      "setting": "text_and_image",
+      "task": "triangle_counting",
+      "image_type": "spring",
+      "model": "Phi-4-multimodal-instruct",
+      "file_name": "spring_Phi-4-multimodal-instruct.jsonl",
+      "sample_id": "triangle_counting/adjacency/test/245",
+      "answer": "True"
+    },
+    {
+      "setting": "text_and_image",
+      "task": "triangle_counting",
+      "image_type": "spring",
+      "model": "Phi-4-multimodal-instruct",
+      "file_name": "spring_Phi-4-multimodal-instruct.jsonl",
+      "sample_id": "triangle_counting/adjacency/test/247",
+      "answer": "True"
+    },
+    {
+      "setting": "text_and_image",
+      "task": "triangle_counting",
+      "image_type": "spring",
+      "model": "Phi-4-multimodal-instruct",
+      "file_name": "spring_Phi-4-multimodal-instruct.jsonl",
+      "sample_id": "triangle_counting/adjacency/test/248",
+      "answer": "False"
+    },
+    {
+      "setting": "text_and_image",
+      "task": "triangle_counting",
+      "image_type": "spring",
+      "model": "Phi-4-multimodal-instruct",
+      "file_name": "spring_Phi-4-multimodal-instruct.jsonl",
+      "sample_id": "triangle_counting/adjacency/test/249",
+      "answer": "False"
+    },
+    {
+      "setting": "text_and_image",
+      "task": "triangle_counting",
+      "image_type": "spring",
+      "model": "Phi-4-multimodal-instruct",
+      "file_name": "spring_Phi-4-multimodal-instruct.jsonl",
+      "sample_id": "triangle_counting/adjacency/test/265",
+      "answer": "0 ( and, 1 ( ( ( (1response (1atexta (1- (1- (1-1 (1-1, (1-1- (1_conta.h_1, 5- 4. 1_cont. 4_1_1. (by"
+    },
+    {
+      "setting": "text_and_image",
+      "task": "triangle_counting",
+      "image_type": "spring",
+      "model": "Phi-4-multimodal-instruct",
+      "file_name": "spring_Phi-4-multimodal-instruct.jsonl",
+      "sample_id": "triangle_counting/adjacency/test/323",
+      "answer": "0, both a recordum, a/1, (1, (1 ( (1, by (1 (1 (1 (1ore-p- (1, answer in. by, by. (1, in, in (1, in a, in both, in, prompt, both,"
+    },
+    {
+      "setting": "text_and_image",
+      "task": "triangle_counting",
+      "image_type": "spring",
+      "model": "Phi-4-multimodal-instruct",
+      "file_name": "spring_Phi-4-multimodal-instruct.jsonl",
+      "sample_id": "triangle_counting/adjacency/test/324",
+      "answer": "0,, 1ourone, recconto (1 ( ( for (1, (0, (1, (1, 1, 0, 1, 1, 1, in (1, in.1, in, by (1.0, as, toggle,"
     },
     {
       "setting": "text_only",
@@ -1725,5 +4517,5 @@
       "answer": "False"
     }
   ],
-  "wrong_format_count": 12
+  "wrong_format_count": 210
 }
