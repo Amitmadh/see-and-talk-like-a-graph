@@ -1,0 +1,1109 @@
+[
+  {
+    "sample_id": "disconnected_nodes/adjacency/test/2",
+    "question": "Q: List all the nodes that are not connected to 0 in alphabetical order.\nA: ",
+    "expected_answer": "2, 3, 4.",
+    "model_answer": "1, 2, 3, 4",
+    "model": "Phi-4-multimodal-instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1, 2, 3, 4",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "1, 2, 3, 4.",
+    "corrupted_answer": "2, 3, 4.",
+    "corruption": {
+      "type": "add_edge",
+      "edge": [
+        0,
+        1
+      ]
+    }
+  },
+  {
+    "sample_id": "disconnected_nodes/adjacency/test/9",
+    "question": "Q: List all the nodes that are not connected to 3 in alphabetical order.\nA: ",
+    "expected_answer": "0, 1, 2, 4, 6, 7.",
+    "model_answer": "0, 1, 2, 4, 5, 6, 7",
+    "model": "Phi-4-multimodal-instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0, 1, 2, 4, 5, 6, 7",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "0, 2, 4, 6, 7.",
+    "corrupted_answer": "0, 1, 2, 4, 6, 7.",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        3,
+        1
+      ]
+    }
+  },
+  {
+    "sample_id": "disconnected_nodes/adjacency/test/27",
+    "question": "Q: List all the nodes that are not connected to 0 in alphabetical order.\nA: ",
+    "expected_answer": "1, 2, 3, 4.",
+    "model_answer": "1, 2, 3, 4",
+    "model": "Phi-4-multimodal-instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1, 2, 3, 4",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "1, 2, 4.",
+    "corrupted_answer": "1, 2, 3, 4.",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        0,
+        3
+      ]
+    }
+  },
+  {
+    "sample_id": "disconnected_nodes/adjacency/test/37",
+    "question": "Q: List all the nodes that are not connected to 4 in alphabetical order.\nA: ",
+    "expected_answer": "0, 1, 2, 3, 5, 6, 7, 8, 10, 11, 13.",
+    "model_answer": "0, 1, 2, 3, 5, 6, 7, 8, 9, 10, 11, 12, 13",
+    "model": "Phi-4-multimodal-instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0, 1, 2, 3, 5, 6, 7, 8, 9, 10, 11, 12, 13",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "0, 1, 10, 11, 13, 2, 3, 6, 7, 8.",
+    "corrupted_answer": "0, 1, 2, 3, 5, 6, 7, 8, 10, 11, 13.",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        4,
+        5
+      ]
+    }
+  },
+  {
+    "sample_id": "disconnected_nodes/adjacency/test/38",
+    "question": "Q: List all the nodes that are not connected to 4 in alphabetical order.\nA: ",
+    "expected_answer": "1, 2, 3.",
+    "model_answer": "0, 1, 2, 3",
+    "model": "Phi-4-multimodal-instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0, 1, 2, 3",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "0, 1, 2, 3.",
+    "corrupted_answer": "1, 2, 3.",
+    "corruption": {
+      "type": "add_edge",
+      "edge": [
+        4,
+        0
+      ]
+    }
+  },
+  {
+    "sample_id": "disconnected_nodes/adjacency/test/42",
+    "question": "Q: List all the nodes that are not connected to 7 in alphabetical order.\nA: ",
+    "expected_answer": "1, 2, 3, 4, 5, 6, 8.",
+    "model_answer": "0, 1, 2, 3, 4, 5, 6, 8",
+    "model": "Phi-4-multimodal-instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0, 1, 2, 3, 4, 5, 6, 8",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "0, 1, 2, 3, 4, 5, 6, 8.",
+    "corrupted_answer": "1, 2, 3, 4, 5, 6, 8.",
+    "corruption": {
+      "type": "add_edge",
+      "edge": [
+        7,
+        0
+      ]
+    }
+  },
+  {
+    "sample_id": "disconnected_nodes/adjacency/test/46",
+    "question": "Q: List all the nodes that are not connected to 1 in alphabetical order.\nA: ",
+    "expected_answer": "2, 3, 4.",
+    "model_answer": "0, 2, 3, 4",
+    "model": "Phi-4-multimodal-instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0, 2, 3, 4",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "0, 2, 3, 4.",
+    "corrupted_answer": "2, 3, 4.",
+    "corruption": {
+      "type": "add_edge",
+      "edge": [
+        1,
+        0
+      ]
+    }
+  },
+  {
+    "sample_id": "disconnected_nodes/adjacency/test/65",
+    "question": "Q: List all the nodes that are not connected to 3 in alphabetical order.\nA: ",
+    "expected_answer": "0, 1, 2, 4, 5, 6, 7, 8.",
+    "model_answer": "1, 2, 4, 5, 6, 7, 8",
+    "model": "Phi-4-multimodal-instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1, 2, 4, 5, 6, 7, 8",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "1, 2, 4, 5, 6, 7, 8.",
+    "corrupted_answer": "0, 1, 2, 4, 5, 6, 7, 8.",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        3,
+        0
+      ]
+    }
+  },
+  {
+    "sample_id": "disconnected_nodes/adjacency/test/69",
+    "question": "Q: List all the nodes that are not connected to 1 in alphabetical order.\nA: ",
+    "expected_answer": "0, 2, 3, 4, 5, 6, 7, 8, 9.",
+    "model_answer": "2, 3, 4, 5, 6, 7, 8, 9",
+    "model": "Phi-4-multimodal-instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2, 3, 4, 5, 6, 7, 8, 9",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "2, 3, 4, 5, 6, 7, 8, 9.",
+    "corrupted_answer": "0, 2, 3, 4, 5, 6, 7, 8, 9.",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        1,
+        0
+      ]
+    }
+  },
+  {
+    "sample_id": "disconnected_nodes/adjacency/test/70",
+    "question": "Q: List all the nodes that are not connected to 8 in alphabetical order.\nA: ",
+    "expected_answer": "0, 1, 2, 3, 4, 5, 6, 7, 9, 10, 11, 12, 13, 14.",
+    "model_answer": "1, 2, 3, 4, 5, 6, 7, 9, 10, 11, 12, 13, 14",
+    "model": "Phi-4-multimodal-instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1, 2, 3, 4, 5, 6, 7, 9, 10, 11, 12, 13, 14",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "1, 10, 11, 12, 13, 14, 2, 3, 4, 5, 6, 7, 9.",
+    "corrupted_answer": "0, 1, 2, 3, 4, 5, 6, 7, 9, 10, 11, 12, 13, 14.",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        8,
+        0
+      ]
+    }
+  },
+  {
+    "sample_id": "disconnected_nodes/adjacency/test/86",
+    "question": "Q: List all the nodes that are not connected to 3 in alphabetical order.\nA: ",
+    "expected_answer": "0, 1, 2, 4.",
+    "model_answer": "1, 2, 4",
+    "model": "Phi-4-multimodal-instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1, 2, 4",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "1, 2, 4.",
+    "corrupted_answer": "0, 1, 2, 4.",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        3,
+        0
+      ]
+    }
+  },
+  {
+    "sample_id": "disconnected_nodes/adjacency/test/94",
+    "question": "Q: List all the nodes that are not connected to 0 in alphabetical order.\nA: ",
+    "expected_answer": "1, 2, 3, 4, 5, 6.",
+    "model_answer": "2, 3, 4, 5, 6",
+    "model": "Phi-4-multimodal-instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2, 3, 4, 5, 6",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "2, 3, 4, 5, 6.",
+    "corrupted_answer": "1, 2, 3, 4, 5, 6.",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        0,
+        1
+      ]
+    }
+  },
+  {
+    "sample_id": "disconnected_nodes/adjacency/test/96",
+    "question": "Q: List all the nodes that are not connected to 4 in alphabetical order.\nA: ",
+    "expected_answer": "0, 1, 2, 3, 5.",
+    "model_answer": "0, 1, 2, 3, 5",
+    "model": "Phi-4-multimodal-instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0, 1, 2, 3, 5",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "1, 2, 3, 5.",
+    "corrupted_answer": "0, 1, 2, 3, 5.",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        4,
+        0
+      ]
+    }
+  },
+  {
+    "sample_id": "disconnected_nodes/adjacency/test/118",
+    "question": "Q: List all the nodes that are not connected to 1 in alphabetical order.\nA: ",
+    "expected_answer": "2, 3, 4, 5.",
+    "model_answer": "0, 2, 3, 4, 5",
+    "model": "Phi-4-multimodal-instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0, 2, 3, 4, 5",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "0, 2, 3, 4, 5.",
+    "corrupted_answer": "2, 3, 4, 5.",
+    "corruption": {
+      "type": "add_edge",
+      "edge": [
+        1,
+        0
+      ]
+    }
+  },
+  {
+    "sample_id": "disconnected_nodes/adjacency/test/139",
+    "question": "Q: List all the nodes that are not connected to 5 in alphabetical order.\nA: ",
+    "expected_answer": "1, 2, 3, 4.",
+    "model_answer": "0, 1, 2, 3, 4",
+    "model": "Phi-4-multimodal-instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0, 1, 2, 3, 4",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "0, 1, 2, 3, 4.",
+    "corrupted_answer": "1, 2, 3, 4.",
+    "corruption": {
+      "type": "add_edge",
+      "edge": [
+        5,
+        0
+      ]
+    }
+  },
+  {
+    "sample_id": "disconnected_nodes/adjacency/test/187",
+    "question": "Q: List all the nodes that are not connected to 2 in alphabetical order.\nA: ",
+    "expected_answer": "0, 3, 4, 5, 6, 7, 8, 9.",
+    "model_answer": "3, 4, 5, 6, 7, 8, 9",
+    "model": "Phi-4-multimodal-instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3, 4, 5, 6, 7, 8, 9",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "3, 4, 5, 6, 7, 8, 9.",
+    "corrupted_answer": "0, 3, 4, 5, 6, 7, 8, 9.",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        2,
+        0
+      ]
+    }
+  },
+  {
+    "sample_id": "disconnected_nodes/adjacency/test/188",
+    "question": "Q: List all the nodes that are not connected to 3 in alphabetical order.\nA: ",
+    "expected_answer": "0, 1, 2, 4, 5, 6, 7.",
+    "model_answer": "0, 1, 4, 5, 6, 7",
+    "model": "Phi-4-multimodal-instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0, 1, 4, 5, 6, 7",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "0, 1, 4, 5, 6, 7.",
+    "corrupted_answer": "0, 1, 2, 4, 5, 6, 7.",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        3,
+        2
+      ]
+    }
+  },
+  {
+    "sample_id": "disconnected_nodes/adjacency/test/194",
+    "question": "Q: List all the nodes that are not connected to 1 in alphabetical order.\nA: ",
+    "expected_answer": "0, 3, 4, 5.",
+    "model_answer": "3, 4, 5",
+    "model": "Phi-4-multimodal-instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3, 4, 5",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "3, 4, 5.",
+    "corrupted_answer": "0, 3, 4, 5.",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        1,
+        0
+      ]
+    }
+  },
+  {
+    "sample_id": "disconnected_nodes/adjacency/test/253",
+    "question": "Q: List all the nodes that are not connected to 0 in alphabetical order.\nA: ",
+    "expected_answer": "1.",
+    "model_answer": "False",
+    "model": "Phi-4-multimodal-instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "False",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "No nodes.",
+    "corrupted_answer": "1.",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        0,
+        1
+      ]
+    }
+  },
+  {
+    "sample_id": "disconnected_nodes/adjacency/test/256",
+    "question": "Q: List all the nodes that are not connected to 1 in alphabetical order.\nA: ",
+    "expected_answer": "0, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14.",
+    "model_answer": "3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14",
+    "model": "Phi-4-multimodal-instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "10, 11, 12, 13, 14, 2, 3, 4, 5, 6, 7, 8, 9.",
+    "corrupted_answer": "0, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14.",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        1,
+        0
+      ]
+    }
+  },
+  {
+    "sample_id": "disconnected_nodes/adjacency/test/259",
+    "question": "Q: List all the nodes that are not connected to 2 in alphabetical order.\nA: ",
+    "expected_answer": "0, 1, 3, 4, 5.",
+    "model_answer": "1, 3, 4, 5",
+    "model": "Phi-4-multimodal-instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1, 3, 4, 5",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "1, 3, 4, 5.",
+    "corrupted_answer": "0, 1, 3, 4, 5.",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        2,
+        0
+      ]
+    }
+  },
+  {
+    "sample_id": "disconnected_nodes/adjacency/test/262",
+    "question": "Q: List all the nodes that are not connected to 4 in alphabetical order.\nA: ",
+    "expected_answer": "0, 1, 2, 3, 5, 6, 7, 8, 9, 10, 11, 12.",
+    "model_answer": "0, 2, 3, 5, 6, 7, 8, 9, 10, 11, 12",
+    "model": "Phi-4-multimodal-instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0, 2, 3, 5, 6, 7, 8, 9, 10, 11, 12",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "1, 10, 11, 12, 2, 3, 5, 6, 7, 8, 9.",
+    "corrupted_answer": "0, 1, 2, 3, 5, 6, 7, 8, 9, 10, 11, 12.",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        4,
+        0
+      ]
+    }
+  },
+  {
+    "sample_id": "disconnected_nodes/adjacency/test/266",
+    "question": "Q: List all the nodes that are not connected to 4 in alphabetical order.\nA: ",
+    "expected_answer": "0, 1, 2, 3, 5, 6.",
+    "model_answer": "1, 2, 3, 5, 6",
+    "model": "Phi-4-multimodal-instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1, 2, 3, 5, 6",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "1, 2, 3, 5, 6.",
+    "corrupted_answer": "0, 1, 2, 3, 5, 6.",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        4,
+        0
+      ]
+    }
+  },
+  {
+    "sample_id": "disconnected_nodes/adjacency/test/268",
+    "question": "Q: List all the nodes that are not connected to 4 in alphabetical order.\nA: ",
+    "expected_answer": "0, 1, 2, 3, 5, 6.",
+    "model_answer": "1, 2, 3, 5, 6",
+    "model": "Phi-4-multimodal-instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1, 2, 3, 5, 6",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "1, 2, 3, 5, 6.",
+    "corrupted_answer": "0, 1, 2, 3, 5, 6.",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        4,
+        0
+      ]
+    }
+  },
+  {
+    "sample_id": "disconnected_nodes/adjacency/test/270",
+    "question": "Q: List all the nodes that are not connected to 8 in alphabetical order.\nA: ",
+    "expected_answer": "0, 1, 2, 3, 4, 5, 6, 7, 9, 10, 11, 12, 13, 14, 15, 16, 17.",
+    "model_answer": "1, 2, 3, 4, 5, 6, 7, 9, 10, 11, 12, 13, 14, 15, 16, 17",
+    "model": "Phi-4-multimodal-instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1, 2, 3, 4, 5, 6, 7, 9, 10, 11, 12, 13, 14, 15, 16, 17",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "1, 10, 11, 12, 13, 14, 15, 16, 17, 2, 3, 4, 5, 6, 7, 9.",
+    "corrupted_answer": "0, 1, 2, 3, 4, 5, 6, 7, 9, 10, 11, 12, 13, 14, 15, 16, 17.",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        8,
+        0
+      ]
+    }
+  },
+  {
+    "sample_id": "disconnected_nodes/adjacency/test/271",
+    "question": "Q: List all the nodes that are not connected to 1 in alphabetical order.\nA: ",
+    "expected_answer": "0, 2, 3, 4, 5, 6, 7.",
+    "model_answer": "0, 2, 3, 4, 5, 6, 7",
+    "model": "Phi-4-multimodal-instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0, 2, 3, 4, 5, 6, 7",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "2, 3, 4, 5, 6, 7.",
+    "corrupted_answer": "0, 2, 3, 4, 5, 6, 7.",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        1,
+        0
+      ]
+    }
+  },
+  {
+    "sample_id": "disconnected_nodes/adjacency/test/272",
+    "question": "Q: List all the nodes that are not connected to 8 in alphabetical order.\nA: ",
+    "expected_answer": "0, 1, 2, 3, 4, 5, 6, 7, 9.",
+    "model_answer": "1, 2, 3, 4, 5, 6, 7, 9",
+    "model": "Phi-4-multimodal-instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1, 2, 3, 4, 5, 6, 7, 9",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "1, 2, 3, 4, 5, 6, 7, 9.",
+    "corrupted_answer": "0, 1, 2, 3, 4, 5, 6, 7, 9.",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        8,
+        0
+      ]
+    }
+  },
+  {
+    "sample_id": "disconnected_nodes/adjacency/test/277",
+    "question": "Q: List all the nodes that are not connected to 8 in alphabetical order.\nA: ",
+    "expected_answer": "0, 1, 2, 3, 4, 5, 6, 7.",
+    "model_answer": "1, 2, 3, 4, 5, 6, 7",
+    "model": "Phi-4-multimodal-instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1, 2, 3, 4, 5, 6, 7",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "1, 2, 3, 4, 5, 6, 7.",
+    "corrupted_answer": "0, 1, 2, 3, 4, 5, 6, 7.",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        8,
+        0
+      ]
+    }
+  },
+  {
+    "sample_id": "disconnected_nodes/adjacency/test/281",
+    "question": "Q: List all the nodes that are not connected to 4 in alphabetical order.\nA: ",
+    "expected_answer": "0, 1, 2, 3, 5, 6, 7, 8, 9.",
+    "model_answer": "1, 2, 3, 5, 6, 7, 8, 9",
+    "model": "Phi-4-multimodal-instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1, 2, 3, 5, 6, 7, 8, 9",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "1, 2, 3, 5, 6, 7, 8, 9.",
+    "corrupted_answer": "0, 1, 2, 3, 5, 6, 7, 8, 9.",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        4,
+        0
+      ]
+    }
+  },
+  {
+    "sample_id": "disconnected_nodes/adjacency/test/286",
+    "question": "Q: List all the nodes that are not connected to 8 in alphabetical order.\nA: ",
+    "expected_answer": "0, 1, 2, 3, 4, 5, 6, 7.",
+    "model_answer": "1, 2, 3, 4, 5, 6, 7",
+    "model": "Phi-4-multimodal-instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1, 2, 3, 4, 5, 6, 7",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "1, 2, 3, 4, 5, 6, 7.",
+    "corrupted_answer": "0, 1, 2, 3, 4, 5, 6, 7.",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        8,
+        0
+      ]
+    }
+  },
+  {
+    "sample_id": "disconnected_nodes/adjacency/test/287",
+    "question": "Q: List all the nodes that are not connected to 1 in alphabetical order.\nA: ",
+    "expected_answer": "0, 2, 3, 4, 5, 6, 7, 8, 9.",
+    "model_answer": "2, 3, 4, 5, 6, 7, 8, 9",
+    "model": "Phi-4-multimodal-instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2, 3, 4, 5, 6, 7, 8, 9",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "2, 3, 4, 5, 6, 7, 8, 9.",
+    "corrupted_answer": "0, 2, 3, 4, 5, 6, 7, 8, 9.",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        1,
+        0
+      ]
+    }
+  },
+  {
+    "sample_id": "disconnected_nodes/adjacency/test/292",
+    "question": "Q: List all the nodes that are not connected to 6 in alphabetical order.\nA: ",
+    "expected_answer": "0, 1, 2, 3, 4, 5.",
+    "model_answer": "1, 2, 3, 4, 5",
+    "model": "Phi-4-multimodal-instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1, 2, 3, 4, 5",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "1, 2, 3, 4, 5.",
+    "corrupted_answer": "0, 1, 2, 3, 4, 5.",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        6,
+        0
+      ]
+    }
+  },
+  {
+    "sample_id": "disconnected_nodes/adjacency/test/293",
+    "question": "Q: List all the nodes that are not connected to 0 in alphabetical order.\nA: ",
+    "expected_answer": "1.",
+    "model_answer": "1, 2, 3, 4, 5, 6, 7, 8, 9",
+    "model": "Phi-4-multimodal-instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1, 2, 3, 4, 5, 6, 7, 8, 9",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "No nodes.",
+    "corrupted_answer": "1.",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        0,
+        1
+      ]
+    }
+  },
+  {
+    "sample_id": "disconnected_nodes/adjacency/test/294",
+    "question": "Q: List all the nodes that are not connected to 3 in alphabetical order.\nA: ",
+    "expected_answer": "0, 1, 2, 4, 5.",
+    "model_answer": "0, 2, 4, 5",
+    "model": "Phi-4-multimodal-instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0, 2, 4, 5",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "1, 2, 4, 5.",
+    "corrupted_answer": "0, 1, 2, 4, 5.",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        3,
+        0
+      ]
+    }
+  },
+  {
+    "sample_id": "disconnected_nodes/adjacency/test/295",
+    "question": "Q: List all the nodes that are not connected to 0 in alphabetical order.\nA: ",
+    "expected_answer": "1.",
+    "model_answer": "False",
+    "model": "Phi-4-multimodal-instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "False",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "No nodes.",
+    "corrupted_answer": "1.",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        0,
+        1
+      ]
+    }
+  },
+  {
+    "sample_id": "disconnected_nodes/adjacency/test/296",
+    "question": "Q: List all the nodes that are not connected to 5 in alphabetical order.\nA: ",
+    "expected_answer": "0, 1, 2, 3, 4, 6.",
+    "model_answer": "1, 2, 3, 4, 6",
+    "model": "Phi-4-multimodal-instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1, 2, 3, 4, 6",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "1, 2, 3, 4, 6.",
+    "corrupted_answer": "0, 1, 2, 3, 4, 6.",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        5,
+        0
+      ]
+    }
+  },
+  {
+    "sample_id": "disconnected_nodes/adjacency/test/297",
+    "question": "Q: List all the nodes that are not connected to 1 in alphabetical order.\nA: ",
+    "expected_answer": "0, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15.",
+    "model_answer": "3, 4, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15",
+    "model": "Phi-4-multimodal-instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3, 4, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "10, 11, 12, 13, 14, 15, 2, 3, 4, 5, 6, 7, 8, 9.",
+    "corrupted_answer": "0, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15.",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        1,
+        0
+      ]
+    }
+  },
+  {
+    "sample_id": "disconnected_nodes/adjacency/test/305",
+    "question": "Q: List all the nodes that are not connected to 1 in alphabetical order.\nA: ",
+    "expected_answer": "0, 3, 4, 5, 6, 7, 8, 9, 10, 11.",
+    "model_answer": "3, 4, 5, 6, 7, 8, 9, 10, 11",
+    "model": "Phi-4-multimodal-instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3, 4, 5, 6, 7, 8, 9, 10, 11",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "10, 11, 3, 4, 5, 6, 7, 8, 9.",
+    "corrupted_answer": "0, 3, 4, 5, 6, 7, 8, 9, 10, 11.",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        1,
+        0
+      ]
+    }
+  },
+  {
+    "sample_id": "disconnected_nodes/adjacency/test/307",
+    "question": "Q: List all the nodes that are not connected to 2 in alphabetical order.\nA: ",
+    "expected_answer": "0, 1, 4, 5.",
+    "model_answer": "0, 4, 5",
+    "model": "Phi-4-multimodal-instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0, 4, 5",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "0, 4, 5.",
+    "corrupted_answer": "0, 1, 4, 5.",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        2,
+        1
+      ]
+    }
+  },
+  {
+    "sample_id": "disconnected_nodes/adjacency/test/331",
+    "question": "Q: List all the nodes that are not connected to 2 in alphabetical order.\nA: ",
+    "expected_answer": "0, 1, 4, 5, 6, 7, 8, 9.",
+    "model_answer": "0, 4, 5, 6, 7, 8, 9",
+    "model": "Phi-4-multimodal-instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0, 4, 5, 6, 7, 8, 9",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "0, 4, 5, 6, 7, 8, 9.",
+    "corrupted_answer": "0, 1, 4, 5, 6, 7, 8, 9.",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        2,
+        1
+      ]
+    }
+  },
+  {
+    "sample_id": "disconnected_nodes/adjacency/test/335",
+    "question": "Q: List all the nodes that are not connected to 2 in alphabetical order.\nA: ",
+    "expected_answer": "0, 1, 4, 5, 6, 7, 8, 9.",
+    "model_answer": "0, 4, 5, 6, 7, 8, 9",
+    "model": "Phi-4-multimodal-instruct",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0, 4, 5, 6, 7, 8, 9",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "0, 4, 5, 6, 7, 8, 9.",
+    "corrupted_answer": "0, 1, 4, 5, 6, 7, 8, 9.",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        2,
+        1
+      ]
+    }
+  }
+]
