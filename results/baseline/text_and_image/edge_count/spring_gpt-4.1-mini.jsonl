@@ -1,0 +1,6302 @@
+[
+  {
+    "sample_id": "edge_count/adjacency/test/0",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 18.",
+    "model_answer": "18",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "18",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/1",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 29.",
+    "model_answer": "30",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "30",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/2",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 1.",
+    "model_answer": "1",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/3",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 26.",
+    "model_answer": "27",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "27",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/4",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 32.",
+    "model_answer": "34",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "34",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/5",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 63.",
+    "model_answer": "66",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "66",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/6",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 10.",
+    "model_answer": "10",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "10",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/7",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 23.",
+    "model_answer": "23",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "23",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/8",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 49.",
+    "model_answer": "49",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "49",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/9",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 11.",
+    "model_answer": "11",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "11",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/10",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 34.",
+    "model_answer": "36",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "36",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/11",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 125.",
+    "model_answer": "136",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "136",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/12",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 74.",
+    "model_answer": "78",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "78",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/13",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 57.",
+    "model_answer": "66",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "66",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/14",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 17.",
+    "model_answer": "17",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "17",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/15",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 7.",
+    "model_answer": "7",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "7",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/16",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 10.",
+    "model_answer": "10",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "10",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/17",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 24.",
+    "model_answer": "24",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "24",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/18",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 6.",
+    "model_answer": "6",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "6",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/19",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 48.",
+    "model_answer": "52",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "52",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/20",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 16.",
+    "model_answer": "16",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "16",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/21",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 11.",
+    "model_answer": "11",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "11",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/22",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 65.",
+    "model_answer": "66",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "66",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/23",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 65.",
+    "model_answer": "78",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "78",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/24",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 34.",
+    "model_answer": "34",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "34",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/25",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 7.",
+    "model_answer": "7",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "7",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/26",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 41.",
+    "model_answer": "46",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "46",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/27",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 4.",
+    "model_answer": "4",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "4",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/28",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 49.",
+    "model_answer": "55",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "55",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/29",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 17.",
+    "model_answer": "17",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "17",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/30",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 5.",
+    "model_answer": "5",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "5",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/31",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 70.",
+    "model_answer": "78",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "78",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/32",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 9.",
+    "model_answer": "9",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "9",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/33",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 53.",
+    "model_answer": "56",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "56",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/34",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 35.",
+    "model_answer": "36",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "36",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/35",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 49.",
+    "model_answer": "55",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "55",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/36",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 17.",
+    "model_answer": "17",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "17",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/37",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 19.",
+    "model_answer": "19",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "19",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/38",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 0.",
+    "model_answer": "5",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "5",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/39",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 31.",
+    "model_answer": "31",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "31",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/40",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 13.",
+    "model_answer": "13",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "13",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/41",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 24.",
+    "model_answer": "24",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "24",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/42",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 3.",
+    "model_answer": "3",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/43",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 10.",
+    "model_answer": "10",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "10",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/44",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 10.",
+    "model_answer": "10",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "10",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/45",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 38.",
+    "model_answer": "38",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "38",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/46",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 0.",
+    "model_answer": "5",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "5",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/47",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 75.",
+    "model_answer": "78",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "78",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/48",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 102.",
+    "model_answer": "91",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "91",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/49",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 50.",
+    "model_answer": "56",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "56",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/50",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 55.",
+    "model_answer": "60",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "60",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/51",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 32.",
+    "model_answer": "34",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "34",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/52",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 4.",
+    "model_answer": "4",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "4",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/53",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 30.",
+    "model_answer": "31",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "31",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/54",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 55.",
+    "model_answer": "58",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "58",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/55",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 30.",
+    "model_answer": "31",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "31",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/56",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 39.",
+    "model_answer": "46",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "46",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/57",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 7.",
+    "model_answer": "7",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "7",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/58",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 78.",
+    "model_answer": "90",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "90",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/59",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 12.",
+    "model_answer": "12",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "12",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/60",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 10.",
+    "model_answer": "10",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "10",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/61",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 32.",
+    "model_answer": "33",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "33",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/62",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 16.",
+    "model_answer": "16",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "16",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/63",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 33.",
+    "model_answer": "33",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "33",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/64",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 12.",
+    "model_answer": "12",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "12",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/65",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 8.",
+    "model_answer": "8",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "8",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/66",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 12.",
+    "model_answer": "12",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "12",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/67",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 6.",
+    "model_answer": "6",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "6",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/68",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 16.",
+    "model_answer": "16",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "16",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/69",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 9.",
+    "model_answer": "9",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "9",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/70",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 14.",
+    "model_answer": "14",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "14",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/71",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 16.",
+    "model_answer": "16",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "16",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/72",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 11.",
+    "model_answer": "11",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "11",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/73",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 30.",
+    "model_answer": "31",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "31",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/74",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 21.",
+    "model_answer": "21",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "21",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/75",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 20.",
+    "model_answer": "20",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "20",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/76",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 30.",
+    "model_answer": "30",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "30",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/77",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 12.",
+    "model_answer": "12",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "12",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/78",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 16.",
+    "model_answer": "16",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "16",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/79",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 36.",
+    "model_answer": "38",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "38",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/80",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 25.",
+    "model_answer": "26",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "26",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/81",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 24.",
+    "model_answer": "25",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "25",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/82",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 14.",
+    "model_answer": "14",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "14",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/83",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 70.",
+    "model_answer": "70",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "70",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/84",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 22.",
+    "model_answer": "22",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "22",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/85",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 45.",
+    "model_answer": "52",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "52",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/86",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 4.",
+    "model_answer": "4",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "4",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/87",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 18.",
+    "model_answer": "18",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "18",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/88",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 12.",
+    "model_answer": "12",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "12",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/89",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 15.",
+    "model_answer": "15",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "15",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/90",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 30.",
+    "model_answer": "31",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "31",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/91",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 18.",
+    "model_answer": "18",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "18",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/92",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 12.",
+    "model_answer": "12",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "12",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/93",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 40.",
+    "model_answer": "44",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "44",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/94",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 6.",
+    "model_answer": "6",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "6",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/95",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 27.",
+    "model_answer": "28",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "28",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/96",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 8.",
+    "model_answer": "8",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "8",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/97",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 48.",
+    "model_answer": "57",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "57",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/98",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 60.",
+    "model_answer": "65",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "65",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/99",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 15.",
+    "model_answer": "15",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "15",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/100",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 71.",
+    "model_answer": "78",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "78",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/101",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 12.",
+    "model_answer": "12",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "12",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/102",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 17.",
+    "model_answer": "17",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "17",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/103",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 69.",
+    "model_answer": "70",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "70",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/104",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 31.",
+    "model_answer": "33",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "33",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/105",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 26.",
+    "model_answer": "27",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "27",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/106",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 64.",
+    "model_answer": "72",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "72",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/107",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 6.",
+    "model_answer": "6",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "6",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/108",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 45.",
+    "model_answer": "52",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "52",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/109",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 2.",
+    "model_answer": "2",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/110",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 10.",
+    "model_answer": "10",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "10",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/111",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 101.",
+    "model_answer": "102",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "102",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/112",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 47.",
+    "model_answer": "55",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "55",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/113",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 27.",
+    "model_answer": "28",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "28",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/114",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 49.",
+    "model_answer": "57",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "57",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/115",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 12.",
+    "model_answer": "12",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "12",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/116",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 7.",
+    "model_answer": "7",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "7",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/117",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 7.",
+    "model_answer": "7",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "7",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/118",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 5.",
+    "model_answer": "5",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "5",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/119",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 58.",
+    "model_answer": "66",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "66",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/120",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 99.",
+    "model_answer": "90",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "90",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/121",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 9.",
+    "model_answer": "9",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "9",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/122",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 48.",
+    "model_answer": "56",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "56",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/123",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 54.",
+    "model_answer": "63",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "63",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/124",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 62.",
+    "model_answer": "78",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "78",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/125",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 10.",
+    "model_answer": "10",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "10",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/126",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 23.",
+    "model_answer": "24",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "24",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/127",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 13.",
+    "model_answer": "13",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "13",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/128",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 56.",
+    "model_answer": "66",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "66",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/129",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 32.",
+    "model_answer": "32",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "32",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/130",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 22.",
+    "model_answer": "22",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "22",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/131",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 62.",
+    "model_answer": "69",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "69",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/132",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 7.",
+    "model_answer": "7",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "7",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/133",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 63.",
+    "model_answer": "69",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "69",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/134",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 37.",
+    "model_answer": "38",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "38",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/135",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 15.",
+    "model_answer": "15",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "15",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/136",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 7.",
+    "model_answer": "7",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "7",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/137",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 42.",
+    "model_answer": "48",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "48",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/138",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 9.",
+    "model_answer": "9",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "9",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/139",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 2.",
+    "model_answer": "2",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/140",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 35.",
+    "model_answer": "38",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "38",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/141",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 11.",
+    "model_answer": "11",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "11",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/142",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 29.",
+    "model_answer": "29",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "29",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/143",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 33.",
+    "model_answer": "34",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "34",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/144",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 25.",
+    "model_answer": "26",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "26",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/145",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 40.",
+    "model_answer": "46",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "46",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/146",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 10.",
+    "model_answer": "10",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "10",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/147",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 17.",
+    "model_answer": "17",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "17",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/148",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 53.",
+    "model_answer": "62",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "62",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/149",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 75.",
+    "model_answer": "78",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "78",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/150",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 19.",
+    "model_answer": "19",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "19",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/151",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 16.",
+    "model_answer": "16",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "16",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/152",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 10.",
+    "model_answer": "11",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "11",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/153",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 22.",
+    "model_answer": "24",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "24",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/154",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 23.",
+    "model_answer": "24",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "24",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/155",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 14.",
+    "model_answer": "14",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "14",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/156",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 22.",
+    "model_answer": "24",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "24",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/157",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 8.",
+    "model_answer": "8",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "8",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/158",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 25.",
+    "model_answer": "31",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "31",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/159",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 8.",
+    "model_answer": "8",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "8",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/160",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 9.",
+    "model_answer": "9",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "9",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/161",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 20.",
+    "model_answer": "21",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "21",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/162",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 19.",
+    "model_answer": "19",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "19",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/163",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 12.",
+    "model_answer": "12",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "12",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/164",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 20.",
+    "model_answer": "20",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "20",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/165",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 9.",
+    "model_answer": "9",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "9",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/166",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 9.",
+    "model_answer": "9",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "9",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/167",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 8.",
+    "model_answer": "8",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "8",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/168",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 7.",
+    "model_answer": "7",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "7",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/169",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 17.",
+    "model_answer": "17",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "17",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/170",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 22.",
+    "model_answer": "22",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "22",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/171",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 10.",
+    "model_answer": "10",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "10",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/172",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 12.",
+    "model_answer": "12",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "12",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/173",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 16.",
+    "model_answer": "16",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "16",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/174",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 18.",
+    "model_answer": "19",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "19",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/175",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 8.",
+    "model_answer": "8",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "8",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/176",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 17.",
+    "model_answer": "18",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "18",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/177",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 13.",
+    "model_answer": "13",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "13",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/178",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 18.",
+    "model_answer": "18",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "18",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/179",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 15.",
+    "model_answer": "15",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "15",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/180",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 13.",
+    "model_answer": "13",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "13",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/181",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 13.",
+    "model_answer": "14",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "14",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/182",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 6.",
+    "model_answer": "6",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "6",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/183",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 23.",
+    "model_answer": "25",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "25",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/184",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 17.",
+    "model_answer": "17",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "17",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/185",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 12.",
+    "model_answer": "12",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "12",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/186",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 11.",
+    "model_answer": "11",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "11",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/187",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 11.",
+    "model_answer": "11",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "11",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/188",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 9.",
+    "model_answer": "9",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "9",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/189",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 8.",
+    "model_answer": "8",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "8",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/190",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 17.",
+    "model_answer": "17",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "17",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/191",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 12.",
+    "model_answer": "12",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "12",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/192",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 8.",
+    "model_answer": "8",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "8",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/193",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 14.",
+    "model_answer": "14",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "14",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/194",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 6.",
+    "model_answer": "6",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "6",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/195",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 19.",
+    "model_answer": "19",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "19",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/196",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 8.",
+    "model_answer": "8",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "8",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/197",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 23.",
+    "model_answer": "25",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "25",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/198",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 21.",
+    "model_answer": "22",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "22",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/199",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 28.",
+    "model_answer": "31",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "31",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/200",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 120.",
+    "model_answer": "120",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "120",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/201",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 66.",
+    "model_answer": "66",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "66",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/202",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 28.",
+    "model_answer": "28",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "28",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/203",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 105.",
+    "model_answer": "105",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "105",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/204",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 153.",
+    "model_answer": "153",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "153",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/205",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 66.",
+    "model_answer": "66",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "66",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/206",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 105.",
+    "model_answer": "105",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "105",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/207",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 15.",
+    "model_answer": "15",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "15",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/208",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 136.",
+    "model_answer": "136",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "136",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/209",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 15.",
+    "model_answer": "15",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "15",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/210",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 21.",
+    "model_answer": "21",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "21",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/211",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 120.",
+    "model_answer": "120",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "120",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/212",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 78.",
+    "model_answer": "78",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "78",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/213",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 45.",
+    "model_answer": "45",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "45",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/214",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 91.",
+    "model_answer": "91",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "91",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/215",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 28.",
+    "model_answer": "28",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "28",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/216",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 21.",
+    "model_answer": "21",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "21",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/217",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 28.",
+    "model_answer": "28",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "28",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/218",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 21.",
+    "model_answer": "21",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "21",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/219",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 91.",
+    "model_answer": "91",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "91",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/220",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 153.",
+    "model_answer": "153",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "153",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/221",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 28.",
+    "model_answer": "28",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "28",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/222",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 45.",
+    "model_answer": "45",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "45",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/223",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 78.",
+    "model_answer": "78",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "78",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/224",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 91.",
+    "model_answer": "91",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "91",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/225",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 15.",
+    "model_answer": "15",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "15",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/226",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 78.",
+    "model_answer": "78",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "78",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/227",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 36.",
+    "model_answer": "36",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "36",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/228",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 78.",
+    "model_answer": "78",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "78",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/229",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 66.",
+    "model_answer": "66",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "66",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/230",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 66.",
+    "model_answer": "66",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "66",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/231",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 45.",
+    "model_answer": "45",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "45",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/232",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 15.",
+    "model_answer": "15",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "15",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/233",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 153.",
+    "model_answer": "153",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "153",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/234",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 78.",
+    "model_answer": "78",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "78",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/235",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 45.",
+    "model_answer": "45",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "45",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/236",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 36.",
+    "model_answer": "36",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "36",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/237",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 45.",
+    "model_answer": "45",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "45",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/238",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 28.",
+    "model_answer": "28",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "28",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/239",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 28.",
+    "model_answer": "28",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "28",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/240",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 66.",
+    "model_answer": "66",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "66",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/241",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 55.",
+    "model_answer": "55",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "55",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/242",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 21.",
+    "model_answer": "21",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "21",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/243",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 45.",
+    "model_answer": "45",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "45",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/244",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 15.",
+    "model_answer": "15",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "15",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/245",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 91.",
+    "model_answer": "91",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "91",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/246",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 21.",
+    "model_answer": "21",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "21",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/247",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 120.",
+    "model_answer": "120",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "120",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/248",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 136.",
+    "model_answer": "136",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "136",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/249",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 153.",
+    "model_answer": "153",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "153",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/250",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 15.",
+    "model_answer": "15",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "15",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/251",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 11.",
+    "model_answer": "11",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "11",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/252",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 7.",
+    "model_answer": "7",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "7",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/253",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 14.",
+    "model_answer": "14",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "14",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/254",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 17.",
+    "model_answer": "17",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "17",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/255",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 11.",
+    "model_answer": "11",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "11",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/256",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 14.",
+    "model_answer": "14",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "14",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/257",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 5.",
+    "model_answer": "5",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "5",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/258",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 16.",
+    "model_answer": "16",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "16",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/259",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 5.",
+    "model_answer": "5",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "5",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/260",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 6.",
+    "model_answer": "6",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "6",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/261",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 15.",
+    "model_answer": "15",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "15",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/262",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 12.",
+    "model_answer": "12",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "12",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/263",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 9.",
+    "model_answer": "9",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "9",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/264",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 13.",
+    "model_answer": "13",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "13",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/265",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 7.",
+    "model_answer": "7",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "7",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/266",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 6.",
+    "model_answer": "6",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "6",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/267",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 7.",
+    "model_answer": "7",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "7",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/268",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 6.",
+    "model_answer": "6",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "6",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/269",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 13.",
+    "model_answer": "13",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "13",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/270",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 17.",
+    "model_answer": "17",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "17",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/271",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 7.",
+    "model_answer": "7",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "7",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/272",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 9.",
+    "model_answer": "9",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "9",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/273",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 12.",
+    "model_answer": "12",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "12",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/274",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 13.",
+    "model_answer": "13",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "13",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/275",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 5.",
+    "model_answer": "5",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "5",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/276",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 12.",
+    "model_answer": "12",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "12",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/277",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 8.",
+    "model_answer": "8",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "8",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/278",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 12.",
+    "model_answer": "12",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "12",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/279",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 11.",
+    "model_answer": "11",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "11",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/280",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 11.",
+    "model_answer": "11",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "11",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/281",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 9.",
+    "model_answer": "9",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "9",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/282",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 5.",
+    "model_answer": "5",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "5",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/283",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 17.",
+    "model_answer": "17",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "17",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/284",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 12.",
+    "model_answer": "12",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "12",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/285",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 9.",
+    "model_answer": "9",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "9",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/286",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 8.",
+    "model_answer": "8",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "8",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/287",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 9.",
+    "model_answer": "9",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "9",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/288",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 7.",
+    "model_answer": "7",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "7",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/289",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 7.",
+    "model_answer": "7",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "7",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/290",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 11.",
+    "model_answer": "11",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "11",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/291",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 10.",
+    "model_answer": "10",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "10",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/292",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 6.",
+    "model_answer": "6",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "6",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/293",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 9.",
+    "model_answer": "9",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "9",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/294",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 5.",
+    "model_answer": "5",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "5",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/295",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 13.",
+    "model_answer": "13",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "13",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/296",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 6.",
+    "model_answer": "6",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "6",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/297",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 15.",
+    "model_answer": "15",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "15",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/298",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 16.",
+    "model_answer": "16",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "16",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/299",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 17.",
+    "model_answer": "17",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "17",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/300",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 15.",
+    "model_answer": "15",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "15",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/301",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 11.",
+    "model_answer": "11",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "11",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/302",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 7.",
+    "model_answer": "7",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "7",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/303",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 14.",
+    "model_answer": "14",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "14",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/304",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 17.",
+    "model_answer": "17",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "17",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/305",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 11.",
+    "model_answer": "11",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "11",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/306",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 14.",
+    "model_answer": "14",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "14",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/307",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 5.",
+    "model_answer": "5",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "5",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/308",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 16.",
+    "model_answer": "16",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "16",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/309",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 5.",
+    "model_answer": "5",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "5",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/310",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 6.",
+    "model_answer": "6",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "6",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/311",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 15.",
+    "model_answer": "15",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "15",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/312",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 12.",
+    "model_answer": "12",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "12",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/313",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 9.",
+    "model_answer": "9",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "9",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/314",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 13.",
+    "model_answer": "13",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "13",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/315",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 7.",
+    "model_answer": "7",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "7",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/316",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 6.",
+    "model_answer": "6",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "6",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/317",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 7.",
+    "model_answer": "7",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "7",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/318",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 6.",
+    "model_answer": "6",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "6",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/319",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 13.",
+    "model_answer": "13",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "13",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/320",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 17.",
+    "model_answer": "17",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "17",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/321",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 7.",
+    "model_answer": "7",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "7",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/322",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 9.",
+    "model_answer": "9",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "9",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/323",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 12.",
+    "model_answer": "12",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "12",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/324",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 13.",
+    "model_answer": "13",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "13",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/325",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 5.",
+    "model_answer": "5",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "5",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/326",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 12.",
+    "model_answer": "12",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "12",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/327",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 8.",
+    "model_answer": "8",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "8",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/328",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 12.",
+    "model_answer": "12",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "12",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/329",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 11.",
+    "model_answer": "11",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "11",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/330",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 11.",
+    "model_answer": "11",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "11",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/331",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 9.",
+    "model_answer": "9",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "9",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/332",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 5.",
+    "model_answer": "5",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "5",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/333",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 17.",
+    "model_answer": "17",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "17",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/334",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 12.",
+    "model_answer": "12",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "12",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/335",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 9.",
+    "model_answer": "9",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "9",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/336",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 8.",
+    "model_answer": "8",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "8",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/337",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 9.",
+    "model_answer": "9",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "9",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/338",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 7.",
+    "model_answer": "7",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "7",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/339",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 7.",
+    "model_answer": "7",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "7",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/340",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 11.",
+    "model_answer": "11",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "11",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/341",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 10.",
+    "model_answer": "10",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "10",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/342",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 6.",
+    "model_answer": "6",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "6",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/343",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 9.",
+    "model_answer": "9",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "9",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/344",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 5.",
+    "model_answer": "5",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "5",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/345",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 13.",
+    "model_answer": "13",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "13",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/346",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 6.",
+    "model_answer": "6",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "6",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/347",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 15.",
+    "model_answer": "15",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "15",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/348",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 16.",
+    "model_answer": "16",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "16",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "edge_count/adjacency/test/349",
+    "question": "Q: How many edges are in this graph?\nA: ",
+    "expected_answer": " 17.",
+    "model_answer": "17",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "17",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  }
+]

@@ -1,0 +1,6302 @@
+[
+  {
+    "sample_id": "triangle_counting/adjacency/test/0",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "5.",
+    "model_answer": "5",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "5",
+      "confidence": null,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/1",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "17.",
+    "model_answer": "28",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "28",
+      "confidence": null,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/2",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "0.",
+    "model_answer": "0",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": null,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/3",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "8.",
+    "model_answer": "10",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "10",
+      "confidence": null,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/4",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "9.",
+    "model_answer": "20",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "20",
+      "confidence": null,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/5",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "149.",
+    "model_answer": "130",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "130",
+      "confidence": null,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/6",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "1.",
+    "model_answer": "1",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": null,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/7",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "30.",
+    "model_answer": "34",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "34",
+      "confidence": null,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/8",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "27.",
+    "model_answer": "61",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "61",
+      "confidence": null,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/9",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "2.",
+    "model_answer": "4",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "4",
+      "confidence": null,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/10",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "70.",
+    "model_answer": "56",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "56",
+      "confidence": null,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/11",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "437.",
+    "model_answer": "560",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "560",
+      "confidence": null,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/12",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "194.",
+    "model_answer": "176",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "176",
+      "confidence": null,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/13",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "145.",
+    "model_answer": "130",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "130",
+      "confidence": null,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/14",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "1.",
+    "model_answer": "6",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "6",
+      "confidence": null,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/15",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "3.",
+    "model_answer": "3",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3",
+      "confidence": null,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/16",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "10.",
+    "model_answer": "10",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "10",
+      "confidence": null,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/17",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "35.",
+    "model_answer": "40",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "40",
+      "confidence": null,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/18",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "1.",
+    "model_answer": "1",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": null,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/19",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "83.",
+    "model_answer": "96",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "96",
+      "confidence": null,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/20",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "0.",
+    "model_answer": "2",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2",
+      "confidence": null,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/21",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "3.",
+    "model_answer": "5",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "5",
+      "confidence": null,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/22",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "210.",
+    "model_answer": "220",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "220",
+      "confidence": null,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/23",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "165.",
+    "model_answer": "220",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "220",
+      "confidence": null,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/24",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "50.",
+    "model_answer": "76",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "76",
+      "confidence": null,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/25",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "3.",
+    "model_answer": "3",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3",
+      "confidence": null,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/26",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "90.",
+    "model_answer": "112",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "112",
+      "confidence": null,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/27",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "0.",
+    "model_answer": "0",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": null,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/28",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "89.",
+    "model_answer": "96",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "96",
+      "confidence": null,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/29",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "1.",
+    "model_answer": "5",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "5",
+      "confidence": null,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/30",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "0.",
+    "model_answer": "0",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": null,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/31",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "206.",
+    "model_answer": "176",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "176",
+      "confidence": null,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/32",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "7.",
+    "model_answer": "10",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "10",
+      "confidence": null,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/33",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "34.",
+    "model_answer": "72",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "72",
+      "confidence": null,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/34",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "29.",
+    "model_answer": "36",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "36",
+      "confidence": null,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/35",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "114.",
+    "model_answer": "120",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "120",
+      "confidence": null,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/36",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "12.",
+    "model_answer": "20",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "20",
+      "confidence": null,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/37",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "3.",
+    "model_answer": "6",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "6",
+      "confidence": null,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/38",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "0.",
+    "model_answer": "Please provide the description of the graph so I can determine the number of triangles.",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "Please provide the description of the graph so I can determine the number of triangles.",
+      "confidence": null,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/39",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "55.",
+    "model_answer": "56",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "56",
+      "confidence": null,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/40",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "1.",
+    "model_answer": "1",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": null,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/41",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "13.",
+    "model_answer": "20",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "20",
+      "confidence": null,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/42",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "0.",
+    "model_answer": "0",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": null,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/43",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "0.",
+    "model_answer": "1",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": null,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/44",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "10.",
+    "model_answer": "10",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "10",
+      "confidence": null,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/45",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "57.",
+    "model_answer": "92",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "92",
+      "confidence": null,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/46",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "0.",
+    "model_answer": "Please provide the description of the graph so I can determine the number of triangles.",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "Please provide the description of the graph so I can determine the number of triangles.",
+      "confidence": null,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/47",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "140.",
+    "model_answer": "180",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "180",
+      "confidence": null,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/48",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "417.",
+    "model_answer": "455",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "455",
+      "confidence": null,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/49",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "40.",
+    "model_answer": "64",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "64",
+      "confidence": null,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/50",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "82.",
+    "model_answer": "80",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "80",
+      "confidence": null,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/51",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "36.",
+    "model_answer": "48",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "48",
+      "confidence": null,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/52",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "0.",
+    "model_answer": "0",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": null,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/53",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "9.",
+    "model_answer": "12",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "12",
+      "confidence": null,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/54",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "63.",
+    "model_answer": "76",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "76",
+      "confidence": null,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/55",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "37.",
+    "model_answer": "48",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "48",
+      "confidence": null,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/56",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "34.",
+    "model_answer": "80",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "80",
+      "confidence": null,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/57",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "0.",
+    "model_answer": "0",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": null,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/58",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "148.",
+    "model_answer": "230",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "230",
+      "confidence": null,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/59",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "7.",
+    "model_answer": "8",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "8",
+      "confidence": null,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/60",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "4.",
+    "model_answer": "5",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "5",
+      "confidence": null,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/61",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "15.",
+    "model_answer": "16",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "16",
+      "confidence": null,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/62",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "7.",
+    "model_answer": "7",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "7",
+      "confidence": null,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/63",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "21.",
+    "model_answer": "28",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "28",
+      "confidence": null,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/64",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "0.",
+    "model_answer": "0",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": null,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/65",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "0.",
+    "model_answer": "0",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": null,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/66",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "8.",
+    "model_answer": "8",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "8",
+      "confidence": null,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/67",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "2.",
+    "model_answer": "2",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2",
+      "confidence": null,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/68",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "12.",
+    "model_answer": "8",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "8",
+      "confidence": null,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/69",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "0.",
+    "model_answer": "0",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": null,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/70",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "0.",
+    "model_answer": "0",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": null,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/71",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "11.",
+    "model_answer": "10",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "10",
+      "confidence": null,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/72",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "0.",
+    "model_answer": "0",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": null,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/73",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "36.",
+    "model_answer": "48",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "48",
+      "confidence": null,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/74",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "13.",
+    "model_answer": "8",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "8",
+      "confidence": null,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/75",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "18.",
+    "model_answer": "20",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "20",
+      "confidence": null,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/76",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "34.",
+    "model_answer": "48",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "48",
+      "confidence": null,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/77",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "5.",
+    "model_answer": "10",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "10",
+      "confidence": null,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/78",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "5.",
+    "model_answer": "6",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "6",
+      "confidence": null,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/79",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "34.",
+    "model_answer": "48",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "48",
+      "confidence": null,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/80",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "26.",
+    "model_answer": "28",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "28",
+      "confidence": null,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/81",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "22.",
+    "model_answer": "20",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "20",
+      "confidence": null,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/82",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "5.",
+    "model_answer": "5",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "5",
+      "confidence": null,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/83",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "136.",
+    "model_answer": "160",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "160",
+      "confidence": null,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/84",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "6.",
+    "model_answer": "7",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "7",
+      "confidence": null,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/85",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "54.",
+    "model_answer": "88",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "88",
+      "confidence": null,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/86",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "0.",
+    "model_answer": "0",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": null,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/87",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "5.",
+    "model_answer": "8",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "8",
+      "confidence": null,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/88",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "4.",
+    "model_answer": "4",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "4",
+      "confidence": null,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/89",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "11.",
+    "model_answer": "20",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "20",
+      "confidence": null,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/90",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "34.",
+    "model_answer": "48",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "48",
+      "confidence": null,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/91",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "8.",
+    "model_answer": "36",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "36",
+      "confidence": null,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/92",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "4.",
+    "model_answer": "4",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "4",
+      "confidence": null,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/93",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "33.",
+    "model_answer": "64",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "64",
+      "confidence": null,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/94",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "0.",
+    "model_answer": "0",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": null,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/95",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "22.",
+    "model_answer": "40",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "40",
+      "confidence": null,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/96",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "3.",
+    "model_answer": "4",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "4",
+      "confidence": null,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/97",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "44.",
+    "model_answer": "72",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "72",
+      "confidence": null,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/98",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "72.",
+    "model_answer": "96",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "96",
+      "confidence": null,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/99",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "0.",
+    "model_answer": "0",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": null,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/100",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "122.",
+    "model_answer": "160",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "160",
+      "confidence": null,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/101",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "3.",
+    "model_answer": "4",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "4",
+      "confidence": null,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/102",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "16.",
+    "model_answer": "20",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "20",
+      "confidence": null,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/103",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "70.",
+    "model_answer": "98",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "98",
+      "confidence": null,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/104",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "19.",
+    "model_answer": "20",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "20",
+      "confidence": null,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/105",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "20.",
+    "model_answer": "28",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "28",
+      "confidence": null,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/106",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "94.",
+    "model_answer": "112",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "112",
+      "confidence": null,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/107",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "2.",
+    "model_answer": "2",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2",
+      "confidence": null,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/108",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "47.",
+    "model_answer": "64",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "64",
+      "confidence": null,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/109",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "0.",
+    "model_answer": "0",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": null,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/110",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "4.",
+    "model_answer": "10",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "10",
+      "confidence": null,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/111",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "232.",
+    "model_answer": "224",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "224",
+      "confidence": null,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/112",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "86.",
+    "model_answer": "120",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "120",
+      "confidence": null,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/113",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "7.",
+    "model_answer": "24",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "24",
+      "confidence": null,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/114",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "97.",
+    "model_answer": "130",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "130",
+      "confidence": null,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/115",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "10.",
+    "model_answer": "10",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "10",
+      "confidence": null,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/116",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "1.",
+    "model_answer": "0",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": null,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/117",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "2.",
+    "model_answer": "2",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2",
+      "confidence": null,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/118",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "1.",
+    "model_answer": "1",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": null,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/119",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "119.",
+    "model_answer": "130",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "130",
+      "confidence": null,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/120",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "209.",
+    "model_answer": "201",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "201",
+      "confidence": null,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/121",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "7.",
+    "model_answer": "10",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "10",
+      "confidence": null,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/122",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "64.",
+    "model_answer": "76",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "76",
+      "confidence": null,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/123",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "91.",
+    "model_answer": "88",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "88",
+      "confidence": null,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/124",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "117.",
+    "model_answer": "152",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "152",
+      "confidence": null,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/125",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "4.",
+    "model_answer": "4",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "4",
+      "confidence": null,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/126",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "12.",
+    "model_answer": "8",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "8",
+      "confidence": null,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/127",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "3.",
+    "model_answer": "3",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3",
+      "confidence": null,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/128",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "72.",
+    "model_answer": "88",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "88",
+      "confidence": null,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/129",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "45.",
+    "model_answer": "64",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "64",
+      "confidence": null,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/130",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "18.",
+    "model_answer": "20",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "20",
+      "confidence": null,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/131",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "119.",
+    "model_answer": "130",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "130",
+      "confidence": null,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/132",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "2.",
+    "model_answer": "2",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2",
+      "confidence": null,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/133",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "104.",
+    "model_answer": "140",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "140",
+      "confidence": null,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/134",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "50.",
+    "model_answer": "70",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "70",
+      "confidence": null,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/135",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "2.",
+    "model_answer": "4",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "4",
+      "confidence": null,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/136",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "3.",
+    "model_answer": "3",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3",
+      "confidence": null,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/137",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "49.",
+    "model_answer": "52",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "52",
+      "confidence": null,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/138",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "2.",
+    "model_answer": "2",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2",
+      "confidence": null,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/139",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "0.",
+    "model_answer": "0",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": null,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/140",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "28.",
+    "model_answer": "28",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "28",
+      "confidence": null,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/141",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "2.",
+    "model_answer": "3",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3",
+      "confidence": null,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/142",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "42.",
+    "model_answer": "48",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "48",
+      "confidence": null,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/143",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "26.",
+    "model_answer": "38",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "38",
+      "confidence": null,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/144",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "35.",
+    "model_answer": "35",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "35",
+      "confidence": null,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/145",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "66.",
+    "model_answer": "96",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "96",
+      "confidence": null,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/146",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "2.",
+    "model_answer": "4",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "4",
+      "confidence": null,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/147",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "1.",
+    "model_answer": "3",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3",
+      "confidence": null,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/148",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "60.",
+    "model_answer": "64",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "64",
+      "confidence": null,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/149",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "105.",
+    "model_answer": "112",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "112",
+      "confidence": null,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/150",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "3.",
+    "model_answer": "3",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3",
+      "confidence": null,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/151",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "4.",
+    "model_answer": "4",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "4",
+      "confidence": null,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/152",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "1.",
+    "model_answer": "1",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": null,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/153",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "5.",
+    "model_answer": "7",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "7",
+      "confidence": null,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/154",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "5.",
+    "model_answer": "8",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "8",
+      "confidence": null,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/155",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "2.",
+    "model_answer": "4",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "4",
+      "confidence": null,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/156",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "8.",
+    "model_answer": "8",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "8",
+      "confidence": null,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/157",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "2.",
+    "model_answer": "2",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2",
+      "confidence": null,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/158",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "3.",
+    "model_answer": "6",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "6",
+      "confidence": null,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/159",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "2.",
+    "model_answer": "2",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2",
+      "confidence": null,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/160",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "2.",
+    "model_answer": "2",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2",
+      "confidence": null,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/161",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "4.",
+    "model_answer": "5",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "5",
+      "confidence": null,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/162",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "5.",
+    "model_answer": "7",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "7",
+      "confidence": null,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/163",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "2.",
+    "model_answer": "3",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3",
+      "confidence": null,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/164",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "5.",
+    "model_answer": "5",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "5",
+      "confidence": null,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/165",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "1.",
+    "model_answer": "1",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": null,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/166",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "1.",
+    "model_answer": "1",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": null,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/167",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "1.",
+    "model_answer": "2",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2",
+      "confidence": null,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/168",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "1.",
+    "model_answer": "1",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": null,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/169",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "2.",
+    "model_answer": "2",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2",
+      "confidence": null,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/170",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "4.",
+    "model_answer": "6",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "6",
+      "confidence": null,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/171",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "2.",
+    "model_answer": "2",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2",
+      "confidence": null,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/172",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "2.",
+    "model_answer": "2",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2",
+      "confidence": null,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/173",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "3.",
+    "model_answer": "3",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3",
+      "confidence": null,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/174",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "4.",
+    "model_answer": "7",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "7",
+      "confidence": null,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/175",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "2.",
+    "model_answer": "3",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3",
+      "confidence": null,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/176",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "4.",
+    "model_answer": "6",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "6",
+      "confidence": null,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/177",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "4.",
+    "model_answer": "4",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "4",
+      "confidence": null,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/178",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "5.",
+    "model_answer": "4",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "4",
+      "confidence": null,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/179",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "1.",
+    "model_answer": "2",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2",
+      "confidence": null,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/180",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "1.",
+    "model_answer": "2",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2",
+      "confidence": null,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/181",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "3.",
+    "model_answer": "3",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3",
+      "confidence": null,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/182",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "1.",
+    "model_answer": "1",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": null,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/183",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "3.",
+    "model_answer": "4",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "4",
+      "confidence": null,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/184",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "3.",
+    "model_answer": "7",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "7",
+      "confidence": null,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/185",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "1.",
+    "model_answer": "2",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2",
+      "confidence": null,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/186",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "2.",
+    "model_answer": "2",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2",
+      "confidence": null,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/187",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "1.",
+    "model_answer": "2",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2",
+      "confidence": null,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/188",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "1.",
+    "model_answer": "1",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": null,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/189",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "1.",
+    "model_answer": "2",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2",
+      "confidence": null,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/190",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "4.",
+    "model_answer": "5",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "5",
+      "confidence": null,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/191",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "1.",
+    "model_answer": "2",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2",
+      "confidence": null,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/192",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "1.",
+    "model_answer": "1",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": null,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/193",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "4.",
+    "model_answer": "4",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "4",
+      "confidence": null,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/194",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "1.",
+    "model_answer": "1",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": null,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/195",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "4.",
+    "model_answer": "6",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "6",
+      "confidence": null,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/196",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "1.",
+    "model_answer": "1",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": null,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/197",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "5.",
+    "model_answer": "6",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "6",
+      "confidence": null,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/198",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "5.",
+    "model_answer": "6",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "6",
+      "confidence": null,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/199",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "11.",
+    "model_answer": "10",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "10",
+      "confidence": null,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/200",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "560.",
+    "model_answer": "560",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "560",
+      "confidence": null,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/201",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "220.",
+    "model_answer": "220",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "220",
+      "confidence": null,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/202",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "56.",
+    "model_answer": "56",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "56",
+      "confidence": null,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/203",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "455.",
+    "model_answer": "455",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "455",
+      "confidence": null,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/204",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "816.",
+    "model_answer": "816",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "816",
+      "confidence": null,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/205",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "220.",
+    "model_answer": "220",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "220",
+      "confidence": null,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/206",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "455.",
+    "model_answer": "455",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "455",
+      "confidence": null,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/207",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "20.",
+    "model_answer": "20",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "20",
+      "confidence": null,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/208",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "680.",
+    "model_answer": "680",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "680",
+      "confidence": null,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/209",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "20.",
+    "model_answer": "20",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "20",
+      "confidence": null,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/210",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "35.",
+    "model_answer": "35",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "35",
+      "confidence": null,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/211",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "560.",
+    "model_answer": "560",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "560",
+      "confidence": null,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/212",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "286.",
+    "model_answer": "220",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "220",
+      "confidence": null,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/213",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "120.",
+    "model_answer": "120",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "120",
+      "confidence": null,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/214",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "364.",
+    "model_answer": "364\n\nExplanation (not to be included in the final answer):\n\nThe graph has 14 nodes (0 to 13) and is a complete graph \\( K_{14} \\) because every pair of distinct nodes is connected.\n\nThe number of triangles in a complete graph \\( K_n \\) is the number of",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "364\n\nExplanation (not to be included in the final answer):\n\nThe graph has 14 nodes (0 to 13) and is a complete graph \\( K_{14} \\) because every pair of distinct nodes is connected.\n\nThe number of triangles in a complete graph \\( K_n \\) is the number of",
+      "confidence": null,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/215",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "56.",
+    "model_answer": "56",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "56",
+      "confidence": null,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/216",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "35.",
+    "model_answer": "35",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "35",
+      "confidence": null,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/217",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "56.",
+    "model_answer": "56",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "56",
+      "confidence": null,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/218",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "35.",
+    "model_answer": "35",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "35",
+      "confidence": null,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/219",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "364.",
+    "model_answer": "286",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "286",
+      "confidence": null,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/220",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "816.",
+    "model_answer": "8160",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "8160",
+      "confidence": null,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/221",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "56.",
+    "model_answer": "56",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "56",
+      "confidence": null,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/222",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "120.",
+    "model_answer": "120",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "120",
+      "confidence": null,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/223",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "286.",
+    "model_answer": "220",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "220",
+      "confidence": null,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/224",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "364.",
+    "model_answer": "3640",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3640",
+      "confidence": null,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/225",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "20.",
+    "model_answer": "20",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "20",
+      "confidence": null,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/226",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "286.",
+    "model_answer": "220",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "220",
+      "confidence": null,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/227",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "84.",
+    "model_answer": "84",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "84",
+      "confidence": null,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/228",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "286.",
+    "model_answer": "286",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "286",
+      "confidence": null,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/229",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "220.",
+    "model_answer": "220",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "220",
+      "confidence": null,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/230",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "220.",
+    "model_answer": "220",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "220",
+      "confidence": null,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/231",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "120.",
+    "model_answer": "120",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "120",
+      "confidence": null,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/232",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "20.",
+    "model_answer": "20",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "20",
+      "confidence": null,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/233",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "816.",
+    "model_answer": "816",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "816",
+      "confidence": null,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/234",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "286.",
+    "model_answer": "220",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "220",
+      "confidence": null,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/235",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "120.",
+    "model_answer": "120",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "120",
+      "confidence": null,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/236",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "84.",
+    "model_answer": "84",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "84",
+      "confidence": null,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/237",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "120.",
+    "model_answer": "120",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "120",
+      "confidence": null,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/238",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "56.",
+    "model_answer": "56",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "56",
+      "confidence": null,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/239",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "56.",
+    "model_answer": "56",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "56",
+      "confidence": null,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/240",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "220.",
+    "model_answer": "220",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "220",
+      "confidence": null,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/241",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "165.",
+    "model_answer": "120",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "120",
+      "confidence": null,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/242",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "35.",
+    "model_answer": "35",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "35",
+      "confidence": null,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/243",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "120.",
+    "model_answer": "120",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "120",
+      "confidence": null,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/244",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "20.",
+    "model_answer": "20",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "20",
+      "confidence": null,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/245",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "364.",
+    "model_answer": "286",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "286",
+      "confidence": null,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/246",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "35.",
+    "model_answer": "35",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "35",
+      "confidence": null,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/247",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "560.",
+    "model_answer": "560",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "560",
+      "confidence": null,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/248",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "680.",
+    "model_answer": "680",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "680",
+      "confidence": null,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/249",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "816.",
+    "model_answer": "8160",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "8160",
+      "confidence": null,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/250",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "0.",
+    "model_answer": "0",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": null,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/251",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "0.",
+    "model_answer": "0",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": null,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/252",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "0.",
+    "model_answer": "0",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": null,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/253",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "0.",
+    "model_answer": "0",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": null,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/254",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "0.",
+    "model_answer": "0",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": null,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/255",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "0.",
+    "model_answer": "0",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": null,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/256",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "0.",
+    "model_answer": "0",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": null,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/257",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "0.",
+    "model_answer": "0",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": null,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/258",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "0.",
+    "model_answer": "0",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": null,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/259",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "0.",
+    "model_answer": "0",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": null,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/260",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "0.",
+    "model_answer": "0",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": null,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/261",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "0.",
+    "model_answer": "0",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": null,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/262",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "0.",
+    "model_answer": "0",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": null,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/263",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "0.",
+    "model_answer": "0",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": null,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/264",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "0.",
+    "model_answer": "0",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": null,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/265",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "0.",
+    "model_answer": "0",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": null,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/266",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "0.",
+    "model_answer": "0",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": null,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/267",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "0.",
+    "model_answer": "0",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": null,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/268",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "0.",
+    "model_answer": "0",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": null,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/269",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "0.",
+    "model_answer": "0",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": null,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/270",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "0.",
+    "model_answer": "0",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": null,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/271",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "0.",
+    "model_answer": "0",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": null,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/272",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "0.",
+    "model_answer": "0",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": null,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/273",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "0.",
+    "model_answer": "0",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": null,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/274",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "0.",
+    "model_answer": "0",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": null,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/275",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "0.",
+    "model_answer": "0",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": null,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/276",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "0.",
+    "model_answer": "0",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": null,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/277",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "0.",
+    "model_answer": "0",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": null,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/278",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "0.",
+    "model_answer": "0",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": null,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/279",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "0.",
+    "model_answer": "0",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": null,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/280",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "0.",
+    "model_answer": "0",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": null,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/281",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "0.",
+    "model_answer": "0",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": null,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/282",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "0.",
+    "model_answer": "0",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": null,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/283",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "0.",
+    "model_answer": "0",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": null,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/284",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "0.",
+    "model_answer": "0",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": null,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/285",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "0.",
+    "model_answer": "0",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": null,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/286",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "0.",
+    "model_answer": "0",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": null,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/287",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "0.",
+    "model_answer": "0",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": null,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/288",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "0.",
+    "model_answer": "0",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": null,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/289",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "0.",
+    "model_answer": "0",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": null,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/290",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "0.",
+    "model_answer": "0",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": null,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/291",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "0.",
+    "model_answer": "0",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": null,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/292",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "0.",
+    "model_answer": "0",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": null,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/293",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "0.",
+    "model_answer": "0",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": null,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/294",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "0.",
+    "model_answer": "0",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": null,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/295",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "0.",
+    "model_answer": "0",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": null,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/296",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "0.",
+    "model_answer": "0",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": null,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/297",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "0.",
+    "model_answer": "0",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": null,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/298",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "0.",
+    "model_answer": "0",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": null,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/299",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "0.",
+    "model_answer": "0",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": null,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/300",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "0.",
+    "model_answer": "0",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": null,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/301",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "0.",
+    "model_answer": "0",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": null,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/302",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "0.",
+    "model_answer": "0",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": null,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/303",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "0.",
+    "model_answer": "0",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": null,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/304",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "0.",
+    "model_answer": "0",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": null,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/305",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "0.",
+    "model_answer": "0",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": null,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/306",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "0.",
+    "model_answer": "0",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": null,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/307",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "0.",
+    "model_answer": "0",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": null,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/308",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "0.",
+    "model_answer": "0",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": null,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/309",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "0.",
+    "model_answer": "0",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": null,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/310",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "0.",
+    "model_answer": "0",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": null,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/311",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "0.",
+    "model_answer": "0",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": null,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/312",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "0.",
+    "model_answer": "0",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": null,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/313",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "0.",
+    "model_answer": "0",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": null,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/314",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "0.",
+    "model_answer": "0",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": null,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/315",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "0.",
+    "model_answer": "0",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": null,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/316",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "0.",
+    "model_answer": "0",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": null,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/317",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "0.",
+    "model_answer": "0",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": null,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/318",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "0.",
+    "model_answer": "0",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": null,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/319",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "0.",
+    "model_answer": "0",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": null,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/320",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "0.",
+    "model_answer": "0",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": null,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/321",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "0.",
+    "model_answer": "0",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": null,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/322",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "0.",
+    "model_answer": "0",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": null,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/323",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "0.",
+    "model_answer": "0",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": null,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/324",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "0.",
+    "model_answer": "0",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": null,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/325",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "0.",
+    "model_answer": "0",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": null,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/326",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "0.",
+    "model_answer": "0",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": null,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/327",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "0.",
+    "model_answer": "0",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": null,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/328",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "0.",
+    "model_answer": "0",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": null,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/329",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "0.",
+    "model_answer": "0",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": null,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/330",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "0.",
+    "model_answer": "0",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": null,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/331",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "0.",
+    "model_answer": "0",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": null,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/332",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "0.",
+    "model_answer": "0",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": null,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/333",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "0.",
+    "model_answer": "0",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": null,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/334",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "0.",
+    "model_answer": "0",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": null,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/335",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "0.",
+    "model_answer": "0",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": null,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/336",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "0.",
+    "model_answer": "0",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": null,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/337",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "0.",
+    "model_answer": "0",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": null,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/338",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "0.",
+    "model_answer": "0",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": null,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/339",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "0.",
+    "model_answer": "0",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": null,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/340",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "0.",
+    "model_answer": "0",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": null,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/341",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "0.",
+    "model_answer": "0",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": null,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/342",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "0.",
+    "model_answer": "0",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": null,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/343",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "0.",
+    "model_answer": "0",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": null,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/344",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "0.",
+    "model_answer": "0",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": null,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/345",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "0.",
+    "model_answer": "0",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": null,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/346",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "0.",
+    "model_answer": "0",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": null,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/347",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "0.",
+    "model_answer": "0",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": null,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/348",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "0.",
+    "model_answer": "0",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": null,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  },
+  {
+    "sample_id": "triangle_counting/adjacency/test/349",
+    "question": "Q: How many triangles are in this graph?\nA: ",
+    "expected_answer": "0.",
+    "model_answer": "0",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": null,
+      "status": "ok",
+      "setting": "text_only"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": false
+    }
+  }
+]
