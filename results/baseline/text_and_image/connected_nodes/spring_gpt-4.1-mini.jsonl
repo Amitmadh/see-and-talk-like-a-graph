@@ -1,0 +1,6302 @@
+[
+  {
+    "sample_id": "connected_nodes/adjacency/test/0",
+    "question": "Q: List all the nodes connected to 14 in alphabetical order.\nA: ",
+    "expected_answer": "2, 5.",
+    "model_answer": "2,5",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2,5",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/1",
+    "question": "Q: List all the nodes connected to 1 in alphabetical order.\nA: ",
+    "expected_answer": "3, 6, 7.",
+    "model_answer": "3,6,7",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3,6,7",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/2",
+    "question": "Q: List all the nodes connected to 0 in alphabetical order.\nA: ",
+    "expected_answer": " No nodes.",
+    "model_answer": "(empty)",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "(empty)",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/3",
+    "question": "Q: List all the nodes connected to 2 in alphabetical order.\nA: ",
+    "expected_answer": "3.",
+    "model_answer": "3",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/4",
+    "question": "Q: List all the nodes connected to 1 in alphabetical order.\nA: ",
+    "expected_answer": "2, 6, 9, 15.",
+    "model_answer": "2,6,9,15",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2,6,9,15",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/5",
+    "question": "Q: List all the nodes connected to 10 in alphabetical order.\nA: ",
+    "expected_answer": "1, 2, 3, 4, 5, 7, 8, 9, 12.",
+    "model_answer": "1,2,3,4,5,7,8,9,12",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1,2,3,4,5,7,8,9,12",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/6",
+    "question": "Q: List all the nodes connected to 2 in alphabetical order.\nA: ",
+    "expected_answer": "3, 14.",
+    "model_answer": "3,14",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3,14",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/7",
+    "question": "Q: List all the nodes connected to 1 in alphabetical order.\nA: ",
+    "expected_answer": "0, 2, 3, 4, 5, 6.",
+    "model_answer": "0,2,3,4,5,6",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0,2,3,4,5,6",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/8",
+    "question": "Q: List all the nodes connected to 11 in alphabetical order.\nA: ",
+    "expected_answer": "1, 8, 12, 17.",
+    "model_answer": "1, 8, 12, 17",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1, 8, 12, 17",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/9",
+    "question": "Q: List all the nodes connected to 3 in alphabetical order.\nA: ",
+    "expected_answer": "1, 5.",
+    "model_answer": "1,5",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1,5",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/10",
+    "question": "Q: List all the nodes connected to 0 in alphabetical order.\nA: ",
+    "expected_answer": "1, 2, 3, 5, 6, 7, 8.",
+    "model_answer": "1,2,3,5,6,7,8",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1,2,3,5,6,7,8",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/11",
+    "question": "Q: List all the nodes connected to 0 in alphabetical order.\nA: ",
+    "expected_answer": "1, 2, 3, 4, 6, 9, 10, 12, 13, 14, 15, 17.",
+    "model_answer": "1,2,3,4,6,9,10,12,13,14,15,17",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1,2,3,4,6,9,10,12,13,14,15,17",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/12",
+    "question": "Q: List all the nodes connected to 12 in alphabetical order.\nA: ",
+    "expected_answer": "0, 1, 2, 3, 4, 5, 6, 7, 9, 11, 13.",
+    "model_answer": "0,1,2,3,4,5,6,7,9,10,11,13",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0,1,2,3,4,5,6,7,9,10,11,13",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/13",
+    "question": "Q: List all the nodes connected to 0 in alphabetical order.\nA: ",
+    "expected_answer": "1, 2, 3, 4, 6, 7, 8, 10, 11.",
+    "model_answer": "1,2,3,4,6,7,8,10,11",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1,2,3,4,6,7,8,10,11",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/14",
+    "question": "Q: List all the nodes connected to 5 in alphabetical order.\nA: ",
+    "expected_answer": "4, 6, 7.",
+    "model_answer": "4,6,7",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "4,6,7",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/15",
+    "question": "Q: List all the nodes connected to 4 in alphabetical order.\nA: ",
+    "expected_answer": "0, 1, 2, 3.",
+    "model_answer": "0,1,2,3",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0,1,2,3",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/16",
+    "question": "Q: List all the nodes connected to 3 in alphabetical order.\nA: ",
+    "expected_answer": "0, 1, 2, 4.",
+    "model_answer": "0,1,2,4",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0,1,2,4",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/17",
+    "question": "Q: List all the nodes connected to 7 in alphabetical order.\nA: ",
+    "expected_answer": "0, 1, 2, 3, 4, 5, 6.",
+    "model_answer": "0,1,2,3,4,5,6",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0,1,2,3,4,5,6",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/18",
+    "question": "Q: List all the nodes connected to 1 in alphabetical order.\nA: ",
+    "expected_answer": "2.",
+    "model_answer": "2",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/19",
+    "question": "Q: List all the nodes connected to 1 in alphabetical order.\nA: ",
+    "expected_answer": "2, 3, 5, 6, 7, 9, 10, 11.",
+    "model_answer": "2,3,5,6,7,9,10,11",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2,3,5,6,7,9,10,11",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/20",
+    "question": "Q: List all the nodes connected to 5 in alphabetical order.\nA: ",
+    "expected_answer": "4, 10.",
+    "model_answer": "4,10",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "4,10",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/21",
+    "question": "Q: List all the nodes connected to 5 in alphabetical order.\nA: ",
+    "expected_answer": "0, 4, 6.",
+    "model_answer": "0,4,6",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0,4,6",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/22",
+    "question": "Q: List all the nodes connected to 1 in alphabetical order.\nA: ",
+    "expected_answer": "0, 2, 3, 4, 6, 7, 8, 9, 10, 11.",
+    "model_answer": "0,2,3,4,6,7,8,9,10,11",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0,2,3,4,6,7,8,9,10,11",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/23",
+    "question": "Q: List all the nodes connected to 0 in alphabetical order.\nA: ",
+    "expected_answer": "1, 2, 4, 5, 6, 7, 8, 9, 12.",
+    "model_answer": "1,2,4,5,6,7,8,9,12",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1,2,4,5,6,7,8,9,12",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/24",
+    "question": "Q: List all the nodes connected to 8 in alphabetical order.\nA: ",
+    "expected_answer": "2, 4, 5, 7, 9.",
+    "model_answer": "2,4,5,7,9",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2,4,5,7,9",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/25",
+    "question": "Q: List all the nodes connected to 3 in alphabetical order.\nA: ",
+    "expected_answer": "0, 2, 4.",
+    "model_answer": "0,2,4",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0,2,4",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/26",
+    "question": "Q: List all the nodes connected to 3 in alphabetical order.\nA: ",
+    "expected_answer": "0, 1, 2, 4, 5, 6, 7, 8, 9.",
+    "model_answer": "0,1,2,4,5,6,7,8,9",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0,1,2,4,5,6,7,8,9",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/27",
+    "question": "Q: List all the nodes connected to 0 in alphabetical order.\nA: ",
+    "expected_answer": "3.",
+    "model_answer": "3",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/28",
+    "question": "Q: List all the nodes connected to 10 in alphabetical order.\nA: ",
+    "expected_answer": "1, 3, 4, 5, 6, 7, 9, 11.",
+    "model_answer": "1,3,4,5,6,7,9,11",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1,3,4,5,6,7,9,11",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/29",
+    "question": "Q: List all the nodes connected to 8 in alphabetical order.\nA: ",
+    "expected_answer": "0, 6, 10, 11.",
+    "model_answer": "0,6,10,11",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0,6,10,11",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/30",
+    "question": "Q: List all the nodes connected to 7 in alphabetical order.\nA: ",
+    "expected_answer": " No nodes.",
+    "model_answer": "",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/31",
+    "question": "Q: List all the nodes connected to 1 in alphabetical order.\nA: ",
+    "expected_answer": "0, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12.",
+    "model_answer": "0,2,4,5,6,7,8,9,10,11,12",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0,2,4,5,6,7,8,9,10,11,12",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/32",
+    "question": "Q: List all the nodes connected to 4 in alphabetical order.\nA: ",
+    "expected_answer": "0, 1, 2, 3.",
+    "model_answer": "0,1,2,3",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0,1,2,3",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/33",
+    "question": "Q: List all the nodes connected to 2 in alphabetical order.\nA: ",
+    "expected_answer": "8, 9, 10, 15, 17.",
+    "model_answer": "8,9,10,15,17",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "8,9,10,15,17",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/34",
+    "question": "Q: List all the nodes connected to 8 in alphabetical order.\nA: ",
+    "expected_answer": "0, 1, 3, 9, 10, 11.",
+    "model_answer": "0,1,3,7,9,10,11",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0,1,3,7,9,10,11",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/35",
+    "question": "Q: List all the nodes connected to 9 in alphabetical order.\nA: ",
+    "expected_answer": "0, 1, 2, 3, 4, 5, 6, 7, 8, 10.",
+    "model_answer": "0,1,2,3,4,5,6,7,8,10",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0,1,2,3,4,5,6,7,8,10",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/36",
+    "question": "Q: List all the nodes connected to 0 in alphabetical order.\nA: ",
+    "expected_answer": "1, 2, 3, 7.",
+    "model_answer": "1,2,3,7",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1,2,3,7",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/37",
+    "question": "Q: List all the nodes connected to 4 in alphabetical order.\nA: ",
+    "expected_answer": "5, 9, 12.",
+    "model_answer": "5,9,12",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "5,9,12",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/38",
+    "question": "Q: List all the nodes connected to 4 in alphabetical order.\nA: ",
+    "expected_answer": " No nodes.",
+    "model_answer": "1,2,3",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1,2,3",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/39",
+    "question": "Q: List all the nodes connected to 1 in alphabetical order.\nA: ",
+    "expected_answer": "0, 2, 3, 4, 5, 6, 7, 8.",
+    "model_answer": "0,2,3,4,5,6,7,8",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0,2,3,4,5,6,7,8",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/40",
+    "question": "Q: List all the nodes connected to 10 in alphabetical order.\nA: ",
+    "expected_answer": "8, 11, 13.",
+    "model_answer": "8,11,13",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "8,11,13",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/41",
+    "question": "Q: List all the nodes connected to 4 in alphabetical order.\nA: ",
+    "expected_answer": "3, 8, 9, 10.",
+    "model_answer": "8,9,10,3",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "8,9,10,3",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/42",
+    "question": "Q: List all the nodes connected to 7 in alphabetical order.\nA: ",
+    "expected_answer": " No nodes.",
+    "model_answer": "",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/43",
+    "question": "Q: List all the nodes connected to 5 in alphabetical order.\nA: ",
+    "expected_answer": "7, 9, 10.",
+    "model_answer": "7,9,10",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "7,9,10",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/44",
+    "question": "Q: List all the nodes connected to 2 in alphabetical order.\nA: ",
+    "expected_answer": "0, 1, 3, 4.",
+    "model_answer": "0,1,3,4",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0,1,3,4",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/45",
+    "question": "Q: List all the nodes connected to 3 in alphabetical order.\nA: ",
+    "expected_answer": "0, 1, 2, 4, 5, 6, 8, 9.",
+    "model_answer": "0,1,2,4,5,6,8,9",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0,1,2,4,5,6,8,9",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/46",
+    "question": "Q: List all the nodes connected to 1 in alphabetical order.\nA: ",
+    "expected_answer": " No nodes.",
+    "model_answer": "0,2,3,4",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0,2,3,4",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/47",
+    "question": "Q: List all the nodes connected to 14 in alphabetical order.\nA: ",
+    "expected_answer": "1, 2, 3, 5, 7, 8, 9, 10, 12, 13, 15.",
+    "model_answer": "1,2,3,5,7,8,9,10,12,13,15",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1,2,3,5,7,8,9,10,12,13,15",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/48",
+    "question": "Q: List all the nodes connected to 14 in alphabetical order.\nA: ",
+    "expected_answer": "0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13.",
+    "model_answer": "0,1,2,3,4,5,6,7,8,9,10,11,12,13",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0,1,2,3,4,5,6,7,8,9,10,11,12,13",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/49",
+    "question": "Q: List all the nodes connected to 16 in alphabetical order.\nA: ",
+    "expected_answer": "1, 2, 7, 8, 9, 11, 13, 15.",
+    "model_answer": "1,2,5,7,8,9,11,13,15",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1,2,5,7,8,9,11,13,15",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/50",
+    "question": "Q: List all the nodes connected to 0 in alphabetical order.\nA: ",
+    "expected_answer": "1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15.",
+    "model_answer": "1,2,3,4,5,6,7,8,9,10,11,12,13,14,15",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1,2,3,4,5,6,7,8,9,10,11,12,13,14,15",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/51",
+    "question": "Q: List all the nodes connected to 8 in alphabetical order.\nA: ",
+    "expected_answer": "0, 9, 10, 11.",
+    "model_answer": "0,9,10,11",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0,9,10,11",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/52",
+    "question": "Q: List all the nodes connected to 0 in alphabetical order.\nA: ",
+    "expected_answer": "1, 2, 3, 4.",
+    "model_answer": "1,2,3,4",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1,2,3,4",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/53",
+    "question": "Q: List all the nodes connected to 0 in alphabetical order.\nA: ",
+    "expected_answer": "1, 2, 3, 4, 5, 9, 13, 16.",
+    "model_answer": "1,2,3,4,5,9,13,16",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1,2,3,4,5,9,13,16",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/54",
+    "question": "Q: List all the nodes connected to 10 in alphabetical order.\nA: ",
+    "expected_answer": "0, 4, 5, 7, 9, 13, 14.",
+    "model_answer": "0,4,5,7,9,13,14",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0,4,5,7,9,13,14",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/55",
+    "question": "Q: List all the nodes connected to 2 in alphabetical order.\nA: ",
+    "expected_answer": "0.",
+    "model_answer": "0",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/56",
+    "question": "Q: List all the nodes connected to 15 in alphabetical order.\nA: ",
+    "expected_answer": "0, 1, 3, 4, 5, 7, 8, 9, 10, 11, 12, 13, 14.",
+    "model_answer": "0,1,3,4,5,7,8,9,10,11,12,13,14",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0,1,3,4,5,7,8,9,10,11,12,13,14",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/57",
+    "question": "Q: List all the nodes connected to 6 in alphabetical order.\nA: ",
+    "expected_answer": "0.",
+    "model_answer": "0",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/58",
+    "question": "Q: List all the nodes connected to 5 in alphabetical order.\nA: ",
+    "expected_answer": "0, 14, 16, 17.",
+    "model_answer": "0,14,16,17",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0,14,16,17",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/59",
+    "question": "Q: List all the nodes connected to 0 in alphabetical order.\nA: ",
+    "expected_answer": "1, 2, 3, 4, 5, 6.",
+    "model_answer": "1,2,3,4,5,6",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1,2,3,4,5,6",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/60",
+    "question": "Q: List all the nodes connected to 0 in alphabetical order.\nA: ",
+    "expected_answer": "1, 2, 3, 4, 5, 6.",
+    "model_answer": "1,2,3,4,5,6",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1,2,3,4,5,6",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/61",
+    "question": "Q: List all the nodes connected to 15 in alphabetical order.\nA: ",
+    "expected_answer": "0, 17.",
+    "model_answer": "0,17",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0,17",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/62",
+    "question": "Q: List all the nodes connected to 2 in alphabetical order.\nA: ",
+    "expected_answer": "0, 9.",
+    "model_answer": "0,9",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0,9",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/63",
+    "question": "Q: List all the nodes connected to 1 in alphabetical order.\nA: ",
+    "expected_answer": "0.",
+    "model_answer": "0",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/64",
+    "question": "Q: List all the nodes connected to 8 in alphabetical order.\nA: ",
+    "expected_answer": "0.",
+    "model_answer": "0",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/65",
+    "question": "Q: List all the nodes connected to 3 in alphabetical order.\nA: ",
+    "expected_answer": "0.",
+    "model_answer": "0",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/66",
+    "question": "Q: List all the nodes connected to 1 in alphabetical order.\nA: ",
+    "expected_answer": "0, 4, 5, 6.",
+    "model_answer": "0,4,5,6",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0,4,5,6",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/67",
+    "question": "Q: List all the nodes connected to 0 in alphabetical order.\nA: ",
+    "expected_answer": "1, 2, 3, 4.",
+    "model_answer": "1,2,3,4",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1,2,3,4",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/68",
+    "question": "Q: List all the nodes connected to 5 in alphabetical order.\nA: ",
+    "expected_answer": "0, 1, 2, 4, 6.",
+    "model_answer": "0,1,2,4,6",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0,1,2,4,6",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/69",
+    "question": "Q: List all the nodes connected to 1 in alphabetical order.\nA: ",
+    "expected_answer": "0.",
+    "model_answer": "0",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/70",
+    "question": "Q: List all the nodes connected to 8 in alphabetical order.\nA: ",
+    "expected_answer": "0.",
+    "model_answer": "0",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/71",
+    "question": "Q: List all the nodes connected to 2 in alphabetical order.\nA: ",
+    "expected_answer": "0, 5, 6, 7.",
+    "model_answer": "0,5,6,7",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0,5,6,7",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/72",
+    "question": "Q: List all the nodes connected to 10 in alphabetical order.\nA: ",
+    "expected_answer": "0.",
+    "model_answer": "0",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/73",
+    "question": "Q: List all the nodes connected to 4 in alphabetical order.\nA: ",
+    "expected_answer": "0, 7, 8, 9.",
+    "model_answer": "0,7,8,9",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0,7,8,9",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/74",
+    "question": "Q: List all the nodes connected to 7 in alphabetical order.\nA: ",
+    "expected_answer": "0, 2, 5, 9.",
+    "model_answer": "0,2,5,9",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0,2,5,9",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/75",
+    "question": "Q: List all the nodes connected to 0 in alphabetical order.\nA: ",
+    "expected_answer": "1, 2, 3, 4, 5, 6, 7, 8.",
+    "model_answer": "1,2,3,4,5,6,7,8",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1,2,3,4,5,6,7,8",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/76",
+    "question": "Q: List all the nodes connected to 6 in alphabetical order.\nA: ",
+    "expected_answer": "0, 7, 8, 9, 10.",
+    "model_answer": "0,7,8,9,10",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0,7,8,9,10",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/77",
+    "question": "Q: List all the nodes connected to 4 in alphabetical order.\nA: ",
+    "expected_answer": "0, 7.",
+    "model_answer": "0,7",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0,7",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/78",
+    "question": "Q: List all the nodes connected to 0 in alphabetical order.\nA: ",
+    "expected_answer": "1, 2, 3, 4.",
+    "model_answer": "1,2,3,4",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1,2,3,4",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/79",
+    "question": "Q: List all the nodes connected to 2 in alphabetical order.\nA: ",
+    "expected_answer": "0, 5, 6, 8.",
+    "model_answer": "0,5,6,8",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0,5,6,8",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/80",
+    "question": "Q: List all the nodes connected to 4 in alphabetical order.\nA: ",
+    "expected_answer": "0, 6.",
+    "model_answer": "0,6",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0,6",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/81",
+    "question": "Q: List all the nodes connected to 2 in alphabetical order.\nA: ",
+    "expected_answer": "0, 7.",
+    "model_answer": "0,7",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0,7",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/82",
+    "question": "Q: List all the nodes connected to 4 in alphabetical order.\nA: ",
+    "expected_answer": "0, 1, 7, 8.",
+    "model_answer": "0,1,7,8",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0,1,7,8",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/83",
+    "question": "Q: List all the nodes connected to 4 in alphabetical order.\nA: ",
+    "expected_answer": "0, 11, 12, 13, 14.",
+    "model_answer": "0,11,12,13,14",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0,11,12,13,14",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/84",
+    "question": "Q: List all the nodes connected to 12 in alphabetical order.\nA: ",
+    "expected_answer": "1, 5.",
+    "model_answer": "1,5",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1,5",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/85",
+    "question": "Q: List all the nodes connected to 13 in alphabetical order.\nA: ",
+    "expected_answer": "0, 4, 6, 7, 8.",
+    "model_answer": "0,4,6,7,8,12",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0,4,6,7,8,12",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/86",
+    "question": "Q: List all the nodes connected to 3 in alphabetical order.\nA: ",
+    "expected_answer": "0.",
+    "model_answer": "0",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/87",
+    "question": "Q: List all the nodes connected to 0 in alphabetical order.\nA: ",
+    "expected_answer": "1, 2, 3, 6, 10.",
+    "model_answer": "1,2,3,6,10",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1,2,3,6,10",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/88",
+    "question": "Q: List all the nodes connected to 6 in alphabetical order.\nA: ",
+    "expected_answer": "0, 1.",
+    "model_answer": "0,1",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0,1",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/89",
+    "question": "Q: List all the nodes connected to 5 in alphabetical order.\nA: ",
+    "expected_answer": "0, 6, 7.",
+    "model_answer": "0,6,7",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0,6,7",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/90",
+    "question": "Q: List all the nodes connected to 7 in alphabetical order.\nA: ",
+    "expected_answer": "0, 1, 2, 4, 5, 6, 8, 9, 10.",
+    "model_answer": "0,1,2,4,5,6,8,9,10",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0,1,2,4,5,6,8,9,10",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/91",
+    "question": "Q: List all the nodes connected to 5 in alphabetical order.\nA: ",
+    "expected_answer": "0, 10.",
+    "model_answer": "0,10",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0,10",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/92",
+    "question": "Q: List all the nodes connected to 7 in alphabetical order.\nA: ",
+    "expected_answer": "2, 4.",
+    "model_answer": "2,4",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2,4",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/93",
+    "question": "Q: List all the nodes connected to 7 in alphabetical order.\nA: ",
+    "expected_answer": "2, 4, 5, 6, 10, 13.",
+    "model_answer": "2,4,5,6,10,13",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2,4,5,6,10,13",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/94",
+    "question": "Q: List all the nodes connected to 0 in alphabetical order.\nA: ",
+    "expected_answer": "1.",
+    "model_answer": "1",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/95",
+    "question": "Q: List all the nodes connected to 7 in alphabetical order.\nA: ",
+    "expected_answer": "0, 10.",
+    "model_answer": "0,10,11",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0,10,11",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/96",
+    "question": "Q: List all the nodes connected to 4 in alphabetical order.\nA: ",
+    "expected_answer": "0.",
+    "model_answer": "0",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/97",
+    "question": "Q: List all the nodes connected to 5 in alphabetical order.\nA: ",
+    "expected_answer": "0, 17, 18.",
+    "model_answer": "0,17,18",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0,17,18",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/98",
+    "question": "Q: List all the nodes connected to 14 in alphabetical order.\nA: ",
+    "expected_answer": "8, 10, 11, 12, 13.",
+    "model_answer": "8,10,11,12,13,15",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "8,10,11,12,13,15",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/99",
+    "question": "Q: List all the nodes connected to 14 in alphabetical order.\nA: ",
+    "expected_answer": "2.",
+    "model_answer": "2",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/100",
+    "question": "Q: List all the nodes connected to 9 in alphabetical order.\nA: ",
+    "expected_answer": "0, 1, 5, 6, 8, 11, 12, 13, 14, 15.",
+    "model_answer": "0,1,5,6,8,11,12,13,14,15",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0,1,5,6,8,11,12,13,14,15",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/101",
+    "question": "Q: List all the nodes connected to 4 in alphabetical order.\nA: ",
+    "expected_answer": "3.",
+    "model_answer": "3",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/102",
+    "question": "Q: List all the nodes connected to 0 in alphabetical order.\nA: ",
+    "expected_answer": "3, 4, 5, 6.",
+    "model_answer": "3,4,5,6",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3,4,5,6",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/103",
+    "question": "Q: List all the nodes connected to 5 in alphabetical order.\nA: ",
+    "expected_answer": "0, 2, 3, 8, 16.",
+    "model_answer": "0,2,3,8,16",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0,2,3,8,16",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/104",
+    "question": "Q: List all the nodes connected to 6 in alphabetical order.\nA: ",
+    "expected_answer": "0, 1, 4, 5.",
+    "model_answer": "0,1,4,5",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0,1,4,5",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/105",
+    "question": "Q: List all the nodes connected to 6 in alphabetical order.\nA: ",
+    "expected_answer": "0, 1, 3, 4, 5, 7.",
+    "model_answer": "0,1,3,4,5,7",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0,1,3,4,5,7",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/106",
+    "question": "Q: List all the nodes connected to 3 in alphabetical order.\nA: ",
+    "expected_answer": "0, 1, 2, 11, 12, 14.",
+    "model_answer": "0,1,2,11,12,14",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0,1,2,11,12,14",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/107",
+    "question": "Q: List all the nodes connected to 4 in alphabetical order.\nA: ",
+    "expected_answer": "2, 3.",
+    "model_answer": "2,3",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2,3",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/108",
+    "question": "Q: List all the nodes connected to 1 in alphabetical order.\nA: ",
+    "expected_answer": "0, 3, 4, 6, 7, 9, 12.",
+    "model_answer": "0,3,4,6,7,9,12",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0,3,4,6,7,9,12",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/109",
+    "question": "Q: List all the nodes connected to 3 in alphabetical order.\nA: ",
+    "expected_answer": "1.",
+    "model_answer": "1",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/110",
+    "question": "Q: List all the nodes connected to 3 in alphabetical order.\nA: ",
+    "expected_answer": "5, 6.",
+    "model_answer": "5,6",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "5,6",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/111",
+    "question": "Q: List all the nodes connected to 8 in alphabetical order.\nA: ",
+    "expected_answer": "0, 1, 2, 3, 5, 6, 10, 12, 13, 16, 17, 14.",
+    "model_answer": "0,1,2,3,5,6,10,12,13,14,16,17",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0,1,2,3,5,6,10,12,13,14,16,17",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/112",
+    "question": "Q: List all the nodes connected to 10 in alphabetical order.\nA: ",
+    "expected_answer": "0, 2, 3, 4, 5, 6, 7, 8, 9, 11.",
+    "model_answer": "0,2,3,4,5,6,7,8,9,11",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0,2,3,4,5,6,7,8,9,11",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/113",
+    "question": "Q: List all the nodes connected to 3 in alphabetical order.\nA: ",
+    "expected_answer": "7, 11, 12, 13.",
+    "model_answer": "7,11,12,13",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "7,11,12,13",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/114",
+    "question": "Q: List all the nodes connected to 5 in alphabetical order.\nA: ",
+    "expected_answer": "0, 2, 4, 7, 11.",
+    "model_answer": "0,2,4,7,11",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0,2,4,7,11",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/115",
+    "question": "Q: List all the nodes connected to 0 in alphabetical order.\nA: ",
+    "expected_answer": "1, 2, 3, 4, 5.",
+    "model_answer": "1,2,3,4,5",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1,2,3,4,5",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/116",
+    "question": "Q: List all the nodes connected to 5 in alphabetical order.\nA: ",
+    "expected_answer": "6.",
+    "model_answer": "6",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "6",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/117",
+    "question": "Q: List all the nodes connected to 5 in alphabetical order.\nA: ",
+    "expected_answer": "2, 4.",
+    "model_answer": "2,4",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2,4",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/118",
+    "question": "Q: List all the nodes connected to 1 in alphabetical order.\nA: ",
+    "expected_answer": " No nodes.",
+    "model_answer": "",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/119",
+    "question": "Q: List all the nodes connected to 9 in alphabetical order.\nA: ",
+    "expected_answer": "2, 3, 4, 8, 10, 11.",
+    "model_answer": "2,3,4,8,10,11",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2,3,4,8,10,11",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/120",
+    "question": "Q: List all the nodes connected to 9 in alphabetical order.\nA: ",
+    "expected_answer": "4, 10, 7, 13, 14, 15.",
+    "model_answer": "10,13,14,15,7",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "10,13,14,15,7",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/121",
+    "question": "Q: List all the nodes connected to 1 in alphabetical order.\nA: ",
+    "expected_answer": "0, 3, 4.",
+    "model_answer": "3,4,0",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3,4,0",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/122",
+    "question": "Q: List all the nodes connected to 11 in alphabetical order.\nA: ",
+    "expected_answer": "0, 1, 2, 3, 4, 6, 8, 9, 10, 7.",
+    "model_answer": "0,1,2,3,4,6,7,8,9,10,12",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0,1,2,3,4,6,7,8,9,10,12",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/123",
+    "question": "Q: List all the nodes connected to 5 in alphabetical order.\nA: ",
+    "expected_answer": "0, 1, 3, 10, 11.",
+    "model_answer": "0,3,4,10,11",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0,3,4,10,11",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/124",
+    "question": "Q: List all the nodes connected to 12 in alphabetical order.\nA: ",
+    "expected_answer": "1, 2, 3, 4, 5, 6, 7, 9, 10.",
+    "model_answer": "1,2,3,4,5,6,7,9,10,11,13",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1,2,3,4,5,6,7,9,10,11,13",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/125",
+    "question": "Q: List all the nodes connected to 7 in alphabetical order.\nA: ",
+    "expected_answer": "3, 6.",
+    "model_answer": "3,6",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3,6",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/126",
+    "question": "Q: List all the nodes connected to 11 in alphabetical order.\nA: ",
+    "expected_answer": "1, 2.",
+    "model_answer": "1,2",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1,2",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/127",
+    "question": "Q: List all the nodes connected to 1 in alphabetical order.\nA: ",
+    "expected_answer": "0, 6.",
+    "model_answer": "0,6",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0,6",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/128",
+    "question": "Q: List all the nodes connected to 1 in alphabetical order.\nA: ",
+    "expected_answer": "0, 5, 7, 8, 9, 10, 11, 12.",
+    "model_answer": "0,5,7,8,9,10,11,12",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0,5,7,8,9,10,11,12",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/129",
+    "question": "Q: List all the nodes connected to 6 in alphabetical order.\nA: ",
+    "expected_answer": "0, 2, 3, 4.",
+    "model_answer": "0,2,3,4",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0,2,3,4",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/130",
+    "question": "Q: List all the nodes connected to 3 in alphabetical order.\nA: ",
+    "expected_answer": "1, 2, 5, 6, 7, 8, 9.",
+    "model_answer": "1,2,5,6,7,8,9",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1,2,5,6,7,8,9",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/131",
+    "question": "Q: List all the nodes connected to 0 in alphabetical order.\nA: ",
+    "expected_answer": "1, 2, 3, 4, 5, 6, 8, 9, 10, 11, 12, 13.",
+    "model_answer": "1,2,3,4,5,6,8,9,10,11,12,13",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1,2,3,4,5,6,8,9,10,11,12,13",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/132",
+    "question": "Q: List all the nodes connected to 4 in alphabetical order.\nA: ",
+    "expected_answer": "3, 6, 7.",
+    "model_answer": "3,6,7",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3,6,7",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/133",
+    "question": "Q: List all the nodes connected to 12 in alphabetical order.\nA: ",
+    "expected_answer": "3, 4, 5, 7, 8, 9.",
+    "model_answer": "3,4,5,7,8,9",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3,4,5,7,8,9",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/134",
+    "question": "Q: List all the nodes connected to 0 in alphabetical order.\nA: ",
+    "expected_answer": "1, 3, 5, 7, 8, 9, 10.",
+    "model_answer": "1,3,5,7,8,9,10",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1,3,5,7,8,9,10",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/135",
+    "question": "Q: List all the nodes connected to 3 in alphabetical order.\nA: ",
+    "expected_answer": "1, 9.",
+    "model_answer": "1,9",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1,9",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/136",
+    "question": "Q: List all the nodes connected to 4 in alphabetical order.\nA: ",
+    "expected_answer": "0, 1, 3.",
+    "model_answer": "0,1,3",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0,1,3",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/137",
+    "question": "Q: List all the nodes connected to 13 in alphabetical order.\nA: ",
+    "expected_answer": "2, 7, 9, 11.",
+    "model_answer": "2,7,9,11,13",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2,7,9,11,13",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/138",
+    "question": "Q: List all the nodes connected to 1 in alphabetical order.\nA: ",
+    "expected_answer": "0, 6.",
+    "model_answer": "0,6",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0,6",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/139",
+    "question": "Q: List all the nodes connected to 5 in alphabetical order.\nA: ",
+    "expected_answer": " No nodes.",
+    "model_answer": "",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/140",
+    "question": "Q: List all the nodes connected to 5 in alphabetical order.\nA: ",
+    "expected_answer": "0, 1.",
+    "model_answer": "0,1",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0,1",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/141",
+    "question": "Q: List all the nodes connected to 4 in alphabetical order.\nA: ",
+    "expected_answer": "5.",
+    "model_answer": "5",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "5",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/142",
+    "question": "Q: List all the nodes connected to 6 in alphabetical order.\nA: ",
+    "expected_answer": "0, 1, 2, 3, 8, 7.",
+    "model_answer": "0,1,2,3,7,8",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0,1,2,3,7,8",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/143",
+    "question": "Q: List all the nodes connected to 1 in alphabetical order.\nA: ",
+    "expected_answer": "4, 6, 7, 10.",
+    "model_answer": "4,6,7,10",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "4,6,7,10",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/144",
+    "question": "Q: List all the nodes connected to 4 in alphabetical order.\nA: ",
+    "expected_answer": "1, 2, 3, 5, 8, 7.",
+    "model_answer": "1,2,3,5,7,8",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1,2,3,5,7,8",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/145",
+    "question": "Q: List all the nodes connected to 1 in alphabetical order.\nA: ",
+    "expected_answer": "0, 3, 4, 5, 6, 7, 8, 9, 10.",
+    "model_answer": "0,3,4,5,6,7,8,9,10",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0,3,4,5,6,7,8,9,10",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/146",
+    "question": "Q: List all the nodes connected to 5 in alphabetical order.\nA: ",
+    "expected_answer": "1.",
+    "model_answer": "1",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/147",
+    "question": "Q: List all the nodes connected to 13 in alphabetical order.\nA: ",
+    "expected_answer": "3, 4, 8.",
+    "model_answer": "3,4,8",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3,4,8",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/148",
+    "question": "Q: List all the nodes connected to 6 in alphabetical order.\nA: ",
+    "expected_answer": "0, 1, 4, 5, 7, 8, 9, 12.",
+    "model_answer": "0,1,4,5,7,8,9,12",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0,1,4,5,7,8,9,12",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/149",
+    "question": "Q: List all the nodes connected to 3 in alphabetical order.\nA: ",
+    "expected_answer": "0, 2, 4, 6, 7, 8, 9, 10, 11, 16, 18.",
+    "model_answer": "0,2,4,6,7,8,9,10,11,16,18",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0,2,4,6,7,8,9,10,11,16,18",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/150",
+    "question": "Q: List all the nodes connected to 12 in alphabetical order.\nA: ",
+    "expected_answer": "0.",
+    "model_answer": "0",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/151",
+    "question": "Q: List all the nodes connected to 3 in alphabetical order.\nA: ",
+    "expected_answer": "0, 1, 4, 6.",
+    "model_answer": "0,1,4,6",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0,1,4,6",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/152",
+    "question": "Q: List all the nodes connected to 7 in alphabetical order.\nA: ",
+    "expected_answer": "2.",
+    "model_answer": "2",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/153",
+    "question": "Q: List all the nodes connected to 8 in alphabetical order.\nA: ",
+    "expected_answer": "0.",
+    "model_answer": "0",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/154",
+    "question": "Q: List all the nodes connected to 7 in alphabetical order.\nA: ",
+    "expected_answer": "1.",
+    "model_answer": "1",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/155",
+    "question": "Q: List all the nodes connected to 5 in alphabetical order.\nA: ",
+    "expected_answer": "3.",
+    "model_answer": "3",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/156",
+    "question": "Q: List all the nodes connected to 14 in alphabetical order.\nA: ",
+    "expected_answer": "9.",
+    "model_answer": "9",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "9",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/157",
+    "question": "Q: List all the nodes connected to 1 in alphabetical order.\nA: ",
+    "expected_answer": "0, 2, 1, 5.",
+    "model_answer": "0,1,2,5",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0,1,2,5",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/158",
+    "question": "Q: List all the nodes connected to 16 in alphabetical order.\nA: ",
+    "expected_answer": "6.",
+    "model_answer": "6",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "6",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/159",
+    "question": "Q: List all the nodes connected to 5 in alphabetical order.\nA: ",
+    "expected_answer": "0.",
+    "model_answer": "0",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/160",
+    "question": "Q: List all the nodes connected to 3 in alphabetical order.\nA: ",
+    "expected_answer": "0, 1.",
+    "model_answer": "0,1",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0,1",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/161",
+    "question": "Q: List all the nodes connected to 5 in alphabetical order.\nA: ",
+    "expected_answer": "1, 2, 4, 5, 9.",
+    "model_answer": "1,2,4,5,9",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1,2,4,5,9",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/162",
+    "question": "Q: List all the nodes connected to 9 in alphabetical order.\nA: ",
+    "expected_answer": "2.",
+    "model_answer": "2",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/163",
+    "question": "Q: List all the nodes connected to 3 in alphabetical order.\nA: ",
+    "expected_answer": "0.",
+    "model_answer": "0",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/164",
+    "question": "Q: List all the nodes connected to 4 in alphabetical order.\nA: ",
+    "expected_answer": "2.",
+    "model_answer": "2",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/165",
+    "question": "Q: List all the nodes connected to 0 in alphabetical order.\nA: ",
+    "expected_answer": "1, 2, 6.",
+    "model_answer": "1,2,6",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1,2,6",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/166",
+    "question": "Q: List all the nodes connected to 6 in alphabetical order.\nA: ",
+    "expected_answer": "2.",
+    "model_answer": "2",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/167",
+    "question": "Q: List all the nodes connected to 5 in alphabetical order.\nA: ",
+    "expected_answer": "0.",
+    "model_answer": "0",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/168",
+    "question": "Q: List all the nodes connected to 4 in alphabetical order.\nA: ",
+    "expected_answer": "2.",
+    "model_answer": "2",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/169",
+    "question": "Q: List all the nodes connected to 2 in alphabetical order.\nA: ",
+    "expected_answer": "0, 1, 3, 4.",
+    "model_answer": "0,1,3,4",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0,1,3,4",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/170",
+    "question": "Q: List all the nodes connected to 15 in alphabetical order.\nA: ",
+    "expected_answer": "1.",
+    "model_answer": "1",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/171",
+    "question": "Q: List all the nodes connected to 7 in alphabetical order.\nA: ",
+    "expected_answer": "2.",
+    "model_answer": "2",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/172",
+    "question": "Q: List all the nodes connected to 5 in alphabetical order.\nA: ",
+    "expected_answer": "3.",
+    "model_answer": "3",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/173",
+    "question": "Q: List all the nodes connected to 2 in alphabetical order.\nA: ",
+    "expected_answer": "0, 1, 4, 5, 8, 9, 12.",
+    "model_answer": "0,1,4,5,8,9,12",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0,1,4,5,8,9,12",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/174",
+    "question": "Q: List all the nodes connected to 2 in alphabetical order.\nA: ",
+    "expected_answer": "0, 1, 3, 4, 5, 6, 7, 8, 9, 11, 12, 13.",
+    "model_answer": "0,1,3,4,5,6,7,8,9,11,12,13",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0,1,3,4,5,6,7,8,9,11,12,13",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/175",
+    "question": "Q: List all the nodes connected to 0 in alphabetical order.\nA: ",
+    "expected_answer": "1, 2, 3, 4, 5.",
+    "model_answer": "1,2,3,4,5",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1,2,3,4,5",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/176",
+    "question": "Q: List all the nodes connected to 9 in alphabetical order.\nA: ",
+    "expected_answer": "1.",
+    "model_answer": "1",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/177",
+    "question": "Q: List all the nodes connected to 2 in alphabetical order.\nA: ",
+    "expected_answer": "0, 1, 3.",
+    "model_answer": "0,1,3",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0,1,3",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/178",
+    "question": "Q: List all the nodes connected to 2 in alphabetical order.\nA: ",
+    "expected_answer": "0, 1, 2, 12, 3, 4.",
+    "model_answer": "2,3,4,12",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2,3,4,12",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/179",
+    "question": "Q: List all the nodes connected to 8 in alphabetical order.\nA: ",
+    "expected_answer": "0, 4.",
+    "model_answer": "0,4",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0,4",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/180",
+    "question": "Q: List all the nodes connected to 1 in alphabetical order.\nA: ",
+    "expected_answer": "0, 2, 1, 3, 4, 5, 6, 7, 8.",
+    "model_answer": "1,2,3,4,5,6,7,8",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1,2,3,4,5,6,7,8",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/181",
+    "question": "Q: List all the nodes connected to 5 in alphabetical order.\nA: ",
+    "expected_answer": "0.",
+    "model_answer": "0",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/182",
+    "question": "Q: List all the nodes connected to 1 in alphabetical order.\nA: ",
+    "expected_answer": "0, 2.",
+    "model_answer": "0,2",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0,2",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/183",
+    "question": "Q: List all the nodes connected to 0 in alphabetical order.\nA: ",
+    "expected_answer": "1, 0, 2, 15.",
+    "model_answer": "0,1,2,15",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0,1,2,15",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/184",
+    "question": "Q: List all the nodes connected to 10 in alphabetical order.\nA: ",
+    "expected_answer": "2.",
+    "model_answer": "2",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/185",
+    "question": "Q: List all the nodes connected to 0 in alphabetical order.\nA: ",
+    "expected_answer": "1, 2, 0, 5, 3, 4.",
+    "model_answer": "1,2,3,4,5,0",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1,2,3,4,5,0",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/186",
+    "question": "Q: List all the nodes connected to 1 in alphabetical order.\nA: ",
+    "expected_answer": "0, 2, 5.",
+    "model_answer": "0,2,5",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0,2,5",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/187",
+    "question": "Q: List all the nodes connected to 2 in alphabetical order.\nA: ",
+    "expected_answer": "0, 1.",
+    "model_answer": "0,1",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0,1",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/188",
+    "question": "Q: List all the nodes connected to 3 in alphabetical order.\nA: ",
+    "expected_answer": "2.",
+    "model_answer": "2",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/189",
+    "question": "Q: List all the nodes connected to 0 in alphabetical order.\nA: ",
+    "expected_answer": "1, 2, 5, 7.",
+    "model_answer": "1,2,5,7",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1,2,5,7",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/190",
+    "question": "Q: List all the nodes connected to 6 in alphabetical order.\nA: ",
+    "expected_answer": "2.",
+    "model_answer": "2",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/191",
+    "question": "Q: List all the nodes connected to 6 in alphabetical order.\nA: ",
+    "expected_answer": "0.",
+    "model_answer": "0",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/192",
+    "question": "Q: List all the nodes connected to 5 in alphabetical order.\nA: ",
+    "expected_answer": "2.",
+    "model_answer": "2",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/193",
+    "question": "Q: List all the nodes connected to 5 in alphabetical order.\nA: ",
+    "expected_answer": "0, 2, 4.",
+    "model_answer": "0,2,4",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0,2,4",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/194",
+    "question": "Q: List all the nodes connected to 1 in alphabetical order.\nA: ",
+    "expected_answer": "0, 2.",
+    "model_answer": "0,2",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0,2",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/195",
+    "question": "Q: List all the nodes connected to 13 in alphabetical order.\nA: ",
+    "expected_answer": "2.",
+    "model_answer": "2",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/196",
+    "question": "Q: List all the nodes connected to 5 in alphabetical order.\nA: ",
+    "expected_answer": "2.",
+    "model_answer": "2",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/197",
+    "question": "Q: List all the nodes connected to 12 in alphabetical order.\nA: ",
+    "expected_answer": "1.",
+    "model_answer": "1",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/198",
+    "question": "Q: List all the nodes connected to 8 in alphabetical order.\nA: ",
+    "expected_answer": "1.",
+    "model_answer": "1",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/199",
+    "question": "Q: List all the nodes connected to 17 in alphabetical order.\nA: ",
+    "expected_answer": "7.",
+    "model_answer": "7",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "7",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/200",
+    "question": "Q: List all the nodes connected to 9 in alphabetical order.\nA: ",
+    "expected_answer": "0, 1, 2, 3, 4, 5, 6, 7, 8, 10, 11, 12, 13, 14, 15.",
+    "model_answer": "0,1,2,3,4,5,6,7,8,10,11,12,13,14,15",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0,1,2,3,4,5,6,7,8,10,11,12,13,14,15",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/201",
+    "question": "Q: List all the nodes connected to 6 in alphabetical order.\nA: ",
+    "expected_answer": "0, 1, 2, 3, 4, 5, 7, 8, 9, 10, 11.",
+    "model_answer": "0,1,2,3,4,5,7,8,9,10,11",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0,1,2,3,4,5,7,8,9,10,11",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/202",
+    "question": "Q: List all the nodes connected to 5 in alphabetical order.\nA: ",
+    "expected_answer": "0, 1, 2, 3, 4, 6, 7.",
+    "model_answer": "0,1,2,3,4,6,7",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0,1,2,3,4,6,7",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/203",
+    "question": "Q: List all the nodes connected to 10 in alphabetical order.\nA: ",
+    "expected_answer": "0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 11, 12, 13, 14.",
+    "model_answer": "0,1,2,3,4,5,6,7,8,9,11,12,13,14",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0,1,2,3,4,5,6,7,8,9,11,12,13,14",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/204",
+    "question": "Q: List all the nodes connected to 4 in alphabetical order.\nA: ",
+    "expected_answer": "0, 1, 2, 3, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17.",
+    "model_answer": "0,1,2,3,5,6,7,8,9,10,11,12,13,14,15,16,17",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0,1,2,3,5,6,7,8,9,10,11,12,13,14,15,16,17",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/205",
+    "question": "Q: List all the nodes connected to 8 in alphabetical order.\nA: ",
+    "expected_answer": "0, 1, 2, 3, 4, 5, 6, 7, 9, 10, 11.",
+    "model_answer": "0,1,2,3,4,5,6,7,9,10,11",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0,1,2,3,4,5,6,7,9,10,11",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/206",
+    "question": "Q: List all the nodes connected to 1 in alphabetical order.\nA: ",
+    "expected_answer": "0, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14.",
+    "model_answer": "0,2,3,4,5,6,7,8,9,10,11,12,13,14",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0,2,3,4,5,6,7,8,9,10,11,12,13,14",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/207",
+    "question": "Q: List all the nodes connected to 2 in alphabetical order.\nA: ",
+    "expected_answer": "0, 1, 3, 4, 5.",
+    "model_answer": "0,1,3,4,5",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0,1,3,4,5",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/208",
+    "question": "Q: List all the nodes connected to 8 in alphabetical order.\nA: ",
+    "expected_answer": "0, 1, 2, 3, 4, 5, 6, 7, 9, 10, 11, 12, 13, 14, 15, 16.",
+    "model_answer": "0,1,2,3,4,5,6,7,9,10,11,12,13,14,15,16",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0,1,2,3,4,5,6,7,9,10,11,12,13,14,15,16",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/209",
+    "question": "Q: List all the nodes connected to 3 in alphabetical order.\nA: ",
+    "expected_answer": "0, 1, 2, 4, 5.",
+    "model_answer": "0,1,2,4,5",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0,1,2,4,5",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/210",
+    "question": "Q: List all the nodes connected to 3 in alphabetical order.\nA: ",
+    "expected_answer": "0, 1, 2, 4, 5, 6.",
+    "model_answer": "0,1,2,4,5,6",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0,1,2,4,5,6",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/211",
+    "question": "Q: List all the nodes connected to 8 in alphabetical order.\nA: ",
+    "expected_answer": "0, 1, 2, 3, 4, 5, 6, 7, 9, 10, 11, 12, 13, 14, 15.",
+    "model_answer": "0,1,2,3,4,5,6,7,9,10,11,12,13,14,15",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0,1,2,3,4,5,6,7,9,10,11,12,13,14,15",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/212",
+    "question": "Q: List all the nodes connected to 8 in alphabetical order.\nA: ",
+    "expected_answer": "0, 1, 2, 3, 4, 5, 6, 7, 9, 10, 11, 12.",
+    "model_answer": "0,1,2,3,4,5,6,7,9,10,11,12",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0,1,2,3,4,5,6,7,9,10,11,12",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/213",
+    "question": "Q: List all the nodes connected to 1 in alphabetical order.\nA: ",
+    "expected_answer": "0, 2, 3, 4, 5, 6, 7, 8, 9.",
+    "model_answer": "0,2,3,4,5,6,7,8,9",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0,2,3,4,5,6,7,8,9",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/214",
+    "question": "Q: List all the nodes connected to 11 in alphabetical order.\nA: ",
+    "expected_answer": "0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 12, 13.",
+    "model_answer": "0,1,2,3,4,5,6,7,8,9,10,12,13",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0,1,2,3,4,5,6,7,8,9,10,12,13",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/215",
+    "question": "Q: List all the nodes connected to 6 in alphabetical order.\nA: ",
+    "expected_answer": "0, 1, 2, 3, 4, 5, 7.",
+    "model_answer": "0,1,2,3,4,5,7",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0,1,2,3,4,5,7",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/216",
+    "question": "Q: List all the nodes connected to 2 in alphabetical order.\nA: ",
+    "expected_answer": "0, 1, 3, 4, 5, 6.",
+    "model_answer": "0,1,3,4,5,6",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0,1,3,4,5,6",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/217",
+    "question": "Q: List all the nodes connected to 3 in alphabetical order.\nA: ",
+    "expected_answer": "0, 1, 2, 4, 5, 6, 7.",
+    "model_answer": "0,1,2,4,5,6,7",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0,1,2,4,5,6,7",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/218",
+    "question": "Q: List all the nodes connected to 2 in alphabetical order.\nA: ",
+    "expected_answer": "0, 1, 3, 4, 5, 6.",
+    "model_answer": "0,1,3,4,5,6",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0,1,3,4,5,6",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/219",
+    "question": "Q: List all the nodes connected to 11 in alphabetical order.\nA: ",
+    "expected_answer": "0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 12, 13.",
+    "model_answer": "0,1,2,3,4,5,6,7,8,9,10,12,13",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0,1,2,3,4,5,6,7,8,9,10,12,13",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/220",
+    "question": "Q: List all the nodes connected to 12 in alphabetical order.\nA: ",
+    "expected_answer": "0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 13, 14, 15, 16, 17.",
+    "model_answer": "0,1,2,3,4,5,6,7,8,9,10,11,13,14,15,16,17",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0,1,2,3,4,5,6,7,8,9,10,11,13,14,15,16,17",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/221",
+    "question": "Q: List all the nodes connected to 0 in alphabetical order.\nA: ",
+    "expected_answer": "1, 2, 3, 4, 5, 6, 7.",
+    "model_answer": "1,2,3,4,5,6,7",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1,2,3,4,5,6,7",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/222",
+    "question": "Q: List all the nodes connected to 5 in alphabetical order.\nA: ",
+    "expected_answer": "0, 1, 2, 3, 4, 6, 7, 8, 9.",
+    "model_answer": "0,1,2,3,4,6,7,8,9",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0,1,2,3,4,6,7,8,9",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/223",
+    "question": "Q: List all the nodes connected to 7 in alphabetical order.\nA: ",
+    "expected_answer": "0, 1, 2, 3, 4, 5, 6, 8, 9, 10, 11, 12.",
+    "model_answer": "0,1,2,3,4,5,6,8,9,10,11,12",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0,1,2,3,4,5,6,8,9,10,11,12",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/224",
+    "question": "Q: List all the nodes connected to 3 in alphabetical order.\nA: ",
+    "expected_answer": "0, 1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13.",
+    "model_answer": "0,1,2,4,5,6,7,8,9,10,11,12,13",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0,1,2,4,5,6,7,8,9,10,11,12,13",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/225",
+    "question": "Q: List all the nodes connected to 3 in alphabetical order.\nA: ",
+    "expected_answer": "0, 1, 2, 4, 5.",
+    "model_answer": "0,1,2,4,5",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0,1,2,4,5",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/226",
+    "question": "Q: List all the nodes connected to 2 in alphabetical order.\nA: ",
+    "expected_answer": "0, 1, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12.",
+    "model_answer": "0,1,3,4,5,6,7,8,9,10,11,12",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0,1,3,4,5,6,7,8,9,10,11,12",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/227",
+    "question": "Q: List all the nodes connected to 6 in alphabetical order.\nA: ",
+    "expected_answer": "0, 1, 2, 3, 4, 5, 7, 8.",
+    "model_answer": "0,1,2,3,4,5,7,8",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0,1,2,3,4,5,7,8",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/228",
+    "question": "Q: List all the nodes connected to 4 in alphabetical order.\nA: ",
+    "expected_answer": "0, 1, 2, 3, 5, 6, 7, 8, 9, 10, 11, 12.",
+    "model_answer": "0,1,2,3,5,6,7,8,9,10,11,12",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0,1,2,3,5,6,7,8,9,10,11,12",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/229",
+    "question": "Q: List all the nodes connected to 0 in alphabetical order.\nA: ",
+    "expected_answer": "1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11.",
+    "model_answer": "1,2,3,4,5,6,7,8,9,10,11",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1,2,3,4,5,6,7,8,9,10,11",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/230",
+    "question": "Q: List all the nodes connected to 1 in alphabetical order.\nA: ",
+    "expected_answer": "0, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11.",
+    "model_answer": "0,2,3,4,5,6,7,8,9,10,11",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0,2,3,4,5,6,7,8,9,10,11",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/231",
+    "question": "Q: List all the nodes connected to 7 in alphabetical order.\nA: ",
+    "expected_answer": "0, 1, 2, 3, 4, 5, 6, 8, 9.",
+    "model_answer": "0,1,2,3,4,5,6,8,9",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0,1,2,3,4,5,6,8,9",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/232",
+    "question": "Q: List all the nodes connected to 3 in alphabetical order.\nA: ",
+    "expected_answer": "0, 1, 2, 4, 5.",
+    "model_answer": "0,1,2,4,5",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0,1,2,4,5",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/233",
+    "question": "Q: List all the nodes connected to 9 in alphabetical order.\nA: ",
+    "expected_answer": "0, 1, 2, 3, 4, 5, 6, 7, 8, 10, 11, 12, 13, 14, 15, 16, 17.",
+    "model_answer": "0,1,2,3,4,5,6,7,8,10,11,12,13,14,15,16,17",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0,1,2,3,4,5,6,7,8,10,11,12,13,14,15,16,17",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/234",
+    "question": "Q: List all the nodes connected to 6 in alphabetical order.\nA: ",
+    "expected_answer": "0, 1, 2, 3, 4, 5, 7, 8, 9, 10, 11, 12.",
+    "model_answer": "0,1,2,3,4,5,7,8,9,10,11,12",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0,1,2,3,4,5,7,8,9,10,11,12",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/235",
+    "question": "Q: List all the nodes connected to 7 in alphabetical order.\nA: ",
+    "expected_answer": "0, 1, 2, 3, 4, 5, 6, 8, 9.",
+    "model_answer": "0,1,2,3,4,5,6,8,9",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0,1,2,3,4,5,6,8,9",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/236",
+    "question": "Q: List all the nodes connected to 2 in alphabetical order.\nA: ",
+    "expected_answer": "0, 1, 3, 4, 5, 6, 7, 8.",
+    "model_answer": "0,1,3,4,5,6,7,8",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0,1,3,4,5,6,7,8",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/237",
+    "question": "Q: List all the nodes connected to 6 in alphabetical order.\nA: ",
+    "expected_answer": "0, 1, 2, 3, 4, 5, 7, 8, 9.",
+    "model_answer": "0,1,2,3,4,5,7,8,9",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0,1,2,3,4,5,7,8,9",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/238",
+    "question": "Q: List all the nodes connected to 7 in alphabetical order.\nA: ",
+    "expected_answer": "0, 1, 2, 3, 4, 5, 6.",
+    "model_answer": "0,1,2,3,4,5,6",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0,1,2,3,4,5,6",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/239",
+    "question": "Q: List all the nodes connected to 2 in alphabetical order.\nA: ",
+    "expected_answer": "0, 1, 3, 4, 5, 6, 7.",
+    "model_answer": "0,1,3,4,5,6,7",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0,1,3,4,5,6,7",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/240",
+    "question": "Q: List all the nodes connected to 4 in alphabetical order.\nA: ",
+    "expected_answer": "0, 1, 2, 3, 5, 6, 7, 8, 9, 10, 11.",
+    "model_answer": "0,1,2,3,5,6,7,8,9,10,11",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0,1,2,3,5,6,7,8,9,10,11",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/241",
+    "question": "Q: List all the nodes connected to 9 in alphabetical order.\nA: ",
+    "expected_answer": "0, 1, 2, 3, 4, 5, 6, 7, 8, 10.",
+    "model_answer": "0,1,2,3,4,5,6,7,8,10",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0,1,2,3,4,5,6,7,8,10",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/242",
+    "question": "Q: List all the nodes connected to 2 in alphabetical order.\nA: ",
+    "expected_answer": "0, 1, 3, 4, 5, 6.",
+    "model_answer": "0,1,3,4,5,6",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0,1,3,4,5,6",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/243",
+    "question": "Q: List all the nodes connected to 9 in alphabetical order.\nA: ",
+    "expected_answer": "0, 1, 2, 3, 4, 5, 6, 7, 8.",
+    "model_answer": "0,1,2,3,4,5,6,7,8",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0,1,2,3,4,5,6,7,8",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/244",
+    "question": "Q: List all the nodes connected to 2 in alphabetical order.\nA: ",
+    "expected_answer": "0, 1, 3, 4, 5.",
+    "model_answer": "0,1,3,4,5",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0,1,3,4,5",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/245",
+    "question": "Q: List all the nodes connected to 3 in alphabetical order.\nA: ",
+    "expected_answer": "0, 1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13.",
+    "model_answer": "0,1,2,4,5,6,7,8,9,10,11,12,13",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0,1,2,4,5,6,7,8,9,10,11,12,13",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/246",
+    "question": "Q: List all the nodes connected to 1 in alphabetical order.\nA: ",
+    "expected_answer": "0, 2, 3, 4, 5, 6.",
+    "model_answer": "0,2,3,4,5,6",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0,2,3,4,5,6",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/247",
+    "question": "Q: List all the nodes connected to 14 in alphabetical order.\nA: ",
+    "expected_answer": "0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 15.",
+    "model_answer": "0,1,2,3,4,5,6,7,8,9,10,11,12,13,15",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0,1,2,3,4,5,6,7,8,9,10,11,12,13,15",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/248",
+    "question": "Q: List all the nodes connected to 15 in alphabetical order.\nA: ",
+    "expected_answer": "0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 16.",
+    "model_answer": "0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,16",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,16",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/249",
+    "question": "Q: List all the nodes connected to 0 in alphabetical order.\nA: ",
+    "expected_answer": "1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17.",
+    "model_answer": "1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/250",
+    "question": "Q: List all the nodes connected to 14 in alphabetical order.\nA: ",
+    "expected_answer": "0.",
+    "model_answer": "0",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/251",
+    "question": "Q: List all the nodes connected to 10 in alphabetical order.\nA: ",
+    "expected_answer": "0.",
+    "model_answer": "0",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/252",
+    "question": "Q: List all the nodes connected to 1 in alphabetical order.\nA: ",
+    "expected_answer": "0.",
+    "model_answer": "0",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/253",
+    "question": "Q: List all the nodes connected to 0 in alphabetical order.\nA: ",
+    "expected_answer": "1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14.",
+    "model_answer": "1,2,3,4,5,6,7,8,9,10,11,12,13,14",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1,2,3,4,5,6,7,8,9,10,11,12,13,14",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/254",
+    "question": "Q: List all the nodes connected to 11 in alphabetical order.\nA: ",
+    "expected_answer": "0.",
+    "model_answer": "0",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/255",
+    "question": "Q: List all the nodes connected to 7 in alphabetical order.\nA: ",
+    "expected_answer": "0.",
+    "model_answer": "0",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/256",
+    "question": "Q: List all the nodes connected to 1 in alphabetical order.\nA: ",
+    "expected_answer": "0.",
+    "model_answer": "0",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/257",
+    "question": "Q: List all the nodes connected to 1 in alphabetical order.\nA: ",
+    "expected_answer": "0.",
+    "model_answer": "0",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/258",
+    "question": "Q: List all the nodes connected to 10 in alphabetical order.\nA: ",
+    "expected_answer": "0.",
+    "model_answer": "0",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/259",
+    "question": "Q: List all the nodes connected to 2 in alphabetical order.\nA: ",
+    "expected_answer": "0.",
+    "model_answer": "0",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/260",
+    "question": "Q: List all the nodes connected to 6 in alphabetical order.\nA: ",
+    "expected_answer": "0.",
+    "model_answer": "0",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/261",
+    "question": "Q: List all the nodes connected to 9 in alphabetical order.\nA: ",
+    "expected_answer": "0.",
+    "model_answer": "0",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/262",
+    "question": "Q: List all the nodes connected to 4 in alphabetical order.\nA: ",
+    "expected_answer": "0.",
+    "model_answer": "0",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/263",
+    "question": "Q: List all the nodes connected to 9 in alphabetical order.\nA: ",
+    "expected_answer": "0.",
+    "model_answer": "0",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/264",
+    "question": "Q: List all the nodes connected to 5 in alphabetical order.\nA: ",
+    "expected_answer": "0.",
+    "model_answer": "0",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/265",
+    "question": "Q: List all the nodes connected to 4 in alphabetical order.\nA: ",
+    "expected_answer": "0.",
+    "model_answer": "0",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/266",
+    "question": "Q: List all the nodes connected to 4 in alphabetical order.\nA: ",
+    "expected_answer": "0.",
+    "model_answer": "0",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/267",
+    "question": "Q: List all the nodes connected to 3 in alphabetical order.\nA: ",
+    "expected_answer": "0.",
+    "model_answer": "0",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/268",
+    "question": "Q: List all the nodes connected to 4 in alphabetical order.\nA: ",
+    "expected_answer": "0.",
+    "model_answer": "0",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/269",
+    "question": "Q: List all the nodes connected to 13 in alphabetical order.\nA: ",
+    "expected_answer": "0.",
+    "model_answer": "0",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/270",
+    "question": "Q: List all the nodes connected to 8 in alphabetical order.\nA: ",
+    "expected_answer": "0.",
+    "model_answer": "0",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/271",
+    "question": "Q: List all the nodes connected to 1 in alphabetical order.\nA: ",
+    "expected_answer": "0.",
+    "model_answer": "0",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/272",
+    "question": "Q: List all the nodes connected to 8 in alphabetical order.\nA: ",
+    "expected_answer": "0.",
+    "model_answer": "0",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/273",
+    "question": "Q: List all the nodes connected to 11 in alphabetical order.\nA: ",
+    "expected_answer": "0.",
+    "model_answer": "0",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/274",
+    "question": "Q: List all the nodes connected to 9 in alphabetical order.\nA: ",
+    "expected_answer": "0.",
+    "model_answer": "0",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/275",
+    "question": "Q: List all the nodes connected to 1 in alphabetical order.\nA: ",
+    "expected_answer": "0.",
+    "model_answer": "0",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/276",
+    "question": "Q: List all the nodes connected to 5 in alphabetical order.\nA: ",
+    "expected_answer": "0.",
+    "model_answer": "0",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/277",
+    "question": "Q: List all the nodes connected to 8 in alphabetical order.\nA: ",
+    "expected_answer": "0.",
+    "model_answer": "0",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/278",
+    "question": "Q: List all the nodes connected to 5 in alphabetical order.\nA: ",
+    "expected_answer": "0.",
+    "model_answer": "0",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/279",
+    "question": "Q: List all the nodes connected to 5 in alphabetical order.\nA: ",
+    "expected_answer": "0.",
+    "model_answer": "0",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/280",
+    "question": "Q: List all the nodes connected to 7 in alphabetical order.\nA: ",
+    "expected_answer": "0.",
+    "model_answer": "0",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/281",
+    "question": "Q: List all the nodes connected to 4 in alphabetical order.\nA: ",
+    "expected_answer": "0.",
+    "model_answer": "0",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/282",
+    "question": "Q: List all the nodes connected to 0 in alphabetical order.\nA: ",
+    "expected_answer": "1, 2, 3, 4, 5.",
+    "model_answer": "1,2,3,4,5",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1,2,3,4,5",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/283",
+    "question": "Q: List all the nodes connected to 16 in alphabetical order.\nA: ",
+    "expected_answer": "0.",
+    "model_answer": "0",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/284",
+    "question": "Q: List all the nodes connected to 9 in alphabetical order.\nA: ",
+    "expected_answer": "0.",
+    "model_answer": "0",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/285",
+    "question": "Q: List all the nodes connected to 9 in alphabetical order.\nA: ",
+    "expected_answer": "0.",
+    "model_answer": "0",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/286",
+    "question": "Q: List all the nodes connected to 8 in alphabetical order.\nA: ",
+    "expected_answer": "0.",
+    "model_answer": "0",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/287",
+    "question": "Q: List all the nodes connected to 1 in alphabetical order.\nA: ",
+    "expected_answer": "0.",
+    "model_answer": "0",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/288",
+    "question": "Q: List all the nodes connected to 3 in alphabetical order.\nA: ",
+    "expected_answer": "0.",
+    "model_answer": "0",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/289",
+    "question": "Q: List all the nodes connected to 4 in alphabetical order.\nA: ",
+    "expected_answer": "0.",
+    "model_answer": "0",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/290",
+    "question": "Q: List all the nodes connected to 5 in alphabetical order.\nA: ",
+    "expected_answer": "0.",
+    "model_answer": "0",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/291",
+    "question": "Q: List all the nodes connected to 2 in alphabetical order.\nA: ",
+    "expected_answer": "0.",
+    "model_answer": "0",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/292",
+    "question": "Q: List all the nodes connected to 6 in alphabetical order.\nA: ",
+    "expected_answer": "0.",
+    "model_answer": "0",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/293",
+    "question": "Q: List all the nodes connected to 0 in alphabetical order.\nA: ",
+    "expected_answer": "1, 2, 3, 4, 5, 6, 7, 8, 9.",
+    "model_answer": "1,2,3,4,5,6,7,8,9",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1,2,3,4,5,6,7,8,9",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/294",
+    "question": "Q: List all the nodes connected to 3 in alphabetical order.\nA: ",
+    "expected_answer": "0.",
+    "model_answer": "0",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/295",
+    "question": "Q: List all the nodes connected to 0 in alphabetical order.\nA: ",
+    "expected_answer": "1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13.",
+    "model_answer": "1,2,3,4,5,6,7,8,9,10,11,12,13",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1,2,3,4,5,6,7,8,9,10,11,12,13",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/296",
+    "question": "Q: List all the nodes connected to 5 in alphabetical order.\nA: ",
+    "expected_answer": "0.",
+    "model_answer": "0",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/297",
+    "question": "Q: List all the nodes connected to 1 in alphabetical order.\nA: ",
+    "expected_answer": "0.",
+    "model_answer": "0",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/298",
+    "question": "Q: List all the nodes connected to 6 in alphabetical order.\nA: ",
+    "expected_answer": "0.",
+    "model_answer": "0",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/299",
+    "question": "Q: List all the nodes connected to 4 in alphabetical order.\nA: ",
+    "expected_answer": "0.",
+    "model_answer": "0",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/300",
+    "question": "Q: List all the nodes connected to 10 in alphabetical order.\nA: ",
+    "expected_answer": "9, 11.",
+    "model_answer": "9,11",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "9,11",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/301",
+    "question": "Q: List all the nodes connected to 8 in alphabetical order.\nA: ",
+    "expected_answer": "7, 9.",
+    "model_answer": "7,9",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "7,9",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/302",
+    "question": "Q: List all the nodes connected to 5 in alphabetical order.\nA: ",
+    "expected_answer": "4, 6.",
+    "model_answer": "4,6",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "4,6",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/303",
+    "question": "Q: List all the nodes connected to 6 in alphabetical order.\nA: ",
+    "expected_answer": "5, 7.",
+    "model_answer": "5,7",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "5,7",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/304",
+    "question": "Q: List all the nodes connected to 16 in alphabetical order.\nA: ",
+    "expected_answer": "15, 17.",
+    "model_answer": "15,17",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "15,17",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/305",
+    "question": "Q: List all the nodes connected to 1 in alphabetical order.\nA: ",
+    "expected_answer": "0, 2.",
+    "model_answer": "0,2",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0,2",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/306",
+    "question": "Q: List all the nodes connected to 13 in alphabetical order.\nA: ",
+    "expected_answer": "12, 14.",
+    "model_answer": "12,14",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "12,14",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/307",
+    "question": "Q: List all the nodes connected to 2 in alphabetical order.\nA: ",
+    "expected_answer": "1, 3.",
+    "model_answer": "1,3",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1,3",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/308",
+    "question": "Q: List all the nodes connected to 8 in alphabetical order.\nA: ",
+    "expected_answer": "7, 9.",
+    "model_answer": "7,9",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "7,9",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/309",
+    "question": "Q: List all the nodes connected to 5 in alphabetical order.\nA: ",
+    "expected_answer": "4.",
+    "model_answer": "4",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "4",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/310",
+    "question": "Q: List all the nodes connected to 3 in alphabetical order.\nA: ",
+    "expected_answer": "2, 4.",
+    "model_answer": "2,4",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2,4",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/311",
+    "question": "Q: List all the nodes connected to 7 in alphabetical order.\nA: ",
+    "expected_answer": "6, 8.",
+    "model_answer": "6,8",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "6,8",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/312",
+    "question": "Q: List all the nodes connected to 5 in alphabetical order.\nA: ",
+    "expected_answer": "4, 6.",
+    "model_answer": "4,6",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "4,6",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/313",
+    "question": "Q: List all the nodes connected to 8 in alphabetical order.\nA: ",
+    "expected_answer": "7, 9.",
+    "model_answer": "7,9",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "7,9",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/314",
+    "question": "Q: List all the nodes connected to 1 in alphabetical order.\nA: ",
+    "expected_answer": "0, 2.",
+    "model_answer": "0,2",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0,2",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/315",
+    "question": "Q: List all the nodes connected to 0 in alphabetical order.\nA: ",
+    "expected_answer": "1.",
+    "model_answer": "1",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/316",
+    "question": "Q: List all the nodes connected to 5 in alphabetical order.\nA: ",
+    "expected_answer": "4, 6.",
+    "model_answer": "4,6",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "4,6",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/317",
+    "question": "Q: List all the nodes connected to 5 in alphabetical order.\nA: ",
+    "expected_answer": "4, 6.",
+    "model_answer": "4,6",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "4,6",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/318",
+    "question": "Q: List all the nodes connected to 6 in alphabetical order.\nA: ",
+    "expected_answer": "5.",
+    "model_answer": "5",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "5",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/319",
+    "question": "Q: List all the nodes connected to 9 in alphabetical order.\nA: ",
+    "expected_answer": "8, 10.",
+    "model_answer": "10,8",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "10,8",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/320",
+    "question": "Q: List all the nodes connected to 7 in alphabetical order.\nA: ",
+    "expected_answer": "6, 8.",
+    "model_answer": "6,8",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "6,8",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/321",
+    "question": "Q: List all the nodes connected to 2 in alphabetical order.\nA: ",
+    "expected_answer": "1, 3.",
+    "model_answer": "1,3",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1,3",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/322",
+    "question": "Q: List all the nodes connected to 7 in alphabetical order.\nA: ",
+    "expected_answer": "6, 8.",
+    "model_answer": "6,8",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "6,8",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/323",
+    "question": "Q: List all the nodes connected to 7 in alphabetical order.\nA: ",
+    "expected_answer": "6, 8.",
+    "model_answer": "6,8",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "6,8",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/324",
+    "question": "Q: List all the nodes connected to 10 in alphabetical order.\nA: ",
+    "expected_answer": "9, 11.",
+    "model_answer": "9,11",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "9,11",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/325",
+    "question": "Q: List all the nodes connected to 5 in alphabetical order.\nA: ",
+    "expected_answer": "4.",
+    "model_answer": "4",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "4",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/326",
+    "question": "Q: List all the nodes connected to 2 in alphabetical order.\nA: ",
+    "expected_answer": "1, 3.",
+    "model_answer": "1,3",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1,3",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/327",
+    "question": "Q: List all the nodes connected to 8 in alphabetical order.\nA: ",
+    "expected_answer": "7.",
+    "model_answer": "7",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "7",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/328",
+    "question": "Q: List all the nodes connected to 9 in alphabetical order.\nA: ",
+    "expected_answer": "8, 10.",
+    "model_answer": "10,8",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "10,8",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/329",
+    "question": "Q: List all the nodes connected to 9 in alphabetical order.\nA: ",
+    "expected_answer": "8, 10.",
+    "model_answer": "10,8",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "10,8",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/330",
+    "question": "Q: List all the nodes connected to 1 in alphabetical order.\nA: ",
+    "expected_answer": "0, 2.",
+    "model_answer": "0,2",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0,2",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/331",
+    "question": "Q: List all the nodes connected to 2 in alphabetical order.\nA: ",
+    "expected_answer": "1, 3.",
+    "model_answer": "1,3",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1,3",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/332",
+    "question": "Q: List all the nodes connected to 4 in alphabetical order.\nA: ",
+    "expected_answer": "3, 5.",
+    "model_answer": "3,5",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3,5",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/333",
+    "question": "Q: List all the nodes connected to 7 in alphabetical order.\nA: ",
+    "expected_answer": "6, 8.",
+    "model_answer": "6,8",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "6,8",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/334",
+    "question": "Q: List all the nodes connected to 11 in alphabetical order.\nA: ",
+    "expected_answer": "10, 12.",
+    "model_answer": "10,12",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "10,12",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/335",
+    "question": "Q: List all the nodes connected to 2 in alphabetical order.\nA: ",
+    "expected_answer": "1, 3.",
+    "model_answer": "1,3",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1,3",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/336",
+    "question": "Q: List all the nodes connected to 8 in alphabetical order.\nA: ",
+    "expected_answer": "7.",
+    "model_answer": "7",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "7",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/337",
+    "question": "Q: List all the nodes connected to 8 in alphabetical order.\nA: ",
+    "expected_answer": "7, 9.",
+    "model_answer": "7,9",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "7,9",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/338",
+    "question": "Q: List all the nodes connected to 6 in alphabetical order.\nA: ",
+    "expected_answer": "5, 7.",
+    "model_answer": "5,7",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "5,7",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/339",
+    "question": "Q: List all the nodes connected to 5 in alphabetical order.\nA: ",
+    "expected_answer": "4, 6.",
+    "model_answer": "4,6",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "4,6",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/340",
+    "question": "Q: List all the nodes connected to 2 in alphabetical order.\nA: ",
+    "expected_answer": "1, 3.",
+    "model_answer": "1,3",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1,3",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/341",
+    "question": "Q: List all the nodes connected to 8 in alphabetical order.\nA: ",
+    "expected_answer": "7, 9.",
+    "model_answer": "7,9",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "7,9",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/342",
+    "question": "Q: List all the nodes connected to 4 in alphabetical order.\nA: ",
+    "expected_answer": "3, 5.",
+    "model_answer": "3,5",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3,5",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/343",
+    "question": "Q: List all the nodes connected to 8 in alphabetical order.\nA: ",
+    "expected_answer": "7, 9.",
+    "model_answer": "7,9",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "7,9",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/344",
+    "question": "Q: List all the nodes connected to 4 in alphabetical order.\nA: ",
+    "expected_answer": "3, 5.",
+    "model_answer": "3,5",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3,5",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/345",
+    "question": "Q: List all the nodes connected to 9 in alphabetical order.\nA: ",
+    "expected_answer": "8, 10.",
+    "model_answer": "10,8",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "10,8",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/346",
+    "question": "Q: List all the nodes connected to 6 in alphabetical order.\nA: ",
+    "expected_answer": "5.",
+    "model_answer": "5",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "5",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/347",
+    "question": "Q: List all the nodes connected to 14 in alphabetical order.\nA: ",
+    "expected_answer": "13, 15.",
+    "model_answer": "13,15",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "13,15",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/348",
+    "question": "Q: List all the nodes connected to 1 in alphabetical order.\nA: ",
+    "expected_answer": "0, 2.",
+    "model_answer": "0,2",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0,2",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  },
+  {
+    "sample_id": "connected_nodes/adjacency/test/349",
+    "question": "Q: List all the nodes connected to 11 in alphabetical order.\nA: ",
+    "expected_answer": "10, 12.",
+    "model_answer": "10,12",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "10,12",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    }
+  }
+]

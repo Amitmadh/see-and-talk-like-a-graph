@@ -1,0 +1,8075 @@
+[
+  {
+    "sample_id": "node_degree/adjacency/test/0",
+    "question": "Q: What is the degree of node 14?\nA: ",
+    "expected_answer": "1",
+    "model_answer": "2",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "2.",
+    "corrupted_answer": "1",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        14,
+        2
+      ]
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/1",
+    "question": "Q: What is the degree of node 1?\nA: ",
+    "expected_answer": "2",
+    "model_answer": "2",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "3.",
+    "corrupted_answer": "2",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        1,
+        3
+      ]
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/2",
+    "question": "Q: What is the degree of node 0?\nA: ",
+    "expected_answer": "1",
+    "model_answer": "1",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "0.",
+    "corrupted_answer": "1",
+    "corruption": {
+      "type": "add_edge",
+      "edge": [
+        0,
+        1
+      ]
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/3",
+    "question": "Q: What is the degree of node 2?\nA: ",
+    "expected_answer": "0",
+    "model_answer": "1",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "1.",
+    "corrupted_answer": "0",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        2,
+        3
+      ]
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/4",
+    "question": "Q: What is the degree of node 1?\nA: ",
+    "expected_answer": "3",
+    "model_answer": "3",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "4.",
+    "corrupted_answer": "3",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        1,
+        2
+      ]
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/5",
+    "question": "Q: What is the degree of node 10?\nA: ",
+    "expected_answer": "8",
+    "model_answer": "8",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "8",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "9.",
+    "corrupted_answer": "8",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        10,
+        1
+      ]
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/9",
+    "question": "Q: What is the degree of node 3?\nA: ",
+    "expected_answer": "1",
+    "model_answer": "2",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "2.",
+    "corrupted_answer": "1",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        3,
+        1
+      ]
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/10",
+    "question": "Q: What is the degree of node 0?\nA: ",
+    "expected_answer": "6",
+    "model_answer": "6",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "6",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "7.",
+    "corrupted_answer": "6",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        0,
+        1
+      ]
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/11",
+    "question": "Q: What is the degree of node 0?\nA: ",
+    "expected_answer": "11",
+    "model_answer": "11",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "11",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "12.",
+    "corrupted_answer": "11",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        0,
+        1
+      ]
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/13",
+    "question": "Q: What is the degree of node 0?\nA: ",
+    "expected_answer": "8",
+    "model_answer": "8",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "8",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "9.",
+    "corrupted_answer": "8",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        0,
+        1
+      ]
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/14",
+    "question": "Q: What is the degree of node 5?\nA: ",
+    "expected_answer": "2",
+    "model_answer": "2",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "3.",
+    "corrupted_answer": "2",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        5,
+        4
+      ]
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/15",
+    "question": "Q: What is the degree of node 4?\nA: ",
+    "expected_answer": "3",
+    "model_answer": "3",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "4.",
+    "corrupted_answer": "3",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        4,
+        0
+      ]
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/16",
+    "question": "Q: What is the degree of node 3?\nA: ",
+    "expected_answer": "3",
+    "model_answer": "4",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "4",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "4.",
+    "corrupted_answer": "3",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        3,
+        0
+      ]
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/18",
+    "question": "Q: What is the degree of node 1?\nA: ",
+    "expected_answer": "0",
+    "model_answer": "0",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "1.",
+    "corrupted_answer": "0",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        1,
+        2
+      ]
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/21",
+    "question": "Q: What is the degree of node 5?\nA: ",
+    "expected_answer": "2",
+    "model_answer": "2",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "3.",
+    "corrupted_answer": "2",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        5,
+        0
+      ]
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/23",
+    "question": "Q: What is the degree of node 0?\nA: ",
+    "expected_answer": "8",
+    "model_answer": "8",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "8",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "9.",
+    "corrupted_answer": "8",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        0,
+        1
+      ]
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/24",
+    "question": "Q: What is the degree of node 8?\nA: ",
+    "expected_answer": "4",
+    "model_answer": "4",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "4",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "5.",
+    "corrupted_answer": "4",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        8,
+        2
+      ]
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/25",
+    "question": "Q: What is the degree of node 3?\nA: ",
+    "expected_answer": "2",
+    "model_answer": "2",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "3.",
+    "corrupted_answer": "2",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        3,
+        0
+      ]
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/27",
+    "question": "Q: What is the degree of node 0?\nA: ",
+    "expected_answer": "0",
+    "model_answer": "0",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "1.",
+    "corrupted_answer": "0",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        0,
+        3
+      ]
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/28",
+    "question": "Q: What is the degree of node 10?\nA: ",
+    "expected_answer": "7",
+    "model_answer": "7",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "7",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "8.",
+    "corrupted_answer": "7",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        10,
+        1
+      ]
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/29",
+    "question": "Q: What is the degree of node 8?\nA: ",
+    "expected_answer": "3",
+    "model_answer": "4",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "4",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "4.",
+    "corrupted_answer": "3",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        8,
+        0
+      ]
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/30",
+    "question": "Q: What is the degree of node 7?\nA: ",
+    "expected_answer": "1",
+    "model_answer": "1",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "0.",
+    "corrupted_answer": "1",
+    "corruption": {
+      "type": "add_edge",
+      "edge": [
+        7,
+        0
+      ]
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/31",
+    "question": "Q: What is the degree of node 1?\nA: ",
+    "expected_answer": "10",
+    "model_answer": "10",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "10",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "11.",
+    "corrupted_answer": "10",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        1,
+        0
+      ]
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/32",
+    "question": "Q: What is the degree of node 4?\nA: ",
+    "expected_answer": "3",
+    "model_answer": "3",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "4.",
+    "corrupted_answer": "3",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        4,
+        0
+      ]
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/33",
+    "question": "Q: What is the degree of node 2?\nA: ",
+    "expected_answer": "4",
+    "model_answer": "4",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "4",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "5.",
+    "corrupted_answer": "4",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        2,
+        8
+      ]
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/34",
+    "question": "Q: What is the degree of node 8?\nA: ",
+    "expected_answer": "5",
+    "model_answer": "5",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "5",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "6.",
+    "corrupted_answer": "5",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        8,
+        0
+      ]
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/35",
+    "question": "Q: What is the degree of node 9?\nA: ",
+    "expected_answer": "9",
+    "model_answer": "9",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "9",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "10.",
+    "corrupted_answer": "9",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        9,
+        0
+      ]
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/36",
+    "question": "Q: What is the degree of node 0?\nA: ",
+    "expected_answer": "3",
+    "model_answer": "3",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "4.",
+    "corrupted_answer": "3",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        0,
+        1
+      ]
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/37",
+    "question": "Q: What is the degree of node 4?\nA: ",
+    "expected_answer": "2",
+    "model_answer": "3",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "3.",
+    "corrupted_answer": "2",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        4,
+        5
+      ]
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/40",
+    "question": "Q: What is the degree of node 10?\nA: ",
+    "expected_answer": "2",
+    "model_answer": "3",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "3.",
+    "corrupted_answer": "2",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        10,
+        8
+      ]
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/41",
+    "question": "Q: What is the degree of node 4?\nA: ",
+    "expected_answer": "3",
+    "model_answer": "4",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "4",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "4.",
+    "corrupted_answer": "3",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        4,
+        3
+      ]
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/42",
+    "question": "Q: What is the degree of node 7?\nA: ",
+    "expected_answer": "1",
+    "model_answer": "1",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "0.",
+    "corrupted_answer": "1",
+    "corruption": {
+      "type": "add_edge",
+      "edge": [
+        7,
+        0
+      ]
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/43",
+    "question": "Q: What is the degree of node 5?\nA: ",
+    "expected_answer": "2",
+    "model_answer": "3",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "3.",
+    "corrupted_answer": "2",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        5,
+        7
+      ]
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/44",
+    "question": "Q: What is the degree of node 2?\nA: ",
+    "expected_answer": "3",
+    "model_answer": "4",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "4",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "4.",
+    "corrupted_answer": "3",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        2,
+        0
+      ]
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/45",
+    "question": "Q: What is the degree of node 3?\nA: ",
+    "expected_answer": "7",
+    "model_answer": "7",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "7",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "8.",
+    "corrupted_answer": "7",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        3,
+        0
+      ]
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/47",
+    "question": "Q: What is the degree of node 14?\nA: ",
+    "expected_answer": "10",
+    "model_answer": "10",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "10",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "11.",
+    "corrupted_answer": "10",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        14,
+        1
+      ]
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/48",
+    "question": "Q: What is the degree of node 14?\nA: ",
+    "expected_answer": "13",
+    "model_answer": "13",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "13",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "14.",
+    "corrupted_answer": "13",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        14,
+        0
+      ]
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/50",
+    "question": "Q: What is the degree of node 0?\nA: ",
+    "expected_answer": "14",
+    "model_answer": "14",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "14",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "15.",
+    "corrupted_answer": "14",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        0,
+        1
+      ]
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/52",
+    "question": "Q: What is the degree of node 0?\nA: ",
+    "expected_answer": "3",
+    "model_answer": "4",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "4",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "4.",
+    "corrupted_answer": "3",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        0,
+        1
+      ]
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/53",
+    "question": "Q: What is the degree of node 0?\nA: ",
+    "expected_answer": "7",
+    "model_answer": "7",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "7",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "8.",
+    "corrupted_answer": "7",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        0,
+        1
+      ]
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/55",
+    "question": "Q: What is the degree of node 2?\nA: ",
+    "expected_answer": "0",
+    "model_answer": "1",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "1.",
+    "corrupted_answer": "0",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        2,
+        0
+      ]
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/57",
+    "question": "Q: What is the degree of node 6?\nA: ",
+    "expected_answer": "0",
+    "model_answer": "0",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "1.",
+    "corrupted_answer": "0",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        6,
+        0
+      ]
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/59",
+    "question": "Q: What is the degree of node 0?\nA: ",
+    "expected_answer": "5",
+    "model_answer": "5",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "5",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "6.",
+    "corrupted_answer": "5",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        0,
+        1
+      ]
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/60",
+    "question": "Q: What is the degree of node 0?\nA: ",
+    "expected_answer": "5",
+    "model_answer": "5",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "5",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "6.",
+    "corrupted_answer": "5",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        0,
+        1
+      ]
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/61",
+    "question": "Q: What is the degree of node 15?\nA: ",
+    "expected_answer": "1",
+    "model_answer": "2",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "2.",
+    "corrupted_answer": "1",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        15,
+        0
+      ]
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/62",
+    "question": "Q: What is the degree of node 2?\nA: ",
+    "expected_answer": "1",
+    "model_answer": "1",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "2.",
+    "corrupted_answer": "1",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        2,
+        0
+      ]
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/63",
+    "question": "Q: What is the degree of node 1?\nA: ",
+    "expected_answer": "0",
+    "model_answer": "1",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "1.",
+    "corrupted_answer": "0",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        1,
+        0
+      ]
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/64",
+    "question": "Q: What is the degree of node 8?\nA: ",
+    "expected_answer": "0",
+    "model_answer": "0",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "1.",
+    "corrupted_answer": "0",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        8,
+        0
+      ]
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/65",
+    "question": "Q: What is the degree of node 3?\nA: ",
+    "expected_answer": "0",
+    "model_answer": "0",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "1.",
+    "corrupted_answer": "0",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        3,
+        0
+      ]
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/66",
+    "question": "Q: What is the degree of node 1?\nA: ",
+    "expected_answer": "3",
+    "model_answer": "4",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "4",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "4.",
+    "corrupted_answer": "3",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        1,
+        0
+      ]
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/67",
+    "question": "Q: What is the degree of node 0?\nA: ",
+    "expected_answer": "3",
+    "model_answer": "3",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "4.",
+    "corrupted_answer": "3",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        0,
+        1
+      ]
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/68",
+    "question": "Q: What is the degree of node 5?\nA: ",
+    "expected_answer": "4",
+    "model_answer": "4",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "4",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "5.",
+    "corrupted_answer": "4",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        5,
+        0
+      ]
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/69",
+    "question": "Q: What is the degree of node 1?\nA: ",
+    "expected_answer": "0",
+    "model_answer": "0",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "1.",
+    "corrupted_answer": "0",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        1,
+        0
+      ]
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/70",
+    "question": "Q: What is the degree of node 8?\nA: ",
+    "expected_answer": "0",
+    "model_answer": "1",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "1.",
+    "corrupted_answer": "0",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        8,
+        0
+      ]
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/72",
+    "question": "Q: What is the degree of node 10?\nA: ",
+    "expected_answer": "0",
+    "model_answer": "0",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "1.",
+    "corrupted_answer": "0",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        10,
+        0
+      ]
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/74",
+    "question": "Q: What is the degree of node 7?\nA: ",
+    "expected_answer": "3",
+    "model_answer": "4",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "4",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "4.",
+    "corrupted_answer": "3",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        7,
+        0
+      ]
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/75",
+    "question": "Q: What is the degree of node 0?\nA: ",
+    "expected_answer": "7",
+    "model_answer": "7",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "7",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "8.",
+    "corrupted_answer": "7",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        0,
+        1
+      ]
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/77",
+    "question": "Q: What is the degree of node 4?\nA: ",
+    "expected_answer": "1",
+    "model_answer": "1",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "2.",
+    "corrupted_answer": "1",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        4,
+        0
+      ]
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/78",
+    "question": "Q: What is the degree of node 0?\nA: ",
+    "expected_answer": "3",
+    "model_answer": "3",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "4.",
+    "corrupted_answer": "3",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        0,
+        1
+      ]
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/80",
+    "question": "Q: What is the degree of node 4?\nA: ",
+    "expected_answer": "1",
+    "model_answer": "1",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "2.",
+    "corrupted_answer": "1",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        4,
+        0
+      ]
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/81",
+    "question": "Q: What is the degree of node 2?\nA: ",
+    "expected_answer": "1",
+    "model_answer": "2",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "2.",
+    "corrupted_answer": "1",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        2,
+        0
+      ]
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/84",
+    "question": "Q: What is the degree of node 12?\nA: ",
+    "expected_answer": "1",
+    "model_answer": "1",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "2.",
+    "corrupted_answer": "1",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        12,
+        1
+      ]
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/86",
+    "question": "Q: What is the degree of node 3?\nA: ",
+    "expected_answer": "0",
+    "model_answer": "0",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "1.",
+    "corrupted_answer": "0",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        3,
+        0
+      ]
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/87",
+    "question": "Q: What is the degree of node 0?\nA: ",
+    "expected_answer": "4",
+    "model_answer": "4",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "4",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "5.",
+    "corrupted_answer": "4",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        0,
+        1
+      ]
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/88",
+    "question": "Q: What is the degree of node 6?\nA: ",
+    "expected_answer": "1",
+    "model_answer": "2",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "2.",
+    "corrupted_answer": "1",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        6,
+        0
+      ]
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/91",
+    "question": "Q: What is the degree of node 5?\nA: ",
+    "expected_answer": "1",
+    "model_answer": "2",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "2.",
+    "corrupted_answer": "1",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        5,
+        0
+      ]
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/92",
+    "question": "Q: What is the degree of node 7?\nA: ",
+    "expected_answer": "1",
+    "model_answer": "2",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "2.",
+    "corrupted_answer": "1",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        7,
+        2
+      ]
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/93",
+    "question": "Q: What is the degree of node 7?\nA: ",
+    "expected_answer": "5",
+    "model_answer": "5",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "5",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "6.",
+    "corrupted_answer": "5",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        7,
+        2
+      ]
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/94",
+    "question": "Q: What is the degree of node 0?\nA: ",
+    "expected_answer": "0",
+    "model_answer": "0",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "1.",
+    "corrupted_answer": "0",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        0,
+        1
+      ]
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/96",
+    "question": "Q: What is the degree of node 4?\nA: ",
+    "expected_answer": "0",
+    "model_answer": "0",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "1.",
+    "corrupted_answer": "0",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        4,
+        0
+      ]
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/97",
+    "question": "Q: What is the degree of node 5?\nA: ",
+    "expected_answer": "2",
+    "model_answer": "3",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "3.",
+    "corrupted_answer": "2",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        5,
+        0
+      ]
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/99",
+    "question": "Q: What is the degree of node 14?\nA: ",
+    "expected_answer": "0",
+    "model_answer": "0",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "1.",
+    "corrupted_answer": "0",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        14,
+        2
+      ]
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/101",
+    "question": "Q: What is the degree of node 4?\nA: ",
+    "expected_answer": "0",
+    "model_answer": "0",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "1.",
+    "corrupted_answer": "0",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        4,
+        3
+      ]
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/102",
+    "question": "Q: What is the degree of node 0?\nA: ",
+    "expected_answer": "3",
+    "model_answer": "3",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "4.",
+    "corrupted_answer": "3",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        0,
+        3
+      ]
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/104",
+    "question": "Q: What is the degree of node 6?\nA: ",
+    "expected_answer": "3",
+    "model_answer": "4",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "4",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "4.",
+    "corrupted_answer": "3",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        6,
+        0
+      ]
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/107",
+    "question": "Q: What is the degree of node 4?\nA: ",
+    "expected_answer": "1",
+    "model_answer": "2",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "2.",
+    "corrupted_answer": "1",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        4,
+        2
+      ]
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/108",
+    "question": "Q: What is the degree of node 1?\nA: ",
+    "expected_answer": "6",
+    "model_answer": "6",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "6",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "7.",
+    "corrupted_answer": "6",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        1,
+        0
+      ]
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/109",
+    "question": "Q: What is the degree of node 3?\nA: ",
+    "expected_answer": "0",
+    "model_answer": "1",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "1.",
+    "corrupted_answer": "0",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        3,
+        1
+      ]
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/110",
+    "question": "Q: What is the degree of node 3?\nA: ",
+    "expected_answer": "1",
+    "model_answer": "2",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "2.",
+    "corrupted_answer": "1",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        3,
+        5
+      ]
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/112",
+    "question": "Q: What is the degree of node 10?\nA: ",
+    "expected_answer": "9",
+    "model_answer": "8",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "8",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "10.",
+    "corrupted_answer": "9",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        10,
+        0
+      ]
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/113",
+    "question": "Q: What is the degree of node 3?\nA: ",
+    "expected_answer": "3",
+    "model_answer": "3",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "4.",
+    "corrupted_answer": "3",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        3,
+        7
+      ]
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/114",
+    "question": "Q: What is the degree of node 5?\nA: ",
+    "expected_answer": "4",
+    "model_answer": "4",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "4",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "5.",
+    "corrupted_answer": "4",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        5,
+        0
+      ]
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/115",
+    "question": "Q: What is the degree of node 0?\nA: ",
+    "expected_answer": "4",
+    "model_answer": "4",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "4",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "5.",
+    "corrupted_answer": "4",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        0,
+        1
+      ]
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/116",
+    "question": "Q: What is the degree of node 5?\nA: ",
+    "expected_answer": "0",
+    "model_answer": "1",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "1.",
+    "corrupted_answer": "0",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        5,
+        6
+      ]
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/117",
+    "question": "Q: What is the degree of node 5?\nA: ",
+    "expected_answer": "1",
+    "model_answer": "1",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "2.",
+    "corrupted_answer": "1",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        5,
+        2
+      ]
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/118",
+    "question": "Q: What is the degree of node 1?\nA: ",
+    "expected_answer": "1",
+    "model_answer": "1",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "0.",
+    "corrupted_answer": "1",
+    "corruption": {
+      "type": "add_edge",
+      "edge": [
+        1,
+        0
+      ]
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/120",
+    "question": "Q: What is the degree of node 9?\nA: ",
+    "expected_answer": "5",
+    "model_answer": "6",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "6",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "6.",
+    "corrupted_answer": "5",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        9,
+        4
+      ]
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/121",
+    "question": "Q: What is the degree of node 1?\nA: ",
+    "expected_answer": "2",
+    "model_answer": "2",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "3.",
+    "corrupted_answer": "2",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        1,
+        0
+      ]
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/123",
+    "question": "Q: What is the degree of node 5?\nA: ",
+    "expected_answer": "4",
+    "model_answer": "4",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "4",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "5.",
+    "corrupted_answer": "4",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        5,
+        0
+      ]
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/125",
+    "question": "Q: What is the degree of node 7?\nA: ",
+    "expected_answer": "1",
+    "model_answer": "1",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "2.",
+    "corrupted_answer": "1",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        7,
+        3
+      ]
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/126",
+    "question": "Q: What is the degree of node 11?\nA: ",
+    "expected_answer": "1",
+    "model_answer": "2",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "2.",
+    "corrupted_answer": "1",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        11,
+        1
+      ]
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/127",
+    "question": "Q: What is the degree of node 1?\nA: ",
+    "expected_answer": "1",
+    "model_answer": "1",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "2.",
+    "corrupted_answer": "1",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        1,
+        0
+      ]
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/130",
+    "question": "Q: What is the degree of node 3?\nA: ",
+    "expected_answer": "6",
+    "model_answer": "7",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "7",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "7.",
+    "corrupted_answer": "6",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        3,
+        1
+      ]
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/131",
+    "question": "Q: What is the degree of node 0?\nA: ",
+    "expected_answer": "11",
+    "model_answer": "11",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "11",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "12.",
+    "corrupted_answer": "11",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        0,
+        1
+      ]
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/134",
+    "question": "Q: What is the degree of node 0?\nA: ",
+    "expected_answer": "6",
+    "model_answer": "6",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "6",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "7.",
+    "corrupted_answer": "6",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        0,
+        1
+      ]
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/135",
+    "question": "Q: What is the degree of node 3?\nA: ",
+    "expected_answer": "1",
+    "model_answer": "2",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "2.",
+    "corrupted_answer": "1",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        3,
+        1
+      ]
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/136",
+    "question": "Q: What is the degree of node 4?\nA: ",
+    "expected_answer": "2",
+    "model_answer": "2",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "3.",
+    "corrupted_answer": "2",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        4,
+        0
+      ]
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/138",
+    "question": "Q: What is the degree of node 1?\nA: ",
+    "expected_answer": "1",
+    "model_answer": "2",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "2.",
+    "corrupted_answer": "1",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        1,
+        0
+      ]
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/139",
+    "question": "Q: What is the degree of node 5?\nA: ",
+    "expected_answer": "1",
+    "model_answer": "1",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "0.",
+    "corrupted_answer": "1",
+    "corruption": {
+      "type": "add_edge",
+      "edge": [
+        5,
+        0
+      ]
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/140",
+    "question": "Q: What is the degree of node 5?\nA: ",
+    "expected_answer": "1",
+    "model_answer": "1",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "2.",
+    "corrupted_answer": "1",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        5,
+        0
+      ]
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/141",
+    "question": "Q: What is the degree of node 4?\nA: ",
+    "expected_answer": "0",
+    "model_answer": "0",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "1.",
+    "corrupted_answer": "0",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        4,
+        5
+      ]
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/143",
+    "question": "Q: What is the degree of node 1?\nA: ",
+    "expected_answer": "3",
+    "model_answer": "3",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "4.",
+    "corrupted_answer": "3",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        1,
+        4
+      ]
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/144",
+    "question": "Q: What is the degree of node 4?\nA: ",
+    "expected_answer": "5",
+    "model_answer": "6",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "6",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "6.",
+    "corrupted_answer": "5",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        4,
+        1
+      ]
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/145",
+    "question": "Q: What is the degree of node 1?\nA: ",
+    "expected_answer": "8",
+    "model_answer": "7",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "7",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "9.",
+    "corrupted_answer": "8",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        1,
+        0
+      ]
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/146",
+    "question": "Q: What is the degree of node 5?\nA: ",
+    "expected_answer": "0",
+    "model_answer": "0",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "1.",
+    "corrupted_answer": "0",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        5,
+        1
+      ]
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/149",
+    "question": "Q: What is the degree of node 3?\nA: ",
+    "expected_answer": "10",
+    "model_answer": "10",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "10",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "11.",
+    "corrupted_answer": "10",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        3,
+        0
+      ]
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/150",
+    "question": "Q: What is the degree of node 12?\nA: ",
+    "expected_answer": "0",
+    "model_answer": "1",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "1.",
+    "corrupted_answer": "0",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        12,
+        0
+      ]
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/152",
+    "question": "Q: What is the degree of node 7?\nA: ",
+    "expected_answer": "0",
+    "model_answer": "1",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "1.",
+    "corrupted_answer": "0",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        7,
+        2
+      ]
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/153",
+    "question": "Q: What is the degree of node 8?\nA: ",
+    "expected_answer": "0",
+    "model_answer": "1",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "1.",
+    "corrupted_answer": "0",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        8,
+        0
+      ]
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/154",
+    "question": "Q: What is the degree of node 7?\nA: ",
+    "expected_answer": "0",
+    "model_answer": "1",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "1.",
+    "corrupted_answer": "0",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        7,
+        1
+      ]
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/155",
+    "question": "Q: What is the degree of node 5?\nA: ",
+    "expected_answer": "0",
+    "model_answer": "1",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "1.",
+    "corrupted_answer": "0",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        5,
+        3
+      ]
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/156",
+    "question": "Q: What is the degree of node 14?\nA: ",
+    "expected_answer": "0",
+    "model_answer": "1",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "1.",
+    "corrupted_answer": "0",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        14,
+        9
+      ]
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/158",
+    "question": "Q: What is the degree of node 16?\nA: ",
+    "expected_answer": "0",
+    "model_answer": "1",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "1.",
+    "corrupted_answer": "0",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        16,
+        6
+      ]
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/159",
+    "question": "Q: What is the degree of node 5?\nA: ",
+    "expected_answer": "0",
+    "model_answer": "1",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "1.",
+    "corrupted_answer": "0",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        5,
+        0
+      ]
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/160",
+    "question": "Q: What is the degree of node 3?\nA: ",
+    "expected_answer": "1",
+    "model_answer": "2",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "2.",
+    "corrupted_answer": "1",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        3,
+        0
+      ]
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/161",
+    "question": "Q: What is the degree of node 5?\nA: ",
+    "expected_answer": "5",
+    "model_answer": "5",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "5",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "6.",
+    "corrupted_answer": "5",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        5,
+        1
+      ]
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/162",
+    "question": "Q: What is the degree of node 9?\nA: ",
+    "expected_answer": "0",
+    "model_answer": "1",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "1.",
+    "corrupted_answer": "0",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        9,
+        2
+      ]
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/163",
+    "question": "Q: What is the degree of node 3?\nA: ",
+    "expected_answer": "0",
+    "model_answer": "1",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "1.",
+    "corrupted_answer": "0",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        3,
+        0
+      ]
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/164",
+    "question": "Q: What is the degree of node 4?\nA: ",
+    "expected_answer": "0",
+    "model_answer": "1",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "1.",
+    "corrupted_answer": "0",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        4,
+        2
+      ]
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/165",
+    "question": "Q: What is the degree of node 0?\nA: ",
+    "expected_answer": "2",
+    "model_answer": "2",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "3.",
+    "corrupted_answer": "2",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        0,
+        1
+      ]
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/166",
+    "question": "Q: What is the degree of node 6?\nA: ",
+    "expected_answer": "0",
+    "model_answer": "0",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "1.",
+    "corrupted_answer": "0",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        6,
+        2
+      ]
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/167",
+    "question": "Q: What is the degree of node 5?\nA: ",
+    "expected_answer": "0",
+    "model_answer": "0",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "1.",
+    "corrupted_answer": "0",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        5,
+        0
+      ]
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/168",
+    "question": "Q: What is the degree of node 4?\nA: ",
+    "expected_answer": "0",
+    "model_answer": "1",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "1.",
+    "corrupted_answer": "0",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        4,
+        2
+      ]
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/169",
+    "question": "Q: What is the degree of node 2?\nA: ",
+    "expected_answer": "3",
+    "model_answer": "4",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "4",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "4.",
+    "corrupted_answer": "3",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        2,
+        0
+      ]
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/170",
+    "question": "Q: What is the degree of node 15?\nA: ",
+    "expected_answer": "0",
+    "model_answer": "1",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "1.",
+    "corrupted_answer": "0",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        15,
+        1
+      ]
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/171",
+    "question": "Q: What is the degree of node 7?\nA: ",
+    "expected_answer": "0",
+    "model_answer": "0",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "1.",
+    "corrupted_answer": "0",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        7,
+        2
+      ]
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/172",
+    "question": "Q: What is the degree of node 5?\nA: ",
+    "expected_answer": "0",
+    "model_answer": "1",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "1.",
+    "corrupted_answer": "0",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        5,
+        3
+      ]
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/173",
+    "question": "Q: What is the degree of node 2?\nA: ",
+    "expected_answer": "6",
+    "model_answer": "6",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "6",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "7.",
+    "corrupted_answer": "6",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        2,
+        0
+      ]
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/174",
+    "question": "Q: What is the degree of node 2?\nA: ",
+    "expected_answer": "11",
+    "model_answer": "11",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "11",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "12.",
+    "corrupted_answer": "11",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        2,
+        0
+      ]
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/175",
+    "question": "Q: What is the degree of node 0?\nA: ",
+    "expected_answer": "4",
+    "model_answer": "4",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "4",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "5.",
+    "corrupted_answer": "4",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        0,
+        1
+      ]
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/176",
+    "question": "Q: What is the degree of node 9?\nA: ",
+    "expected_answer": "0",
+    "model_answer": "1",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "1.",
+    "corrupted_answer": "0",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        9,
+        1
+      ]
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/177",
+    "question": "Q: What is the degree of node 2?\nA: ",
+    "expected_answer": "2",
+    "model_answer": "3",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "3.",
+    "corrupted_answer": "2",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        2,
+        0
+      ]
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/179",
+    "question": "Q: What is the degree of node 8?\nA: ",
+    "expected_answer": "1",
+    "model_answer": "2",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "2.",
+    "corrupted_answer": "1",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        8,
+        0
+      ]
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/181",
+    "question": "Q: What is the degree of node 5?\nA: ",
+    "expected_answer": "0",
+    "model_answer": "1",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "1.",
+    "corrupted_answer": "0",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        5,
+        0
+      ]
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/182",
+    "question": "Q: What is the degree of node 1?\nA: ",
+    "expected_answer": "1",
+    "model_answer": "2",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "2.",
+    "corrupted_answer": "1",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        1,
+        0
+      ]
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/184",
+    "question": "Q: What is the degree of node 10?\nA: ",
+    "expected_answer": "0",
+    "model_answer": "1",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "1.",
+    "corrupted_answer": "0",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        10,
+        2
+      ]
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/186",
+    "question": "Q: What is the degree of node 1?\nA: ",
+    "expected_answer": "2",
+    "model_answer": "3",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "3.",
+    "corrupted_answer": "2",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        1,
+        0
+      ]
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/187",
+    "question": "Q: What is the degree of node 2?\nA: ",
+    "expected_answer": "1",
+    "model_answer": "2",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "2.",
+    "corrupted_answer": "1",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        2,
+        0
+      ]
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/188",
+    "question": "Q: What is the degree of node 3?\nA: ",
+    "expected_answer": "0",
+    "model_answer": "1",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "1.",
+    "corrupted_answer": "0",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        3,
+        2
+      ]
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/189",
+    "question": "Q: What is the degree of node 0?\nA: ",
+    "expected_answer": "3",
+    "model_answer": "3",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "4.",
+    "corrupted_answer": "3",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        0,
+        1
+      ]
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/190",
+    "question": "Q: What is the degree of node 6?\nA: ",
+    "expected_answer": "0",
+    "model_answer": "1",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "1.",
+    "corrupted_answer": "0",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        6,
+        2
+      ]
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/191",
+    "question": "Q: What is the degree of node 6?\nA: ",
+    "expected_answer": "0",
+    "model_answer": "1",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "1.",
+    "corrupted_answer": "0",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        6,
+        0
+      ]
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/192",
+    "question": "Q: What is the degree of node 5?\nA: ",
+    "expected_answer": "0",
+    "model_answer": "1",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "1.",
+    "corrupted_answer": "0",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        5,
+        2
+      ]
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/193",
+    "question": "Q: What is the degree of node 5?\nA: ",
+    "expected_answer": "2",
+    "model_answer": "3",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "3",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "3.",
+    "corrupted_answer": "2",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        5,
+        0
+      ]
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/194",
+    "question": "Q: What is the degree of node 1?\nA: ",
+    "expected_answer": "1",
+    "model_answer": "1",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "2.",
+    "corrupted_answer": "1",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        1,
+        0
+      ]
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/195",
+    "question": "Q: What is the degree of node 13?\nA: ",
+    "expected_answer": "0",
+    "model_answer": "1",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "1.",
+    "corrupted_answer": "0",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        13,
+        2
+      ]
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/196",
+    "question": "Q: What is the degree of node 5?\nA: ",
+    "expected_answer": "0",
+    "model_answer": "0",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "1.",
+    "corrupted_answer": "0",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        5,
+        2
+      ]
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/197",
+    "question": "Q: What is the degree of node 12?\nA: ",
+    "expected_answer": "0",
+    "model_answer": "1",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "1.",
+    "corrupted_answer": "0",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        12,
+        1
+      ]
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/198",
+    "question": "Q: What is the degree of node 8?\nA: ",
+    "expected_answer": "0",
+    "model_answer": "1",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "1.",
+    "corrupted_answer": "0",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        8,
+        1
+      ]
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/199",
+    "question": "Q: What is the degree of node 17?\nA: ",
+    "expected_answer": "0",
+    "model_answer": "1",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "1.",
+    "corrupted_answer": "0",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        17,
+        7
+      ]
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/200",
+    "question": "Q: What is the degree of node 9?\nA: ",
+    "expected_answer": "14",
+    "model_answer": "15",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "15",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "15.",
+    "corrupted_answer": "14",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        9,
+        0
+      ]
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/201",
+    "question": "Q: What is the degree of node 6?\nA: ",
+    "expected_answer": "10",
+    "model_answer": "10",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "10",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "11.",
+    "corrupted_answer": "10",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        6,
+        0
+      ]
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/202",
+    "question": "Q: What is the degree of node 5?\nA: ",
+    "expected_answer": "6",
+    "model_answer": "5",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "5",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "7.",
+    "corrupted_answer": "6",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        5,
+        0
+      ]
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/203",
+    "question": "Q: What is the degree of node 10?\nA: ",
+    "expected_answer": "13",
+    "model_answer": "14",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "14",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "14.",
+    "corrupted_answer": "13",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        10,
+        0
+      ]
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/204",
+    "question": "Q: What is the degree of node 4?\nA: ",
+    "expected_answer": "16",
+    "model_answer": "16",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "16",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "17.",
+    "corrupted_answer": "16",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        4,
+        0
+      ]
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/205",
+    "question": "Q: What is the degree of node 8?\nA: ",
+    "expected_answer": "10",
+    "model_answer": "8",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "8",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "11.",
+    "corrupted_answer": "10",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        8,
+        0
+      ]
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/206",
+    "question": "Q: What is the degree of node 1?\nA: ",
+    "expected_answer": "13",
+    "model_answer": "13",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "13",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "14.",
+    "corrupted_answer": "13",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        1,
+        0
+      ]
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/207",
+    "question": "Q: What is the degree of node 2?\nA: ",
+    "expected_answer": "4",
+    "model_answer": "4",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "4",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "5.",
+    "corrupted_answer": "4",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        2,
+        0
+      ]
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/208",
+    "question": "Q: What is the degree of node 8?\nA: ",
+    "expected_answer": "15",
+    "model_answer": "15",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "15",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "16.",
+    "corrupted_answer": "15",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        8,
+        0
+      ]
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/209",
+    "question": "Q: What is the degree of node 3?\nA: ",
+    "expected_answer": "4",
+    "model_answer": "4",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "4",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "5.",
+    "corrupted_answer": "4",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        3,
+        0
+      ]
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/210",
+    "question": "Q: What is the degree of node 3?\nA: ",
+    "expected_answer": "5",
+    "model_answer": "5",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "5",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "6.",
+    "corrupted_answer": "5",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        3,
+        0
+      ]
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/211",
+    "question": "Q: What is the degree of node 8?\nA: ",
+    "expected_answer": "14",
+    "model_answer": "15",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "15",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "15.",
+    "corrupted_answer": "14",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        8,
+        0
+      ]
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/212",
+    "question": "Q: What is the degree of node 8?\nA: ",
+    "expected_answer": "11",
+    "model_answer": "12",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "12",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "12.",
+    "corrupted_answer": "11",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        8,
+        0
+      ]
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/213",
+    "question": "Q: What is the degree of node 1?\nA: ",
+    "expected_answer": "8",
+    "model_answer": "8",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "8",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "9.",
+    "corrupted_answer": "8",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        1,
+        0
+      ]
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/214",
+    "question": "Q: What is the degree of node 11?\nA: ",
+    "expected_answer": "12",
+    "model_answer": "12",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "12",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "13.",
+    "corrupted_answer": "12",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        11,
+        0
+      ]
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/215",
+    "question": "Q: What is the degree of node 6?\nA: ",
+    "expected_answer": "6",
+    "model_answer": "6",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "6",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "7.",
+    "corrupted_answer": "6",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        6,
+        0
+      ]
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/216",
+    "question": "Q: What is the degree of node 2?\nA: ",
+    "expected_answer": "5",
+    "model_answer": "5",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "5",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "6.",
+    "corrupted_answer": "5",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        2,
+        0
+      ]
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/217",
+    "question": "Q: What is the degree of node 3?\nA: ",
+    "expected_answer": "6",
+    "model_answer": "6",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "6",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "7.",
+    "corrupted_answer": "6",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        3,
+        0
+      ]
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/218",
+    "question": "Q: What is the degree of node 2?\nA: ",
+    "expected_answer": "5",
+    "model_answer": "5",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "5",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "6.",
+    "corrupted_answer": "5",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        2,
+        0
+      ]
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/219",
+    "question": "Q: What is the degree of node 11?\nA: ",
+    "expected_answer": "12",
+    "model_answer": "12",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "12",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "13.",
+    "corrupted_answer": "12",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        11,
+        0
+      ]
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/220",
+    "question": "Q: What is the degree of node 12?\nA: ",
+    "expected_answer": "16",
+    "model_answer": "15",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "15",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "17.",
+    "corrupted_answer": "16",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        12,
+        0
+      ]
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/221",
+    "question": "Q: What is the degree of node 0?\nA: ",
+    "expected_answer": "6",
+    "model_answer": "6",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "6",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "7.",
+    "corrupted_answer": "6",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        0,
+        1
+      ]
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/222",
+    "question": "Q: What is the degree of node 5?\nA: ",
+    "expected_answer": "8",
+    "model_answer": "7",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "7",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "9.",
+    "corrupted_answer": "8",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        5,
+        0
+      ]
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/223",
+    "question": "Q: What is the degree of node 7?\nA: ",
+    "expected_answer": "11",
+    "model_answer": "6",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "6",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "12.",
+    "corrupted_answer": "11",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        7,
+        0
+      ]
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/224",
+    "question": "Q: What is the degree of node 3?\nA: ",
+    "expected_answer": "12",
+    "model_answer": "13",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "13",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "13.",
+    "corrupted_answer": "12",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        3,
+        0
+      ]
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/225",
+    "question": "Q: What is the degree of node 3?\nA: ",
+    "expected_answer": "4",
+    "model_answer": "4",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "4",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "5.",
+    "corrupted_answer": "4",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        3,
+        0
+      ]
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/226",
+    "question": "Q: What is the degree of node 2?\nA: ",
+    "expected_answer": "11",
+    "model_answer": "12",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "12",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "12.",
+    "corrupted_answer": "11",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        2,
+        0
+      ]
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/227",
+    "question": "Q: What is the degree of node 6?\nA: ",
+    "expected_answer": "7",
+    "model_answer": "7",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "7",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "8.",
+    "corrupted_answer": "7",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        6,
+        0
+      ]
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/228",
+    "question": "Q: What is the degree of node 4?\nA: ",
+    "expected_answer": "11",
+    "model_answer": "11",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "11",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "12.",
+    "corrupted_answer": "11",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        4,
+        0
+      ]
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/229",
+    "question": "Q: What is the degree of node 0?\nA: ",
+    "expected_answer": "10",
+    "model_answer": "10",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "10",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "11.",
+    "corrupted_answer": "10",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        0,
+        1
+      ]
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/230",
+    "question": "Q: What is the degree of node 1?\nA: ",
+    "expected_answer": "10",
+    "model_answer": "10",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "10",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "11.",
+    "corrupted_answer": "10",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        1,
+        0
+      ]
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/231",
+    "question": "Q: What is the degree of node 7?\nA: ",
+    "expected_answer": "8",
+    "model_answer": "7",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "7",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "9.",
+    "corrupted_answer": "8",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        7,
+        0
+      ]
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/232",
+    "question": "Q: What is the degree of node 3?\nA: ",
+    "expected_answer": "4",
+    "model_answer": "4",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "4",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "5.",
+    "corrupted_answer": "4",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        3,
+        0
+      ]
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/233",
+    "question": "Q: What is the degree of node 9?\nA: ",
+    "expected_answer": "16",
+    "model_answer": "17",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "17",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "17.",
+    "corrupted_answer": "16",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        9,
+        0
+      ]
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/234",
+    "question": "Q: What is the degree of node 6?\nA: ",
+    "expected_answer": "11",
+    "model_answer": "11",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "11",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "12.",
+    "corrupted_answer": "11",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        6,
+        0
+      ]
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/235",
+    "question": "Q: What is the degree of node 7?\nA: ",
+    "expected_answer": "8",
+    "model_answer": "7",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "7",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "9.",
+    "corrupted_answer": "8",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        7,
+        0
+      ]
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/236",
+    "question": "Q: What is the degree of node 2?\nA: ",
+    "expected_answer": "7",
+    "model_answer": "8",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "8",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "8.",
+    "corrupted_answer": "7",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        2,
+        0
+      ]
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/237",
+    "question": "Q: What is the degree of node 6?\nA: ",
+    "expected_answer": "8",
+    "model_answer": "7",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "7",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "9.",
+    "corrupted_answer": "8",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        6,
+        0
+      ]
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/238",
+    "question": "Q: What is the degree of node 7?\nA: ",
+    "expected_answer": "6",
+    "model_answer": "4",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "4",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "7.",
+    "corrupted_answer": "6",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        7,
+        0
+      ]
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/239",
+    "question": "Q: What is the degree of node 2?\nA: ",
+    "expected_answer": "6",
+    "model_answer": "6",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "6",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "7.",
+    "corrupted_answer": "6",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        2,
+        0
+      ]
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/240",
+    "question": "Q: What is the degree of node 4?\nA: ",
+    "expected_answer": "10",
+    "model_answer": "10",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "10",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "11.",
+    "corrupted_answer": "10",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        4,
+        0
+      ]
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/241",
+    "question": "Q: What is the degree of node 9?\nA: ",
+    "expected_answer": "9",
+    "model_answer": "9",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "9",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "10.",
+    "corrupted_answer": "9",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        9,
+        0
+      ]
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/242",
+    "question": "Q: What is the degree of node 2?\nA: ",
+    "expected_answer": "5",
+    "model_answer": "5",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "5",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "6.",
+    "corrupted_answer": "5",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        2,
+        0
+      ]
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/243",
+    "question": "Q: What is the degree of node 9?\nA: ",
+    "expected_answer": "8",
+    "model_answer": "7",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "7",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "9.",
+    "corrupted_answer": "8",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        9,
+        0
+      ]
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/244",
+    "question": "Q: What is the degree of node 2?\nA: ",
+    "expected_answer": "4",
+    "model_answer": "4",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "4",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "5.",
+    "corrupted_answer": "4",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        2,
+        0
+      ]
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/245",
+    "question": "Q: What is the degree of node 3?\nA: ",
+    "expected_answer": "12",
+    "model_answer": "13",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "13",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "13.",
+    "corrupted_answer": "12",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        3,
+        0
+      ]
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/246",
+    "question": "Q: What is the degree of node 1?\nA: ",
+    "expected_answer": "5",
+    "model_answer": "5",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "5",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "6.",
+    "corrupted_answer": "5",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        1,
+        0
+      ]
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/247",
+    "question": "Q: What is the degree of node 14?\nA: ",
+    "expected_answer": "14",
+    "model_answer": "15",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "15",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "15.",
+    "corrupted_answer": "14",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        14,
+        0
+      ]
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/248",
+    "question": "Q: What is the degree of node 15?\nA: ",
+    "expected_answer": "15",
+    "model_answer": "16",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "16",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "16.",
+    "corrupted_answer": "15",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        15,
+        0
+      ]
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/249",
+    "question": "Q: What is the degree of node 0?\nA: ",
+    "expected_answer": "16",
+    "model_answer": "16",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "16",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "17.",
+    "corrupted_answer": "16",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        0,
+        1
+      ]
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/250",
+    "question": "Q: What is the degree of node 14?\nA: ",
+    "expected_answer": "0",
+    "model_answer": "0",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "1.",
+    "corrupted_answer": "0",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        14,
+        0
+      ]
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/251",
+    "question": "Q: What is the degree of node 10?\nA: ",
+    "expected_answer": "0",
+    "model_answer": "0",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "1.",
+    "corrupted_answer": "0",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        10,
+        0
+      ]
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/252",
+    "question": "Q: What is the degree of node 1?\nA: ",
+    "expected_answer": "0",
+    "model_answer": "0",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "1.",
+    "corrupted_answer": "0",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        1,
+        0
+      ]
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/253",
+    "question": "Q: What is the degree of node 0?\nA: ",
+    "expected_answer": "13",
+    "model_answer": "13",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "13",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "14.",
+    "corrupted_answer": "13",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        0,
+        1
+      ]
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/254",
+    "question": "Q: What is the degree of node 11?\nA: ",
+    "expected_answer": "0",
+    "model_answer": "1",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "1.",
+    "corrupted_answer": "0",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        11,
+        0
+      ]
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/255",
+    "question": "Q: What is the degree of node 7?\nA: ",
+    "expected_answer": "0",
+    "model_answer": "0",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "1.",
+    "corrupted_answer": "0",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        7,
+        0
+      ]
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/256",
+    "question": "Q: What is the degree of node 1?\nA: ",
+    "expected_answer": "0",
+    "model_answer": "0",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "1.",
+    "corrupted_answer": "0",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        1,
+        0
+      ]
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/257",
+    "question": "Q: What is the degree of node 1?\nA: ",
+    "expected_answer": "0",
+    "model_answer": "0",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "1.",
+    "corrupted_answer": "0",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        1,
+        0
+      ]
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/258",
+    "question": "Q: What is the degree of node 10?\nA: ",
+    "expected_answer": "0",
+    "model_answer": "0",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "1.",
+    "corrupted_answer": "0",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        10,
+        0
+      ]
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/259",
+    "question": "Q: What is the degree of node 2?\nA: ",
+    "expected_answer": "0",
+    "model_answer": "0",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "1.",
+    "corrupted_answer": "0",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        2,
+        0
+      ]
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/260",
+    "question": "Q: What is the degree of node 6?\nA: ",
+    "expected_answer": "0",
+    "model_answer": "0",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "1.",
+    "corrupted_answer": "0",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        6,
+        0
+      ]
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/261",
+    "question": "Q: What is the degree of node 9?\nA: ",
+    "expected_answer": "0",
+    "model_answer": "1",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "1.",
+    "corrupted_answer": "0",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        9,
+        0
+      ]
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/262",
+    "question": "Q: What is the degree of node 4?\nA: ",
+    "expected_answer": "0",
+    "model_answer": "0",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "1.",
+    "corrupted_answer": "0",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        4,
+        0
+      ]
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/263",
+    "question": "Q: What is the degree of node 9?\nA: ",
+    "expected_answer": "0",
+    "model_answer": "0",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "1.",
+    "corrupted_answer": "0",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        9,
+        0
+      ]
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/264",
+    "question": "Q: What is the degree of node 5?\nA: ",
+    "expected_answer": "0",
+    "model_answer": "0",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "1.",
+    "corrupted_answer": "0",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        5,
+        0
+      ]
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/265",
+    "question": "Q: What is the degree of node 4?\nA: ",
+    "expected_answer": "0",
+    "model_answer": "0",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "1.",
+    "corrupted_answer": "0",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        4,
+        0
+      ]
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/266",
+    "question": "Q: What is the degree of node 4?\nA: ",
+    "expected_answer": "0",
+    "model_answer": "0",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "1.",
+    "corrupted_answer": "0",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        4,
+        0
+      ]
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/267",
+    "question": "Q: What is the degree of node 3?\nA: ",
+    "expected_answer": "0",
+    "model_answer": "0",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "1.",
+    "corrupted_answer": "0",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        3,
+        0
+      ]
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/268",
+    "question": "Q: What is the degree of node 4?\nA: ",
+    "expected_answer": "0",
+    "model_answer": "0",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "1.",
+    "corrupted_answer": "0",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        4,
+        0
+      ]
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/269",
+    "question": "Q: What is the degree of node 13?\nA: ",
+    "expected_answer": "0",
+    "model_answer": "1",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "1.",
+    "corrupted_answer": "0",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        13,
+        0
+      ]
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/270",
+    "question": "Q: What is the degree of node 8?\nA: ",
+    "expected_answer": "0",
+    "model_answer": "1",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "1.",
+    "corrupted_answer": "0",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        8,
+        0
+      ]
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/271",
+    "question": "Q: What is the degree of node 1?\nA: ",
+    "expected_answer": "0",
+    "model_answer": "0",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "1.",
+    "corrupted_answer": "0",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        1,
+        0
+      ]
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/272",
+    "question": "Q: What is the degree of node 8?\nA: ",
+    "expected_answer": "0",
+    "model_answer": "0",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "1.",
+    "corrupted_answer": "0",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        8,
+        0
+      ]
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/273",
+    "question": "Q: What is the degree of node 11?\nA: ",
+    "expected_answer": "0",
+    "model_answer": "1",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "1.",
+    "corrupted_answer": "0",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        11,
+        0
+      ]
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/274",
+    "question": "Q: What is the degree of node 9?\nA: ",
+    "expected_answer": "0",
+    "model_answer": "0",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "1.",
+    "corrupted_answer": "0",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        9,
+        0
+      ]
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/275",
+    "question": "Q: What is the degree of node 1?\nA: ",
+    "expected_answer": "0",
+    "model_answer": "0",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "1.",
+    "corrupted_answer": "0",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        1,
+        0
+      ]
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/276",
+    "question": "Q: What is the degree of node 5?\nA: ",
+    "expected_answer": "0",
+    "model_answer": "0",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "1.",
+    "corrupted_answer": "0",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        5,
+        0
+      ]
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/277",
+    "question": "Q: What is the degree of node 8?\nA: ",
+    "expected_answer": "0",
+    "model_answer": "0",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "1.",
+    "corrupted_answer": "0",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        8,
+        0
+      ]
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/278",
+    "question": "Q: What is the degree of node 5?\nA: ",
+    "expected_answer": "0",
+    "model_answer": "0",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "1.",
+    "corrupted_answer": "0",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        5,
+        0
+      ]
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/279",
+    "question": "Q: What is the degree of node 5?\nA: ",
+    "expected_answer": "0",
+    "model_answer": "0",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "1.",
+    "corrupted_answer": "0",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        5,
+        0
+      ]
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/280",
+    "question": "Q: What is the degree of node 7?\nA: ",
+    "expected_answer": "0",
+    "model_answer": "0",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "1.",
+    "corrupted_answer": "0",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        7,
+        0
+      ]
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/281",
+    "question": "Q: What is the degree of node 4?\nA: ",
+    "expected_answer": "0",
+    "model_answer": "0",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "1.",
+    "corrupted_answer": "0",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        4,
+        0
+      ]
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/282",
+    "question": "Q: What is the degree of node 0?\nA: ",
+    "expected_answer": "4",
+    "model_answer": "4",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "4",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "5.",
+    "corrupted_answer": "4",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        0,
+        1
+      ]
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/283",
+    "question": "Q: What is the degree of node 16?\nA: ",
+    "expected_answer": "0",
+    "model_answer": "0",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "1.",
+    "corrupted_answer": "0",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        16,
+        0
+      ]
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/284",
+    "question": "Q: What is the degree of node 9?\nA: ",
+    "expected_answer": "0",
+    "model_answer": "0",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "1.",
+    "corrupted_answer": "0",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        9,
+        0
+      ]
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/285",
+    "question": "Q: What is the degree of node 9?\nA: ",
+    "expected_answer": "0",
+    "model_answer": "0",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "1.",
+    "corrupted_answer": "0",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        9,
+        0
+      ]
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/286",
+    "question": "Q: What is the degree of node 8?\nA: ",
+    "expected_answer": "0",
+    "model_answer": "0",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "1.",
+    "corrupted_answer": "0",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        8,
+        0
+      ]
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/287",
+    "question": "Q: What is the degree of node 1?\nA: ",
+    "expected_answer": "0",
+    "model_answer": "0",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "1.",
+    "corrupted_answer": "0",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        1,
+        0
+      ]
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/288",
+    "question": "Q: What is the degree of node 3?\nA: ",
+    "expected_answer": "0",
+    "model_answer": "0",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "1.",
+    "corrupted_answer": "0",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        3,
+        0
+      ]
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/289",
+    "question": "Q: What is the degree of node 4?\nA: ",
+    "expected_answer": "0",
+    "model_answer": "0",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "1.",
+    "corrupted_answer": "0",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        4,
+        0
+      ]
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/290",
+    "question": "Q: What is the degree of node 5?\nA: ",
+    "expected_answer": "0",
+    "model_answer": "0",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "1.",
+    "corrupted_answer": "0",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        5,
+        0
+      ]
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/291",
+    "question": "Q: What is the degree of node 2?\nA: ",
+    "expected_answer": "0",
+    "model_answer": "0",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "1.",
+    "corrupted_answer": "0",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        2,
+        0
+      ]
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/292",
+    "question": "Q: What is the degree of node 6?\nA: ",
+    "expected_answer": "0",
+    "model_answer": "0",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "1.",
+    "corrupted_answer": "0",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        6,
+        0
+      ]
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/293",
+    "question": "Q: What is the degree of node 0?\nA: ",
+    "expected_answer": "8",
+    "model_answer": "8",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "8",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "9.",
+    "corrupted_answer": "8",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        0,
+        1
+      ]
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/294",
+    "question": "Q: What is the degree of node 3?\nA: ",
+    "expected_answer": "0",
+    "model_answer": "0",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "1.",
+    "corrupted_answer": "0",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        3,
+        0
+      ]
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/295",
+    "question": "Q: What is the degree of node 0?\nA: ",
+    "expected_answer": "12",
+    "model_answer": "12",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "12",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "13.",
+    "corrupted_answer": "12",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        0,
+        1
+      ]
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/296",
+    "question": "Q: What is the degree of node 5?\nA: ",
+    "expected_answer": "0",
+    "model_answer": "0",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "1.",
+    "corrupted_answer": "0",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        5,
+        0
+      ]
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/297",
+    "question": "Q: What is the degree of node 1?\nA: ",
+    "expected_answer": "0",
+    "model_answer": "1",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "1.",
+    "corrupted_answer": "0",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        1,
+        0
+      ]
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/298",
+    "question": "Q: What is the degree of node 6?\nA: ",
+    "expected_answer": "0",
+    "model_answer": "1",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "1.",
+    "corrupted_answer": "0",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        6,
+        0
+      ]
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/299",
+    "question": "Q: What is the degree of node 4?\nA: ",
+    "expected_answer": "0",
+    "model_answer": "1",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "1.",
+    "corrupted_answer": "0",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        4,
+        0
+      ]
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/300",
+    "question": "Q: What is the degree of node 10?\nA: ",
+    "expected_answer": "1",
+    "model_answer": "1",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "2.",
+    "corrupted_answer": "1",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        10,
+        9
+      ]
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/301",
+    "question": "Q: What is the degree of node 8?\nA: ",
+    "expected_answer": "1",
+    "model_answer": "2",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "2.",
+    "corrupted_answer": "1",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        8,
+        7
+      ]
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/302",
+    "question": "Q: What is the degree of node 5?\nA: ",
+    "expected_answer": "1",
+    "model_answer": "1",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "2.",
+    "corrupted_answer": "1",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        5,
+        4
+      ]
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/303",
+    "question": "Q: What is the degree of node 6?\nA: ",
+    "expected_answer": "1",
+    "model_answer": "1",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "2.",
+    "corrupted_answer": "1",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        6,
+        5
+      ]
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/304",
+    "question": "Q: What is the degree of node 16?\nA: ",
+    "expected_answer": "1",
+    "model_answer": "1",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "2.",
+    "corrupted_answer": "1",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        16,
+        15
+      ]
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/305",
+    "question": "Q: What is the degree of node 1?\nA: ",
+    "expected_answer": "1",
+    "model_answer": "1",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "2.",
+    "corrupted_answer": "1",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        1,
+        0
+      ]
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/306",
+    "question": "Q: What is the degree of node 13?\nA: ",
+    "expected_answer": "1",
+    "model_answer": "1",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "2.",
+    "corrupted_answer": "1",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        13,
+        12
+      ]
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/307",
+    "question": "Q: What is the degree of node 2?\nA: ",
+    "expected_answer": "1",
+    "model_answer": "1",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "2.",
+    "corrupted_answer": "1",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        2,
+        1
+      ]
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/308",
+    "question": "Q: What is the degree of node 8?\nA: ",
+    "expected_answer": "1",
+    "model_answer": "1",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "2.",
+    "corrupted_answer": "1",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        8,
+        7
+      ]
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/309",
+    "question": "Q: What is the degree of node 5?\nA: ",
+    "expected_answer": "0",
+    "model_answer": "0",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "1.",
+    "corrupted_answer": "0",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        5,
+        4
+      ]
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/310",
+    "question": "Q: What is the degree of node 3?\nA: ",
+    "expected_answer": "1",
+    "model_answer": "1",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "2.",
+    "corrupted_answer": "1",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        3,
+        2
+      ]
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/311",
+    "question": "Q: What is the degree of node 7?\nA: ",
+    "expected_answer": "1",
+    "model_answer": "2",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "2.",
+    "corrupted_answer": "1",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        7,
+        6
+      ]
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/312",
+    "question": "Q: What is the degree of node 5?\nA: ",
+    "expected_answer": "1",
+    "model_answer": "1",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "2.",
+    "corrupted_answer": "1",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        5,
+        4
+      ]
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/313",
+    "question": "Q: What is the degree of node 8?\nA: ",
+    "expected_answer": "1",
+    "model_answer": "1",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "2.",
+    "corrupted_answer": "1",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        8,
+        7
+      ]
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/314",
+    "question": "Q: What is the degree of node 1?\nA: ",
+    "expected_answer": "1",
+    "model_answer": "1",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "2.",
+    "corrupted_answer": "1",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        1,
+        0
+      ]
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/315",
+    "question": "Q: What is the degree of node 0?\nA: ",
+    "expected_answer": "0",
+    "model_answer": "0",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "1.",
+    "corrupted_answer": "0",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        0,
+        1
+      ]
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/316",
+    "question": "Q: What is the degree of node 5?\nA: ",
+    "expected_answer": "1",
+    "model_answer": "1",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "2.",
+    "corrupted_answer": "1",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        5,
+        4
+      ]
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/317",
+    "question": "Q: What is the degree of node 5?\nA: ",
+    "expected_answer": "1",
+    "model_answer": "1",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "2.",
+    "corrupted_answer": "1",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        5,
+        4
+      ]
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/318",
+    "question": "Q: What is the degree of node 6?\nA: ",
+    "expected_answer": "0",
+    "model_answer": "0",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "1.",
+    "corrupted_answer": "0",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        6,
+        5
+      ]
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/319",
+    "question": "Q: What is the degree of node 9?\nA: ",
+    "expected_answer": "1",
+    "model_answer": "1",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "2.",
+    "corrupted_answer": "1",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        9,
+        8
+      ]
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/320",
+    "question": "Q: What is the degree of node 7?\nA: ",
+    "expected_answer": "1",
+    "model_answer": "1",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "2.",
+    "corrupted_answer": "1",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        7,
+        6
+      ]
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/321",
+    "question": "Q: What is the degree of node 2?\nA: ",
+    "expected_answer": "1",
+    "model_answer": "1",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "2.",
+    "corrupted_answer": "1",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        2,
+        1
+      ]
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/322",
+    "question": "Q: What is the degree of node 7?\nA: ",
+    "expected_answer": "1",
+    "model_answer": "1",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "2.",
+    "corrupted_answer": "1",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        7,
+        6
+      ]
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/323",
+    "question": "Q: What is the degree of node 7?\nA: ",
+    "expected_answer": "1",
+    "model_answer": "2",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "2.",
+    "corrupted_answer": "1",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        7,
+        6
+      ]
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/324",
+    "question": "Q: What is the degree of node 10?\nA: ",
+    "expected_answer": "1",
+    "model_answer": "1",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "2.",
+    "corrupted_answer": "1",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        10,
+        9
+      ]
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/325",
+    "question": "Q: What is the degree of node 5?\nA: ",
+    "expected_answer": "0",
+    "model_answer": "0",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "1.",
+    "corrupted_answer": "0",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        5,
+        4
+      ]
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/326",
+    "question": "Q: What is the degree of node 2?\nA: ",
+    "expected_answer": "1",
+    "model_answer": "1",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "2.",
+    "corrupted_answer": "1",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        2,
+        1
+      ]
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/327",
+    "question": "Q: What is the degree of node 8?\nA: ",
+    "expected_answer": "0",
+    "model_answer": "0",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "1.",
+    "corrupted_answer": "0",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        8,
+        7
+      ]
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/328",
+    "question": "Q: What is the degree of node 9?\nA: ",
+    "expected_answer": "1",
+    "model_answer": "1",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "2.",
+    "corrupted_answer": "1",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        9,
+        8
+      ]
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/329",
+    "question": "Q: What is the degree of node 9?\nA: ",
+    "expected_answer": "1",
+    "model_answer": "1",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "2.",
+    "corrupted_answer": "1",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        9,
+        8
+      ]
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/330",
+    "question": "Q: What is the degree of node 1?\nA: ",
+    "expected_answer": "1",
+    "model_answer": "1",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "2.",
+    "corrupted_answer": "1",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        1,
+        0
+      ]
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/331",
+    "question": "Q: What is the degree of node 2?\nA: ",
+    "expected_answer": "1",
+    "model_answer": "1",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "2.",
+    "corrupted_answer": "1",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        2,
+        1
+      ]
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/332",
+    "question": "Q: What is the degree of node 4?\nA: ",
+    "expected_answer": "1",
+    "model_answer": "1",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "2.",
+    "corrupted_answer": "1",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        4,
+        3
+      ]
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/333",
+    "question": "Q: What is the degree of node 7?\nA: ",
+    "expected_answer": "1",
+    "model_answer": "1",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "2.",
+    "corrupted_answer": "1",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        7,
+        6
+      ]
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/334",
+    "question": "Q: What is the degree of node 11?\nA: ",
+    "expected_answer": "1",
+    "model_answer": "2",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "2",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "2.",
+    "corrupted_answer": "1",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        11,
+        10
+      ]
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/335",
+    "question": "Q: What is the degree of node 2?\nA: ",
+    "expected_answer": "1",
+    "model_answer": "1",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "2.",
+    "corrupted_answer": "1",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        2,
+        1
+      ]
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/336",
+    "question": "Q: What is the degree of node 8?\nA: ",
+    "expected_answer": "0",
+    "model_answer": "0",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "1.",
+    "corrupted_answer": "0",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        8,
+        7
+      ]
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/337",
+    "question": "Q: What is the degree of node 8?\nA: ",
+    "expected_answer": "1",
+    "model_answer": "1",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "2.",
+    "corrupted_answer": "1",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        8,
+        7
+      ]
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/338",
+    "question": "Q: What is the degree of node 6?\nA: ",
+    "expected_answer": "1",
+    "model_answer": "1",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "2.",
+    "corrupted_answer": "1",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        6,
+        5
+      ]
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/339",
+    "question": "Q: What is the degree of node 5?\nA: ",
+    "expected_answer": "1",
+    "model_answer": "1",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "2.",
+    "corrupted_answer": "1",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        5,
+        4
+      ]
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/340",
+    "question": "Q: What is the degree of node 2?\nA: ",
+    "expected_answer": "1",
+    "model_answer": "1",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "2.",
+    "corrupted_answer": "1",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        2,
+        1
+      ]
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/341",
+    "question": "Q: What is the degree of node 8?\nA: ",
+    "expected_answer": "1",
+    "model_answer": "1",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "2.",
+    "corrupted_answer": "1",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        8,
+        7
+      ]
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/342",
+    "question": "Q: What is the degree of node 4?\nA: ",
+    "expected_answer": "1",
+    "model_answer": "1",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "2.",
+    "corrupted_answer": "1",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        4,
+        3
+      ]
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/343",
+    "question": "Q: What is the degree of node 8?\nA: ",
+    "expected_answer": "1",
+    "model_answer": "1",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "2.",
+    "corrupted_answer": "1",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        8,
+        7
+      ]
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/344",
+    "question": "Q: What is the degree of node 4?\nA: ",
+    "expected_answer": "1",
+    "model_answer": "1",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "2.",
+    "corrupted_answer": "1",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        4,
+        3
+      ]
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/345",
+    "question": "Q: What is the degree of node 9?\nA: ",
+    "expected_answer": "1",
+    "model_answer": "1",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "2.",
+    "corrupted_answer": "1",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        9,
+        8
+      ]
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/346",
+    "question": "Q: What is the degree of node 6?\nA: ",
+    "expected_answer": "0",
+    "model_answer": "0",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "0",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "1.",
+    "corrupted_answer": "0",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        6,
+        5
+      ]
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/347",
+    "question": "Q: What is the degree of node 14?\nA: ",
+    "expected_answer": "1",
+    "model_answer": "1",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "2.",
+    "corrupted_answer": "1",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        14,
+        13
+      ]
+    }
+  },
+  {
+    "sample_id": "node_degree/adjacency/test/348",
+    "question": "Q: What is the degree of node 1?\nA: ",
+    "expected_answer": "1",
+    "model_answer": "1",
+    "model": "gpt-4.1-mini",
+    "image_type": "spring",
+    "raw_output": {
+      "answer": "1",
+      "confidence": null,
+      "status": "ok",
+      "setting": "image_and_text"
+    },
+    "input_preview": {
+      "has_text": true,
+      "has_image": true
+    },
+    "original_answer": "2.",
+    "corrupted_answer": "1",
+    "corruption": {
+      "type": "remove_edge",
+      "edge": [
+        1,
+        0
+      ]
+    }
+  }
+]
