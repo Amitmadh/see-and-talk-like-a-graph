@@ -1,4 +1,10 @@
 model,setting,connected_nodes,cycle_check,edge_existence,node_count,node_degree,shortest_path,disconnected_nodes,edge_count,triangle_counting
+gpt-4.1-mini,image_only,0.746,,0.597,0.991,0.777,0.820,0.331,0.566,0.549
+gpt-4.1-mini,text_and_image,0.943,,0.900,1.000,0.854,0.891,0.480,0.771,0.574
+gpt-4.1-mini,text_only,0.946,,0.611,1.000,0.889,0.900,0.417,0.720,0.583
+Phi-4-multimodal-instruct,image_only,0.146,,0.594,0.434,0.366,0.354,0.123,0.223,0.331
+Phi-4-multimodal-instruct,text_and_image,0.214,,0.783,0.849,0.509,0.429,0.117,0.357,0.363
+Phi-4-multimodal-instruct,text_only,0.131,,0.757,0.917,0.337,0.446,0.037,0.394,0.117
 Qwen2.5-VL-3B-Instruct,image_only,0.166,0.663,0.734,0.643,0.303,0.177,0.046,0.160,0.071
 Qwen2.5-VL-3B-Instruct,text_and_image,0.340,0.663,0.789,0.834,0.289,0.257,0.054,0.320,0.049
 Qwen2.5-VL-3B-Instruct,text_only,0.309,0.666,0.780,0.874,0.231,0.197,0.094,0.320,0.051
@@ -8,4 +14,3 @@ Qwen2.5-VL-7B-Instruct,text_only,0.314,0.754,0.849,0.997,0.349,0.337,0.131,0.540
 llava-v1.6-mistral-7b-hf,image_only,,0.666,0.417,0.060,0.154,0.160,,0.089,0.229
 llava-v1.6-mistral-7b-hf,text_and_image,,0.663,0.451,0.934,0.397,0.329,,0.289,0.197
 llava-v1.6-mistral-7b-hf,text_only,,0.669,0.531,0.949,0.403,0.357,,0.300,0.057
-Phi-4-multimodal-instruct,text_and_image,0.214,,0.783,0.849,0.509,0.429,0.117,0.357,0.363
