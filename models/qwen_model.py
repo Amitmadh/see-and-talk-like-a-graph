@@ -216,15 +216,42 @@ class QwenVLModel(VLMModel):
             videos=video_inputs,
             padding=True,
             return_tensors="pt",
-        ).to(self.model.device)        
+        ).to(self.model.device)
 
-        # 4) generate (scores requested so we can compute a confidence proxy).
+        # 4) generate. Long incident_prose prompts on a 12GB card can OOM
+        # once; retry after emptying the cache, then skip the sample so the
+        # rest of the task can still be saved.
+        torch.cuda.empty_cache()
         with torch.no_grad():
-            generated = self.model.generate(
-                **proc_inputs,
-                max_new_tokens=self.max_new_tokens,
-                return_dict_in_generate=True,
-            )
+            try:
+                generated = self.model.generate(
+                    **proc_inputs,
+                    max_new_tokens=self.max_new_tokens,
+                    return_dict_in_generate=True,
+                )
+            except torch.cuda.OutOfMemoryError:
+                torch.cuda.empty_cache()
+                log("CUDA OOM; retrying generate after empty_cache")
+                try:
+                    generated = self.model.generate(
+                        **proc_inputs,
+                        max_new_tokens=self.max_new_tokens,
+                        return_dict_in_generate=True,
+                    )
+                except torch.cuda.OutOfMemoryError:
+                    ids = [item.get("sample_id") for item in inputs]
+                    log(f"CUDA OOM on retry; skipping batch {ids}")
+                    del proc_inputs
+                    torch.cuda.empty_cache()
+                    return [
+                        {
+                            "answer": "",
+                            "confidence": None,
+                            "status": "oom",
+                            "setting": setting,
+                        }
+                        for setting in settings
+                    ]
 
         # 5) trim each output by ITS OWN input length (robust to padding), decode.
         trimmed = [
