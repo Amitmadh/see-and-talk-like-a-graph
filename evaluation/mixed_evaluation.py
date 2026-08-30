@@ -1804,6 +1804,9 @@ def main():
             from evaluation.vis.plot_mixed import (
                 write_mixed_visualizations,
             )
+            from evaluation.plot_mixed_all_models import (
+                write_mixed_all_models_plot,
+            )
 
         except ImportError as exc:
             print(
@@ -1874,6 +1877,22 @@ def main():
                 f"Saved {len(all_vis_paths)} model-specific "
                 f"visualizations to {args.vis_dir}"
             )
+
+            all_models_path = write_mixed_all_models_plot(
+                rows,
+                output_path=(
+                    Path(args.vis_dir)
+                    / "all_models"
+                    / "by_task.png"
+                ),
+                image_type=args.image_type,
+            )
+
+            if all_models_path is not None:
+                print(
+                    "Saved all-models mixed-signals "
+                    f"plot to {all_models_path}"
+                )
 
     # ---------------------------------------------------------------
     # Console reports

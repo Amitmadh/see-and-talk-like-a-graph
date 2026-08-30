@@ -28,7 +28,13 @@ python -m evaluation.mixed_evaluation
 
 Defaults to `results/mixed_baseline`. Override with `--results-root` if needed.
 
-This writes scored and enriched JSON, CSV breakdowns, and per-task plots (by algorithm and by edge-count bin), plus an overall task comparison.
+This writes scored and enriched JSON, CSV breakdowns, and per-task plots (by algorithm and by edge-count bin), plus an overall task comparison. It also writes one grouped comparison of modality wins across all models to `evaluation/vis/all_models/by_task.png`.
+
+If the scored CSV already exists, regenerate only that comparison:
+
+```bash
+python -m evaluation.plot_mixed_all_models
+```
 
 Skip steps if you already have intermediate reports:
 
