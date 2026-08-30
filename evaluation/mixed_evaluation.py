@@ -1806,6 +1806,9 @@ def main():
             )
             from evaluation.plot_mixed_all_models import (
                 write_mixed_all_models_plot,
+                write_mixed_algorithm_models_plot,
+                write_mixed_algorithm_by_model_plot,
+                write_mixed_all_models_edges_plot,
             )
 
         except ImportError as exc:
@@ -1893,6 +1896,60 @@ def main():
                     "Saved all-models mixed-signals "
                     f"plot to {all_models_path}"
                 )
+
+            all_models_algorithm_path = write_mixed_algorithm_models_plot(
+                rows,
+                output_path=(
+                    Path(args.vis_dir)
+                    / "all_models"
+                    / "by_algorithm.png"
+                ),
+                image_type=args.image_type,
+            )
+
+            if all_models_algorithm_path is not None:
+                print(
+                    "Saved all-models algorithm "
+                    f"plot to {all_models_algorithm_path}"
+                )
+
+            all_models_by_model_path = write_mixed_algorithm_by_model_plot(
+                rows,
+                output_path=(
+                    Path(args.vis_dir)
+                    / "all_models"
+                    / "by_algorithm_model.png"
+                ),
+                image_type=args.image_type,
+            )
+
+            if all_models_by_model_path is not None:
+                print(
+                    "Saved per-model algorithm "
+                    f"plot to {all_models_by_model_path}"
+                )
+
+            for bin_size, filename in (
+                (10, "by_edges.png"),
+                (20, "by_edges_20.png"),
+            ):
+                all_models_edges_path = write_mixed_all_models_edges_plot(
+                    rows,
+                    output_path=(
+                        Path(args.vis_dir)
+                        / "all_models"
+                        / filename
+                    ),
+                    image_type=args.image_type,
+                    bin_size=bin_size,
+                )
+
+                if all_models_edges_path is not None:
+                    print(
+                        "Saved all-models "
+                        f"{bin_size}-edge-bin "
+                        f"plot to {all_models_edges_path}"
+                    )
 
     # ---------------------------------------------------------------
     # Console reports

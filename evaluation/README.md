@@ -28,12 +28,24 @@ python -m evaluation.mixed_evaluation
 
 Defaults to `results/mixed_baseline`. Override with `--results-root` if needed.
 
-This writes scored and enriched JSON, CSV breakdowns, and per-task plots (by algorithm and by edge-count bin), plus an overall task comparison. It also writes one grouped comparison of modality wins across all models to `evaluation/vis/all_models/by_task.png`.
+This writes scored and enriched JSON, CSV breakdowns, and per-task plots (by algorithm and by edge-count bin), plus an overall task comparison. It also writes all-model comparisons under `evaluation/vis/all_models/`: `by_task.png` (modality wins by task), `by_edges.png` (same stacks over 10-edge bins), `by_edges_20.png` (same stacks over 20-edge bins), `by_algorithm.png` (small multiples over SFN / Complete / Star / Path), and `by_algorithm_model.png` (one row per model, focused on edge existence, shortest path, edge count, node degree, and connected nodes).
 
-If the scored CSV already exists, regenerate only that comparison:
+If the scored CSV already exists, regenerate only those comparisons:
 
 ```bash
 python -m evaluation.plot_mixed_all_models
+```
+
+The algorithm and edge-count figures need sample-level graph metadata, so they read `evaluation/enrich_mixed_signals_results.json` by default. To rebuild only those figures:
+
+```bash
+python -m evaluation.plot_mixed_all_models --skip-task
+```
+
+To rebuild only the edge-count comparison:
+
+```bash
+python -m evaluation.plot_mixed_all_models --skip-task --skip-algorithm --skip-algorithm-model
 ```
 
 Skip steps if you already have intermediate reports:
