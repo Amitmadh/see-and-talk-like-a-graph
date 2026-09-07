@@ -48,6 +48,7 @@ from typing import Any, Iterator, Mapping, Sequence
 import networkx as nx
 import numpy as np
 
+from . import extra_text_encoders
 from . import graph_generators
 from . import graph_image_encoders
 from . import graph_tasks
@@ -428,27 +429,41 @@ def build_records(
   task_graphs = [graph.copy() for graph in graphs]
 
   # The tasks sample source/target nodes with the global `random` module.
+  # Extra encodings (matrix, incident, node_roster) share adjacency's node
+  # names, so examples are built with that base encoder and only the graph
+  # description is swapped afterwards.
   random.seed(random_seed)
   examples_dict = task.prepare_examples_dict(
-      task_graphs, list(generator_algorithms), encoding_method
+      task_graphs,
+      list(generator_algorithms),
+      extra_text_encoders.base_encoder(encoding_method),
   )
 
   for index in sorted(examples_dict.keys()):
     value = examples_dict[index]
     graph = value['graph']
-    text_encoding = _strip_question(
+    glued = _strip_question(
         value['question'], value['task_description']
     )
     # `graph_tasks` glues the graph encoding and any extra prompt context
     # together; recompute the encoding to recover the boundary between them.
-    graph_encoding = graph_text_encoders.encode_graph(graph, encoding_method)
-    if text_encoding.startswith(graph_encoding):
-      extra_context = text_encoding[len(graph_encoding) :]
+    graph_encoding = extra_text_encoders.encode_graph(graph, encoding_method)
+    base_encoding = graph_text_encoders.encode_graph(
+        graph, extra_text_encoders.base_encoder(encoding_method)
+    )
+    if encoding_method in extra_text_encoders.EXTRA_ENCODERS:
+      extra_context = (
+          glued[len(base_encoding) :]
+          if glued.startswith(base_encoding)
+          else ''
+      )
+    elif glued.startswith(graph_encoding):
+      extra_context = glued[len(graph_encoding) :]
     else:
       # Should not happen, but never lose prompt content if it does.
-      graph_encoding, extra_context = text_encoding, ''
+      graph_encoding, extra_context = glued, ''
 
-    name_dict = graph_text_encoders.get_tlag_node_encoder(
+    name_dict = extra_text_encoders.get_node_encoder(
         graph, encoding_method
     )
     labels = {node: str(name_dict[node]) for node in graph.nodes()}
@@ -457,8 +472,11 @@ def build_records(
     # part of the graph description, and the capacity list enumerates every
     # edge -- putting it in extra_context would hand the full topology as text
     # to the image-only setting, which drops the encoding but keeps the extra
-    # context. The image already draws the capacities.
-    if include_capacities:
+    # context. The image already draws the capacities. Skip when the encoder
+    # already writes weights (the matrix).
+    if include_capacities and not extra_text_encoders.carries_weights(
+        encoding_method
+    ):
       graph_encoding += capacity_context(graph, name_dict)
 
     # For node classification the prompt reveals some nodes' classes. Those

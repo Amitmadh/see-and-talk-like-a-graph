@@ -11,7 +11,7 @@ changes the *shape* of the textual evidence without changing its content --
 the edge list and the matrix are information-equivalent, so any accuracy
 difference is about format, not about what the model was told.
 
-Two properties are deliberate:
+Two properties of the matrix are deliberate:
 
 *   Rows and columns are labelled. Without headers the model has to infer which
     row belongs to which node by counting, and an off-by-one there is
@@ -21,13 +21,34 @@ Two properties are deliberate:
     natively, so unlike the edge-list encoders this one needs no separate
     sentence listing capacities.
 
+`incident` and `node_roster` are count-oriented: they put one record per node
+on its own line, including isolated nodes. Mixed-signals results with the
+matrix showed that burying a node list in a prose sentence ("among nodes 0, 1,
+...") is not enough to make node-count follow text -- the model still prefers
+the image. These two encodings make *counting records* the obvious action,
+without ever writing the gold count ("G has 17 nodes").
+
+The extra `incident` is not the released `incident_encoder`. The released one
+skips isolated nodes (it only emits "Node X is connected to ..." for nodes
+with neighbours) and still opens with the buried prose list. Ours lists every
+node as `id: neighbours` or `id: (none)`. `incident_prose` is that released
+encoder under a separate name, so mixed-signals can try the paper figure
+without overwriting the neighbourhood-list run.
+
+`dimacs` is a graph *file* format, not an English description. The first data
+line is `p edge n m` (node count, then edge count), then one `e u v` per edge.
+Isolates are counted in `n` but do not appear as `e` lines. That puts `|V|` in
+the text as a numeral -- the lever line-counting encodings did not have --
+without a sentence like "G has 17 nodes." Node ids stay 0-based so they match
+the image labels; classic DIMACS is often 1-based.
+
 Node names come from the same integer mapping `adjacency` uses, so a graph
 encoded this way is drawn identically and reuses the cached image.
 """
 
 from __future__ import annotations
 
-from typing import Any, Mapping
+from typing import Any, Callable, Mapping
 
 import networkx as nx
 
@@ -35,7 +56,14 @@ from . import graph_text_encoders
 
 
 # Encoders defined here rather than in `graph_text_encoders`.
-EXTRA_ENCODERS = ('adjacency_matrix',)
+# `incident` here overrides the released encoder when this module dispatches.
+EXTRA_ENCODERS = (
+    'adjacency_matrix',
+    'incident',
+    'incident_prose',
+    'node_roster',
+    'dimacs',
+)
 
 # Which released encoder each extra one borrows its node naming and its
 # question phrasing from. The tasks in `graph_tasks` call the released encoder
@@ -44,6 +72,10 @@ EXTRA_ENCODERS = ('adjacency_matrix',)
 # node names, and the gold answer depends on the graph rather than the text.
 BASE_ENCODER = {
     'adjacency_matrix': 'adjacency',
+    'incident': 'adjacency',
+    'incident_prose': 'adjacency',
+    'node_roster': 'adjacency',
+    'dimacs': 'adjacency',
 }
 
 
@@ -147,6 +179,106 @@ def adjacency_matrix_encoder(
   return '\n'.join(lines) + '\n'
 
 
+def incident_encoder(
+    graph: nx.Graph, name_dict: Mapping[Any, str]
+) -> str:
+  """One neighbourhood line per node, including isolates.
+
+  Isolated nodes are written as `id: (none)` so they still occupy a record
+  that can be counted. The released `incident_encoder` omits them.
+  """
+  direction = 'directed' if graph.is_directed() else 'undirected'
+  lines = [
+      'G is an %s graph.' % direction,
+      'Neighborhoods:',
+  ]
+  for node in sorted(graph.nodes()):
+    neighbours = sorted(graph.neighbors(node))
+    if neighbours:
+      neighbour_str = ', '.join(str(name_dict[n]) for n in neighbours)
+    else:
+      neighbour_str = '(none)'
+    lines.append('%s: %s' % (name_dict[node], neighbour_str))
+  return '\n'.join(lines) + '\n'
+
+
+def incident_prose_encoder(
+    graph: nx.Graph, name_dict: Mapping[Any, str]
+) -> str:
+  """The released Talk-Like-A-Graph incident encoder (English connected-to).
+
+  Isolated nodes get no line. Kept as a named extra so it does not overwrite
+  our `incident` neighbourhood-list files.
+  """
+  return graph_text_encoders.incident_encoder(graph, dict(name_dict))
+
+
+def node_roster_encoder(
+    graph: nx.Graph, name_dict: Mapping[Any, str]
+) -> str:
+  """A vertical node roster, then the edge list.
+
+  Never writes the node count in words. Isolated nodes still appear, each on
+  its own line, so counting nodes is counting lines under the roster heading.
+  """
+  direction = 'directed' if graph.is_directed() else 'undirected'
+  lines = [
+      'G is an %s graph.' % direction,
+      'The nodes of G are:',
+  ]
+  for node in sorted(graph.nodes()):
+    lines.append(str(name_dict[node]))
+
+  if graph.edges():
+    pairs = []
+    for source, target in graph.edges():
+      if not graph.is_directed() and source > target:
+        source, target = target, source
+      pairs.append((source, target))
+    pairs.sort()
+    edge_parts = [
+        '(%s, %s)' % (name_dict[u], name_dict[v]) for u, v in pairs
+    ]
+    lines.append('The edges of G are: ' + ', '.join(edge_parts) + '.')
+  else:
+    lines.append('The edges of G are: (none).')
+  return '\n'.join(lines) + '\n'
+
+
+def dimacs_encoder(
+    graph: nx.Graph, name_dict: Mapping[Any, str]
+) -> str:
+  """DIMACS `p edge n m` format, with 0-based ids matching the image.
+
+  Isolated nodes are included in `n` but have no `e` line. Does not write an
+  English node-count sentence; the problem line *is* the count.
+  """
+  n = graph.number_of_nodes()
+  pairs = []
+  for source, target in graph.edges():
+    if not graph.is_directed() and source > target:
+      source, target = target, source
+    pairs.append((source, target))
+  pairs.sort()
+  direction = 'directed' if graph.is_directed() else 'undirected'
+  lines = [
+      'c %s graph' % direction,
+      'p edge %d %d' % (n, len(pairs)),
+  ]
+  for source, target in pairs:
+    lines.append('e %s %s' % (name_dict[source], name_dict[target]))
+  return '\n'.join(lines) + '\n'
+
+
+_ENCODERS: dict[str, Callable[[nx.Graph, Mapping[Any, str]], str]] = {
+    'adjacency_matrix': adjacency_matrix_encoder,
+    'incident': incident_encoder,
+    'incident_prose': incident_prose_encoder,
+    'node_roster': node_roster_encoder,
+    'dimacs': dimacs_encoder,
+}
+
+
 def encode_graph(
     graph: nx.Graph,
     encoding_method: str,
@@ -166,7 +298,7 @@ def encode_graph(
     return graph_text_encoders.encode_graph(graph, encoding_method)
   if name_dict is None:
     name_dict = get_node_encoder(graph, encoding_method)
-  return adjacency_matrix_encoder(graph, name_dict)
+  return _ENCODERS[encoding_method](graph, name_dict)
 
 
 def get_node_encoder(graph: nx.Graph, encoding_method: str):
